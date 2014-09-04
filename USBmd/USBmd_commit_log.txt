@@ -1,0 +1,426 @@
+------------------------------------------------------------------------
+r66 | ka_shrinivaasan | 2014-08-04 19:59:12 +0530 (Mon, 04 Aug 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r65 | ka_shrinivaasan | 2014-07-29 18:11:00 +0530 (Tue, 29 Jul 2014) | 3 lines
+
+Updated USBmd_notes
+
+
+------------------------------------------------------------------------
+r64 | ka_shrinivaasan | 2014-07-29 18:08:41 +0530 (Tue, 29 Jul 2014) | 3 lines
+
+Updated 3.15.5 kernel build generated object files and symbols
+
+
+------------------------------------------------------------------------
+r63 | ka_shrinivaasan | 2014-07-29 18:07:44 +0530 (Tue, 29 Jul 2014) | 3 lines
+
+Driver build script for USB-md
+
+
+------------------------------------------------------------------------
+r62 | ka_shrinivaasan | 2014-07-25 22:30:55 +0530 (Fri, 25 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r61 | ka_shrinivaasan | 2014-07-24 22:39:56 +0530 (Thu, 24 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r60 | ka_shrinivaasan | 2014-07-11 19:07:25 +0530 (Fri, 11 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r59 | ka_shrinivaasan | 2014-06-29 14:52:59 +0530 (Sun, 29 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r58 | ka_shrinivaasan | 2014-06-29 13:43:46 +0530 (Sun, 29 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r57 | ka_shrinivaasan | 2014-06-17 21:09:15 +0530 (Tue, 17 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r56 | ka_shrinivaasan | 2014-05-05 12:21:32 +0530 (Mon, 05 May 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r55 | ka_shrinivaasan | 2014-04-30 21:25:57 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Removed old ProductOwnerProfile from repo
+
+
+------------------------------------------------------------------------
+r54 | ka_shrinivaasan | 2014-04-30 21:25:06 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r53 | ka_shrinivaasan | 2014-04-17 14:40:11 +0530 (Thu, 17 Apr 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r52 | ka_shrinivaasan | 2014-03-29 23:14:12 +0530 (Sat, 29 Mar 2014) | 3 lines
+
+Updated CV
+
+
+------------------------------------------------------------------------
+r51 | ka_shrinivaasan | 2014-03-24 21:28:39 +0530 (Mon, 24 Mar 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r50 | ka_shrinivaasan | 2014-03-23 11:23:59 +0530 (Sun, 23 Mar 2014) | 12 lines
+
+USBmd version 3.0 Release Notes
+-------------------------------
+USBmd version 3.0 has lot of bugfixes for umb_probe() and umb_disconnect() module functions that have been tested with Tata Photon+ USB modem.
+Test logs have been added to test_logs/. Code changes related VENDOR ID and PRODUCT ID have been made. USBmd_notes.txt has been updated for
+design notes and umb.ko installation instructions with unbind of option driver and bind of umb using following commandlinesi(for Bus id: 7):
+sudo insmod umb.ko
+echo -n "7-1:1.0" > /sys/bus/usb/drivers/option/unbind
+echo -n "7-1:1.0" > /sys/bus/usb/drivers/umb/bind
+
+Above are necessary as option driver has more precedence.
+
+
+------------------------------------------------------------------------
+r49 | ka_shrinivaasan | 2014-03-17 13:05:48 +0530 (Mon, 17 Mar 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r48 | ka_shrinivaasan | 2014-03-05 21:00:54 +0530 (Wed, 05 Mar 2014) | 3 lines
+
+Updated build generated sources and object files
+
+
+------------------------------------------------------------------------
+r47 | ka_shrinivaasan | 2014-03-05 20:59:41 +0530 (Wed, 05 Mar 2014) | 3 lines
+
+Kern.log for umb_disconnect() after commenting mutexing
+
+
+------------------------------------------------------------------------
+r46 | ka_shrinivaasan | 2014-03-05 20:58:09 +0530 (Wed, 05 Mar 2014) | 4 lines
+
+Commented mutex_lock and mutex_unlock due to a crash with in mutex_lock_slow_path. This is a known bug in a previous linux kernel version.
+After commenting,  umb_disconnect() works without crash. Test log for today has been added to repository
+
+
+------------------------------------------------------------------------
+r45 | ka_shrinivaasan | 2014-02-27 21:45:18 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+build generated sources and object files
+
+
+------------------------------------------------------------------------
+r44 | ka_shrinivaasan | 2014-02-27 21:43:48 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+kern.log for working umb_probe but with a crash during unplugging USB device at umb_disconnect()
+
+
+------------------------------------------------------------------------
+r43 | ka_shrinivaasan | 2014-02-27 21:25:21 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+kern.log with umb_probe crashes fixed
+
+
+------------------------------------------------------------------------
+r42 | ka_shrinivaasan | 2014-02-27 21:11:29 +0530 (Thu, 27 Feb 2014) | 7 lines
+
+- changed all kmallocs in umb_probe to kzalloc
+- uncommented name in umb class as _class_driver() in base/drivers/class.c crashes in pr_dbg()
+- changed all GFP_KERNEL allocations to GFP_ATOMIC allocations
+
+With this the umb_probe works without a crash
+
+
+------------------------------------------------------------------------
+r41 | ka_shrinivaasan | 2014-02-27 18:10:19 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+kern.log after kzalloc() in umb_probe() but with a different crash in printk inside kernel
+
+
+------------------------------------------------------------------------
+r40 | ka_shrinivaasan | 2014-02-27 17:59:40 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+kern.log with umb_probe() debug messages and devnode tmpfs crash
+
+
+------------------------------------------------------------------------
+r39 | ka_shrinivaasan | 2014-02-27 17:49:10 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+updated build generated files
+
+
+------------------------------------------------------------------------
+r38 | ka_shrinivaasan | 2014-02-27 17:47:25 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+kmalloc() changed to kzalloc() as a fix for devnode creation in tmpfs kernel crash
+
+
+------------------------------------------------------------------------
+r37 | ka_shrinivaasan | 2014-02-27 16:06:36 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+removed few files from repo
+
+
+------------------------------------------------------------------------
+r36 | ka_shrinivaasan | 2014-02-27 16:04:34 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+build generated sources and object files
+
+
+------------------------------------------------------------------------
+r35 | ka_shrinivaasan | 2014-02-27 15:59:39 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+umb_probe() test kern.logs with more debug outputs in umb_probe with kernel panic
+
+
+------------------------------------------------------------------------
+r34 | ka_shrinivaasan | 2014-02-27 15:38:49 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+added more printk(s) in umb_probe for debugging kernel panic
+
+
+------------------------------------------------------------------------
+r33 | ka_shrinivaasan | 2014-02-27 15:37:07 +0530 (Thu, 27 Feb 2014) | 3 lines
+
+updated for bind and unbind in userspace with sys usb fs
+
+
+------------------------------------------------------------------------
+r32 | ka_shrinivaasan | 2014-02-26 13:05:35 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+updated build generated .built-in.o.cmd
+
+
+------------------------------------------------------------------------
+r31 | ka_shrinivaasan | 2014-02-26 13:04:39 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+updated build generated sources and object files
+
+
+------------------------------------------------------------------------
+r30 | ka_shrinivaasan | 2014-02-26 13:03:32 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+build generated files
+
+
+------------------------------------------------------------------------
+r29 | ka_shrinivaasan | 2014-02-26 13:02:02 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+Some bugfixes for issue of umb_probe() not getting invoked
+after plugging the device
+
+------------------------------------------------------------------------
+r28 | ka_shrinivaasan | 2014-02-26 12:59:52 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+kern.log for umb_probe() test with a kernel panic, but probe which was not working earlier is working
+
+
+------------------------------------------------------------------------
+r27 | ka_shrinivaasan | 2014-02-26 12:51:26 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+Website reference for new USB driver addition
+
+
+------------------------------------------------------------------------
+r26 | ka_shrinivaasan | 2014-02-26 12:50:13 +0530 (Wed, 26 Feb 2014) | 3 lines
+
+updated UMB build instructions
+
+
+------------------------------------------------------------------------
+r25 | ka_shrinivaasan | 2014-02-25 16:41:40 +0530 (Tue, 25 Feb 2014) | 3 lines
+
+Build autogenerated source files and objects
+
+
+------------------------------------------------------------------------
+r24 | ka_shrinivaasan | 2014-02-25 16:40:26 +0530 (Tue, 25 Feb 2014) | 4 lines
+
+Updated usb-md module with more printk 
+and id(s)
+
+
+------------------------------------------------------------------------
+r23 | ka_shrinivaasan | 2014-02-24 16:24:24 +0530 (Mon, 24 Feb 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r22 | ka_shrinivaasan | 2014-02-08 12:50:57 +0530 (Sat, 08 Feb 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r21 | ka_shrinivaasan | 2014-01-19 14:34:03 +0530 (Sun, 19 Jan 2014) | 3 lines
+
+updated and rewritten profile
+
+
+------------------------------------------------------------------------
+r20 | ka_shrinivaasan | 2013-12-30 20:41:42 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated CV
+
+
+------------------------------------------------------------------------
+r19 | ka_shrinivaasan | 2013-12-06 12:19:03 +0530 (Fri, 06 Dec 2013) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r18 | ka_shrinivaasan | 2013-11-20 22:15:07 +0530 (Wed, 20 Nov 2013) | 3 lines
+
+Updated CV in ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r17 | ka_shrinivaasan | 2013-11-10 10:44:50 +0530 (Sun, 10 Nov 2013) | 3 lines
+
+Updated CV in ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r16 | ka_shrinivaasan | 2013-10-14 10:57:57 +0530 (Mon, 14 Oct 2013) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r15 | ka_shrinivaasan | 2013-09-30 11:24:14 +0530 (Mon, 30 Sep 2013) | 3 lines
+
+Updated ProductOwnerProfile for USBmd
+
+
+------------------------------------------------------------------------
+r14 | ka_shrinivaasan | 2013-09-21 19:00:41 +0530 (Sat, 21 Sep 2013) | 3 lines
+
+Updated USBmd design notes
+
+
+------------------------------------------------------------------------
+r13 | ka_shrinivaasan | 2013-09-21 18:43:44 +0530 (Sat, 21 Sep 2013) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r12 | ka_shrinivaasan | 2013-09-17 14:36:53 +0530 (Tue, 17 Sep 2013) | 3 lines
+
+USBmd design notes
+
+
+------------------------------------------------------------------------
+r11 | ka_shrinivaasan | 2013-09-14 11:30:12 +0530 (Sat, 14 Sep 2013) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r10 | ka_shrinivaasan | 2013-09-01 11:48:32 +0530 (Sun, 01 Sep 2013) | 4 lines
+
+For identity of issuer of GPL license for USBmd , I, Srinivasan Kannan (alias) Shrinivas Kannan (alias) Ka.Shrinivaasan, 
+ am hereby committing my Resume with photograph and details
+
+
+------------------------------------------------------------------------
+r9 | ka_shrinivaasan | 2013-08-27 15:00:25 +0530 (Tue, 27 Aug 2013) | 25 lines
+
+GNU General Public License v3.0 for the open source product USB-md ( experimental modified USB driver)
+
+This product is individually designed and developed since 2012 by the Developer Srinivasan Kannan (alias) Shrinivas Kannan (alias) Ka.Shrinivaasan
+(address and contact details below):
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Srinivasan Kannan,
+S/O.  P.R.ES.Kannan,
+172, Gandhi Adigal Salai,
+Kumbakonam-612001, TamilNadu, India.
+e-mail :        ka.shrinivaasan@gmail.com
+                shrinivas.kannan@gmail.com
+                kashrinivaasan@live.com
+Mobile :        9791165980, 9003082186
+Name spellings in
+employer/academic
+records :               Srinivasan Kannan (academics, BaaN,Sun
+                        Microsystems,Verizon),Shrinivas Kannan(webMethods and
+                        CMI), Ka.Shrinivaasan (Global Analytics)
+Personal website(research) :- https://sites.google.com/site/kuja27/
+Krishna iResearch Open Source: https://sourceforge.net/users/ka_shrinivaasan
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+------------------------------------------------------------------------
+r8 | ka_shrinivaasan | 2013-05-23 12:10:48 +0530 (Thu, 23 May 2013) | 4 lines
+
+First tagging of USB-md(experimentally modified USB device driver for linux) 
+Tagging USB-md Version 1.0
+
+
+------------------------------------------------------------------------
+r7 | ka_shrinivaasan | 2013-04-18 13:09:41 +0530 (Thu, 18 Apr 2013) | 3 lines
+
+USB-md module build instructions - shell commandline history
+
+
+------------------------------------------------------------------------
+r6 | ka_shrinivaasan | 2013-02-17 18:32:06 +0530 (Sun, 17 Feb 2013) | 2 lines
+
+Fix for Linux Kernel 3.7.8 build error
+
+------------------------------------------------------------------------
+r5 | ka_shrinivaasan | 2013-02-12 19:18:55 +0530 (Tue, 12 Feb 2013) | 1 line
+
+comment on devnode callback added
+------------------------------------------------------------------------
+r4 | ka_shrinivaasan | 2013-02-12 19:15:15 +0530 (Tue, 12 Feb 2013) | 1 line
+
+Makefile and source with build errors fixed and BKL removed along with changes for usb_buffer_coherent
+------------------------------------------------------------------------
+r3 | ka_shrinivaasan | 2013-02-12 17:25:21 +0530 (Tue, 12 Feb 2013) | 2 lines
+
+Some cleanup
+
+------------------------------------------------------------------------
+r2 | ka_shrinivaasan | 2013-02-10 14:14:38 +0530 (Sun, 10 Feb 2013) | 1 line
+
+First version with bulk_out_buffer added
+------------------------------------------------------------------------
+r1 | allura | 2013-02-10 11:11:38 +0530 (Sun, 10 Feb 2013) | 1 line
+
+Initial commit
+------------------------------------------------------------------------

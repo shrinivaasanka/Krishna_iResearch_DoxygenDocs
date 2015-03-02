@@ -1,1 +1,727 @@
 ------------------------------------------------------------------------
+r112 | ka_shrinivaasan | 2015-02-19 09:56:44 +0530 (Thu, 19 Feb 2015) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r111 | ka_shrinivaasan | 2015-02-07 10:51:36 +0530 (Sat, 07 Feb 2015) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r110 | ka_shrinivaasan | 2015-01-08 17:33:30 +0530 (Thu, 08 Jan 2015) | 3 lines
+
+King Cobra - version 15.1.8 - released
+
+
+------------------------------------------------------------------------
+r109 | ka_shrinivaasan | 2014-12-31 15:51:20 +0530 (Wed, 31 Dec 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r108 | ka_shrinivaasan | 2014-11-18 15:48:08 +0530 (Tue, 18 Nov 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r107 | ka_shrinivaasan | 2014-11-10 18:15:26 +0530 (Mon, 10 Nov 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r106 | ka_shrinivaasan | 2014-10-18 15:56:58 +0530 (Sat, 18 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r105 | ka_shrinivaasan | 2014-10-18 15:38:18 +0530 (Sat, 18 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r104 | ka_shrinivaasan | 2014-10-18 15:14:12 +0530 (Sat, 18 Oct 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r103 | ka_shrinivaasan | 2014-10-18 14:55:35 +0530 (Sat, 18 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r102 | ka_shrinivaasan | 2014-10-16 18:24:33 +0530 (Thu, 16 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r101 | ka_shrinivaasan | 2014-10-16 18:07:33 +0530 (Thu, 16 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r100 | ka_shrinivaasan | 2014-10-14 12:53:48 +0530 (Tue, 14 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r99 | ka_shrinivaasan | 2014-10-14 12:11:44 +0530 (Tue, 14 Oct 2014) | 3 lines
+
+Updated King Cobra design document
+
+
+------------------------------------------------------------------------
+r98 | ka_shrinivaasan | 2014-10-13 11:36:02 +0530 (Mon, 13 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r97 | ka_shrinivaasan | 2014-10-11 13:03:31 +0530 (Sat, 11 Oct 2014) | 3 lines
+
+Updated KingCobra Design Document
+
+
+------------------------------------------------------------------------
+r96 | ka_shrinivaasan | 2014-10-11 12:36:38 +0530 (Sat, 11 Oct 2014) | 3 lines
+
+Updated KingCobra Design Notes
+
+
+------------------------------------------------------------------------
+r95 | ka_shrinivaasan | 2014-10-11 12:23:58 +0530 (Sat, 11 Oct 2014) | 3 lines
+
+Updated KingCobra Design Document
+
+
+------------------------------------------------------------------------
+r94 | ka_shrinivaasan | 2014-10-11 12:01:56 +0530 (Sat, 11 Oct 2014) | 3 lines
+
+Updated KingCobra Design Document
+
+
+------------------------------------------------------------------------
+r93 | ka_shrinivaasan | 2014-10-11 10:59:22 +0530 (Sat, 11 Oct 2014) | 3 lines
+
+Updated KingCobra Design Notes
+
+
+------------------------------------------------------------------------
+r92 | ka_shrinivaasan | 2014-10-09 10:45:27 +0530 (Thu, 09 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r91 | ka_shrinivaasan | 2014-10-09 10:22:29 +0530 (Thu, 09 Oct 2014) | 3 lines
+
+Updated King Cobra Design Document
+
+
+------------------------------------------------------------------------
+r90 | ka_shrinivaasan | 2014-10-09 10:11:11 +0530 (Thu, 09 Oct 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r89 | ka_shrinivaasan | 2014-10-04 19:47:09 +0530 (Sat, 04 Oct 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r88 | ka_shrinivaasan | 2014-09-09 23:15:50 +0530 (Tue, 09 Sep 2014) | 11 lines
+
+Release notes for KingCobra version 14.9.9 tag:
+----------------------------------------------
+	- KingCobra driver has been ported to 3.15.5 kernel
+	- Release naming convention changed to <last2digitsofyear>.<month>.<day>
+	- Bugs after porting to 3.15.5 kernel have been fixed - specifically in disk persistence causing quite a few crashes which turned out to be permissions issue with filp_open()
+	- Now KingCobra receives the requests from VIRGO queue standalone kernel service also in addition to 
+cpupooling and memorypooling drivers (3 paths available)
+	- Design notes have been updated for an experimental Electronic Money protocol which can be implemented using cloudwide kref counts.
+
+
+
+------------------------------------------------------------------------
+r87 | ka_shrinivaasan | 2014-09-04 13:52:56 +0530 (Thu, 04 Sep 2014) | 3 lines
+
+kern.log for KingCobra telnet test 2
+
+
+------------------------------------------------------------------------
+r86 | ka_shrinivaasan | 2014-09-04 13:51:03 +0530 (Thu, 04 Sep 2014) | 3 lines
+
+kern.log for KingCobra telnet test 1
+
+
+------------------------------------------------------------------------
+r85 | ka_shrinivaasan | 2014-09-04 13:39:54 +0530 (Thu, 04 Sep 2014) | 3 lines
+
+KingCobra Telnet Path test screenshot 2
+
+
+------------------------------------------------------------------------
+r84 | ka_shrinivaasan | 2014-09-04 13:38:20 +0530 (Thu, 04 Sep 2014) | 3 lines
+
+KingCobra Telnet path test screenshot 1
+
+
+------------------------------------------------------------------------
+r83 | ka_shrinivaasan | 2014-09-04 13:36:16 +0530 (Thu, 04 Sep 2014) | 3 lines
+
+REQUEST_REPLY.queue - disk persisted KingCobra requests file for 3.15.5 kernel ported driver
+
+
+------------------------------------------------------------------------
+r82 | ka_shrinivaasan | 2014-08-26 15:40:55 +0530 (Tue, 26 Aug 2014) | 3 lines
+
+KingCobra Telnet path test to VIRGO Queue Kernel Service at port 60000
+
+
+------------------------------------------------------------------------
+r81 | ka_shrinivaasan | 2014-08-26 15:07:41 +0530 (Tue, 26 Aug 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r80 | ka_shrinivaasan | 2014-08-26 14:57:06 +0530 (Tue, 26 Aug 2014) | 13 lines
+
+----------------------------------------------------------------
+Updated KingCobra kernel module for 3.15.5
+----------------------------------------------------------------
+- added more debug printk(s)
+- added set_fs() pairs for each function invocation
+- reply_to_publisher port has been set to 60000
+- filp_open() has been modified to create disk file at /tmp/REQUEST_REPLY.queue
+- due to NULL request received at parse_timestamp() buf is passed as argument and parse_ipaddr() has 
+argument as args. Despite kstrdup() something corrupts the kheap
+- Today's kern.log with working VIRGO standalone kernelservice driver that listens at 60000 and receives
+telnet requests alongwith KingCobra servicerequest execution has been added to repository
+
+
+------------------------------------------------------------------------
+r79 | ka_shrinivaasan | 2014-08-24 20:42:24 +0530 (Sun, 24 Aug 2014) | 4 lines
+
+Updated KingCobra source and latest binaries to debug the kernel_recvmsg() kernel panic (added some more
+if clauses for NULL args)
+
+
+------------------------------------------------------------------------
+r78 | ka_shrinivaasan | 2014-08-24 07:53:30 +0530 (Sun, 24 Aug 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r77 | ka_shrinivaasan | 2014-08-07 12:59:37 +0530 (Thu, 07 Aug 2014) | 3 lines
+
+Latest KingCobra build for 3.15.5 kernel 
+
+
+------------------------------------------------------------------------
+r76 | ka_shrinivaasan | 2014-08-07 12:56:42 +0530 (Thu, 07 Aug 2014) | 3 lines
+
+Updated testlogs (erroneously removed from SVN)
+
+
+------------------------------------------------------------------------
+r75 | ka_shrinivaasan | 2014-08-04 20:09:09 +0530 (Mon, 04 Aug 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r74 | ka_shrinivaasan | 2014-07-25 22:32:34 +0530 (Fri, 25 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r73 | ka_shrinivaasan | 2014-07-24 22:42:18 +0530 (Thu, 24 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r72 | ka_shrinivaasan | 2014-07-11 19:09:41 +0530 (Fri, 11 Jul 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r71 | ka_shrinivaasan | 2014-06-29 14:54:29 +0530 (Sun, 29 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r70 | ka_shrinivaasan | 2014-06-29 13:46:50 +0530 (Sun, 29 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r69 | ka_shrinivaasan | 2014-06-17 21:11:52 +0530 (Tue, 17 Jun 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r68 | ka_shrinivaasan | 2014-06-11 11:51:11 +0530 (Wed, 11 Jun 2014) | 3 lines
+
+Updated KingCobra Design Doc for value() function in MAC Electronic Money protocol
+
+
+------------------------------------------------------------------------
+r67 | ka_shrinivaasan | 2014-05-24 13:00:39 +0530 (Sat, 24 May 2014) | 3 lines
+
+Updated KingCobra Design Doc for MAC protocol transaction semantics theory
+
+
+------------------------------------------------------------------------
+r66 | ka_shrinivaasan | 2014-05-11 11:19:33 +0530 (Sun, 11 May 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r65 | ka_shrinivaasan | 2014-05-05 12:23:10 +0530 (Mon, 05 May 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r64 | ka_shrinivaasan | 2014-05-01 11:54:22 +0530 (Thu, 01 May 2014) | 3 lines
+
+Updated KingCobra Design Doc for value() function recursion
+
+
+------------------------------------------------------------------------
+r63 | ka_shrinivaasan | 2014-04-30 21:30:14 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Removed old ProductOwnerProfile from repo
+
+
+------------------------------------------------------------------------
+r62 | ka_shrinivaasan | 2014-04-30 21:29:24 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r61 | ka_shrinivaasan | 2014-04-30 21:04:19 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r60 | ka_shrinivaasan | 2014-04-30 16:27:25 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc for MAC protocol schematic
+
+
+------------------------------------------------------------------------
+r59 | ka_shrinivaasan | 2014-04-30 11:42:45 +0530 (Wed, 30 Apr 2014) | 4 lines
+
+
+Updated KingCobra Design Notes for MAC and BFT
+
+
+------------------------------------------------------------------------
+r58 | ka_shrinivaasan | 2014-04-30 11:39:34 +0530 (Wed, 30 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc for MAC electronic money protocol
+
+
+------------------------------------------------------------------------
+r57 | ka_shrinivaasan | 2014-04-29 22:27:16 +0530 (Tue, 29 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r56 | ka_shrinivaasan | 2014-04-29 22:19:52 +0530 (Tue, 29 Apr 2014) | 3 lines
+
+Updated KingCobra Design notes for electronic money MAC protocol
+
+
+------------------------------------------------------------------------
+r55 | ka_shrinivaasan | 2014-04-29 22:03:43 +0530 (Tue, 29 Apr 2014) | 3 lines
+
+Updated build generated KingCobra driver sources and kernel object files
+
+
+------------------------------------------------------------------------
+r54 | ka_shrinivaasan | 2014-04-29 22:02:21 +0530 (Tue, 29 Apr 2014) | 4 lines
+
+kern.log for Disk Persistence test of KingCobra requests through telnet path. For some reason the telnet client itself was
+crashing in kernel, but the request was persisted in disk file (for message "KingCobraRequest3")
+
+
+------------------------------------------------------------------------
+r53 | ka_shrinivaasan | 2014-04-29 21:57:28 +0530 (Tue, 29 Apr 2014) | 4 lines
+
+Disk Persisted KingCobra Queue with both REQUEST and REPLY incoming messages which has the 
+hardcoded path /var/log/kingcobra/REQUEST_REPLY.queue
+
+
+------------------------------------------------------------------------
+r52 | ka_shrinivaasan | 2014-04-29 21:53:46 +0530 (Tue, 29 Apr 2014) | 3 lines
+
+Updated build generated Module.symvers
+
+
+------------------------------------------------------------------------
+r51 | ka_shrinivaasan | 2014-04-29 21:52:27 +0530 (Tue, 29 Apr 2014) | 8 lines
+
+Added if clauses for kingcobra_disk_persistence boolean flag to open the Disk persisted Queue file (hardcoded as
+REQUEST_REPLY.queue in /var/log/kingcobra) in write and append mode and to do VFS writes of the incoming requests
+to the file with vfs_write(). With this all requests (both REQUEST and REPLY types) will be persisted to the disk in
+the recepient cloud node with in same flat file instead of two files as described in schematic diagram in
+ http://sourceforge.net/p/acadpdrafts/code/ci/master/tree/Krishna_iResearch_opensourceproducts_archdiagram.pdf which is a better
+alternative. But having both replies and requests in same file gives some chronological ordering.
+
+
+------------------------------------------------------------------------
+r50 | ka_shrinivaasan | 2014-04-28 22:07:47 +0530 (Mon, 28 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r49 | ka_shrinivaasan | 2014-04-28 22:03:50 +0530 (Mon, 28 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r48 | ka_shrinivaasan | 2014-04-28 21:58:24 +0530 (Mon, 28 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc for MESSAGE-AS-CURRENCY protocol (experimental)
+
+
+------------------------------------------------------------------------
+r47 | ka_shrinivaasan | 2014-04-17 14:43:12 +0530 (Thu, 17 Apr 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r46 | ka_shrinivaasan | 2014-04-07 17:48:54 +0530 (Mon, 07 Apr 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r45 | ka_shrinivaasan | 2014-04-07 17:43:23 +0530 (Mon, 07 Apr 2014) | 3 lines
+
+Updated build generated sources, .cmd files and kernel object files
+
+
+------------------------------------------------------------------------
+r44 | ka_shrinivaasan | 2014-04-07 17:39:19 +0530 (Mon, 07 Apr 2014) | 3 lines
+
+kern.log for KingCobra request-response test with newly added timestamps functionality
+
+
+------------------------------------------------------------------------
+r43 | ka_shrinivaasan | 2014-04-07 17:35:44 +0530 (Mon, 07 Apr 2014) | 9 lines
+
+new function parse_timestamp() has been added to parse the request from VIRGO queue workqueue handler and 
+prepend it to the reply header sent to the publisher client ip.
+
+printk()s have been modified.
+
+parse_timestamp() is invoked by kingcobr_servicerequest_kernelspace()
+
+
+
+------------------------------------------------------------------------
+r42 | ka_shrinivaasan | 2014-04-06 19:14:00 +0530 (Sun, 06 Apr 2014) | 3 lines
+
+Updated Copyright notice header
+
+
+------------------------------------------------------------------------
+r41 | ka_shrinivaasan | 2014-04-06 19:11:47 +0530 (Sun, 06 Apr 2014) | 3 lines
+
+Updated KingCobra Design Doc for EventNet
+
+
+------------------------------------------------------------------------
+r40 | ka_shrinivaasan | 2014-04-06 19:08:36 +0530 (Sun, 06 Apr 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r39 | ka_shrinivaasan | 2014-04-06 18:59:56 +0530 (Sun, 06 Apr 2014) | 3 lines
+
+Updated build generated KingCobra kernelspace driver sources and kernel objects
+
+
+------------------------------------------------------------------------
+r38 | ka_shrinivaasan | 2014-04-06 18:58:29 +0530 (Sun, 06 Apr 2014) | 4 lines
+
+kern.log for KingCobra Request-Response end2end test via VIRGO mempool multithreaded service with 
+format related changes in REQUEST and REPLY message headers
+
+
+------------------------------------------------------------------------
+r37 | ka_shrinivaasan | 2014-04-06 18:55:44 +0530 (Sun, 06 Apr 2014) | 5 lines
+
+Added more strsep() for tokenizing the incoming request format as "REQUEST#<ip_address>#<message>" implemented
+as in KingCobra design doc. Also changed the sprintf() to send the response in format "REPLY#<ip_address>#<message>"
+More printk()s added in parse_ip_address()
+
+
+------------------------------------------------------------------------
+r36 | ka_shrinivaasan | 2014-04-06 18:52:13 +0530 (Sun, 06 Apr 2014) | 3 lines
+
+Makefile script for KingCobra driver standalone build
+
+
+------------------------------------------------------------------------
+r35 | ka_shrinivaasan | 2014-03-30 22:25:43 +0530 (Sun, 30 Mar 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r34 | ka_shrinivaasan | 2014-03-30 13:54:16 +0530 (Sun, 30 Mar 2014) | 4 lines
+
+kern.log for KingCobra Request-Response Test with VIRGO mempool driver as frontend service that queues the incoming request
+in VIRGO queue which in turn is serviced by KingCobra
+
+
+------------------------------------------------------------------------
+r33 | ka_shrinivaasan | 2014-03-29 23:19:03 +0530 (Sat, 29 Mar 2014) | 3 lines
+
+Updated CV
+
+
+------------------------------------------------------------------------
+r32 | ka_shrinivaasan | 2014-03-29 23:00:27 +0530 (Sat, 29 Mar 2014) | 3 lines
+
+kern.log for KingCobra Request-Response test 
+
+
+------------------------------------------------------------------------
+r31 | ka_shrinivaasan | 2014-03-29 22:47:30 +0530 (Sat, 29 Mar 2014) | 3 lines
+
+Updated KingCobra design notes
+
+
+------------------------------------------------------------------------
+r30 | ka_shrinivaasan | 2014-03-29 22:43:08 +0530 (Sat, 29 Mar 2014) | 3 lines
+
+Updated build generated sources and kernel object files
+
+
+------------------------------------------------------------------------
+r29 | ka_shrinivaasan | 2014-03-29 22:42:04 +0530 (Sat, 29 Mar 2014) | 8 lines
+
+Initial implementation for KingCobra Request-Response p2p queueing mechanism described in design notes with implementation of 2 new
+functions:
+- parse_ip_address() which extracts the prepended remote client ip address 
+- reply_to_publisher() which connects to the remote client ip parsed above and sends the message that gets queued in the remote client (and service too)
+
+Thus a decentralized peer-to-peer message queuing is created which might have to be persisted locally in the corresponding VIRGO cloud nodes
+
+
+------------------------------------------------------------------------
+r28 | ka_shrinivaasan | 2014-03-25 11:39:10 +0530 (Tue, 25 Mar 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r27 | ka_shrinivaasan | 2014-03-24 21:26:15 +0530 (Mon, 24 Mar 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r26 | ka_shrinivaasan | 2014-03-24 20:21:32 +0530 (Mon, 24 Mar 2014) | 3 lines
+
+Updated KingCobra design doc for queue persistence options
+
+
+------------------------------------------------------------------------
+r25 | ka_shrinivaasan | 2014-03-24 20:09:06 +0530 (Mon, 24 Mar 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r24 | ka_shrinivaasan | 2014-03-24 20:01:08 +0530 (Mon, 24 Mar 2014) | 3 lines
+
+Updated KingCobra design notes - for design options for request-response design in kernelspace messaging
+
+
+------------------------------------------------------------------------
+r23 | ka_shrinivaasan | 2014-03-23 11:14:36 +0530 (Sun, 23 Mar 2014) | 12 lines
+
+KingCobra version 1.0 release notes:
+------------------------------------
+java-src/ - has a JMS implementation of publisher-listener based on Apache ActiveMQ
+c-src/ - has a kernel space KingCobra driver that implements a Service Request functionality for incoming request from VIRGO queue which could be
+a Linux workqueue. The VIRGO linux workqueue in turn receives the request from a remote syscall or telnet path client to VIRGO cpupooling driver
+which optionally invokes push_request() on VIRGO queue workqueue driver which is handled by a workqueue handler. The workqueue handler then
+redirects the queued request to KingCobra driver. (VIRGO clients=>VIRGO cpupooling=>VIRGO Linux workqueue=>KingCobra kernelspace driver)
+
+Thus KingCobra 1.0 implements a minimalistic linux workqueue based messaging framework in Linux kernel which widens the scope of conventional
+messaging servers to hardware connected to a cloud in addition to usual software.
+
+
+------------------------------------------------------------------------
+r22 | ka_shrinivaasan | 2014-03-22 18:09:28 +0530 (Sat, 22 Mar 2014) | 3 lines
+
+Updated KingCobra Design Doc for minimal kernelspace messaging implementation and testing
+
+
+------------------------------------------------------------------------
+r21 | ka_shrinivaasan | 2014-03-20 14:20:44 +0530 (Thu, 20 Mar 2014) | 3 lines
+
+build generated symvers and order file KingCobra driver
+
+
+------------------------------------------------------------------------
+r20 | ka_shrinivaasan | 2014-03-20 14:19:36 +0530 (Thu, 20 Mar 2014) | 3 lines
+
+Separate Makefile (split from VIRGO queue driver) for KingCobra kernel module
+
+
+------------------------------------------------------------------------
+r19 | ka_shrinivaasan | 2014-03-17 13:08:16 +0530 (Mon, 17 Mar 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r18 | ka_shrinivaasan | 2014-03-17 12:59:05 +0530 (Mon, 17 Mar 2014) | 3 lines
+
+Updated KingCobra design doc
+
+
+------------------------------------------------------------------------
+r17 | ka_shrinivaasan | 2014-03-17 12:53:20 +0530 (Mon, 17 Mar 2014) | 4 lines
+
+KingCobra kernelspace driver that is invoked from VIRGO workqueue handler on popping
+a workstruct from VIRGO linux workqueue.
+
+
+------------------------------------------------------------------------
+r16 | ka_shrinivaasan | 2014-03-16 19:09:10 +0530 (Sun, 16 Mar 2014) | 3 lines
+
+Initial implementation for KingCobra entrypoint and commands which will be invoked by the VIRGO linux workqueue handler
+
+
+------------------------------------------------------------------------
+r15 | ka_shrinivaasan | 2014-03-01 15:18:54 +0530 (Sat, 01 Mar 2014) | 3 lines
+
+Updated KingCobra design notes
+
+
+------------------------------------------------------------------------
+r14 | ka_shrinivaasan | 2014-03-01 14:54:30 +0530 (Sat, 01 Mar 2014) | 3 lines
+
+Updated KingCobra Design notes
+
+
+------------------------------------------------------------------------
+r13 | ka_shrinivaasan | 2014-03-01 14:45:31 +0530 (Sat, 01 Mar 2014) | 5 lines
+
+Apache ActiveMQ Publisher and Listeners modified for KingCobra Queue instance with pubsub start shell scripts and test logs
+for simple message publishing and listening in java. AMQ has C++ and Python clients also. 
+These have to be modified as per the KingCobra Design notes. 
+
+
+------------------------------------------------------------------------
+r12 | ka_shrinivaasan | 2014-02-24 16:22:26 +0530 (Mon, 24 Feb 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r11 | ka_shrinivaasan | 2014-02-24 16:19:39 +0530 (Mon, 24 Feb 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r10 | ka_shrinivaasan | 2014-02-08 12:54:06 +0530 (Sat, 08 Feb 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r9 | ka_shrinivaasan | 2014-01-19 14:36:04 +0530 (Sun, 19 Jan 2014) | 3 lines
+
+Updated and rewritten profile
+
+
+------------------------------------------------------------------------
+r8 | ka_shrinivaasan | 2014-01-01 12:49:48 +0530 (Wed, 01 Jan 2014) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r7 | ka_shrinivaasan | 2014-01-01 12:37:54 +0530 (Wed, 01 Jan 2014) | 3 lines
+
+Updated KingCobra Design Doc with references for BFT on cloud
+
+
+------------------------------------------------------------------------
+r6 | ka_shrinivaasan | 2013-12-30 20:39:32 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated CV
+
+
+------------------------------------------------------------------------
+r5 | ka_shrinivaasan | 2013-12-30 15:01:24 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated KingCobra Design Doc
+
+
+------------------------------------------------------------------------
+r4 | ka_shrinivaasan | 2013-12-30 14:59:19 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated KingCobra Design Doc for BFT
+
+
+------------------------------------------------------------------------
+r3 | ka_shrinivaasan | 2013-12-30 14:00:19 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated KingCobra Doc with COBRA details
+
+
+------------------------------------------------------------------------
+r2 | ka_shrinivaasan | 2013-12-30 13:52:12 +0530 (Mon, 30 Dec 2013) | 3 lines
+
+Updated KingCobra Design Doc with CAP theorem
+
+
+------------------------------------------------------------------------
+r1 | ka_shrinivaasan | 2013-12-24 18:52:16 +0530 (Tue, 24 Dec 2013) | 3 lines
+
+Initial Design Notes
+
+
+------------------------------------------------------------------------

@@ -1,4 +1,86 @@
 ------------------------------------------------------------------------
+r79 | ka_shrinivaasan | 2015-02-19 09:55:03 +0530 (Thu, 19 Feb 2015) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r78 | ka_shrinivaasan | 2015-02-07 10:49:04 +0530 (Sat, 07 Feb 2015) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r77 | ka_shrinivaasan | 2015-02-06 17:08:39 +0530 (Fri, 06 Feb 2015) | 3 lines
+
+tcpdump packet capture file for /dev/usbmon[1-8] device
+
+
+------------------------------------------------------------------------
+r76 | ka_shrinivaasan | 2015-02-06 17:06:01 +0530 (Fri, 06 Feb 2015) | 4 lines
+
+- Updated USBmd build with more printk()s
+- Updated USBmd_notes.txt with other standard kernel profiling tools - usbmon, debugfs
+
+
+------------------------------------------------------------------------
+r75 | ka_shrinivaasan | 2015-01-08 17:17:49 +0530 (Thu, 08 Jan 2015) | 3 lines
+
+USBmd - version 15.1.8 - released
+
+
+------------------------------------------------------------------------
+r74 | ka_shrinivaasan | 2014-12-31 15:50:20 +0530 (Wed, 31 Dec 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r73 | ka_shrinivaasan | 2014-11-18 15:35:25 +0530 (Tue, 18 Nov 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r72 | ka_shrinivaasan | 2014-11-10 18:13:34 +0530 (Mon, 10 Nov 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r71 | ka_shrinivaasan | 2014-10-18 15:12:13 +0530 (Sat, 18 Oct 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r70 | ka_shrinivaasan | 2014-10-15 14:22:16 +0530 (Wed, 15 Oct 2014) | 3 lines
+
+Updated USBmd Desing Document
+
+
+------------------------------------------------------------------------
+r69 | ka_shrinivaasan | 2014-10-04 19:44:59 +0530 (Sat, 04 Oct 2014) | 3 lines
+
+Updated ProductOwnerProfile
+
+
+------------------------------------------------------------------------
+r68 | ka_shrinivaasan | 2014-09-09 22:52:33 +0530 (Tue, 09 Sep 2014) | 6 lines
+
+Release notes for USBmd_version_14.9.9_tag:
+	- USBmd driver has been ported to 3.15.5 kernel
+	- Updated build script
+	- Release naming convention changed to <last2digitsofyear>.<month>.<day>
+
+
+------------------------------------------------------------------------
+r67 | ka_shrinivaasan | 2014-08-07 13:58:55 +0530 (Thu, 07 Aug 2014) | 3 lines
+
+Updated USB-md binaries for linux kernel 3.15.5 build with kernel objects and some logs in February which were having some truncated output earlier
+
+
+------------------------------------------------------------------------
 r66 | ka_shrinivaasan | 2014-08-04 19:59:12 +0530 (Mon, 04 Aug 2014) | 3 lines
 
 Updated ProductOwnerProfile

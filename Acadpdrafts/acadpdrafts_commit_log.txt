@@ -1,3 +1,9 @@
+commit 3e73edc6b930a91a99a324943ac7ce17cbff9a90
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Fri Sep 26 13:33:11 2014 +0530
+
+    Added --partial flag (-P) to rsync commandline for download resume
+
 commit 32d73c0d307809f445c717ed0f38e89204d62b2c
 Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
 Date:   Mon Jun 23 07:29:13 2014 +0530

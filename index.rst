@@ -40,3 +40,17 @@ VIRGO64 Linux - https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virg
 
 KingCobra Kernelspace Messaging - https://sourceforge.net/p/kcobra/code-svn/HEAD/tree/KingCobraDesignNotes.txt
 
+
+FAQ
+---
+1. Why is a new Linux kernel required for cloud? There are Cloud operating systems already.
+
+Because, most commercial cloud operating systems are deployment oriented and cloud functionality is in application layer outside kernel. User has to write the boilerplate application layer RPC code. NeuronRain VIRGO provides system calls and kernel modules which obfuscate and encapsulate the RPC code and inherent analytics ability within linux kernel itself. Mostly available linux distributions do not have kernel level support for cloud and analytics a void not compensated by even Cloud operating systems like openstack.
+
+2. How does machine learning and analytics help in kernel?
+
+A lot. NeuronRain analytics can learn key-value pairs which can be read by kernel_analytics kernel module dynamically. Kernel thus is receptive to application layer a feature hitherto unavailable. Earlier OS drove applications - this is reversed by making applications drive kernel behaviour.
+
+3. Who can deploy NeuronRain?
+
+Anyone interested in dynamic analytics driven kernel.

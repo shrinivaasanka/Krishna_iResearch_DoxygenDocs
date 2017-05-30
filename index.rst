@@ -1,4 +1,4 @@
-NeuronRain is a new linux kernel fork-off from mainline kernel (presently overlayed on kernel 4.1.5) augmented with Machine Learning, Analytics, New system call primitives and Kernel Modules for cloud RPC, Memory and Filesystem. It differs from usual CloudOSes like OpenStack, VMs and containers in following ways:
+NeuronRain is a new linux kernel fork-off from mainline kernel (presently overlayed on kernel 4.1.5 32bit and kernel 4.10.3 64bit) augmented with Machine Learning, Analytics, New system call primitives and Kernel Modules for cloud RPC, Memory and Filesystem. It differs from usual CloudOSes like OpenStack, VMs and containers in following ways:
     (*) Mostly available CloudOSes are application layer deployment/provisioning (YAML etc.,) focussed while NeuronRain is not about deploying applications but to bring the cloud functionality into Linux kernel itself. 
     (*) There are application layer memcache softwares available for bigdata processing.
     (*) There have been some opensource projects for linux kernel on GitHub to provide memcache functionality for kernelspace memory.
@@ -53,7 +53,7 @@ A lot. NeuronRain analytics can learn key-value pairs which can be read by kerne
 
 3. Who can deploy NeuronRain?
 
-Anyone interested in dynamic analytics driven kernel. For example, realtime IoT kernels operating on smart devices, driverless vehicles, embedded systems etc.,.
+Anyone interested in dynamic analytics driven kernel. For example, realtime IoT kernels operating on smart devices, driverless vehicles, robots, drones, embedded systems etc.,.
 
 4. Is NeuronRain production deployment ready?
 

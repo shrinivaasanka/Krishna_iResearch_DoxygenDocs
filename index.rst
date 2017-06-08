@@ -43,22 +43,26 @@ KingCobra Kernelspace Messaging - https://sourceforge.net/p/kcobra/code-svn/HEAD
 
 FAQ
 ---
-1. Why is a new Linux kernel required for cloud? There are Cloud operating systems already.
+(*) Why is a new Linux kernel required for cloud? There are Cloud operating systems already.
 
 Because, most commercial cloud operating systems are deployment oriented and cloud functionality is in application layer outside kernel. User has to write the boilerplate application layer RPC code. NeuronRain VIRGO provides system calls and kernel modules which obfuscate and encapsulate the RPC code and inherent analytics ability within linux kernel itself. For example, virgo_clone() , virgo_malloc(), virgo_open() system calls transparently converse with remote cloud nodes with no user knowledge, configured in virgo conf files - this feature is unique in NeuronRain. Application developer (Python/C/C++) has to just invoke the system call from userspace to embark on cloud. This is not possible in present linux distros. Linux and unix system calls do not mostly use kernel sockets in system call kernelspace code and do not have kernel level support for cloud and analytics a void not compensated by even Cloud operating systems like openstack.
 
-2. How does machine learning and analytics help in kernel?
+(*) How does machine learning and analytics help in kernel?
 
 A lot. NeuronRain analytics can learn key-value pairs which can be read by kernel_analytics kernel module dynamically. Kernel thus is receptive to application layer a feature hitherto unavailable. Earlier OS drove applications - this is reversed by making applications drive kernel behaviour. 
 
-3. Who can deploy NeuronRain?
+(*) Who can deploy NeuronRain?
 
 Anyone interested in dynamic analytics driven kernel. For example, realtime IoT kernels operating on smart devices, driverless vehicles, embedded systems etc.,.
 
-4. Is NeuronRain production deployment ready?
+(*) Is NeuronRain production deployment ready?
 
 Not yet really. Presently complete GitHub and SourceForge repositories for NeuronRain are managed (committed, designed and quality assured) by a single person without any funding (K.Srinivasan - http://sites.google.com/site/kuja27) with no team or commercial entity involved in it. This requires considerable time and effort to write a bug-free code. Though functionalities are tested sufficiently there could be untested code paths. Automated unit testing framework has not been integrated yet.
 
-5. Can NeuronRain be deployed on Mobile processors?
+(*) Can NeuronRain be deployed on Mobile processors?
 
 Presently mobile OSes are not supported. But that should not be difficult. Similar to Android which is a linux variant, NeuronRain can be cross-compiled for a mobile architecture.
+
+(*) Are there any realworld usecases for applicability of machine learning in linux kernel?
+
+Yes. Some usecases are described in  https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf. Apart from these, Pagefault data and on-demand paging reference pattern for each application can be analyzed for unusual behaviour and malware infection. Malware have abnormal address reference patterns than usual applications.

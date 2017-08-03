@@ -24,7 +24,7 @@ USBmd - Wireless data traffic and USB analytics - analyzes internet traffic and 
 
 VIRGO Linux Kernel - Linux kernel fork-off based on 4.1.5 (32 bit) and 4.10.3 (64 bit) which has new system calls and drivers which abstract cloud RPC, kernel memcache and filesystem. These system calls can be invoked by user applications (e.g. Python). Simply put VIRGO is a kernelspace cloud while present cloud OSes concentrate on userspace applications. Applications on VIRGO kernel are transparent to how cloud RPC works in kernel. It also has a kernel_analytics module that reads periodically computed key-value pairs from AsFer and publishes as a global symbols within kernel. Any kernel driver including network, I/O, display, paging, scheduler etc., can read these analytics variables and dynamically change kernel behaviour.
 
-KingCobra - This is a VIRGO module and implements message queueing and pub-sun model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
+KingCobra - This is a VIRGO module and implements message queueing and pub-sub model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
 
 
 NeuronRain Enterprise Version Design Documents

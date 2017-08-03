@@ -10,10 +10,22 @@ NeuronRain is a new linux kernel fork-off from mainline kernel (presently overla
     (*) NeuronRain is not about VM/Containerization but VMs, CloudOSes and Containers can be optionally rewritten by invoking NeuronRain VIRGO systemcalls and drivers - thus NeuronRain Linux kernel is the bottommost layer beneath VMs, Containers, CloudOSes.
     (*) Partially inspired by old Linux Kernel components - Remote Device Invocation and SunRPC
     (*) VIRGO64 kernel based on 4.10.3 mainline kernel, which is 64 bit version of VIRGO32, has lot of stability/panic issues resolved which were random and frequent in VIRGO32.
+    (*) NeuronRain repositories are in https://sourceforge.net/u/userid-769929/profile/ (Academic and Research version) and https://github.com/shrinivaasanka (Enterprise version)
    
 NeuronRain - Features:
 ----------------------
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf
+
+Products in NeuronRain Suite (Research and Enterprise):
+------------------------------------------------------
+AsFer - AstroInfer was initially intended, as the name suggests, for pattern mining of Astronomical Datasets to predict natural weather disasters. It is focussed on mining patterns in texts and strings. It also has implementations of algorithms for analyzing merit of text, PAC learning, Polynomial reconstruction, List coding etc., which are later expansions of publications by the author (K.Srinivasan - http://dblp.dagstuhl.de/pers/hd/s/Shrinivaasan:Ka=) after 2012.
+
+USBmd - Wireless data traffic and USB analytics - analyzes internet traffic and USB URB data packets for patterns by AsFer machine learning (e.g Spark log analyis) implementations. It is also a module in VIRGO linux kernel.
+
+VIRGO Linux Kernel - Linux kernel fork-off based on 4.1.5 (32 bit) and 4.10.3 (64 bit) which has new system calls and drivers which abstract cloud RPC, kernel memcache and filesystem. These system calls can be invoked by user applications (e.g. Python). Simply put VIRGO is a kernelspace cloud while present cloud OSes concentrate on userspace applications. Applications on VIRGO kernel are transparent to how cloud RPC works in kernel. It also has a kernel_analytics module that reads periodically computed key-value pairs from AsFer and publishes as a global symbols within kernel. Any kernel driver including network, I/O, display, paging, scheduler etc., can read these analytics variables and dynamically change kernel behaviour.
+
+KingCobra - This is a VIRGO module and implements message queueing and pub-sun model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
+
 
 NeuronRain Enterprise Version Design Documents
 -----------------------------------------------

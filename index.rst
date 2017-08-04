@@ -67,7 +67,7 @@ FAQ
 ---
 (*) What is the historic timeline evolution of NeuronRain repositories?
 
-Initial design of a cognitive inference model (uncommitted) was during 2003 though original conceptualization occurred during 1998-99 to design a distributed linux. Coincidentally, an engineering team project done by the author was aligned in this direction - a distributed cloud-like execution system - though based on application layer CORBA (https://sourceforge.net/projects/acadpdrafts/files/Excerpts_Of_PSG_BE_FinalProject_COBRA_done_in_1999.pdf/download). Since 1999, author has worked in various IT companies (https://sourceforge.net/projects/acadpdrafts/files/AllRelievingLetters.pdf/download) and studied further (MSc and an incomplete PhD at CMI/IMSc/IIT,Chennai,India - 2008-2011). It was a later thought to merge machine learning analytics and a distributed linux kernel into a new linux fork-off driven by BigData analytics. Commits into Sourceforge and GitHub repositories are chequered with fulltime Work and Study tenures. Thus it is pretty much parallel effort. Presently author does not work for any and works fulltime on NeuronRain code commits and related independent academic research only with no monetary benefit accrued. Significant commits have been done from 2013 onwards and include implementations for author's publications done till 2011 and significant expansion of them done after 2012 till present.
+Initial design of a cognitive inference model (uncommitted) was during 2003 though original conceptualization occurred during 1998-99 to design a distributed linux. Coincidentally, an engineering team project done by the author was aligned in this direction - a distributed cloud-like execution system - though based on application layer CORBA (https://sourceforge.net/projects/acadpdrafts/files/Excerpts_Of_PSG_BE_FinalProject_COBRA_done_in_1999.pdf/download). Since 1999, author has worked in various IT companies (https://sourceforge.net/projects/acadpdrafts/files/AllRelievingLetters.pdf/download) and studied further (MSc and an incomplete PhD at CMI/IMSc/IIT,Chennai,India - 2008-2011). It was a later thought to merge machine learning analytics and a distributed linux kernel into a new linux fork-off driven by BigData analytics. Commits into Sourceforge and GitHub repositories are chequered with fulltime Work and Study tenures. Thus it is pretty much parallel charity effort from 2003 alongside mainstream official work. Presently author does not work for any and works fulltime on NeuronRain code commits and related independent academic research only with no monetary benefit accrued. Significant commits have been done from 2013 onwards and include implementations for author's publications done till 2011 and significant expansion of them done after 2012 till present. Initially AstroInfer was intended for pattern mining Astronomical Datasets for weather prediction. In 2015, NeuronRain was replicated in SourceForge and GitHub after a SourceForge outage and since then SourceForge NeuronRain repos have been made specialized for academic research and astronomy while GitHub NeuronRain repos are for production cloud deployments.
  
 (*) Why is a new Linux kernel required for cloud? There are Cloud operating systems already.
 
@@ -90,7 +90,7 @@ Anyone interested in dynamic analytics driven kernel. For example, realtime IoT 
 
 (*) Is NeuronRain production deployment ready?
 
-Not yet really. Presently complete GitHub and SourceForge repositories for NeuronRain are managed (committed, designed and quality assured) by a single person without any funding (K.Srinivasan - http://sites.google.com/site/kuja27) with no team or commercial entity involved in it. This requires considerable time and effort to write a bug-free code. Though functionalities are tested sufficiently there could be untested code paths. Automated unit testing framework has not been integrated yet.
+Presently complete GitHub and SourceForge repositories for NeuronRain are managed (committed, designed and quality assured) by a single person without any funding (K.Srinivasan - http://sites.google.com/site/kuja27) with no team or commercial entity involved in it. This requires considerable time and effort to write a bug-free code. Though functionalities are tested sufficiently there could be untested code paths. Automated unit testing framework has not been integrated yet. Note of caution: though significant code has gone in both GitHub and Sourceforge repositories there is still a lot to be done in terms of cleaning, documentation, standards, QA etc.,  
 
 (*) How is NeuronRain code licensed? Can it be used commercially? Is technical support available?
 
@@ -101,18 +101,22 @@ All repositories of NeuronRain Sourceforge and GitHub excluding Grafit course ma
 
 (*) Who owns NeuronRain repositories?
 
-As mentioned previously, NeuronRain GitHub and SourceForge repositories are contributed and owned by
------------------------------------------------------------------------------------------------------------
+As mentioned previously, NeuronRain GitHub and SourceForge repositories are contributed and owned by:
+
 K.Srinivasan
 S/O.P.R.S.Kannan,
 (also known as: Shrinivaasan Kannan, Shrinivas Kannan)
 172, Gandhi Adigal Salai,
 Kumbakonam - 612001.
 Tamil Nadu, India.
-emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com,
-kashrinivaasan@live.com
------------------------------------------------------------------------------------------------------------
-Because of certain mistaken identity and copyleft violation problems in the past, sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
+Krishna iResearch Open Source Products Profiles:
+http://sourceforge.net/users/ka_shrinivaasan,
+https://github.com/shrinivaasanka,
+https://www.openhub.net/accounts/ka_shrinivaasan
+Personal website(research): https://sites.google.com/site/kuja27/
+emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
+
+Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub.This Because of certain mistaken identity and copyleft violation problems in the past, sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
  
 (*) Can NeuronRain be deployed on Mobile processors?
 

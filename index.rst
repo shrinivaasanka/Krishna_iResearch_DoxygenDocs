@@ -109,14 +109,16 @@ S/O.P.R.S.Kannan,
 172, Gandhi Adigal Salai,
 Kumbakonam - 612001.
 Tamil Nadu, India.
+
 Krishna iResearch Open Source Products Profiles:
 http://sourceforge.net/users/ka_shrinivaasan,
 https://github.com/shrinivaasanka,
 https://www.openhub.net/accounts/ka_shrinivaasan
 Personal website(research): https://sites.google.com/site/kuja27/
+
 emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
-Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub.This Because of certain mistaken identity and copyleft violation problems in the past, sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
+Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past, sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
  
 (*) Can NeuronRain be deployed on Mobile processors?
 

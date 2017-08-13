@@ -96,7 +96,7 @@ Because, most commercial cloud operating systems are deployment oriented and clo
 AsFer machine learning implementations are written in C++/Python/Java(Spark-streaming). USBmd VIRGO kernel module is written in C and Python(Spark). VIRGO linux kernel is forked off from mainline http://www.kernel.org PPA and new systemcalls and drivers are written in C/Python. KingCobra VIRGO kernel module is written in C/Java/C++(protocol buffers for MAC electronic currency).
 
 Requirements.txt in:
-https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
+https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/Requirements.txt
 https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/Requirements.txt
 has continuously updated list of opensource packages/libraries dependencies - this file implicitly attributes copyright/copyleft to respective original contributors.
 

@@ -93,7 +93,7 @@ Because, most commercial cloud operating systems are deployment oriented and clo
 
 (*) What languages, libraries and third-party packages are used in NeuronRain?
 
-AsFer machine learning implementations are written in C++/Python/Java(Spark-streaming). USBmd VIRGO kernel module is written in C and Python(Spark). VIRGO linux kernel is forked off from mainline http://www.kernel.org PPA and new systemcalls and drivers are written in C/Python. KingCobra VIRGO kernel module is written in C/Java/C++(protocol buffers for MAC electronic currency).
+AsFer machine learning implementations are written in C++/Python/Java(Spark-streaming). USBmd VIRGO kernel module is written in C and Python(Spark). VIRGO linux kernel is forked off from mainline http://www.kernel.org PPA and new systemcalls and drivers are written in C/Python(Some utility scripts, Userspace boost::python invocation of systemcalls). KingCobra VIRGO kernel module is written in C/Java/C++(protocol buffers for MAC electronic currency).
 
 Requirements.txt in:
 https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/Requirements.txt

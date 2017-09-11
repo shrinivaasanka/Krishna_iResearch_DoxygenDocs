@@ -197,7 +197,7 @@ Personal website(research): https://sites.google.com/site/kuja27/
 
 emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
-Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub. Because of certain cybercrimes, mistaken identity (my facebook posts in https://www.facebook.com/shrinivaasan.ka/posts/10213098618438550,https://www.facebook.com/shrinivaasan.ka/posts/10214158680339435 provide context) and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
+Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub. Because of certain cybercrimes, mistaken identity (my facebook posts in https://www.facebook.com/shrinivaasan.ka/posts/10213098618438550 , https://www.facebook.com/shrinivaasan.ka/posts/10214158680339435 provide context) and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
  
 (*) Can NeuronRain be deployed on Mobile processors?
 

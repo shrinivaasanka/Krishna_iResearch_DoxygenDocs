@@ -19,7 +19,7 @@ https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Prod
 
 NeuronRain - Architecture Diagrams:
 -----------------------------------
-https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/NeuronRainVIRGOArchitecture.jpg
+.. image:: NeuronRainVIRGOArchitecture.jpg
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Krishna_iResearch_opensourceproducts_archdiagram.pdf
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/NeuronRain_Architecture_Diagrams_29September2016.pdf
 

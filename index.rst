@@ -16,25 +16,43 @@ NeuronRain - Features:
 ----------------------
 **VIRGO system calls from include/linux/syscalls.h**
 asmlinkage long sys_virgo_clone(char* func, void *child_stack, int flags, void *arg);
+
 asmlinkage long sys_virgo_malloc(int size,unsigned long long __user *vuid);
+
 asmlinkage long sys_virgo_set(unsigned long long vuid, const char __user *data_in);
+
 asmlinkage long sys_virgo_get(unsigned long long vuid, char __user *data_out);
+
 asmlinkage long sys_virgo_free(unsigned long long vuid);
+
 asmlinkage long sys_virgo_open(char* filepath);
+
 asmlinkage long sys_virgo_read(long vfsdesc, char __user *data_out, int size, int pos);
+
 asmlinkage long sys_virgo_write(long vfsdesc, const char __user *data_in, int size, int pos);
+
 asmlinkage long sys_virgo_close(long vfsdesc);
+
 
 **VIRGO Kernel Modules in drivers/virgo**
 1. cpupooling virtualization - VIRGO_clone() system call and VIRGO cpupooling driver by which a remote procedure can be invoked in kernelspace.(port: 10000)
+
 2. memorypooling virtualization - VIRGO_malloc(), VIRGO_get(), VIRGO_set(), VIRGO_free() system calls and VIRGO memorypooling driver by which kernel memory can be allocated in remote node, written to, read and freed - A kernelspace memcache-ing.(port: 30000)
+
 3. filesystem virtualization - VIRGO_open(), VIRGO_read(), VIRGO_write(), VIRGO_close() system calls and VIRGO cloud filesystem driver by which file IO in remote node can be done in kernelspace.(port: 50000)
+
 4. config - VIRGO config driver for configuration symbols export.
+
 5. queueing - VIRGO Queuing driver kernel service for queuing incoming requests, handle them with workqueue and invoke KingCobra service routines in kernelspace. (port: 60000)
+
 6. cloudsync - kernel module for synchronization primitives (Bakery algorithm etc.,) with exported symbols that can be used in other VIRGO cloud modules for critical section lock() and unlock()
+
 7. utils - utility driver that exports miscellaneous kernel functions that can be used across VIRGO Linux kernel
+
 8. EventNet - eventnet kernel driver to vfs_read()/vfs_write() text files for EventNet vertex and edge messages (port: 20000)
+
 9. Kernel_Analytics - kernel module that reads machine-learnt config key-value pairs set in /etc/virgo_kernel_analytics.conf. Any machine learning software can be used to get the key-value pairs for the config. This merges three facets - Machine Learning, Cloud Modules in VIRGO Linux-KingCobra-USBmd , Mainline Linux Kernel
+
 10. SATURN program analysis wrapper driver.
 
 Complete list of Features of NeuronRain (Research and Enterprise) are detailed in:

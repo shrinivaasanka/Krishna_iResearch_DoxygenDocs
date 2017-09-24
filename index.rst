@@ -15,6 +15,7 @@ NeuronRain is a new linux kernel fork-off from mainline kernel (presently overla
 NeuronRain - Features:
 ----------------------
 **VIRGO system calls from include/linux/syscalls.h**
+
 asmlinkage long sys_virgo_clone(char* func, void *child_stack, int flags, void *arg);
 
 asmlinkage long sys_virgo_malloc(int size,unsigned long long __user *vuid);
@@ -35,6 +36,7 @@ asmlinkage long sys_virgo_close(long vfsdesc);
 
 
 **VIRGO Kernel Modules in drivers/virgo**
+
 1. cpupooling virtualization - VIRGO_clone() system call and VIRGO cpupooling driver by which a remote procedure can be invoked in kernelspace.(port: 10000)
 
 2. memorypooling virtualization - VIRGO_malloc(), VIRGO_get(), VIRGO_set(), VIRGO_free() system calls and VIRGO memorypooling driver by which kernel memory can be allocated in remote node, written to, read and freed - A kernelspace memcache-ing.(port: 30000)

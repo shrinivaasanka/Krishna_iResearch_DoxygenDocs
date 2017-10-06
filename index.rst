@@ -57,6 +57,8 @@ asmlinkage long sys_virgo_close(long vfsdesc);
 
 10. SATURN program analysis wrapper driver.
 
+11. KTLS config driver - for Kernel Transport Layer Security - only in VIRGO_KTLS branch of VIRGO64 repositories
+
 Complete list of Features of NeuronRain (Research and Enterprise) are detailed in:
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf
 

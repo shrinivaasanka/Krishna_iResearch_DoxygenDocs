@@ -1,0 +1,85 @@
+\documentclass[11pt,onecolumn]{article}
+\author{ $ (also \quad known \quad as: Srinivasan Kannan, Ka.Shrinivaasan, Shrinivas Kannan)$ \\
+$ (Research \quad Website: https://sites.google.com/site/kuja27/) $ \\
+}
+\title{K.Srinivasan}
+\date{}
+\makeatletter
+\renewcommand{\@seccntformat}[1]{}
+\makeatother
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{abstract}
+\usepackage{hyperref}
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+\maketitle
+
+\section{About Myself}
+Worked for various IT majors and startups for 18 years from 1999 and did Doctoral research in theoretical computer science till 2011. Presently working on a non-funded and not-for-profit opensource initiative and pursuing independent academic research.
+
+\section{Academics}
+\begin{enumerate}
+\item[$\bullet$] B.A(Hindi)-Praveen Uttarardh- 1988-1992
+\item[$\bullet$] B.E(Computer Science-PSGTech,Coimbatore)- 1995-99
+\item[$\bullet$] MSc(Computer Science-CMI,Chennai)- 2008-10
+\item[$\bullet$] JRF(PhD-Computer Science-CMI,Chennai-Incomplete)- 2010-11
+\end{enumerate}
+
+\section{Work- Consultant and Fulltime}
+\begin{enumerate}
+\item[$\bullet$] Associate Software Engineer - BaaN Infosystems (now SSA Global) - 1999-2000
+\item[$\bullet$] Member Tech Staff - iPlanet (Sun Microsystems-Netscape Alliance) - 2000-2002
+\item[$\bullet$] Member Tech Staff - Sun Microsystems (now Oracle) - 2002-2005
+\item[$\bullet$] System Analyst - Verizon - 2005
+\item[$\bullet$] Senior Software Engineer - webMethods - 2006-2007
+\item[$\bullet$] Engineering Specialist - webMethods (now Software AG) - 2007-2008
+\item[$\bullet$] Consultant and Architect - Global Analytics - 2011-2013
+\item[$\bullet$] Consultant - PiQube Analytics (Clockwork Interviews) - 2013-2014
+\item[$\bullet$] Architect - Cusdelight-CloudEnablers - 2015
+\end{enumerate}
+
+
+\section{Research Publications}
+\begin{enumerate}
+\item[$\bullet$] Decidability of Complementation - \url {http://arxiv.org/abs/1106.4102}
+\item[$\bullet$] Algorithms for Intrinsic Merit - \url {http://arxiv.org/abs/1006.4458}
+\item[$\bullet$] NIST TAC 2010 version of Algorithms for Intrinsic Merit - \\
+ \url {http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf}
+\end{enumerate}
+
+\section{Publication Drafts - Unguided and Unreviewed}
+Independent academic research publication drafts expanded on previous publications - \url {https://sites.google.com/site/kuja27/}
+
+\section{Open Source Initiative of Self - Krishna iResearch - 2003-present}
+Presently working individually on research and development of non-commercial, non-funded open source copyleft dual-licensed initiative of self (no team or sponsor involved) - cloud, bigdata analytics and machine learning augmented new Linux Kernel fork-off $:$ \\
+ $NeuronRain \quad Research$ - \url {http://sourceforge.net/u/userid-769929/} \\
+ $NeuronRain \quad Enterprise$ - \url {https://github.com/shrinivaasanka/} \\
+ $NeuronRain \quad Documentation$ - \url {http://neuronrain-documentation.readthedocs.io/en/latest/} 
+which includes an open learning free courseware ( \url {https://github.com/shrinivaasanka/Grafit/tree/master/course_material}) and implementations of publications and drafts in \url {https://sites.google.com/site/kuja27/}.
+
+\section{Detailed CV}
+Details on work and academics - \url {https://sites.google.com/site/kuja27/CV\_of\_SrinivasanKannan\_alias\_KaShrinivaasan\_alias\_ShrinivasKannan.pdf}
+
+\section{Contact Address}
+172, Gandhi Adigal Salai, \\
+Kumbakonam-612001 \\
+Ph: 9791499106 \\
+$ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com$ 
+
+\section{Domain of Work - Development and Architecture}
+Middleware(Web, Application, Messaging etc.,), Machine Learning, Bigdata Analytics, Linux Kernel, Cloud (Hadoop, Spark, CloudOSes), C/C++/Java/Python.
+
+\section{Research Interests-Theory and Engineering}
+Computational Number Theory Algorithms, Computational Linguistics, Natural Language Processing, Algorithms for Massive Datasets and Machine Learning, Computational Complexity of Majority Voting and related, Pseudorandomness, Program Analysis.
+
+\end{document}

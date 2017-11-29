@@ -159,7 +159,7 @@ Reason is NeuronRain integrates multiple worlds into one and it was difficult to
 	(*) VIRGO is dependent on AsFer for kernel analytics
 	(*) KingCobra is dependent on AsFer MAC Protocol Buffer currency implementation
 	(*) Grafit course materials refer to all these repositories
-and all NeuronRain repositories are strongly interdependent now.
+and all NeuronRain repositories are strongly interdependent now. Each repository of NeuronRain can be deployed independent of the other - for example, VIRGO linux kernel and kernel_analytics module in it can learn analytic variables from any other third-party Machine Learning framework not necessarily from AstroInfer - TensorFlow, Weka, RapidMiner etc., Only prerequisite is /etc/kernel_analytics.conf should be periodically updated by set of key-value pairs of machine-learnt analytic variables written to it. But flipside of using third-party machine-learning software in lieu of AsFer is lack of implementations specialized and optimized for NeuronRain.
 
 **NeuronRain repositories have implementations for your publications and drafts. Are they reviewed? Could you explain about them?**
 

@@ -259,7 +259,7 @@ assigning time slices dynamically according to priority classifier. It is unknow
 
 **Who can deploy NeuronRain?**
 
-Anyone interested in dynamic analytics driven kernel. For example, realtime IoT kernels operating on smart devices, driverless vehicles, robots, drones, embedded systems etc.,.
+Anyone interested in dynamic analytics driven kernel. For example, realtime IoT kernels operating on smart devices, autonomus driverless vehicles, robots, drones, embedded systems etc.,. There are already linux distros for drones and unmanned aerial vehicles (https://www.dronecode.org/) and automotives (Automotive Grade Linux - https://www.automotivelinux.org/). For example autonomous vehicles and drones have linux kernel drivers for LIDAR sensors for navigation which can be analytics driven. 
 
 **How does NeuronRain compare against other Cloud IoT platforms?**
 

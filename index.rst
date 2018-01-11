@@ -271,7 +271,7 @@ Disclaimer: MAC protocol buffer implementation of a fictitious electronic curren
 
 **Is NeuronRain production deployment ready? Is it scalable?**
 
-Presently complete GitHub and SourceForge repositories for NeuronRain are managed (committed, designed and quality assured) by a single person without any funding (K.Srinivasan - http://sites.google.com/site/kuja27) with no team or commercial entity involved in it. This requires considerable time and effort to write a bug-free code. Though functionalities are tested sufficiently there could be untested code paths. Automated unit testing framework has not been integrated yet. Note of caution: though significant code has gone in both GitHub and Sourceforge repositories there is still a lot to be done in terms of cleaning, documentation, standards, QA etc., So it is upto the end-user to decide. There are no scalability benchmarks as of now for VIRGO linux though some AsFer Spark Cloud implementations (Intrinsic Merit, Computational Geometric Factorization) have been benchmarked on single node cluster. VIRGO system calls-kernel modules transport has been tested on a 2 node cluster. Presently, NeuronRain is almost like a beta version, though source codes in GitHub and SourceForge are release tagged periodically for checkpoint snapshot.
+Presently complete GitHub and SourceForge repositories for NeuronRain are contributed (committed, designed and quality assured) by a single person without any funding (K.Srinivasan - http://sites.google.com/site/kuja27) with no team or commercial entity involved in it. This requires considerable time and effort to write a bug-free code. Though functionalities are tested sufficiently there could be untested code paths. Automated unit testing framework has not been integrated yet. Note of caution: though significant code has gone in both GitHub and Sourceforge repositories there is still a lot to be done in terms of cleaning, documentation, standards, QA etc., So it is upto the end-user to decide. There are no scalability benchmarks as of now for VIRGO linux though some AsFer Spark Cloud implementations (Intrinsic Merit, Computational Geometric Factorization) have been benchmarked on single node cluster. VIRGO system calls-kernel modules transport has been tested on a 2 node cluster. Presently, NeuronRain is almost like a beta version, though source codes in GitHub and SourceForge are release tagged periodically for checkpoint snapshot.
 
 **Are there any demonstrative tutorial usecases/examples on how NeuronRain VIRGO system calls and drivers work?**
 
@@ -293,7 +293,14 @@ All repositories of NeuronRain Sourceforge and GitHub excluding Grafit course ma
 
 **Who owns NeuronRain repositories?**
 
-As mentioned previously, NeuronRain GitHub and SourceForge repositories are contributed and owned by:
+NeuronRain GitHub and SourceForge repositories are owned by:
+
+P.R.S.Kannan,
+172, Gandhi Adigal Salai,
+Kumbakonam - 612001.
+Tamil Nadu, India.
+
+and contributed by:
 
 K.Srinivasan
 S/O.P.R.S.Kannan,

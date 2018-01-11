@@ -301,6 +301,7 @@ Kumbakonam - 612001.
 Tamil Nadu, India.
 
 Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain GitHub Grafit Open Learning Course Notes: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html
+
 GPL v3.0 for other NeuronRain GitHub and SourceForge repositories: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html
 
 Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitHub and SourceForge source code files.

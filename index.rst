@@ -14,7 +14,9 @@ NeuronRain is a new linux kernel fork-off from mainline kernel (presently overla
 NeuronRain - Repositories:
 --------------------------
 NeuronRain repositories are in:
+
 	(*) http://sourceforge.net/users/ka_shrinivaasan - Astronomy and Research version
+
 	(*) https://github.com/shrinivaasanka - Enterprise version
    
 NeuronRain - Features:

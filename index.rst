@@ -131,7 +131,7 @@ KingCobra64 - https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDe
 
 Some Implementations in AsFer in GitHub and Sourceforge are related to publications in https://scholar.google.co.in/citations?hl=en&user=eLZY7CIAAAAJ and publication drafts in https://sites.google.com/site/kuja27/ and https://sourceforge.net/projects/acadpdrafts/files/
 
-Free course material in https://github.com/shrinivaasanka/Grafit also refer to implementations in previous NeuronRain GitHub and Sourceforge respositories.
+Free course material in https://github.com/shrinivaasanka/Grafit also refer to implementations in previous NeuronRain GitHub and Sourceforge respositories. Some of GRAFIT GitHub course material link to complementary course notes in https://kuja27.blogspot.in which is meant for expository graphics for the course material and audio-visual lectures, if necessary.
 
 
 FAQ

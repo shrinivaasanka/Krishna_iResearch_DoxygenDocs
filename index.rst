@@ -197,7 +197,11 @@ Following are the conceptual relations between various draft publications in a n
 	13. Pseudorandom Choice is a Non-Majority Social Choice Function
 	14. Voter SAT can be of any complexity class - 3SAT, QBFSAT etc.,
 	15. Random Close Packing is a Constraint Satisfaction/SAT Problem.
-	16. Intrinsic Merit is the text analysis equivalent of Intrinsic Fitness in Social Networks. 
+	16. Intrinsic Merit is the text analysis equivalent of Intrinsic Fitness in Social Networks and Experiential learning is defined in terms of intrinsic merit and mistake bound learning.
+	17. Intrinsic Merit versus Perceived Merit and Non-Majority Versus Majority Social Choice are equivalent - Abolute Versus Subjective - and can be defined in terms of Mechanism Design/Flow Market Equilibrium in Algorithmic Econonics 
+	18. Money Changing Problem/Coin Problem/Combinatorial Schur Theorem for Partitions and Tabulation Hashing are equivalent i.e expressing an integer as a linear combination of products, which defines distribution of buckets in a hash table.
+	19. ThoughtNet/EventNet are theoretical reinforcement learning simulations of Cognitive Evocation, Cause-Effect ordering and events involving actors in Clouds.
+	20. Neuro Electronic Currency is an experimental fictitious currency for modelling Intrinsic Merit in economic networks. 
 
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 

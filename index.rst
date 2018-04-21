@@ -191,7 +191,7 @@ Following are the conceptual relations between various draft publications in a n
 	7. Ramsey Coloring and Complementation are equivalent
 	8. Graph representation of Texts and Lambda Function Composition are Formal Language and Algorithmic Graph Theory Models e.g parenthesization of a sentence creates a Lambda Function Composition Tree of Part-of-Speech.
 	9. Majority Function - Voter SAT is a Boolean Function Composition Problem 
-	10. Majority Versus Non-Majority Social Choice comparison arises from Condorcet Jury Theorem and Margulis-Russo Threshold phenomenon in Boolen Social Choice i.e how individual decision correctness affects group decision correctness
+	10. Majority Versus Non-Majority Social Choice comparison arises from Condorcet Jury Theorem and Margulis-Russo Threshold phenomenon in Boolean Social Choice i.e how individual decision correctness affects group decision correctness
 	11. Intrinsic Merit Ranking can be defined as a MAXSAT problem
 	12. Question-Answering/Interview Intrinsic Merit is a QBFSAT problem
 	13. Pseudorandom Choice is a Non-Majority Social Choice Function

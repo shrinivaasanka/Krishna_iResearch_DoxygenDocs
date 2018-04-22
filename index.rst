@@ -191,8 +191,8 @@ Following are the conceptual relations between various draft publications in a n
 	7. Ramsey Coloring and Complementation are equivalent
 	8. Graph representation of Texts and Lambda Function Composition are Formal Language and Algorithmic Graph Theory Models e.g parenthesization of a sentence creates a Lambda Function Composition Tree of Part-of-Speech.
 	9. Majority Function - Voter SAT is a Boolean Function Composition Problem 
-	10. Majority Versus Non-Majority Social Choice comparison arises from Condorcet Jury Theorem and Margulis-Russo Threshold phenomenon in Boolean Social Choice i.e how individual decision correctness affects group decision correctness
-	11. Intrinsic Merit Ranking can be defined as a MAXSAT problem
+	10. Majority Versus Non-Majority Social Choice comparison arises from Condorcet Jury Theorem and Margulis-Russo Threshold phenomenon in Boolean Social Choice i.e how individual decision correctness affects group decision correctness. Equating the two social choices has enormous implications for Complexity theory because all complexity classes are subsumed by Majority-VoterSAT boolean function composition.
+	11. Intrinsic Merit Ranking can be defined as a MAXSAT problem. Random matrix based LSMR/LSQR SAT solver  approximately solves MAXSAT in polynomial time on an average. 
 	12. Question-Answering/Interview Intrinsic Merit is a QBFSAT problem
 	13. Pseudorandom Choice is a Non-Majority Social Choice Function
 	14. Voter SAT can be of any complexity class - 3SAT, QBFSAT etc.,
@@ -200,8 +200,9 @@ Following are the conceptual relations between various draft publications in a n
 	16. Intrinsic Merit is the text analysis equivalent of Intrinsic Fitness in Social Networks and Experiential learning is defined in terms of intrinsic merit and mistake bound learning.
 	17. Intrinsic Merit versus Perceived Merit and Non-Majority Versus Majority Social Choice are equivalent - Absolute Versus Subjective - and can be defined in terms of Mechanism Design/Flow Market Equilibrium in Algorithmic Economics 
 	18. Money Changing Problem/Coin Problem/Combinatorial Schur Theorem for Partitions and Tabulation Hashing are equivalent i.e expressing an integer as a linear combination of products, which defines distribution of buckets in a hash table.
-	19. ThoughtNet/EventNet are theoretical reinforcement learning simulations of Cognitive Evocation, Cause-Effect ordering and events involving actors in Clouds.
-	20. Neuro Electronic Currency is an experimental fictitious currency for modelling Intrinsic Merit in economic networks. 
+	19. ThoughtNet/EventNet are theoretical reinforcement learning simulations of Cognitive Evocation, Cause-Effect ordering and events involving actors in Clouds. ThoughNet is a contextual multiarmed bandit Hypergraph which evokes thought/knowledge of maximum potential. Potential of thoughts/knowledge in Hypergraph is proportional to their intrinsic merit.
+	20. Neuro Electronic Currency is an experimental fictitious currency for modelling Intrinsic Merit in economic networks. EventNet is an economic network for Money Flow Markets/Trade. Intrinsic merit in economic network is the economic influence of each vertex in trade.
+	21. Text sentences are Ramsey colored by Part-of-Speech tags and alphabet positions. Similarly graph representation of texts are Ramsey edge-colored by relations (e.g WordNet, ConceptNet relations). Text-graph complement to convert cliques to independent sets and vice-versa is a special application of Complement Functions.
 
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 

@@ -184,15 +184,15 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 Following are the conceptual relations between various draft publications in a nutshell creating a connected graph:
 	1. Intrinsic Merit is a Non-majority Social Choice Function
 	2. Complement Functions are subset of Diophantine Equations
-	3. Factorization has a Diophantine Representation
+	3. Factorization has a Diophantine Representation (Pell Equation)
 	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover)
-	5. Majority Function has a Tabulation Hashing definition (e.g Electronic Voting Machines)
+	5. Majority Function has a Tabulation Hashing definition (e.g Electronic Voting Machines) i.e Hash table of candidates as keys and votes per candidate as chained buckets 
 	6. Integer Partitions and Tabulation Hashing are isomorphic
 	7. Ramsey Coloring and Complementation are equivalent
 	8. Graph representation of Texts and Lambda Function Composition are Formal Language and Algorithmic Graph Theory Models e.g parenthesization of a sentence creates a Lambda Function Composition Tree of Part-of-Speech.
 	9. Majority Function - Voter SAT is a Boolean Function Composition Problem 
 	10. Majority Versus Non-Majority Social Choice comparison arises from Condorcet Jury Theorem and Margulis-Russo Threshold phenomenon in Boolean Social Choice i.e how individual decision correctness affects group decision correctness. Equating the two social choices has enormous implications for Complexity theory because all complexity classes are subsumed by Majority-VoterSAT boolean function composition.
-	11. Intrinsic Merit Ranking can be defined as a MAXSAT problem. Random matrix based LSMR/LSQR SAT solver  approximately solves MAXSAT in polynomial time on an average. 
+	11. Intrinsic Merit Ranking can be defined as a MAXSAT problem. Random matrix based LSMR/LSQR SAT solver  approximately solves MAXSAT in polynomial time on an average. Ranking of texts based on distance similarity is also a problem solved by collision-supportive Locality Sensitive Hashing - similar texts are clustered in a bucket chain.
 	12. Question-Answering/Interview Intrinsic Merit is a QBFSAT problem
 	13. Pseudorandom Choice is a Non-Majority Social Choice Function
 	14. Voter SAT can be of any complexity class - 3SAT, QBFSAT etc.,

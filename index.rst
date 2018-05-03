@@ -183,11 +183,11 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 
 Following are the conceptual relations between various draft publications in a nutshell creating a connected graph:
 	1. Intrinsic Merit is a Non-majority Social Choice Function
-	2. Complement Functions are subset of Diophantine Equations
+	2. Complement Functions are subset of Diophantine Equations. Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions).
 	3. Factorization has a Diophantine Representation (Pell Equation)
 	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover)
 	5. Majority Function has a Tabulation Hashing definition (e.g Electronic Voting Machines) i.e Hash table of candidates as keys and votes per candidate as chained buckets 
-	6. Integer Partitions and Tabulation Hashing are isomorphic e.g partition of an integer 21 as 5+2+3+4+5+2 and Hash table of 21 values partitioned by keys on bucket chains of sizes 5,2,3,4,5,2 are bijective. Both Set Partitons and Hash tables are exact covers quantified by Bell Numbers/Stirling Numbers.
+	6. Integer Partitions and Tabulation Hashing are isomorphic e.g partition of an integer 21 as 5+2+3+4+5+2 and Hash table of 21 values partitioned by keys on bucket chains of sizes 5,2,3,4,5,2 are bijective. Both Set Partitons and Hash tables are exact covers quantified by Bell Numbers/Stirling Numbers. Partitions/Hashing is a special case of Multiple Agent Resource Allocation problem.
 	7. Ramsey Coloring and Complementation are equivalent
 	8. Graph representation of Texts and Lambda Function Composition are Formal Language and Algorithmic Graph Theory Models e.g parenthesization of a sentence creates a Lambda Function Composition Tree of Part-of-Speech.
 	9. Majority Function - Voter SAT is a Boolean Function Composition Problem 

@@ -183,7 +183,7 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 
 Following are the conceptual relations between various draft publications in a nutshell creating a connected graph:
 	1. Intrinsic Merit is a Non-majority Social Choice Function
-	2. Complement Functions are subset of Diophantine Equations. Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions).
+	2. Complement Functions are subset of Diophantine Equations. Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions). Undecidability of Complement Diophantine Representation follows from MRDP theorem and Post's Correspondence Problem.
 	3. Factorization has a Diophantine Representation (Pell Equation)
 	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover)
 	5. Majority Function has a Tabulation Hashing definition (e.g Electronic Voting Machines) i.e Hash table of candidates as keys and votes per candidate as chained buckets 

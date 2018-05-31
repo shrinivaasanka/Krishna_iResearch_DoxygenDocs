@@ -72,8 +72,14 @@ RESEARCH STATEMENTS:
 
 6. Research Statement 3 – with some proof sketches - https://sites.google.com/site/kuja27/Research_Writeup.pdf?attredirects=0&d=1
 
-PUBLICATION DRAFTS (not final versions) - in progress:
-(written and typeset – complexity and machine learning – substantially expanded from publications above – unreviewed)
+
+Most recent draft updates to all publications previously and earlier drafts below - in text format - nonlinear theoretical writeups interspersed between NeuronRain AsFer code commits in SourceForge and GitHub:
+Complexity Theoretic Analysis of Non-majority and Majority Social Choice, Pseudorandomness, Goodness of Voting and Condorcet Jury Theorem, Complement Function, Ramsey coloring of sequences, Diophantine Analysis, Riemann Zeta Function, Hypergeometric Functions, Graph theoretic/Computational linguistic/Interview Intrinsic Merit/Fitness and Experiential Learning in the context of WWW (mostly text analysis) and Social networks, Algorithmic Graph Theoretic Learning Models, Computational Learning Theory, Flow Market Equilibrium and Merit Equilibrium, Neural Networks and Deep Learning, Quantum mechanics and Intrinsic Fitness, Locality Sensitive Hashing, Tabulation Hashing, Integer Partitions, Space filling/Tiling/Packing, Satisfiability (CNFSAT and QBFSAT), Linear and Convex-Concave Programming, Computational Geometric Integer Factoring and Connections amongst them etc.,:
+http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
+
+https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
+
+Earlier Drafts:
 
 7.(draft1) IntegerPartitions and Hash Functions  (https://sites.google.com/site/kuja27/IntegerPartitionAndHashFunctions.pdf?attredirects=0)
 
@@ -121,8 +127,7 @@ http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicFactorizatio
 
 27. (draft 9) Parallel RAM algorithm for Discrete Hyperbolic Factorization - AsFer PRAM implementation design notes with tile id(s)  (http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/ImplementationDesignNotesForDiscreteHyperbolicFactorizationInPRAM.jpg)
 
-28. (draft10) An NC algorithm and some Sequential Search Algorithms for Discrete Hyperbolic Polylogarithmic Sieve For Factorization using Binary or Interpolation Search with Stirling Formula and Logarithmic Sorted Tile Merge in PRAM model - updated draft with PRAM to NC reduction and input size details and references - http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound_updateddraft.pdf/download
-(Most recent of all the previous drafts on Discrete Hyperbolic Factorization)
+28. (draft10) Computational Geometric Factorization - An NC algorithm and some Sequential Search Algorithms for Discrete Hyperbolic Polylogarithmic Sieve For Factorization using Binary or Interpolation Search with Stirling Formula and Logarithmic Sorted Tile Merge in PRAM model - updated draft with PRAM to NC reduction and input size details and references - http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound_updateddraft.pdf/download
 
 29. Individual Invention Disclosure for Survival Index Based Transaction Timeout
 Manager (Sun Microsystems) - 2002-2003 https://sites.google.com/site/kuja27/SurvivalIndexBasedTxnTimeoutManager.pdf?attredirects=0
@@ -191,7 +196,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 . This is not a commercial startup yet. Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
-Latest version 2017.01.23:
+Latest version 2018.03.06:
 
 1. Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -202,22 +207,21 @@ Latest version 2017.01.23:
 	2.3 		Decision Tree Classifier, 
 	2.4 		String mining - Pairwise String Sequence Alignment (Needleman-Wunsch) ,
 	2.5 		String mining - Multiple String Sequence Alignment(BioPython,ClustalOmega), 
-2.6     String mining - Powerset construction (C++) and String matching implementation in python(Jellyfish distance measures like Jaro-winkler, Edit-distance, Phonetic Matching rate etc.,) and 
-2.7     Parsers and Encoding features for USGS and NOAA HURDAT2 data
-2.8     Automated Generation of Training and Test set for Classifiers that segregate the datasets into Event Classes and Automated generation of encoded astronomical object files specific to each Event Class.
-2.9     Sequential implementation of Discrete Hyperbolic Factorization and PRAM design for publication drafts in https://sites.google.com/site/kuja27/
-A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
-2.10     A Concept Hypergraph and HMM(Hidden Markov Model) based Experimental Inference Model Design inspired by Cognitive Psychology – a minimal sentiwordnet evocatives implementation of this sans HMM named ThoughtNet is part of AsFer 
-2.11     Design for extracting patterns from numerical data
-2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
-2.13     Discrete Fourier Transform computation for a parsed numerical input sequence using Python and R
-2.14     Time Series Analysis - Spline interpolation, LOESS regression, ARMA, Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
-2.15    An Experimental Text Compression algorithm that uses Hidden Markov Model Maximum Likelihood Estimation based on a String Complexity measure that compresses vowels in text
-2.16    An Experimental Minimum Description Length implementation that uses the previous string complexity measure, computes MDL using Kraft inequality and Shannon entropy.
-2.17 Probabilistic Approximate Correct – PAC - Learning Implementation related to http://arxiv.org/abs/1106.4102
-2.18 Wagner-Fischer edit distance implementation for pairwise similarity of encoded strings
-2.19 An example implementation of Interview Algorithm and Intrinsic Merit 	Ranking for :
-http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+        2.6     String mining - Powerset construction (C++) and String matching implementation in python(Jellyfish distance measures like Jaro-winkler, Edit-distance, Phonetic Matching rate etc.,) and 
+        2.7     Parsers and Encoding features for USGS and NOAA HURDAT2 data
+        2.8     Automated Generation of Training and Test set for Classifiers that segregate the datasets into Event Classes and Automated generation of encoded astronomical object files specific to each Event Class.
+        2.9     Computational Geometric Factorization - Implementation of Bitonic K-MergeSort of Tiles in Pixelated Hyperbolic Arc (Sequential and PRAM) (for drafts in https://sites.google.com/site/kuja27/) - A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
+        2.10     A Concept Hypergraph and HMM(Hidden Markov Model) based Experimental Inference Model Design inspired by Cognitive Psychology – a minimal sentiwordnet evocatives implementation of this sans HMM named ThoughtNet is part of AsFer 
+        2.11     Design for extracting patterns from numerical data
+        2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
+        2.13     Discrete Fourier Transform computation for a parsed numerical input sequence using Python and R
+        2.14     Time Series Analysis - Spline interpolation, LOESS regression, ARMA, Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
+        2.15    An Experimental Text Compression algorithm that uses Hidden Markov Model Maximum Likelihood Estimation based on a String Complexity measure that compresses vowels in text
+        2.16    An Experimental Minimum Description Length implementation that uses the previous string complexity measure, computes MDL using Kraft inequality and Shannon entropy.
+        2.17 Probabilistic Approximate Correct – PAC - Learning Implementation related to http://arxiv.org/abs/1106.4102
+        2.18 Wagner-Fischer edit distance implementation for pairwise similarity of encoded strings
+        2.19 An example implementation of Interview Algorithm and Intrinsic Merit 	Ranking for :
+                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
          2.20	   An experimental Expirable Objects implementation 
 	2.21     Linear and Logistic Regression
 	2.22     K-Means clustering implementation
@@ -240,7 +244,7 @@ http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/par
 	2.39   New Unsupervised text classification algorithm implementation that computes nodes with prominent core numbers and PageRanks (nodes with high core-numbers and PageRanks are names of the classes) in the definition graphs obtained by Recursive Gloss Overlap algorithm above.
 	2.40  Lambda Expression Compositionality from the depth first search closure of Recursive Gloss Overlap graph obtained from a text projected to WordNet.
 	2.41  Social Network Analysis – Graph creation from social networking sites data (LinkedIn profiles, Twitter Followers etc.,) and their Psycho-Social-Sentiment Analysis (Bonacich Power Centrality, Eigen Vector Centrality, Recursive Gloss Overlap Graph Sentiment Belief Propagation and SentiWordNet based sentiment scoring etc.,)
-	2.42  Cloud Object Move (or) Cloud Perfect Forwarding implementation – This is a standalone client-server implementation that extends C++ std::move() and rvalue references to moving objects across cloud without copies. Functionality similar to this is required in KingCobra currency object transactional move without duplication.
+	2.42  Cloud Object Move (or) Cloud Perfect Forwarding implementation – This is a standalone client-server implementation that extends C++ std::move() and rvalue references to moving objects across cloud without copies. Functionality similar to this is required in KingCobra Neuro currency object transactional move without duplication.
 	2.43  Deep Learning – Convolution Neural Networks implementation (multifeature kernel maps) for a primitive pattern recognition
 	2.44  Deep Learning – Backpropagation in Multilayered Neural Networks implementation – applied to a Software Analytics usecase of CPU and Memory usage
 	2.45  Sequence Mining of ordered encoded strings (Apriori GSP Algorithm) for inferring Class Association Rules for HURDAT2 NOAA Hurricane datasets
@@ -251,12 +255,12 @@ http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/par
 	2.50 Sentiment Analyzer implementation (with RGO algorithm etc.,) for Spidered Texts (e.g streamed news updates) 
 	2.51 Streaming Frequency Estimation (Heavy Hitters) with CountMeanMinSketch implementation
 	2.52 An expanded implementation of Interview Algorithm and Intrinsic Merit Ranking with added complexity-machine learning theoretical analysis for :
-http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
 that ranks a crawled-spidered webpage, writes a DOT file of the graph, visualizes the RGO NetworkX graph in matplotlib, constructs a  junction tree and computes standard qualitative graph complexity measures (viz., connectivity, mincut, treewidth of junction tree etc.,) where  as intrinsic merit is quantitative (depends on number of edges, vertices, extent of overlap and depth of recursion)
 	2.53 A rule search script that sifts through a range of astronomical data (with Maitreya-Swiss Ephemeris) and matches sequence mined rules from past training data to predict future weather phenomena (experimental).
 	2.54 Python Tornado based WebService that exposes REST API via a browser GUI in URL http://host:33333/neuronrain_auth At present a login and simple template that accepts AsFer scripts and arguments as inputs and executes, has been implemented (and an experimental redundant AngularJS client interface)  With this NeuronRain is a SaaS and PaaS product that can be deployed on Cloud OS and Containers like Docker.
          2.55 Apache Spark MapReduce implementation of Interview Algorithm and Intrinsic Merit Ranking (Global MemCache and Local dict() cache enabled) that parallelizes Recursive Gloss Overlap graph construction algorithm in:
-http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
 and is thus deployable on large scale clouds. Presently benchmarked on single node Spark cluster with local threads SparkContext and various spark-defaults.conf settings.
 	2.56  Singular Value Decomposition and Principal Component Analysis - R+rpy2 wrapper implementation.
 	2.57 Approximation with a Probability Distribution – Kullback-Leibler Divergence
@@ -269,7 +273,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.64 Perl WordNet::Similarity support and WordNet hypernym-hyponym path subroutine for 2 text words.
 	2.65 Bitonic Sort implementation – Serial and Parallel on Spark – This can be used as a bigdata sorting tool for numeric data which is in NC when run on Cloud and is O(nlogn) in serial. In the absence of PRAM implementation, NC Bitonic Sort has been invoked as a suitable alternative in parallel tile merge sort step of Parallel Discrete Hyperbolic Factorization Implementation.
 	2.66 Long Term Short Term Memory Recurrent Neural Networks implementation
-	2.67 Reinforcement Learning – Monte Carlo Policy Search implementation and ThoughtNet evocative actions based implementation
+	2.67 Reinforcement Learning – Contextual Multi Armed Bandit Evocation based on ThoughtNet - Monte Carlo Policy Search implementation and ThoughtNet evocative actions based implementation
 	2.68 File and Neo4j Graph Database ThoughtNet hypergraph storage backend (which can be generalized to store any graph relations including WordNet subgraphs constructed by Recursive Gloss Overlap and can be queried in NoSQL)
 	2.69 Automatic ThoughtNet Hypergraph Creation from Recursive Gloss Overlap classified edges input from environment.
 	2.70 Software Analytics – Spark computed Cyclomatic Complexity of codebases from VIRGO linux SATURN driver generated .dot graph files
@@ -279,12 +283,12 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.74 ZeroMQ CLI client and server frontend for concurrent requests to NeuronRain 
 	2.75 Kafka Message Queue backend for AsFer datasource abstraction which includes KingCobra request-reply disk persisted queue.
 	2.76 Boyer-Moore Algorithm implementation for finding Majority element in Streaming Sequences.
-	2.77 Graph Mining – GSpan algorithm implementation for graph substructure mining
+	2.77 Graph Mining – GSpan algorithm implementation for graph substructure mining – for extracting patterns in text-graphs and ThoughtNet/EventNet Graphs.
 	2.78 ThoughtNet Hypergraph Evocation based Recommender Systems Implementation
 	2.79 Software Analytics – by Deep Learning (Convolution, RecurrentLSTM, RecurrentGRU, BackPropagation) from system performance logs
 	2.80 Polynomial representation of text strings and distance measures based on it (L2 norms and Jensen-Shannon divergence) – alternative to edit distance
 	2.81 Polynomial Reconstruction – Error correcting codes – BerlekampWelch decoder implementation
-	2.82 Polynomial Time Approximation Scheme CNF SAT Solver – solves CNF SAT with high probability depending on error of least squares algorithm
+	2.82 Approximate polynomial time 3SAT Solver – solves 3SAT with high probability depending on error of least squares algorithm (LSMR and LSQR)
 	2.83 Java Spark Streaming and ETL for analyzing generic arbitrary URL data – extracts text from any URL with Jsoup and does Spark Dstream and RDD transformations and actions on it.
 	2.84 Deep Learning – Convolution Networks + Backpropagation Multilayered Neural Networks implementation for image pattern recognition(PILlow imaging library support).
 	2.85 Deep Learning – Recurrent Neural Networks – Gated Recurrent Unit implementation
@@ -296,15 +300,30 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.91 Graph Theoretic alternative instrinsic measures for Recursive Gloss Overlap Graph based on Kleinberg small world lattice, Cheeger Constant
 	2.92 Index implementation for crawled documents with LocalitySensitiveHashing-Redis key-value store and ThoughtNet Hypergraph as backends
 	2.93 Small World Indexless Hyperball web crawler – based on Stanley Milgram, Kleinberg lattice Small world experiments and Hyperball algorithm.
-	2.94 Recursive Lambda Function Growth – maps text to a neural network - Graph Tensor Neuron Network which is amalgamation of Graph Neural Network and Tensor Neuron Network for evaluation of lambda function composition tree for each random walk in Recursive Gloss Overlap Graph of a text
+	2.94 Recursive Lambda Function Growth – maps text to a neural network - Graph Tensor Neuron Network Intrinsic Merit which is amalgamation of Graph Neural Network and Tensor Neuron Network for evaluation of lambda function composition tree for each random walk in Recursive Gloss Overlap Graph of a text – supports both WordNet and ConceptNet
 	2.95 ThoughtNet Index and LSH Index Query from GUI and Rank text by Graph Tensor Neuron Intrinsic Merit and Korner Entropy
 	2.96 Unguided Text Summarization – based on Unsupervised Recursive Gloss Overlap graph core number classifier: traversal of k-core subgraph and sentences related to prominent core number class vertices 
-	2.97 ConceptNet 5.4 Python RESTful Client implementation (a potential alternative to WordNet)
+	2.97 ConceptNet 5.6 Python RESTful Client implementation (a potential alternative to WordNet) – contains a Common Ancestor algorithm implementation for ConceptNet distance based on /related ConceptNet (word2vec word embedding for similarity) REST endpoint
 	2.98 Unsupervised text classifier by ranking based on Betweenness Centrality, Closeness Centrality, Degree Centrality of the word vertices in Recursive Gloss Overlap graph of texts.
 	2.99 Scheduler Analytics from Deep-learnt process performance data for VIRGO Linux Kernel Scheduler (kernel_analytics VIRGO module)
 	2.100 Expander graphs - Graph Density (regularity lemma) and Bose-Einstein Condensation Intrinsic Fitness merit measures for Recursive Lamba Function Growth definition graphs of a text
 	2.101 MAX3CNFSAT ranking of intrinsic merit which unifies outcomes of all intrinsic merit algorithms as variables in a satisfiability CNF and approximately solves it by least squares solver.
 	2.102 Support Vector Machines Python Implementation
+	2.103 Computational Geometric Factorization - Spark Implementation of Optimized Parallel Local Binary Search of Pixelated Hyperbolic Arc Tile Intervals for Factor points – found to be faster than Bitonic K-MergeSort based Factorization in dual core single node Spark cluster benchmarks
+	2.104 Compressed Sensing – Compressed Sketch of an image bitmap – by Moore-Penrose Pseudoinverse
+	2.105 Non-trivial Proof-of-Work (recreate hash till it has 2 leading ff in hex) and Boost UUID hash (unique id concatenated with denomination) for fictitious Electronic Currency implementation in KingCobra (named “Neuro”) 
+	2.106 Neuro currency C++ move semantics - Option to choose between std::move and std::forward of rvalue reference + std::move in zero-copy Perfect Forwarding of Neuro currency message over cloud
+	2.107 Complement Function Map construction - Diophantine Representation by SymPy Sum of Four Squares Diophantine Solver – for https://arxiv.org/abs/1106.4102v1
+	2.108 Transactional and Secure Neuro Currency Perfect Forward – Neuro cloud std::move has been openSSL enabled and done in Python transaction manager boundary begin()/commit()
+	2.109 Implementation of Locality Sensitive Hashing based Algorithm for searching Unsorted Lists by dimension lift of one dimensional numerical dataset (similar to Mercer polynomial kernel)
+	2.110 Socket Streaming Generic Server Decorator for Streaming Analytics – iterator function has to be implemented for a datasource and must be decorated by this Generic Socket Server – userspace counterpart of streaming kernel analytics in VIRGO64
+	2.111 Sequential Optimization algorithm for Computational Geometric Factorization
+	2.112 Integer Factorization by Brahmagupta/Pell Diophantine Equation Solver
+	2.113 Computational Geometric Factorization - Approximate and sometimes exact Integer Factoring by Hardy-Ramanujan Ray Shooting Queries
+	2.114 Recursive Lambda Function Growth – Rich Club Coefficient and Simple Cycles based graph tensor neuron intrinsic merit
+	2.115 Computational Geometric Factorization – Approximate Integer Factoring by Hardy-Ramanujan-Prime Number Theorem, Cramer and Baker-Harman-Pintz prime factors estimate ray shooting queries
+	2.116 ThoughtNet and Recursive Lambda Function Growth integration – ThoughtNet hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
+	2.117 Epsilon bias non-uniform choice of literals for unequal number of variables-clauses and New efficiency measure for LSMR/LSQR SAT solver – real parity
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -321,30 +340,31 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 	3.5 		Example unit test cases
 	3.6 		Usermode output redirected logging feature for Kernel upcall to Userspace
 	3.7 		Intermodule Function Invocation in Kernel Space - through which any machine on cloud can be completely remote-controlled deep upto board and hardware cards through function names or commands sent through virgo_clone() calls.
-3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
-3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
-3.10 Queueing Driver - that implements a wrapper over linux workqueue and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
-3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
-3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
-3.13 A config driver - for exporting config symbols 
-3.14 Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
-3.15 Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
-3.16 Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
-3.17 From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
-3.18 Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
-3.19 Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
-3.20      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
-3.21 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
-3.22     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
+        3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
+        3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
+        3.10 Queueing Driver - that implements a wrapper over linux workqueue and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
+        3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
+        3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
+        3.13 A config driver - for exporting config symbols 
+        3.14 Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
+        3.15 Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
+        3.16 Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
+        3.17 From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
+        3.18 Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
+        3.19 Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
+       3.20      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
+       3.21 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
+       3.22     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
 	3.23     64 bit version of VIRGO Linux kernel based on mainline 4.13.3 kernel (in a separate repository) is in separate repository and has been found to be better performing and stabler than VIRGO 32bit. 
-	3.24    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch - VIRGO_KTLS.
+	3.24    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch – VIRGO_KTLS.
+	3.25   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
 
 VIRGO enables viewing entire cloud as a single “logical machine” upto hardware level with machine learning support by implementing lowlevel primitives that can be invoked by highlevel cloud OS components viz., OpenStack Neutron. This differentiates from other cloud libraries which are in userspace mostly. AstroInfer together with KernelAnalytics-VIRGO-USBmd-KingCobra make it a Cloud OS kernel with Machine Learning and Analytics abilities. Support for  mobile operating systems in cloud are, among other things, long term goals for VIRGO. 
 (Latest NeuronRain VIRGO research version Code at sourceforge repositories: https://sourceforge.net/projects/virgo-linux/ , https://sourceforge.net/projects/virgo64-linux/ and periodically updated Design details at: https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virgo-docs/VirgoDesign.txt ,  http://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/virgo-docs/VirgoDesign.txt)
 (Latest NeuronRain VIRGO enterprise version Code at github repositories: VIRGO – https://github.com/shrinivaasanka/virgo-linux-github-code , https://github.com/shrinivaasanka/virgo64-linux-github-code and periodically updated Design details at: https://github.com/shrinivaasanka/virgo64-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt, https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt)
 Design started in 2008. 
 
-4.  USBmd (subsystem of NeuronRain) - Linux kernel USB device driver module for debugging USB issues using machine learning algorithms for fault detection  :
+4.  USBmd (subsystem of NeuronRain) - Linux kernel USB device driver module for debugging and network analytics  :
 Contains a modified version of Linux kernel mainline USB and USBWWAN broadband modem drivers with debug statements and functions that capture and dump data transfer buffers in kern.logs. These logs are parsed and processed with Apache Spark and other AsFer machine learning algorithms (e.g Streaming Algorithm implementations) to create a debug and traffic analytics for in and out data – a typical software analytics usecase with widespread necessity in anti-cybercrime, anti-theft and anti-virus products:
 	4.1 Mainline USB drivers (USBWWAN, USB serial, USB storage) instrumented with debug statements in URB related functions
 	4.2 Apache Spark Python MapReduce Log Analyzer for kern.log – extracts patterns in USB requests and wireless LAN traffic. By enabling Kernel Address Sanitizer in linux kernel 4.10.3 64 bit code and Spark ETL, USB related kernel function invocations have been profiled.
@@ -356,17 +376,18 @@ http://sourceforge.net/p/usb-md/code-0/HEAD/tree/USBmd_notes.txt )
 (Latest NeuronRain USBmd enterprise version Code at github repositories:  https://github.com/shrinivaasanka/usb-md-linux-github-code , https://github.com/shrinivaasanka/usb-md64-github-code
  and periodically updated Design Details at: https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/USBmd_notes.txt , https://github.com/shrinivaasanka/usb-md64-github-code/blob/master/USBmd_notes.txt). 
 
-5. King Cobra (subsystem of NeuronRain) – Byzantine Distributed Request Servicing and Computational Economics Software with Queueing and Arbiters (that includes a new experimental Electronic Money Protocol – MAC (MessageAsCurrency) Design – which depends on Google Protocol Buffer based Cloud Object Move functionality in AsFer) on either Krishna iResearch intelligent Cloud platform or Hadoop Cluster
+5. King Cobra (subsystem of NeuronRain) – Kernelspace Messaging and Computational Economics Software  that includes a new fictitious Electronic Message Currency – Neuro – which depends on Google Protocol Buffer based Cloud Object Move functionality in AsFer. Flow of such a fictional currency on AsFer EventNet implementation (actors in event vertices are buyers/sellers and direction of flow determines buy/sell) can simulate Economic Markets and Pricing. EventNet is thus equivalent to hyperledgering in other cryptocurrencies and can capture money trail.
 (NeuronRain KingCobra research version sourceforge Repositories - https://sourceforge.net/p/kcobra/ ,  https://sourceforge.net/projects/kcobra64/ and periodically updated design notes at https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDesignNotes.txt,  https://sourceforge.net/p/kcobra/code-svn/KingCobraDesignNotes.txt)
 (NeuronRain KingCobra enterprise version sourceforge Repositories -  https://github.com/shrinivaasanka/kingcobra-github-code , https://github.com/shrinivaasanka/kingcobra64-github-code and periodically updated design notes at https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt,  https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/KingCobraDesignNotes.txt)
 
 Implements a minimal kernelspace and userspace messaging framework using VIRGO cpupooling (virgo_clone) and memory pooling drivers that in turn queues the requests into a kernel workqueue. There is also a standalone VIRGO queue kernel service that listens on the requests without dependencies on VIRGO cpupooling and memorypooling drivers to forward the requests. The VIRGO workqueue handler pops the request from workqueue and invokes KingCobra driver's servicerequest exported function and replies to the publisher and optionally disk persists the incoming requests to filesystem through VFS. Differentiator is KingCobra implements a cloud messaging with a decentralized queue with disk persistence and workflow in kernel level so that hardware is easily integrated into cloud:
 	5.1 Linux Kernel workqueue based kernelspace pub-sub kernel module - Receives Messages from VIRGO Queuing 
-	5.2 Atomic Cloud Move for Message As Currency (MAC) electronic money is implemented In AsFer in C++ client-server perfect forwarding
+	5.2 Atomic Cloud Move for Neuro (Message As Currency) electronic money is implemented In AsFer in C++ client-server perfect forwarding (overloaded std::move() and std::forward()) 
 	5.3 Userspace JMS pub-sub client-server
 	5.4 Pricing – CVXPY implementation - Eisenberg-Gale Market Equilibrium Convex Optimization for finding Market Clearing Prices for Goods and Services. Replacing Prices by Perceived Merit translates Market Equilibrium to Intrinsic Merit Versus Perceived Ranking Equilibrium.
 	5.5 Disk persistence of Request-Reply queues.
 	5.6 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
+	5.7 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
 
 
 6. acadpdrafts - All publications and drafts with code  (along with important documents and Photo ID proofs) are uploaded at http://sourceforge.net/projects/acadpdrafts/
@@ -564,8 +585,8 @@ Created a Resume Querying System using JDBC with Oracle Backend for Sun Microsys
 
 Official Training Courses (SunU)
     1.  Solaris internals
-2. Multithreaded Application development in Solaris
-3. SOLARIS DEVICE DRIVER INTERNALS
+    2. Multithreaded Application development in Solaris
+    3. SOLARIS DEVICE DRIVER INTERNALS
 
 
 

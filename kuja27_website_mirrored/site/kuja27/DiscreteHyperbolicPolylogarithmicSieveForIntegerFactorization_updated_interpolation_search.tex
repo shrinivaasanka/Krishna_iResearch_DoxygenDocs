@@ -1,0 +1,188 @@
+\documentclass[11pt,onecolumn]{article}
+\author{ Ka.Shrinivaasan (ka.shrinivaasan@gmail.com) }
+\title{Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization - using Interpolation Search (Draft)}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{abstract}
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+\maketitle
+\begin{onecolabstract}
+Best known algorithm for factorization is the General number field sieve algorithm which takes time
+exponential in number bits in the input or simply called exponential algorithm. In this article, a polylogarithmic time (in size of input) sieve for factorization is discussed that uses elementary principles.
+\end{onecolabstract}
+
+\section{Discretization of a hyperbolic arc}
+\begin{enumerate}
+\item A plot of a hyperbolic function is ($xy = N$) drawn on a 2-dimensional plane. This plot of hyperbola is continuous. This hyperbola can be discretized (or tesselated) with set of rectangles that cover the hyperbolic arc. 
+\item Discretization step divides the x-axis of the hyperbola into $log^{c}N$ intervals where each interval is of length $N/log^{c}N$. Infact it suffices to calculate upto $\sqrt{N}$ length along the x-axis since atleast 1 factor must lie within $\sqrt{N}$.Correspondingly the y-axis is also split into intervals whose width is $y*\sqrt{N}/(xlog^{c}N+\sqrt{N})$ where $(x,y)$ are coordinates of topleft corners of each rectangle.
+\item The constant c is chosen to be quite large so as to shrink the size of each rectangle as much as possible.Thus each rectangle is of length $\sqrt{N}/log^{c}N$ and width $y*\sqrt{N}/(xlog^{c}N+\sqrt{N})$ where $(x,y)$ are coordinates of topleft corners of each rectangle. The factors (say p,q) of N are sure to be present within one of the rectangles if N is composite. Algorithm then is to sieve out rectangles to get to the factors. Looping through $log^{c}N$ rectangles takes time $O(log^{c}N * TimePerRectangle)$.
+\item Within each rectangle,the values of coordinates are hypothetically considered to be products of x and y coordinates. This is just supposed to exist and no lookup table or memoization is needed (though it can be made into a dynamic programming recurrence algorithm if knowledge of factors of numbers lower than N is assumed). To find the coordinates where N is located within the rectangle, Interpolation search, a variant of binary search that takes $loglogN$ time on the average, is applied on the coordinate products with some specialized modifications as described in next section below.  
+\item The line equation corresponding to leading diagonal within each rectangle obtained previously, intersects with the hyperbola,thereby creating a bow-shaped area (hemmed between hyperbolic arc and diagonal) of coordinate products within each rectangle.This bow shaped area is only a small percentage of the area of each rectangle.
+\item The row slices of coordinate products within this bow shaped area are in sorted order from left to right. Also the coordinate products in diagonal of the rectangle from bottom-left to top-right of each rectangle are in sorted ascending order. Thus searching these row slices of coordinate products (with some constant extension to each slice on leftside) within each rectangle is sufficient to sieve out the factors.
+\end{enumerate}
+
+\section{Interpolation search on the above bow-shaped area within each rectangle}
+\begin{enumerate}
+\item The hyperbolic bow arc area obtained above can be searched with interpolation search on each of the row slice within a rectangle (along the y-axis).
+\item \begin{verbatim}
+Functions InterpolationSearchSubroutine(xleft, yleft, xright, yright)
+{
+	if(yleft == yright) //horizontal scan on a row slice yleft==yright
+	{
+		if (xleft+xright)/2 * yleft == N
+		{
+			return (xleft+xright)/2, yleft as factors of N
+		}
+		else if (xleft + xright)/2 * yleft > N
+			InterpolationSearchSubroutine(xleft, yleft, (xleft+xright)/2, yright)
+		else
+			InterpolationSearchSubroutine((xleft+xright)/2, yleft, xright, yright)
+	}
+}
+\end{verbatim}
+\end{enumerate}
+
+\section{Discrete Hyperbolic Polylogarithmic Sieve for Integer Factorization - Algorithm Steps}
+\begin{enumerate}
+\item Before the factorization loop starts for a number N to be factorized, the constant c has to be chosen suitably. This constant decides the parallelism as described later.
+\item Split interval $[0-N]$ into $log^{c}N$ intervals of width $N/log^{c}N$ each.
+\item For each of $log^{c}N$ rectangle of width $N/log^{c}N$ and height $y*\sqrt{N}/(xlog^{c}N + \sqrt{N})$ where $(x,y)$ is the coordinate of top-left corner of each rectangle, compute the following loop:
+\begin{enumerate}
+\item By Interpolation Search, using InterpolationSearchSubroutine described above, search each row slice within the bow shaped area confined within the hyperbolic area and the diagonal of the rectangle.
+\item Output $p,q (pq=N)$ if found in previous step and break; else continue loop
+\end{enumerate}
+\end{enumerate}
+Low level calculations are derived later and also described in attached handwritten notes in appendix. This algorithm takes average upperbound time of $O(log^{c}N * loglogN)$.
+
+
+\section{Implications}
+As a consequence of this polylog algorithm for factorization, RSA cryptosystem's large prime key-pair can be found in polynomial time by factorization for which till now there are only BQP quantum polynomial algorithms available. Hence factorization in P implies probably that $BQP=P$ (if factorization is BQP-complete) since there is only a quantum polynomial algorithm for factorization and implies therefore that $BPP=P$ since BQP contains BPP (implying pseudorandomness and determinism are equivalent in computational power). This algorithm outputs all factors of an integer within polylogarithmic time in input bits and as a special case this is also a polynomial time primality test similar to PRIMES in P (AKS).
+\section{Derivation of the upperbound time for discrete hyperbolic factorization}
+\begin{theorem}
+Discrete Hyperbolic Polylogarithmic Factorization has an average upperbound running time of $O(log^{2c+2}N)$
+\end{theorem}
+\begin{proof}
+Area of hyperbolic bow area per rectangle = Area of rectangle - Area of hyperbolic arc(obtained by area definite integral) \
+
+=$(1/2*N/log^{c}N * y_{1} \sqrt{N})/(2*log^{c}N*(x_{1}log^{c}+sqrt(N))) - N log(x_{1} + N/log^{c}N) + Nlogx_{1}$
+
+Dividing above bow area by y-axis side of the rectangle $deltay$ gives average length of each hyperbolic row slice within bow: 
+$((1/2*N/log^{c}N * y_{1} \sqrt{N})/(2*log^{c}N*(x_{1}log^{c}+sqrt(N))) - N log(x_{1} + N/log^{c}N) + Nlogx_{1})/(y_{1}*\sqrt(N)/(x_{1}* (log^{c}N) + \sqrt(N)))$
+
+The above is average length of each hyperbolic row slice within bow area that needs to be interpolation searched. Time taken for interpolation search of row slice that is in ascending order from left to right will be $loglog(above expression)$:
+
+$loglog(((1/2*N/log^{c}N * y_{1} \sqrt{N})/(2*log^{c}N*(x_{1}log^{c}+sqrt(N))) - N log(x_{1} + N/log^{c}N) + Nlogx_{1})/(y_{1}*\sqrt(N)/(x_{1}* (log^{c}N) + \sqrt(N)))
+)$ 
+
+Above term can be upperbounded as follows ignoring some subtraction and division terms:
+
+$Above expression \le loglog(((1/2*N/log^{c}N * y_{1} \sqrt{N})/(2*log^{c}N*(x_{1}log^{c}+sqrt(N))) + Nlogx_{1})/(y_{1}*\sqrt(N)/(x_{1}* (log^{c}N) + \sqrt(N)))
+)$
+
+$Above expression \le loglog((N * y_{1} \sqrt{N}) + Nlogx_{1})*2*log^{c}N*(x_{1}log^{c}N+\sqrt(N))/(2*log^{c}N*y_{1}*\sqrt(N)))
+)$
+
+$Above expression \le loglog((N/2log^{c}N) + (Nlogx_{1}(x_{1}log^{c}N+\sqrt(N)))/(y_{1}*\sqrt(N))$
+Since $y_{1}=N/x_{1}$,
+$Above expression \le loglog((N/2log^{c}N) + (x_{1}*logx_{1}(x_{1}log^{c}N+\sqrt(N)))/(\sqrt(N))$
+
+$x_{1}$ can take $\sqrt{N}$ as maximum (if only $\sqrt(N)$ fraction of x-axis is scanned with rectangular sieves):
+
+$Above expression \le loglog((N/2log^{c}N) + (log\sqrt{N}(\sqrt{N}log^{c}N+\sqrt(N))))$
+
+$Above expression \le loglog(N + (\sqrt{N}/2)(log^{c+1}N+log(N)))$
+
+$Above expression \le loglog(2*N*log^{c+1}N)$
+
+$Above expression \le loglog(2*N*log^{c+1}N)$ or $loglog(2*N(c+1)*logN)$
+
+Thus time per row slice interpolation search per rectangle is upperbounded by:
+
+\emph{$loglog(q*N*logN)$ for $q=2c+2$}
+
+Multiplying above upperbound for $deltay_{i}$ rows within each $rectangle_{i}$ and for all $log^{c}N$ rectangles, gives the total running time:
+
+$\sum_{N/log^{c}N}^{N}$ $N\sqrt(N)/(x_{1}(x_{1}log^{c}N+\sqrt(N)))$ with $deltax = N/log^{c}N$
+
+Ignoring $x_{i}=1$ consecutive $x_{i}(s)$ are: (each rectangle is $N/log^{c}N$ wide)
+
+$N/log^{c}N$,$2N/log^{c}N$,$3N/log^{c}N$,...,$(log^{c})N/log^{c}N$
+
+Above summation can be reduced as:
+
+$N\sqrt(N)*[(1/(N/log^{c}N(N/log^{c}N * log^{c}N + \sqrt(N))) + ...]$
+
+$N\sqrt(N)*log^{c}N/N *(1/(N+\sqrt(N))+1/(2(2N+\sqrt(N))+...+1/(log^{c}N(log^{c}N*N+\sqrt(N)))$ \
+
+$aboveexpression \le log^{c}N(1/\sqrt(N)+1/(2^{2}\sqrt(N))+1/(3^{2}\sqrt(N))+...+1/(log^{2c}N\sqrt(N)))$ \
+
+$aboveexpression \le log^{c}N(1+1/(2^{2})+1/(3^{2})+...+1/(log^{2c}N))$ \
+
+$aboveexpression \le (log^{c}N/\sqrt(N))*RiemannZetaFunction(s=2)$ \
+
+$above expression \le (log^{c}N/\sqrt(N)) * (\pi^{2}/6)$
+
+Thus total time for interpolation search of all row  slices within all rectangles is :
+$O((log^{c}N/\sqrt(N))*3loglog(q*N*logN)$ or simply $O((log^{c}N*loglog(N))$
+
+Above has excluded the strip of x-axis from 1 to $N/log^{c}N$. This is just because it suffices to start the tesselation from some point on x-axis that is less than $\sqrt(N)$ rather than from 1 and upto N. Also it helps in getting to Riemann Zeta Function with $s=2$ to upperbound the summation. With this atleast 1 factor can be sieved out and to extract all factors above algorithm is recursively applied by dividing with already found factors. This process is only polynomial in logN. Such a point can be found by suitably approximating the square root (actual square root finding is factorization-hard) and finding c. In other words:
+
+Find c such that, $\sqrt(N) > N/log^{c}N$ or $log^{c}N > \sqrt(N)$ which reduces to:
+$c > logN/2loglogN$.Before starting factorization such a constant c can be found satisfying above inequality. 
+
+
+If approximate square root finding is not preferable, above algorithm can be recursively applied to the strip of x-axis from $1$ to $N/log^{c}N$. This would give a series summation of upperbounds as:
+$S=O(log^{c}N) +O(log^{c}(N/log^{c}N)) + O(log^{c}(N/log^{2c}N)) +...+O(log^{c}(N/log^{qc}N))$
+
+$S = O(log(N) +log(N/log^{c}N) + ... + log(N/log^{qc}N))^{c+1}$
+
+$S = O((q+1)log(N))^{c+1}$
+
+The above recursion stops when $log(N/log^{qc}N) = log 1 = 0$.
+
+Solving for q:
+
+$N = log^{qc}N$
+
+$log(N) = qc(loglog(N))$
+
+$q = logN/(cloglogN)$. Thus recursion stops after q iterations.
+
+$S = O((logN/cloglogN + 1)logN)^{c+1}$
+
+Hence total running time is $O(((logN/cloglogN + 1)^{c+1}(logN)^{c+1})$ or $O(log^{2c+2}N)$ with no restriction on choice of constant c. Value for c gives some flexibility in deciding the number of rectangles that tesselate the hyperbola.If we have $log^{c}N$ number of processors which would imply an NC circuit, above factorization loop can infact be done using a logdepth, bounded width NC1 circuit with each rectangle assigned to one processor (if interpolation search per bow arc area within each rectangle is also in logdepth) and constant c decides the extent of parallelism.
+
+
+Thus above series obviously converges with only polylog recursive iterations and thus total time taken is still polylog in input size.This proves the correctness of the polylog upperbound for Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization.
+
+\end{proof}
+\section{Acknowledgement}
+I dedicate this article to God.
+
+\section{Appendix 1 - Handwritten calculations for lowerbound derivation}
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_1.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_2.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_3.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_4.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_5.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2/DiscreteHyperbolicFactorization_interpolationsearch_calculations_updatedversion_2_6.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_updatedroughnotes_2013-06-23/DiscreteHyperbolicFactorization_updatedroughnotes_23June2013_1.jpg} 
+\includegraphics[scale=1]{DiscreteHyperbolicFactorization_updatedroughnotes_2013-06-23/DiscreteHyperbolicFactorization_updatedroughnotes_23June2013_2.jpg} 
+\section{Bibliography}
+\begin{thebibliography}{99}
+\bibitem{pa} Elementary algebraic and geometric principles
+\bibitem{pa} Binary Search, Interpolation Search
+\bibitem{pa} Riemann Zeta Function 
+\end{thebibliography}
+\end{document}
+

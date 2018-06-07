@@ -321,7 +321,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.112 Integer Factorization by Brahmagupta/Pell Diophantine Equation Solver
 	2.113 Computational Geometric Factorization - Approximate and sometimes exact Integer Factoring by Hardy-Ramanujan Ray Shooting Queries
 	2.114 Recursive Lambda Function Growth – Rich Club Coefficient and Simple Cycles based graph tensor neuron intrinsic merit
-	2.115 Computational Geometric Factorization – Approximate Integer Factoring by Hardy-Ramanujan-Prime Number Theorem, Cramer and Baker-Harman-Pintz prime factors estimate ray shooting queries
+	2.115 Computational Geometric Factorization – Approximate Integer Factoring by Hardy-Ramanujan-Prime Number Theorem, Cramer, Baker-Harman-Pintz, Zhang prime factors estimate ray shooting queries
 	2.116 ThoughtNet and Recursive Lambda Function Growth integration – ThoughtNet hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
 	2.117 Epsilon bias non-uniform choice of literals for unequal number of variables-clauses and New efficiency measure for LSMR/LSQR SAT solver – real parity
 

@@ -17,7 +17,8 @@ NeuronRain repositories are in:
 
 	(*) http://sourceforge.net/users/ka_shrinivaasan - Astronomy and Research version
 
-	(*) https://github.com/shrinivaasanka - Enterprise version
+	(*) https://github.com/shrinivaasanka - Enterprise version 
+	(replicated in https://gitlab.com/shrinivaasanka)
    
 NeuronRain - Features:
 ----------------------

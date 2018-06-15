@@ -324,6 +324,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.115 Computational Geometric Factorization – Approximate Integer Factoring by Hardy-Ramanujan-Prime Number Theorem, Cramer, Baker-Harman-Pintz, Zhang prime factors estimate ray shooting queries
 	2.116 ThoughtNet and Recursive Lambda Function Growth integration – ThoughtNet hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
 	2.117 Epsilon bias non-uniform choice of literals for unequal number of variables-clauses and New efficiency measure for LSMR/LSQR SAT solver – real parity
+	2.118 Scheduler Analytics – Deep Learning (GRU,ConvNet,BackPropagation,LSTM) Scheduler Class analytics for process performance stream dataset created from Psutils and Graphic performance stream dataset (stream of images) created from Perf/BPF
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

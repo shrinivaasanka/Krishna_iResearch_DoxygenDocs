@@ -18,7 +18,7 @@ records :		K.Srinivasan (academics, BaaN,Sun
 			CMI), Ka.Shrinivaasan (Global Analytics)
 Personal website(research) :- https://sites.google.com/site/kuja27/
 Krishna iResearch Open Source: https://sourceforge.net/users/ka_shrinivaasan,
-                                          https://github.com/shrinivaasanka
+                                          https://github.com/shrinivaasanka									(replicated in https://gitlab.com/shrinivaasanka)
 
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
 Date of Birth as per records: 19 May 1977 
@@ -192,7 +192,7 @@ LANGUAGES/PLATFORMS/TOOLS
 C/C++, Java 1.5-1.8, J2EE, Python, R and rpy2, Haskell, Solaris 6-10, Windows 2000, HP-UX 11.23 (PA-RISC and IA64),AIX, Linux, Sun Studio, CORBA (Visibroker), VAX FORTRAN, VAX VMS, GNU collection, MS Visual Studio .NET C++, WinDbg, DDD, Visual Basic and ASP, OptimizIt, Eclipse, EclipseCDT, Code::Blocks, ActiveState Python, Cython, IDLE, Haskell FP, Insight, GreatCircle, Valgrind, Callgrind, Python Dumbo MapReduce on Hadoop, Python NLTK, Java MapReduce on Hadoop, Apache HBase, Apache Pig, Apache Hive, Apache Cassandra, Apache Mahout, Apache Spark, Pygraphs, GraphViz, DOT, PiCloud, ActiveMQ, RabbitMQ, Pyutilib workflow, PyF workflow, Linux kernel – [3.2.0, 3.7.8, 3.9.x,3.15.5,4.0.5,4.1.5,4.10.3,4.13.3], Maitreya's Dreams 7.0.3, wxWidgets library, Swiss Ephemeris API (based on NASA JPL DE406 Ephemeris), BioInformatics Sequence Alignment Tools (BioPython, ClustalOmega), ROOT(CERN), Geolocation Python API, Beautiful Soup, CRF tools, GATE, SentiWordNet, Stanford CoreNLP, ENT, MongoDB, WEKA, Jinja2,Flask,Cloud related - Corestack, Openstack, Mistral, Jclouds, Libcloud, Docker etc.,Tornado,ZeroMQ,Kafka
 
 
-May 2003 – present – Krishna iResearch (parallel, self-started, not-for-profit, non-funded, open-source long-term research initiative) - https://sourceforge.net/users/ka_shrinivaasan and replicated at  https://github.com/shrinivaasanka
+May 2003 – present – Krishna iResearch (parallel, self-started, not-for-profit, non-funded, open-source long-term research initiative) - https://sourceforge.net/users/ka_shrinivaasan , https://github.com/shrinivaasanka ,https://gitlab.com/shrinivaasanka
 
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 . This is not a commercial startup yet. Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
@@ -325,6 +325,9 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.116 ThoughtNet and Recursive Lambda Function Growth integration – ThoughtNet hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
 	2.117 Epsilon bias non-uniform choice of literals for unequal number of variables-clauses and New efficiency measure for LSMR/LSQR SAT solver – real parity
 	2.118 Scheduler Analytics – Deep Learning (GRU,ConvNet,BackPropagation,LSTM) Scheduler Class analytics for process performance stream dataset created from Psutils and Graphic performance stream dataset (stream of images) created from Perf/BPF
+	2.119 Social Network Analysis - Facebook Graph REST API Analytics on Python 3.4 
+	2.120 Quantum NC algorithm for Computational Geometric Factorization – counterpart of classical PRAM-NC k-mergesort/segment-tree Computational Geometric Factorization
+	2.121 Deep Learning – Reinforcement Learning Recommender Systems and Recursive Lambda Function Growth integration – Recommender systems hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

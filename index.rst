@@ -361,6 +361,10 @@ Personal website(research): https://sites.google.com/site/kuja27/, https://githu
 emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
 Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
+
+**How applicable is NeuronRain for Drones?**
+
+Drones have distinct software and hardware for mission plan (route map), flight and ground control often different from mainstream linux kernel. Mission plans are uploaded to drone by special protocols like MAVlink and userspace SDKs are available for it. Drone control userspace C++ code example in https://github.com/Dronecode/DronecodeSDK/blob/develop/example/fly_qgc_mission/fly_qgc_mission.cpp uses DronecodeSDK in userspace and there is no necessity for kernel_analytics kernel module to read analytics variables into kernelspace from userspace Machine Learning code. Application code can directly instantiate /etc/kernel_analytics.conf File locally/Socket Streaming Iterable in https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/python-src/Streaming_AbstractGenerator.py on a remote host and at port 64001 (in Python) and read analytics variables for drone navigation augmenting flight plan - Quite useful when static mission plans require dynamic changes after upload to drone e.g Military Reconnaissance, Autonomous Combat, Autonomous Online Shopping Delivery.
  
 **Can NeuronRain be deployed on Mobile processors?**
 

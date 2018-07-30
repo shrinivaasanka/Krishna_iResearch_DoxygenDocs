@@ -330,7 +330,15 @@ All repositories of NeuronRain Sourceforge and GitHub excluding Grafit course ma
 
 **Who owns NeuronRain repositories?**
 
-NeuronRain GitHub and SourceForge repositories licenses are owned by:
+NeuronRain GitHub, GitLab and SourceForge repositories licenses for Krishna iResearch Open Source Products repositories at:
+http://sourceforge.net/users/ka_shrinivaasan,
+https://github.com/shrinivaasanka,
+https://gitlab.com/shrinivaasanka,
+https://www.openhub.net/accounts/ka_shrinivaasan
+Personal website(research): https://sites.google.com/site/kuja27/, https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/
+
+are owned by:
+-------------
 
 P.R.S.Kannan,
 172, Gandhi Adigal Salai,
@@ -339,11 +347,12 @@ Tamil Nadu, India.
 
 Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain GitHub Grafit Open Learning Course Notes: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html
 
-GPL v3.0 for other NeuronRain GitHub and SourceForge repositories: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html
+GPL v3.0 for other NeuronRain GitLab, GitHub and SourceForge repositories: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html
 
-Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitHub and SourceForge source code files.
+Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitLab, GitHub and SourceForge source code files.
 
 and contributed by:
+-------------------
 
 K.Srinivasan
 S/O.P.R.S.Kannan,
@@ -351,16 +360,9 @@ S/O.P.R.S.Kannan,
 172, Gandhi Adigal Salai,
 Kumbakonam - 612001.
 Tamil Nadu, India.
-
-Krishna iResearch Open Source Products Profiles:
-http://sourceforge.net/users/ka_shrinivaasan,
-https://github.com/shrinivaasanka,
-https://www.openhub.net/accounts/ka_shrinivaasan
-Personal website(research): https://sites.google.com/site/kuja27/, https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/
-
 emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
-Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
+Name "Krishna iResearch" is not commercially registered but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/ProductOwnerProfile_With_FunctionalityDescription.pdf.
 
 **How applicable is NeuronRain for Drones?**
 

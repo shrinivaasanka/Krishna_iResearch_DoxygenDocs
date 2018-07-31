@@ -337,8 +337,7 @@ https://gitlab.com/shrinivaasanka,
 https://www.openhub.net/accounts/ka_shrinivaasan
 Personal website(research): https://sites.google.com/site/kuja27/, https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/
 
-are owned by:
--------------
+**are owned by:**
 
 P.R.S.Kannan,
 172, Gandhi Adigal Salai,
@@ -351,8 +350,7 @@ GPL v3.0 for other NeuronRain GitLab, GitHub and SourceForge repositories: https
 
 Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitLab, GitHub and SourceForge source code files.
 
-and contributed by:
--------------------
+**and contributed by:**
 
 K.Srinivasan
 S/O.P.R.S.Kannan,

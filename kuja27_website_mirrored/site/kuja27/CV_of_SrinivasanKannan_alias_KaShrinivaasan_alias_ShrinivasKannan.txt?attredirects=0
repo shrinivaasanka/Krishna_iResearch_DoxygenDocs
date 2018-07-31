@@ -73,11 +73,14 @@ RESEARCH STATEMENTS:
 6. Research Statement 3 – with some proof sketches - https://sites.google.com/site/kuja27/Research_Writeup.pdf?attredirects=0&d=1
 
 
-Most recent draft updates to all publications previously and earlier drafts below - in text format - nonlinear theoretical writeups interspersed between NeuronRain AsFer code commits in SourceForge and GitHub:
-Complexity Theoretic Analysis of Non-majority and Majority Social Choice, Pseudorandomness, Goodness of Voting and Condorcet Jury Theorem, Complement Function, Ramsey coloring of sequences, Diophantine Analysis, Riemann Zeta Function, Hypergeometric Functions, Graph theoretic/Computational linguistic/Interview Intrinsic Merit/Fitness and Experiential Learning in the context of WWW (mostly text analysis) and Social networks, Algorithmic Graph Theoretic Learning Models, Computational Learning Theory, Flow Market Equilibrium and Merit Equilibrium, Neural Networks and Deep Learning, Quantum mechanics and Intrinsic Fitness, Locality Sensitive Hashing, Tabulation Hashing, Integer Partitions, Space filling/Tiling/Packing, Satisfiability (CNFSAT and QBFSAT), Linear and Convex-Concave Programming, Computational Geometric Integer Factoring and Connections amongst them etc.,:
+Most recent draft updates to all publications previously and earlier drafts below - in text format - nonlinear theoretical writeups interspersed between NeuronRain AsFer code commits in SourceForge, GitLab and GitHub:
+Complexity Theoretic Analysis of Non-majority and Majority Social Choice, Pseudorandomness, Goodness of Voting and Margulis-Russo Threshold/Condorcet Jury Theorem, Complement Function, Ramsey coloring of sequences, Diophantine Analysis, Riemann Zeta Function, Hypergeometric Functions, Graph theoretic/Computational linguistic/Interview Intrinsic Merit/Fitness/Fame and Experiential Learning in the context of WWW (mostly text analysis) and Social/Economic networks, Algorithmic Graph Theoretic Learning Models, Computational Learning Theory, Flow Market Equilibrium and Fame/Merit Equilibrium, Neural Networks and Deep Learning, Quantum mechanics and Intrinsic Fitness, Locality Sensitive Hashing and Tabulation Hashing, Integer Partitions, Space filling/Tiling/Packing, Satisfiability (CNFSAT and QBFSAT), Linear and Convex-Concave Programming, Classical NC and Quantum Computational Geometric Integer Factoring and Connections amongst them etc., (most recent draft updates to all publications previously and earlier drafts below - in text format - nonlinear theoretical writeups interspersed between NeuronRain AsFer code commits in SourceForge GitLab and GitHub):
+
 http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
 
 https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
+
+https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
 
 Earlier Drafts:
 
@@ -328,6 +331,8 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.119 Social Network Analysis - Facebook Graph REST API Analytics on Python 3.4 
 	2.120 Quantum NC algorithm for Computational Geometric Factorization – counterpart of classical PRAM-NC k-mergesort/segment-tree Computational Geometric Factorization
 	2.121 Deep Learning – Reinforcement Learning Recommender Systems and Recursive Lambda Function Growth integration – Recommender systems hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
+	2.122 Spark Structured Streaming (Java 1.8 + Spark 2.3.1) for advertisement analytics – periodic word, count, timestamp information in DataFrames
+	2.123 Computational Geometric Factorization Algorithm based on Parallel construction of Wavelet Tree on PRAMs/Multicore
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

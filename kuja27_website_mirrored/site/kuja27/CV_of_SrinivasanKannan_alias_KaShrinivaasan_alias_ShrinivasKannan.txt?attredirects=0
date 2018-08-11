@@ -291,7 +291,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.79 Software Analytics – by Deep Learning (Convolution, RecurrentLSTM, RecurrentGRU, BackPropagation) from system performance logs
 	2.80 Polynomial representation of text strings and distance measures based on it (L2 norms and Jensen-Shannon divergence) – alternative to edit distance
 	2.81 Polynomial Reconstruction – Error correcting codes – BerlekampWelch decoder implementation
-	2.82 Approximate polynomial time 3SAT Solver – solves 3SAT with high probability depending on error of least squares algorithm (LSMR and LSQR)
+	2.82 Approximate polynomial time 3SAT Solver – solves 3SAT with high probability depending on error of least squares algorithm (LSMR/LSQR/CVXOPT)
 	2.83 Java Spark Streaming and ETL for analyzing generic arbitrary URL data – extracts text from any URL with Jsoup and does Spark Dstream and RDD transformations and actions on it.
 	2.84 Deep Learning – Convolution Networks + Backpropagation Multilayered Neural Networks implementation for image pattern recognition(PILlow imaging library support).
 	2.85 Deep Learning – Recurrent Neural Networks – Gated Recurrent Unit implementation
@@ -333,6 +333,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.121 Deep Learning – Reinforcement Learning Recommender Systems and Recursive Lambda Function Growth integration – Recommender systems hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
 	2.122 Spark Structured Streaming (Java 1.8 + Spark 2.3.1) for advertisement analytics – periodic word, count, timestamp information in DataFrames
 	2.123 Computational Geometric Factorization Algorithm based on Parallel construction of Wavelet Tree on PRAMs/Multicore
+	2.124 Latent Semantic Analysis/Indexing of term-document matrices and Low Rank Approximation
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

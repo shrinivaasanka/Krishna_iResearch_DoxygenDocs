@@ -334,6 +334,8 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.122 Spark Structured Streaming (Java 1.8 + Spark 2.3.1) for advertisement analytics – periodic word, count, timestamp information in DataFrames
 	2.123 Computational Geometric Factorization Algorithm based on Parallel construction of Wavelet Tree on PRAMs/Multicore
 	2.124 Latent Semantic Analysis/Indexing of term-document matrices and Low Rank Approximation
+	2.125 Software Analytics – Userspace Runtime FlameGraph (along with Perf) and Valgrind/Callgrind/Kcachegrind Call Graph creation
+	2.126 Software Analytics – Graph Mining of linux kernelspace SATURN Control Flow Graph and userspace Valgrind/Callgrind/Kcachegrind Call Graph DOT files by Gspan algorithm 
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

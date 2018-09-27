@@ -210,21 +210,21 @@ Latest version 2018.03.06:
 	2.3 		Decision Tree Classifier, 
 	2.4 		String mining - Pairwise String Sequence Alignment (Needleman-Wunsch) ,
 	2.5 		String mining - Multiple String Sequence Alignment(BioPython,ClustalOmega), 
-        2.6     String mining - Powerset construction (C++) and String matching implementation in python(Jellyfish distance measures like Jaro-winkler, Edit-distance, Phonetic Matching rate etc.,) and 
-        2.7     Parsers and Encoding features for USGS and NOAA HURDAT2 data
-        2.8     Automated Generation of Training and Test set for Classifiers that segregate the datasets into Event Classes and Automated generation of encoded astronomical object files specific to each Event Class.
-        2.9     Computational Geometric Factorization - Implementation of Bitonic K-MergeSort of Tiles in Pixelated Hyperbolic Arc (Sequential and PRAM) (for drafts in https://sites.google.com/site/kuja27/) - A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
-        2.10     A Concept Hypergraph and HMM(Hidden Markov Model) based Experimental Inference Model Design inspired by Cognitive Psychology – a minimal sentiwordnet evocatives implementation of this sans HMM named ThoughtNet is part of AsFer 
-        2.11     Design for extracting patterns from numerical data
-        2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
-        2.13     Discrete Fourier Transform computation for a parsed numerical input sequence using Python and R
-        2.14     Time Series Analysis - Spline interpolation, LOESS regression, ARMA, Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
-        2.15    An Experimental Text Compression algorithm that uses Hidden Markov Model Maximum Likelihood Estimation based on a String Complexity measure that compresses vowels in text
-        2.16    An Experimental Minimum Description Length implementation that uses the previous string complexity measure, computes MDL using Kraft inequality and Shannon entropy.
-        2.17 Probabilistic Approximate Correct – PAC - Learning Implementation related to http://arxiv.org/abs/1106.4102
-        2.18 Wagner-Fischer edit distance implementation for pairwise similarity of encoded strings
-        2.19 An example implementation of Interview Algorithm and Intrinsic Merit 	Ranking for :
-                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+2.6     String mining - Powerset construction (C++) and String matching implementation in python(Jellyfish distance measures like Jaro-winkler, Edit-distance, Phonetic Matching rate etc.,) and 
+2.7     Parsers and Encoding features for USGS and NOAA HURDAT2 data
+2.8     Automated Generation of Training and Test set for Classifiers that segregate the datasets into Event Classes and Automated generation of encoded astronomical object files specific to each Event Class.
+2.9     Computational Geometric Factorization - Implementation of Bitonic K-MergeSort of Tiles in Pixelated Hyperbolic Arc (Sequential and PRAM) (for drafts in https://sites.google.com/site/kuja27/) - A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
+2.10     A Concept Hypergraph and HMM(Hidden Markov Model) based Experimental Inference Model Design inspired by Cognitive Psychology – a minimal sentiwordnet evocatives implementation of this sans HMM named ThoughtNet is part of AsFer 
+2.11     Design for extracting patterns from numerical data
+2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
+2.13     Discrete Fourier Transform computation for a parsed numerical input sequence using Python and R
+2.14     Time Series Analysis - Spline interpolation, LOESS regression, ARMA, Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
+2.15    An Experimental Text Compression algorithm that uses Hidden Markov Model Maximum Likelihood Estimation based on a String Complexity measure that compresses vowels in text
+2.16    An Experimental Minimum Description Length implementation that uses the previous string complexity measure, computes MDL using Kraft inequality and Shannon entropy.
+2.17 Probabilistic Approximate Correct – PAC - Learning Implementation related to http://arxiv.org/abs/1106.4102
+2.18 Wagner-Fischer edit distance implementation for pairwise similarity of encoded strings
+2.19 An example implementation of Interview Algorithm and Intrinsic Merit 	Ranking for :
+http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
          2.20	   An experimental Expirable Objects implementation 
 	2.21     Linear and Logistic Regression
 	2.22     K-Means clustering implementation
@@ -258,12 +258,12 @@ Latest version 2018.03.06:
 	2.50 Sentiment Analyzer implementation (with RGO algorithm etc.,) for Spidered Texts (e.g streamed news updates) 
 	2.51 Streaming Frequency Estimation (Heavy Hitters) with CountMeanMinSketch implementation
 	2.52 An expanded implementation of Interview Algorithm and Intrinsic Merit Ranking with added complexity-machine learning theoretical analysis for :
-                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
 that ranks a crawled-spidered webpage, writes a DOT file of the graph, visualizes the RGO NetworkX graph in matplotlib, constructs a  junction tree and computes standard qualitative graph complexity measures (viz., connectivity, mincut, treewidth of junction tree etc.,) where  as intrinsic merit is quantitative (depends on number of edges, vertices, extent of overlap and depth of recursion)
 	2.53 A rule search script that sifts through a range of astronomical data (with Maitreya-Swiss Ephemeris) and matches sequence mined rules from past training data to predict future weather phenomena (experimental).
 	2.54 Python Tornado based WebService that exposes REST API via a browser GUI in URL http://host:33333/neuronrain_auth At present a login and simple template that accepts AsFer scripts and arguments as inputs and executes, has been implemented (and an experimental redundant AngularJS client interface)  With this NeuronRain is a SaaS and PaaS product that can be deployed on Cloud OS and Containers like Docker.
          2.55 Apache Spark MapReduce implementation of Interview Algorithm and Intrinsic Merit Ranking (Global MemCache and Local dict() cache enabled) that parallelizes Recursive Gloss Overlap graph construction algorithm in:
-                   http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
+http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf 
 and is thus deployable on large scale clouds. Presently benchmarked on single node Spark cluster with local threads SparkContext and various spark-defaults.conf settings.
 	2.56  Singular Value Decomposition and Principal Component Analysis - R+rpy2 wrapper implementation.
 	2.57 Approximation with a Probability Distribution – Kullback-Leibler Divergence
@@ -335,7 +335,9 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.123 Computational Geometric Factorization Algorithm based on Parallel construction of Wavelet Tree on PRAMs/Multicore
 	2.124 Latent Semantic Analysis/Indexing of term-document matrices and Low Rank Approximation
 	2.125 Software Analytics – Userspace Runtime FlameGraph (along with Perf) and Valgrind/Callgrind/Kcachegrind Call Graph creation
-	2.126 Software Analytics – Graph Mining of linux kernelspace SATURN Control Flow Graph and userspace Valgrind/Callgrind/Kcachegrind Call Graph DOT files by Gspan algorithm 
+	2.126 Software Analytics – Graph Mining of linux kernelspace SATURN Control Flow Graph and userspace Valgrind/Callgrind/Kcachegrind Call Graph DOT files by Gspan algorithm
+	2.127 Streaming Algorithms – Approximate Counting implementation
+	2.128 Streaming Algorithms – Distinct Elements implementation
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -352,21 +354,21 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 	3.5 		Example unit test cases
 	3.6 		Usermode output redirected logging feature for Kernel upcall to Userspace
 	3.7 		Intermodule Function Invocation in Kernel Space - through which any machine on cloud can be completely remote-controlled deep upto board and hardware cards through function names or commands sent through virgo_clone() calls.
-        3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
-        3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
-        3.10 Queueing Driver - that implements a wrapper over linux workqueue and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
-        3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
-        3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
-        3.13 A config driver - for exporting config symbols 
-        3.14 Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
-        3.15 Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
-        3.16 Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
-        3.17 From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
-        3.18 Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
-        3.19 Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
-       3.20      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
-       3.21 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
-       3.22     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
+3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
+3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
+3.10 Queueing Driver - that implements a wrapper over linux workqueue and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
+3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
+3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
+3.13 A config driver - for exporting config symbols 
+3.14 Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
+3.15 Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
+3.16 Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
+3.17 From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
+3.18 Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
+3.19 Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
+3.20      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
+3.21 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
+3.22     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
 	3.23     64 bit version of VIRGO Linux kernel based on mainline 4.13.3 kernel (in a separate repository) is in separate repository and has been found to be better performing and stabler than VIRGO 32bit. 
 	3.24    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch – VIRGO_KTLS.
 	3.25   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
@@ -597,8 +599,8 @@ Created a Resume Querying System using JDBC with Oracle Backend for Sun Microsys
 
 Official Training Courses (SunU)
     1.  Solaris internals
-    2. Multithreaded Application development in Solaris
-    3. SOLARIS DEVICE DRIVER INTERNALS
+2. Multithreaded Application development in Solaris
+3. SOLARIS DEVICE DRIVER INTERNALS
 
 
 

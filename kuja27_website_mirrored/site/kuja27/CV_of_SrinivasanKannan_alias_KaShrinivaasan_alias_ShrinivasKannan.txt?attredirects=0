@@ -338,6 +338,9 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.126 Software Analytics – Graph Mining of linux kernelspace SATURN Control Flow Graph and userspace Valgrind/Callgrind/Kcachegrind Call Graph DOT files by Gspan algorithm
 	2.127 Streaming Algorithms – Approximate Counting implementation
 	2.128 Streaming Algorithms – Distinct Elements implementation
+	2.129 Software Analytics – GraphX/GraphFrames Parallel Graph Processing support for computing Cyclomatic complexity measures of code CFG.
+	2.130 Merit of Large Scale Visuals by ImageNet based ImageGraph and VideoGraph EventNet Tensor Products Algorithm Implementation – objects in frames of video are annotated by Keras with Theano backend
+	2.131 Music Pattern Mining – Histogram timeseries and Notes Onset Detection – sequence of notes in music are deemed to be strings in a formal language
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

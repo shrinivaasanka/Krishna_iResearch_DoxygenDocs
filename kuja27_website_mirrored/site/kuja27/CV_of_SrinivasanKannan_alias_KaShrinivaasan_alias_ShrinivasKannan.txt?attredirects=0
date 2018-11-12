@@ -199,7 +199,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 . This is not a commercial startup yet. Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
-Latest version 2018.03.06:
+Latest version 2018.10.06:
 
 1. Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -341,6 +341,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.129 Software Analytics – GraphX/GraphFrames Parallel Graph Processing support for computing Cyclomatic complexity measures of code CFG.
 	2.130 Merit of Large Scale Visuals by ImageNet based ImageGraph and VideoGraph EventNet Tensor Products Algorithm Implementation – objects in frames of video are annotated by Keras with Theano backend
 	2.131 Music Pattern Mining – Histogram timeseries and Notes Onset Detection – sequence of notes in music are deemed to be strings in a formal language
+	2.132 Social Network Analysis – People Analytics and HR Analytics of Social and Professional Profiles by Recursive Lambda Function Growth Graph Tensor Neuron Intrinsic Merit, Log Normal Least Energy Intrinsic Merit and Experiential Intrinsic Merit
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

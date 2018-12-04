@@ -177,7 +177,7 @@ Only arXiv articles and TAC 2010 publications below are reviewed and guided by f
 • Algorithms for Intrinsic Merit - http://arxiv.org/abs/1006.4458
 • NIST TAC 2010 version of Algorithms for Intrinsic Merit - http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf
 
-All other draft write-ups in NeuronRain design documents and http://sites.google.com/site/kuja27 are unreviewed and unguided and were written by the author alone after 2011, significantly expanding previous publications. They are subject to errors. This was because of some administrative and practical hurdles in obtaining faculty guidance from 2013 onwards while trying to resume PhD after a work tenure.
+All other draft write-ups in NeuronRain design documents and http://sites.google.com/site/kuja27 are unreviewed and unguided and were written by the author (K.Srinivasan - https://sites.google.com/site/kuja27/ - presently has no industry and academic affiliations and is an independent academic and professional) alone after 2011, significantly expanding previous publications. They are subject to errors. This was because of some administrative and practical hurdles in obtaining faculty guidance from 2013 onwards while trying to resume PhD after a work tenure.
 
 **Is there a central theme connecting the publications, drafts and their implementations mentioned previously?**
 
@@ -345,7 +345,7 @@ Personal website(research): https://sites.google.com/site/kuja27/, https://githu
 
 **are owned by:**
 
-P.R.S.Kannan,
+P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan),
 172, Gandhi Adigal Salai,
 Kumbakonam - 612001.
 Tamil Nadu, India.

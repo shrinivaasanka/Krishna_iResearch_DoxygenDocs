@@ -7,7 +7,7 @@
 d),b.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),b&&0<c&&(b.tick("_tbnd",void 0,window.chrome.csi().startE),b.tick("tbnd_","_tbnd",c))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,b&&0<c&&(b.tick("_tbnd",void 0,window.external.startE),b.tick("tbnd_","_tbnd",c))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
 </script>
 <link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
-<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/fd8fc3/system/app/images/apple-touch-icon.png" type="image/png" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/f57c85/system/app/images/apple-touch-icon.png" type="image/png" />
 <script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
 window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
 window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
@@ -17,7 +17,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
   
 
   var breadcrumbs = [{"path":"/site/kuja27/system","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app/pages","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app/pages/recentChanges","deleted":false,"title":"Recent_Site_Activity","dir":"ltr"}];
-  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/fd8fc3/system/app/images/cleardot.gif';
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/f57c85/system/app/images/cleardot.gif';
 
   
   var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
@@ -27,7 +27,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 
   
 
-  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1251688584-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"pageDrafts":false,"enableJot2Atari":true,"plusBadge":false,"pdfEmbedSupport":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/site/kuja27/system/app/pages/recentChanges?offset%3D0\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":false,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/fd8fc3/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/fd8fc3/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/fd8fc3/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/fd8fc3/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/fd8fc3/system/app/css/trogedit.css","/site/kuja27/_/rsrc/1541693334000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/fd8fc3/system/app/css/codeeditor.css","/site/kuja27/_/rsrc/1541693334000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/kuja27","name":"kuja27","siteTemplateId":false,"siteNoticeRevision":1,"siteNoticeUrlAddress":"https://sourceforge.net/u/userid-769929/profile/","siteNoticeMessage":"","page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/system/app/pages","parentWuid":"wuid:gx:6842acd6b8178e1","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Recent site activity","locale":"en","wuid":"wuid:gx:40da6ef2f8ab2dbe","revision":0,"path":"/system/app/pages/recentChanges","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"recentChanges","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/site/kuja27/system/app/pages/gadgets"}};
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1974857110-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"oAuthForChartsApi":true,"moreMobileStyleImprovements":null,"googleChartsOverGstatic":false,"picasaAlbumInsert":false,"pageDrafts":false,"enableJot2Atari":true,"plusBadge":false,"pdfEmbedSupport":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/site/kuja27/system/app/pages/recentChanges?offset%3D0\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":false,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/f57c85/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/f57c85/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/f57c85/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/f57c85/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/f57c85/system/app/css/trogedit.css","/site/kuja27/_/rsrc/1544690151000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/f57c85/system/app/css/codeeditor.css","/site/kuja27/_/rsrc/1544690151000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/kuja27","name":"kuja27","siteTemplateId":false,"siteNoticeRevision":1,"siteNoticeUrlAddress":"https://sourceforge.net/u/userid-769929/profile/","siteNoticeMessage":"","page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/system/app/pages","parentWuid":"wuid:gx:54a81d10842f82e7","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Recent site activity","locale":"en","wuid":"wuid:gx:61b8920ffc95eab","revision":0,"path":"/system/app/pages/recentChanges","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"recentChanges","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/site/kuja27/system/app/pages/gadgets"}};
   webspace.page.breadcrumbs = breadcrumbs;
 
   
@@ -46,9 +46,9 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <meta id="meta-tag-description" property="og:description" content="Personal Website of Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan" />
 <style type="text/css">
 </style>
-<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/fd8fc3/system/app/themes/microlite/standard-css-microlite-ltr-ltr.css" />
-<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1541693334000/system/app/css/overlay.css?cb=microliteundefineda718px150goog-ws-noside" />
-<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1541693334000/system/app/css/camelot/allthemes-view.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/f57c85/system/app/themes/microlite/standard-css-microlite-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1544690151000/system/app/css/overlay.css?cb=microliteundefineda718px150goog-ws-noside" />
+<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1544690151000/system/app/css/camelot/allthemes-view.css" />
 <!--[if IE]>
           <link rel="stylesheet" type="text/css" href="/site/kuja27/system/app/css/camelot/allthemes%2die.css" />
         <![endif]-->
@@ -121,7 +121,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
         }
       //]]>
 </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542882358891, "Nov 22, 2018, 2:25 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 22, 2018, 2:25 AM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1545392653813, "Dec 21, 2018, 3:44 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Dec 21, 2018, 3:44 AM</noscript>
 </strong>
 </td>
 <td>
@@ -131,17 +131,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542882061498, "Nov 22, 2018, 2:21 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 22, 2018, 2:21 AM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542882040882, "Nov 22, 2018, 2:20 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 22, 2018, 2:20 AM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1545392274276, "Dec 21, 2018, 3:37 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Dec 21, 2018, 3:37 AM</noscript>
 </strong>
 </td>
 <td>
@@ -151,7 +141,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542882020171, "Nov 22, 2018, 2:20 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 22, 2018, 2:20 AM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1545392253196, "Dec 21, 2018, 3:37 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Dec 21, 2018, 3:37 AM</noscript>
 </strong>
 </td>
 <td>
@@ -161,37 +151,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542801238805, "Nov 21, 2018, 3:53 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:53 AM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542801134121, "Nov 21, 2018, 3:52 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:52 AM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542801016816, "Nov 21, 2018, 3:50 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:50 AM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542800957640, "Nov 21, 2018, 3:49 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:49 AM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1545392226768, "Dec 21, 2018, 3:37 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Dec 21, 2018, 3:37 AM</noscript>
 </strong>
 </td>
 <td>
@@ -201,7 +161,37 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542800937914, "Nov 21, 2018, 3:48 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:48 AM</noscript>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 22, 2018, 2:25 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 22, 2018, 2:21 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 22, 2018, 2:20 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 22, 2018, 2:20 AM</span>
 </strong>
 </td>
 <td>
@@ -211,7 +201,57 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1542800912182, "Nov 21, 2018, 3:48 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2018, 3:48 AM</noscript>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:53 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:52 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:50 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:49 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:48 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Nov 21, 2018, 3:48 AM</span>
 </strong>
 </td>
 <td>
@@ -328,46 +368,6 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
                           Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
 </td>
 </tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 7, 2018, 1:05 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 7, 2018, 1:04 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 7, 2018, 1:04 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 7, 2018, 1:04 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
-</td>
-</tr>
 </table>
 <div class="sites-clear">
 <p style="_padding-bottom:10px;">
@@ -405,7 +405,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
     window.jstiming.load.tick('sjl');
   </script>
-<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/fd8fc3/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/f57c85/system/js/jot_min_view__en.js"></script>
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
     window.jstiming.load.tick('jl');
   </script>

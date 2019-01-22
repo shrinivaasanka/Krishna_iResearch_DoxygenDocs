@@ -364,7 +364,8 @@ S/O.P.R.S.Kannan,
 172, Gandhi Adigal Salai,
 Kumbakonam - 612001.
 Tamil Nadu, India.
-emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
+SourceForge/GitHub/GitLab Repository email: grafitopenlearning@gmail.com
+Personal emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
 Contributor has no industry or academic affiliations. Name "Krishna iResearch" is not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
 

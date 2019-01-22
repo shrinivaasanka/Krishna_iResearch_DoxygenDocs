@@ -80,7 +80,7 @@ NeuronRain - Architecture Diagrams:
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Krishna_iResearch_opensourceproducts_archdiagram.pdf
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/NeuronRain_Architecture_Diagrams_29September2016.pdf
 
-Products in NeuronRain Suite (Research and Enterprise):
+Products in NeuronRain Suite (Research and Green):
 ------------------------------------------------------
 AsFer - AstroInfer was initially intended, as the name suggests, for pattern mining of Astronomical Datasets to predict natural weather disasters. It is focussed on mining patterns in texts and strings. It also has implementations of algorithms for analyzing merit of text, PAC learning, Polynomial reconstruction, List decoding, Factorization etc., which are later expansions of publications by the author (K.Srinivasan - http://dblp.dagstuhl.de/pers/hd/s/Shrinivaasan:Ka=) after 2012. Presently AsFer in SourceForge, GitHub and GitLab has implementations for prominently used machine learning algorithms.
 
@@ -99,7 +99,7 @@ An up-to-date description of how RPC ruled the roost, fell out of favour and rei
 KingCobra - This is a VIRGO module and implements message queueing and pub-sub model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
 
 
-NeuronRain Enterprise Version Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Green - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 AsFer - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
 
@@ -115,7 +115,7 @@ KingCobra - https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Research Version Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Research - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ---------------------------------------------------------------------------------------
 AsFer - https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
 

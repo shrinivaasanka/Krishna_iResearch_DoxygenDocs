@@ -344,7 +344,10 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.132 Social Network Analysis – People Analytics and HR Analytics of Social and Professional Profiles by Recursive Lambda Function Growth Graph Tensor Neuron Intrinsic Merit, Log Normal Least Energy Intrinsic Merit and Profile vertex degree based Experiential Intrinsic Merit
 	2.133 Machine Translation – by mapping vertices of Text Graph in Recursive Lambda Function Growth implementation from English to any other Natural Language – translation REST API in PyDictionary/GoSlate invoked – sentence formation is by graph traversal
 	2.134 Software Analytics –  Deep Learning (GRU,ConvNet,BackPropagation,LSTM) analytics for systemwide performance based on Psutil CPU/Disk/Memory load statistics – implements a NeuronRain usecase
-	2.135 Audio/Music Pattern Mining – Complexity Analysis of Intrinsic Merit of Audio/Music as String of Notes over octave alphabets
+	2.135 Audio/Music Pattern Mining – Complexity Analysis of Intrinsic Merit of Audio/Music as String of Notes over octave alphabets – Minimum Description Length, Entropy, Minimum DFA etc.,
+	2.136 Pattern mining large scale visuals – Urban Planning/GIS Analytics - Convex hull analytics of GIS Images
+	2.137 Intrinsic Merit of Text analyzed as sequence of integers and Ramsey coloring of text graphs
+
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

@@ -187,7 +187,7 @@ Following are the conceptual relations between various draft publications in a n
 	1. Intrinsic Merit is a Non-majority Social Choice Function and quantifies merit of text, audio/music, visuals and people.
 	2. Complement Functions are subset of Diophantine Equations (e.g Beatty functions). Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions). Undecidability of Complement Diophantine Representation follows from MRDP theorem and Post's Correspondence Problem.
 	3. Factorization has a Diophantine Representation (Pell Equation)
-	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover)
+	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover).
 	5. Majority Function has a Tabulation Hashing definition (e.g Electronic Voting Machines) i.e Hash table of candidates as keys and votes per candidate as chained buckets 
 	6. Integer Partitions and Tabulation Hashing are isomorphic e.g partition of an integer 21 as 5+2+3+4+5+2 and Hash table of 21 values partitioned by keys on bucket chains of sizes 5,2,3,4,5,2 are bijective. Both Set Partitons and Hash tables are exact covers quantified by Bell Numbers/Stirling Numbers. Partitions/Hashing is a special case of Multiple Agent Resource Allocation problem. Thus hash tables and partitions create complementary sets defined by Diophantine equations.
 	7. Ramsey Coloring and Complementation are equivalent. Ramsey coloring and Complement Diophantines can quantify intrinsic merit of texts
@@ -198,7 +198,7 @@ Following are the conceptual relations between various draft publications in a n
 	12. Question-Answering/Interview Intrinsic Merit is a QBFSAT problem
 	13. Pseudorandom Choice is a Non-Majority Social Choice Function
 	14. Voter SAT can be of any complexity class - 3SAT, QBFSAT etc.,
-	15. Random Close Packing is a Constraint Satisfaction/SAT Problem.
+	15. Space Filling by circles is a vast area of research - Circle Packing. Parallel Circle Packing unifies three fields - Parallel Pseudorandom Generators (ordinates on 2-D plance are generated in parallel and at random which is underneath most natural processes), 0-1 Integer Linear Programming and Circle Packing. Efficient parallel circle packing has computational geometric importance - geometric search where each circle is a query which might contain expected point - planar point location. Random Close Packing and Circle Packing are Constraint Satisfaction/SAT Problems.
 	16. Intrinsic Merit is the text analysis equivalent of Intrinsic Fitness in Social Networks and Experiential learning is defined in terms of intrinsic merit and mistake bound learning. Recursive Lambda Function Growth Algorithm for creating lambda function composition trees from random walks of Definition Graphs of Text simulates Human Brain Connectomes. High Expander Definition Graphs are intrinsically better connected and meritorious because average links incident per vertex or sets of vertices is high from definition of Expander Graphs. This parallels Bose-Einstein Condensation in Networks in which least energy nodes attract most links. An algorithm for EventNet and ImageNet Graph based Intrinsic Merit for Large Scale Visuals and Audio has been described in AstroInfer Design Documents (EventNet Tensor Products Algorithm) and has been implemented in AstroInfer for the hardest Video Merit - Large Scale Visual Recognition Challenge (LSVR).
 	17. Intrinsic Merit versus Perceived Merit and Non-Majority Versus Majority Social Choice are equivalent - Absolute Versus Subjective - and can be defined in terms of Mechanism Design/Flow Market Equilibrium in Algorithmic Economics. In Social Networks this is well-studied Fame Versus Merit Problem.
 	18. Money Changing Problem/Coin Problem/Combinatorial Schur Theorem for Partitions and Tabulation Hashing are equivalent i.e expressing an integer as a linear combination of products, which defines distribution of buckets in a hash table.
@@ -334,7 +334,7 @@ virgo-docs/ in URLs above have detailed description of System Calls and Drivers 
 
 **How is NeuronRain code licensed? Can it be used commercially? Is technical support available?**
 
-All repositories of NeuronRain (in Sourceforge, GitLab and GitHub) excluding Grafit course materials (https://github.com/shrinivaasanka/Grafit/ which is Creative Commons 4.0 licensed) are GPLv3 copyleft licensed. As per license terms, NeuronRain code has no warranty. Any commercial derivative is subject to clauses of GPLv3 copyleft licensing. Please refer to https://www.gnu.org/licenses/gpl-faq.html#GPLCommercially for licensing terms for commercial derivatives ("Free means freedom, not price"). GPLv3 copyleft license mandates any derived source code to be open sourced (Sections on Conveying Verbatim Copies, Conveying Modified Source and Non-Source versions - https://www.gnu.org/licenses/gpl-3.0.en.html). Present model followed is as below
+All repositories of NeuronRain (in Sourceforge, GitLab and GitHub) excluding Grafit course materials (https://github.com/shrinivaasanka/Grafit/ - replicated in SourceForge and GitLab - which is Creative Commons 4.0 licensed) are GPLv3 copyleft licensed. As per license terms, NeuronRain code has no warranty. Any commercial derivative is subject to clauses of GPLv3 copyleft licensing. Please refer to https://www.gnu.org/licenses/gpl-faq.html#GPLCommercially for licensing terms for commercial derivatives ("Free means freedom, not price"). GPLv3 copyleft license mandates any derived source code to be open sourced (Sections on Conveying Verbatim Copies, Conveying Modified Source and Non-Source versions - https://www.gnu.org/licenses/gpl-3.0.en.html). Present model followed is as below
 	(*) NeuronRain repositories also have implementations of author's publications and drafts - respective GPLv3 clauses apply
 	(*) NeuronRain has a closesource version in development - dual licensing - but it is not commercially available
 	(*) Premium Technical support for NeuronRain codebases is provided on direct request based on feasibility and time constraints.
@@ -348,8 +348,8 @@ http://sourceforge.net/users/ka_shrinivaasan,
 https://github.com/shrinivaasanka,
 https://gitlab.com/shrinivaasanka,
 https://www.openhub.net/accounts/ka_shrinivaasan
-GitHub Organization: https://github.com/Krishna-iResearch
-Personal website(research): https://sites.google.com/site/kuja27/, https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/
+Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
+Personal website(research): https://sites.google.com/site/kuja27/ (Mirrored at https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/ and similar relative paths in GitLab and SourceForge)
 
 **are owned by:**
 
@@ -358,7 +358,7 @@ P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan),
 Kumbakonam - 612001.
 Tamil Nadu, India.
 
-Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain GitHub and GitLab Grafit Open Learning Course Notes: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html
+Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain SourceForge, GitHub and GitLab Grafit Open Learning Course Notes: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html (replicated in SourceForge and GitLab)
 
 GPL v3.0 for other NeuronRain GitLab, GitHub and SourceForge repositories: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html
 

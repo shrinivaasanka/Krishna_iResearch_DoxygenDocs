@@ -211,6 +211,7 @@ Following are the conceptual relations between various draft publications in a n
 	25. Computational Geometric Parallel RAM Factorization applies datastructures (e.g Parallel construction of segment trees/wavelet trees) and algorithms (Planar Point Location, ray shooting queries) from Computational Geometry and Number Theory. Factorization in number theory is a multiplicative partition problem - Factorisatio Numerorum - as opposed to additive partitions.
 	26. Program Analysis is a converse of complement diophantine problem and is an approximation of Rice Theorem which ordains any non-trivial property of recursively enumerable sets is Undecidable.
 	27. Software Analytics based on static and dynamic analyses (SATURN CFG/Valgrind CallGraphs/Points-to Graphs) and applying Graph Mining/Latent Semantic Indexing on them is a Program Analysis problem.
+	28. Set Partitions (Complementary Sets, LSH Partitions, Separate Chaining Hash tables, Histograms etc.,) have a reduction to Space Filling/Packing by Exact Square Tile Cover of Rectangle from a fundamental result in number theory - Lagrange Four Square Theorem. This kind of square tile cover of a rectangle can be written as a non-linear programming optimization which solves integer factorization indirectly.
 
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 

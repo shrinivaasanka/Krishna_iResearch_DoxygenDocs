@@ -352,7 +352,8 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.140 Software Analytics + Streaming Analytics integration - Streaming Abstraction – Operating System Statistics as data stream which is analyzable like any other BigData Source
 	2.141 Intrinsic Merit of Music – Music Synthesizer from DFA (State Machine), Mathematical Functions and Random Samples
 	2.142 Intrinsic Merit of Music – Mel Frequency Cepstral Coefficient analysis
-	2.143 Streaming Set Partition Analytics – Pattern mining Stream of histograms by adjusted rand coefficient (text word frequency histograms, separate chaining hashtables, voting based on LSH/separate chaining hashtables, business intelligence histograms etc.,)
+	2.143 Streaming Set Partition Analytics – Pattern mining Stream of histograms by adjusted rand coefficient and adjusted mutual information (text word frequency histograms, separate chaining hashtables, voting based on LSH/separate chaining hashtables, business intelligence histograms etc.,)
+	2.144 Streaming Set Partition Analytics - Set Partition to Tile Cover – Finding Lagrange Four Square Tile Cover of a rectangle from buckets of a Set Partition
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

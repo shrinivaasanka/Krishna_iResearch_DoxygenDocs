@@ -336,11 +336,14 @@ virgo-docs/ in URLs above have detailed description of System Calls and Drivers 
 **How is NeuronRain code licensed? Can it be used commercially? Is technical support available?**
 
 All repositories of NeuronRain (in Sourceforge, GitLab and GitHub) excluding Grafit course materials (https://github.com/shrinivaasanka/Grafit/ - replicated in SourceForge and GitLab - which is Creative Commons 4.0 licensed) are GPLv3 copyleft licensed. As per license terms, NeuronRain code has no warranty. Any commercial derivative is subject to clauses of GPLv3 copyleft licensing. Please refer to https://www.gnu.org/licenses/gpl-faq.html#GPLCommercially for licensing terms for commercial derivatives ("Free means freedom, not price"). GPLv3 copyleft license mandates any derived source code to be open sourced (Sections on Conveying Verbatim Copies, Conveying Modified Source and Non-Source versions - https://www.gnu.org/licenses/gpl-3.0.en.html). Present model followed is as below
-	(*) NeuronRain repositories also have implementations of author's publications and drafts - respective GPLv3 clauses apply
-	(*) NeuronRain has a closesource version in development - dual licensing - but it is not commercially available
-	(*) Premium Technical support for NeuronRain codebases is provided on direct request based on feasibility and time constraints.
+	(*) NeuronRain repositories also have implementations of author's publications and drafts - respective GPLv3 and Creative Commons 4.0 NCND clauses apply
+	(*) Premium Technical support for NeuronRain codebases is provided only on direct request based on feasibility and time constraints.
 	(*) GPLv3 license terms do not prohibit pricing.
-	(*) Commercial derivatives if any have to be GPLv3 compliant.
+	(*) Commercial derivatives (for individuals or organizations who clone NeuronRain repositories and make modifications for commercial use) if any have to be GPLv3 copyleft and Creative Commons 4.0 NCND compliant.
+
+**What is dual licensing?**
+
+Closedsource, proprietary, premium version derived and completeley different from NeuronRain Open Source codebases is in research, architecture and development and has quite a few advanced features - dual licensed - but it is not yet commercially available. Only opensource codebases of NeuronRain in SourceForge,GitHub and GitLab are copyleft licensed under GPL v3 and Creative Commons 4.0 NCND. Dual licensing implies dichotomous licensing - NeuronRain is free (open) and free (without price) while Closedsource is at premium.
 
 **Who owns NeuronRain repositories?**
 
@@ -376,7 +379,7 @@ Tamil Nadu, India.
 SourceForge/GitHub/GitLab Repository email: grafitopenlearning@gmail.com
 Personal emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 
-Contributor has no industry or academic affiliations. Name "Krishna iResearch" is not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
+Contributor has no industry or academic affiliations and does not accrue any monetary benefit and the whole opensource effort is a charity. Name "Krishna iResearch" is non-funded, not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
 
 **How applicable is NeuronRain for Drones/Robots?**
 

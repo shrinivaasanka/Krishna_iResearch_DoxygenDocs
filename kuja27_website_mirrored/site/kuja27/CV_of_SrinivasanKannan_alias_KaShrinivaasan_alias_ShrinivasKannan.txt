@@ -353,9 +353,12 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.141 Intrinsic Merit of Music – Music Synthesizer from DFA (State Machine), Mathematical Functions and Random Samples
 	2.142 Intrinsic Merit of Music – Mel Frequency Cepstral Coefficient analysis
 	2.143 Streaming Set Partition Analytics – Pattern mining Stream of histograms by adjusted rand coefficient and adjusted mutual information (text word frequency histograms, separate chaining hashtables, voting based on LSH/separate chaining hashtables, business intelligence histograms etc.,)
-	2.144 Streaming Set Partition Analytics - Set Partition to Tile Cover – Finding Lagrange Four Square Tile Cover of a rectangle from buckets of a Set Partition
+	2.144 Set Partition to Tile Cover – Finding Lagrange Four Square Tile Cover of a rectangle from buckets of a Set Partition
+	2.145 Merit of Large Scale Visuals - Extraction of EventNet causality graph from a Video
+	2.146 Medical Imageing Analytics – Pattern recognition in medical images (ECG,MRI,Scans) for diagnosis
+	2.147 Streaming Set Partition Analytics – Comparing Set Partitions by Partition Rank measure in SymPy API (implemented In GRAFIT course material as an example – Hashing Dynamic Sets and OS Scheduler Timer – complements previous streaming set partition analytics implementation In AsFer – alternative to rand index and mutual info)
 
-AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
+AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
 (Latest NeuronRain AsFer enterprise version Code at github repository:  https://github.com/shrinivaasanka/asfer-github-code and periodically updated Design Details at:https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt)

@@ -19,6 +19,14 @@ NeuronRain repositories are in:
 
 	(*) NeuronRain Green - https://github.com/shrinivaasanka - generic datasets
 	(replicated in https://gitlab.com/shrinivaasanka)
+
+NeuronRain Documentation Repositories:
+--------------------------------------
+        (*) https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
+
+        (*) https://gitlab.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
+
+        (*) https://sourceforge.net/u/userid-769929/Krishna_iResearch_DoxygenDocs/ci/master/tree/
    
 NeuronRain - Features:
 ----------------------
@@ -378,12 +386,13 @@ Kumbakonam - 612001.
 Tamil Nadu, India.
 SourceForge/GitHub/GitLab Repository email: grafitopenlearning@gmail.com
 Personal emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
+NeuronRain mailing lists: https://sourceforge.net/p/virgo-linux/mailman/virgo-linux-mailing-list/, https://in.groups.yahoo.com/neo/groups/grafitopenlearning/info
 
 Contributor has no industry or academic affiliations and does not accrue any monetary benefit and the whole opensource effort is a charity. Name "Krishna iResearch" is non-funded, not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
 
 **How applicable is NeuronRain for Drones/Robots?**
 
-Drones have distinct software and hardware for mission plan (route map), flight and ground control often different from mainstream linux kernel. Mission plans are uploaded to drone by special protocols like MAVlink and userspace SDKs are available for it. Drone control userspace C++ code example in https://github.com/Dronecode/DronecodeSDK/blob/develop/example/fly_qgc_mission/fly_qgc_mission.cpp uses DronecodeSDK in userspace and there is no necessity for kernel_analytics kernel module to read analytics variables into kernelspace from userspace Machine Learning code. Application code can directly instantiate /etc/kernel_analytics.conf File locally/Socket Streaming Iterable in https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/python-src/Streaming_AbstractGenerator.py on a remote host and at port 64001 (in Python) and read analytics variables for drone navigation augmenting flight plan - Quite useful when static mission plans require dynamic changes after upload to drone e.g Military Reconnaissance, Autonomous Combat, Autonomous Online Shopping Delivery. For robots, there are already linux add-on operating systems in development e.g ROS - http://www.ros.org/ which could benefit by kernel_analytics and VIRGO32/VIRGO64 system calls and drivers.
+Drones have distinct software and hardware for mission plan (route map), flight and ground control often different from mainstream linux kernel. Mission plans are uploaded to drone by special protocols like MAVlink and userspace SDKs are available for it. Drone control userspace C++ code example in https://github.com/Dronecode/DronecodeSDK/blob/develop/example/fly_qgc_mission/fly_qgc_mission.cpp uses DronecodeSDK in userspace and there is no necessity for kernel_analytics kernel module to read analytics variables into kernelspace from userspace Machine Learning code. Application code can directly instantiate /etc/kernel_analytics.conf File locally/Socket Streaming Iterable in https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/python-src/Streaming_AbstractGenerator.py on a remote host and at port 64001 (in Python) and read analytics variables for drone navigation augmenting flight plan - Quite useful when static mission plans require dynamic changes after upload to drone e.g Military Reconnaissance, Autonomous Combat, Autonomous Online Shopping Delivery. For robots, there are already linux add-on operating systems in development e.g ROS - http://www.ros.org/ which could benefit by kernel_analytics and VIRGO32/VIRGO64 system calls and drivers. Recent linux kernel versions from 4.17.x onwards support PhoenixRC flight controller (https://github.com/torvalds/linux/blob/master/drivers/input/joystick/pxrc.c) and thus drone telemetry is part of linux kernel. Kernel Analytics navigation variables exported by VIRGO32 and VIRGO64 kernel_analytics drivers can be imported in pxrc drone driver and input_set_abs_params() is invoked for appropriate setting of ordinates, rudder, throttle values. 
  
 **Can NeuronRain be deployed on Mobile processors?**
 

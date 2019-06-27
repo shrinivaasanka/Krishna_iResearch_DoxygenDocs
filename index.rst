@@ -75,6 +75,8 @@ asmlinkage long sys_virgo_close(long vfsdesc);
 
 11. KTLS config driver - for Kernel Transport Layer Security - only in VIRGO_KTLS branch of VIRGO64 repositories
 
+Apart from aforementioned drivers, PXRC flight controller and UVC video drivers from kernel 5.1.4 have been changed to import kernel_analytics exported analytics variables and committed to VIRGO64.
+
 Complete list of Features of NeuronRain (Research and Enterprise) are detailed in:
 https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf

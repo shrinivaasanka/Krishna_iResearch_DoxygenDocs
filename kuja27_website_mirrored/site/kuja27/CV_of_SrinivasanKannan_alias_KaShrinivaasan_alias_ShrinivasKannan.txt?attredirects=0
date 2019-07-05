@@ -242,7 +242,7 @@ Latest version 2018.10.06:
 	2.34	   Pig script clients for Hbase/Hive and Python clients for Hive/Cassandra/Hbase
 	2.35 	   Apache Spark Python RDD Transformation MapReduce script for mining Linux kernel logs and exporting the mined data as config to VIRGO kernel_analytics module. This integrates the AsFer or other Machine Learning algorithms into VIRGO Linux Kernel (with USBmd, KingCobra modules).
 	2.36    Sequence Mining of ordered encoded strings (Apriori GSP Algorithm) for inferring Class Association Rules for USGS Earthquake datasets
-	2.37    Named Entity Recognition using Conditional Random Fields and Hidden Markov Models (by finding Viterbi path through Viterbi Dynamic Programming Algorithm)
+	2.37    Named Entity Recognition using Conditional Random Fields and Hidden Markov Models (skew normal distribution - by finding Viterbi path through Viterbi Dynamic Programming Algorithm)
 	2.38    Graph Search – Mine for Graph Relations (and render them in graphics) in Text Data by constructing the WordNet subgraph using the recursive gloss overlap algorithm in http://arxiv.org/abs/1006.4458 and http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf
 	2.39   New Unsupervised text classification algorithm implementation that computes nodes with prominent core numbers and PageRanks (nodes with high core-numbers and PageRanks are names of the classes) in the definition graphs obtained by Recursive Gloss Overlap algorithm above.
 	2.40  Lambda Expression Compositionality from the depth first search closure of Recursive Gloss Overlap graph obtained from a text projected to WordNet.
@@ -331,7 +331,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.119 Social Network Analysis - Facebook Graph REST API Analytics on Python 3.4 
 	2.120 Quantum NC algorithm for Computational Geometric Factorization – counterpart of classical PRAM-NC k-mergesort/segment-tree Computational Geometric Factorization
 	2.121 Deep Learning – Reinforcement Learning Recommender Systems and Recursive Lambda Function Growth integration – Recommender systems hypergraph edges are weighed either by SentiWordNet or Graph Tensor Neuron Network intrinsic merit
-	2.122 Spark Structured Streaming (Java 1.8 + Spark 2.3.1) for advertisement analytics – periodic word, count, timestamp information in DataFrames
+	2.122 Spark Structured Streaming (Java 1.8 + Spark 2.4.x) for advertisement analytics – periodic word, count, timestamp information in DataFrames – windowed and non-windowed (timestamped)
 	2.123 Computational Geometric Factorization Algorithm based on Parallel construction of Wavelet Tree on PRAMs/Multicore
 	2.124 Latent Semantic Analysis/Indexing of term-document matrices and Low Rank Approximation
 	2.125 Software Analytics – Userspace Runtime FlameGraph (along with Perf) and Valgrind/Callgrind/Kcachegrind Call Graph creation
@@ -351,9 +351,21 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.139 Software Analytics - /proc/sched_debug support for Scheduler Analytics – stream of processor runqueue dictionaries which can be analyzed by streaming and machine learning algorithms
 	2.140 Software Analytics + Streaming Analytics integration - Streaming Abstraction – Operating System Statistics as data stream which is analyzable like any other BigData Source
 	2.141 Intrinsic Merit of Music – Music Synthesizer from DFA (State Machine), Mathematical Functions and Random Samples
+	2.142 Intrinsic Merit of Music – Mel Frequency Cepstral Coefficient analysis
+	2.143 Streaming Set Partition Analytics – Pattern mining Stream of histograms by adjusted rand coefficient and adjusted mutual information (text word frequency histograms, separate chaining hashtables, voting based on LSH/separate chaining hashtables, business intelligence histograms etc.,)
+	2.144 Set Partition to Tile Cover – Finding Lagrange Four Square Tile Cover of a rectangle from buckets of a Set Partition
+	2.145 Merit of Large Scale Visuals - Extraction of EventNet causality graph from a Video
+	2.146 Medical Imageing Analytics – Pattern recognition in medical images (ECG,MRI,Scans) for diagnosis
+	2.147 Streaming Set Partition Analytics – Comparing Set Partitions by Partition Rank measure in SymPy API (implemented In GRAFIT course material as an example – Hashing Dynamic Sets and OS Scheduler Timer – complements previous streaming set partition analytics implementation In AsFer – alternative to rand index and mutual info)
+	2.148 Topological Handwriting Recognition – Deep Learning Convolution Backpropagation – Approximate DP Polynomial deformations from handwriting Image contours and distance similarity measure between DP polynomials
+	2.149 Intrinsic Merit of Music – Learning Weighted Deterministic Finite State Automaton from strings of musical notes (Python 3.7)
+	2.150 People Analytics – Tenure Histogram model of a professional profile - Partition Rank of Tenure Histogram Set Partition
+	2.151 People Analytics – Tenure Histogram vector model of a professional profile – Kendall-Tau Rank Correlation Coefficients of Tenure Histogram Vectors 
+	2.152 Urban Planning/GIS Analytics – Patch Analysis of Remote Sensing GIS Imagery of Urban Sprawls
+	2.153 Image Analytics - ImageNet Keras-Theano – Scikit Learn Random Forest Classification wrapper for images
+	2.154 Image Analytics - ImageNet Keras-Theano - Unsupervised Recursive Gloss Overlap classifier based on ImageNet
 
-
-AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
+AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
 (Latest NeuronRain AsFer enterprise version Code at github repository:  https://github.com/shrinivaasanka/asfer-github-code and periodically updated Design Details at:https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt)
@@ -386,6 +398,8 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 	3.23     64 bit version of VIRGO Linux kernel based on mainline 4.13.3 kernel (in a separate repository) is in separate repository and has been found to be better performing and stabler than VIRGO 32bit. 
 	3.24    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch – VIRGO_KTLS.
 	3.25   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
+	3.26 Kernel Analytics powered PXRC Flight Controller Driver – Kernel support pxrc flight controller driver from 4.17. Changed PXRC driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
+	3.27 Kernel Analytics powered UVC Video Driver – Changed UVC Video driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
 
 VIRGO enables viewing entire cloud as a single “logical machine” upto hardware level with machine learning support by implementing lowlevel primitives that can be invoked by highlevel cloud OS components viz., OpenStack Neutron. This differentiates from other cloud libraries which are in userspace mostly. AstroInfer together with KernelAnalytics-VIRGO-USBmd-KingCobra make it a Cloud OS kernel with Machine Learning and Analytics abilities. Support for  mobile operating systems in cloud are, among other things, long term goals for VIRGO. 
 (Latest NeuronRain VIRGO research version Code at sourceforge repositories: https://sourceforge.net/projects/virgo-linux/ , https://sourceforge.net/projects/virgo64-linux/ and periodically updated Design details at: https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virgo-docs/VirgoDesign.txt ,  http://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/virgo-docs/VirgoDesign.txt)

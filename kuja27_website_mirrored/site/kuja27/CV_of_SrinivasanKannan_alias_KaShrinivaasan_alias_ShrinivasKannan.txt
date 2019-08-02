@@ -218,7 +218,7 @@ Latest version 2018.10.06:
         2.11     Design for extracting patterns from numerical data
         2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
         2.13     Discrete Fourier Transform computation for a parsed numerical input sequence using Python and R
-        2.14     Time Series Analysis - Spline interpolation, LOESS regression, ARMA, Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
+        2.14     Time Series Analysis - Spline interpolation, LOESS regression,  Approximate Linear Polynomial interpolation and graph plot for a parsed numerical input sequence using Python and R (at present implemented for Dow Jones Industrial Average historical dataset and Riemann Zeta Function Zeros dataset)
         2.15    An Experimental Text Compression algorithm that uses Hidden Markov Model Maximum Likelihood Estimation based on a String Complexity measure that compresses vowels in text
         2.16    An Experimental Minimum Description Length implementation that uses the previous string complexity measure, computes MDL using Kraft inequality and Shannon entropy.
         2.17 Probabilistic Approximate Correct – PAC - Learning Implementation related to http://arxiv.org/abs/1106.4102
@@ -360,7 +360,17 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.148 Topological Handwriting Recognition – Deep Learning Convolution Backpropagation – Approximate DP Polynomial deformations from handwriting Image contours and distance similarity measure between DP polynomials
 	2.149 Intrinsic Merit of Music – Learning Weighted Deterministic Finite State Automaton from strings of musical notes (Python 3.7)
 	2.150 People Analytics – Tenure Histogram model of a professional profile - Partition Rank of Tenure Histogram Set Partition
-	2.151 People Analytics – Tenure Histogram vector model of a professional profile – Kendall-Tau Rank Correlation Coefficients of Tenure Histogram Vectors and inferences from them
+	2.151 People Analytics – Tenure Histogram vector model of a professional profile – Kendall-Tau Rank Correlation Coefficients of Tenure Histogram Vectors 
+	2.152 Urban Planning/GIS Analytics – Patch Analysis of Remote Sensing GIS Imagery of Urban Sprawls
+	2.153 Image Analytics - ImageNet Keras-Theano – Scikit Learn Random Forest Classification wrapper for images
+	2.154 Image Analytics - ImageNet Keras-Theano - Unsupervised Recursive Gloss Overlap classifier based on ImageNet
+	2.155 Fraud Analytics – complements low level wireless LAN fraud analytics in US
+Bmd – clustering and PCA based credit card financial transactions dataset analysis and Pandas Correlation Coefficient
+	2.156 Intrinsic Merit of Audio – Recursive Lambda Function Growth Merits and Core Number based Dense Subgraph Classification of Speech text Recognized from audio
+	2.157 Intrinsic Merit of Music – Music Genre Classification based on pairwise earth mover distance between MFCCs of music waveforms
+	2.158 Urban Planning/GIS Image Analytics - scikit learn extract_patches_2d() integration
+	2.159 People Analytics - Kaggle LinkedIn DataSet Analysis - Experiential and Degree Intrinsic Merit
+	2.160 Time Series Analysis – ARMA and ARIMA implementations – for stock quotes example data
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -379,7 +389,7 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 	3.7 		Intermodule Function Invocation in Kernel Space - through which any machine on cloud can be completely remote-controlled deep upto board and hardware cards through function names or commands sent through virgo_clone() calls.
         3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
         3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
-        3.10 Queueing Driver - that implements a wrapper over linux workqueue and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
+        3.10 Queueing Driver - that implements a wrapper over linux concurrent managed workqueue (CMWQ) and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
         3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
         3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
         3.13 A config driver - for exporting config symbols 

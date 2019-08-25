@@ -375,6 +375,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.162 GIS Remote Sensing Image Analytics - Image Segmentation 
 	2.163 Computational Geometric Factorization - Tile Search Optimization - Spark 2.4.3 and QuadCore benchmarks
 	2.164 Named Entity Recognition – by majority PoS of Ontology Semantic Paths between PoS annotated and unannotated words
+	2.165 Intrinsic Merit of Text - ConceptNet Text Graph Implementation and Graph Complexity measures – alternative to WordNet Text Graph
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

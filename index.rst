@@ -199,7 +199,7 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 
 Following are the conceptual relations between various draft publications in a nutshell creating a connected graph:
 	1. Intrinsic Merit is a Non-majority Social Choice Function and quantifies merit of text, audio/music, visuals and people. Intrinsic merit is omnipresent - wherever rankings are required intrinsic merit finds place vis-a-vis perceptive/fame rankings. 9 classes of merit have been defined in the drafts and implemented:
-           1.1 text(recursive gloss overlap,recursive lambda function growth,Question-Answering), 
+           1.1 text(compressed sensing and vowelless string complexity, language independent phonetic syllable vector embedding of strings, recursive gloss overlap,recursive lambda function growth,Question-Answering), 
            1.2 audio-speech(recursive lambda function growth), 
            1.3 audio-music(mel frequency cepstral coefficients,weighted automata), 
            1.4 visuals-images(ImageGraph), 
@@ -207,7 +207,8 @@ Following are the conceptual relations between various draft publications in a n
            1.6 people-experiential and intrinsic(recursive mistake correction tree, Question-Answering in Interviews/Examinations/Contests), 
            1.7 people-lognormal least energy(inverse lognormal sum of education-wealth-valour), 
            1.8 people-attrition(tenure histogram set partitions - correlations, set partition analytics), 
-           1.9 economic merit(Intrinsic Pricing Vs Market Equilibrium - Bargaining problem, logistic regression and Gravity model in economic networks for predicting GDP of nations).
+           1.9 people-unique person search (similar name clustering, contextual name parsing)
+           1.10 economic merit(Intrinsic Pricing Vs Market Equilibrium - Bargaining problem, logistic regression and Gravity model in economic networks for predicting GDP of nations).
 	2. Complement Functions are subset of Diophantine Equations (e.g Beatty functions). Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions). Undecidability of Complement Diophantine Representation follows from MRDP theorem and Post's Correspondence Problem.
 	3. Factorization has a Diophantine Representation (Pell Equation)
 	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover).

@@ -113,8 +113,9 @@ An up-to-date description of how RPC ruled the roost, fell out of favour and rei
 KingCobra - This is a VIRGO module and implements message queueing and pub-sub model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
 
 
-NeuronRain Green - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Green - GitHub - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
+
 AsFer - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
 
 USBmd - https://github.com/shrinivaasanka/usb-md-github-code/blob/master/USBmd_notes.txt
@@ -129,8 +130,26 @@ KingCobra - https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
+NeuronRain Green - GitLab - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+------------------------------------------------------------------------------------------
+
+AsFer - https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
+
+USBmd - https://gitlab.com/shrinivaasanka/usb-md-github-code/blob/master/USBmd_notes.txt
+
+USBmd64 - https://gitlab.com/shrinivaasanka/usb-md64-github-code/blob/master/USBmd_notes.txt
+
+VIRGO Linux - https://gitlab.com/shrinivaasanka/virgo-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt
+
+VIRGO64 Linux - https://gitlab.com/shrinivaasanka/virgo64-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt
+
+KingCobra - https://gitlab.com/shrinivaasanka/kingcobra-github-code/blob/master/KingCobraDesignNotes.txt
+
+KingCobra64 - https://gitlab.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
+
 NeuronRain Research - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ---------------------------------------------------------------------------------------
+
 AsFer - https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
 
 USBmd - https://sourceforge.net/p/usb-md/code-0/HEAD/tree/USBmd_notes.txt
@@ -182,7 +201,7 @@ Reason is NeuronRain integrates multiple worlds into one and it was difficult to
 	(*) VIRGO is dependent on AsFer for kernel analytics
 	(*) KingCobra is dependent on AsFer MAC Protocol Buffer currency implementation
 	(*) Grafit course materials refer to all these repositories
-and all NeuronRain repositories are strongly interdependent now. Each repository of NeuronRain can be deployed independent of the other - for example, VIRGO linux kernel and kernel_analytics module in it can learn analytic variables from any other third-party Machine Learning framework not necessarily from AstroInfer - TensorFlow, Weka, RapidMiner etc., Only prerequisite is /etc/kernel_analytics.conf should be periodically updated by set of key-value pairs of machine-learnt analytic variables written to it. But flipside of using third-party machine-learning software in lieu of AsFer is lack of implementations specialized and optimized for NeuronRain.
+and all NeuronRain repositories are strongly interdependent now. Each repository of NeuronRain can be deployed independent of the other - for example, VIRGO linux kernel and kernel_analytics module in it can learn analytic variables from any other third-party Machine Learning framework not necessarily from AstroInfer - TensorFlow, Weka, RapidMiner etc., Only prerequisite is /etc/kernel_analytics.conf should be periodically updated by set of key-value pairs of machine-learnt analytic variables written to it. But flipside of using third-party machine-learning software in lieu of AsFer is lack of implementations specialized and optimized for NeuronRain. NeuronRain Research repos in SourceForge is astronomy specific while NeuronRain Green repos in GitHub and GitLab are for generic datasets (GitHub and GitLab repos of NeuronRain might diversify and be specialized for cloud and drones/IoTs) 
 
 **NeuronRain repositories have implementations for your publications and drafts. Are they reviewed? Could you explain about them?**
 
@@ -364,13 +383,33 @@ Some reference screen and kernel logs have been committed to:
 which demonstrate the system call testcases for VIRGO clone, kmemcache and filesystem listener drivers.
 virgo-docs/ in URLs above have detailed description of System Calls and Drivers in commit notes. VIRGO64 is the 64-bit version of VIRGO repositories but overlay-ed on top of 4.13.3 mainline kernel. 64-bit VIRGO kernel has lot of bug fixes and is stabler than 32-bit VIRGO kernel. This anomaly between 32 bit 4.1.5 and 64 bit 4.13.3 linux kernels was a frustrating, deplorable issue to debug. Mainly, 32 bit kernels were frequently crashing in DRM GEM i915 intel graphics drivers. Quite a few i915 bug fixes went in 4.9 and 4.10 kernels which could have been the reason for stabler 64-bit VIRGO kernel. Apart from these testlogs/ or test_logs/ folders in all NeuronRain repositories contain manually captured testcase logs appended with historic date/time stamp suffix. Course material in https://github.com/shrinivaasanka/Grafit/tree/master/course_material/NeuronRain have complementary information on NeuronRain meant for academic classroom teaching.
 
-**How is NeuronRain code licensed? Can it be used commercially? Is technical support available?**
+**How applicable is NeuronRain for Drones/Robots?**
 
-All repositories of NeuronRain (in Sourceforge, GitLab and GitHub) excluding Grafit course materials (https://github.com/shrinivaasanka/Grafit/ - replicated in SourceForge and GitLab - which is Creative Commons 4.0 licensed) are GPLv3 copyleft licensed. As per license terms, NeuronRain code has no warranty. Any commercial derivative is subject to clauses of GPLv3 copyleft licensing. Please refer to https://www.gnu.org/licenses/gpl-faq.html#GPLCommercially for licensing terms for commercial derivatives ("Free means freedom, not price"). GPLv3 copyleft license mandates any derived source code to be open sourced (Sections on Conveying Verbatim Copies, Conveying Modified Source and Non-Source versions - https://www.gnu.org/licenses/gpl-3.0.en.html). Present model followed is as below
-	(*) NeuronRain repositories also have implementations of author's publications and drafts - respective GPLv3 and Creative Commons 4.0 NCND clauses apply
-	(*) Premium Technical support for NeuronRain codebases is provided only on direct request based on feasibility and time constraints.
-	(*) GPLv3 license terms do not prohibit pricing.
-	(*) Commercial derivatives (for individuals or organizations who clone NeuronRain repositories and make modifications for commercial use) if any have to be GPLv3 copyleft and Creative Commons 4.0 NCND compliant.
+Drones have distinct software and hardware for mission plan (route map), flight and ground control often different from mainstream linux kernel. Mission plans are uploaded to drone by special protocols like MAVlink and userspace SDKs are available for it. Drone control userspace C++ code example in https://github.com/Dronecode/DronecodeSDK/blob/develop/example/fly_qgc_mission/fly_qgc_mission.cpp uses DronecodeSDK in userspace and there is no necessity for kernel_analytics kernel module to read analytics variables into kernelspace from userspace Machine Learning code. Application code can directly instantiate /etc/kernel_analytics.conf File locally/Socket Streaming Iterable in https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/python-src/Streaming_AbstractGenerator.py on a remote host and at port 64001 (in Python) and read analytics variables for drone navigation augmenting flight plan - Quite useful when static mission plans require dynamic changes after upload to drone e.g Military Reconnaissance, Autonomous Combat, Autonomous Online Shopping Delivery. For robots, there are already linux add-on operating systems in development e.g ROS - http://www.ros.org/ which could benefit by kernel_analytics and VIRGO32/VIRGO64 system calls and drivers. Recent linux kernel versions from 4.17.x onwards support PhoenixRC flight controller (https://github.com/torvalds/linux/blob/master/drivers/input/joystick/pxrc.c) and thus drone telemetry is part of linux kernel. Kernel Analytics navigation variables exported by VIRGO32 and VIRGO64 kernel_analytics drivers can be imported in pxrc drone driver and input_set_abs_params() is invoked for appropriate setting of ordinates, rudder, throttle values. NeuronRain AstroInfer has a partial untested drone implementation and usecases description for Autonomous Online Shopping Delivery, Drone Electronic Voting Machines etc., 
+ 
+**Can NeuronRain be deployed on Mobile processors?**
+
+Presently mobile OSes are not supported. But that should not be difficult. Similar to Android which is a linux variant, NeuronRain can be cross-compiled for a mobile architecture.
+
+**Are there any realworld usecases for applicability of machine learning in linux kernel?**
+
+Yes. Some usecases are described in  https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf. Apart from these, Pagefault data and on-demand paging reference pattern for each application can be analyzed for unusual behaviour and malware infection. Malware have abnormal address reference patterns than usual applications.
+
+NeuronRain Licensing:
+---------------------
+**How is NeuronRain code licensed? Can it be used commercially? Is technical support available?**
+       
+        (*) NeuronRain repositories are spread across following SourceForge, GitHub and GitLab URLs:
+                (*) NeuronRain Research - http://sourceforge.net/users/ka_shrinivaasan
+                (*) NeuronRain Green - https://github.com/shrinivaasanka
+                (*) NeuronRain Green (replicated) - https://gitlab.com/shrinivaasanka
+        (*) All repositories of NeuronRain (in Sourceforge, GitLab and GitHub) excluding Grafit course materials, Krishna_iResearch_DoxygenDocs NeuronRain PDF/HTML documentation and NeuronRain Design Documents are GPLv3 copyleft licensed. 
+        (*) Grafit course materials (includes NeuronRain Design Documents) and Krishna_iResearch_DoxygenDocs PDF/HTML documentation (in SourceForge, GitLab and GitHub) are Creative Commons 4.0 NCND licensed.
+        (*) As per license terms, NeuronRain code has no warranty. Any commercial derivative is subject to clauses of GPLv3 copyleft licensing. Please refer to https://www.gnu.org/licenses/gpl-faq.html#GPLCommercially for licensing terms for commercial derivatives ("Free means freedom, not price"). GPLv3 copyleft license mandates any derived source code to be open sourced (Sections on Conveying Verbatim Copies, Conveying Modified Source and Non-Source versions - https://www.gnu.org/licenses/gpl-3.0.en.html). Present model followed is as below:
+        	(*) NeuronRain repositories also have implementations of author's publications and drafts - respective GPLv3 and Creative Commons 4.0 NCND clauses apply
+        	(*) Premium Technical support for NeuronRain codebases is provided only on direct request based on feasibility and time constraints.
+        	(*) GPLv3 license terms do not prohibit pricing.
+        	(*) Commercial derivatives (for individuals or organizations who clone NeuronRain repositories and make modifications for commercial use) if any have to be GPLv3 copyleft and Creative Commons 4.0 NCND compliant.
 
 **What is dual licensing?**
 
@@ -393,11 +432,11 @@ P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan),
 Kumbakonam - 612001.
 Tamil Nadu, India.
 
-Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain SourceForge, GitHub and GitLab Grafit Open Learning Course Notes: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html (replicated in SourceForge and GitLab)
+Licensing 1 - Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain Krishna_iResearch_DoxygenDocs SourceForge, GitHub and GitLab HTML/PDF documentations and Grafit Open Learning Course Notes (GRAFIT open learning course material includes all NeuronRain Design Documents which are frequently updated commentaries on NeuronRain code commits and related theory) : https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html (replicated in SourceForge and GitLab)
 
-GPL v3.0 for other NeuronRain GitLab, GitHub and SourceForge repositories: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html
+Licensing 2 - GPL v3.0 for other NeuronRain GitLab, GitHub and SourceForge repositories (excluding GRAFIT open learning repositories, NeuronRain Design Documents and Krishna_iResearch_DoxygenDocs HTML/PDF documentation which are Creative Commons 4.0 NCND licensed): https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/The%20GNU%20General%20Public%20License%20v3.0%20-%20GNU%20Project%20-%20Free%20Software%20Foundation%20(FSF).html (replicated in SourceForge and GitLab)
 
-Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitLab, GitHub and SourceForge source code files.
+Previous license ownership attribution supersedes all other copyleft notice headers within NeuronRain GitLab, GitHub and SourceForge source code files and design documents.
 
 **and contributed by:**
 
@@ -411,16 +450,5 @@ SourceForge/GitHub/GitLab Repository email: grafitopenlearning@gmail.com
 Personal emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 NeuronRain mailing lists: https://sourceforge.net/p/virgo-linux/mailman/virgo-linux-mailing-list/, https://in.groups.yahoo.com/neo/groups/grafitopenlearning/info
 
-Contributor has no industry or academic affiliations and does not accrue any monetary benefit and the whole opensource effort is a charity. Name "Krishna iResearch" is non-funded, not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
+Contributor has no industry or academic affiliations and does not accrue any monetary benefit for Opensource research and development effort (contribution is a charity). Name "Krishna iResearch" is non-funded, not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which I neither confirm nor deny), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf
 
-**How applicable is NeuronRain for Drones/Robots?**
-
-Drones have distinct software and hardware for mission plan (route map), flight and ground control often different from mainstream linux kernel. Mission plans are uploaded to drone by special protocols like MAVlink and userspace SDKs are available for it. Drone control userspace C++ code example in https://github.com/Dronecode/DronecodeSDK/blob/develop/example/fly_qgc_mission/fly_qgc_mission.cpp uses DronecodeSDK in userspace and there is no necessity for kernel_analytics kernel module to read analytics variables into kernelspace from userspace Machine Learning code. Application code can directly instantiate /etc/kernel_analytics.conf File locally/Socket Streaming Iterable in https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/python-src/Streaming_AbstractGenerator.py on a remote host and at port 64001 (in Python) and read analytics variables for drone navigation augmenting flight plan - Quite useful when static mission plans require dynamic changes after upload to drone e.g Military Reconnaissance, Autonomous Combat, Autonomous Online Shopping Delivery. For robots, there are already linux add-on operating systems in development e.g ROS - http://www.ros.org/ which could benefit by kernel_analytics and VIRGO32/VIRGO64 system calls and drivers. Recent linux kernel versions from 4.17.x onwards support PhoenixRC flight controller (https://github.com/torvalds/linux/blob/master/drivers/input/joystick/pxrc.c) and thus drone telemetry is part of linux kernel. Kernel Analytics navigation variables exported by VIRGO32 and VIRGO64 kernel_analytics drivers can be imported in pxrc drone driver and input_set_abs_params() is invoked for appropriate setting of ordinates, rudder, throttle values. 
- 
-**Can NeuronRain be deployed on Mobile processors?**
-
-Presently mobile OSes are not supported. But that should not be difficult. Similar to Android which is a linux variant, NeuronRain can be cross-compiled for a mobile architecture.
-
-**Are there any realworld usecases for applicability of machine learning in linux kernel?**
-
-Yes. Some usecases are described in  https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf. Apart from these, Pagefault data and on-demand paging reference pattern for each application can be analyzed for unusual behaviour and malware infection. Malware have abnormal address reference patterns than usual applications.

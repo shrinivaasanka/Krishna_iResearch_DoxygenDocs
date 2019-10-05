@@ -342,7 +342,7 @@ and is thus deployable on large scale clouds. Presently benchmarked on single no
 	2.130 Merit of Large Scale Visuals by ImageNet based ImageGraph and VideoGraph EventNet Tensor Products Algorithm Implementation – objects in frames of video are annotated by Keras with Theano backend
 	2.131 Music Pattern Mining – Histogram timeseries and Notes Onset Detection – sequence of notes in music are deemed to be strings in a formal language
 	2.132 Social Network Analysis – People Analytics and HR Analytics of Social and Professional Profiles by Recursive Lambda Function Growth Graph Tensor Neuron Intrinsic Merit, Log Normal Least Energy Intrinsic Merit and Profile vertex degree based Experiential Intrinsic Merit
-	2.133 Machine Translation – by mapping vertices of Text Graph in Recursive Lambda Function Growth implementation from English to any other Natural Language – translation REST API in PyDictionary/GoSlate invoked – sentence formation is by graph traversal
+	2.133 Machine Translation – by mapping vertices of Text Graph in Recursive Lambda Function Growth implementation from English to any other Natural Language – translation REST API in PyDictionary/GoSlate/Googletrans invoked – sentence formation is by graph traversal
 	2.134 Software Analytics –  Deep Learning (GRU,ConvNet,BackPropagation,LSTM) analytics for systemwide performance based on Psutil CPU/Disk/Memory load statistics – implements a NeuronRain usecase
 	2.135 Audio/Music Pattern Mining – Complexity Analysis of Intrinsic Merit of Audio/Music as String of Notes over octave alphabets – Minimum Description Length, Entropy, Minimum DFA etc.,
 	2.136 Pattern mining large scale visuals – Urban Planning/GIS Analytics - Convex hull analytics of GIS Images
@@ -376,6 +376,11 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.163 Computational Geometric Factorization - Tile Search Optimization - Spark 2.4.3 and QuadCore benchmarks
 	2.164 Named Entity Recognition – by majority PoS of Ontology Semantic Paths between PoS annotated and unannotated words
 	2.165 Intrinsic Merit of Text - ConceptNet Text Graph Implementation and Graph Complexity measures – alternative to WordNet Text Graph
+	2.166 Social Network Analysis - People Analytics - PIPL.com python API integration - Syllable based name clustering 
+	2.167 Social Network Analysis - People Analytics - Contextual Name Parsing and Syllable Vector compression
+	2.168  People Analytics - Set Partition based Electronic Voting Machine(EVM) implementation and a Drone EVM usecase
+	2.169  Topological Handwriting and Face Recognition - Product Homotopies
+	2.170  Economic Intrinsic Merit - Gravity Model of Volume of Trade and GDP as fitness measure
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

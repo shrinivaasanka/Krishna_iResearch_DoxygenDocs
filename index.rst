@@ -218,16 +218,18 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 
 Following are the conceptual relations between various draft publications in a nutshell creating a connected graph:
 	1. Intrinsic Merit is a Non-majority Social Choice Function and quantifies merit of text, audio/music, visuals and people. Intrinsic merit is omnipresent - wherever rankings are required intrinsic merit finds place vis-a-vis perceptive/fame rankings. Following classes of merit have been defined in the drafts and most of them are implemented(excluding dependencies):
-           1.1 text(compressed sensing and vowelless string complexity, language independent phonetic syllable vector embedding of strings, recursive gloss overlap,recursive lambda function growth,Question-Answering), 
+           1.1 text(compressed sensing and vowelless string complexity, language independent phonetic syllable vector embedding of strings, recursive gloss overlap,recursive lambda function growth,Question-Answering, Coh-Metrix), 
            1.2 audio-speech(recursive lambda function growth), 
            1.3 audio-music(mel frequency cepstral coefficients,weighted automata), 
            1.4 visuals-images(Compressed Sensing,ImageGraph), 
            1.5 visuals-videos(VideoGraph EventNet Tensor products), 
            1.6 people-experiential and intrinsic(recursive mistake correction tree, Question-Answering in Interviews/Examinations/Contests), 
-           1.7 people-lognormal least energy(inverse lognormal sum of education-wealth-valour), 
-           1.8 people-analytics(attritions, drone electronic voting machine by autonomous delivery, tenure histogram set partitions - correlations, set partition analytics), 
-           1.9 people-unique person search (similar name clustering by phonetic syllable vectorspace embedding of names, contextual name parsing, topological handwriting and face recognition for unique identification)
-           1.10 economic merit(Intrinsic Pricing Vs Market Equilibrium - Bargaining problem, logistic regression and Gravity model in economic networks for predicting trade between nations based on GDP as fitness measure, Software Valuations)
+           1.7 people-lognormal least energy(inverse lognormal sum of education-wealth-valour,Intrinsic Performance Ratings-IPR - Elo ratings,Rankings in Sports,Wealth and Academics), 
+           1.8 people-analytics(attritions, tenure histogram set partitions - correlations, set partition analytics), 
+           1.9 people-election analytics(set partition EVMs, drone electronic voting machine by autonomous delivery, voting analytics, pre-poll and post-poll forecast analytics), 
+           1.10 people-unique person search (similar name clustering by phonetic syllable vectorspace embedding of names, contextual name parsing, unique person identification from multiple datasources viz.,LinkedIn,Twitter,Facebook,PIPL.com,Emails)
+           1.11 people-handwriting recognition (topological handwriting and face recognition for unique identification)
+           1.12 economic merit(Human Development Index, Gross Domestic Product, Purchasing Manager Index, Social Progress Index,Intrinsic Pricing Vs Market Equilibrium - Bargaining problem, logistic regression and Gravity model in economic networks for predicting trade between nations based on GDP as fitness measure, Software Valuations)
 	2. Complement Functions are subset of Diophantine Equations (e.g Beatty functions). Polynomial Reconstruction Problem/List decoding/Interpolation which retrieve a polynomial (exact or approximate) for set of message points is indeed a Diophantine Representation/Diophantine Approximation problem for the complementary sets (e.g. approximating Real Pi by Rational Continued Fractions). Undecidability of Complement Diophantine Representation follows from MRDP theorem and Post's Correspondence Problem.
 	3. Factorization has a Diophantine Representation (Pell Equation)
 	4. Tiling/Filling/Packing is a generalization of Complement Functions (Exact Cover).
@@ -260,6 +262,7 @@ Following are the conceptual relations between various draft publications in a n
         31. Category Theory is the most fundamental abstraction of mathematics. Morphisms and Functors of Categories on algebraic topological spaces can be formulated as Shell Turing Machines on some topological space defined on objects embedded in topological space.
         32. EventNet Logical Clock which has been applied for EventNet Tensor Products merit of Large Scale Visuals can be formalised by Category Theory - as Event Categories and Morphisms amongst Actors with in an Event and Causation Functors across Events. EventNet causality has an unusual connection to one-way functions, Quantum computation and Bell non-locality of hidden variables (QM predicts Future influences Past - https://www.sciencealert.com/quantum-physics-theory-predicts-future-might-influence-the-past-retrocausality), Pseudorandom generators, Hardness amplification, P != NP and Retrocausality/time reversal - EventNet causality DAG can be partitioned to past,present and future components by 2 cuts/vertex separators and if Retrocausality is false there exist two one way future functions defined on the partition (f1(past)=present, f2(present)=future) which are hard to invert ruling out bidirectional time. Tensor Decomposition of EventNet implies time has component basis similar to any vectorspace.
         33. Shell Turing Machines have connections to Diophantine Equations - set of languages of all Shell Turing Machines cover the set of Recursively Enumerable languages and MRDP theorem equates Diophantine Equations and Recursively Enumerable sets. Relation between dimension of topological space of a Shell Turing Machine and (degree, number of unknowns) of its Diophantine representation is an open problem
+        34. Randomized versions of Electronic Voting Machines/Integer Partitions/Set Partitions/Locality Sensitive Hashing/Linear Programs are instances of Coupon Collector Balls-Bins problem.
 
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 

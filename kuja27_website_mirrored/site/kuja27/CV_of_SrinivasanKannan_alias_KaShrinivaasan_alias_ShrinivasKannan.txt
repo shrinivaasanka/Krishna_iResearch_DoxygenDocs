@@ -384,6 +384,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.171  People Analytics - Set Partition Analytics based Drone Electronic Voting Machine (partial implementation – has dependency on Drones)
 	2.172  People Analytics - Handwriting Recognition - Contour Homotopies - Matplotlib Rasterization 
 	2.173  People Analytics - Handwriting Recognition - Inner Product Space of Contour Interpolated Polynomials
+	2.174  People Analytics – Election Analytics – Set Partition Electronic Voting Machine Streaming analytics by Histogram distance measures
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

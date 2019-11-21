@@ -7,7 +7,7 @@
 d),c.tick("tbsd_","wtsrt_"))}try{a=null,window.chrome&&window.chrome.csi&&(a=Math.floor(window.chrome.csi().pageT),c&&0<b&&(c.tick("_tbnd",void 0,window.chrome.csi().startE),c.tick("tbnd_","_tbnd",b))),null==a&&window.gtbExternal&&(a=window.gtbExternal.pageT()),null==a&&window.external&&(a=window.external.pageT,c&&0<b&&(c.tick("_tbnd",void 0,window.external.startE),c.tick("tbnd_","_tbnd",b))),a&&(window.jstiming.pt=a)}catch(g){}})(); })()
 </script>
 <link rel="shortcut icon" type="image/x-icon" href="//www.google.com/images/icons/product/sites-16.ico" />
-<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/88db06/system/app/images/apple-touch-icon.png" type="image/png" />
+<link rel="apple-touch-icon" href="https://ssl.gstatic.com/sites/p/5241fa/system/app/images/apple-touch-icon.png" type="image/png" />
 <script type="text/javascript">/* Copyright 2008 Google. */ (function() { function d(a){return document.getElementById(a)}window.byId=d;function g(a){return a.replace(/^\s+|\s+$/g,"")}window.trim=g;var h=[],k=0;window.JOT_addListener=function(a,b,c){var f=new String(k++);a={eventName:a,handler:b,compId:c,key:f};h.push(a);return f};window.JOT_removeListenerByKey=function(a){for(var b=0;b<h.length;b++)if(h[b].key==a){h.splice(b,1);break}};window.JOT_removeAllListenersForName=function(a){for(var b=0;b<h.length;b++)h[b].eventName==a&&h.splice(b,1)};
 window.JOT_postEvent=function(a,b,c){var f={eventName:a,eventSrc:b||{},payload:c||{}};if(window.JOT_fullyLoaded)for(b=h.length,c=0;c<b&&c<h.length;c++){var e=h[c];e&&e.eventName==a&&(f.listenerCompId=e.compId||"",(e="function"==typeof e.handler?e.handler:window[e.handler])&&e(f))}else window.JOT_delayedEvents.push({eventName:a,eventSrc:b,payload:c})};window.JOT_delayedEvents=[];window.JOT_fullyLoaded=!1;
 window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1440<=a||0>a)return null;var c=0;60<=a&&(a/=60,c=2);2<=a&&c++;return b?window.JOT_siteRelTimeStrs[c].replace("__duration__",Math.floor(a)):window.JOT_userRelTimeStrs[c].replace("__duration__",Math.floor(a))}; })()
@@ -17,7 +17,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
   
 
   var breadcrumbs = [{"path":"/site/kuja27/system","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app/pages","deleted":false,"title":"[Untitled]","dir":"ltr"},{"path":"/site/kuja27/system/app/pages/recentChanges","deleted":false,"title":"Recent_Site_Activity","dir":"ltr"}];
-  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/88db06/system/app/images/cleardot.gif';
+  var JOT_clearDotPath = 'https://ssl.gstatic.com/sites/p/5241fa/system/app/images/cleardot.gif';
 
   
   var JOT_userRelTimeStrs = ["a minute ago","__duration__ minutes ago","an hour ago","__duration__ hours ago"];
@@ -27,7 +27,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 
   
 
-  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1539354121-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":false,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/site/kuja27/system/app/pages/recentChanges\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":false,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/88db06/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/88db06/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/88db06/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/88db06/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/88db06/system/app/css/trogedit.css","/site/kuja27/_/rsrc/1567668216000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/88db06/system/app/css/codeeditor.css","/site/kuja27/_/rsrc/1567668216000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/kuja27","name":"kuja27","siteTemplateId":false,"siteNoticeRevision":1,"siteNoticeUrlAddress":"https://sourceforge.net/u/userid-769929/profile/","siteNoticeMessage":"","page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/system/app/pages","parentWuid":"wuid:gx:3e1d8c8f04d880c3","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Recent site activity","locale":"en","wuid":"wuid:gx:4d2bfa764e620c45","revision":0,"path":"/system/app/pages/recentChanges","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"recentChanges","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/site/kuja27/system/app/pages/gadgets"}};
+  var webspace = {"gvizGstaticVersion":"current","enableAnalytics":false,"pageSharingId":"jotspot_page","codeembeds":{"outerIframeSrc":"https://www.gstatic.com/jotspot/embeds/code/0f08d42392f2000e7e3f3daf5b427a43/outer_iframe.html","innerIframeSrc":"https://1356447641-jotspot-embeds.googleusercontent.com/code/8d87fa64604b2a11fae2ed06104c58d3/inner_iframe.html"},"enableUniversalAnalytics":false,"sharingPolicy":"OPENED","siteTitle":"Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan","jot2atari":{"eligibility":"ineligible"},"onepickUrl":"https://docs.google.com/picker","adsensePublisherId":null,"features":{"moreMobileStyleImprovements":null,"subscriptionDataMigrationInProgress":null,"plusBadge":false},"isPublic":true,"newSitesBaseUrl":"https://sites.google.com","isConsumer":true,"serverFlags":{"jot2AtariLearnMoreUrl":"https://support.google.com/sites/answer/7035197"},"domainAnalyticsAccountId":"","plusPageId":"","signInUrl":"https://accounts.google.com/AccountChooser?continue\u003dhttps://sites.google.com/site/kuja27/system/app/pages/recentChanges\u0026service\u003djotspot","analyticsAccountId":"","scottyUrl":"/_/upload","homePath":"/","siteNoticeUrlEnabled":false,"plusPageUrl":"","adsensePromoClickedOrSiteIneligible":true,"csiReportUri":"https://gg.google.com/csi","sharingId":"jotspot","termsUrl":"//www.google.com/intl/en/policies/terms/","gvizVersion":1,"editorResources":{"sitelayout":["https://ssl.gstatic.com/sites/p/5241fa/system/app/css/sitelayouteditor.css"],"text":["https://ssl.gstatic.com/sites/p/5241fa/system/js/codemirror.js","https://ssl.gstatic.com/sites/p/5241fa/system/app/css/codemirror_css.css","https://ssl.gstatic.com/sites/p/5241fa/system/js/trog_edit__en.js","https://ssl.gstatic.com/sites/p/5241fa/system/app/css/trogedit.css","/site/kuja27/_/rsrc/1573115871000/system/app/css/editor.css","https://ssl.gstatic.com/sites/p/5241fa/system/app/css/codeeditor.css","/site/kuja27/_/rsrc/1573115871000/system/app/css/camelot/editor-jfk.css"]},"sharingUrlPrefix":"/_/sharing","isAdsenseEnabled":true,"domain":"defaultdomain","baseUri":"/site/kuja27","name":"kuja27","siteTemplateId":false,"siteNoticeRevision":1,"siteNoticeUrlAddress":"https://sourceforge.net/u/userid-769929/profile/","siteNoticeMessage":"","page":{"isRtlLocale":false,"canDeleteWebspace":null,"isPageDraft":null,"parentPath":"/system/app/pages","parentWuid":"wuid:gx:3878d3ed456b8734","siteLocale":"en","timeZone":"America/Los_Angeles","type":"text","title":"Recent site activity","locale":"en","wuid":"wuid:gx:5c3afeb4763de810","revision":0,"path":"/system/app/pages/recentChanges","isSiteRtlLocale":false,"pageInheritsPermissions":null,"name":"recentChanges","canChangePath":true,"state":"","properties":{},"bidiEnabled":false,"currentTemplate":{"path":"/system/app/pagetemplates/text","title":"Web Page"}},"canPublishScriptToAnyone":true,"user":{"keyboardShortcuts":true,"sessionIndex":"","onePickToken":"","guest_":true,"displayNameOrEmail":"guest","userName":"guest","uid":"","renderMobile":false,"domain":"","namespace":"","hasWriteAccess":false,"namespaceUser":false,"primaryEmail":"guest","hasAdminAccess":false},"gadgets":{"baseUri":"/site/kuja27/system/app/pages/gadgets"}};
   webspace.page.breadcrumbs = breadcrumbs;
 
   
@@ -46,9 +46,9 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <meta id="meta-tag-description" property="og:description" content="Personal Website of Srinivasan Kannan (alias) Shrinivaasan Ka (alias) Shrinivas Kannan" />
 <style type="text/css">
 </style>
-<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/88db06/system/app/themes/microlite/standard-css-microlite-ltr-ltr.css" />
-<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1567668216000/system/app/css/overlay.css?cb=microliteundefineda718px150goog-ws-noside" />
-<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1567668216000/system/app/css/camelot/allthemes-view.css" />
+<link rel="stylesheet" type="text/css" href="https://ssl.gstatic.com/sites/p/5241fa/system/app/themes/microlite/standard-css-microlite-ltr-ltr.css" />
+<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1573115871000/system/app/css/overlay.css?cb=microliteundefineda718px150goog-ws-noside" />
+<link rel="stylesheet" type="text/css" href="/site/kuja27/_/rsrc/1573115871000/system/app/css/camelot/allthemes-view.css" />
 <!--[if IE]>
           <link rel="stylesheet" type="text/css" href="/site/kuja27/system/app/css/camelot/allthemes%2die.css" />
         <![endif]-->
@@ -121,7 +121,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
         }
       //]]>
 </script>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568529051262, "Sep 14, 2019, 11:30 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:30 PM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1574328286841, "Nov 21, 2019, 1:24 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2019, 1:24 AM</noscript>
 </strong>
 </td>
 <td>
@@ -131,17 +131,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568529034498, "Sep 14, 2019, 11:30 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:30 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568529017598, "Sep 14, 2019, 11:30 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:30 PM</noscript>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1574328241878, "Nov 21, 2019, 1:24 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2019, 1:24 AM</noscript>
 </strong>
 </td>
 <td>
@@ -151,57 +141,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568528435114, "Sep 14, 2019, 11:20 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:20 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568528069825, "Sep 14, 2019, 11:14 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:14 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568527792804, "Sep 14, 2019, 11:09 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:09 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568527675625, "Sep 14, 2019, 11:07 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 11:07 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1568526994584, "Sep 14, 2019, 10:56 PM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Sep 14, 2019, 10:56 PM</noscript>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 25, 2019, 1:49 AM</span>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1574328221418, "Nov 21, 2019, 1:23 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2019, 1:23 AM</noscript>
 </strong>
 </td>
 <td>
@@ -211,7 +151,27 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 25, 2019, 1:49 AM</span>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">JOT_insertRelDate(1574327996768, "Nov 21, 2019, 1:19 AM", true, "ltr");</script><noscript xmlns="http://www.w3.org/1999/xhtml">Nov 21, 2019, 1:19 AM</noscript>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:54 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:53 AM</span>
 </strong>
 </td>
 <td>
@@ -221,27 +181,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 25, 2019, 1:49 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:55 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:55 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:51 AM</span>
 </strong>
 </td>
 <td>
@@ -251,77 +191,37 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:55 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:50 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
+                          Srinivasan Kannan attached <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0?attredirects%3D0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0</a> to Top level
+                        </td>
 </tr>
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:33 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:49 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
-</td>
+                          Srinivasan Kannan attached <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0?attredirects%3D0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0</a> to Top level
+                        </td>
 </tr>
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:33 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 29, 2019, 2:49 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
-</td>
+                          Srinivasan Kannan attached <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0?attredirects%3D0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0</a> to Top level
+                        </td>
 </tr>
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 22, 2019, 3:33 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 21, 2019, 2:39 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 21, 2019, 2:38 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 21, 2019, 2:38 AM</span>
-</strong>
-</td>
-<td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
-</td>
-</tr>
-<tr>
-<td width="25%">
-<strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 21, 2019, 2:37 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:42 AM</span>
 </strong>
 </td>
 <td>
@@ -331,27 +231,37 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 2, 2019, 1:00 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:41 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
 </td>
 </tr>
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 2, 2019, 12:59 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:38 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
 </td>
 </tr>
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Aug 2, 2019, 12:59 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:36 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:31 AM</span>
 </strong>
 </td>
 <td>
@@ -361,11 +271,101 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <tr>
 <td width="25%">
 <strong>
-<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Jul 22, 2019, 3:22 AM</span>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:31 AM</span>
 </strong>
 </td>
 <td>
-                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV.pdf?attredirects=0" dir="ltr">CV.pdf</a>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Oct 5, 2019, 2:31 AM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:30 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:30 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.txt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:30 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan updated <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt?attredirects=0" dir="ltr">CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.odt</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:20 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:14 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:09 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 11:07 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
+</td>
+</tr>
+<tr>
+<td width="25%">
+<strong>
+<span xmlns="http://www.w3.org/1999/xhtml" dir="ltr">Sep 14, 2019, 10:56 PM</span>
+</strong>
+</td>
+<td>
+                          Srinivasan Kannan edited <a xmlns="http://www.w3.org/1999/xhtml" href="https://sites.google.com/site/kuja27/home">home</a>
 </td>
 </tr>
 </table>
@@ -403,7 +403,7 @@ window.JOT_formatRelativeToNow=function(a,b){a=((new Date).getTime()-a)/6E4;if(1
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
     window.jstiming.load.tick('sjl');
   </script>
-<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/88db06/system/js/jot_min_view__en.js"></script>
+<script xmlns="http://www.w3.org/1999/xhtml" src="https://ssl.gstatic.com/sites/p/5241fa/system/js/jot_min_view__en.js"></script>
 <script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
     window.jstiming.load.tick('jl');
   </script>

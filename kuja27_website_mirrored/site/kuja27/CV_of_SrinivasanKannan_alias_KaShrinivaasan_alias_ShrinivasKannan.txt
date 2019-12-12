@@ -385,6 +385,16 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.172  People Analytics - Handwriting Recognition - Contour Homotopies - Matplotlib Rasterization 
 	2.173  People Analytics - Handwriting Recognition - Inner Product Space of Contour Interpolated Polynomials
 	2.174  People Analytics – Election Analytics – Set Partition Electronic Voting Machine Streaming analytics by Histogram distance measures
+	2.175  People Analytics - Drone Electronic Voting Machine - JSON persistence of EVMs - Datasource for Voting Analytics
+	2.176  People Analytics - Drone Electronic Voting Machine - Pseudorandom Majority Voting Balls-Bins Simulation and Voting Analytics
+	2.177  Set Partition Analytics - Set Partition to Tile Cover Reduction by Computational Geometric Factorization - Least Squares Approximate Solution for the underdetermined linear equations
+	2.178  Apart from AstroInfer repositories, GRAFIT course materials have some pedagogical analytics: Async IO (suitable for Drones) and cloud implementations based on Python Spark MLLib - Advertisement Analytics by PageRank and Collaborative Filtering, PrefixSpan Astronomical Analytics of Celestial bodies, FPGrowth frequent itemset analytics for OS Scheduler and a design of Earliest Deadline First Worst Case Execution Time OS Scheduler – AstroInfer codebase might import these cloud implementations
+	2.179 People Analytics – Election Analytics - Drone Electronic Voting Machine - Streaming Boyer-Moore Majority voting
+	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
+	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
+	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6 Upgrade Benchmarks
+	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

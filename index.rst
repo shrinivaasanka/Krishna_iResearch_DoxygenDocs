@@ -30,7 +30,7 @@ NeuronRain Documentation Repositories:
 
 NeuronRain Version:
 -------------------
-Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code releasefor SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>.<month>.<day>) has to be construed as the latest source release. Latest NeuronRain Research and Green version is 19.08.20.
+Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Latest NeuronRain Research and Green version is 2020#01#03.
 
 NeuronRain - Features:
 ----------------------
@@ -115,7 +115,7 @@ KingCobra - This is a VIRGO module and implements message queueing and pub-sub m
 Following are frequently updated design documents and theoretical commentaries for NeuronRain code commits which have been organized into
 numbered non-linear section vertices and edges amongst them are mentioned by "related to <section>" phrase:
 
-NeuronRain Green - GitHub - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Green - GitHub - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -132,7 +132,7 @@ KingCobra - https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Green - GitLab - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Green - GitLab - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -149,7 +149,7 @@ KingCobra - https://gitlab.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://gitlab.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Research - Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Research - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ---------------------------------------------------------------------------------------
 
 AsFer - https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt

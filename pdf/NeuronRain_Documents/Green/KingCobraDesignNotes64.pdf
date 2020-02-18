@@ -1,11 +1,11 @@
 %!PS-Adobe-3.0
-%%BoundingBox: 18 36 577 806
+%%BoundingBox: 18 36 594 756
 %%Title: Enscript Output
 %%Creator: GNU Enscript 1.6.5.90
-%%CreationDate: Wed Aug 21 16:01:42 2019
+%%CreationDate: Tue Feb 18 12:07:57 2020
 %%Orientation: Portrait
 %%Pages: (atend)
-%%DocumentMedia: A4 595 842 0 () ()
+%%DocumentMedia: Letter 612 792 0 () ()
 %%DocumentNeededResources: (atend)
 %%EndComments
 %%BeginProlog
@@ -405,7 +405,7 @@
 % Pagedevice definitions:
 gs_languagelevel 1 gt {
   <<
-    /PageSize [595 842] 
+    /PageSize [612 792] 
   >> setpagedevice
 } if
 %%BeginResource: procset Enscript-Header-simple 1.6.5 90
@@ -432,18 +432,18 @@ gs_languagelevel 1 gt {
   grestore
 } def
 %%EndResource
-/d_page_w 559 def
-/d_page_h 770 def
+/d_page_w 576 def
+/d_page_h 720 def
 /d_header_x 0 def
-/d_header_y 755 def
-/d_header_w 559 def
+/d_header_y 705 def
+/d_header_w 576 def
 /d_header_h 15 def
 /d_footer_x 0 def
 /d_footer_y 0 def
-/d_footer_w 559 def
+/d_footer_w 576 def
 /d_footer_h 0 def
-/d_output_w 559 def
-/d_output_h 755 def
+/d_output_w 576 def
+/d_output_h 705 def
 /cols 1 def
 %%EndSetup
 %%Page: (1) 1
@@ -455,120 +455,112 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (1) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
 (------------------------------------------------------------------------------------------) s
-5 731 M
+5 681 M
 (KingCobra - A Research Software for Distributed Request Service on Cloud with Arbiters) s
-5 709 M
+5 659 M
 (This program is free software: you can redistribute it and/or modify) s
-5 698 M
+5 648 M
 (it under the terms of the GNU General Public License as published by) s
-5 687 M
+5 637 M
 (the Free Software Foundation, either version 3 of the License, or) s
-5 676 M
+5 626 M
 (\(at your option\) any later version.) s
-5 654 M
+5 604 M
 (This program is distributed in the hope that it will be useful,) s
-5 643 M
+5 593 M
 (but WITHOUT ANY WARRANTY; without even the implied warranty of) s
-5 632 M
+5 582 M
 (MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the) s
-5 621 M
+5 571 M
 (GNU General Public License for more details.) s
-5 599 M
+5 549 M
 (You should have received a copy of the GNU General Public License) s
-5 588 M
+5 538 M
 (along with this program.  If not, see <http://www.gnu.org/licenses/>.) s
-5 566 M
-(#------------------------------------------------------------------------------------------) s
-5 555 M
-(-------------) s
-5 544 M
+5 516 M
+(#---------------------------------------------------------------------------------------------) s
+5 505 M
+(----------) s
+5 494 M
 (#Copyleft \(Copyright+\):) s
-5 533 M
+5 483 M
 (#Srinivasan Kannan) s
-5 522 M
+5 472 M
 (#\(also known as: Ka.Shrinivaasan, Shrinivas Kannan\)) s
-5 511 M
+5 461 M
 (#Ph: 9791499106, 9003082186) s
-5 500 M
+5 450 M
 (#Krishna iResearch Open Source Products Profiles:) s
-5 489 M
+5 439 M
 (#http://sourceforge.net/users/ka_shrinivaasan,) s
-5 478 M
+5 428 M
 (#https://github.com/shrinivaasanka,) s
-5 467 M
+5 417 M
 (#https://www.openhub.net/accounts/ka_shrinivaasan) s
-5 456 M
+5 406 M
 (#Personal website\(research\): https://sites.google.com/site/kuja27/) s
-5 445 M
+5 395 M
 (#emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com,) s
-5 434 M
+5 384 M
 (#kashrinivaasan@live.com) s
-5 423 M
-(#------------------------------------------------------------------------------------------) s
-5 412 M
-(--------------) s
-5 401 M
+5 373 M
+(#---------------------------------------------------------------------------------------------) s
+5 362 M
+(-----------) s
+5 351 M
 (*****************************************************************************************/) s
-5 379 M
+5 329 M
 (Theoretical Interludes, Design Notes and ToDo \(long term with no deadline\)) s
-5 368 M
+5 318 M
 (--------------------------------------------------------------------------) s
-5 346 M
-([This is a major research oriented subsystem of NeuronRain and inspired by COBRA project \(d) s
-5 335 M
-(one by the author in his BE \(1995-1999\) along with few other esteemed classmates. http://so) s
-5 324 M
-(urceforge.net/projects/acadpdrafts/files/Excerpts_Of_PSG_BE_FinalProject_COBRA_done_in_1999) s
-5 313 M
-(.pdf/download.\)]) s
-5 291 M
-([KingCobra though a misnomer is expanded as ClOud With ARBiters MimicKING containing the an) s
-5 280 M
-(agram] ) s
-5 258 M
-(1. \(THEORY\) There is a cloud of nodes which execute a set of services from randomly created) s
-5 247 M
-( clients. ) s
-5 225 M
-(2. \(THEORY\) This cloud could be on iCloud \(AsFer+USBmd+VIRGO\) platform or any other opensou) s
-5 214 M
-(rce cloud platforms like Hadoop Cluster.) s
-5 192 M
-(3. \(THEORY\) The Clients are publishers of Service requests which are of many types -  misce) s
-5 181 M
-(llaneous types of Service that could be dynamically added through other kernel modules and ) s
-5 170 M
-(invoked through a switch-case or embedded in function itself. Identified by unique id\(s\) fo) s
-5 159 M
-(r different types of services \(for example Problem reports, Suggestions etc.,\)) s
-5 137 M
-(4. \(THEORY\) The Services on the Cloud are Subscribers to these requests of specific type. T) s
-5 126 M
-(hus this is the conventional publisher-subscriber model.) s
-5 104 M
-(5. \(THEORY\) The requests flow through cloud using a workqueue \(which could be a lowlevel Li) s
-5 93 M
-(nux workqueue or VIRGO queue or some other queuing middleware software like ActiveMQ\). The ) s
-5 82 M
-(publishers enqueue and Subscribers dequeue the requests.) s
-5 60 M
+5 296 M
+([This is a major research oriented subsystem of NeuronRain and inspired by COBRA project \(done) s
+5 285 M
+( by the author in his BE \(1995-1999\) along with few other esteemed classmates. http://sourcefo) s
+5 274 M
+(rge.net/projects/acadpdrafts/files/Excerpts_Of_PSG_BE_FinalProject_COBRA_done_in_1999.pdf/down) s
+5 263 M
+(load.\)]) s
+5 241 M
+([KingCobra though a misnomer is expanded as ClOud With ARBiters MimicKING containing the anagr) s
+5 230 M
+(am] ) s
+5 208 M
+(1. \(THEORY\) There is a cloud of nodes which execute a set of services from randomly created cl) s
+5 197 M
+(ients. ) s
+5 175 M
+(2. \(THEORY\) This cloud could be on iCloud \(AsFer+USBmd+VIRGO\) platform or any other opensource) s
+5 164 M
+( cloud platforms like Hadoop Cluster.) s
+5 142 M
+(3. \(THEORY\) The Clients are publishers of Service requests which are of many types -  miscella) s
+5 131 M
+(neous types of Service that could be dynamically added through other kernel modules and invoke) s
+5 120 M
+(d through a switch-case or embedded in function itself. Identified by unique id\(s\) for differe) s
+5 109 M
+(nt types of services \(for example Problem reports, Suggestions etc.,\)) s
+5 87 M
+(4. \(THEORY\) The Services on the Cloud are Subscribers to these requests of specific type. Thus) s
+5 76 M
+( this is the conventional publisher-subscriber model.) s
+5 54 M
+(5. \(THEORY\) The requests flow through cloud using a workqueue \(which could be a lowlevel Linux) s
+5 43 M
+( workqueue or VIRGO queue or some other queuing middleware software like ActiveMQ\). The publis) s
+5 32 M
+(hers enqueue and Subscribers dequeue the requests.) s
+5 10 M
 (6. \(THEORY\) The difference is that the Cloud has nodes that "deceive" or "corrupt". ) s
-5 38 M
-(7. \(THEORY\) Service requests - are published by the clients in the need of a service which ) s
-5 27 M
-(could be defined by markup file. These requests are scheduled and routed by the middleware ) s
-5 16 M
-(to competent authority which services it \(with or without timeframe\) and replies to the cli) s
-5 5 M
-(ent.) s
 _R
 S
 %%Page: (2) 2
@@ -580,120 +572,112 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (2) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 731 M
-(8. \(THEORY\) Problem reports - are published by clients which are "dissatisfied" by the qual) s
-5 720 M
-(ity of service by the cloud. These are analyzed by "arbiters" in the cloud which find the f) s
-5 709 M
-(aulting node\(s\) and take action. This allows manual intervention but minimizes it.) s
-5 687 M
-(9. \(THEORY\) Suggestions - are enhancement requests sent by clients and require manual inter) s
-5 676 M
-(vention.) s
-5 654 M
+5 681 M
+(7. \(THEORY\) Service requests - are published by the clients in the need of a service which cou) s
+5 670 M
+(ld be defined by markup file. These requests are scheduled and routed by the middleware to com) s
+5 659 M
+(petent authority which services it \(with or without timeframe\) and replies to the client.) s
+5 637 M
+(8. \(THEORY\) Problem reports - are published by clients which are "dissatisfied" by the quality) s
+5 626 M
+( of service by the cloud. These are analyzed by "arbiters" in the cloud which find the faultin) s
+5 615 M
+(g node\(s\) and take action. This allows manual intervention but minimizes it.) s
+5 593 M
+(9. \(THEORY\) Suggestions - are enhancement requests sent by clients and require manual interven) s
+5 582 M
+(tion.) s
+5 560 M
 (10. \(THEORY\) Cloud nodes have a Quality of Service metric calculated by a model.) s
-5 632 M
-(11. \(THEORY\) The cloud has a reporting structure of nodes - either as a graph or tree. The ) s
-5 621 M
-(graph is dynamically reorganized by weighting the Quality of Service of each node.) s
-5 599 M
-(12. \(THEORY\) The difficult part of the above is using Arbiters to find "faulty" nodes based) s
-5 588 M
-( on problem reports from clients.  ) s
-5 566 M
-(13. \(THEORY\) Brewer's CAP conjecture proved by [GilbertLynch] as a theorem \(still debated\) ) s
-5 555 M
-(states that only 2 of the 3 \(Consistency of data, Avaliability of data and Partition tolera) s
-5 544 M
-(nce when some nodes or messages are lost\) can be guaranteed and not all 3 are simultaneousl) s
-5 533 M
-(y achievable. ) s
-5 511 M
-(14. \(THEORY\) CAP theorem does not seem to apply to the above faulty scenario with corrupt n) s
-5 500 M
-(odes under Consistency or Availablity or Partition Tolerance. This is because a corrupt nod) s
-5 489 M
-(e can have any 2 of the 3 - it can give consistent data, is available with success response) s
-5 478 M
-( or can make the cloud work with missing data in partition tolerance but yet can "corrupt" ) s
-5 467 M
-(the cloud. Probably this needs to be defined as a new attribute called Integrity.) s
-5 445 M
-(15. \(THEORY\) As "corruption" is more conspicuous with monetary element, if above services a) s
-5 434 M
-(re "charged" with a logical currency \(e.g. bitcoin\), then corruption in cloud is defineable) s
-5 423 M
-( approximately as \(but not limited to\)- "Undue favour or harm meted out to a client not com) s
-5 412 M
-(mensurate with the charge for the service \(or\) unreasonable extra logical currency demanded) s
-5 401 M
-( to execute the service of same quality \(or\) deliberate obstruction of justice to a client ) s
-5 390 M
-(with malevolent and unholy collusion with other cloud nodes with feigned CAP". ) s
-5 368 M
-(16. \(THEORY\) Identifying criminal nodes as in \(15\) above seems to be beyond the ambit of CA) s
-5 357 M
-(P. Thus CAP with Integrity further places a theoretical limit on "pure" cloud. If Integrity) s
-5 346 M
-( is viewed as a Byzantine problem with faulty or corrupt processes in a distributed system,) s
-5 335 M
-( and if resilience factor is rf \(expected number of faulty nodes\), then most algorithms can) s
-5 324 M
-( ensure a "working" cloud only if resilience is ~30% or less \(3*rf+1\) of the total number o) s
-5 313 M
-(f cloud nodes. Probably this could apply to Integrity also that places a limit of 30% on "c) s
-5 302 M
-(orrupt nodes" for the Cloud to work with sanity. Translating this to a Governance problem, ) s
-5 291 M
-(a corruption-free administration is achievable with a maximum limit of 30% "corrupt" elemen) s
-5 280 M
-(ts. ) s
-5 258 M
-(17. \(THEORY-ONGOING\) Analytics on the Problem reports sent to the cloud queue give a patter) s
-5 247 M
-(n of corrupt nodes. Intrinsic Merit ranking with Citation graph maxflow considering cloud a) s
-5 236 M
-(s a flow network where a node positively or negatively cites or "opines" about a node, as m) s
-5 225 M
-(entioned in http://arxiv.org/abs/1006.4458 \(author's Master's thesis\) and http://www.nist.g) s
-5 214 M
-(ov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf\(published by the author) s
-5 203 M
-( during PhD\) give a p2p ranking of cloud nodes that can be used for analysis though may not) s
-5 192 M
-( be reliable fully. AsFer has bigdata analytics functionality that fits well to this point ) s
-5 181 M
-(to analyse the problem reports with machine learning algorithms and set the key-value pairs) s
-5 170 M
-( that are read by VIRGO kernel_analytics module and exported kernelwide. The persisted REQU) s
-5 159 M
-(EST_REPLY.queue with the logged request-reply IPs and timestamps can be mined with AsFer bi) s
-5 148 M
-(gdata capability \(e.g. Spark\)) s
-5 126 M
-(18. \(THEORY\) Policing the cloud nodes with arbiters - This seems to be limited by CAP theor) s
-5 115 M
-(em and Integrity as above. Also this is reducible to perfect inference problem in http://so) s
-5 104 M
-(urceforge.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt and drafts in https://sites.googl) s
-5 93 M
-(e.com/site/kuja27/) s
-5 71 M
-(19. \(THEORY\) Brooks-Iyengar algorithm for sensors in all cloud nodes is an improved Byazant) s
-5 60 M
-(ine Fault Tolerant algorithm.) s
-5 38 M
-(20. \(THEORY\) BitCoin is a Byzantine Fault Tolerant protocol.) s
-5 16 M
-(21. \(THEORY\) Byzantine Fault Tolerance in Clouds is described in http://www.computer.org/cs) s
-5 5 M
-(dl/proceedings/cloud/2011/4460/00/4460a444-abs.html, http://www.eurecom.fr/~vukolic/Byzanti) s
+5 538 M
+(11. \(THEORY\) The cloud has a reporting structure of nodes - either as a graph or tree. The gra) s
+5 527 M
+(ph is dynamically reorganized by weighting the Quality of Service of each node.) s
+5 505 M
+(12. \(THEORY\) The difficult part of the above is using Arbiters to find "faulty" nodes based on) s
+5 494 M
+( problem reports from clients.  ) s
+5 472 M
+(13. \(THEORY\) Brewer's CAP conjecture proved by [GilbertLynch] as a theorem \(still debated\) sta) s
+5 461 M
+(tes that only 2 of the 3 \(Consistency of data, Avaliability of data and Partition tolerance wh) s
+5 450 M
+(en some nodes or messages are lost\) can be guaranteed and not all 3 are simultaneously achieva) s
+5 439 M
+(ble. ) s
+5 417 M
+(14. \(THEORY\) CAP theorem does not seem to apply to the above faulty scenario with corrupt node) s
+5 406 M
+(s under Consistency or Availablity or Partition Tolerance. This is because a corrupt node can ) s
+5 395 M
+(have any 2 of the 3 - it can give consistent data, is available with success response or can m) s
+5 384 M
+(ake the cloud work with missing data in partition tolerance but yet can "corrupt" the cloud. P) s
+5 373 M
+(robably this needs to be defined as a new attribute called Integrity.) s
+5 351 M
+(15. \(THEORY\) As "corruption" is more conspicuous with monetary element, if above services are ) s
+5 340 M
+("charged" with a logical currency \(e.g. bitcoin\), then corruption in cloud is defineable appro) s
+5 329 M
+(ximately as \(but not limited to\)- "Undue favour or harm meted out to a client not commensurate) s
+5 318 M
+( with the charge for the service \(or\) unreasonable extra logical currency demanded to execute ) s
+5 307 M
+(the service of same quality \(or\) deliberate obstruction of justice to a client with malevolent) s
+5 296 M
+( and unholy collusion with other cloud nodes with feigned CAP". ) s
+5 274 M
+(16. \(THEORY\) Identifying criminal nodes as in \(15\) above seems to be beyond the ambit of CAP. ) s
+5 263 M
+(Thus CAP with Integrity further places a theoretical limit on "pure" cloud. If Integrity is vi) s
+5 252 M
+(ewed as a Byzantine problem with faulty or corrupt processes in a distributed system, and if r) s
+5 241 M
+(esilience factor is rf \(expected number of faulty nodes\), then most algorithms can ensure a "w) s
+5 230 M
+(orking" cloud only if resilience is ~30% or less \(3*rf+1\) of the total number of cloud nodes. ) s
+5 219 M
+(Probably this could apply to Integrity also that places a limit of 30% on "corrupt nodes" for ) s
+5 208 M
+(the Cloud to work with sanity. Translating this to a Governance problem, a corruption-free adm) s
+5 197 M
+(inistration is achievable with a maximum limit of 30% "corrupt" elements. ) s
+5 175 M
+(17. \(THEORY-ONGOING\) Analytics on the Problem reports sent to the cloud queue give a pattern o) s
+5 164 M
+(f corrupt nodes. Intrinsic Merit ranking with Citation graph maxflow considering cloud as a fl) s
+5 153 M
+(ow network where a node positively or negatively cites or "opines" about a node, as mentioned ) s
+5 142 M
+(in http://arxiv.org/abs/1006.4458 \(author's Master's thesis\) and http://www.nist.gov/tac/publi) s
+5 131 M
+(cations/2010/participant.papers/CMI_IIT.proceedings.pdf\(published by the author during PhD\) gi) s
+5 120 M
+(ve a p2p ranking of cloud nodes that can be used for analysis though may not be reliable fully) s
+5 109 M
+(. AsFer has bigdata analytics functionality that fits well to this point to analyse the proble) s
+5 98 M
+(m reports with machine learning algorithms and set the key-value pairs that are read by VIRGO ) s
+5 87 M
+(kernel_analytics module and exported kernelwide. The persisted REQUEST_REPLY.queue with the lo) s
+5 76 M
+(gged request-reply IPs and timestamps can be mined with AsFer bigdata capability \(e.g. Spark\)) s
+5 54 M
+(18. \(THEORY\) Policing the cloud nodes with arbiters - This seems to be limited by CAP theorem ) s
+5 43 M
+(and Integrity as above. Also this is reducible to perfect inference problem in http://sourcefo) s
+5 32 M
+(rge.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt and drafts in https://sites.google.com/sit) s
+5 21 M
+(e/kuja27/) s
 _R
 S
 %%Page: (3) 3
@@ -705,132 +689,120 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (3) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(neEmpire.pdf which is more on Cloud of Clouds - Intercloud with cloud nodes that have malic) s
-5 731 M
-(ious or corrupt software. Most of the key-value\(get/set\) implementations do not have byzant) s
-5 720 M
-(ine nodes \(for example CAP without Byzantine nodes in Amazon Dynamo: http://www.eurecom.fr/) s
-5 709 M
-(~michiard/teaching/slides/clouds/cap-dynamo.pdf\)) s
-5 687 M
-(22. \(THEORY\) Related to point 18 - The problem of fact finding or fault finding using a clo) s
-5 676 M
-(ud police has the same limitation as the "perfect inference" described in http://sourceforg) s
-5 665 M
-(e.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt. "Money trail" involving the suspect node) s
-5 654 M
-( in point 28 is important to conclude something about the corruption. In real world trackin) s
-5 643 M
-(g money trail is a daunting task. In cloud that abides by CAP, missing messages on trail ca) s
-5 632 M
-(n prevent reaching a conclusion thereby creating benefit-of-doubt. Also fixing exact value ) s
-5 621 M
-(for a transaction that involves MAC currency message is undecidable - a normative economics) s
-5 610 M
-( problem can never be solved by exact theoretical computer science. ) s
-5 588 M
-(23. \(THEORY\) Reference article on cloud BFT for Byzantine, Corrupt brokers - Byzantine Faul) s
-5 577 M
-(t-Tolerant Publish/Subscribe: A Cloud Computing Infrastructure \(www.ux.uis.no/~meling/paper) s
-5 566 M
-(s/2012-bftps-srdsw.pdf\) ) s
-5 533 M
+5 692 M
+(19. \(THEORY\) Brooks-Iyengar algorithm for sensors in all cloud nodes is an improved Byazantine) s
+5 681 M
+( Fault Tolerant algorithm.) s
+5 659 M
+(20. \(THEORY\) BitCoin is a Byzantine Fault Tolerant protocol.) s
+5 637 M
+(21. \(THEORY\) Byzantine Fault Tolerance in Clouds is described in http://www.computer.org/csdl/) s
+5 626 M
+(proceedings/cloud/2011/4460/00/4460a444-abs.html, http://www.eurecom.fr/~vukolic/ByzantineEmpi) s
+5 615 M
+(re.pdf which is more on Cloud of Clouds - Intercloud with cloud nodes that have malicious or c) s
+5 604 M
+(orrupt software. Most of the key-value\(get/set\) implementations do not have byzantine nodes \(f) s
+5 593 M
+(or example CAP without Byzantine nodes in Amazon Dynamo: http://www.eurecom.fr/~michiard/teach) s
+5 582 M
+(ing/slides/clouds/cap-dynamo.pdf\)) s
+5 560 M
+(22. \(THEORY\) Related to point 18 - The problem of fact finding or fault finding using a cloud ) s
+5 549 M
+(police has the same limitation as the "perfect inference" described in http://sourceforge.net/) s
+5 538 M
+(p/asfer/code/HEAD/tree/AstroInferDesign.txt. "Money trail" involving the suspect node in point) s
+5 527 M
+( 28 is important to conclude something about the corruption. In real world tracking money trai) s
+5 516 M
+(l is a daunting task. In cloud that abides by CAP, missing messages on trail can prevent reach) s
+5 505 M
+(ing a conclusion thereby creating benefit-of-doubt. Also fixing exact value for a transaction ) s
+5 494 M
+(that involves MAC currency message is undecidable - a normative economics problem can never be) s
+5 483 M
+( solved by exact theoretical computer science. ) s
+5 461 M
+(23. \(THEORY\) Reference article on cloud BFT for Byzantine, Corrupt brokers - Byzantine Fault-T) s
+5 450 M
+(olerant Publish/Subscribe: A Cloud Computing Infrastructure \(www.ux.uis.no/~meling/papers/2012) s
+5 439 M
+(-bftps-srdsw.pdf\) ) s
+5 406 M
 (---------------------------------------------------------------) s
-5 522 M
+5 395 M
 (24. KingCobra messaging request-response design - options) s
-5 511 M
+5 384 M
 (--------------------------------------------------------------- ) s
-5 489 M
-(24a. Implementing a message subscription model in kernelspace where clients publish the mes) s
-5 478 M
-(sage that is queued-in to subscribers' queue \(Topic like implementation - use of ActiveMQ C) s
-5 467 M
-( implementation if available\).) s
-5 445 M
-(24b. \(DONE-minimal implementation\) At present a minimum kernelspace messaging system that q) s
-5 434 M
-(ueues remote request and handles through workqueue handler is in place. This responds to th) s
-5 423 M
-(e client once the Kingcobra servicerequest function finishes processing the request\(reply_t) s
-5 412 M
-(o_publisher\(\) in KingCobra driver\). Unlike the usual messaging server, in which client publ) s
-5 401 M
-(ishes messages of a particular type that are listened to by interested clients, one option ) s
-5 390 M
-(is to continue the status-quo of KingCobra as a peer-to-peer messaging system. Thus every V) s
-5 379 M
-(IRGO node is both a kernelspace messaging client and server that can both publish and liste) s
-5 368 M
-(n. Every message in the cloud can have a universally unique id assigned by a timestamp serv) s
-5 357 M
-(er - https://tools.ietf.org/html/rfc4122 \(similar to bitcoin protocol\) so that each message) s
-5 346 M
-( floating in the cloud is unique across the cloud \(or\) no two messages on the VIRGO cloud a) s
-5 335 M
-(re same. The recipient node executing kingcobra_servicerequest_kernelspace\(\) parses the uni) s
-5 324 M
-(que-id \(example naive unique-id is <ip-address:port>#localtimestampofmachine which is a sim) s
-5 313 M
-(plified version of RFC4122\) from the incoming remote request and responds to the remote cli) s
-5 302 M
-(ent through kernel socket connection  that gets queued-in the remote client and handled sim) s
-5 291 M
-(ilar to incoming remote request. To differentiate request and response-for-request response) s
-5 280 M
-( messages are padded with a string "REPLY:<unique-id-of-message>" and requests are padded w) s
-5 269 M
-(ith "REQUEST:<unique-id-of-message>". This is more or less similar to TCP flow-control with) s
-5 258 M
-( SEQ numbers but state-less like UDP. Simple analogy is post-office protocol with reference) s
-5 247 M
-( numbers for each mail and its reply. Thus there are chronologically two queues: \(1\) queue ) s
-5 236 M
-(at the remote VIRGO cloud service node for request \(2\) queue at the remote client for respo) s
-5 225 M
-(nse to the request sent in \(1\). Thus any cloudnode can have two types of messages - REQUEST) s
-5 214 M
-( and REPLY. Following schematic diagram has been implemented so far.) s
-5 192 M
-(-------------------------------------------------------------------------------------------) s
-5 181 M
-(----------) s
-5 170 M
-(24c.\(DONE\) KingCobra - VIRGO queue - VIRGO cpupooling , mempooling and queue service driver) s
-5 159 M
-(s interaction schematic diagram:) s
-5 148 M
-(-------------------------------------------------------------------------------------------) s
-5 137 M
-(----------) s
-5 115 M
-(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO cpupooling servi) s
-5 104 M
-(ce =====> VIRGO Queue ============> KingCobraService) s
-5 93 M
-(               ||                                                                          ) s
-5 82 M
-(                                 ||) s
-5 71 M
-(               ||                                                                          ) s
-5 60 M
-(                                 ||     ) s
-5 49 M
-(                <================= VIRGO Queue <====== VIRGO cpupooling service ====<REPLY:) s
-5 38 M
-(id>=================================== V) s
-5 27 M
-(        ) s
-5 16 M
-(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO mempooling servi) s
-5 5 M
-(ce =====> VIRGO Queue ============> KingCobraService) s
+5 362 M
+(24a. Implementing a message subscription model in kernelspace where clients publish the messag) s
+5 351 M
+(e that is queued-in to subscribers' queue \(Topic like implementation - use of ActiveMQ C imple) s
+5 340 M
+(mentation if available\).) s
+5 318 M
+(24b. \(DONE-minimal implementation\) At present a minimum kernelspace messaging system that queu) s
+5 307 M
+(es remote request and handles through workqueue handler is in place. This responds to the clie) s
+5 296 M
+(nt once the Kingcobra servicerequest function finishes processing the request\(reply_to_publish) s
+5 285 M
+(er\(\) in KingCobra driver\). Unlike the usual messaging server, in which client publishes messag) s
+5 274 M
+(es of a particular type that are listened to by interested clients, one option is to continue ) s
+5 263 M
+(the status-quo of KingCobra as a peer-to-peer messaging system. Thus every VIRGO node is both ) s
+5 252 M
+(a kernelspace messaging client and server that can both publish and listen. Every message in t) s
+5 241 M
+(he cloud can have a universally unique id assigned by a timestamp server - https://tools.ietf.) s
+5 230 M
+(org/html/rfc4122 \(similar to bitcoin protocol\) so that each message floating in the cloud is u) s
+5 219 M
+(nique across the cloud \(or\) no two messages on the VIRGO cloud are same. The recipient node ex) s
+5 208 M
+(ecuting kingcobra_servicerequest_kernelspace\(\) parses the unique-id \(example naive unique-id i) s
+5 197 M
+(s <ip-address:port>#localtimestampofmachine which is a simplified version of RFC4122\) from the) s
+5 186 M
+( incoming remote request and responds to the remote client through kernel socket connection  t) s
+5 175 M
+(hat gets queued-in the remote client and handled similar to incoming remote request. To differ) s
+5 164 M
+(entiate request and response-for-request response messages are padded with a string "REPLY:<un) s
+5 153 M
+(ique-id-of-message>" and requests are padded with "REQUEST:<unique-id-of-message>". This is mo) s
+5 142 M
+(re or less similar to TCP flow-control with SEQ numbers but state-less like UDP. Simple analog) s
+5 131 M
+(y is post-office protocol with reference numbers for each mail and its reply. Thus there are c) s
+5 120 M
+(hronologically two queues: \(1\) queue at the remote VIRGO cloud service node for request \(2\) qu) s
+5 109 M
+(eue at the remote client for response to the request sent in \(1\). Thus any cloudnode can have ) s
+5 98 M
+(two types of messages - REQUEST and REPLY. Following schematic diagram has been implemented so) s
+5 87 M
+( far.) s
+5 65 M
+(----------------------------------------------------------------------------------------------) s
+5 54 M
+(-------) s
+5 43 M
+(24c.\(DONE\) KingCobra - VIRGO queue - VIRGO cpupooling , mempooling and queue service drivers i) s
+5 32 M
+(nteraction schematic diagram:) s
+5 21 M
+(----------------------------------------------------------------------------------------------) s
+5 10 M
+(-------) s
 _R
 S
 %%Page: (4) 4
@@ -842,136 +814,124 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (4) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(               ||                                                                          ) s
-5 731 M
+5 681 M
+(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO cpupooling service ) s
+5 670 M
+(=====> VIRGO Queue ============> KingCobraService) s
+5 659 M
+(               ||                                                                             ) s
+5 648 M
 (                                 ||) s
-5 720 M
-(               ||                                                                          ) s
-5 709 M
+5 637 M
+(               ||                                                                             ) s
+5 626 M
 (                                 ||     ) s
-5 698 M
-(                <================= VIRGO Queue <====== VIRGO mempooling service ====<REPLY:) s
-5 687 M
-(id>==================================== V) s
-5 676 M
+5 615 M
+(                <================= VIRGO Queue <====== VIRGO cpupooling service ====<REPLY:id>) s
+5 604 M
+(=================================== V) s
+5 593 M
 (        ) s
-5 665 M
-(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO Queue service ==) s
-5 654 M
-(==================================> KingCobraService) s
-5 643 M
-(               ||                                                                          ) s
-5 632 M
+5 582 M
+(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO mempooling service ) s
+5 571 M
+(=====> VIRGO Queue ============> KingCobraService) s
+5 560 M
+(               ||                                                                             ) s
+5 549 M
 (                                 ||) s
-5 621 M
-(               ||                                                                          ) s
-5 610 M
+5 538 M
+(               ||                                                                             ) s
+5 527 M
 (                                 ||     ) s
-5 599 M
-(                <================= VIRGO Queue service ============================<REPLY:i) s
-5 588 M
-(d>==================================== V) s
-5 544 M
-(24d. \(ONGOING\) kingcobra_servicerequest_kernelspace\(\) distinguishes the "REQUEST" and "REPL) s
-5 533 M
-(Y" and optionally persists them to corresponding on-disk filesystem.  Thus a disk persisten) s
-5 522 M
-(ce for the queued messages can either be implemented in 1\) VIRGO queue driver 2\)  workqueue) s
-5 511 M
-(.c \(kernel itself needs a rewrite \(or\) 3\) KingCobra driver. Option \(2\) is difficult in the ) s
-5 500 M
-(sense that it could impact the kernel as-a-whole whereas 1\) and 3\) are modularized. At pres) s
-5 489 M
-(ent Option 3 persistence within KingCobra driver has been implemented.) s
-5 467 M
-(24e.Above option 24b implements a simple p2p queue messaging in kernel. To get a Topic-like) s
-5 456 M
-( behaviour in VIRGO queue might be difficult as queue_work\(\) kernel function has to be repe) s
-5 445 M
-(atedly invoked for the same work_struct on multiple queues which are subscribers of that me) s
-5 434 M
-(ssage in AMQ protocol. Moreover creating a queue at runtime on need basis looks difficult i) s
-5 423 M
-(n kernel which is usually done through some CLI or GUI interface in ActiveMQ and other mess) s
-5 412 M
-(aging servers. ) s
-5 390 M
-(25. \(ONGOING\) For the timestamp service, EventNet described in http://sourceforge.net/p/asf) s
-5 379 M
-(er/code/HEAD/tree/AstroInferDesign.txt is a likely implementation choice. AsFer already has) s
-5 368 M
-( a primitive text files based EventNet graph implementation in place. Periodic topological ) s
-5 357 M
-(sort \(quite expensive\) of EventNet gives logical ordering and thus a logical timestamp of t) s
-5 346 M
-(he cloud events.) s
-5 324 M
-(26. \(THEORY - ONGOING Implementation\) MESSAGE-AS-CURRENCY PROTOCOL: If each message payload) s
-5 313 M
-( is also construed as a currency carrier, each message id can be mapped to a unique currenc) s
-5 302 M
-(y or a coin with fixed denomination. This is similar to each currency note having a serial ) s
-5 291 M
-(number as unique id. Uniqueness is guaranteed since there can be only one message \(or coin\)) s
-5 280 M
-( with that id on the cloud. This simulates a scenaio - "Sender of the message pays the Rece) s
-5 269 M
-(iver with a coin having the unique id and Receiver acknowledges receipt". This is an altern) s
-5 258 M
-(ative to BitCoin protocol. Double spending is also prohibited since at any point in time th) s
-5 247 M
-(e message or "coin" with unique id can be sent by only one node in the cloud. Unique Cloudw) s
-5 236 M
-(ide Timestamp server mimicks the functionality of "Mint". There is a difference here betwee) s
-5 225 M
-(n conventional send-receive of messages - Once a message is sent to remote cloud node, no c) s
-5 214 M
-(opy of it should exist anywhere in the cloud. That is, every MAC currency message is a clou) s
-5 203 M
-(dwide singleton. In pseudocode this is expressible as:) s
-5 192 M
+5 516 M
+(                <================= VIRGO Queue <====== VIRGO mempooling service ====<REPLY:id>) s
+5 505 M
+(==================================== V) s
+5 494 M
+(        ) s
+5 483 M
+(        KingCobraClient ==========>=<REQUEST:id>===================> VIRGO Queue service =====) s
+5 472 M
+(===============================> KingCobraService) s
+5 461 M
+(               ||                                                                             ) s
+5 450 M
+(                                 ||) s
+5 439 M
+(               ||                                                                             ) s
+5 428 M
+(                                 ||     ) s
+5 417 M
+(                <================= VIRGO Queue service ============================<REPLY:id>=) s
+5 406 M
+(=================================== V) s
+5 362 M
+(24d. \(ONGOING\) kingcobra_servicerequest_kernelspace\(\) distinguishes the "REQUEST" and "REPLY" ) s
+5 351 M
+(and optionally persists them to corresponding on-disk filesystem.  Thus a disk persistence for) s
+5 340 M
+( the queued messages can either be implemented in 1\) VIRGO queue driver 2\)  workqueue.c \(kerne) s
+5 329 M
+(l itself needs a rewrite \(or\) 3\) KingCobra driver. Option \(2\) is difficult in the sense that i) s
+5 318 M
+(t could impact the kernel as-a-whole whereas 1\) and 3\) are modularized. At present Option 3 pe) s
+5 307 M
+(rsistence within KingCobra driver has been implemented.) s
+5 285 M
+(24e.Above option 24b implements a simple p2p queue messaging in kernel. To get a Topic-like be) s
+5 274 M
+(haviour in VIRGO queue might be difficult as queue_work\(\) kernel function has to be repeatedly) s
+5 263 M
+( invoked for the same work_struct on multiple queues which are subscribers of that message in ) s
+5 252 M
+(AMQ protocol. Moreover creating a queue at runtime on need basis looks difficult in kernel whi) s
+5 241 M
+(ch is usually done through some CLI or GUI interface in ActiveMQ and other messaging servers. ) s
+5 219 M
+(25. \(ONGOING\) For the timestamp service, EventNet described in http://sourceforge.net/p/asfer/) s
+5 208 M
+(code/HEAD/tree/AstroInferDesign.txt is a likely implementation choice. AsFer already has a pri) s
+5 197 M
+(mitive text files based EventNet graph implementation in place. Periodic topological sort \(qui) s
+5 186 M
+(te expensive\) of EventNet gives logical ordering and thus a logical timestamp of the cloud eve) s
+5 175 M
+(nts.) s
+5 153 M
+(26. \(THEORY - ONGOING Implementation\) MESSAGE-AS-CURRENCY PROTOCOL: If each message payload is) s
+5 142 M
+( also construed as a currency carrier, each message id can be mapped to a unique currency or a) s
+5 131 M
+( coin with fixed denomination. This is similar to each currency note having a serial number as) s
+5 120 M
+( unique id. Uniqueness is guaranteed since there can be only one message \(or coin\) with that i) s
+5 109 M
+(d on the cloud. This simulates a scenaio - "Sender of the message pays the Receiver with a coi) s
+5 98 M
+(n having the unique id and Receiver acknowledges receipt". This is an alternative to BitCoin p) s
+5 87 M
+(rotocol. Double spending is also prohibited since at any point in time the message or "coin" w) s
+5 76 M
+(ith unique id can be sent by only one node in the cloud. Unique Cloudwide Timestamp server mim) s
+5 65 M
+(icks the functionality of "Mint". There is a difference here between conventional send-receive) s
+5 54 M
+( of messages - Once a message is sent to remote cloud node, no copy of it should exist anywher) s
+5 43 M
+(e in the cloud. That is, every MAC currency message is a cloudwide singleton. In pseudocode th) s
+5 32 M
+(is is expressible as:) s
+5 21 M
 (        m1=MAC_alloc\(denomination\)) s
-5 181 M
+5 10 M
 (        m2=m1 \(---- this is disallowed\)) s
-5 170 M
-(Linux kernel allocation functions - kmalloc\(\) - have a krefs functionality for reference co) s
-5 159 M
-(unting within kernel. Refcount for MAC message can never exceed 1  across cloud for above s) s
-5 148 M
-(ingleton functionality - this has to be a clause everywhere for any unique MAC id. This req) s
-5 137 M
-(uires a cloudwide krefs rather. Buyer decrements cloudwide kref and Seller increments it. I) s
-5 126 M
-(n C++ this is done by std::move\(\) and often required in "Perfect Forwarding" - http://thbec) s
-5 115 M
-(ker.net/articles/rvalue_references/section_07.html - within single addressspace. By overloa) s
-5 104 M
-(ding operator=\(\) with Type&& rvalue reference, the necessary networking code can be invoked) s
-5 93 M
-( that does the move which might include serialization. But unfortunately C++ and Linux kern) s
-5 82 M
-(el are not compatible. The Currency object has to be language neutral and thus Google Proto) s
-5 71 M
-(col Buffers which have C,C++,Java, Python .proto files compilers support might be useful bu) s
-5 60 M
-(t yet the move semantics in Kernel/C is non-trivial that requires cloudwide transactional k) s
-5 49 M
-(ernel memory as mentioned in \(31\) below.  A C++ standalone userspace client-server cloud ob) s
-5 38 M
-(ject move implementation based on std::move\(\) over network of Protocol Buffer Currency Obje) s
-5 27 M
-(cts has been added to AsFer repository at - http://sourceforge.net/p/asfer/code/HEAD/tree/c) s
-5 16 M
-(pp-src/cloud_move which can optionally be upcall-ed to userspace from VIRGO and KingCobra d) s
-5 5 M
-(rivers. This C++ implementation is invoked in userspace with call_usermodehelper\(\) from VIR) s
 _R
 S
 %%Page: (5) 5
@@ -983,134 +943,126 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (5) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(GO Queue Messaging via the kernel workqueue handler. ) s
-5 720 M
-(26.1 Schematic Diagram for Cloud Perfect Forwarding with AsFer+VIRGOQueue+KingCobraUserspac) s
-5 709 M
-(e:) s
-5 698 M
-(-------------------------------------------------------------------------------------------) s
-5 687 M
-(--) s
-5 665 M
-(    Telnet or other client ===========> VIRGO Queue Service Listener ======> VIRGO Workqueu) s
-5 654 M
-(e Handler) s
-5 643 M
+5 692 M
+(Linux kernel allocation functions - kmalloc\(\) - have a krefs functionality for reference count) s
+5 681 M
+(ing within kernel. Refcount for MAC message can never exceed 1  across cloud for above singlet) s
+5 670 M
+(on functionality - this has to be a clause everywhere for any unique MAC id. This requires a c) s
+5 659 M
+(loudwide krefs rather. Buyer decrements cloudwide kref and Seller increments it. In C++ this i) s
+5 648 M
+(s done by std::move\(\) and often required in "Perfect Forwarding" - http://thbecker.net/article) s
+5 637 M
+(s/rvalue_references/section_07.html - within single addressspace. By overloading operator=\(\) w) s
+5 626 M
+(ith Type&& rvalue reference, the necessary networking code can be invoked that does the move w) s
+5 615 M
+(hich might include serialization. But unfortunately C++ and Linux kernel are not compatible. T) s
+5 604 M
+(he Currency object has to be language neutral and thus Google Protocol Buffers which have C,C+) s
+5 593 M
+(+,Java, Python .proto files compilers support might be useful but yet the move semantics in Ke) s
+5 582 M
+(rnel/C is non-trivial that requires cloudwide transactional kernel memory as mentioned in \(31\)) s
+5 571 M
+( below.  A C++ standalone userspace client-server cloud object move implementation based on st) s
+5 560 M
+(d::move\(\) over network of Protocol Buffer Currency Objects has been added to AsFer repository ) s
+5 549 M
+(at - http://sourceforge.net/p/asfer/code/HEAD/tree/cpp-src/cloud_move which can optionally be ) s
+5 538 M
+(upcall-ed to userspace from VIRGO and KingCobra drivers. This C++ implementation is invoked in) s
+5 527 M
+( userspace with call_usermodehelper\(\) from VIRGO Queue Messaging via the kernel workqueue hand) s
+5 516 M
+(ler. ) s
+5 494 M
+(26.1 Schematic Diagram for Cloud Perfect Forwarding with AsFer+VIRGOQueue+KingCobraUserspace:) s
+5 483 M
+(---------------------------------------------------------------------------------------------) s
+5 461 M
+(    Telnet or other client ===========> VIRGO Queue Service Listener ======> VIRGO Workqueue H) s
+5 450 M
+(andler) s
+5 439 M
 (                                                                                |) s
-5 632 M
-(                                                                                |  [KernelS) s
-5 621 M
-(pace]) s
-5 610 M
+5 428 M
+(                                                                                |  [KernelSpac) s
+5 417 M
+(e]) s
+5 406 M
 (                                                                                V) s
-5 599 M
-(        AsFer Cloud Perfect Forwarding Client <===== KingCobra Userspace shell script\(call_) s
-5 588 M
-(usermodehelper\)) s
-5 577 M
+5 395 M
+(        AsFer Cloud Perfect Forwarding Client <===== KingCobra Userspace shell script\(call_use) s
+5 384 M
+(rmodehelper\)) s
+5 373 M
 (                        |                                                       |) s
-5 566 M
+5 362 M
 (                        |                                                       |) s
-5 555 M
-(  Virtual Currency      |                                                       |  [UserSpa) s
-5 544 M
-(ce]) s
-5 533 M
+5 351 M
+(  Virtual Currency      |                                                       |  [UserSpace]) s
+5 340 M
 (                        V                                                       V) s
-5 522 M
+5 329 M
 (        AsFer Cloud Perfect Forwarding Server <=================================/) s
-5 489 M
+5 296 M
 (References:) s
-5 478 M
+5 285 M
 (----------) s
-5 467 M
-(26.2 An example distributed transactional memory implementation in cloud - http://infinispa) s
-5 456 M
-(n.org/tutorials/simple/tx/ and http://www.cloudtm.eu/ - these are in userspace cloud \(C++ a) s
-5 445 M
-(nd Java\) and may not have cloud move functionality - move has to be simulated in a transact) s
-5 434 M
-(ion: replicate data, delete in one endpoint and create in other endpoint) s
-5 412 M
-(27. \(THEORY\) SIMULATING A VIRTUAL ECONOMY with above MAC protocol \(Message-as-currency\): If) s
-5 401 M
-( each message sent is considered as "money" element and cloud nodes and clients are the con) s
-5 390 M
-(sumers and producers of "electronic money", the timestamp "Mint" becomes a virtual Federal ) s
-5 379 M
-(Reserve or Central Bank that controls the "electronic money" circulation in the cloud. Infa) s
-5 368 M
-(ct any REPLY messages could be mapped to a Service a client derives by s\(p\)ending the REQUE) s
-5 357 M
-(ST "money message". Thus value\(REQUEST\) should equal value\(REPLY\) where value\(\) is a functi) s
-5 346 M
-(on that measures the value of a money denomination and the value of goods and/or services f) s
-5 335 M
-(or that money. For example Rs.10000 or $10000 has no meaning if it doesn't translate into a) s
-5 324 M
-( value \(analogy: erstwhile Gold Standard\).When the value\(\) function gets skewed phenomena l) s
-5 313 M
-(ike Inflation arise. Thus above model could also have a notion of value\(\) and "electronic m) s
-5 302 M
-(oney inflation". Thus any "message money" with a unique id assigned by the cloud unique id\() s
-5 291 M
-(or logical timestamp\) server can exist at most in only one node in the cloud. Money trail c) s
-5 280 M
-(an be implemented by prefixing a header to the incoming message money in each cloud node th) s
-5 269 M
-(at receives the money which traces the "path" taken. Cloud has to implement some Byzantine ) s
-5 258 M
-(Fault Tolerant protocol. The value\(\) function to some extent can measure the "deceit" as ab) s
-5 247 M
-(ove. When a Buyer and Seller's value\(\) functions are at loggerheads then that is starting p) s
-5 236 M
-(oint of "cloud corruption" at either side and might be an undecidable problem. ) s
-5 214 M
+5 274 M
+(26.2 An example distributed transactional memory implementation in cloud - http://infinispan.o) s
+5 263 M
+(rg/tutorials/simple/tx/ and http://www.cloudtm.eu/ - these are in userspace cloud \(C++ and Jav) s
+5 252 M
+(a\) and may not have cloud move functionality - move has to be simulated in a transaction: repl) s
+5 241 M
+(icate data, delete in one endpoint and create in other endpoint) s
+5 219 M
+(27. \(THEORY\) SIMULATING A VIRTUAL ECONOMY with above MAC protocol \(Message-as-currency\): If ea) s
+5 208 M
+(ch message sent is considered as "money" element and cloud nodes and clients are the consumers) s
+5 197 M
+( and producers of "electronic money", the timestamp "Mint" becomes a virtual Federal Reserve o) s
+5 186 M
+(r Central Bank that controls the "electronic money" circulation in the cloud. Infact any REPLY) s
+5 175 M
+( messages could be mapped to a Service a client derives by s\(p\)ending the REQUEST "money messa) s
+5 164 M
+(ge". Thus value\(REQUEST\) should equal value\(REPLY\) where value\(\) is a function that measures t) s
+5 153 M
+(he value of a money denomination and the value of goods and/or services for that money. For ex) s
+5 142 M
+(ample Rs.10000 or $10000 has no meaning if it doesn't translate into a value \(analogy: erstwhi) s
+5 131 M
+(le Gold Standard\).When the value\(\) function gets skewed phenomena like Inflation arise. Thus a) s
+5 120 M
+(bove model could also have a notion of value\(\) and "electronic money inflation". Thus any "mes) s
+5 109 M
+(sage money" with a unique id assigned by the cloud unique id\(or logical timestamp\) server can ) s
+5 98 M
+(exist at most in only one node in the cloud. Money trail can be implemented by prefixing a hea) s
+5 87 M
+(der to the incoming message money in each cloud node that receives the money which traces the ) s
+5 76 M
+("path" taken. Cloud has to implement some Byzantine Fault Tolerant protocol. The value\(\) funct) s
+5 65 M
+(ion to some extent can measure the "deceit" as above. When a Buyer and Seller's value\(\) functi) s
+5 54 M
+(ons are at loggerheads then that is starting point of "cloud corruption" at either side and mi) s
+5 43 M
+(ght be an undecidable problem. ) s
+5 21 M
 (28. \(THEORY\) TRADING WITH ABOVE KINGCOBRA MAC protocol - somewhat oversimplified:) s
-5 203 M
+5 10 M
 (                                ) s
-5 192 M
-(                                --------------------) s
-5 181 M
-(                                |Unique MAC id MINT|) s
-5 170 M
-(                                --------------------) s
-5 159 M
-(                                        ||) s
-5 148 M
-(        -----money trail------------------) s
-5 137 M
-(        |) s
-5 126 M
-(        V) s
-5 115 M
-(        ....) s
-5 104 M
-(        Buyer   ======= sends MAC message \(REQUEST id\) =======> Seller \(stores the MAC in l) s
-5 93 M
-(ocal cash reserve and prepends money trail\)) s
-5 82 M
-(        ||                                                      ||) s
-5 71 M
-(        <============ sends the goods and services \(REPLY id\) ===) s
-5 49 M
-(In the above schematic, money with unique id in cloud reaches a buyer after many buyer-sell) s
-5 38 M
-(er transitions called "money trail". The MAC currency is prefixed by each node to create a ) s
-5 27 M
-(chain. Buyer then sends a request to the seller through MAC virtual currency and seller rep) s
-5 16 M
-(lies with goods and services. Seller prepends the money trail chain. When a transaction occ) s
-5 5 M
-(urs the whole cloud need not be notified about it except only buyer and seller. MAC Mint co) s
 _R
 S
 %%Page: (6) 6
@@ -1122,136 +1074,130 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (6) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(uld create a bulk of money denominations and circulate them in cloud economy.) s
-5 720 M
+5 692 M
+(                                --------------------) s
+5 681 M
+(                                |Unique MAC id MINT|) s
+5 670 M
+(                                --------------------) s
+5 659 M
+(                                        ||) s
+5 648 M
+(        -----money trail------------------) s
+5 637 M
+(        |) s
+5 626 M
+(        V) s
+5 615 M
+(        ....) s
+5 604 M
+(        Buyer   ======= sends MAC message \(REQUEST id\) =======> Seller \(stores the MAC in loca) s
+5 593 M
+(l cash reserve and prepends money trail\)) s
+5 582 M
+(        ||                                                      ||) s
+5 571 M
+(        <============ sends the goods and services \(REPLY id\) ===) s
+5 549 M
+(In the above schematic, money with unique id in cloud reaches a buyer after many buyer-seller ) s
+5 538 M
+(transitions called "money trail". The MAC currency is prefixed by each node to create a chain.) s
+5 527 M
+( Buyer then sends a request to the seller through MAC virtual currency and seller replies with) s
+5 516 M
+( goods and services. Seller prepends the money trail chain. When a transaction occurs the whol) s
+5 505 M
+(e cloud need not be notified about it except only buyer and seller. MAC Mint could create a bu) s
+5 494 M
+(lk of money denominations and circulate them in cloud economy.) s
+5 472 M
 (References:) s
-5 709 M
+5 461 M
 (-----------) s
-5 698 M
-(28.1 Price fixing for items in Buyer-Seller-Trader networks - Trading Networks - Market Equ) s
-5 687 M
-(ilibrium and Walrasian Model of Price fixing - http://www.cs.cornell.edu/~eva/traders.pdf) s
-5 676 M
-(28.2 Algoithmic Game Theory - Market Equilibrium for Price - Equilibrium is a strategic sta) s
-5 665 M
-(ndoff - both players can't better their own present by changing strategies e.g Buyer-Seller) s
-5 654 M
-(s are market players and equilibrium price is the one where both buyer and seller can't gai) s
-5 643 M
-(n by varying it - http://www.cis.upenn.edu/~mkearns/nips02tutorial/nips.pdf. Buyer-Seller p) s
-5 632 M
-(ayoff matrix picturises the bargaining problem.) s
-5 621 M
-(28.3 Price-setting in Trading networks - Chapter 11 - https://www.cs.cornell.edu/home/klein) s
-5 610 M
-(ber/networks-book/networks-book.pdf) s
-5 588 M
-(29. \(THEORY\) VALUE FOR ELECTRONIC MONEY: How is above MAC money earned - This again require) s
-5 577 M
-(s linking value to money \(as money is not a value by itself and only a pointer to valuable ) s
-5 566 M
-(item or resource\). Thus any buyer can "earn" MAC money by something similar to a barter.) s
-5 544 M
-(30. \(THEORY and IMPLEMENTATION\) FIXING VALUE FOR MAC MONEY: To delineate corruption as disc) s
-5 533 M
-(ussed in 27 above with value\(\) disparity between MAC money and REPLY goods and services, an) s
-5 522 M
-( arbiter node in cloud has to "judge" the value of MAC sent by buyer and goods and services) s
-5 511 M
-( from seller and proclaim if corruption exists. Thus value\(\) function itself has to be some) s
-5 500 M
-( kind of machine learning algorithm. This is related to or same as points 12 to 23 above. F) s
-5 489 M
-(or example, while buying an item for few million bucks, value\(\) has to take as input the de) s
-5 478 M
-(scription of the item and calculate the value "ideally" which is difficult. Because there a) s
-5 467 M
-(re no perfect references to evaluate and only a weighted average of available market price ) s
-5 456 M
-(range has to be taken as a reference which is error-prone. value\(\) function can be recursiv) s
-5 445 M
-(ely defined as\("Reductionism"\):) s
-5 434 M
-(        -----------------------------------------------------------------------------------) s
-5 423 M
-(------------------) s
-5 412 M
-(        |value\(i\) = summation\(value\(ingredients of i\)\) + cost\(integrating the ingredients t) s
-5 401 M
-(o create item i\) |) s
-5 390 M
-(        -----------------------------------------------------------------------------------) s
-5 379 M
-(------------------) s
-5 368 M
-(Obviously the above recursion combinatorially explodes into exponential number of nodes in ) s
-5 357 M
-(the recursion tree. Ideally recursion has to go deep upto quarks and leptons that makeup th) s
-5 346 M
-(e standard model. If for practical purposes, recursion depth is restricted to t then size o) s
-5 335 M
-(f value\(\) tree is O\(m^t\) where m is average number of ingredients per component. Hence any ) s
-5 324 M
-(algorithm computing the value\(\) recursion has to be exponential in time. Computation of val) s
-5 313 M
-(ue\(\) in the leaf nodes of the recursion is most crucial as they percolate bottom-up. If lea) s
-5 302 M
-(f nodes of all possible items are same \(like quarks and leptons making up universe\) then su) s
-5 291 M
-(ch atomic ingredient has to have "same" value for all items. Only the integration cost vari) s
-5 280 M
-(es in the levels of the tree.For infinite case, value\(\) function is conjectured to be undec) s
-5 269 M
-(idable - probably invoking some halting problem reduction .But above value\(\) function could) s
-5 258 M
-( be Fixed Parameter Tractable in parameter recursion depth - t but yet could only be an app) s
-5 247 M
-(roximation. A Turing machine computing value\(\) function exactly might loop forever and thus) s
-5 236 M
-( Recursively Enumerable and not Recursive. A CVXPY implementation for Pricing Market Equili) s
-5 225 M
-(brium has been implemented in KingCobra. ) s
-5 203 M
-(31. \(THEORY\) Buyer-Seller and MAC electronic money transaction schematic:) s
-5 192 M
-(-------------------------------------------------------------------------) s
-5 181 M
-(        ) s
-5 170 M
-(        Buyer            A-------<id><refcnt:0>----------------------> Seller <id><refcnt:1) s
-5 159 M
-(> \(increments refcnt\)) s
-5 148 M
-(        \(<id><refcnt:1>  |) s
-5 137 M
-(         <id><refcnt:0>  |) s
-5 126 M
-(        after decrement  |) s
-5 115 M
-(        refcnt           |) s
-5 104 M
-(        \)---------------->) s
-5 93 M
-(Above has to be transactional \(i.e atomic across cloud nodes\)) s
-5 71 M
-(32. \(THEORY\) MAC protocol reaper) s
-5 60 M
-(--------------------------------) s
-5 49 M
-(Reaper thread in each cloud node harvests the zero refcounted allocations and invokes destr) s
-5 38 M
-(uctors on them. Same  MAC id cannot have kref count of 1 or above in more than one cloud no) s
-5 27 M
-(de due to the transaction mentioned previously.) s
-5 5 M
-(33. \(THEORY\) Cloud Policing With Arbiters - Revisited:) s
+5 450 M
+(28.1 Price fixing for items in Buyer-Seller-Trader networks - Trading Networks - Market Equili) s
+5 439 M
+(brium and Walrasian Model of Price fixing - http://www.cs.cornell.edu/~eva/traders.pdf) s
+5 428 M
+(28.2 Algoithmic Game Theory - Market Equilibrium for Price - Equilibrium is a strategic stando) s
+5 417 M
+(ff - both players can't better their own present by changing strategies e.g Buyer-Sellers are ) s
+5 406 M
+(market players and equilibrium price is the one where both buyer and seller can't gain by vary) s
+5 395 M
+(ing it - http://www.cis.upenn.edu/~mkearns/nips02tutorial/nips.pdf. Buyer-Seller payoff matrix) s
+5 384 M
+( picturises the bargaining problem.) s
+5 373 M
+(28.3 Price-setting in Trading networks - Chapter 11 - https://www.cs.cornell.edu/home/kleinber) s
+5 362 M
+(/networks-book/networks-book.pdf) s
+5 340 M
+(29. \(THEORY\) VALUE FOR ELECTRONIC MONEY: How is above MAC money earned - This again requires l) s
+5 329 M
+(inking value to money \(as money is not a value by itself and only a pointer to valuable item o) s
+5 318 M
+(r resource\). Thus any buyer can "earn" MAC money by something similar to a barter.) s
+5 296 M
+(30. \(THEORY and IMPLEMENTATION\) FIXING VALUE FOR MAC MONEY: To delineate corruption as discuss) s
+5 285 M
+(ed in 27 above with value\(\) disparity between MAC money and REPLY goods and services, an arbit) s
+5 274 M
+(er node in cloud has to "judge" the value of MAC sent by buyer and goods and services from sel) s
+5 263 M
+(ler and proclaim if corruption exists. Thus value\(\) function itself has to be some kind of mac) s
+5 252 M
+(hine learning algorithm. This is related to or same as points 12 to 23 above. For example, whi) s
+5 241 M
+(le buying an item for few million bucks, value\(\) has to take as input the description of the i) s
+5 230 M
+(tem and calculate the value "ideally" which is difficult. Because there are no perfect referen) s
+5 219 M
+(ces to evaluate and only a weighted average of available market price range has to be taken as) s
+5 208 M
+( a reference which is error-prone. value\(\) function can be recursively defined as\("Reductionis) s
+5 197 M
+(m"\):) s
+5 186 M
+(        --------------------------------------------------------------------------------------) s
+5 175 M
+(---------------) s
+5 164 M
+(        |value\(i\) = summation\(value\(ingredients of i\)\) + cost\(integrating the ingredients to c) s
+5 153 M
+(reate item i\) |) s
+5 142 M
+(        --------------------------------------------------------------------------------------) s
+5 131 M
+(---------------) s
+5 120 M
+(Obviously the above recursion combinatorially explodes into exponential number of nodes in the) s
+5 109 M
+( recursion tree. Ideally recursion has to go deep upto quarks and leptons that makeup the stan) s
+5 98 M
+(dard model. If for practical purposes, recursion depth is restricted to t then size of value\(\)) s
+5 87 M
+( tree is O\(m^t\) where m is average number of ingredients per component. Hence any algorithm co) s
+5 76 M
+(mputing the value\(\) recursion has to be exponential in time. Computation of value\(\) in the lea) s
+5 65 M
+(f nodes of the recursion is most crucial as they percolate bottom-up. If leaf nodes of all pos) s
+5 54 M
+(sible items are same \(like quarks and leptons making up universe\) then such atomic ingredient ) s
+5 43 M
+(has to have "same" value for all items. Only the integration cost varies in the levels of the ) s
+5 32 M
+(tree.For infinite case, value\(\) function is conjectured to be undecidable - probably invoking ) s
+5 21 M
+(some halting problem reduction .But above value\(\) function could be Fixed Parameter Tractable ) s
+5 10 M
+(in parameter recursion depth - t but yet could only be an approximation. A Turing machine comp) s
 _R
 S
 %%Page: (7) 7
@@ -1263,136 +1209,126 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (7) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(uting value\(\) function exactly might loop forever and thus Recursively Enumerable and not Recu) s
+5 681 M
+(rsive. A CVXPY implementation for Pricing Market Equilibrium has been implemented in KingCobra) s
+5 670 M
+(. ) s
+5 648 M
+(31. \(THEORY\) Buyer-Seller and MAC electronic money transaction schematic:) s
+5 637 M
+(-------------------------------------------------------------------------) s
+5 626 M
+(        ) s
+5 615 M
+(        Buyer            A-------<id><refcnt:0>----------------------> Seller <id><refcnt:1> \() s
+5 604 M
+(increments refcnt\)) s
+5 593 M
+(        \(<id><refcnt:1>  |) s
+5 582 M
+(         <id><refcnt:0>  |) s
+5 571 M
+(        after decrement  |) s
+5 560 M
+(        refcnt           |) s
+5 549 M
+(        \)---------------->) s
+5 538 M
+(Above has to be transactional \(i.e atomic across cloud nodes\)) s
+5 516 M
+(32. \(THEORY\) MAC protocol reaper) s
+5 505 M
+(--------------------------------) s
+5 494 M
+(Reaper thread in each cloud node harvests the zero refcounted allocations and invokes destruct) s
+5 483 M
+(ors on them. Same  MAC id cannot have kref count of 1 or above in more than one cloud node due) s
+5 472 M
+( to the transaction mentioned previously.) s
+5 450 M
+(33. \(THEORY\) Cloud Policing With Arbiters - Revisited:) s
+5 439 M
 (------------------------------------------------------) s
-5 731 M
-(When a suspect node is analyzed when a complaint problem is filed on it, \(1\) it is of forem) s
-5 720 M
-(ost importance on how flawless is the arbiter who investigates on that and is there a perfe) s
-5 709 M
-(ct way to choose a perfect arbiter. In the absence of the previous credibility of entire cl) s
-5 698 M
-(oud judiciary is blown to smithereens and falls apart. \(2\) Assuming a perfect arbiter which) s
-5 687 M
-( is questionable, next thing is to analyze the credibility of the node who sulked. This is ) s
-5 676 M
-(nothing but the Citation problem in http://arxiv.org/abs/1106.4102 and http://www.nist.gov/) s
-5 665 M
-(tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf where a node can positivel) s
-5 654 M
-(y or negatively cite another node a "Societal Norm" which can be faulted and citations/opin) s
-5 643 M
-(ions could be concocted with malafide intent\(perjury\). This is rather a generalization of P) s
-5 632 M
-(ageRank algorithm with negative citations. Thus Perfect Cloud Arbitration could be an unsol) s
-5 621 M
-(vable problem. \(3\) Even if both arbiter and complainant are perfect which is again question) s
-5 610 M
-(able, there are still loopholes - lack of evidences or implicated witnesses might portray a) s
-5 599 M
-( negative impression of a positive node. Thus there are 3 tiers of weakenings in cloud arbi) s
-5 588 M
-(tration and there could be more. P\(Good\) series in https://sites.google.com/site/kuja27/ pr) s
-5 577 M
-(ecisely addresses this problem.) s
-5 555 M
+5 428 M
+(When a suspect node is analyzed when a complaint problem is filed on it, \(1\) it is of foremost) s
+5 417 M
+( importance on how flawless is the arbiter who investigates on that and is there a perfect way) s
+5 406 M
+( to choose a perfect arbiter. In the absence of the previous credibility of entire cloud judic) s
+5 395 M
+(iary is blown to smithereens and falls apart. \(2\) Assuming a perfect arbiter which is question) s
+5 384 M
+(able, next thing is to analyze the credibility of the node who sulked. This is nothing but the) s
+5 373 M
+( Citation problem in http://arxiv.org/abs/1106.4102 and http://www.nist.gov/tac/publications/2) s
+5 362 M
+(010/participant.papers/CMI_IIT.proceedings.pdf where a node can positively or negatively cite ) s
+5 351 M
+(another node a "Societal Norm" which can be faulted and citations/opinions could be concocted ) s
+5 340 M
+(with malafide intent\(perjury\). This is rather a generalization of PageRank algorithm with nega) s
+5 329 M
+(tive citations. Thus Perfect Cloud Arbitration could be an unsolvable problem. \(3\) Even if bot) s
+5 318 M
+(h arbiter and complainant are perfect which is again questionable, there are still loopholes -) s
+5 307 M
+( lack of evidences or implicated witnesses might portray a negative impression of a positive n) s
+5 296 M
+(ode. Thus there are 3 tiers of weakenings in cloud arbitration and there could be more. P\(Good) s
+5 285 M
+(\) series in https://sites.google.com/site/kuja27/ precisely addresses this problem.) s
+5 263 M
 (34. \(THEORY\) MAC Money Flow as MaxFlow problem:) s
-5 544 M
+5 252 M
 (-------------------------------------------) s
-5 533 M
-(Transactions happening in a cloud are edges between the nodes involved \(buyer and seller\). ) s
-5 522 M
-(Thus it creates a huge directed graph. Flow of money in this graph can be modelled as Flow ) s
-5 511 M
-(network. Minimum Cut of this graph shows crucial nodes in the graph which play vital role i) s
-5 500 M
-(n cloud economy removal of which paralyzes the cloud \(could be Central bank and other finan) s
-5 489 M
-(cial institutions\). This graph has bidirectional edges where one direction is for money and) s
-5 478 M
-( the opposite direction is for Goods and Services. In the Flow network sum of flows is zero) s
-5 467 M
-(. But in the Money Flow Network each node is having a cash reserve ratio \(CRR\) due to comme) s
-5 456 M
-(rcial transactions which is confidential and privy to that node only  and thus sum of flows) s
-5 445 M
-( can not be zero. Hub nodes in the Money Flow graph which can be obtained by getting k-core) s
-5 434 M
-( or D-core of the graph by some graph peeling algorithms are crucial nodes to the economy t) s
-5 423 M
-(hat contribute to Money circulation. ) s
-5 401 M
+5 241 M
+(Transactions happening in a cloud are edges between the nodes involved \(buyer and seller\). Thu) s
+5 230 M
+(s it creates a huge directed graph. Flow of money in this graph can be modelled as Flow networ) s
+5 219 M
+(k. Minimum Cut of this graph shows crucial nodes in the graph which play vital role in cloud e) s
+5 208 M
+(conomy removal of which paralyzes the cloud \(could be Central bank and other financial institu) s
+5 197 M
+(tions\). This graph has bidirectional edges where one direction is for money and the opposite d) s
+5 186 M
+(irection is for Goods and Services. In the Flow network sum of flows is zero. But in the Money) s
+5 175 M
+( Flow Network each node is having a cash reserve ratio \(CRR\) due to commercial transactions wh) s
+5 164 M
+(ich is confidential and privy to that node only  and thus sum of flows can not be zero. Hub no) s
+5 153 M
+(des in the Money Flow graph which can be obtained by getting k-core or D-core of the graph by ) s
+5 142 M
+(some graph peeling algorithms are crucial nodes to the economy that contribute to Money circul) s
+5 131 M
+(ation. ) s
+5 109 M
 (35. \(THEORY\) Cycles and components in above MAC Money Flow Graph:) s
-5 390 M
+5 98 M
 (--------------------------------------------------------------) s
-5 379 M
-(Above graph of money transactions could be cyclic which implies a supply chain. Strongly co) s
-5 368 M
-(nnected components of this graph are most related nodes that are in same industry. ) s
-5 346 M
+5 87 M
+(Above graph of money transactions could be cyclic which implies a supply chain. Strongly conne) s
+5 76 M
+(cted components of this graph are most related nodes that are in same industry. ) s
+5 54 M
 (36. \(THEORY\) STOCK TRADING:) s
-5 335 M
+5 43 M
 (---------------------------) s
-5 324 M
-(One of the component in above MAC Money Flow Graph of cloud could be a virtual Stock Exchan) s
-5 313 M
-(ge. Based on the financial and securities transactions of constituent organizations in the ) s
-5 302 M
-(graph, index of the exchange varies.  ) s
-5 280 M
-(37. \(THEORY\) Analysis of Poverty and Alleviation through above money flow graph:) s
-5 269 M
-(--------------------------------------------------------------------------------) s
-5 258 M
-(Weights of the edges of money flow graph are the denominations of the transaction. Thus hig) s
-5 247 M
-(h value edges and low value edges divide the Graph logically into Rich and Poor strata\(Bour) s
-5 236 M
-(geoisie and Proletariat subgraphs\). Equitable graph is the one which does not have too much) s
-5 225 M
-( of value difference between Rich and Poor sets of edges - a utopian to achieve. Mathematic) s
-5 214 M
-(ally, it is an optimization LP problem that seeks to minimize sum\(RichEdges\)-sum\(PoorEdges\)) s
-5 203 M
-( or Sum\(RichVertices\) - sum\(PoorVertices\) - without harming either - to be precise. This re) s
-5 192 M
-(quires money flow to be programmed to find a feasible solution to this LP subject to constr) s
-5 181 M
-(aints like work-pay parity etc.,\(there could be more variables and constraints to this LP\) ) s
-5 170 M
-(. Due to CRR above Vertices also can be Rich and Poor in addition to Rich Edges and Poor Ed) s
-5 159 M
-(ges. ) s
-5 137 M
-(38.\(THEORY\) Demand and Supply and Value\(\) function:) s
-5 126 M
-(------------------------------------------) s
-5 115 M
-(Alternative to the recursive definition of value\(\) function above can be done through Deman) s
-5 104 M
-(d and Supply - more the demand and less the supply, price increases and vice-versa. This is) s
-5 93 M
-( quite subjective compared to absolute recursive definition above. To simulate demand and s) s
-5 82 M
-(upply, the weights of the money edges \(-> direction\) in the bidirectional graph change and ) s
-5 71 M
-(fluctuate dynamically over time for unchanging weights of the Goods and Services edges \( <-) s
-5 60 M
-( direction\) between any pair of Buyer-Seller vertices. This makes Money and G&S Flow graph ) s
-5 49 M
-(a Dynamic Graph with edge weight update primitive.) s
-5 27 M
-(39.\(THEORY\) Hidden or Colored Money:) s
-5 16 M
-(------------------------------------) s
-5 5 M
-(In an ideal Cloud with only MAC currencies, colored money can co-exist if \(not limited to\) ) s
+5 32 M
+(One of the component in above MAC Money Flow Graph of cloud could be a virtual Stock Exchange.) s
+5 21 M
+( Based on the financial and securities transactions of constituent organizations in the graph,) s
+5 10 M
+( index of the exchange varies.  ) s
 _R
 S
 %%Page: (8) 8
@@ -1404,132 +1340,124 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (8) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(some money trails are missing, due to "cloud corruption", systemic failure, hardware and ne) s
-5 731 M
-(twork issues etc.,. Probably this is the direct consequence of CAP theorem and can be conje) s
-5 720 M
-(ctured to be undecidable. Hidden money is to some extent dependent on quantity of net flow ) s
-5 709 M
-(\(if non-zero\) and how much of this net flow is contributed by Rich vertices and Edges. Mone) s
-5 698 M
-(y Circulation with Colored money can be formulated as Network Flow Problem with Time horizo) s
-5 687 M
-(n and storage at nodes. Time horizon implies  a certain flow has to happen before a stop ti) s
-5 676 M
-(me. Flow conservation is affected by this Dynamic Flow because of storage at nodes and mone) s
-5 665 M
-(y entering a node need not be equal to money leaving. Thus not all Hidden/Colored money is ) s
-5 654 M
-(illegal in theoretical terms. As mentioned in 39.1, storage is simulated with a closed loop) s
-5 643 M
-( at nodes so that flow conservation is not seemingly violated. Profiteering is achieved by ) s
-5 632 M
-(money flows over time in financial markets by assigining a multiplicative factor at each ed) s
-5 621 M
-(ge which accrues through a cycle and comes back to start node in cycle with a magnification) s
-5 610 M
-( in value. BlockChain techniques maintain ledgers which record all transactions globally th) s
-5 599 M
-(us decimating hidden unaccounted wealth if any. KingCobra experimental MAC currency relies ) s
-5 588 M
-(on unique global identifier and global refcounts with atomic cloud transactions in linux ke) s
-5 577 M
-(rnel. Money Flow Graph mentioned in 34-39 has striking resemblance to Money Flow Markets al) s
-5 566 M
-(ready studied in Algorithmic Game Theory\(AGT\). 39.3 primarily devotes to Pricing and Equili) s
-5 555 M
-(brium of Edges in Money Flow Graphs and not much on Colored Money Flow. An algorithm to fin) s
-5 544 M
-(d colored money flow could be a major advance in AGT. Prima facie there exists no zero-know) s
-5 533 M
-(ledge blackbox proof algorithm to find colored money because all storage data is a prerequi) s
-5 522 M
-(site which is impossible to know. Money trail for MAC currency described in 22,27,28 requir) s
-5 511 M
-(es tracking of currencies. There are recent dollar and euro bills issued with Radio Frequen) s
-5 500 M
-(cy ID tags \(RFID\).) s
-5 478 M
-(Total storage of money in Flow Market Graph = | Incoming money flow at Source - Incoming mo) s
-5 467 M
-(ney flow at Sink | i.e Flow conservation is no longer obeyed.) s
-5 445 M
-(There is a special vertex in Money Flow Market designated as Direct Taxation Hub which has ) s
-5 434 M
-(incoming direct tax money flow edges from all other vertices in Flow market.Colored money i) s
-5 423 M
-(s then approximately the taxed storage money estimated above minus the net flow of money re) s
-5 412 M
-(ceived at Taxation Hub.) s
-5 390 M
-(Colored Money = | Total storage money * Direct Taxation rate - Incoming Flow at Direct Taxa) s
-5 379 M
-(tion Hub Node|) s
-5 368 M
-(Colored Money = | Incoming money flow at Source * Direct Taxation rate - Incoming money flo) s
-5 357 M
-(w at Sink * Direct Taxation rate - Incoming Flow at Direct Taxation Hub Node |) s
-5 335 M
-(Previous is an approximate naive zero-knowledge estimation of Colored money in Money Flow M) s
-5 324 M
-(arket. This assumes that there is always a sink in Money Flow Market which is not necessari) s
-5 313 M
-(ly valid unless notes are returned to mint. Satellite RFID Tracking technologies though inv) s
-5 302 M
-(asive and intrusive like previous can present a rough figure of total money circulation in ) s
-5 291 M
-(Source and Sink.) s
-5 269 M
-(Above estimate is for direct taxation and resultant evasion. For indirect taxes \(on Goods a) s
-5 258 M
-(nd Services etc.,\), there is no direct impact on the money component and only G&S are affec) s
-5 247 M
-(ted. Combining Goods,Services and Income into one \(direct+indirect\) taxation could have a n) s
-5 236 M
-(egative effect on Colored money because incentive to hide money no longer exists. For examp) s
-5 225 M
-(le, if only Goods and Services consumed by high-income brackets are preferentially taxed at) s
-5 214 M
-( high percentage replacing tax on income, income is also indirectly taxed in addition to G&) s
-5 203 M
-(S. Thus there is no necessity to tax income and any advantage of such direct taxation is in) s
-5 192 M
-(directly usurped by preferential G&S taxation. Previous zero-knowledge estimate then become) s
-5 181 M
-(s:) s
-5 159 M
-(Colored Money = | Total Goods and Services * Taxation rate - Incoming Flow at Indirect Taxa) s
-5 148 M
-(tion Hub Node|) s
-5 137 M
-(Colored Money = | GDP^2 * Tax-to-GDP ratio - Incoming Flow at Indirect Taxation Hub Node| w) s
-5 126 M
-(here GDP is assumed to be equal to Total Goods and Services.) s
-5 93 M
-(References:) s
-5 82 M
-(-----------) s
-5 71 M
-(39.1 Network Flows over time over Storage Area Networks \(SAN\) - https://hal.inria.fr/inria-) s
-5 60 M
-(00071643/document) s
-5 49 M
-(39.2 Network Flow - [GoldbergTardosTarjan] - http://www.cs.cornell.edu/~eva/network.flow.al) s
-5 38 M
-(gorithms.pdf) s
-5 27 M
-(39.3 Algorithmic Game Theory - Flow Markets - [TimRoughGarden] - http://theory.stanford.edu) s
-5 16 M
-(/~tim/books.html) s
-5 5 M
-(39.4 RFID tagged currencies - $100 bill - http://www.businessinsider.in/New-Smart-Paper-Cou) s
+5 681 M
+(37. \(THEORY\) Analysis of Poverty and Alleviation through above money flow graph:) s
+5 670 M
+(--------------------------------------------------------------------------------) s
+5 659 M
+(Weights of the edges of money flow graph are the denominations of the transaction. Thus high v) s
+5 648 M
+(alue edges and low value edges divide the Graph logically into Rich and Poor strata\(Bourgeoisi) s
+5 637 M
+(e and Proletariat subgraphs\). Equitable graph is the one which does not have too much of value) s
+5 626 M
+( difference between Rich and Poor sets of edges - a utopian to achieve. Mathematically, it is ) s
+5 615 M
+(an optimization LP problem that seeks to minimize sum\(RichEdges\)-sum\(PoorEdges\) or Sum\(RichVer) s
+5 604 M
+(tices\) - sum\(PoorVertices\) - without harming either - to be precise. This requires money flow ) s
+5 593 M
+(to be programmed to find a feasible solution to this LP subject to constraints like work-pay p) s
+5 582 M
+(arity etc.,\(there could be more variables and constraints to this LP\) . Due to CRR above Verti) s
+5 571 M
+(ces also can be Rich and Poor in addition to Rich Edges and Poor Edges. ) s
+5 549 M
+(38.\(THEORY\) Demand and Supply and Value\(\) function:) s
+5 538 M
+(------------------------------------------) s
+5 527 M
+(Alternative to the recursive definition of value\(\) function above can be done through Demand a) s
+5 516 M
+(nd Supply - more the demand and less the supply, price increases and vice-versa. This is quite) s
+5 505 M
+( subjective compared to absolute recursive definition above. To simulate demand and supply, th) s
+5 494 M
+(e weights of the money edges \(-> direction\) in the bidirectional graph change and fluctuate dy) s
+5 483 M
+(namically over time for unchanging weights of the Goods and Services edges \( <- direction\) bet) s
+5 472 M
+(ween any pair of Buyer-Seller vertices. This makes Money and G&S Flow graph a Dynamic Graph wi) s
+5 461 M
+(th edge weight update primitive.) s
+5 439 M
+(39.\(THEORY\) Hidden or Colored Money:) s
+5 428 M
+(------------------------------------) s
+5 417 M
+(In an ideal Cloud with only MAC currencies, colored money can co-exist if \(not limited to\) som) s
+5 406 M
+(e money trails are missing, due to "cloud corruption", systemic failure, hardware and network ) s
+5 395 M
+(issues etc.,. Probably this is the direct consequence of CAP theorem and can be conjectured to) s
+5 384 M
+( be undecidable. Hidden money is to some extent dependent on quantity of net flow \(if non-zero) s
+5 373 M
+(\) and how much of this net flow is contributed by Rich vertices and Edges. Money Circulation w) s
+5 362 M
+(ith Colored money can be formulated as Network Flow Problem with Time horizon and storage at n) s
+5 351 M
+(odes. Time horizon implies  a certain flow has to happen before a stop time. Flow conservation) s
+5 340 M
+( is affected by this Dynamic Flow because of storage at nodes and money entering a node need n) s
+5 329 M
+(ot be equal to money leaving. Thus not all Hidden/Colored money is illegal in theoretical term) s
+5 318 M
+(s. As mentioned in 39.1, storage is simulated with a closed loop at nodes so that flow conserv) s
+5 307 M
+(ation is not seemingly violated. Profiteering is achieved by money flows over time in financia) s
+5 296 M
+(l markets by assigining a multiplicative factor at each edge which accrues through a cycle and) s
+5 285 M
+( comes back to start node in cycle with a magnification in value. BlockChain techniques mainta) s
+5 274 M
+(in ledgers which record all transactions globally thus decimating hidden unaccounted wealth if) s
+5 263 M
+( any. KingCobra experimental MAC currency relies on unique global identifier and global refcou) s
+5 252 M
+(nts with atomic cloud transactions in linux kernel. Money Flow Graph mentioned in 34-39 has st) s
+5 241 M
+(riking resemblance to Money Flow Markets already studied in Algorithmic Game Theory\(AGT\). 39.3) s
+5 230 M
+( primarily devotes to Pricing and Equilibrium of Edges in Money Flow Graphs and not much on Co) s
+5 219 M
+(lored Money Flow. An algorithm to find colored money flow could be a major advance in AGT. Pri) s
+5 208 M
+(ma facie there exists no zero-knowledge blackbox proof algorithm to find colored money because) s
+5 197 M
+( all storage data is a prerequisite which is impossible to know. Money trail for MAC currency ) s
+5 186 M
+(described in 22,27,28 requires tracking of currencies. There are recent dollar and euro bills ) s
+5 175 M
+(issued with Radio Frequency ID tags \(RFID\).) s
+5 153 M
+(Total storage of money in Flow Market Graph = | Incoming money flow at Source - Incoming money) s
+5 142 M
+( flow at Sink | i.e Flow conservation is no longer obeyed.) s
+5 120 M
+(There is a special vertex in Money Flow Market designated as Direct Taxation Hub which has inc) s
+5 109 M
+(oming direct tax money flow edges from all other vertices in Flow market.Colored money is then) s
+5 98 M
+( approximately the taxed storage money estimated above minus the net flow of money received at) s
+5 87 M
+( Taxation Hub.) s
+5 65 M
+(Colored Money = | Total storage money * Direct Taxation rate - Incoming Flow at Direct Taxatio) s
+5 54 M
+(n Hub Node|) s
+5 43 M
+(Colored Money = | Incoming money flow at Source * Direct Taxation rate - Incoming money flow a) s
+5 32 M
+(t Sink * Direct Taxation rate - Incoming Flow at Direct Taxation Hub Node |) s
+5 10 M
+(Previous is an approximate naive zero-knowledge estimation of Colored money in Money Flow Mark) s
 _R
 S
 %%Page: (9) 9
@@ -1541,134 +1469,126 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (9) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(ld-Put-An-End-To-Dark-Money/articleshow/21134569.cms) s
-5 731 M
+5 692 M
+(et. This assumes that there is always a sink in Money Flow Market which is not necessarily val) s
+5 681 M
+(id unless notes are returned to mint. Satellite RFID Tracking technologies though invasive and) s
+5 670 M
+( intrusive like previous can present a rough figure of total money circulation in Source and S) s
+5 659 M
+(ink.) s
+5 637 M
+(Above estimate is for direct taxation and resultant evasion. For indirect taxes \(on Goods and ) s
+5 626 M
+(Services etc.,\), there is no direct impact on the money component and only G&S are affected. C) s
+5 615 M
+(ombining Goods,Services and Income into one \(direct+indirect\) taxation could have a negative e) s
+5 604 M
+(ffect on Colored money because incentive to hide money no longer exists. For example, if only ) s
+5 593 M
+(Goods and Services consumed by high-income brackets are preferentially taxed at high percentag) s
+5 582 M
+(e replacing tax on income, income is also indirectly taxed in addition to G&S. Thus there is n) s
+5 571 M
+(o necessity to tax income and any advantage of such direct taxation is indirectly usurped by p) s
+5 560 M
+(referential G&S taxation. Previous zero-knowledge estimate then becomes:) s
+5 538 M
+(Colored Money = | Total Goods and Services * Taxation rate - Incoming Flow at Indirect Taxatio) s
+5 527 M
+(n Hub Node|) s
+5 516 M
+(Colored Money = | GDP^2 * Tax-to-GDP ratio - Incoming Flow at Indirect Taxation Hub Node| wher) s
+5 505 M
+(e GDP is assumed to be equal to Total Goods and Services.) s
+5 472 M
+(References:) s
+5 461 M
+(-----------) s
+5 450 M
+(39.1 Network Flows over time over Storage Area Networks \(SAN\) - https://hal.inria.fr/inria-000) s
+5 439 M
+(71643/document) s
+5 428 M
+(39.2 Network Flow - [GoldbergTardosTarjan] - http://www.cs.cornell.edu/~eva/network.flow.algor) s
+5 417 M
+(ithms.pdf) s
+5 406 M
+(39.3 Algorithmic Game Theory - Flow Markets - [TimRoughGarden] - http://theory.stanford.edu/~t) s
+5 395 M
+(im/books.html) s
+5 384 M
+(39.4 RFID tagged currencies - $100 bill - http://www.businessinsider.in/New-Smart-Paper-Could-) s
+5 373 M
+(Put-An-End-To-Dark-Money/articleshow/21134569.cms) s
+5 362 M
 (39.5 Cons of RFID currencies - http://www.prisonplanet.com/022904rfidtagsexplode.html) s
-5 720 M
-(39.6 Mechanism Design and Machine Learning - https://www.cs.cmu.edu/~mblum/search/AGTML35.p) s
-5 709 M
-(df - Design of algorithms for maximizing gain in auctions involving sellers and buyers) s
-5 698 M
-(39.7 Financial and Economic Networks - https://supernet.isenberg.umass.edu/bookser/innov-ch) s
-5 687 M
-(1.pdf) s
-5 665 M
+5 351 M
+(39.6 Mechanism Design and Machine Learning - https://www.cs.cmu.edu/~mblum/search/AGTML35.pdf ) s
+5 340 M
+(- Design of algorithms for maximizing gain in auctions involving sellers and buyers) s
+5 329 M
+(39.7 Financial and Economic Networks - https://supernet.isenberg.umass.edu/bookser/innov-ch1.p) s
+5 318 M
+(df) s
+5 296 M
 (-----------------------------------------------) s
-5 654 M
+5 285 M
 (Commits as on 1 March 2014) s
-5 643 M
+5 274 M
 (-----------------------------------------------) s
-5 632 M
-(Example java Publisher and Listeners that use ActiveMQ as the messaging middleware have bee) s
-5 621 M
-(n committed to repository for an ActiveMQ queue instance created for KingCobra. For multipl) s
-5 610 M
-(e clients this might have to be a Topic rather than Queue instance. Request types above and) s
-5 599 M
-( a workflow framework can be added on this. This will be a JMS compliant implementation whi) s
-5 588 M
-(ch might slow down compared to a linux workqueue or queue implementation being done in VIRG) s
-5 577 M
-(O.) s
-5 566 M
+5 263 M
+(Example java Publisher and Listeners that use ActiveMQ as the messaging middleware have been c) s
+5 252 M
+(ommitted to repository for an ActiveMQ queue instance created for KingCobra. For multiple clie) s
+5 241 M
+(nts this might have to be a Topic rather than Queue instance. Request types above and a workfl) s
+5 230 M
+(ow framework can be added on this. This will be a JMS compliant implementation which might slo) s
+5 219 M
+(w down compared to a linux workqueue or queue implementation being done in VIRGO.) s
+5 208 M
 (----------------------------------------------) s
-5 555 M
+5 197 M
 (Commits as on 17 March 2014) s
-5 544 M
+5 186 M
 (---------------------------------------------) s
-5 533 M
-(KingCobra userspace library and kernelspace driver module have been implemented that are in) s
-5 522 M
-(voked 1\) either in usermode by call_usermodehelper\(\)) s
-5 511 M
-(2\) or through intermodule invocation through exported symbols in KingCobra kernel module, b) s
-5 500 M
-(y the workqueue handler in VIRGO workqueue implementation.) s
-5 478 M
+5 175 M
+(KingCobra userspace library and kernelspace driver module have been implemented that are invok) s
+5 164 M
+(ed 1\) either in usermode by call_usermodehelper\(\)) s
+5 153 M
+(2\) or through intermodule invocation through exported symbols in KingCobra kernel module, by t) s
+5 142 M
+(he workqueue handler in VIRGO workqueue implementation.) s
+5 120 M
 (---------------------------------------------) s
-5 467 M
+5 109 M
 (Commits as on 22 March 2014) s
-5 456 M
+5 98 M
 (---------------------------------------------) s
-5 445 M
-(Minimalistic Kernelspace messaging server framework with kernel workqueue,handler and remot) s
-5 434 M
-(e cloud client has been completed - For this VIRGO clone cpupooling driver has been added a) s
-5 423 M
-( clause based on a boolean flag, to direct incoming request from remote client to VIRGO lin) s
-5 412 M
-(ux workqueue which is popped by workqueue handler that invokes a servicerequest function on) s
-5 401 M
-( the KingCobra kernel module. \(Build notes: To remove any build or symbol errors, Module.sy) s
-5 390 M
-(mvers from VIRGO queue has to be copied to VIRGO cloudexec and built to get a unified VIRGO) s
-5 379 M
-( cloudexec Module.symvers that has exported symbol definitions for push_request\(\)\). End-to-) s
-5 368 M
-(end test with telnet path client sending a request to VIRGO cloudexec service, that gets qu) s
-5 357 M
-(eued in kernel workqueue, handled by workqueue handler that finally invokes KingCobra servi) s
-5 346 M
-(ce request function has been done and the kern.log has been added to repository at drivers/) s
-5 335 M
-(virgo/queuing/test_logs/) s
-5 313 M
-(----------------------------------------------) s
-5 302 M
-(Commits as on 29 March 2014) s
-5 291 M
-(----------------------------------------------) s
-5 280 M
-(Initial commits for KingCobra Request Response done by adding 2 new functions parse_ip_addr) s
-5 269 M
-(ess\(\) and reply_to_publisher\(\) in kingcobra_servicerequest_kernelspace\(\)) s
-5 247 M
-(--------------------------------------------) s
-5 236 M
-(Commits as on 30 March 2014) s
-5 225 M
-(--------------------------------------------) s
-5 214 M
-(Both VIRGO cpupooling and mempooling drivers have been modified with use_as_kingcobra_servi) s
-5 203 M
-(ce boolean flag for sending incoming remote cloud node requests to VIRGO queue which is ser) s
-5 192 M
-(viced by workqueue handler and KingCobra service as per the above schematic diagram and rep) s
-5 181 M
-(lied to.) s
-5 159 M
-(--------------------------------------------) s
-5 148 M
-(Commits as on 6 April 2014) s
-5 137 M
-(--------------------------------------------) s
-5 126 M
-(Fixes for REQUEST and REPLY headers for KingCobra has been made in virgo_cloudexec_mempool ) s
-5 115 M
-(recvfrom\(\) if clause and in request parser in KingCobra with strsep\(\). This has been implem) s
-5 104 M
-(ented only in VIRGO mempool codepath and not in VIRGO clone.) s
-5 82 M
-(-------------------------------------------) s
-5 71 M
-(Commits as on 7 April 2014) s
-5 60 M
-(-------------------------------------------) s
-5 49 M
-(New function parse_timestamp\(\) has been added to retrieve the timestamp set by the VIRGO me) s
-5 38 M
-(mpool driver before pushing the request to VIRGO queue driver) s
-5 16 M
-(------------------------------------------) s
-5 5 M
-(Commits as on 29 April 2014) s
+5 87 M
+(Minimalistic Kernelspace messaging server framework with kernel workqueue,handler and remote c) s
+5 76 M
+(loud client has been completed - For this VIRGO clone cpupooling driver has been added a claus) s
+5 65 M
+(e based on a boolean flag, to direct incoming request from remote client to VIRGO linux workqu) s
+5 54 M
+(eue which is popped by workqueue handler that invokes a servicerequest function on the KingCob) s
+5 43 M
+(ra kernel module. \(Build notes: To remove any build or symbol errors, Module.symvers from VIRG) s
+5 32 M
+(O queue has to be copied to VIRGO cloudexec and built to get a unified VIRGO cloudexec Module.) s
+5 21 M
+(symvers that has exported symbol definitions for push_request\(\)\). End-to-end test with telnet ) s
+5 10 M
+(path client sending a request to VIRGO cloudexec service, that gets queued in kernel workqueue) s
 _R
 S
 %%Page: (10) 10
@@ -1680,132 +1600,120 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (10) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(, handled by workqueue handler that finally invokes KingCobra service request function has bee) s
+5 681 M
+(n done and the kern.log has been added to repository at drivers/virgo/queuing/test_logs/) s
+5 659 M
+(----------------------------------------------) s
+5 648 M
+(Commits as on 29 March 2014) s
+5 637 M
+(----------------------------------------------) s
+5 626 M
+(Initial commits for KingCobra Request Response done by adding 2 new functions parse_ip_address) s
+5 615 M
+(\(\) and reply_to_publisher\(\) in kingcobra_servicerequest_kernelspace\(\)) s
+5 593 M
+(--------------------------------------------) s
+5 582 M
+(Commits as on 30 March 2014) s
+5 571 M
+(--------------------------------------------) s
+5 560 M
+(Both VIRGO cpupooling and mempooling drivers have been modified with use_as_kingcobra_service ) s
+5 549 M
+(boolean flag for sending incoming remote cloud node requests to VIRGO queue which is serviced ) s
+5 538 M
+(by workqueue handler and KingCobra service as per the above schematic diagram and replied to.) s
+5 516 M
+(--------------------------------------------) s
+5 505 M
+(Commits as on 6 April 2014) s
+5 494 M
+(--------------------------------------------) s
+5 483 M
+(Fixes for REQUEST and REPLY headers for KingCobra has been made in virgo_cloudexec_mempool rec) s
+5 472 M
+(vfrom\(\) if clause and in request parser in KingCobra with strsep\(\). This has been implemented ) s
+5 461 M
+(only in VIRGO mempool codepath and not in VIRGO clone.) s
+5 439 M
+(-------------------------------------------) s
+5 428 M
+(Commits as on 7 April 2014) s
+5 417 M
+(-------------------------------------------) s
+5 406 M
+(New function parse_timestamp\(\) has been added to retrieve the timestamp set by the VIRGO mempo) s
+5 395 M
+(ol driver before pushing the request to VIRGO queue driver) s
+5 373 M
 (------------------------------------------) s
-5 731 M
-(Intial commits for disk persistence of KingCobra request-reply queue messages have been don) s
-5 720 M
-(e with addition of new boolean flag kingcobra_disk_persistence. VFS calls are used to open ) s
-5 709 M
-(and write to the queue.) s
-5 687 M
+5 362 M
+(Commits as on 29 April 2014) s
+5 351 M
 (------------------------------------------) s
-5 676 M
+5 340 M
+(Intial commits for disk persistence of KingCobra request-reply queue messages have been done w) s
+5 329 M
+(ith addition of new boolean flag kingcobra_disk_persistence. VFS calls are used to open and wr) s
+5 318 M
+(ite to the queue.) s
+5 296 M
+(------------------------------------------) s
+5 285 M
 (Commits as on 26 August 2014) s
-5 665 M
+5 274 M
 (------------------------------------------) s
-5 654 M
-(KingCobra driver has been ported to 3.15.5 kernel and bugs related to a kernel_recvmsg\(\) cr) s
-5 643 M
-(ash, timestamp  parsing etc., have been fixed. The random crashes were most likely due to i) s
-5 632 M
-(ncorrect parameters to filp_open\(\) of disk persistence file and filesystem being mounted as) s
-5 621 M
-( read-only.) s
-5 599 M
+5 263 M
+(KingCobra driver has been ported to 3.15.5 kernel and bugs related to a kernel_recvmsg\(\) crash) s
+5 252 M
+(, timestamp  parsing etc., have been fixed. The random crashes were most likely due to incorre) s
+5 241 M
+(ct parameters to filp_open\(\) of disk persistence file and filesystem being mounted as read-onl) s
+5 230 M
+(y.) s
+5 208 M
 (---------------------------------------------------) s
-5 588 M
+5 197 M
 (Version 14.9.9 release tagged on 9 September 2014) s
-5 577 M
+5 186 M
 (--------------------------------------------------) s
-5 566 M
+5 175 M
 (---------------------------------------------------) s
-5 555 M
+5 164 M
 (Version 15.1.8 release tagged on 8 January 2015 ) s
-5 544 M
+5 153 M
 (--------------------------------------------------) s
-5 522 M
+5 131 M
 (-------------------------------------------) s
-5 511 M
+5 120 M
 (Commits as on 17 August 2015) s
-5 500 M
+5 109 M
 (-------------------------------------------) s
-5 489 M
+5 98 M
 (KingCobra + VIRGO Queuing port of Linux Kernel 4.1.5 :) s
-5 478 M
-( - changed the REQUEST_REPLY.queue disk persisted queue path to /var/log/kingcobra/REQUEST_) s
-5 467 M
-(REPLY.queue) s
-5 456 M
+5 87 M
+( - changed the REQUEST_REPLY.queue disk persisted queue path to /var/log/kingcobra/REQUEST_REP) s
+5 76 M
+(LY.queue) s
+5 65 M
 ( - kernel built sources, object files) s
-5 445 M
-( - kern.log with logs for telnet request sent to VIRGO queue driver, queued in kernel work ) s
-5 434 M
-(queue and handler invocation for the) s
-5 423 M
-(KingCobra service request kernel function for the popped request; disk persisted /var/log/k) s
-5 412 M
-(ingcobra/REQUEST_REPLY.queue) s
-5 390 M
-(--------------------------------------------) s
-5 379 M
-(Commits as on 14 October 2015) s
-5 368 M
-(--------------------------------------------) s
-5 357 M
-(AsFer Cloud Perfect Forwarding binaries are invoked through call_usermodehelper\(\) in VIRGO ) s
-5 346 M
-(queue. KingCobra commands has been updated with a clause for cloud perfect forwarding.) s
-5 324 M
-(--------------------------------------------) s
-5 313 M
-(Commits as on 15 October 2015) s
-5 302 M
-(--------------------------------------------) s
-5 291 M
-(- Updated KingCobra module binaries and build generated sources) s
-5 280 M
-(- kingcobra_usermode_log.txt with "not found" error from output redirection \(kingcobra_comm) s
-5 269 M
-(ands.c\). This error is due to need for absolute path. But there are "alloc_fd: slot 1 not N) s
-5 258 M
-(ULL!" after fd_install\(\) is uncommented in virgo_queue.h call_usermodehelper\(\) code. The ke) s
-5 247 M
-(rn.log with these errors has been added to testlogs) s
-5 236 M
-(- kingcobra_commands.c has been changed to invoke absolute path executable. With uncommenti) s
-5 225 M
-(ng of fd_install and set_ds code in virgo_queue the return code of call_usermodehelper\(\) is) s
-5 214 M
-( 0 indicating successful invocation) s
-5 192 M
-(---------------------------------------------------------------------------) s
-5 181 M
-(Commits as on 10 January 2016) s
-5 170 M
-(---------------------------------------------------------------------------) s
-5 159 M
-(NeuronRain KingCobra research version 2016.1.10 released.) s
-5 137 M
-(-------------------------------------------------------------------------------------------) s
-5 126 M
-(-------) s
-5 115 M
-(NEURONRAIN VIRGO Commits for virgo_clone\(\)/telnet -> VIRGO cpupooling -> VIRGO Queue -> Kin) s
-5 104 M
-(gCobra) s
-5 93 M
-(- as on 12 February 2016) s
-5 82 M
-(-------------------------------------------------------------------------------------------) s
-5 71 M
-(-------) s
-5 60 M
-(VIRGO commit:) s
-5 49 M
-(https://github.com/shrinivaasanka/virgo-linux-github-code/commit/72d9cfc90855719542cdb62ce4) s
-5 38 M
-(0b798cc7431b3d) s
-5 16 M
-(Commit comments:) s
-5 5 M
-(-----------------------------------------------------------------------------------------) s
+5 54 M
+( - kern.log with logs for telnet request sent to VIRGO queue driver, queued in kernel work que) s
+5 43 M
+(ue and handler invocation for the) s
+5 32 M
+(KingCobra service request kernel function for the popped request; disk persisted /var/log/king) s
+5 21 M
+(cobra/REQUEST_REPLY.queue) s
 _R
 S
 %%Page: (11) 11
@@ -1817,144 +1725,130 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (11) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(Commits for Telnet/System Call Interface to VIRGO CPUPooling -> VIRGO Queue -> KingCobra) s
-5 731 M
+5 692 M
+(--------------------------------------------) s
+5 681 M
+(Commits as on 14 October 2015) s
+5 670 M
+(--------------------------------------------) s
+5 659 M
+(AsFer Cloud Perfect Forwarding binaries are invoked through call_usermodehelper\(\) in VIRGO que) s
+5 648 M
+(ue. KingCobra commands has been updated with a clause for cloud perfect forwarding.) s
+5 626 M
+(--------------------------------------------) s
+5 615 M
+(Commits as on 15 October 2015) s
+5 604 M
+(--------------------------------------------) s
+5 593 M
+(- Updated KingCobra module binaries and build generated sources) s
+5 582 M
+(- kingcobra_usermode_log.txt with "not found" error from output redirection \(kingcobra_command) s
+5 571 M
+(s.c\). This error is due to need for absolute path. But there are "alloc_fd: slot 1 not NULL!" ) s
+5 560 M
+(after fd_install\(\) is uncommented in virgo_queue.h call_usermodehelper\(\) code. The kern.log wi) s
+5 549 M
+(th these errors has been added to testlogs) s
+5 538 M
+(- kingcobra_commands.c has been changed to invoke absolute path executable. With uncommenting ) s
+5 527 M
+(of fd_install and set_ds code in virgo_queue the return code of call_usermodehelper\(\) is 0 ind) s
+5 516 M
+(icating successful invocation) s
+5 494 M
+(---------------------------------------------------------------------------) s
+5 483 M
+(Commits as on 10 January 2016) s
+5 472 M
+(---------------------------------------------------------------------------) s
+5 461 M
+(NeuronRain KingCobra research version 2016.1.10 released.) s
+5 439 M
+(----------------------------------------------------------------------------------------------) s
+5 428 M
+(----) s
+5 417 M
+(NEURONRAIN VIRGO Commits for virgo_clone\(\)/telnet -> VIRGO cpupooling -> VIRGO Queue -> KingCo) s
+5 406 M
+(bra) s
+5 395 M
+(- as on 12 February 2016) s
+5 384 M
+(----------------------------------------------------------------------------------------------) s
+5 373 M
+(----) s
+5 362 M
+(VIRGO commit:) s
+5 351 M
+(https://github.com/shrinivaasanka/virgo-linux-github-code/commit/72d9cfc90855719542cdb62ce40b7) s
+5 340 M
+(98cc7431b3d) s
+5 318 M
+(Commit comments:) s
+5 307 M
 (-----------------------------------------------------------------------------------------) s
-5 720 M
-(*\) This was commented earlier for the past few years due to a serious kernel panic in previ) s
-5 709 M
-(ous kernel versions - <= 3.15.5) s
-5 698 M
-(*\) In 4.1.5 a deadlock between VIRGO CPUPooling and VIRGO queue driver init was causing fol) s
-5 687 M
-(lowing error in "use_as_kingcobra_service" clause :) s
-5 676 M
+5 296 M
+(Commits for Telnet/System Call Interface to VIRGO CPUPooling -> VIRGO Queue -> KingCobra) s
+5 285 M
+(-----------------------------------------------------------------------------------------) s
+5 274 M
+(*\) This was commented earlier for the past few years due to a serious kernel panic in previous) s
+5 263 M
+( kernel versions - <= 3.15.5) s
+5 252 M
+(*\) In 4.1.5 a deadlock between VIRGO CPUPooling and VIRGO queue driver init was causing follow) s
+5 241 M
+(ing error in "use_as_kingcobra_service" clause :) s
+5 230 M
 (  - "gave up waiting for virgo_queue init, unknown symbol push_request\(\)") s
-5 665 M
-(*\) To address this a new boolean flag to selectively enable and disable VIRGO Queue kernel ) s
-5 654 M
-(service mode "virgo_queue_reactor_service_mode" has been added.) s
-5 643 M
-(*\) With this flag VIRGO Queue is both a kernel service driver and a standalone exporter of ) s
-5 632 M
-(function symbols - push_request/pop_request) s
-5 621 M
-(*\) Incoming request data from telnet/virgo_clone\(\) system call into cpupooling kernel servi) s
-5 610 M
-(ce reactor pattern \(virgo cpupooling listener loop\) is treated as generic string and handed) s
-5 599 M
-( over to VIRGO queue and KingCobra which publishes it.) s
-5 588 M
-(*\) This resolves a long standing deadlock above between VIRGO cpupooling "use_as_kingcobra_) s
-5 577 M
-(service" clause and VIRGO queue init.) s
-5 566 M
-(*\) This makes virgo_clone\(\) systemcall/telnet both synchronous and asynchronous - requests ) s
-5 555 M
-(from telnet client/virgo_clone\(\) system call can be) s
-5 544 M
-(either synchronous RPC functions executed on a remote cloud node in kernelspace \(or\) an asy) s
-5 533 M
-(nchronous invocation through "use_as_kingcobra_service") s
-5 522 M
-( clause path to VIRGO Queue driver which enqueues the data in kernel workqueue and subseque) s
-5 511 M
-(ntly popped by KingCobra.) s
-5 500 M
-(*\) Above saves an additional code implementation for virgo_queue syscall paths - virgo_clon) s
-5 489 M
-(e\(\) handles, based on config selected, incoming) s
-5 478 M
-(data passed to it either as a remote procedure call or as a data that is pushed to VIRGO Qu) s
-5 467 M
-(eue/KingCobra pub-sub kernelspace) s
-5 456 M
-(*\) Kernel Logs and REQUEST_REPLY.queue for above commits have been added to kingcobra c-src) s
-5 445 M
-(/testlogs/) s
-5 423 M
-(-------------------------------------------------------------------------------------------) s
-5 412 M
-(--------------------) s
-5 401 M
-(Commits - KingCobra 64 bit and VIRGO Queue + KingCobra telnet requests - 17 April 2017) s
-5 390 M
-(-------------------------------------------------------------------------------------------) s
-5 379 M
-(--------------------) s
-5 368 M
-(*\) Rebuilt KingCobra 64bit kernel module) s
-5 357 M
-(*\) telnet requests to VIRGO64 Queueing module listener driver are serviced by KingCobra ser) s
-5 346 M
-(vicerequest) s
-5 335 M
-(*\) Request_Reply queue persisted for this VIRGO Queue + KingCobra routing has been committe) s
-5 324 M
-(d to c-src/testlogs.) s
-5 313 M
-(*\) kern.log for this routing has been committed in VIRGO64 queueing directory) s
-5 302 M
-(*\) Similar to other drivers struct socket* reinterpret cast to int has been removed and has) s
-5 291 M
-( been made const in queuesvc kernel thread) s
-5 269 M
-(-------------------------------------------------------------------------------------------) s
-5 258 M
-(-------------------) s
-5 247 M
-(\(FEATURE-DONE\) Commits - CVXPY implementation for Eisenberg-Gale Convex Program - 18 August) s
-5 236 M
-( 2017) s
-5 225 M
-(-------------------------------------------------------------------------------------------) s
-5 214 M
-(-------------------) s
-5 203 M
-(\(*\) First commits for Convex Optimized Market Equilibrium Prices) s
-5 192 M
-(\(*\) Imports CVXPY Convex Program solver) s
-5 181 M
-(\(*\) Objective function is a logistic variant of Eisenberg-Gale Convex Program i.e uses mone) s
-5 170 M
-(y * log\(1+e^utility\) instead of) s
-5 159 M
-( money * log\(utility\) because of curvature error \(log is error flagged as concave and logis) s
-5 148 M
-(tic is convex per:) s
-5 137 M
-( http://www.cvxpy.org/en/latest/tutorial/functions/index.html#vector-matrix-functions\)) s
-5 126 M
-(\(*\) Formulates constraints and objective functions based on http://www.cs.cmu.edu/~sandholm) s
-5 115 M
-(/cs15-892F13/algorithmic-game-theory.pdf - Page 106 and Equation 5.1) s
-5 104 M
-(\(*\) But, For all installed solvers ECOS, ECOS_BB, SCS, LS solved convex program prints valu) s
-5 93 M
-(e as None despite all constraints and objective functions being convex. Also is_dcp\(\) print) s
-5 82 M
-(s "not a disciplined convex program". Logs in testlogs/.) s
-5 71 M
-(\(*\) Obviously it should have worked. Therefore this is only a partial implementation commit) s
-5 60 M
-(.) s
-5 49 M
-(\(*\) This implementation uses numpy randomly initialized arrays for Money each buyer has and) s
-5 38 M
-( per-good utility\(happiness\) each buyer has.) s
-5 27 M
-(\(*\) Replacing money with perceived merit values translates this Market Equilibrium - Intrin) s
-5 16 M
-(sic Value versus Market Price - to Merit) s
-5 5 M
-( Equilibrium - Intrinsic Merit versus Perceived Merit. This has been already described in N) s
+5 219 M
+(*\) To address this a new boolean flag to selectively enable and disable VIRGO Queue kernel ser) s
+5 208 M
+(vice mode "virgo_queue_reactor_service_mode" has been added.) s
+5 197 M
+(*\) With this flag VIRGO Queue is both a kernel service driver and a standalone exporter of fun) s
+5 186 M
+(ction symbols - push_request/pop_request) s
+5 175 M
+(*\) Incoming request data from telnet/virgo_clone\(\) system call into cpupooling kernel service ) s
+5 164 M
+(reactor pattern \(virgo cpupooling listener loop\) is treated as generic string and handed over ) s
+5 153 M
+(to VIRGO queue and KingCobra which publishes it.) s
+5 142 M
+(*\) This resolves a long standing deadlock above between VIRGO cpupooling "use_as_kingcobra_ser) s
+5 131 M
+(vice" clause and VIRGO queue init.) s
+5 120 M
+(*\) This makes virgo_clone\(\) systemcall/telnet both synchronous and asynchronous - requests fro) s
+5 109 M
+(m telnet client/virgo_clone\(\) system call can be) s
+5 98 M
+(either synchronous RPC functions executed on a remote cloud node in kernelspace \(or\) an asynch) s
+5 87 M
+(ronous invocation through "use_as_kingcobra_service") s
+5 76 M
+( clause path to VIRGO Queue driver which enqueues the data in kernel workqueue and subsequentl) s
+5 65 M
+(y popped by KingCobra.) s
+5 54 M
+(*\) Above saves an additional code implementation for virgo_queue syscall paths - virgo_clone\(\)) s
+5 43 M
+( handles, based on config selected, incoming) s
+5 32 M
+(data passed to it either as a remote procedure call or as a data that is pushed to VIRGO Queue) s
+5 21 M
+(/KingCobra pub-sub kernelspace) s
+5 10 M
+(*\) Kernel Logs and REQUEST_REPLY.queue for above commits have been added to kingcobra c-src/te) s
 _R
 S
 %%Page: (12) 12
@@ -1966,138 +1860,130 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (12) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(euronRain AsFer Design Documents:) s
-5 731 M
+5 692 M
+(stlogs/) s
+5 670 M
+(----------------------------------------------------------------------------------------------) s
+5 659 M
+(-----------------) s
+5 648 M
+(Commits - KingCobra 64 bit and VIRGO Queue + KingCobra telnet requests - 17 April 2017) s
+5 637 M
+(----------------------------------------------------------------------------------------------) s
+5 626 M
+(-----------------) s
+5 615 M
+(*\) Rebuilt KingCobra 64bit kernel module) s
+5 604 M
+(*\) telnet requests to VIRGO64 Queueing module listener driver are serviced by KingCobra servic) s
+5 593 M
+(erequest) s
+5 582 M
+(*\) Request_Reply queue persisted for this VIRGO Queue + KingCobra routing has been committed t) s
+5 571 M
+(o c-src/testlogs.) s
+5 560 M
+(*\) kern.log for this routing has been committed in VIRGO64 queueing directory) s
+5 549 M
+(*\) Similar to other drivers struct socket* reinterpret cast to int has been removed and has be) s
+5 538 M
+(en made const in queuesvc kernel thread) s
+5 516 M
+(----------------------------------------------------------------------------------------------) s
+5 505 M
+(----------------) s
+5 494 M
+(\(FEATURE-DONE\) Commits - CVXPY implementation for Eisenberg-Gale Convex Program - 18 August 20) s
+5 483 M
+(17) s
+5 472 M
+(----------------------------------------------------------------------------------------------) s
+5 461 M
+(----------------) s
+5 450 M
+(\(*\) First commits for Convex Optimized Market Equilibrium Prices) s
+5 439 M
+(\(*\) Imports CVXPY Convex Program solver) s
+5 428 M
+(\(*\) Objective function is a logistic variant of Eisenberg-Gale Convex Program i.e uses money *) s
+5 417 M
+( log\(1+e^utility\) instead of) s
+5 406 M
+( money * log\(utility\) because of curvature error \(log is error flagged as concave and logistic) s
+5 395 M
+( is convex per:) s
+5 384 M
+( http://www.cvxpy.org/en/latest/tutorial/functions/index.html#vector-matrix-functions\)) s
+5 373 M
+(\(*\) Formulates constraints and objective functions based on http://www.cs.cmu.edu/~sandholm/cs) s
+5 362 M
+(15-892F13/algorithmic-game-theory.pdf - Page 106 and Equation 5.1) s
+5 351 M
+(\(*\) But, For all installed solvers ECOS, ECOS_BB, SCS, LS solved convex program prints value a) s
+5 340 M
+(s None despite all constraints and objective functions being convex. Also is_dcp\(\) prints "not) s
+5 329 M
+( a disciplined convex program". Logs in testlogs/.) s
+5 318 M
+(\(*\) Obviously it should have worked. Therefore this is only a partial implementation commit.) s
+5 307 M
+(\(*\) This implementation uses numpy randomly initialized arrays for Money each buyer has and pe) s
+5 296 M
+(r-good utility\(happiness\) each buyer has.) s
+5 285 M
+(\(*\) Replacing money with perceived merit values translates this Market Equilibrium - Intrinsic) s
+5 274 M
+( Value versus Market Price - to Merit) s
+5 263 M
+( Equilibrium - Intrinsic Merit versus Perceived Merit. This has been already described in Neur) s
+5 252 M
+(onRain AsFer Design Documents:) s
+5 241 M
 (        - http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt and) s
-5 720 M
-(        - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroI) s
-5 709 M
-(nferDesign.txt) s
-5 687 M
-(-------------------------------------------------------------------------------------------) s
-5 676 M
-(----------------------) s
-5 665 M
+5 230 M
+(        - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInfe) s
+5 219 M
+(rDesign.txt) s
+5 197 M
+(----------------------------------------------------------------------------------------------) s
+5 186 M
+(-------------------) s
+5 175 M
 (\(FEATURE-DONE\) Commits - Convex Optimization - DCCP - 21 August 2017) s
-5 654 M
-(-------------------------------------------------------------------------------------------) s
-5 643 M
-(----------------------) s
-5 632 M
+5 164 M
+(----------------------------------------------------------------------------------------------) s
+5 153 M
+(-------------------) s
+5 142 M
 (\(*\) import dccp has been added) s
-5 621 M
+5 131 M
 (\(*\) DCCP is the recent advancement and generalization of DCP for convex-concave programs) s
-5 610 M
+5 120 M
 (\(*\) method='dccp' has been added as parameter to solve\(\)) s
-5 599 M
-(\(*\) Objective function has been changed to log\(\) from logistic\(\) - curvature is concave whi) s
-5 588 M
-(ch is in conflict with definition of) s
-5 577 M
+5 109 M
+(\(*\) Objective function has been changed to log\(\) from logistic\(\) - curvature is concave which ) s
+5 98 M
+(is in conflict with definition of) s
+5 87 M
 (eisenberg-gale convex program in textbooks. Reason for this contradiction is unknown.) s
-5 566 M
-(\(*\) But DCCP overcomes the DCP limitation and solve\(\) prints converged solutions for object) s
-5 555 M
-(ive functions) s
-5 544 M
+5 76 M
+(\(*\) But DCCP overcomes the DCP limitation and solve\(\) prints converged solutions for objective) s
+5 65 M
+( functions) s
+5 54 M
 (\(*\) logs have been committed to testlogs/) s
-5 533 M
-(\(*\) CVXOPT solver has been installed but it does not solve the Eisenberg-Gale objective fun) s
-5 522 M
-(ction. Only SCS solver works - by default applies) s
-5 511 M
+5 43 M
+(\(*\) CVXOPT solver has been installed but it does not solve the Eisenberg-Gale objective functi) s
+5 32 M
+(on. Only SCS solver works - by default applies) s
+5 21 M
 (KKT conditions indirectly.) s
-5 489 M
-(-------------------------------------------------------------------------------------------) s
-5 478 M
-(----------------------) s
-5 467 M
-(\(FEATURE-DONE\) Commits - Convex Optimization - DCCP - 22 August 2017) s
-5 456 M
-(-------------------------------------------------------------------------------------------) s
-5 445 M
-(----------------------) s
-5 434 M
-(\(*\) Verbose set to True for printing Splitting Conic Solver progress information) s
-5 423 M
-(\(*\) logs committed to testlogs/) s
-5 401 M
-(-------------------------------------------------------------------------------------------) s
-5 390 M
-(--------------------------------------------) s
-5 379 M
-(\(FEATURE-DONE\) Commits - Convex Optimization update - 29 August 2017) s
-5 368 M
-(-------------------------------------------------------------------------------------------) s
-5 357 M
-(--------------------------------------------) s
-5 346 M
-(\(*\) Removed hardcoded variable values in objective and constraints) s
-5 335 M
-(\(*\) In the context of pricing, ECOS Error Metrics print the matrices of market clearing pri) s
-5 324 M
-(ces for goods ) s
-5 313 M
-(\(Reference - pages 3072 and 3073 of https://web.stanford.edu/~boyd/papers/pdf/ecos_ecc.pdf ) s
-5 302 M
-(- KKT conditions in ECOS solver\)) s
-5 280 M
-(-------------------------------------------------------------------------------------------) s
-5 269 M
-(---------------------------------------) s
-5 258 M
-(\(FEATURE-DONE\) Convex Optimization - Pricing Computation - 30 August 2017) s
-5 247 M
-(-------------------------------------------------------------------------------------------) s
-5 236 M
-(---------------------------------------) s
-5 225 M
-(\(*\) Prices of Goods/Services have been computed explicitly from Karush-Kuhn-Tucker Conditio) s
-5 214 M
-(ns \(1,2,3 and especially 4\)) s
-5 203 M
-(\(*\) References: ) s
-5 192 M
-(        - Pages 106-108 of http://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-the) s
-5 181 M
-(ory.pdf\)) s
-5 170 M
-(        - KKT conditions and Conic Optimization- https://arxiv.org/pdf/1312.3039.pdf) s
-5 159 M
-(\(*\) logs committed to testlogs/) s
-5 137 M
-(-------------------------------------------------------------------------------------------) s
-5 126 M
-(--------------------) s
-5 115 M
-(\(FEATURE-DONE\) KingCobra Kernelspace Messaging Driver for 4.13.3 64-bit kernel - 24 Septemb) s
-5 104 M
-(er 2017) s
-5 93 M
-(-------------------------------------------------------------------------------------------) s
-5 82 M
-(--------------------) s
-5 71 M
-(\(*\) KingCobra driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.) s
-5 60 M
-(5 kernel) s
-5 49 M
-(\(*\) Both USB-md and KingCobra kernel modules are subsidiaries of VIRGO kernel) s
-5 38 M
-(\(*\) There is a necessity for 64-bit version of KingCobra for interoperability to VIRGO64 64) s
-5 27 M
-(-bit kernel on mainline version 4.13.3) s
-5 16 M
-(\(*\) This requires separate repository for KingCobra because of significant kernel function ) s
-5 5 M
-(changes between 4.1.5 and 4.13.3 and) s
 _R
 S
 %%Page: (13) 13
@@ -2109,140 +1995,128 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (13) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(----------------------------------------------------------------------------------------------) s
+5 681 M
+(-------------------) s
+5 670 M
+(\(FEATURE-DONE\) Commits - Convex Optimization - DCCP - 22 August 2017) s
+5 659 M
+(----------------------------------------------------------------------------------------------) s
+5 648 M
+(-------------------) s
+5 637 M
+(\(*\) Verbose set to True for printing Splitting Conic Solver progress information) s
+5 626 M
+(\(*\) logs committed to testlogs/) s
+5 604 M
+(----------------------------------------------------------------------------------------------) s
+5 593 M
+(-----------------------------------------) s
+5 582 M
+(\(FEATURE-DONE\) Commits - Convex Optimization update - 29 August 2017) s
+5 571 M
+(----------------------------------------------------------------------------------------------) s
+5 560 M
+(-----------------------------------------) s
+5 549 M
+(\(*\) Removed hardcoded variable values in objective and constraints) s
+5 538 M
+(\(*\) In the context of pricing, ECOS Error Metrics print the matrices of market clearing prices) s
+5 527 M
+( for goods ) s
+5 516 M
+(\(Reference - pages 3072 and 3073 of https://web.stanford.edu/~boyd/papers/pdf/ecos_ecc.pdf - K) s
+5 505 M
+(KT conditions in ECOS solver\)) s
+5 483 M
+(----------------------------------------------------------------------------------------------) s
+5 472 M
+(------------------------------------) s
+5 461 M
+(\(FEATURE-DONE\) Convex Optimization - Pricing Computation - 30 August 2017) s
+5 450 M
+(----------------------------------------------------------------------------------------------) s
+5 439 M
+(------------------------------------) s
+5 428 M
+(\(*\) Prices of Goods/Services have been computed explicitly from Karush-Kuhn-Tucker Conditions ) s
+5 417 M
+(\(1,2,3 and especially 4\)) s
+5 406 M
+(\(*\) References: ) s
+5 395 M
+(        - Pages 106-108 of http://www.cs.cmu.edu/~sandholm/cs15-892F13/algorithmic-game-theory) s
+5 384 M
+(.pdf\)) s
+5 373 M
+(        - KKT conditions and Conic Optimization- https://arxiv.org/pdf/1312.3039.pdf) s
+5 362 M
+(\(*\) logs committed to testlogs/) s
+5 340 M
+(----------------------------------------------------------------------------------------------) s
+5 329 M
+(-----------------) s
+5 318 M
+(\(FEATURE-DONE\) KingCobra Kernelspace Messaging Driver for 4.13.3 64-bit kernel - 24 September ) s
+5 307 M
+(2017) s
+5 296 M
+(----------------------------------------------------------------------------------------------) s
+5 285 M
+(-----------------) s
+5 274 M
+(\(*\) KingCobra driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.5 k) s
+5 263 M
+(ernel) s
+5 252 M
+(\(*\) Both USB-md and KingCobra kernel modules are subsidiaries of VIRGO kernel) s
+5 241 M
+(\(*\) There is a necessity for 64-bit version of KingCobra for interoperability to VIRGO64 64-bi) s
+5 230 M
+(t kernel on mainline version 4.13.3) s
+5 219 M
+(\(*\) This requires separate repository for KingCobra because of significant kernel function cha) s
+5 208 M
+(nges between 4.1.5 and 4.13.3 and) s
+5 197 M
 (idiosyncrasies of 64-bit) s
-5 731 M
-(\(*\) KingCobra driver has been rebuilt on 4.13.3 64-bit kernel after some changes to functio) s
-5 720 M
-(n prototypes and new kingcobra64 repository is) s
-5 709 M
+5 186 M
+(\(*\) KingCobra driver has been rebuilt on 4.13.3 64-bit kernel after some changes to function p) s
+5 175 M
+(rototypes and new kingcobra64 repository is) s
+5 164 M
 (initialized with these commits) s
-5 698 M
-(\(*\) KingCobra kernel sockets have been TLS-ed by kernel_setsockopt\(TX_TLS\) newly introduced) s
-5 687 M
-( in 4.13 kernel.) s
-5 676 M
-(\(*\) After this complete request-reply traffic from VIRGO64 system calls to VIRGO64 queueing) s
-5 665 M
-( and KingCobra is encrypted.) s
-5 643 M
-(-------------------------------------------------------------------------------------------) s
-5 632 M
-(--------------------) s
-5 621 M
+5 153 M
+(\(*\) KingCobra kernel sockets have been TLS-ed by kernel_setsockopt\(TX_TLS\) newly introduced in) s
+5 142 M
+( 4.13 kernel.) s
+5 131 M
+(\(*\) After this complete request-reply traffic from VIRGO64 system calls to VIRGO64 queueing an) s
+5 120 M
+(d KingCobra is encrypted.) s
+5 98 M
+(----------------------------------------------------------------------------------------------) s
+5 87 M
+(-----------------) s
+5 76 M
 (\(FEATURE-DONE\) Commits - telnet - VIRGO64Queue - KingCobra64 -  25 September 2017) s
-5 610 M
-(-------------------------------------------------------------------------------------------) s
-5 599 M
-(--------------------) s
-5 588 M
-(\(*\) Disk persisted KingCobra64 REQUEST-REPLY Queue written by VIRGO64 Queue to KingCobra64 ) s
-5 577 M
-(telnet invocation after 4.13.3 64-bit KTLS upgrade) s
-5 566 M
+5 65 M
+(----------------------------------------------------------------------------------------------) s
+5 54 M
+(-----------------) s
+5 43 M
+(\(*\) Disk persisted KingCobra64 REQUEST-REPLY Queue written by VIRGO64 Queue to KingCobra64 tel) s
+5 32 M
+(net invocation after 4.13.3 64-bit KTLS upgrade) s
+5 21 M
 (has been committed) s
-5 544 M
-(-------------------------------------------------------------------------------------------) s
-5 533 M
-(-----------------------------------------) s
-5 522 M
-(\(FEATURE-DONE\) VIRGO64 Queueing Kernel Module Listener - KingCobra64 - 4.13.3 - 6 October 2) s
-5 511 M
-(017) s
-5 500 M
-(-------------------------------------------------------------------------------------------) s
-5 489 M
-(-----------------------------------------) s
-5 478 M
-(\(*\) telnet client connection to VIRGO64 Queue and a subsequent workqueue routing \(pub/sub\) ) s
-5 467 M
-(to KingCobra64 has been tested on 4.13.3) s
-5 456 M
-(\(*\) TX_TLS socket option has not been disabled and is a no-op because it has no effect on t) s
-5 445 M
-(he socket.) s
-5 434 M
-(\(*\) REQUEST_REPLY.queue for this routing from VIRGO64 queue and persisted by KingCobra64 ha) s
-5 423 M
-(s been committed to KingCobra64 repositories in GitHub and SourceForge) s
-5 401 M
-(-------------------------------------------------------------------------------------------) s
-5 390 M
-(---------------------------------------------) s
-5 379 M
-(\(FEATURE-DONE\) KingCobra64 Neuro Electronic Currency transactional cloud move - Perfect For) s
-5 368 M
-(ward - 17 January 2018) s
-5 357 M
-(-------------------------------------------------------------------------------------------) s
-5 346 M
-(---------------------------------------------) s
-5 335 M
-(\(#\) Neuro Currency cloud perfect forward has been made transactional by wrapping it by Pyth) s
-5 324 M
-(on Transaction Manager \(widely used in Zope) s
-5 313 M
-(Python Application Server\)) s
-5 302 M
-(\(#\) imports transaction python package and invokes begin\(\) and commit\(\) on subprocess call ) s
-5 291 M
-(to neuro cloud move client and server) s
-5 269 M
-(-------------------------------------------------------------------------------------------) s
-5 258 M
-(--------------------------------------------------) s
-5 247 M
-(Concurrent Managed Workqueue\(CMWQ\), VIRGO64 Queueing and KingCobra64 messaging - 12 June 20) s
-5 236 M
-(19) s
-5 225 M
-(-------------------------------------------------------------------------------------------) s
-5 214 M
-(--------------------------------------------------) s
-5 203 M
-(1. Existing workqueue underneath VIRGO64 queueing and requests routed by it to KingCobra64 ) s
-5 192 M
-(messaging are old legacy workqueues which) s
-5 181 M
-(have been revamped to Concurrent Managed Workqueue which supports concurrent messaging and ) s
-5 170 M
-(lot of other options in queue creation.) s
-5 159 M
-(2. create_workqueue\(\) in VIRGO64 Queueing has been changed to alloc_workqueue\(\) of Concurre) s
-5 148 M
-(nt Managed Workqueue.) s
-5 137 M
-(3. VIRGO64 Queueing request routing to KingCobra64 messaging has been tested with CMWQ and ) s
-5 126 M
-(queueing log and kingcobra64 Request-Reply) s
-5 115 M
-(Queue have been committed to respective testlogs of the drivers) s
-5 104 M
-(4. reading from stream has been disabled in virgo_kernel_analytics.h) s
-5 93 M
-(5. Reference - CMWQ documentation - https://www.kernel.org/doc/html/v4.11/core-api/workqueu) s
-5 82 M
-(e.html) s
-5 71 M
-(6. Byzantine Fault Tolerance in KingCobra64 persisted queue can be made available by perfor) s
-5 60 M
-(mant CMWQ and routing to the Replicas of) s
-5 49 M
-(REQUEST_REPLY.queue by any of the practical BFT protocols available.) s
-5 38 M
-(7. Most important application of CMWQ based VIRGO64-KingCobra64 is in the context of kernel) s
-5 27 M
-(space hardware messaging in IoT,Drones and other) s
-5 16 M
-(analytics driven embedded systems.) s
-5 5 M
-(8. An example usecase which is a mix of sync and async I/O in kernelspace:) s
 _R
 S
 %%Page: (14) 14
@@ -2254,25 +2128,117 @@ _S
 /fdir (.) def
 /ftail (KingCobraDesignNotes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:48:20 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (14) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(        \(*\) Analytics Variables computed by userspace machine learning are read over socket) s
-5 731 M
-( stream by kernel_analytics driver and) s
-5 720 M
+5 692 M
+(----------------------------------------------------------------------------------------------) s
+5 681 M
+(--------------------------------------) s
+5 670 M
+(\(FEATURE-DONE\) VIRGO64 Queueing Kernel Module Listener - KingCobra64 - 4.13.3 - 6 October 2017) s
+5 659 M
+(----------------------------------------------------------------------------------------------) s
+5 648 M
+(--------------------------------------) s
+5 637 M
+(\(*\) telnet client connection to VIRGO64 Queue and a subsequent workqueue routing \(pub/sub\) to ) s
+5 626 M
+(KingCobra64 has been tested on 4.13.3) s
+5 615 M
+(\(*\) TX_TLS socket option has not been disabled and is a no-op because it has no effect on the ) s
+5 604 M
+(socket.) s
+5 593 M
+(\(*\) REQUEST_REPLY.queue for this routing from VIRGO64 queue and persisted by KingCobra64 has b) s
+5 582 M
+(een committed to KingCobra64 repositories in GitHub and SourceForge) s
+5 560 M
+(----------------------------------------------------------------------------------------------) s
+5 549 M
+(------------------------------------------) s
+5 538 M
+(\(FEATURE-DONE\) KingCobra64 Neuro Electronic Currency transactional cloud move - Perfect Forwar) s
+5 527 M
+(d - 17 January 2018) s
+5 516 M
+(----------------------------------------------------------------------------------------------) s
+5 505 M
+(------------------------------------------) s
+5 494 M
+(\(#\) Neuro Currency cloud perfect forward has been made transactional by wrapping it by Python ) s
+5 483 M
+(Transaction Manager \(widely used in Zope) s
+5 472 M
+(Python Application Server\)) s
+5 461 M
+(\(#\) imports transaction python package and invokes begin\(\) and commit\(\) on subprocess call to ) s
+5 450 M
+(neuro cloud move client and server) s
+5 428 M
+(----------------------------------------------------------------------------------------------) s
+5 417 M
+(-----------------------------------------------) s
+5 406 M
+(Concurrent Managed Workqueue\(CMWQ\), VIRGO64 Queueing and KingCobra64 messaging - 12 June 2019) s
+5 395 M
+(----------------------------------------------------------------------------------------------) s
+5 384 M
+(-----------------------------------------------) s
+5 373 M
+(1. Existing workqueue underneath VIRGO64 queueing and requests routed by it to KingCobra64 mes) s
+5 362 M
+(saging are old legacy workqueues which) s
+5 351 M
+(have been revamped to Concurrent Managed Workqueue which supports concurrent messaging and lot) s
+5 340 M
+( of other options in queue creation.) s
+5 329 M
+(2. create_workqueue\(\) in VIRGO64 Queueing has been changed to alloc_workqueue\(\) of Concurrent ) s
+5 318 M
+(Managed Workqueue.) s
+5 307 M
+(3. VIRGO64 Queueing request routing to KingCobra64 messaging has been tested with CMWQ and que) s
+5 296 M
+(ueing log and kingcobra64 Request-Reply) s
+5 285 M
+(Queue have been committed to respective testlogs of the drivers) s
+5 274 M
+(4. reading from stream has been disabled in virgo_kernel_analytics.h) s
+5 263 M
+(5. Reference - CMWQ documentation - https://www.kernel.org/doc/html/v4.11/core-api/workqueue.h) s
+5 252 M
+(tml) s
+5 241 M
+(6. Byzantine Fault Tolerance in KingCobra64 persisted queue can be made available by performan) s
+5 230 M
+(t CMWQ and routing to the Replicas of) s
+5 219 M
+(REQUEST_REPLY.queue by any of the practical BFT protocols available.) s
+5 208 M
+(7. Most important application of CMWQ based VIRGO64-KingCobra64 is in the context of kernelspa) s
+5 197 M
+(ce hardware messaging in IoT,Drones and other) s
+5 186 M
+(analytics driven embedded systems.) s
+5 175 M
+(8. An example usecase which is a mix of sync and async I/O in kernelspace:) s
+5 164 M
+(        \(*\) Analytics Variables computed by userspace machine learning are read over socket st) s
+5 153 M
+(ream by kernel_analytics driver and) s
+5 142 M
 (exported kernelwide) s
-5 709 M
-(        \(*\) Some interested Drone driver in kernel \(example PXRC\) reads the analytics varia) s
-5 698 M
-(bles synchronously and sends reply messages asynchronously to VIRGO64 Queuing driver over k) s
-5 687 M
-(ernel sockets.  ) s
-5 676 M
+5 131 M
+(        \(*\) Some interested Drone driver in kernel \(example PXRC\) reads the analytics variable) s
+5 120 M
+(s synchronously and sends reply messages asynchronously to VIRGO64 Queuing driver over kernel ) s
+5 109 M
+(sockets.  ) s
+5 98 M
 (        \(*\) VIRGO Queuing routes the queued messages to KingCobra64 driver) s
 _R
 S

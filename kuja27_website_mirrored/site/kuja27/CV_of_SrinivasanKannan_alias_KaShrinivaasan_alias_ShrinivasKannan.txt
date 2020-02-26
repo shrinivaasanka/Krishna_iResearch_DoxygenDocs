@@ -25,6 +25,7 @@ Date of Birth as per records: 19 May 1977
 Passport: M9583737
 PAN: AOVPS2844F
 Aadhaar: 772717942542
+Marital status: Unmarried (Never Married)
 
 
 
@@ -199,7 +200,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
-Latest version 2020#01#03:
+Latest version 2020#02#26:
 
 1. Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -393,10 +394,14 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ bits integers (1024,1067,1213,1243 bits integers) – smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050 bits) – smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
+	2.187 Chaos Pseudorandom Generators – Python 3.7.5 Logistic and Lehmer-Palmore PRGs implementation
+	2.188 Compressed Sensing – Python 3.7.5 Alphabet-Syllable vectorspace embedding and similar name clustering in Social Networks and People Analytics
+	2.189 Leaky Bucket Timeseries Analyzer Implementation - Python 3.7.5 
+	2.190 PAC Learning - Python 3.7.5 upgrade and Patterns in Primes
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -473,7 +478,7 @@ Implements a minimal kernelspace and userspace messaging framework using VIRGO c
 
 6. acadpdrafts - All publications and drafts with code  (along with important documents and Photo ID proofs) are uploaded at http://sourceforge.net/projects/acadpdrafts/
 
-The opensource codebases above are nonprofit academic research efforts. Premium Technical Support for above opensource codebases available. Premium Dual licensed Closedsource products (E.g GRAM – a graph theoretic ranking algorithm that enhances Recursive Gloss Overlap) derived from codebases in: https://github.com/shrinivaasanka, https://gitlab.com/shrinivaasanka and  https://sourceforge.net/u/userid-769929/profile/ are in development since 2010.
+The opensource codebases above are nonprofit academic research efforts. Premium Technical Support for above opensource codebases available. Premium Dual licensed Closedsource products derived from codebases in: https://github.com/shrinivaasanka, https://gitlab.com/shrinivaasanka and  https://sourceforge.net/u/userid-769929/profile/ are in development since 2010.
 
 7. GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit – May 2010 – Present –  Free online courses on miscellaneous topics and based on NeuronRain codebases and miscellaneous topics - An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2018.7.12)  12 JUL 2018 20:37
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2018.7.12)  10 JAN 2020 14:01
 entering extended mode
  %&-line parsing enabled.
 **CV.tex
@@ -402,44 +402,64 @@ Overfull \hbox (15.94809pt too wide) in paragraph at lines 56--58
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (57.27098pt too wide) in paragraph at lines 73--79
+Overfull \hbox (3.52501pt too wide) in paragraph at lines 67--68
+[]\T1/cmr/m/n/10.95 Semantic Scholar - []$\T1/cmtt/m/n/10.95 https : / / www . 
+semanticscholar . org / author / Ka . -[]Shrinivaasan / 1861803$[] 
+ []
+
+
+Overfull \hbox (10.43114pt too wide) in paragraph at lines 72--73
+[]\T1/cmr/m/n/10.95 CMI Alumni - 2008-10 - []$\T1/cmtt/m/n/10.95 https : / / ww
+w . cmi . ac . in / people / alumni-[]profile . php ? id = shrinivas$[] 
+ []
+
+
+Overfull \hbox (57.27098pt too wide) in paragraph at lines 81--88
 \OML/cmm/m/it/10.95 NeuronRain Documentation; FAQ and Licensing$ \T1/cmr/m/n/10
 .95 - []$\T1/cmtt/m/n/10.95 http : / / neuronrain-[]documentation . readthedocs
  .
  []
 
 
-Overfull \hbox (19.15073pt too wide) in paragraph at lines 73--79
+Overfull \hbox (19.15073pt too wide) in paragraph at lines 81--88
 \T1/cmr/m/n/10.95 Previous repos-i-to-ries in-clude an open learn-ing free cour
 se-ware ( []$\T1/cmtt/m/n/10.95 https : / / github . com / shrinivaasanka /
  []
 
-
-Overfull \hbox (20.95183pt too wide) in paragraph at lines 81--82
+[2]
+Overfull \hbox (20.95183pt too wide) in paragraph at lines 90--91
 \T1/cmr/m/n/10.95 Details on work and aca-demics - []$\T1/cmtt/m/n/10.95 https 
 : / / sites . google . com / site / kuja27 / CV _ of _ SrinivasanKannan _
  []
 
-[2] [3] (./CV.aux) ) 
+
+Overfull \hbox (5.57927pt too wide) in paragraph at lines 90--91
+\T1/cmtt/m/n/10.95 alias _ KaShrinivaasan _ alias _ ShrinivasKannan . pdf$[]\T1
+/cmr/m/n/10.95 , []$\T1/cmtt/m/n/10.95 https : / / sites . google . com / site 
+/ kuja27 /
+ []
+
+[3] (./CV.aux) ) 
 Here is how much of TeX's memory you used:
- 5964 strings out of 495061
- 83645 string characters out of 1182621
- 162663 words of memory out of 3000000
- 9026 multiletter control sequences out of 15000+50000
+ 5966 strings out of 495061
+ 83667 string characters out of 1182621
+ 163663 words of memory out of 3000000
+ 9027 multiletter control sequences out of 15000+50000
  13991 words of font info for 44 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,7n,36p,344b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
- </root/.texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600
-pk> </root/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600pk> </root/.texmf
--var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </root/.texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrm1728.600pk></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
-mi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on CV.pdf (3 pages, 130654 bytes).
+ 38i,7n,36p,353b,369s stack positions out of 5000i,500n,10000p,200000b,50000s
+ </home/kashrinivaasan/.texmf-var/fonts/pk/ljfour/jknappen/ec/e
+ctt1095.600pk> </home/kashrinivaasan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1095.600pk> </home/kashrinivaasan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1
+440.600pk> </home/kashrinivaasan/.texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm172
+8.600pk></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb>
+Output written on CV.pdf (3 pages, 137922 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 89 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 321 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 

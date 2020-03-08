@@ -1,11 +1,11 @@
 %!PS-Adobe-3.0
-%%BoundingBox: 18 36 577 806
+%%BoundingBox: 18 36 594 756
 %%Title: Enscript Output
 %%Creator: GNU Enscript 1.6.5.90
-%%CreationDate: Wed Aug 21 16:01:34 2019
+%%CreationDate: Tue Feb 18 12:06:26 2020
 %%Orientation: Portrait
 %%Pages: (atend)
-%%DocumentMedia: A4 595 842 0 () ()
+%%DocumentMedia: Letter 612 792 0 () ()
 %%DocumentNeededResources: (atend)
 %%EndComments
 %%BeginProlog
@@ -405,7 +405,7 @@
 % Pagedevice definitions:
 gs_languagelevel 1 gt {
   <<
-    /PageSize [595 842] 
+    /PageSize [612 792] 
   >> setpagedevice
 } if
 %%BeginResource: procset Enscript-Header-simple 1.6.5 90
@@ -432,18 +432,18 @@ gs_languagelevel 1 gt {
   grestore
 } def
 %%EndResource
-/d_page_w 559 def
-/d_page_h 770 def
+/d_page_w 576 def
+/d_page_h 720 def
 /d_header_x 0 def
-/d_header_y 755 def
-/d_header_w 559 def
+/d_header_y 705 def
+/d_header_w 576 def
 /d_header_h 15 def
 /d_footer_x 0 def
 /d_footer_y 0 def
-/d_footer_w 559 def
+/d_footer_w 576 def
 /d_footer_h 0 def
-/d_output_w 559 def
-/d_output_h 755 def
+/d_output_w 576 def
+/d_output_h 705 def
 /cols 1 def
 %%EndSetup
 %%Page: (1) 1
@@ -455,132 +455,124 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (1) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(*******************************************************************************************) s
-5 731 M
-(***********) s
-5 720 M
+5 692 M
+(**********************************************************************************************) s
+5 681 M
+(********) s
+5 670 M
 (#* NEURONRAIN USB-md - Wireless Network and USB Stream Data Analytics) s
-5 709 M
+5 659 M
 (#* This program is free software: you can redistribute it and/or modify) s
-5 698 M
+5 648 M
 (#* it under the terms of the GNU General Public License as published by) s
-5 687 M
+5 637 M
 (#* the Free Software Foundation, either version 3 of the License, or) s
-5 676 M
+5 626 M
 (#* \(at your option\) any later version.) s
-5 665 M
+5 615 M
 (#*) s
-5 654 M
+5 604 M
 (#* This program is distributed in the hope that it will be useful,) s
-5 643 M
+5 593 M
 (#* but WITHOUT ANY WARRANTY; without even the implied warranty of) s
-5 632 M
+5 582 M
 (#* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the) s
-5 621 M
+5 571 M
 (#* GNU General Public License for more details.) s
-5 610 M
+5 560 M
 (#*) s
-5 599 M
+5 549 M
 (#* You should have received a copy of the GNU General Public License) s
-5 588 M
+5 538 M
 (#* along with this program.  If not, see <http://www.gnu.org/licenses/>.) s
-5 577 M
+5 527 M
 (#*) s
-5 566 M
-(#------------------------------------------------------------------------------------------) s
-5 555 M
-(--------------) s
-5 544 M
-(#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/) s
-5 533 M
-(latest/) s
-5 522 M
+5 516 M
+(#---------------------------------------------------------------------------------------------) s
+5 505 M
+(-----------) s
+5 494 M
+(#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/lat) s
+5 483 M
+(est/) s
+5 472 M
 (#Personal website\(research\): https://sites.google.com/site/kuja27/) s
-5 511 M
-(#------------------------------------------------------------------------------------------) s
-5 500 M
-(--------------) s
-5 489 M
-(#******************************************************************************************) s
-5 478 M
-(**************/) s
-5 456 M
+5 461 M
+(#---------------------------------------------------------------------------------------------) s
+5 450 M
+(-----------) s
+5 439 M
+(#*********************************************************************************************) s
+5 428 M
+(***********/) s
+5 406 M
 (USBmd driver is an experimental modified version of already existing USB driver in linux.) s
-5 434 M
-(Purpose of this modified version is for doing more sophisticated debugging of USB endpoints) s
-5 423 M
-( and devices and as) s
-5 412 M
-(USB packet sniffer. Technical Necessity for this was created due to prolonged data theft, i) s
-5 401 M
-(d spoofing and cybercrime that has been happening ) s
-5 390 M
-(in author's personal electronic devices for years that resulted in a Cybercrime Police Comp) s
-5 379 M
-(laint also few years ago.  ) s
-5 357 M
-(There were also such incidents while developing open source code \(some code commits have de) s
-5 346 M
-(scription of these mysterious occurrences\). There is no comprehensive USB debugger availabl) s
-5 335 M
-(e on linux to sift bad traffic though there are strong evidences of such cybercrime and dat) s
-5 324 M
-(atheft through other sources. Author is inclined to believe that such recurring events of d) s
-5 313 M
-(atatheft that defies all logic can have no other intent but to cause malafide theft or loss) s
-5 302 M
-( of private data and an act of defamation among other things. ) s
-5 280 M
-(This is also done as a technical learning exercise to analyze USB Hosts, packets and USB's ) s
-5 269 M
-(interaction,if any, with wireless devices including) s
-5 258 M
+5 384 M
+(Purpose of this modified version is for doing more sophisticated debugging of USB endpoints an) s
+5 373 M
+(d devices and as) s
+5 362 M
+(USB packet sniffer. Technical Necessity for this was created due to prolonged data theft, id s) s
+5 351 M
+(poofing and cybercrime that has been happening ) s
+5 340 M
+(in author's personal electronic devices for years that resulted in a Cybercrime Police Complai) s
+5 329 M
+(nt also few years ago.  ) s
+5 307 M
+(There were also such incidents while developing open source code \(some code commits have descr) s
+5 296 M
+(iption of these mysterious occurrences\). There is no comprehensive USB debugger available on l) s
+5 285 M
+(inux to sift bad traffic though there are strong evidences of such cybercrime and datatheft th) s
+5 274 M
+(rough other sources. Author is inclined to believe that such recurring events of datatheft tha) s
+5 263 M
+(t defies all logic can have no other intent but to cause malafide theft or loss of private dat) s
+5 252 M
+(a and an act of defamation among other things. ) s
+5 230 M
+(This is also done as a technical learning exercise to analyze USB Hosts, packets and USB's int) s
+5 219 M
+(eraction,if any, with wireless devices including) s
+5 208 M
 (mobiles, wireless LANs\(radiotap\) etc., ) s
-5 236 M
-(In the longterm USBmd might have to be integrated into VIRGO. As VIRGO would would have the) s
-5 225 M
-( synergy of AstroInfer machine learning) s
-5 214 M
-(codebase for "learning" from datasets, this USBmd driver can have the added ability of anal) s
-5 203 M
-(yzing large USB traffic \(as a dataset\)) s
-5 192 M
-(using some decision making algorithms and evolve as an anti-cybercrime, anti-plagiarism and) s
-5 181 M
-( anti-theft tool to single out) s
-5 170 M
-("malevolent" traffic that would save individuals and organisations from the travails of tam) s
-5 159 M
-(pering and loss of sensitive confidential data.) s
-5 137 M
-(The pattern mining of numeric dataset designed for AstroInfer can apply here also since USB) s
-5 126 M
-( bitstream can be analyzed using algorithms for) s
-5 115 M
-(numerical dataset mining. Also Discrete Fourier Transform used for analyzing data for frequ) s
-5 104 M
-(encies \(periodicities if any\) can be used for ) s
-5 93 M
+5 186 M
+(In the longterm USBmd might have to be integrated into VIRGO. As VIRGO would would have the sy) s
+5 175 M
+(nergy of AstroInfer machine learning) s
+5 164 M
+(codebase for "learning" from datasets, this USBmd driver can have the added ability of analyzi) s
+5 153 M
+(ng large USB traffic \(as a dataset\)) s
+5 142 M
+(using some decision making algorithms and evolve as an anti-cybercrime, anti-plagiarism and an) s
+5 131 M
+(ti-theft tool to single out) s
+5 120 M
+("malevolent" traffic that would save individuals and organisations from the travails of tamper) s
+5 109 M
+(ing and loss of sensitive confidential data.) s
+5 87 M
+(The pattern mining of numeric dataset designed for AstroInfer can apply here also since USB bi) s
+5 76 M
+(tstream can be analyzed using algorithms for) s
+5 65 M
+(numerical dataset mining. Also Discrete Fourier Transform used for analyzing data for frequenc) s
+5 54 M
+(ies \(periodicities if any\) can be used for ) s
+5 43 M
 (USB data , for example USB wireless traffic.) s
-5 71 M
+5 21 M
 (======================================================) s
-5 60 M
+5 10 M
 (new UMB driver bind - 27 Feb 2014 \(for Bus id 7\)) s
-5 49 M
-(======================================================) s
-5 38 M
-(Following example commandlines install umb.ko module, unbind the existing option driver fro) s
-5 27 M
-(m bus-device id and bind the umb.ko to that bus id:) s
-5 5 M
-(sudo insmod umb.ko) s
 _R
 S
 %%Page: (2) 2
@@ -592,130 +584,118 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (2) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(======================================================) s
+5 681 M
+(Following example commandlines install umb.ko module, unbind the existing option driver from b) s
+5 670 M
+(us-device id and bind the umb.ko to that bus id:) s
+5 648 M
+(sudo insmod umb.ko) s
+5 637 M
 (echo -n "7-1:1.0" > /sys/bus/usb/drivers/option/unbind ) s
-5 731 M
+5 626 M
 (echo -n "7-1:1.0" > /sys/bus/usb/drivers/umb/bind ) s
-5 709 M
+5 604 M
 (======================================================) s
-5 698 M
+5 593 M
 (Commits as on 29 July 2014) s
-5 687 M
+5 582 M
 (======================================================) s
-5 676 M
-(Driver has been ported and built on 3.15.5 kernel. Also a driver build script has been comm) s
-5 665 M
-(itted.) s
-5 643 M
+5 571 M
+(Driver has been ported and built on 3.15.5 kernel. Also a driver build script has been committ) s
+5 560 M
+(ed.) s
+5 538 M
 (------------------------------------------------------) s
-5 632 M
+5 527 M
 (USBmd version 14.9.9 has been release tagged on 9 September 2014) s
-5 621 M
+5 516 M
 (------------------------------------------------------) s
-5 610 M
+5 505 M
 (------------------------------------------------------) s
-5 599 M
+5 494 M
 (USBmd version 15.1.8 has been release tagged on 8 January 2015 ) s
-5 588 M
+5 483 M
 (------------------------------------------------------) s
-5 566 M
-(http://sourceforge.net/p/usb-md/code-0/HEAD/tree/Adding%20new%20vendor%20and%20product%20ID) s
-5 555 M
-(s%20to%20an%20existing%20USB%20driver%20on%20Linux.html has steps to add new vendor-id.) s
-5 533 M
+5 461 M
+(http://sourceforge.net/p/usb-md/code-0/HEAD/tree/Adding%20new%20vendor%20and%20product%20IDs%2) s
+5 450 M
+(0to%20an%20existing%20USB%20driver%20on%20Linux.html has steps to add new vendor-id.) s
+5 428 M
 (-------------------------------------------------------------------------------) s
-5 522 M
+5 417 M
 (USB debug messages from "cat /sys/kernel/debug/usb/devices" for UMB bound above:) s
-5 511 M
+5 406 M
 (-------------------------------------------------------------------------------) s
-5 489 M
+5 384 M
 (T:  Bus=07 Lev=01 Prnt=01 Port=00 Cnt=01 Dev#= 12 Spd=12   MxCh= 0) s
-5 478 M
+5 373 M
 (D:  Ver= 1.10 Cls=00\(>ifc \) Sub=00 Prot=00 MxPS=64 #Cfgs=  1) s
-5 467 M
+5 362 M
 (P:  Vendor=12d1 ProdID=140b Rev= 0.00) s
-5 456 M
+5 351 M
 (S:  Manufacturer=HUA\303\277WEI TECHNOLOGIES) s
-5 445 M
+5 340 M
 (S:  Product=HUAWEI Mobile) s
-5 434 M
+5 329 M
 (S:  SerialNumber=\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277\303\277) s
-5 423 M
+5 318 M
 (C:* #Ifs= 4 Cfg#= 1 Atr=a0 MxPwr=500mA) s
-5 412 M
+5 307 M
 (I:* If#= 0 Alt= 0 #EPs= 3 Cls=ff\(vend.\) Sub=ff Prot=ff Driver=umb) s
-5 401 M
+5 296 M
 (E:  Ad=81\(I\) Atr=03\(Int.\) MxPS=  16 Ivl=128ms) s
-5 390 M
+5 285 M
 (E:  Ad=82\(I\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 379 M
+5 274 M
 (E:  Ad=02\(O\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 368 M
+5 263 M
 (I:* If#= 1 Alt= 0 #EPs= 2 Cls=ff\(vend.\) Sub=ff Prot=ff Driver=option) s
-5 357 M
+5 252 M
 (E:  Ad=84\(I\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 346 M
+5 241 M
 (E:  Ad=04\(O\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 335 M
+5 230 M
 (I:* If#= 2 Alt= 0 #EPs= 2 Cls=ff\(vend.\) Sub=ff Prot=ff Driver=option) s
-5 324 M
+5 219 M
 (E:  Ad=86\(I\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 313 M
+5 208 M
 (E:  Ad=06\(O\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 302 M
+5 197 M
 (I:* If#= 3 Alt= 0 #EPs= 2 Cls=08\(stor.\) Sub=06 Prot=50 Driver=usb-storage) s
-5 291 M
+5 186 M
 (E:  Ad=87\(I\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 280 M
+5 175 M
 (E:  Ad=08\(O\) Atr=02\(Bulk\) MxPS=  64 Ivl=0ms) s
-5 258 M
+5 153 M
 (---------------------------------------------------------------------) s
-5 247 M
+5 142 M
 (usbmon, libpcap tcpdump and wireshark \(or vusb-analyzer\) debugging) s
-5 236 M
+5 131 M
 (---------------------------------------------------------------------) s
-5 225 M
+5 120 M
 (*mount \302\255-t debugfs none_debugs /sys/kernel/debug) s
-5 214 M
+5 109 M
 (*modprobe usbmon) s
-5 203 M
+5 98 M
 (*ls /sys/kernel/debug/usb/usbmon/) s
-5 181 M
-(0s  0u  1s  1t  1u  2s  2t  2u  3s  3t  3u  4s  4t  4u  5s  5t  5u  6s  6t  6u  7s  7t  7u ) s
-5 170 M
-( 8s     8t  8u) s
-5 148 M
+5 76 M
+(0s  0u  1s  1t  1u  2s  2t  2u  3s  3t  3u  4s  4t  4u  5s  5t  5u  6s  6t  6u  7s  7t  7u  8s) s
+5 65 M
+(8t  8u) s
+5 43 M
 (*cat /sys/kernel/debug/usb/usbmon/8t > usbmon.mon \(any of the above usbmon debug logs\)) s
-5 137 M
+5 32 M
 (*vusb-analyzer usbmon.mon) s
-5 115 M
+5 10 M
 (ef728540 3811287714 S Ci:001:00 s a3 00 0000 0001 0004 4 <) s
-5 104 M
-(ef728540 3811287743 C Ci:001:00 0 4 = 00010000) s
-5 93 M
-(ef728540 3811287752 S Ci:001:00 s a3 00 0000 0002 0004 4 <) s
-5 82 M
-(ef728540 3811287763 C Ci:001:00 0 4 = 00010000) s
-5 71 M
-(f50f6540 3811287770 S Ii:001:01 -115 2 <) s
-5 60 M
-(f50f6540 3811287853 C Ii:001:01 -2 0) s
-5 49 M
-(f5390540 3814543695 S Ci:001:00 s a3 00 0000 0001 0004 4 <) s
-5 38 M
-(f5390540 3814543715 C Ci:001:00 0 4 = 00010000) s
-5 27 M
-(f5390540 3814543756 S Ci:001:00 s a3 00 0000 0002 0004 4 <) s
-5 16 M
-(f5390540 3814543767 C Ci:001:00 0 4 = 00010000) s
-5 5 M
-(f50f6540 3814543805 S Ii:001:01 -115 2 <) s
 _R
 S
 %%Page: (3) 3
@@ -727,130 +707,122 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (3) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 731 M
+5 692 M
+(ef728540 3811287743 C Ci:001:00 0 4 = 00010000) s
+5 681 M
+(ef728540 3811287752 S Ci:001:00 s a3 00 0000 0002 0004 4 <) s
+5 670 M
+(ef728540 3811287763 C Ci:001:00 0 4 = 00010000) s
+5 659 M
+(f50f6540 3811287770 S Ii:001:01 -115 2 <) s
+5 648 M
+(f50f6540 3811287853 C Ii:001:01 -2 0) s
+5 637 M
+(f5390540 3814543695 S Ci:001:00 s a3 00 0000 0001 0004 4 <) s
+5 626 M
+(f5390540 3814543715 C Ci:001:00 0 4 = 00010000) s
+5 615 M
+(f5390540 3814543756 S Ci:001:00 s a3 00 0000 0002 0004 4 <) s
+5 604 M
+(f5390540 3814543767 C Ci:001:00 0 4 = 00010000) s
+5 593 M
+(f50f6540 3814543805 S Ii:001:01 -115 2 <) s
+5 571 M
 (*modprobe usbmon) s
-5 720 M
+5 560 M
 (*ls /dev/usbmon[1-8]) s
-5 709 M
+5 549 M
 (*tcpdump -i usbmon1 -w usbmon.pcap) s
-5 698 M
-(tcpdump: listening on usbmon1, link-type USB_LINUX_MMAPPED \(USB with padded Linux header\), ) s
-5 687 M
-(capture size 65535 bytes) s
-5 676 M
+5 538 M
+(tcpdump: listening on usbmon1, link-type USB_LINUX_MMAPPED \(USB with padded Linux header\), cap) s
+5 527 M
+(ture size 65535 bytes) s
+5 516 M
 (^C86 packets captured) s
-5 665 M
+5 505 M
 (86 packets received by filter) s
-5 643 M
+5 483 M
 (*wireshark usbmon.pcap \(loads on wireshark\)) s
-5 621 M
+5 461 M
 (----------------------------------------------------------) s
-5 610 M
+5 450 M
 (Dynamic Debug - dev_dbg\(\) and dev_vdbg\(\)) s
-5 599 M
+5 439 M
 (----------------------------------------------------------) s
-5 577 M
+5 417 M
 (USB Debugging References:) s
-5 566 M
+5 406 M
 (-------------------------) s
-5 555 M
-(- Texas Instruments - http://elinux.org/images/1/17/USB_Debugging_and_Profiling_Techniques.) s
-5 544 M
-(pdf) s
-5 522 M
+5 395 M
+(- Texas Instruments - http://elinux.org/images/1/17/USB_Debugging_and_Profiling_Techniques.pdf) s
+5 373 M
 (---------------------------------------------------------) s
-5 511 M
+5 362 M
 (NeuronRain version 15.6.15 release tagged) s
-5 500 M
+5 351 M
 (---------------------------------------------------------) s
-5 478 M
+5 329 M
 (---------------------------------------------------------) s
-5 467 M
+5 318 M
 (Commits as on 11 July 2015) s
-5 456 M
+5 307 M
 (---------------------------------------------------------) s
-5 445 M
+5 296 M
 (usbmd kernel module has been ported to Linux Kernel 4.0.5) s
-5 423 M
+5 274 M
 (---------------------------------------------------------) s
-5 412 M
+5 263 M
 (Commits as on 26 November 2015) s
-5 401 M
+5 252 M
 (---------------------------------------------------------) s
-5 390 M
-(- Updated USB-md driver with a lookup of VIRGO kernel_analytics config variable exported by) s
-5 379 M
-( kernel_analytics module in umb_read\(\) as default.) s
-5 368 M
-(- New header file umb.h has been added that externs the VIRGO kernel_analytics config array) s
-5 357 M
-( variables) s
-5 346 M
-(- Module.symvers has been imported from VIRGO kernel_analytics and clean target has been co) s
-5 335 M
-(mmented in build script after initial build as make clean removes Module.symvers.) s
-5 324 M
+5 241 M
+(- Updated USB-md driver with a lookup of VIRGO kernel_analytics config variable exported by ke) s
+5 230 M
+(rnel_analytics module in umb_read\(\) as default.) s
+5 219 M
+(- New header file umb.h has been added that externs the VIRGO kernel_analytics config array va) s
+5 208 M
+(riables) s
+5 197 M
+(- Module.symvers has been imported from VIRGO kernel_analytics and clean target has been comme) s
+5 186 M
+(nted in build script after initial build as make clean removes Module.symvers.) s
+5 175 M
 (- kern.log with umb_read\(\) and umb_write\(\) have been added with following commandlines:) s
-5 313 M
+5 164 M
 (      - cat /dev/umb0 - invokes umb_read\(\) but there are kernel panics sometimes) s
-5 302 M
+5 153 M
 (      - cat <file> > /dev/umb0 - invokes umb_write\(\)) s
-5 291 M
+5 142 M
 (  where umb0 is usb-md device name registered with /sys/bus/usb as below:) s
-5 280 M
+5 131 M
 (      - insmod umb.ko) s
-5 269 M
+5 120 M
 (      - echo -n "7-1:1.0" > /sys/bus/usb/drivers/option/unbind) s
-5 258 M
+5 109 M
 (      - echo -n "7-1:1.0" > /sys/bus/usb/drivers/umb/bind) s
-5 247 M
+5 98 M
 (- Updated build generated sources and object files have been added) s
-5 225 M
+5 76 M
 (----------------------------------------------------------) s
-5 214 M
+5 65 M
 (Commits as on 27 November 2015) s
-5 203 M
+5 54 M
 (----------------------------------------------------------) s
-5 192 M
-(New folder usb_wwan_modified has been added that contains the USB serial, option and wirele) s
-5 181 M
-(ss USB modem WWAN drivers from kernel mainline) s
-5 170 M
-(instrumented with lot of printk\(\)s so that log messages are written to kern.log. Though dev) s
-5 159 M
-(_dbg dynamic debugging can be used by writing to /sys/kernel/debug/<...>/dynamic_debug) s
-5 148 M
-(printk\(\)s are sufficient for now. This traces through the USB connect and data transfer cod) s
-5 137 M
-(e:) s
-5 126 M
-(        - probe) s
-5 115 M
-(        - buffer is copied from userspace to kernelspace) s
-5 104 M
-(        - URB is allocated in kernel) s
-5 93 M
-(        - buffer is memcopied to URB) s
-5 82 M
-(        - usb send/receive bulk pipe calls) s
-5 71 M
-(        - usb_fill_bulk_urb) s
-5 60 M
-(Almost all buffers like in and out buffers in URBs, portdata, interfacedata, serial_data, s) s
-5 49 M
-(erial_port_data are printed to kern.log. This log is) s
-5 38 M
-(analyzable by AsFer machine learning code for USB debugging similar to usbmon logs.) s
-5 16 M
-(These are initial commits only and usb-serial.c, usb_wwan.c, option.c and serial.h might be) s
-5 5 M
-( significantly altered going forward.) s
+5 43 M
+(New folder usb_wwan_modified has been added that contains the USB serial, option and wireless ) s
+5 32 M
+(USB modem WWAN drivers from kernel mainline) s
+5 21 M
+(instrumented with lot of printk\(\)s so that log messages are written to kern.log. Though dev_db) s
+5 10 M
+(g dynamic debugging can be used by writing to /sys/kernel/debug/<...>/dynamic_debug) s
 _R
 S
 %%Page: (4) 4
@@ -862,134 +834,126 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (4) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 731 M
+5 692 M
+(printk\(\)s are sufficient for now. This traces through the USB connect and data transfer code:) s
+5 681 M
+(        - probe) s
+5 670 M
+(        - buffer is copied from userspace to kernelspace) s
+5 659 M
+(        - URB is allocated in kernel) s
+5 648 M
+(        - buffer is memcopied to URB) s
+5 637 M
+(        - usb send/receive bulk pipe calls) s
+5 626 M
+(        - usb_fill_bulk_urb) s
+5 615 M
+(Almost all buffers like in and out buffers in URBs, portdata, interfacedata, serial_data, seri) s
+5 604 M
+(al_port_data are printed to kern.log. This log is) s
+5 593 M
+(analyzable by AsFer machine learning code for USB debugging similar to usbmon logs.) s
+5 571 M
+(These are initial commits only and usb-serial.c, usb_wwan.c, option.c and serial.h might be si) s
+5 560 M
+(gnificantly altered going forward.) s
+5 538 M
 (----------------------------------------------------------) s
-5 720 M
+5 527 M
 (Commits as on 30 November 2015) s
-5 709 M
+5 516 M
 (----------------------------------------------------------) s
-5 698 M
-(Added usb.h from kernel mainline, instrumented with printk\(\) to print transfer_buffer in us) s
-5 687 M
-(b_fill_[control/bulk/interrupt]_urb\(\) functions. kern.log for this has been added in usb_ww) s
-5 676 M
-(an_modified/testlogs.) s
-5 654 M
+5 505 M
+(Added usb.h from kernel mainline, instrumented with printk\(\) to print transfer_buffer in usb_f) s
+5 494 M
+(ill_[control/bulk/interrupt]_urb\(\) functions. kern.log for this has been added in usb_wwan_mod) s
+5 483 M
+(ified/testlogs.) s
+5 461 M
 (----------------------------------------------------------) s
-5 643 M
+5 450 M
 (Commits as on 1 December 2015) s
-5 632 M
+5 439 M
 (----------------------------------------------------------) s
-5 621 M
-(- new kernel function print_buffer\(\) has been added in usb.h that prints contents of char b) s
-5 610 M
-(uffer in hex ) s
-5 599 M
-(- Above print_buffer\(\) is invoked to print transfer_buffer in usb_wwan.c, usb-serial.c, opt) s
-5 588 M
-(ion.c ) s
-5 577 M
-(- kern.log with print_buffer\(\) output has been added - This dumps similar to wireshark, usb) s
-5 566 M
-(mon and other usb analyzers.) s
-5 544 M
+5 428 M
+(- new kernel function print_buffer\(\) has been added in usb.h that prints contents of char buff) s
+5 417 M
+(er in hex ) s
+5 406 M
+(- Above print_buffer\(\) is invoked to print transfer_buffer in usb_wwan.c, usb-serial.c, option) s
+5 395 M
+(.c ) s
+5 384 M
+(- kern.log with print_buffer\(\) output has been added - This dumps similar to wireshark, usbmon) s
+5 373 M
+( and other usb analyzers.) s
+5 351 M
 (----------------------------------------------------------) s
-5 533 M
+5 340 M
 (Commits as on 2 December 2015) s
-5 522 M
+5 329 M
 (----------------------------------------------------------) s
-5 511 M
-(- changed print_buffer\(\) printk\(\) to print a delimiter in each byte for AsFer Machine Learn) s
-5 500 M
-(ing code processing) s
-5 489 M
+5 318 M
+(- changed print_buffer\(\) printk\(\) to print a delimiter in each byte for AsFer Machine Learning) s
+5 307 M
+( code processing) s
+5 296 M
 (- add a parser script for kern.log to print print_buffer\(\) lines) s
-5 478 M
+5 285 M
 (- parsed kern.log with print_buffer\(\) lines has been added) s
-5 467 M
-(- Added an Apache Spark MapReduce python script to compute byte frequency in parsed print_b) s
-5 456 M
-(uffer\(\) kern.log) s
-5 434 M
+5 274 M
+(- Added an Apache Spark MapReduce python script to compute byte frequency in parsed print_buff) s
+5 263 M
+(er\(\) kern.log) s
+5 241 M
 (------------------------------------------------------------------) s
-5 423 M
+5 230 M
 (\(ONGOING\) NeuronRain USBmd Debug and Malafide Traffic Analytics) s
-5 412 M
+5 219 M
 (------------------------------------------------------------------) s
-5 401 M
-(As mentioned in commit notes above, USB incoming and outgoing data transfer_buffer are dump) s
-5 390 M
-(ed byte-by-byte. Given this data various) s
-5 379 M
+5 208 M
+(As mentioned in commit notes above, USB incoming and outgoing data transfer_buffer are dumped ) s
+5 197 M
+(byte-by-byte. Given this data various) s
+5 186 M
 (analytics can be performed most of which are already implemented in AsFer codebase:) s
-5 368 M
+5 175 M
 (- frequency of bytes) s
-5 357 M
+5 164 M
 (- most frequent sequence of bytes) s
-5 346 M
+5 153 M
 (- bayesian and decision tree inference) s
-5 335 M
+5 142 M
 (- deep learning) s
-5 324 M
+5 131 M
 (- perceptrons) s
-5 313 M
+5 120 M
 (- streaming algorithms for USB data stream) s
-5 302 M
+5 109 M
 (and so on.) s
-5 280 M
+5 87 M
 (------------------------------------------------------------------) s
-5 269 M
+5 76 M
 (Commits as on 3 December 2015) s
-5 258 M
+5 65 M
 (------------------------------------------------------------------) s
-5 247 M
-(- Apache Spark script for analyzing the USBWWAN byte stream logs has been updated with byte) s
-5 236 M
-( counts map-reduce functions from print_buffer\(\) logs) s
-5 225 M
+5 54 M
+(- Apache Spark script for analyzing the USBWWAN byte stream logs has been updated with byte co) s
+5 43 M
+(unts map-reduce functions from print_buffer\(\) logs) s
+5 32 M
 (and temp DataFrame Table creation with SparkSQL.) s
-5 214 M
-(- logs for the script have been added in usb_wwan_modified/python-src/testlogs/Spark_USBWWA) s
-5 203 M
-(NLogMapReduceParser.out.3December2015) s
-5 192 M
-(- kern.log parser shellscript has been updated) s
-5 170 M
-(-------------------------------------------------------------------) s
-5 159 M
-(AsFer commits for USBmd as on 4 December 2015) s
-5 148 M
-(-------------------------------------------------------------------) s
-5 137 M
-(All the Streaming_<>.py Streaming Algorithm implementations in AsFer/python-src/ have been ) s
-5 126 M
-(updated with:) s
-5 115 M
-(- hashlib ripemd160 hash MD algorithm for hash functions and return hexdigest\(\)) s
-5 104 M
-(- USBWWAN byte stream data from USBmd print_buffer\(\) logs in usb-md/usb_wwan_modified/testl) s
-5 93 M
-(ogs/ has been added as a Data Storage and Data Source) s
-5 82 M
-(- logs for the above have been added to asfer/python-src/testlogs/) s
-5 71 M
-(- Streaming Abstract Generator has been updated with USB stream data iterable and parametri) s
-5 60 M
-(zed for data source and storage) s
-5 49 M
-(- Some corrections to the asfer/python-src/Streaming_<> scripts) s
-5 27 M
-(-------------------------------------------------------------------) s
-5 16 M
-(Commits as on 7 December 2015) s
-5 5 M
-(-------------------------------------------------------------------) s
+5 21 M
+(- logs for the script have been added in usb_wwan_modified/python-src/testlogs/Spark_USBWWANLo) s
+5 10 M
+(gMapReduceParser.out.3December2015) s
 _R
 S
 %%Page: (5) 5
@@ -1001,140 +965,126 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (5) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(- kern.log parser shellscript has been updated) s
+5 670 M
+(-------------------------------------------------------------------) s
+5 659 M
+(AsFer commits for USBmd as on 4 December 2015) s
+5 648 M
+(-------------------------------------------------------------------) s
+5 637 M
+(All the Streaming_<>.py Streaming Algorithm implementations in AsFer/python-src/ have been upd) s
+5 626 M
+(ated with:) s
+5 615 M
+(- hashlib ripemd160 hash MD algorithm for hash functions and return hexdigest\(\)) s
+5 604 M
+(- USBWWAN byte stream data from USBmd print_buffer\(\) logs in usb-md/usb_wwan_modified/testlogs) s
+5 593 M
+(/ has been added as a Data Storage and Data Source) s
+5 582 M
+(- logs for the above have been added to asfer/python-src/testlogs/) s
+5 571 M
+(- Streaming Abstract Generator has been updated with USB stream data iterable and parametrized) s
+5 560 M
+( for data source and storage) s
+5 549 M
+(- Some corrections to the asfer/python-src/Streaming_<> scripts) s
+5 527 M
+(-------------------------------------------------------------------) s
+5 516 M
+(Commits as on 7 December 2015) s
+5 505 M
+(-------------------------------------------------------------------) s
+5 494 M
 (- added Spark Mapreduce and DataFrame log for USBWWAN byte stream) s
-5 731 M
+5 483 M
 (- added a parsed kern.log with only bytes from USBWWAN stream) s
-5 720 M
-(- Added dict\(\) and sort\(\) for query results and printed cardinality of the stream data set ) s
-5 709 M
-(which is the size of the dict.) s
-5 698 M
-(An example log has been added which prints the cardinality as ~250. In contrast, LogLog and) s
-5 687 M
-( HyperLogLog counter estimations) s
-5 676 M
+5 472 M
+(- Added dict\(\) and sort\(\) for query results and printed cardinality of the stream data set whi) s
+5 461 M
+(ch is the size of the dict.) s
+5 450 M
+(An example log has been added which prints the cardinality as ~250. In contrast, LogLog and Hy) s
+5 439 M
+(perLogLog counter estimations) s
+5 428 M
 (approximate the cardinality to 140 and 110 respectively) s
-5 654 M
+5 406 M
 (----------------------------------------------------------------------------------------) s
-5 643 M
+5 395 M
 (AsFer commits for USBmd as on 11 December 2015 - USBWWAN stream data backend in MongoDB) s
-5 632 M
+5 384 M
 (----------------------------------------------------------------------------------------) s
-5 621 M
-( Dependency Injection code commits for MongoDB backend - With this MongoDB is also a storag) s
-5 610 M
-(e backend for AsFer algorithms similar to MySQL:) s
-5 599 M
+5 373 M
+( Dependency Injection code commits for MongoDB backend - With this MongoDB is also a storage b) s
+5 362 M
+(ackend for AsFer algorithms similar to MySQL:) s
+5 351 M
 (- Abstract_DBBackend.py has been updated for both MySQL and MongoDB injections) s
-5 588 M
-(- MongoDB configuration and backend connect/query code has been added. Backend is either po) s
-5 577 M
-(pulated by Robomongo or pymongo reading from the) s
-5 566 M
+5 340 M
+(- MongoDB configuration and backend connect/query code has been added. Backend is either popul) s
+5 329 M
+(ated by Robomongo or pymongo reading from the) s
+5 318 M
 (Streaming Abstract Generator iterable framework.) s
-5 555 M
-(- With this AsFer supports both SQL\(MySQL\) and NoSQL\(file,hive,hbase,cassandra backends in ) s
-5 544 M
-(Streaming Abstract Generator\).) s
-5 533 M
-(- log with a simple NoSQL table with StreamingData.txt and USBWWAN data has been added to t) s
-5 522 M
-(estlogs/.) s
-5 511 M
+5 307 M
+(- With this AsFer supports both SQL\(MySQL\) and NoSQL\(file,hive,hbase,cassandra backends in Str) s
+5 296 M
+(eaming Abstract Generator\).) s
+5 285 M
+(- log with a simple NoSQL table with StreamingData.txt and USBWWAN data has been added to test) s
+5 274 M
+(logs/.) s
+5 263 M
 (- MongoDB configuration has a database\(asfer-database\) and a collection\(asfer-collection\).) s
-5 500 M
-(- MongoDB_DBBackend @provides pymongo.collection.Collection which is @inject-ed to Abstract) s
-5 489 M
-(_DBBackend) s
-5 467 M
+5 252 M
+(- MongoDB_DBBackend @provides pymongo.collection.Collection which is @inject-ed to Abstract_DB) s
+5 241 M
+(Backend) s
+5 219 M
 (----------------------------------------------------------------------------------------) s
-5 456 M
+5 208 M
 (Commits as on 10 January 2016) s
-5 445 M
+5 197 M
 (----------------------------------------------------------------------------------------) s
-5 434 M
+5 186 M
 (NeuronRain USBmd enterprise version 2016.1.10 released.) s
-5 412 M
+5 164 M
 (----------------------------------------------------------------------------------------) s
-5 401 M
+5 153 M
 (Commits - 4 August 2016) s
-5 390 M
+5 142 M
 (----------------------------------------------------------------------------------------) s
-5 379 M
+5 131 M
 (1.New build script for drivers/usb top level folder has been added.) s
-5 368 M
+5 120 M
 (2.Copyleft notices updated) s
-5 357 M
-(3.print_buffer\(\) in usb.h has been #ifdef-ed based on a build time flag to suppress the buf) s
-5 346 M
-(fer bytes dump preferentially so that) s
-5 335 M
+5 109 M
+(3.print_buffer\(\) in usb.h has been #ifdef-ed based on a build time flag to suppress the buffer) s
+5 98 M
+( bytes dump preferentially so that) s
+5 87 M
 (kern.log is not flooded.) s
-5 324 M
-(4.Flag PRINT_BUFFER has to be defined with #define somewhere within KBuild makefiles or ext) s
-5 313 M
-(ernally.) s
-5 302 M
+5 76 M
+(4.Flag PRINT_BUFFER has to be defined with #define somewhere within KBuild makefiles or extern) s
+5 65 M
+(ally.) s
+5 54 M
 (5..ko files rebuilt) s
-5 291 M
+5 43 M
 (6. Miscellaneous code changes to suppress kbuild warnings - cast etc.,) s
-5 280 M
+5 32 M
 (7. PRINT_BUFFER block changed to print the bytes in single line for each buffer) s
-5 258 M
-(-------------------------------------------------------------------------------------------) s
-5 247 M
-(----------------------) s
-5 236 M
-(Commits - 13 July 2017 - usb-storage driver last sector access slab out of bounds error in ) s
-5 225 M
-(64-bit - committed for analysis) s
-5 214 M
-(- this error was frequently witnessed in VIRGO 32-bit stability issues and panics - ISRA lo) s
-5 203 M
-(oks like a GCC ) s
-5 192 M
-(optimization of a function invocation \(Interprocedural Scalar Replacement of Aggregates\) ) s
-5 181 M
-(-------------------------------------------------------------------------------------------) s
-5 170 M
-(----------------------) s
-5 159 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.497280] ==========================================) s
-5 148 M
-(========================) s
-5 137 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499787] ==========================================) s
-5 126 M
-(========================) s
-5 115 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499822] BUG: KASAN: slab-out-of-bounds in last_sec) s
-5 104 M
-(tor_hacks.isra.1.part.2+0xc9/0x1d0 [usb_storage] at addr ffff88007cdaa758) s
-5 93 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499831] Read of size 8 by task usb-storage/6243) s
-5 82 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499844] CPU: 0 PID: 6243 Comm: usb-storage Tainted) s
-5 71 M
-(: G    B           4.10.3 #18) s
-5 60 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499849] Hardware name: Dell Inc. Inspiron 1545    ) s
-5 49 M
-(               /0J037P, BIOS A14 12/07/2009) s
-5 38 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499851] Call Trace:) s
-5 27 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499863]  dump_stack+0x63/0x8b) s
-5 16 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499870]  kasan_object_err+0x21/0x70) s
-5 5 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499877]  kasan_report.part.1+0x219/0x4f0) s
+5 10 M
+(----------------------------------------------------------------------------------------------) s
 _R
 S
 %%Page: (6) 6
@@ -1146,148 +1096,138 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (6) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499893]  ? last_sector_hacks.isra.1.part.2+0xc9/0x) s
-5 731 M
-(1d0 [usb_storage]) s
-5 720 M
+5 692 M
+(-------------------) s
+5 681 M
+(Commits - 13 July 2017 - usb-storage driver last sector access slab out of bounds error in 64-) s
+5 670 M
+(bit - committed for analysis) s
+5 659 M
+(- this error was frequently witnessed in VIRGO 32-bit stability issues and panics - ISRA looks) s
+5 648 M
+( like a GCC ) s
+5 637 M
+(optimization of a function invocation \(Interprocedural Scalar Replacement of Aggregates\) ) s
+5 626 M
+(----------------------------------------------------------------------------------------------) s
+5 615 M
+(-------------------) s
+5 604 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.497280] =============================================) s
+5 593 M
+(=====================) s
+5 582 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499787] =============================================) s
+5 571 M
+(=====================) s
+5 560 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499822] BUG: KASAN: slab-out-of-bounds in last_sector) s
+5 549 M
+(_hacks.isra.1.part.2+0xc9/0x1d0 [usb_storage] at addr ffff88007cdaa758) s
+5 538 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499831] Read of size 8 by task usb-storage/6243) s
+5 527 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499844] CPU: 0 PID: 6243 Comm: usb-storage Tainted: G) s
+5 516 M
+(    B           4.10.3 #18) s
+5 505 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499849] Hardware name: Dell Inc. Inspiron 1545       ) s
+5 494 M
+(            /0J037P, BIOS A14 12/07/2009) s
+5 483 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499851] Call Trace:) s
+5 472 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499863]  dump_stack+0x63/0x8b) s
+5 461 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499870]  kasan_object_err+0x21/0x70) s
+5 450 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499877]  kasan_report.part.1+0x219/0x4f0) s
+5 439 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499893]  ? last_sector_hacks.isra.1.part.2+0xc9/0x1d0) s
+5 428 M
+( [usb_storage]) s
+5 417 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.499899]  kasan_report+0x25/0x30) s
-5 709 M
+5 406 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.499906]  __asan_load8+0x5e/0x70) s
-5 698 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499922]  last_sector_hacks.isra.1.part.2+0xc9/0x1d) s
-5 687 M
-(0 [usb_storage]) s
-5 676 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499938]  usb_stor_invoke_transport+0x1a1/0x960 [us) s
-5 665 M
-(b_storage]) s
-5 654 M
+5 395 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499922]  last_sector_hacks.isra.1.part.2+0xc9/0x1d0 [) s
+5 384 M
+(usb_storage]) s
+5 373 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499938]  usb_stor_invoke_transport+0x1a1/0x960 [usb_s) s
+5 362 M
+(torage]) s
+5 351 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.499946]  ? migrate_swap_stop+0x2e0/0x2e0) s
-5 643 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499963]  ? usb_stor_port_reset+0xb0/0xb0 [usb_stor) s
-5 632 M
-(age]) s
-5 621 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499973]  ? wait_for_completion_interruptible+0x1a7) s
-5 610 M
-(/0x260) s
-5 599 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.499981]  ? wait_for_completion_killable+0x2a0/0x2a) s
-5 588 M
-(0) s
-5 577 M
+5 340 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499963]  ? usb_stor_port_reset+0xb0/0xb0 [usb_storage) s
+5 329 M
+(]) s
+5 318 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499973]  ? wait_for_completion_interruptible+0x1a7/0x) s
+5 307 M
+(260) s
+5 296 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.499981]  ? wait_for_completion_killable+0x2a0/0x2a0) s
+5 285 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.499989]  ? raise_softirq_irqoff+0xba/0xd0) s
-5 566 M
+5 274 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.499995]  ? wake_up_q+0x80/0x80) s
-5 555 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500011]  usb_stor_transparent_scsi_command+0xe/0x1) s
-5 544 M
-(0 [usb_storage]) s
-5 533 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  usb_stor_control_thread+0x344/0x510 [usb_) s
-5 522 M
-(storage]) s
-5 511 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? usb_stor_disconnect+0x120/0x120 [usb_st) s
-5 500 M
-(orage]) s
-5 489 M
+5 263 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500011]  usb_stor_transparent_scsi_command+0xe/0x10 [) s
+5 252 M
+(usb_storage]) s
+5 241 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  usb_stor_control_thread+0x344/0x510 [usb_sto) s
+5 230 M
+(rage]) s
+5 219 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? usb_stor_disconnect+0x120/0x120 [usb_stora) s
+5 208 M
+(ge]) s
+5 197 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? default_wake_function+0x2f/0x40) s
-5 478 M
+5 186 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? __wake_up_common+0x78/0xc0) s
-5 467 M
+5 175 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kthread+0x178/0x1d0) s
-5 456 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? usb_stor_disconnect+0x120/0x120 [usb_st) s
-5 445 M
-(orage]) s
-5 434 M
+5 164 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? usb_stor_disconnect+0x120/0x120 [usb_stora) s
+5 153 M
+(ge]) s
+5 142 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ? kthread_create_on_node+0xd0/0xd0) s
-5 423 M
+5 131 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ret_from_fork+0x2c/0x40) s
-5 412 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Object at ffff88007cdaa668, in cache kmall) s
-5 401 M
-(oc-192 size: 192) s
-5 390 M
+5 120 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Object at ffff88007cdaa668, in cache kmalloc-) s
+5 109 M
+(192 size: 192) s
+5 98 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017] Allocated:) s
-5 379 M
+5 87 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017] PID = 6277) s
-5 368 M
+5 76 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack_trace+0x1b/0x20) s
-5 357 M
+5 65 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack+0x46/0xd0) s
-5 346 M
+5 54 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kasan_kmalloc+0xad/0xe0) s
-5 335 M
+5 43 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kmem_cache_alloc_trace+0xef/0x210) s
-5 324 M
+5 32 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kernfs_fop_open+0x14b/0x540) s
-5 313 M
+5 21 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_dentry_open+0x39a/0x560) s
-5 302 M
+5 10 M
 (Jul 13 15:03:36 localhost kernel: [ 9837.500017]  vfs_open+0x84/0xd0) s
-5 291 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  path_openat+0x4ab/0x1e10) s
-5 280 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_filp_open+0x122/0x1c0) s
-5 269 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_sys_open+0x17c/0x2c0) s
-5 258 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  compat_SyS_open+0x1b/0x20) s
-5 247 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_fast_syscall_32+0x188/0x300) s
-5 236 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  entry_SYSENTER_compat+0x4c/0x5b) s
-5 225 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Freed:) s
-5 214 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] PID = 6277) s
-5 203 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack_trace+0x1b/0x20) s
-5 192 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack+0x46/0xd0) s
-5 181 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kasan_slab_free+0x71/0xb0) s
-5 170 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kfree+0x9e/0x1e0) s
-5 159 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kernfs_fop_release+0x87/0xa0) s
-5 148 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  __fput+0x177/0x350) s
-5 137 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ____fput+0xe/0x10) s
-5 126 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  task_work_run+0xa0/0xc0) s
-5 115 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  exit_to_usermode_loop+0xc5/0xd0) s
-5 104 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_fast_syscall_32+0x2ef/0x300) s
-5 93 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  entry_SYSENTER_compat+0x4c/0x5b) s
-5 82 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Memory state around the buggy address:) s
-5 71 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa600: fc fc fc fc fc fc fc fc) s
-5 60 M
-( fc fc fc fc fc fb fb fb) s
-5 49 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa680: fb fb fb fb fb fb fb fb) s
-5 38 M
-( fb fb fb fb fb fb fb fb) s
-5 27 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] >ffff88007cdaa700: fb fb fb fb fb fc fc fc) s
-5 16 M
-( fc fc fc fc fc fc fc fc) s
-5 5 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]                                           ) s
 _R
 S
 %%Page: (7) 7
@@ -1299,148 +1239,138 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (7) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(          ^) s
-5 731 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa780: fc fc fc fc fc fc fc fc) s
-5 720 M
-( fc fc fc fc fc fc fc fc) s
-5 709 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa800: fc fc fc fc fc fc fc fc) s
-5 698 M
-( fc fc fc fc fc fc fc fc) s
-5 687 M
-(Jul 13 15:03:36 localhost kernel: [ 9837.500017] ==========================================) s
-5 676 M
-(========================) s
-5 665 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668157] ==========================================) s
-5 654 M
-(========================) s
-5 643 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668191] BUG: KASAN: slab-out-of-bounds in last_sec) s
-5 632 M
-(tor_hacks.isra.1.part.2+0xc9/0x1d0 [usb_storage] at addr ffff88007cdaa758) s
-5 621 M
+5 692 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  path_openat+0x4ab/0x1e10) s
+5 681 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_filp_open+0x122/0x1c0) s
+5 670 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_sys_open+0x17c/0x2c0) s
+5 659 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  compat_SyS_open+0x1b/0x20) s
+5 648 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_fast_syscall_32+0x188/0x300) s
+5 637 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  entry_SYSENTER_compat+0x4c/0x5b) s
+5 626 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Freed:) s
+5 615 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] PID = 6277) s
+5 604 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack_trace+0x1b/0x20) s
+5 593 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  save_stack+0x46/0xd0) s
+5 582 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kasan_slab_free+0x71/0xb0) s
+5 571 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kfree+0x9e/0x1e0) s
+5 560 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  kernfs_fop_release+0x87/0xa0) s
+5 549 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  __fput+0x177/0x350) s
+5 538 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ____fput+0xe/0x10) s
+5 527 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  task_work_run+0xa0/0xc0) s
+5 516 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  exit_to_usermode_loop+0xc5/0xd0) s
+5 505 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  do_fast_syscall_32+0x2ef/0x300) s
+5 494 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  entry_SYSENTER_compat+0x4c/0x5b) s
+5 483 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] Memory state around the buggy address:) s
+5 472 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa600: fc fc fc fc fc fc fc fc fc) s
+5 461 M
+( fc fc fc fc fb fb fb) s
+5 450 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa680: fb fb fb fb fb fb fb fb fb) s
+5 439 M
+( fb fb fb fb fb fb fb) s
+5 428 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] >ffff88007cdaa700: fb fb fb fb fb fc fc fc fc) s
+5 417 M
+( fc fc fc fc fc fc fc) s
+5 406 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]                                              ) s
+5 395 M
+(       ^) s
+5 384 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa780: fc fc fc fc fc fc fc fc fc) s
+5 373 M
+( fc fc fc fc fc fc fc) s
+5 362 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017]  ffff88007cdaa800: fc fc fc fc fc fc fc fc fc) s
+5 351 M
+( fc fc fc fc fc fc fc) s
+5 340 M
+(Jul 13 15:03:36 localhost kernel: [ 9837.500017] =============================================) s
+5 329 M
+(=====================) s
+5 318 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668157] =============================================) s
+5 307 M
+(=====================) s
+5 296 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668191] BUG: KASAN: slab-out-of-bounds in last_sector) s
+5 285 M
+(_hacks.isra.1.part.2+0xc9/0x1d0 [usb_storage] at addr ffff88007cdaa758) s
+5 274 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668200] Read of size 8 by task usb-storage/6243) s
-5 610 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668213] CPU: 1 PID: 6243 Comm: usb-storage Tainted) s
-5 599 M
-(: G    B           4.10.3 #18) s
-5 588 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668218] Hardware name: Dell Inc. Inspiron 1545    ) s
-5 577 M
-(               /0J037P, BIOS A14 12/07/2009) s
-5 566 M
+5 263 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668213] CPU: 1 PID: 6243 Comm: usb-storage Tainted: G) s
+5 252 M
+(    B           4.10.3 #18) s
+5 241 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668218] Hardware name: Dell Inc. Inspiron 1545       ) s
+5 230 M
+(            /0J037P, BIOS A14 12/07/2009) s
+5 219 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668220] Call Trace:) s
-5 555 M
+5 208 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668233]  dump_stack+0x63/0x8b) s
-5 544 M
+5 197 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668240]  kasan_object_err+0x21/0x70) s
-5 533 M
+5 186 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668247]  kasan_report.part.1+0x219/0x4f0) s
-5 522 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668263]  ? last_sector_hacks.isra.1.part.2+0xc9/0x) s
-5 511 M
-(1d0 [usb_storage]) s
-5 500 M
+5 175 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668263]  ? last_sector_hacks.isra.1.part.2+0xc9/0x1d0) s
+5 164 M
+( [usb_storage]) s
+5 153 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668269]  kasan_report+0x25/0x30) s
-5 489 M
+5 142 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668277]  __asan_load8+0x5e/0x70) s
-5 478 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668292]  last_sector_hacks.isra.1.part.2+0xc9/0x1d) s
-5 467 M
-(0 [usb_storage]) s
-5 456 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668308]  usb_stor_invoke_transport+0x1a1/0x960 [us) s
-5 445 M
-(b_storage]) s
-5 434 M
+5 131 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668292]  last_sector_hacks.isra.1.part.2+0xc9/0x1d0 [) s
+5 120 M
+(usb_storage]) s
+5 109 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668308]  usb_stor_invoke_transport+0x1a1/0x960 [usb_s) s
+5 98 M
+(torage]) s
+5 87 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668316]  ? migrate_swap_stop+0x2e0/0x2e0) s
-5 423 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668332]  ? usb_stor_port_reset+0xb0/0xb0 [usb_stor) s
-5 412 M
-(age]) s
-5 401 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668343]  ? wait_for_completion_interruptible+0x1a7) s
-5 390 M
-(/0x260) s
-5 379 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668351]  ? wait_for_completion_killable+0x2a0/0x2a) s
-5 368 M
-(0) s
-5 357 M
+5 76 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668332]  ? usb_stor_port_reset+0xb0/0xb0 [usb_storage) s
+5 65 M
+(]) s
+5 54 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668343]  ? wait_for_completion_interruptible+0x1a7/0x) s
+5 43 M
+(260) s
+5 32 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668351]  ? wait_for_completion_killable+0x2a0/0x2a0) s
+5 21 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668360]  ? raise_softirq_irqoff+0xba/0xd0) s
-5 346 M
+5 10 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668366]  ? wake_up_q+0x80/0x80) s
-5 335 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668382]  usb_stor_transparent_scsi_command+0xe/0x1) s
-5 324 M
-(0 [usb_storage]) s
-5 313 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668398]  usb_stor_control_thread+0x344/0x510 [usb_) s
-5 302 M
-(storage]) s
-5 291 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668415]  ? usb_stor_disconnect+0x120/0x120 [usb_st) s
-5 280 M
-(orage]) s
-5 269 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668422]  ? default_wake_function+0x2f/0x40) s
-5 258 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668430]  ? __wake_up_common+0x78/0xc0) s
-5 247 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668436]  kthread+0x178/0x1d0) s
-5 236 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668454]  ? usb_stor_disconnect+0x120/0x120 [usb_st) s
-5 225 M
-(orage]) s
-5 214 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668460]  ? kthread_create_on_node+0xd0/0xd0) s
-5 203 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668466]  ret_from_fork+0x2c/0x40) s
-5 192 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668472] Object at ffff88007cdaa668, in cache kmall) s
-5 181 M
-(oc-192 size: 192) s
-5 170 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668478] Allocated:) s
-5 159 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668483] PID = 6277) s
-5 148 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668494]  save_stack_trace+0x1b/0x20) s
-5 137 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668500]  save_stack+0x46/0xd0) s
-5 126 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668506]  kasan_kmalloc+0xad/0xe0) s
-5 115 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668513]  kmem_cache_alloc_trace+0xef/0x210) s
-5 104 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668520]  kernfs_fop_open+0x14b/0x540) s
-5 93 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668527]  do_dentry_open+0x39a/0x560) s
-5 82 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668532]  vfs_open+0x84/0xd0) s
-5 71 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668538]  path_openat+0x4ab/0x1e10) s
-5 60 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668544]  do_filp_open+0x122/0x1c0) s
-5 49 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668549]  do_sys_open+0x17c/0x2c0) s
-5 38 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668554]  compat_SyS_open+0x1b/0x20) s
-5 27 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668561]  do_fast_syscall_32+0x188/0x300) s
-5 16 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668568]  entry_SYSENTER_compat+0x4c/0x5b) s
-5 5 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668570] Freed:) s
 _R
 S
 %%Page: (8) 8
@@ -1452,146 +1382,136 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (8) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668382]  usb_stor_transparent_scsi_command+0xe/0x10 [) s
+5 681 M
+(usb_storage]) s
+5 670 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668398]  usb_stor_control_thread+0x344/0x510 [usb_sto) s
+5 659 M
+(rage]) s
+5 648 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668415]  ? usb_stor_disconnect+0x120/0x120 [usb_stora) s
+5 637 M
+(ge]) s
+5 626 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668422]  ? default_wake_function+0x2f/0x40) s
+5 615 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668430]  ? __wake_up_common+0x78/0xc0) s
+5 604 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668436]  kthread+0x178/0x1d0) s
+5 593 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668454]  ? usb_stor_disconnect+0x120/0x120 [usb_stora) s
+5 582 M
+(ge]) s
+5 571 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668460]  ? kthread_create_on_node+0xd0/0xd0) s
+5 560 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668466]  ret_from_fork+0x2c/0x40) s
+5 549 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668472] Object at ffff88007cdaa668, in cache kmalloc-) s
+5 538 M
+(192 size: 192) s
+5 527 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668478] Allocated:) s
+5 516 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668483] PID = 6277) s
+5 505 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668494]  save_stack_trace+0x1b/0x20) s
+5 494 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668500]  save_stack+0x46/0xd0) s
+5 483 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668506]  kasan_kmalloc+0xad/0xe0) s
+5 472 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668513]  kmem_cache_alloc_trace+0xef/0x210) s
+5 461 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668520]  kernfs_fop_open+0x14b/0x540) s
+5 450 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668527]  do_dentry_open+0x39a/0x560) s
+5 439 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668532]  vfs_open+0x84/0xd0) s
+5 428 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668538]  path_openat+0x4ab/0x1e10) s
+5 417 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668544]  do_filp_open+0x122/0x1c0) s
+5 406 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668549]  do_sys_open+0x17c/0x2c0) s
+5 395 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668554]  compat_SyS_open+0x1b/0x20) s
+5 384 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668561]  do_fast_syscall_32+0x188/0x300) s
+5 373 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668568]  entry_SYSENTER_compat+0x4c/0x5b) s
+5 362 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668570] Freed:) s
+5 351 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668575] PID = 6277) s
-5 731 M
+5 340 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668583]  save_stack_trace+0x1b/0x20) s
-5 720 M
+5 329 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668589]  save_stack+0x46/0xd0) s
-5 709 M
+5 318 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668594]  kasan_slab_free+0x71/0xb0) s
-5 698 M
+5 307 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668599]  kfree+0x9e/0x1e0) s
-5 687 M
+5 296 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668605]  kernfs_fop_release+0x87/0xa0) s
-5 676 M
+5 285 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668611]  __fput+0x177/0x350) s
-5 665 M
+5 274 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668616]  ____fput+0xe/0x10) s
-5 654 M
+5 263 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668623]  task_work_run+0xa0/0xc0) s
-5 643 M
+5 252 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668629]  exit_to_usermode_loop+0xc5/0xd0) s
-5 632 M
+5 241 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668635]  do_fast_syscall_32+0x2ef/0x300) s
-5 621 M
+5 230 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668642]  entry_SYSENTER_compat+0x4c/0x5b) s
-5 610 M
+5 219 M
 (Jul 13 15:03:37 localhost kernel: [ 9837.668644] Memory state around the buggy address:) s
-5 599 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668655]  ffff88007cdaa600: fc fc fc fc fc fc fc fc) s
-5 588 M
-( fc fc fc fc fc fb fb fb) s
-5 577 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668664]  ffff88007cdaa680: fb fb fb fb fb fb fb fb) s
-5 566 M
-( fb fb fb fb fb fb fb fb) s
-5 555 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668674] >ffff88007cdaa700: fb fb fb fb fb fc fc fc) s
-5 544 M
-( fc fc fc fc fc fc fc fc) s
-5 533 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668680]                                           ) s
-5 522 M
-(          ^) s
-5 511 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668689]  ffff88007cdaa780: fc fc fc fc fc fc fc fc) s
-5 500 M
-( fc fc fc fc fc fc fc fc) s
-5 489 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668698]  ffff88007cdaa800: fc fc fc fc fc fc fc fc) s
-5 478 M
-( fc fc fc fc fc fc fc fc) s
-5 467 M
-(Jul 13 15:03:37 localhost kernel: [ 9837.668704] ==========================================) s
-5 456 M
-(========================) s
-5 445 M
-(Jul 13 15:03:37 localhost NetworkManager[745]: <info>  [1499938417.1889]   address 192.168.) s
-5 434 M
-(1.100) s
-5 412 M
-(-------------------------------------------------------------------------------------------) s
-5 401 M
-(----------------------------------------) s
-5 390 M
-(Commits - 13 August 2017 - Suspicious use-after-free error flagged by Kernel Address Saniti) s
-5 379 M
-(zer - committed for analysis) s
-5 368 M
-(This error precedes last_sector_hacks ISRA error above in USB storage driver.) s
-5 357 M
-(-------------------------------------------------------------------------------------------) s
-5 346 M
-(----------------------------------------) s
-5 335 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] BUG: KASAN: use-after-free in sr_probe+0x7) s
-5 324 M
-(e0/0xb20 at addr ffff88000009637e) s
-5 313 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] Read of size 1 by task kworker/u4:1/37) s
-5 302 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] page:ffffea0000002580 count:0 mapcount:0 m) s
-5 291 M
-(apping:          \(null\) index:0x0) s
-5 280 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] flags: 0x0\(\)) s
-5 269 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] raw: 0000000000000000 0000000000000000 000) s
-5 258 M
-(0000000000000 00000000ffffffff) s
-5 247 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] raw: ffffea00000025a0 ffffea00000025a0 000) s
-5 236 M
-(0000000000000 0000000000000000) s
-5 225 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] page dumped because: kasan: bad access det) s
-5 214 M
-(ected) s
-5 203 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] CPU: 1 PID: 37 Comm: kworker/u4:1 Tainted:) s
-5 192 M
-( G    B           4.10.3 #18) s
-5 181 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] Hardware name: Dell Inc. Inspiron 1545    ) s
-5 170 M
-(               /0J037P, BIOS A14 12/07/2009) s
-5 159 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] Workqueue: events_unbound async_run_entry_) s
-5 148 M
-(fn) s
-5 137 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146] Call Trace:) s
-5 126 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  dump_stack+0x63/0x8b) s
-5 115 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  kasan_report.part.1+0x4bc/0x4f0) s
-5 104 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sr_probe+0x7e0/0xb20) s
-5 93 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? scsi_mode_select+0x370/0x370) s
-5 82 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  kasan_report+0x25/0x30) s
-5 71 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  __asan_load1+0x47/0x50) s
-5 60 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  sr_probe+0x7e0/0xb20) s
-5 49 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? kernfs_next_descendant_post+0x93/0xf0) s
-5 38 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sr_block_ioctl+0xe0/0xe0) s
-5 27 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sysfs_do_create_link_sd.isra.2+0x7c/0xc) s
-5 16 M
-(0) s
-5 5 M
-(Aug 13 14:53:17 localhost kernel: [   47.797146]  driver_probe_device+0x40b/0x670) s
+5 208 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668655]  ffff88007cdaa600: fc fc fc fc fc fc fc fc fc) s
+5 197 M
+( fc fc fc fc fb fb fb) s
+5 186 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668664]  ffff88007cdaa680: fb fb fb fb fb fb fb fb fb) s
+5 175 M
+( fb fb fb fb fb fb fb) s
+5 164 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668674] >ffff88007cdaa700: fb fb fb fb fb fc fc fc fc) s
+5 153 M
+( fc fc fc fc fc fc fc) s
+5 142 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668680]                                              ) s
+5 131 M
+(       ^) s
+5 120 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668689]  ffff88007cdaa780: fc fc fc fc fc fc fc fc fc) s
+5 109 M
+( fc fc fc fc fc fc fc) s
+5 98 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668698]  ffff88007cdaa800: fc fc fc fc fc fc fc fc fc) s
+5 87 M
+( fc fc fc fc fc fc fc) s
+5 76 M
+(Jul 13 15:03:37 localhost kernel: [ 9837.668704] =============================================) s
+5 65 M
+(=====================) s
+5 54 M
+(Jul 13 15:03:37 localhost NetworkManager[745]: <info>  [1499938417.1889]   address 192.168.1.1) s
+5 43 M
+(00) s
+5 21 M
+(----------------------------------------------------------------------------------------------) s
+5 10 M
+(-------------------------------------) s
 _R
 S
 %%Page: (9) 9
@@ -1603,140 +1523,136 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (9) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
+5 692 M
+(Commits - 13 August 2017 - Suspicious use-after-free error flagged by Kernel Address Sanitizer) s
+5 681 M
+( - committed for analysis) s
+5 670 M
+(This error precedes last_sector_hacks ISRA error above in USB storage driver.) s
+5 659 M
+(----------------------------------------------------------------------------------------------) s
+5 648 M
+(-------------------------------------) s
+5 637 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] BUG: KASAN: use-after-free in sr_probe+0x7e0/) s
+5 626 M
+(0xb20 at addr ffff88000009637e) s
+5 615 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] Read of size 1 by task kworker/u4:1/37) s
+5 604 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] page:ffffea0000002580 count:0 mapcount:0 mapp) s
+5 593 M
+(ing:          \(null\) index:0x0) s
+5 582 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] flags: 0x0\(\)) s
+5 571 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] raw: 0000000000000000 0000000000000000 000000) s
+5 560 M
+(0000000000 00000000ffffffff) s
+5 549 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] raw: ffffea00000025a0 ffffea00000025a0 000000) s
+5 538 M
+(0000000000 0000000000000000) s
+5 527 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] page dumped because: kasan: bad access detect) s
+5 516 M
+(ed) s
+5 505 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] CPU: 1 PID: 37 Comm: kworker/u4:1 Tainted: G ) s
+5 494 M
+(   B           4.10.3 #18) s
+5 483 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] Hardware name: Dell Inc. Inspiron 1545       ) s
+5 472 M
+(            /0J037P, BIOS A14 12/07/2009) s
+5 461 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] Workqueue: events_unbound async_run_entry_fn) s
+5 450 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146] Call Trace:) s
+5 439 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  dump_stack+0x63/0x8b) s
+5 428 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  kasan_report.part.1+0x4bc/0x4f0) s
+5 417 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sr_probe+0x7e0/0xb20) s
+5 406 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? scsi_mode_select+0x370/0x370) s
+5 395 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  kasan_report+0x25/0x30) s
+5 384 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  __asan_load1+0x47/0x50) s
+5 373 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  sr_probe+0x7e0/0xb20) s
+5 362 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? kernfs_next_descendant_post+0x93/0xf0) s
+5 351 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sr_block_ioctl+0xe0/0xe0) s
+5 340 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  ? sysfs_do_create_link_sd.isra.2+0x7c/0xc0) s
+5 329 M
+(Aug 13 14:53:17 localhost kernel: [   47.797146]  driver_probe_device+0x40b/0x670) s
+5 318 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  __device_attach_driver+0xd9/0x160) s
-5 731 M
+5 307 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? __driver_attach+0x120/0x120) s
-5 720 M
+5 296 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  bus_for_each_drv+0x107/0x180) s
-5 709 M
+5 285 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? bus_rescan_devices+0x20/0x20) s
-5 698 M
+5 274 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  __device_attach+0x17e/0x200) s
-5 687 M
+5 263 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? device_bind_driver+0x80/0x80) s
-5 676 M
+5 252 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? kobject_uevent_env+0x1ec/0x7f0) s
-5 665 M
+5 241 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  device_initial_probe+0x13/0x20) s
-5 654 M
+5 230 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  bus_probe_device+0xfe/0x120) s
-5 643 M
+5 219 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  device_add+0x5f1/0x9f0) s
-5 632 M
+5 208 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? device_private_init+0xc0/0xc0) s
-5 621 M
+5 197 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? scsi_dh_add_device+0xd4/0x130) s
-5 610 M
+5 186 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  scsi_sysfs_add_sdev+0xd1/0x350) s
-5 599 M
+5 175 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  do_scan_async+0xfd/0x230) s
-5 588 M
+5 164 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? scsi_scan_host+0x250/0x250) s
-5 577 M
+5 153 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  async_run_entry_fn+0x84/0x270) s
-5 566 M
+5 142 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  ? pwq_dec_nr_in_flight+0x8c/0x110) s
-5 555 M
+5 131 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  process_one_work+0x2c6/0x7d0) s
-5 544 M
+5 120 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  worker_thread+0x90/0x850) s
-5 533 M
+5 109 M
 (Aug 13 14:53:17 localhost kernel: [   47.797146]  kthread+0x178/0x1d0) s
-5 511 M
-(-------------------------------------------------------------------------------------------) s
-5 500 M
-(----------------------------------------------) s
-5 489 M
-(\(FEATURE-DONE\) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address San) s
-5 478 M
-(itizer debug logging enabled - 15 August 2017) s
-5 467 M
+5 87 M
+(----------------------------------------------------------------------------------------------) s
+5 76 M
+(-------------------------------------------) s
+5 65 M
+(\(FEATURE-DONE\) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Saniti) s
+5 54 M
+(zer debug logging enabled - 15 August 2017) s
+5 43 M
 (- Commits 1) s
-5 456 M
-(-------------------------------------------------------------------------------------------) s
-5 445 M
-(----------------------------------------------) s
-5 434 M
+5 32 M
+(----------------------------------------------------------------------------------------------) s
+5 21 M
+(-------------------------------------------) s
+5 10 M
 (\(*\) Upgraded Spark version to 2.1.0 on Hadoop 2.7) s
-5 423 M
-(\(*\) Changed to SparkContext text file instead of reading the input kernel log in python I/O) s
-5 412 M
-(\(*\) Added flatMap to front of MapReduce chain of transformations for tokenizer) s
-5 401 M
-(\(*\) Changed the input kernel log to 64bit 4.10.3 Kernel Address Sanitizer enabled kern.log ) s
-5 390 M
-(which prints lot of debugging information on) s
-5 379 M
-(memory accesses especially for USBWWAN and USB Storage drivers.) s
-5 368 M
-(\(*\) This is an alternative to traditional promiscuous USB Analyzers like WireShark to get k) s
-5 357 M
-(ernel stack traces for USB and WLAN operations.) s
-5 346 M
-(\(*\) Particularly useful in malware related untoward memory access and traffic analysis) s
-5 335 M
-(\(*\) Unifies Kernel Address Sanitizer, USB storage/WLAN driver and Spark Cloud for analytics) s
-5 324 M
-(\(*\) Logs for this have been committed to testlogs/ and python-src/testlogs) s
-5 302 M
-(-------------------------------------------------------------------------------------------) s
-5 291 M
-(----------------------------------------------) s
-5 280 M
-(\(FEATURE-DONE\) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address San) s
-5 269 M
-(itizer debug logging enabled - 15 August 2017) s
-5 258 M
-(- Commits 2) s
-5 247 M
-(-------------------------------------------------------------------------------------------) s
-5 236 M
-(----------------------------------------------) s
-5 225 M
-(\(*\) Added a substring match filter to RDD map/reduce transformations chain) s
-5 214 M
-(\(*\) Presently hardcoded as "+0x" which extracts all kernel functions invoked from Kernel Ad) s
-5 203 M
-(dress Sanitizer kern.log and their frequencies) s
-5 181 M
-(Previous profiling prints following top kernel function invocations:) s
-5 170 M
-(\(u'last_sector_hacks.isra.1.part.2+0xc9/0x1d0', 159\),) s
-5 159 M
-( \(u'usb_stor_disconnect+0x120/0x120', 106\),) s
-5 148 M
-( \(u'save_stack+0x46/0xd0', 106\),) s
-5 137 M
-( \(u'save_stack_trace+0x1b/0x20', 106\),) s
-5 126 M
-( \(u'entry_SYSENTER_compat+0x4c/0x5b', 85\),) s
-5 115 M
-( \(u'kthread+0x178/0x1d0', 74\),) s
-5 104 M
-(implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion on https:/) s
-5 93 M
-(/groups.google.com/forum/#!topic/linux.kernel/IYBXrW7K2Vc shows it to be an old kernel bug.) s
-5 71 M
-(-------------------------------------------------------------------------------------------) s
-5 60 M
-(-----------------------------) s
-5 49 M
-(\(FEATURE-DONE\) Commits - 24 September 2017 -  USB-md driver for USB and Wireless LAN analyt) s
-5 38 M
-(ics for 4.13.3 64-bit kernel) s
-5 27 M
-(-------------------------------------------------------------------------------------------) s
-5 16 M
-(-----------------------------) s
-5 5 M
-(\(*\) USB-md driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.5 k) s
 _R
 S
 %%Page: (10) 10
@@ -1748,144 +1664,128 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (10) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(ernel) s
-5 731 M
+5 692 M
+(\(*\) Changed to SparkContext text file instead of reading the input kernel log in python I/O) s
+5 681 M
+(\(*\) Added flatMap to front of MapReduce chain of transformations for tokenizer) s
+5 670 M
+(\(*\) Changed the input kernel log to 64bit 4.10.3 Kernel Address Sanitizer enabled kern.log whi) s
+5 659 M
+(ch prints lot of debugging information on) s
+5 648 M
+(memory accesses especially for USBWWAN and USB Storage drivers.) s
+5 637 M
+(\(*\) This is an alternative to traditional promiscuous USB Analyzers like WireShark to get kern) s
+5 626 M
+(el stack traces for USB and WLAN operations.) s
+5 615 M
+(\(*\) Particularly useful in malware related untoward memory access and traffic analysis) s
+5 604 M
+(\(*\) Unifies Kernel Address Sanitizer, USB storage/WLAN driver and Spark Cloud for analytics) s
+5 593 M
+(\(*\) Logs for this have been committed to testlogs/ and python-src/testlogs) s
+5 571 M
+(----------------------------------------------------------------------------------------------) s
+5 560 M
+(-------------------------------------------) s
+5 549 M
+(\(FEATURE-DONE\) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Saniti) s
+5 538 M
+(zer debug logging enabled - 15 August 2017) s
+5 527 M
+(- Commits 2) s
+5 516 M
+(----------------------------------------------------------------------------------------------) s
+5 505 M
+(-------------------------------------------) s
+5 494 M
+(\(*\) Added a substring match filter to RDD map/reduce transformations chain) s
+5 483 M
+(\(*\) Presently hardcoded as "+0x" which extracts all kernel functions invoked from Kernel Addre) s
+5 472 M
+(ss Sanitizer kern.log and their frequencies) s
+5 450 M
+(Previous profiling prints following top kernel function invocations:) s
+5 439 M
+(\(u'last_sector_hacks.isra.1.part.2+0xc9/0x1d0', 159\),) s
+5 428 M
+( \(u'usb_stor_disconnect+0x120/0x120', 106\),) s
+5 417 M
+( \(u'save_stack+0x46/0xd0', 106\),) s
+5 406 M
+( \(u'save_stack_trace+0x1b/0x20', 106\),) s
+5 395 M
+( \(u'entry_SYSENTER_compat+0x4c/0x5b', 85\),) s
+5 384 M
+( \(u'kthread+0x178/0x1d0', 74\),) s
+5 373 M
+(implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion on https://gr) s
+5 362 M
+(oups.google.com/forum/#!topic/linux.kernel/IYBXrW7K2Vc shows it to be an old kernel bug.) s
+5 340 M
+(----------------------------------------------------------------------------------------------) s
+5 329 M
+(--------------------------) s
+5 318 M
+(\(FEATURE-DONE\) Commits - 24 September 2017 -  USB-md driver for USB and Wireless LAN analytics) s
+5 307 M
+( for 4.13.3 64-bit kernel) s
+5 296 M
+(----------------------------------------------------------------------------------------------) s
+5 285 M
+(--------------------------) s
+5 274 M
+(\(*\) USB-md driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.5 kern) s
+5 263 M
+(el) s
+5 252 M
 (\(*\) Both USB-md and KingCobra kernel modules are subsidiaries of VIRGO kernel) s
-5 720 M
-(\(*\) There is a necessity for 64-bit version of USB-md for interoperability to VIRGO64 64-bi) s
-5 709 M
-(t kernel on mainline version 4.13.3) s
-5 698 M
-(\(*\) This requires separate repository for USB-md because of significant kernel function cha) s
-5 687 M
-(nges between 4.1.5 and 4.13.3 and) s
-5 676 M
+5 241 M
+(\(*\) There is a necessity for 64-bit version of USB-md for interoperability to VIRGO64 64-bit k) s
+5 230 M
+(ernel on mainline version 4.13.3) s
+5 219 M
+(\(*\) This requires separate repository for USB-md because of significant kernel function change) s
+5 208 M
+(s between 4.1.5 and 4.13.3 and) s
+5 197 M
 ( idiosyncrasies of 64-bit) s
-5 665 M
-(\(*\) USB-md driver has been rebuilt on 4.13.3 64-bit kernel after some changes to function p) s
-5 654 M
-(rototypes and new usb-md64 repository is) s
-5 643 M
+5 186 M
+(\(*\) USB-md driver has been rebuilt on 4.13.3 64-bit kernel after some changes to function prot) s
+5 175 M
+(otypes and new usb-md64 repository is) s
+5 164 M
 ( initialized with these commits) s
-5 621 M
-(-------------------------------------------------------------------------------------------) s
-5 610 M
-(-------------------) s
-5 599 M
-(\(FEATURE-DONE\) USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python funct) s
-5 588 M
-(ion - 18 June 2018) s
-5 577 M
-(-------------------------------------------------------------------------------------------) s
-5 566 M
-(-------------------) s
-5 555 M
-(1. Spark Log Analyzer Spark_USBWWANLogMapReduceParser.py has been changed to modularize the) s
-5 544 M
-( pattern extraction) s
-5 533 M
-(by defining a new function accepting kern.log file, pattern and filter and also creates Spa) s
-5 522 M
-(rk DataFrame SQL) s
-5 511 M
+5 142 M
+(----------------------------------------------------------------------------------------------) s
+5 131 M
+(----------------) s
+5 120 M
+(\(FEATURE-DONE\) USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function) s
+5 109 M
+( - 18 June 2018) s
+5 98 M
+(----------------------------------------------------------------------------------------------) s
+5 87 M
+(----------------) s
+5 76 M
+(1. Spark Log Analyzer Spark_USBWWANLogMapReduceParser.py has been changed to modularize the pa) s
+5 65 M
+(ttern extraction) s
+5 54 M
+(by defining a new function accepting kern.log file, pattern and filter and also creates Spark ) s
+5 43 M
+(DataFrame SQL) s
+5 32 M
 (table and queries it.) s
-5 500 M
+5 21 M
 (2. This is similar to NeuronRain AsFer log_mapreducer\(\)) s
-5 478 M
-(-------------------------------------------------------------------------------------------) s
-5 467 M
-(------------------) s
-5 456 M
-(\(FEATURE\) USBWWAN analytics - USBmon and FTrace logs analysis - 15 November 2018) s
-5 445 M
-(-------------------------------------------------------------------------------------------) s
-5 434 M
-(------------------) s
-5 423 M
-(1. Logs Analysis for 2 standard kernel tracing facilities have been included - USBmon and F) s
-5 412 M
-(Trace. USBmon is the) s
-5 401 M
-(kernel debugfs tracing facility and FTrace is the Kernel functions tracing utility accessib) s
-5 390 M
-(le from user space. \(Kernel Address Sanitizer - KASAN - is only enabled in kernelspace via ) s
-5 379 M
-(KBuild config and kernel build transparent to userspace\) ) s
-5 368 M
-(2. USBmon traces are enabled by debugfs in /sys/kernel/debug/usb/usbmon and can be loaded i) s
-5 357 M
-(n wireshark in libpcap format or usbmon pseudodevices can be viewed in tcpdump:) s
-5 346 M
-(  467  ls /sys/kernel/debug/) s
-5 335 M
-(  468  modprobe usbmon) s
-5 324 M
-(  472  dumpcap -D) s
-5 313 M
-(  474  ls /dev/usbmon0) s
-5 302 M
-(  475  ls -lrt /dev/usbmon*) s
-5 291 M
-(  487  tcpdump -i usbmon1) s
-5 280 M
-(  488  tcpdump -i usbmon2) s
-5 269 M
-(  489  tcpdump -i usbmon0) s
-5 258 M
-(  490  tcpdump -i usbmon3) s
-5 247 M
-(  491  tcpdump -i usbmon4) s
-5 236 M
-(  520  cat /sys/kernel/debug/usb/usbmon/1t 2>&1 > usbmon.mon) s
-5 225 M
-(3. FTrace for function graph analysis are enabled by \(Kernel.org FTrace Documentation: http) s
-5 214 M
-(s://www.kernel.org/doc/Documentation/trace/ftrace.txt\):) s
-5 203 M
-(  536  ls /sys/kernel/debug/tracing/current_tracer ) s
-5 192 M
-(  537  echo nop > /sys/kernel/debug/tracing/current_tracer ) s
-5 181 M
-(  538  echo 0 > /sys/kernel/debug/tracing/tracing_on ) s
-5 170 M
-(  539  echo $$ > /sys/kernel/debug/tracing/set_ftrace_pid ) s
-5 159 M
-(  541  echo function > /sys/kernel/debug/tracing/current_tracer ) s
-5 148 M
-(  545  echo 1 > /sys/kernel/debug/tracing/tracing_on ) s
-5 137 M
-(  557  ls -lrt /sys/kernel/debug/tracing/trace) s
-5 126 M
-(  561  cat /sys/kernel/debug/tracing/set_graph_function ) s
-5 115 M
-(  562  cat /sys/kernel/debug/tracing/trace_options ) s
-5 104 M
-(  563  echo funcgraph-duration > /sys/kernel/debug/tracing/trace_options ) s
-5 93 M
-(  566  cat /sys/kernel/debug/tracing/set_graph_function ) s
-5 82 M
-(  567  cat /sys/kernel/debug/tracing/trace_options ) s
-5 71 M
-(  568  cat /sys/kernel/debug/tracing/trace_options ) s
-5 60 M
-(  569  echo funcgraph-cpu 2>&1 > /sys/kernel/debug/tracing/trace_options ) s
-5 49 M
-(  620  cat /sys/kernel/debug/tracing/set_ftrace_pid ) s
-5 38 M
-(  624  echo 7379 > /sys/kernel/debug/tracing/set_ftrace_pid ) s
-5 27 M
-(  625  cat /sys/kernel/debug/tracing/trace 2>&1 > ftrace.log.15November2018) s
-5 16 M
-(  639  export JAVA_HOME=/media/Ubuntu2/jdk1.8.0_171/) s
-5 5 M
-(  640  export PATH=/usr/bin:$PATH) s
 _R
 S
 %%Page: (11) 11
@@ -1897,147 +1797,242 @@ _S
 /fdir (.) def
 /ftail (USBmd_notes64.txt) def
 % User defined strings:
-/fmodstr (Wed Aug 21 15:47:15 2019) def
+/fmodstr (Tue Feb 18 12:05:46 2020) def
 /pagenumstr (11) def
 /user_header_p false def
 /user_footer_p false def
 %%EndPageSetup
 do_header
-5 742 M
-(  671  /media/Ubuntu2/spark-2.3.1-bin-hadoop2.7/bin/spark-submit Spark_USBWWANLogMapReduceP) s
-5 731 M
-(arser.py 2>&1 > testlogs/Spark_USBWWANLogMapReduceParser.FTraceAndUSBMon.log.15November2018) s
-5 720 M
-(4. FTrace traces for specific userspace threads/processes are enabled by previous example c) s
-5 709 M
-(ommandlines and available through /sys/kernel/debug/tracing/trace \(circular buffer\). Functi) s
-5 698 M
-(on graph traces show kernel function invocations as call graph edges \(denoted by fn2 <- fn1) s
-5 687 M
-(\)) s
-5 676 M
-(5. Spark_USBWWANLogMapReduceParser.py has been changed to invoke log analyzer for USBmon an) s
-5 665 M
-(d FTrace logs for) s
-5 654 M
+5 692 M
+(----------------------------------------------------------------------------------------------) s
+5 681 M
+(---------------) s
+5 670 M
+(\(FEATURE\) USBWWAN analytics - USBmon and FTrace logs analysis - 15 November 2018) s
+5 659 M
+(----------------------------------------------------------------------------------------------) s
+5 648 M
+(---------------) s
+5 637 M
+(1. Logs Analysis for 2 standard kernel tracing facilities have been included - USBmon and FTra) s
+5 626 M
+(ce. USBmon is the) s
+5 615 M
+(kernel debugfs tracing facility and FTrace is the Kernel functions tracing utility accessible ) s
+5 604 M
+(from user space. \(Kernel Address Sanitizer - KASAN - is only enabled in kernelspace via KBuild) s
+5 593 M
+( config and kernel build transparent to userspace\) ) s
+5 582 M
+(2. USBmon traces are enabled by debugfs in /sys/kernel/debug/usb/usbmon and can be loaded in w) s
+5 571 M
+(ireshark in libpcap format or usbmon pseudodevices can be viewed in tcpdump:) s
+5 560 M
+(  467  ls /sys/kernel/debug/) s
+5 549 M
+(  468  modprobe usbmon) s
+5 538 M
+(  472  dumpcap -D) s
+5 527 M
+(  474  ls /dev/usbmon0) s
+5 516 M
+(  475  ls -lrt /dev/usbmon*) s
+5 505 M
+(  487  tcpdump -i usbmon1) s
+5 494 M
+(  488  tcpdump -i usbmon2) s
+5 483 M
+(  489  tcpdump -i usbmon0) s
+5 472 M
+(  490  tcpdump -i usbmon3) s
+5 461 M
+(  491  tcpdump -i usbmon4) s
+5 450 M
+(  520  cat /sys/kernel/debug/usb/usbmon/1t 2>&1 > usbmon.mon) s
+5 439 M
+(3. FTrace for function graph analysis are enabled by \(Kernel.org FTrace Documentation: https:/) s
+5 428 M
+(/www.kernel.org/doc/Documentation/trace/ftrace.txt\):) s
+5 417 M
+(  536  ls /sys/kernel/debug/tracing/current_tracer ) s
+5 406 M
+(  537  echo nop > /sys/kernel/debug/tracing/current_tracer ) s
+5 395 M
+(  538  echo 0 > /sys/kernel/debug/tracing/tracing_on ) s
+5 384 M
+(  539  echo $$ > /sys/kernel/debug/tracing/set_ftrace_pid ) s
+5 373 M
+(  541  echo function > /sys/kernel/debug/tracing/current_tracer ) s
+5 362 M
+(  545  echo 1 > /sys/kernel/debug/tracing/tracing_on ) s
+5 351 M
+(  557  ls -lrt /sys/kernel/debug/tracing/trace) s
+5 340 M
+(  561  cat /sys/kernel/debug/tracing/set_graph_function ) s
+5 329 M
+(  562  cat /sys/kernel/debug/tracing/trace_options ) s
+5 318 M
+(  563  echo funcgraph-duration > /sys/kernel/debug/tracing/trace_options ) s
+5 307 M
+(  566  cat /sys/kernel/debug/tracing/set_graph_function ) s
+5 296 M
+(  567  cat /sys/kernel/debug/tracing/trace_options ) s
+5 285 M
+(  568  cat /sys/kernel/debug/tracing/trace_options ) s
+5 274 M
+(  569  echo funcgraph-cpu 2>&1 > /sys/kernel/debug/tracing/trace_options ) s
+5 263 M
+(  620  cat /sys/kernel/debug/tracing/set_ftrace_pid ) s
+5 252 M
+(  624  echo 7379 > /sys/kernel/debug/tracing/set_ftrace_pid ) s
+5 241 M
+(  625  cat /sys/kernel/debug/tracing/trace 2>&1 > ftrace.log.15November2018) s
+5 230 M
+(  639  export JAVA_HOME=/media/Ubuntu2/jdk1.8.0_171/) s
+5 219 M
+(  640  export PATH=/usr/bin:$PATH) s
+5 208 M
+(  671  /media/Ubuntu2/spark-2.3.1-bin-hadoop2.7/bin/spark-submit Spark_USBWWANLogMapReducePars) s
+5 197 M
+(er.py 2>&1 > testlogs/Spark_USBWWANLogMapReduceParser.FTraceAndUSBMon.log.15November2018) s
+5 186 M
+(4. FTrace traces for specific userspace threads/processes are enabled by previous example comm) s
+5 175 M
+(andlines and available through /sys/kernel/debug/tracing/trace \(circular buffer\). Function gra) s
+5 164 M
+(ph traces show kernel function invocations as call graph edges \(denoted by fn2 <- fn1\)) s
+5 153 M
+(5. Spark_USBWWANLogMapReduceParser.py has been changed to invoke log analyzer for USBmon and F) s
+5 142 M
+(Trace logs for) s
+5 131 M
 (patterns Bi\(BULK IN\) and usb from USBmon and FTrace logs respectively:) s
-5 643 M
+5 120 M
 (        - usbmon.15November2018.mon) s
-5 632 M
+5 109 M
 (        - ftrace.ping.log.15November2018 \(ftraces for ping of an IP address\)) s
-5 621 M
-(6. Logs for Spark Analyzer have been committed to Spark_USBWWANLogMapReduceParser.FTraceAnd) s
-5 610 M
-(USBMon.log.15November2018 which analyze the USBmon logs and WLAN traffic for IP address pin) s
-5 599 M
-(g.) s
-5 577 M
-(-------------------------------------------------------------------------------------------) s
-5 566 M
-(----------------) s
-5 555 M
+5 98 M
+(6. Logs for Spark Analyzer have been committed to Spark_USBWWANLogMapReduceParser.FTraceAndUSB) s
+5 87 M
+(Mon.log.15November2018 which analyze the USBmon logs and WLAN traffic for IP address ping.) s
+5 65 M
+(----------------------------------------------------------------------------------------------) s
+5 54 M
+(-------------) s
+5 43 M
 (\(FEATURE\) USBmd FTrace Kernel Function CallGraph Generation for Analysis - 22 November 2018) s
-5 544 M
-(-------------------------------------------------------------------------------------------) s
-5 533 M
-(----------------) s
-5 522 M
-(1.New bash shell script usb_md_ftrace.sh has been committed to repository which writes out ) s
-5 511 M
-(an ftrace.log) s
-5 500 M
-(file containing kernel function call graph sequences for an executable code. It is invoked ) s
-5 489 M
-(as:) s
-5 478 M
+5 32 M
+(----------------------------------------------------------------------------------------------) s
+5 21 M
+(-------------) s
+5 10 M
+(1.New bash shell script usb_md_ftrace.sh has been committed to repository which writes out an ) s
+_R
+S
+%%Page: (12) 12
+%%BeginPageSetup
+_S
+18 36 translate
+/pagenum 12 def
+/fname (USBmd_notes64.txt) def
+/fdir (.) def
+/ftail (USBmd_notes64.txt) def
+% User defined strings:
+/fmodstr (Tue Feb 18 12:05:46 2020) def
+/pagenumstr (12) def
+/user_header_p false def
+/user_footer_p false def
+%%EndPageSetup
+do_header
+5 692 M
+(ftrace.log) s
+5 681 M
+(file containing kernel function call graph sequences for an executable code. It is invoked as:) s
+5 670 M
 (        $usb_md_ftrace.sh <executable-to-trace>) s
-5 467 M
-(usb_md_ftrace.sh summarizes previously mentioned ftrace options enabling commands into sing) s
-5 456 M
-(le file with an) s
-5 445 M
+5 659 M
+(usb_md_ftrace.sh summarizes previously mentioned ftrace options enabling commands into single ) s
+5 648 M
+(file with an) s
+5 637 M
 (option for commandline argument of an executable to trace.) s
-5 434 M
-(2.usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py has been changed to inclu) s
-5 423 M
-(de a new function) s
-5 412 M
-(ftrace_callgraph_dot\(\) which parses an ftrace log generated by usb_md_ftrace.sh for command) s
-5 401 M
-(:) s
-5 390 M
+5 626 M
+(2.usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py has been changed to include ) s
+5 615 M
+(a new function) s
+5 604 M
+(ftrace_callgraph_dot\(\) which parses an ftrace log generated by usb_md_ftrace.sh for command:) s
+5 593 M
 (        $usb_md_ftrace.sh traceroute <ip-address> ) s
-5 379 M
-(3.ftrace_callgraph_dot\(\) parses each line of ftrace.log and adds them as edges in a Network) s
-5 368 M
-(X Directed Graph. DOT) s
-5 357 M
+5 582 M
+(3.ftrace_callgraph_dot\(\) parses each line of ftrace.log and adds them as edges in a NetworkX D) s
+5 571 M
+(irected Graph. DOT) s
+5 560 M
 (file for this call graph is written to Spark_USBWWANLogMapReduceParser.ftrace_callgraph.dot) s
-5 346 M
-(4.As a novelty, PageRank and Degree Centrality measures of the call graph NetworkX DiGraph ) s
-5 335 M
-(are printed which show the prominently active regions of the kernel for traceroute . PageRa) s
-5 324 M
-(nk/Degree Centrality of kernel function callgraph is quite useful by treating every functio) s
-5 313 M
-(n caller as a voter to function callee. Theoretically, this centrality in kernel throws lig) s
-5 302 M
-(ht on suspicious, malevolent invocations particularly involving memory and locking. In this) s
-5 291 M
-( traceroute ftrace example, lock and kmalloc functions have high centrality, and USB URB re) s
-5 280 M
-(lated functions are way down the ranking. More the ranking, deeper the function is in calls) s
-5 269 M
-(tack trace in kernel.) s
-5 258 M
-(5. Lot of functions have ISRA optimization of GCC. ISRA is known to cause signed int bugs \() s
-5 247 M
-(0 was erroneously promoted to 1 in loops\) and ISRA has been disabled in ARM kernel: https:/) s
-5 236 M
-(/patchwork.kernel.org/patch/7113091/ by -fno-ipa-sra GCC flag. This kind of instability cou) s
-5 225 M
-(ld be the reason for 32-bit VIRGO heisenbugs in string functions in older kernels. ) s
-5 214 M
-(6.Previous FTrace kernel call graph analysis is not only limited to USBmd WLAN analytics bu) s
-5 203 M
-(t can be applied to any executable requiring kernel profiling. Usual profilers measure time) s
-5 192 M
-( spent in the function whereas this graph theoretic analysis is superior and finds kernel b) s
-5 181 M
-(ottlenecks and malicious patterns by analyzing call graphs within kernel. ) s
-5 170 M
-(7. Malicious code \(e.g virus, worms, root-kits, bots, keystroke loggers\) are usually associ) s
-5 159 M
-(ated with high cpu and memory footprint causing abnormal traffic. Analyzing infected kernel) s
-5 148 M
-( callgraph patterns might help in identifying the root cause.) s
-5 137 M
-(8. FTrace kernel function call graph complements already implemented Program Analyzers: SAT) s
-5 126 M
-(URN CFG driver in VIRGO kernels \(accessible only in kernelspace\) and Valgrind/KCachegrind/C) s
-5 115 M
-(allgrind userspace call graph analyzer in AsFer. By this kernel activity is partially visib) s
-5 104 M
-(le and can be analyzed graph theoretically from userspace.) s
-5 93 M
-(9. Outbreak of epidemics have been analyzed as Game Theoretic problem \(https://blogs.cornel) s
-5 82 M
-(l.edu/info2040/2016/09/16/game-theory-in-the-context-of-epidemics/\) - on how people behave ) s
-5 71 M
-(in epidemics and their conclusion - "faster information limits disease spread". Cybercrimes) s
-5 60 M
-( are epidemics counterpart in cloud of computers only difference being damage inflicted on ) s
-5 49 M
-(intellectual property than humans and adversaries are hackers/malicious code in place of vi) s
-5 38 M
-(ri. This makes Cybercrimes a multi-player adversarial game involving Hackers/Malicious code) s
-5 27 M
-( Versus Aggrieved. Translating the previous conclusion to cybercrimes: Faster information a) s
-5 16 M
-(bout malicious code limits the damage. ) s
+5 549 M
+(4.As a novelty, PageRank and Degree Centrality measures of the call graph NetworkX DiGraph are) s
+5 538 M
+( printed which show the prominently active regions of the kernel for traceroute . PageRank/Deg) s
+5 527 M
+(ree Centrality of kernel function callgraph is quite useful by treating every function caller ) s
+5 516 M
+(as a voter to function callee. Theoretically, this centrality in kernel throws light on suspic) s
+5 505 M
+(ious, malevolent invocations particularly involving memory and locking. In this traceroute ftr) s
+5 494 M
+(ace example, lock and kmalloc functions have high centrality, and USB URB related functions ar) s
+5 483 M
+(e way down the ranking. More the ranking, deeper the function is in callstack trace in kernel.) s
+5 472 M
+(5. Lot of functions have ISRA optimization of GCC. ISRA is known to cause signed int bugs \(0 w) s
+5 461 M
+(as erroneously promoted to 1 in loops\) and ISRA has been disabled in ARM kernel: https://patch) s
+5 450 M
+(work.kernel.org/patch/7113091/ by -fno-ipa-sra GCC flag. This kind of instability could be the) s
+5 439 M
+( reason for 32-bit VIRGO heisenbugs in string functions in older kernels. ) s
+5 428 M
+(6.Previous FTrace kernel call graph analysis is not only limited to USBmd WLAN analytics but c) s
+5 417 M
+(an be applied to any executable requiring kernel profiling. Usual profilers measure time spent) s
+5 406 M
+( in the function whereas this graph theoretic analysis is superior and finds kernel bottleneck) s
+5 395 M
+(s and malicious patterns by analyzing call graphs within kernel. ) s
+5 384 M
+(7. Malicious code \(e.g virus, worms, root-kits, bots, keystroke loggers\) are usually associate) s
+5 373 M
+(d with high cpu and memory footprint causing abnormal traffic. Analyzing infected kernel callg) s
+5 362 M
+(raph patterns might help in identifying the root cause.) s
+5 351 M
+(8. FTrace kernel function call graph complements already implemented Program Analyzers: SATURN) s
+5 340 M
+( CFG driver in VIRGO kernels \(accessible only in kernelspace\) and Valgrind/KCachegrind/Callgri) s
+5 329 M
+(nd userspace call graph analyzer in AsFer. By this kernel activity is partially visible and ca) s
+5 318 M
+(n be analyzed graph theoretically from userspace.) s
+5 307 M
+(9. Outbreak of epidemics have been analyzed as Game Theoretic problem \(https://blogs.cornell.e) s
+5 296 M
+(du/info2040/2016/09/16/game-theory-in-the-context-of-epidemics/\) - on how people behave in epi) s
+5 285 M
+(demics and their conclusion - "faster information limits disease spread". Cybercrimes are epid) s
+5 274 M
+(emics counterpart in cloud of computers only difference being damage inflicted on intellectual) s
+5 263 M
+( property than humans and adversaries are hackers/malicious code in place of viri. This makes ) s
+5 252 M
+(Cybercrimes a multi-player adversarial game involving Hackers/Malicious code Versus Aggrieved.) s
+5 241 M
+( Translating the previous conclusion to cybercrimes: Faster information about malicious code l) s
+5 230 M
+(imits the damage. ) s
 _R
 S
 %%Trailer
-%%Pages: 11
+%%Pages: 12
 %%DocumentNeededResources: font Courier-Bold Courier 
 %%EOF

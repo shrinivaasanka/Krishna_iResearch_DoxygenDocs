@@ -9,7 +9,7 @@ Kumbakonam-612001, TamilNadu, India.
 e-mail :	ka.shrinivaasan@gmail.com
 		shrinivas.kannan@gmail.com
 		kashrinivaasan@live.com
-Mobile :	9791499106  
+Mobile :	9789346927
 Name spellings in
 consultancy/employer/academic
 records :		K.Srinivasan (academics, BaaN,Sun
@@ -402,6 +402,17 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.188 Compressed Sensing – Python 3.7.5 Alphabet-Syllable vectorspace embedding and similar name clustering in Social Networks and People Analytics
 	2.189 Leaky Bucket Timeseries Analyzer Implementation - Python 3.7.5 
 	2.190 PAC Learning - Python 3.7.5 upgrade and Patterns in Primes
+	2.191 Text Compression, Compressed Sensing, Syllable boundaries decompression implementation - Python 3.7.5 upgrade
+	2.192 Social Network Analytics - LinkedIn Connections Analysis, Name filter and Python 3.7.5 upgrades
+	2.193 GIS and Urban Sprawl Analytics - Image Segmentation and Face components statistics
+	2.194 GIS and Urban Sprawl Analytics - Delaunay Triangulation and Voronoi diagram of Segmented Image, Multi Agent 4-coloring of Urban Sprawl FaceGraphs for Fair Division of resources
+	2.195 Interview Algorithm - Spark Recursive Gloss Overlap Implementation - Python 3.7.5 upgrade and Quadcore Benchmarks
+	2.196 People Analytics - Human Resource Analytics - Recursive Lambda Function Growth Intrinsic Merit of Name-filtered Profile - Chaotic Hidden Markov Model of Tenures/Attrition and Martingales
+	2.197 Computational Geometric Factorization and Set Partition to Lagrange Four Square Theorem Square Tile Cover Reduction - Randomization 
+	2.198 Intrinsic Merit of syllable hyphenated text and its audio - Waveform Distance of Audios, Acoustic Distance of Strings, Name Similarity, Music Clustering – alternative to Levenshtein edit distance of strings
+	2.199 People Analytics - Human Resource Analytics - Chaotic Hidden Markov Model of Tenures/Attrition – implementation
+	2.200 Recursive Lambda Function Growth – local lookup alternatives for machine translated multilingual textgraphs and proper noun filtering 
+
 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

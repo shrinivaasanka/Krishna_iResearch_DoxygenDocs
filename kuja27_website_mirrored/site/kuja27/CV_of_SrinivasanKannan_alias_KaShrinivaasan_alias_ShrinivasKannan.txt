@@ -394,7 +394,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050 bits) – smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050 bits) – arbitrary, smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -409,7 +409,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.195 Interview Algorithm - Spark Recursive Gloss Overlap Implementation - Python 3.7.5 upgrade and Quadcore Benchmarks
 	2.196 People Analytics - Human Resource Analytics - Recursive Lambda Function Growth Intrinsic Merit of Name-filtered Profile - Chaotic Hidden Markov Model of Tenures/Attrition and Martingales
 	2.197 Computational Geometric Factorization and Set Partition to Lagrange Four Square Theorem Square Tile Cover Reduction - Randomization 
-	2.198 Intrinsic Merit of syllable hyphenated text and its audio - Waveform Distance of Audios, Acoustic Distance of Strings, Name Similarity, Music Clustering – alternative to Levenshtein edit distance of strings
+	2.198 Intrinsic Merit of syllable hyphenated text and its audio - Waveform Distance of Audios as Originality merit measure, Acoustic Distance of Strings, Name Similarity, Music Clustering – alternative to Levenshtein edit distance of strings
 	2.199 People Analytics - Human Resource Analytics - Chaotic Hidden Markov Model of Tenures/Attrition – implementation – JSON persistence and Weighted Automata model
 	2.200 Recursive Lambda Function Growth – local lookup alternatives for machine translated multilingual textgraphs and proper noun filtering
 	2.201 People Analytics – LinkedIn DataSet - Tenure Statistics

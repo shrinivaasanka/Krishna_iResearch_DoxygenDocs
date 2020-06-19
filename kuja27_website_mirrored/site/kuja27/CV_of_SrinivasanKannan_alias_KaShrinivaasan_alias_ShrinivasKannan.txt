@@ -199,13 +199,13 @@ C/C++, Java 1.5-1.8, J2EE, Python, R and rpy2, Haskell, Solaris 6-10, Windows 20
 May 2003 – present – Krishna iResearch (parallel, self-started, not-for-profit, non-funded, open-source long-term research initiative) - https://sourceforge.net/users/ka_shrinivaasan , https://github.com/shrinivaasanka  (replicated in https://gitlab.com/shrinivaasanka)
 
 Working on Research, Design and Development of open source projects – a machine-
-learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 and Creative Commons 4.0 NCND.  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
+learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version.
 Latest version 2020#05#26:
 
-1. Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
+1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
 
-2. AsFer (subsystem of NeuronRain) - AstroInfer astronomy and astrology machine learning inference open source software  which uses algorithms viz., 
+2. NEURONRAIN - AsFer  - AstroInfer astronomy and astrology machine learning inference open source software  which uses algorithms viz., 
 	2.1 		Bayesian Classifier, 
 	2.2 		Support Vector Machines, 
 	2.3 		Decision Tree Classifier, 
@@ -394,7 +394,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050 bits) – arbitrary, smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050 bits) – smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -409,13 +409,16 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.195 Interview Algorithm - Spark Recursive Gloss Overlap Implementation - Python 3.7.5 upgrade and Quadcore Benchmarks
 	2.196 People Analytics - Human Resource Analytics - Recursive Lambda Function Growth Intrinsic Merit of Name-filtered Profile - Chaotic Hidden Markov Model of Tenures/Attrition and Martingales
 	2.197 Computational Geometric Factorization and Set Partition to Lagrange Four Square Theorem Square Tile Cover Reduction - Randomization 
-	2.198 Intrinsic Merit of syllable hyphenated text and its audio - Waveform Distance of Audios as Originality merit measure, Acoustic Distance of Strings, Name Similarity, Music Clustering – alternative to Levenshtein edit distance of strings
+	2.198 Intrinsic Merit of syllable hyphenated text and its audio - Waveform Distance of Audios, Acoustic Distance of Strings, Name Similarity, Music Clustering – alternative to Levenshtein edit distance of strings
 	2.199 People Analytics - Human Resource Analytics - Chaotic Hidden Markov Model of Tenures/Attrition – implementation – JSON persistence and Weighted Automata model
 	2.200 Recursive Lambda Function Growth – local lookup alternatives for machine translated multilingual textgraphs and proper noun filtering
 	2.201 People Analytics – LinkedIn DataSet - Tenure Statistics
-	2.202 Word Embedding on a Vectorspace - Spark Word2Vec - SkipGram Log Likelihood - Text Similarity, Dissimilarity and Merit Measure of Originality for Bibliometrics (in GRAFIT)
+	2.202 Word Embedding on a Vectorspace - Spark SkipGram Log Likelihood - Text Similarity, Dissimilarity and Merit Measure of Originality (in GRAFIT)
 	2.203 People Analytics – R - Ricker Logistic – Population dynamics of urban sprawls (in GRAFIT)
-	2.204 Social Network Analytics – R – CoronaVirus2019 analyzer – trend statistics (in GRAFIT)
+	2.204 People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Statistics in R – Fitting a Probability Distribution (in GRAFIT)
+	2.205 People Analytics - Social Network Analysis - CoronaVirus2019 analyzer – Chaotic pandemic model, Correlation coefficients in R (in GRAFIT)
+	2.206 People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Linear Models in R – Linear and Logistic Regressions, CAGraph Logit (in GRAFIT)
+	2.207 Intrinsic Merit of Academic Publications - Bibliometrics - SkipGram Word2Vec of publication full text - Concept Cloud Wordle - an alternative to H-index, First Order Logic, Monoidal Categories, Girard Geometry of Interactions (GoI), Sequent Calculus, ProofNets, TOP Categories, Shell Turing Machines and Kernel Lifting,Lambda functions and Beta Reduction, Meaning representation (in GRAFIT)
 	 
 AstroInfer is an inference system for Big Data to mine patterns in them. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -424,7 +427,7 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 
 
 
-3. VIRGO (subsystem of NeuronRain) – VIRtual Generic Os Linux Kernel (compatible with 4.1.5 (32-bit) and 4.13.3 (64-bit) mainline kernels) – Linux Kernel Extensions for cloud - kernel modules, system calls for cloud rather than at application level high up the stack with :
+3. NEURONRAIN - VIRGO – VIRtual Generic Os Linux Kernel (compatible with 4.1.5 (32-bit) and 4.13.3 (64-bit) mainline kernels) – Linux Kernel Extensions for cloud - kernel modules, system calls for cloud rather than at application level high up the stack with :
 	3.1 		Config file support
 	3.2 		Psuedorandom Generator Based Loadbalancer
 	3.3 		Kernel space remote execution
@@ -452,14 +455,14 @@ AstroInfer is an inference system for Big Data to mine patterns in them. Initial
 	3.25   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
 	3.26 Kernel Analytics powered PXRC Flight Controller Driver – Kernel support pxrc flight controller driver from 4.17. Changed PXRC driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
 	3.27 Kernel Analytics powered UVC Video Driver – Changed UVC Video driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
-	3.28 Read-Copy-Update in userspace – wrapper for VIRGO system calls - usecase (in GRAFIT)
+	3.28 Read-Copy-Update in userspace - usecase (in GRAFIT)
 
 VIRGO enables viewing entire cloud as a single “logical machine” upto hardware level with machine learning support by implementing lowlevel primitives that can be invoked by highlevel cloud OS components viz., OpenStack Neutron. This differentiates from other cloud libraries which are in userspace mostly. AstroInfer together with KernelAnalytics-VIRGO-USBmd-KingCobra make it a Cloud OS kernel with Machine Learning and Analytics abilities. Support for  mobile operating systems in cloud are, among other things, long term goals for VIRGO. 
 (Latest NeuronRain VIRGO research version Code at sourceforge repositories: https://sourceforge.net/projects/virgo-linux/ , https://sourceforge.net/projects/virgo64-linux/ and periodically updated Design details at: https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virgo-docs/VirgoDesign.txt ,  http://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/virgo-docs/VirgoDesign.txt)
 (Latest NeuronRain VIRGO enterprise version Code at github repositories: VIRGO – https://github.com/shrinivaasanka/virgo-linux-github-code , https://github.com/shrinivaasanka/virgo64-linux-github-code and periodically updated Design details at: https://github.com/shrinivaasanka/virgo64-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt, https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/virgo-docs/VirgoDesign.txt)
 Design started in 2008. 
 
-4.  USBmd (subsystem of NeuronRain) - Linux kernel USB device driver module for debugging and network analytics  :
+4.  NEURONRAIN - USBmd- Linux kernel USB device driver module for debugging and network analytics  :
 	4.1 Contains a modified version of Linux kernel mainline USB and USBWWAN broadband modem drivers with debug statements and functions that capture and dump data transfer buffers in kern.logs. 
 	4.2 These logs are parsed and processed with Apache Spark and other AsFer machine learning algorithms (e.g Streaming Algorithm implementations) to create a debug and traffic analytics for in and out data – a typical software analytics usecase with widespread necessity in anti-cybercrime, anti-theft and anti-virus products
 	4.3 Mainline USB drivers (USBWWAN, USB serial, USB storage) instrumented with debug statements in URB related functions
@@ -477,7 +480,7 @@ http://sourceforge.net/p/usb-md/code-0/HEAD/tree/USBmd_notes.txt )
 (Latest NeuronRain USBmd enterprise version Code at github repositories:  https://github.com/shrinivaasanka/usb-md-linux-github-code , https://github.com/shrinivaasanka/usb-md64-github-code
  and periodically updated Design Details at: https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/USBmd_notes.txt , https://github.com/shrinivaasanka/usb-md64-github-code/blob/master/USBmd_notes.txt). 
 
-5. King Cobra (subsystem of NeuronRain) – Kernelspace Messaging and Computational Economics Software  that includes a new fictitious Electronic Message Currency – Neuro – which depends on Google Protocol Buffer based Cloud Object Move functionality in AsFer. Flow of such a fictional currency on AsFer EventNet implementation (actors in event vertices are buyers/sellers and direction of flow determines buy/sell) can simulate Economic Markets and Pricing. EventNet is thus equivalent to hyperledgering in other cryptocurrencies and can capture money trail.
+5. NEURONRAIN - King Cobra – Kernelspace Messaging and Computational Economics Software  that includes a new fictitious Electronic Message Currency – Neuro – which depends on Google Protocol Buffer based Cloud Object Move functionality in AsFer. Flow of such a fictional currency on AsFer EventNet implementation (actors in event vertices are buyers/sellers and direction of flow determines buy/sell) can simulate Economic Markets and Pricing. EventNet is thus equivalent to hyperledgering in other cryptocurrencies and can capture money trail.
 (NeuronRain KingCobra research version sourceforge Repositories - https://sourceforge.net/p/kcobra/ ,  https://sourceforge.net/projects/kcobra64/ and periodically updated design notes at https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDesignNotes.txt,  https://sourceforge.net/p/kcobra/code-svn/KingCobraDesignNotes.txt)
 (NeuronRain KingCobra enterprise version sourceforge Repositories -  https://github.com/shrinivaasanka/kingcobra-github-code , https://github.com/shrinivaasanka/kingcobra64-github-code and periodically updated design notes at https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt,  https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/KingCobraDesignNotes.txt)
 
@@ -491,7 +494,7 @@ Implements a minimal kernelspace and userspace messaging framework using VIRGO c
 	5.7 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
 
 
-6. acadpdrafts - All publications and drafts with code  (along with important documents and Photo ID proofs) are uploaded at http://sourceforge.net/projects/acadpdrafts/
+6. NEURONRAIN - acadpdrafts - All publications and drafts with code  (along with important documents and Photo ID proofs) are uploaded at http://sourceforge.net/projects/acadpdrafts/
 
 The opensource codebases above are nonprofit academic research efforts. Premium Technical Support for above opensource codebases available. Premium Dual licensed Closedsource products derived from codebases in: https://github.com/shrinivaasanka, https://gitlab.com/shrinivaasanka and  https://sourceforge.net/u/userid-769929/profile/ are in development since 2010.
 

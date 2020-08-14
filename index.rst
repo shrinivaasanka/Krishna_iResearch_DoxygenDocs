@@ -316,6 +316,17 @@ Conceptual Graph:
 	41.Cellular Automaton Space filling algorithm which has Parallel PRG plane sweep and Increment Growth rule underneath it, has widespread applications in Chaotic modelling of natural processes,diffusion of memes,fads,pandemics,concepts and cybercrimes in a community. NeuronRain envisages a new random graph model based on 2-dimensional Cellular Automaton - CAGraph - which could be another social network model similar to Erdos-Renyi Susceptible-Infected-Recovered,Susceptible-Infected-Susceptible random graph models. Logistic/Linear Regression models for diffusion could be inferred from CAGraph.
 	42.Universally Unique Identifier Generation is a challenge in Cloud Computing (Algorithms for UUID creation - RFC 4122 - https://tools.ietf.org/html/rfc4122#section-4.3). There are known vulnerabilities in RSA cryptosystem which could churn similar repetitive semiprime moduli for digital certificates of different users (https://blog.keyfactor.com/the-irony-and-dangers-of-predictable-randomness) and efficient integer factorization for RSA grade huge PKI semiprimes weakens ecommerce. Unique ID creation for NeuronRain VIRGO cloud system calls, Unique Identification in NeuronRain People Analytics and Boost UUID for NeuronRain KingCobra Neuro protocol buffer cryptocurrency depend on cloudwise unique ID creation.
 
+**What are some unusual applications of Factorization implemented in NeuronRain?**
+
+---------------------------------------------------------------------------------------------------
+861. Computational Geometric Factorization - Applications to Numeric Compression and Space filling
+by Tile cover - related to 814 and all sections on Factorization, Compressed Sensing, Integer Partitions and Space Filling
+----------------------------------------------------------------------------------------------------
+Integer Factorization and Discrete logarithm problem traditionally have been a mere theoretical fancy. But following are some unusual connections of an efficient factorization of huge integers to other seemingly unrelated silos:
+(*) Partitions of an integer N which are one dimensional could be lifted to a 2-dimensional square tile cover of a rectangle by Lagranges Four Square Theorem whose sides are the factors of N.
+(*) Sublogarithmic Numeric compression of huge integers by Unique Integer Factorization has benefits for memory intensive ecommerce websites which transact millions of PKI Diffie-Hellman exchanges per day - mostly 2048 bits semiprimes 
+(*) Sublogarithmic Numeric compression by Unique factorization is helpful in designing better CPU instruction sets - registers can have lesser number of bits 
+
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 
 ----------------------------------------------------------------------------------------------------------------------------------

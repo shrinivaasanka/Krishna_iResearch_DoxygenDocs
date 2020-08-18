@@ -320,12 +320,13 @@ Conceptual Graph:
 
 ---------------------------------------------------------------------------------------------------
 861. Computational Geometric Factorization - Applications to Numeric Compression and Space filling
-by Tile cover - related to 814 and all sections on Factorization, Compressed Sensing, Integer Partitions and Space Filling
+by Tile cover - related to 814 and all sections on Factorization, Compressed Sensing, Integer Partitions and Space Filling, Goldbach Conjecture, Primality Testing
 ----------------------------------------------------------------------------------------------------
 Integer Factorization and Discrete logarithm problem traditionally have been a mere theoretical fancy. But following are some unusual connections of an efficient factorization of huge integers to other seemingly unrelated silos:
 (*) Partitions of an integer N which are one dimensional could be lifted to a 2-dimensional square tile cover of a rectangle by Lagranges Four Square Theorem whose sides are the factors of N.
 (*) Sublogarithmic Numeric compression of huge integers by Unique Integer Factorization has benefits for memory intensive ecommerce websites which transact millions of PKI Diffie-Hellman exchanges per day - mostly 2048 bits semiprimes 
 (*) Sublogarithmic Numeric compression by Unique factorization is helpful in designing better CPU instruction sets - registers can have lesser number of bits 
+(*) Even Goldbach Conjecture (every even integer > 2 is sum of 2 odd primes) and Odd Goldbach Conjecture (every odd integer > 5 is sum of three odd primes - which has been proved for odd integers > 7 because 7 can be partitioned only as 3+2+2) are the greatest unsolved problems of Number theory. Even Integers upto 4*10^18 and Odd Integers upto 8.37 * 10^26 have been computationally verified for truth of 2 Goldbach conjectures by many variants of Segmented Sieve of Eratosthenes which is O(NloglogN) sequential time - Algorithm 1.1 to generate all primes in interval (A,B) - https://www.ams.org/journals/mcom/2014-83-288/S0025-5718-2013-02787-1/S0025-5718-2013-02787-1.pdf - Prerequisite for this algorithm is a list of prime integers < sqrt(B) and first prime > sqrt(B). Factorization in NC-PRAM-BSP implies Primality testing is in NC which is already proved to be in larger class P by AKS primality test. This list of primes for segmented Eratosthenes sieve can be efficiently found in O(sqrt(B)*(logB)^k) parallel RAM time by Computational Geometric Factorization Primality test.
 
 **Why is Intrinsic Merit necessary? Are there counterexamples to perceptive voting based ranking? Why is voting based merit judgement anachronistic?**
 

@@ -1,5 +1,5 @@
 ﻿	K.Srinivasan  
-(also known as: Srinivasan Kannan, Ka.Shrinivaasan, Shrinivas Kannan)
+(also spelt as: Srinivasan Kannan, Ka.Shrinivaasan, Shrinivas Kannan)
 
 Permanent Address:
 Srinivasan Kannan,
@@ -72,6 +72,10 @@ RESEARCH STATEMENTS:
 5. Research Statement 2 - with some proof sketches (includes a new timeout manager algorithm implemented in Global Analytics Decision Platform 3.0) - https://sites.google.com/site/kuja27/PhDThesisProposal.pdf?attredirects=0
 
 6. Research Statement 3 – with some proof sketches - https://sites.google.com/site/kuja27/Research_Writeup.pdf?attredirects=0&d=1
+
+
+
+
 
 
 NeuronRain Theory Drafts (2003-present) - private unaffiliated research - theory aligned to features of NeuronRain opensource products
@@ -164,7 +168,7 @@ http://sourceforge.net/p/acadpdrafts/code/ci/master/tree/Krishna_iResearch_opens
 
 41. (draft1) Miscellaneous notes on Krishna iResearch Open Source products design, Democracy Circuit, Complement Function circuit and Parallel RAM to NC reduction for ANSV algorithm in Discrete Hyperbolic Factorization
 
-					TEAM PATENTS
+					TEAM PATENTS (Sun Microsystems-Oracle)
 1
 8,521,875
 
@@ -202,7 +206,7 @@ Utility for configuring and verifying data sources
 
 Specifying transaction manager type at various application levels
 
-Disclosure - Patent Pending (Copyright: Sun Microsystems - 2002 - Reference Number: P8490)
+Disclosure - Patent Pending (Copyright: Sun Microsystems/Oracle - 2002 - Reference Number: P8490)
 Survival Index Based Transaction Timeout Manager (Java PoC implemented on SunOne-iPlanet Application Server 6.5 J2EE-JTS Transaction Manager - now GlassFish - https://github.com/javaee/glassfish/tree/master/appserver)
 
 				DETAILS OF WORK (1999 – Present)
@@ -223,7 +227,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version. An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2020#05#26:
+Latest version 2020#08#30:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -447,13 +451,19 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.210 Bibliometrics - Patents as ProofNets and Search - Novelty detection and Originality merit measure for Patent search, Latent Semantic Analysis, Low Rank Approximation (in GRAFIT)
 	2.211 Fraud and Cybercrime analytics – Faraday Cageing for Van Eck Phreaking, Analyzing Userspace Phishing/Spoof/Spams, Kernel Ftrace callgraph analyzer, Address book and dictionary attacks, Bayesian Filters, ERSIR, SIS and Cellular Automaton Graph models of Cybercrime transmission – Datasets for CoronaVirus 2019 Pandemic R analyzers could be replaced by cybercrime Susceptible-Infected-Recovered random graph botnet data.
 	2.212 Fraud and Cybercrime analytics - Digital Watermarking of Large Scale Visuals in OpenCV (in GRAFIT)
-	2.213 Numeric Compression - Sublogarithmic Space Prime power encoding of huge integers by Unique Factorization Theorem, Computational Geometric Factorization and its applications in Euclidean Semiprimes, CPU instruction sets (in GRAFIT)
-	2.214 NeuronRainApps - NeuronRain Usecases – Micro Air Vehicle SDK Python Asynchronous I/O Drone Simulator (requires MAVSDK-Python + Python 3.7.5) (in GRAFIT)
+	2.213 Numeric Compression - Sublogarithmic Space Prime power encoding of huge integers by Unique Factorization Theorem and Computational Geometric Factorization and its application in CPU instruction sets (in GRAFIT)
+	2.214 NeuronRainApps - NeuronRain Usecases – PX4 Micro Air Vehicle SDK Python Asynchronous I/O Drone Simulator – Drone_MAVSDK_Client and Drone_MAVSDK_Server -requires PX4 Firmware + JMAVSIM + MAVSDK-Python + Python 3.7.5 (in GRAFIT)
+	2.215 NeuronRainApps – NeuronRain Usecases – Online Shopping Delivery – PX4 Micro Air Vehicle SDK Python Asynchronous I/O Simulator -  requires PX4 Firmware + JMAVSIM + MAVSDK-Python + Python 3.7.5
+	2.216 Graph Analytics and Drone Navigation – A* (A-Star) Best First Search Pathfinding and Motion Planning Algorithm Implementation for Drones and generic Graph search (in GRAFIT)
 	 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
 (Latest NeuronRain AsFer enterprise version Code at github repository:  https://github.com/shrinivaasanka/asfer-github-code and periodically updated Design Details at:https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt)
+
+
+
+
 
 
 
@@ -511,6 +521,8 @@ http://sourceforge.net/p/usb-md/code-0/HEAD/tree/USBmd_notes.txt )
 (Latest NeuronRain USBmd enterprise version Code at github repositories:  https://github.com/shrinivaasanka/usb-md-linux-github-code , https://github.com/shrinivaasanka/usb-md64-github-code
  and periodically updated Design Details at: https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/USBmd_notes.txt , https://github.com/shrinivaasanka/usb-md64-github-code/blob/master/USBmd_notes.txt). 
 
+
+
 5. NEURONRAIN - King Cobra – Kernelspace Messaging and Computational Economics Software  that includes a new fictitious Electronic Message Currency – Neuro – which depends on Google Protocol Buffer based Cloud Object Move functionality in AsFer. Flow of such a fictional currency on AsFer EventNet implementation (actors in event vertices are buyers/sellers and direction of flow determines buy/sell) can simulate Economic Markets and Pricing. EventNet is thus equivalent to hyperledgering in other cryptocurrencies and can capture money trail.
 (NeuronRain KingCobra research version sourceforge Repositories - https://sourceforge.net/p/kcobra/ ,  https://sourceforge.net/projects/kcobra64/ and periodically updated design notes at https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDesignNotes.txt,  https://sourceforge.net/p/kcobra/code-svn/KingCobraDesignNotes.txt)
 (NeuronRain KingCobra enterprise version sourceforge Repositories -  https://github.com/shrinivaasanka/kingcobra-github-code , https://github.com/shrinivaasanka/kingcobra64-github-code and periodically updated design notes at https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt,  https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/KingCobraDesignNotes.txt)
@@ -525,11 +537,33 @@ Implements a minimal kernelspace and userspace messaging framework using VIRGO c
 	5.7 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
 
 
+
 6. NEURONRAIN - acadpdrafts - All publications and drafts with code  (along with important documents and Photo ID proofs) are uploaded at http://sourceforge.net/projects/acadpdrafts/
 
 The opensource codebases above are nonprofit academic research efforts. Premium Technical Support for above opensource codebases available. Premium Dual licensed Closedsource products derived from codebases in: https://github.com/shrinivaasanka, https://gitlab.com/shrinivaasanka and  https://sourceforge.net/u/userid-769929/profile/ are in development since 2010.
 
-7. GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses on miscellaneous topics and based on NeuronRain codebases and miscellaneous topics – Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit - GRAFIT course materials (in .zip) are available from Moodle GRAFIT website -https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
+
+
+
+
+
+
+
+7. NeuronRain GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses based on NeuronRain codebases and Design Documents, Puzzles/Questions from Competitive examinations and miscellaneous topics – non-linear material focusing on Bigdata, Problem solving, Machine Learning, Fundamentals, Programming – Creative Commons 4.0 NCND licensed - includes spillover implementations of other NeuronRain repositories – Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit - GRAFIT course materials (in .zip) are available from Moodle GRAFIT website -https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 April 2015 – September 2015 - CloudEnablers - CusDelight - Corestack, Chennai – Architect 
 
@@ -724,15 +758,12 @@ Official Training Courses (SunU)
 
 
 
-
-
-
-
-
 July 1999 - January 2000 - BaaN Infosystems (now SSA Global) (Hyderabad)
 
 Developed a storefront for an e-commerce application called
 E-Enterprise using Microsoft Internet Information Server/Site Server, Visual Basic, Active Server Pages and Visual Interdev
+
+
 
 January 1999 – May 1999 – BE Thesis and Project(team) – COBRA – Distributed Computing Framework based on CORBA(Visibroker) and JAVA.
 

@@ -455,6 +455,9 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.214 NeuronRainApps - NeuronRain Usecases – PX4 Micro Air Vehicle SDK Python Asynchronous I/O Drone Simulator – Drone_MAVSDK_Client and Drone_MAVSDK_Server -requires PX4 Firmware + JMAVSIM + MAVSDK-Python + Python 3.7.5 (in GRAFIT)
 	2.215 NeuronRainApps – NeuronRain Usecases – Online Shopping Delivery – PX4 Micro Air Vehicle SDK Python Asynchronous I/O Simulator -  requires PX4 Firmware + JMAVSIM + MAVSDK-Python + Python 3.7.5
 	2.216 Graph Analytics and Drone Navigation – A* (A-Star) Best First Search Pathfinding and Motion Planning Algorithm Implementation for Drones and generic Graph search (in GRAFIT)
+	2.217 GIS analytics - OpenCV Image Contours, Contour graphs and Segmentation for Drone Obstacle Avoidance and Motion Planning
+	2.218 Merit of Large Scale Visuals and Music - OpenCV Image Contours and Segmentation for Medical Imageing and Intrinsic merit of music – (Functional) Magnetic Resonance Imageing (MRI and fMRI)
+	2.219 GIS Analytics and Drone Autonomous Delivery - Drone Obstacle Avoidance by 3D Navigation on Airspace defined by Road Geometry (Google Roads REST API and Drone Swarms example)
 	 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

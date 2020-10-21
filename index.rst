@@ -173,6 +173,7 @@ Academic Publications,Preprints and Draft publications of the Author are at:
 	(*) publications in https://scholar.google.co.in/citations?hl=en&user=eLZY7CIAAAAJ
 	(*) publication drafts in https://sites.google.com/site/kuja27/ and
 	(*) publication drafts in https://sourceforge.net/projects/acadpdrafts/files/
+        (*) Research Profiles - https://sites.google.com/site/kuja27/CV.pdf
 Some Implementations in AsFer in GitLab, GitHub and Sourceforge are related to aforementioned publications and drafts
 
 Free GRAFIT (portmanteau of Graph-Merit) course material:

@@ -458,6 +458,9 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.217 GIS analytics - OpenCV Image Contours, Contour graphs and Segmentation for Drone Obstacle Avoidance and Motion Planning
 	2.218 Merit of Large Scale Visuals and Music - OpenCV Image Contours and Segmentation for Medical Imageing and Intrinsic merit of music – (Functional) Magnetic Resonance Imageing (MRI and fMRI)
 	2.219 GIS Analytics and Drone Autonomous Delivery - Drone Obstacle Avoidance by 3D Navigation on Airspace defined by Road Geometry (Google Roads REST API and Drone Swarms example)
+	2.220 People Analytics - Social Network Analysis - CoronaVirus2019 Analyzer - Exponential Fit in R
+	2.221 Generating all possible permuted strings of an alphabet
+	2.222 Fibonaccian Search - alternative to binary search in Computational Geometric Parallel Planar Point Location Factorization and other BigData queries
 	 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

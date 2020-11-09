@@ -22,6 +22,8 @@ Krishna iResearch Open Source: https://sourceforge.net/users/ka_shrinivaasan,
 
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
 Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
+Brihaspathi GitHub Organization (Private Virtual Classrooms): https://github.com/Brihaspathi 
+
 LatexPDF CV: https://sites.google.com/site/kuja27/CV.pdf
 Date of Birth as per records: 19 May 1977 
 Passport: M9583737
@@ -558,10 +560,8 @@ The opensource codebases above are nonprofit academic research efforts. Premium 
 7. NeuronRain GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses based on NeuronRain codebases and Design Documents, Puzzles/Questions from Competitive examinations and miscellaneous topics – non-linear material focusing on Bigdata, Problem solving, Machine Learning, Fundamentals, Programming – Creative Commons 4.0 NCND licensed - includes spillover implementations of other NeuronRain repositories – Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit - GRAFIT course materials (in .zip) are available from Moodle GRAFIT website -https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
 
 
-
-
-
-
+Brihaspathi - Private Online Virtual Classrooms
+Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science, ...) - https://github.com/Brihaspathi - requires GitHub student logins 
 
 
 

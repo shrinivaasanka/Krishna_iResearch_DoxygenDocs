@@ -22,7 +22,8 @@ Krishna iResearch Open Source: https://sourceforge.net/users/ka_shrinivaasan,
 
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
 Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
-Brihaspathi GitHub Organization (Private Virtual Classrooms): https://github.com/Brihaspathi 
+Brihaspathi GitHub Organization (Private Virtual Classrooms):
+https://github.com/Brihaspathi 
 
 LatexPDF CV: https://sites.google.com/site/kuja27/CV.pdf
 Date of Birth as per records: 19 May 1977 
@@ -463,7 +464,11 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.220 People Analytics - Social Network Analysis - CoronaVirus2019 Analyzer - Exponential Fit in R
 	2.221 Generating all possible permuted strings of an alphabet
 	2.222 Fibonaccian Search - alternative to binary search in Computational Geometric Parallel Planar Point Location Factorization and other BigData queries
-	 
+	2.223 People Analytics - People profiles as Tensors - Chaotic Hidden Markov Model of Tenure Transitions – TensorFlow integration for conversion of People profile data to Tensors
+	2.224 People Analytics and Compressed Sensing – Alphabet-Syllable Vectorspace Embedding Distance implementation for Strings – Strings as Tensors - alternative to Levenshtein Edit distance
+	2.225 Merit of Large Scale Visuals (LSVR) - TensorFlow + Keras Backend – alternative to Theano + Keras Backend 
+	2.226 EventNet Python Parser - Events as Tensorflow Tensors – EventNet vertices and edges are parsed from text files and converted to Tensorflow Tensors 
+
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
@@ -560,8 +565,10 @@ The opensource codebases above are nonprofit academic research efforts. Premium 
 7. NeuronRain GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses based on NeuronRain codebases and Design Documents, Puzzles/Questions from Competitive examinations and miscellaneous topics – non-linear material focusing on Bigdata, Problem solving, Machine Learning, Fundamentals, Programming – Creative Commons 4.0 NCND licensed - includes spillover implementations of other NeuronRain repositories – Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit - GRAFIT course materials (in .zip) are available from Moodle GRAFIT website -https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
 
 
-Brihaspathi - Private Online Virtual Classrooms
-Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science, ...) - https://github.com/Brihaspathi - requires GitHub student logins 
+BRIHASPATHI - Private Online Virtual Classrooms
+Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,...) - https://github.com/Brihaspathi - requires GitHub student logins 
+
+
 
 
 

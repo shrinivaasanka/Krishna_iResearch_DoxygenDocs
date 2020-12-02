@@ -30,7 +30,7 @@ NeuronRain Documentation Repositories:
 
 NeuronRain Version:
 -------------------
-Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Latest NeuronRain Research and Green version is 2020#08#30.
+Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Latest NeuronRain Research and Green version is 2020#12#02.
 
 NeuronRain - Features:
 ----------------------

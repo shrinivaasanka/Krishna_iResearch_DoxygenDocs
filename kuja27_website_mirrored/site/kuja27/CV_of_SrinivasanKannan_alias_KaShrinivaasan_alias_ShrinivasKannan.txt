@@ -230,7 +230,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version. An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2020#08#30:
+Latest version 2020#12#02:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -468,6 +468,12 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.224 People Analytics and Compressed Sensing – Alphabet-Syllable Vectorspace Embedding Distance implementation for Strings – Strings as Tensors - alternative to Levenshtein Edit distance
 	2.225 Merit of Large Scale Visuals (LSVR) - TensorFlow + Keras Backend – alternative to Theano + Keras Backend 
 	2.226 EventNet Python Parser - Events as Tensorflow Tensors – EventNet vertices and edges are parsed from text files and converted to Tensorflow Tensors 
+	2.227 People Analytics - Alphabet Vectorspace Embedding - Earth Mover Distance between String Syllable Tensors
+	2.228 Graph Search and Analytics - NetworkX Graph Edit Distance – Inexact Graph Matching – Graph mining of dissimilar graphs
+	2.229 Software Analytics - Cyclomatic Complexity Program Analyzer - Graph Edit Distance – Inexact Graph Matching for various types of Program analysis graphs (CFG,Slice dependency,Callgraph)
+	2.230 Text Analytics – Word Sense Disambiguation - NeuronRain implementation of Lesk’s algorithm – alternative to NLTK and PyWSD 
+	2.231 People Analytics - HR and Talent Analytics - Domain Specific Dictionary - LinkedIn Dataset analytics in Spark 3.0.1+ Hadoop 3.2 
+	2.232 People Analytics - HR and Talent Analytics - Chaotic Hidden Markov Model - Career Transition Score of a Profile - Weighted Automaton of Career Transition  
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

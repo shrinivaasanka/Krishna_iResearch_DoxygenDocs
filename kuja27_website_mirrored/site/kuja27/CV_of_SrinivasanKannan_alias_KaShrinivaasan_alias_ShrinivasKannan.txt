@@ -475,7 +475,13 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.231 People Analytics - HR and Talent Analytics - Domain Specific Dictionary - LinkedIn Dataset analytics in Spark 3.0.1+ Hadoop 3.2 
 	2.232 People Analytics - HR and Talent Analytics - Chaotic Hidden Markov Model - Career Transition Score of a Profile - Weighted Automaton of Career Transition  
 	2.233 People Analytics - HR and Talent Analytics - Chaotic Hidden Markov Model - Career Polynomial of a Profile and Inner Product Space Distance Similarity between 2 people profiles
-	2.234 Software Analytics and People Analytics – Program Analyzers in NeuronRain could also serve as People Analytics tools specific to Professional profiles of People in Information Technology domain thus facilitating automated recruitment of talent – Cyclomatic complexity analyzers, Userspace and Kernelspace Call graph analyzers, SATURN kernel CFG analyzers could be useful in analyzing complexity of any opensource code repository
+	2.234 Software Analytics and People Analytics – Program Analyzers in NeuronRain 
+could also serve as People Analytics tools specific to Professional profiles of People in 
+Information Technology domain thus facilitating automated recruitment of talent – 
+Cyclomatic complexity analyzers, Userspace and Kernelspace Call graph analyzers, SATURN 
+kernel CFG analyzers could be useful in analyzing complexity of any opensource code 
+repository
+	2.235 Bibliometrics - Merit of Academic Publications - Transformers Attention Model implementation (in GRAFIT)
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

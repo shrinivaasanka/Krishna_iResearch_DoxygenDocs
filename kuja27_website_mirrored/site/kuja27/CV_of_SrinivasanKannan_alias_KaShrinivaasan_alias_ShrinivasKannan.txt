@@ -482,14 +482,13 @@ Cyclomatic complexity analyzers, Userspace and Kernelspace Call graph analyzers,
 kernel CFG analyzers could be useful in analyzing complexity of any opensource code 
 repository
 	2.235 Bibliometrics - Merit of Academic Publications - Transformers Attention Model implementation (in GRAFIT)
+	2.236 Recursive Lambda Function Growth - Transformer Attention Model – Textgraph Degree attention 
+	2.237 Named Entity Recognition - Transformers Attention Model – Textgraph degree attention
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
 (Latest NeuronRain AsFer enterprise version Code at github repository:  https://github.com/shrinivaasanka/asfer-github-code and periodically updated Design Details at:https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt)
-
-
-
 
 
 

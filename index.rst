@@ -332,6 +332,8 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
         48. Graph Edit Distance (GED) is the most fundamental clustering similarity measure which pervades Text-Audio-Visual-People Graph Analytics and Program Analyzers in NeuronRain. Graph Edit Distance generalizes String Edit Distance - every String (and thus Text) is a connected, directed acyclic graph of maximum degree 1 and alphabets are its vertices. Graph Edit Distance between EventNet of a Video and ImageNet ImageGraphs of Images quantifies visual similarity. Graph Edit Distance between weighted automata of two music clips differentiates music (In theory, automata can be checked for equivalence by Table filling algorithm) while GED between Speech-to-Text textgraphs measures audio similarity. Graph Edit Distance between Social Community Graphs, Connections Graph and proper noun filtered (e.g dictionary filter) Textgraphs of People Profiles measures People similarity. Graph Edit Distance between Control Flow Graphs from SATURN, Program Slice Dependency Graphs, FTrace Kernel callgraphs, Valgrind/KCacheGrind/Callgrind userspace callgraphs identify similar codeflow and malwares. While Graph Isomorphism finds similar graphs by vertex relabelling (Exact Graph Matching), Graph Edit Distance generalizes to dissimilar graphs (Inexact Graph Matching).
         49. Transformers are recent advances in Text analytics - NeuronRain Textgraph implementations for Recursive Lambda Function Growth and Named Entity Recognition extend transformers to textgraph vertices degree attention for inferring importance of word vertices of textgraphs.
         50. Graphical Event Models (OGEM,PGEM) decipher graph dependency amongst timeseries of real life events (politics,economic and other bigdata streams). EventNet theory and implementation in NeuronRain is a Graphical Event Model for interevent and intraevent actor-model causality. EventNet Tensor Product algorithm for Videos is a Graphical Event Model based on ImageNet for extracting dependencies between frames (Video is a timeseries stream of frames)
+	51. Digital Watermarking overlay of segmented large scale visuals is in a sense a primitive image classifier - vertices of facegraphs of similar segmented images when overlayed on one another are highly superimposed and isomorphic (and thus a measure of similarity) creating a multiplanar graph in which each vertex is a stack - a visual version of ThoughtNet.
+
 
 **What are some unusual applications of Factorization implemented in NeuronRain?**
 
@@ -591,10 +593,8 @@ Personal website(research): https://sites.google.com/site/kuja27/ (Mirrored at h
 
 **are owned by:**
 
-P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan),
-172, Gandhi Adigal Salai,
-Kumbakonam - 612001.
-Tamil Nadu, India.
+P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan)
+Emails: preskannan@gmail.com, alamelukannan1941@gmail.com
 
 Licensing 1 - Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain Krishna_iResearch_DoxygenDocs SourceForge, GitHub and GitLab HTML/PDF documentations and Grafit Open Learning Course Notes (GRAFIT open learning course material includes all NeuronRain Design Documents which are frequently updated commentaries on NeuronRain code commits and related theory) : https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html (replicated in SourceForge and GitLab)
 
@@ -607,12 +607,7 @@ Previous license ownership attribution supersedes all other copyleft notice head
 Author:
 -------
 K.Srinivasan
-S/O.P.R.S.Kannan,
-(also known as: Shrinivaasan Kannan, Shrinivas Kannan)
-172, Gandhi Adigal Salai,
-Kumbakonam - 612001.
-Tamil Nadu, India.
-Contact emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
+Emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 NeuronRain mailing lists: https://sourceforge.net/p/virgo-linux/mailman/virgo-linux-mailing-list/ (not recently updated), https://in.groups.yahoo.com/neo/groups/grafitopenlearning/info (archived because of Verizon-Oath-Yahoo groups shutdown)
 
 Contributor has no industry and academic affiliations and does not accrue any monetary benefit for Opensource research and development effort (contribution is a charity). Name "Krishna iResearch" is non-funded, not a commercially registered entity but only a profile name registered in SourceForge and later in GitHub and GitLab. Because of certain cybercrimes, mistaken identity and copyleft violation problems in the past (and possibility of a signature forgery too which is neither confirmed nor denied), sumptuous id proofs of the author have been uploaded to https://sourceforge.net/projects/acadpdrafts/files/ and https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan_alias_ShrinivasKannan.pdf

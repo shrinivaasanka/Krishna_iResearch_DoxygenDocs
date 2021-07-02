@@ -230,7 +230,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version. An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2020#12#02:
+Latest version 2021#07#02:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -484,6 +484,11 @@ repository
 	2.235 Bibliometrics - Merit of Academic Publications - Transformers Attention Model implementation (in GRAFIT)
 	2.236 Recursive Lambda Function Growth - Transformer Attention Model – Textgraph Degree attention 
 	2.237 Named Entity Recognition - Transformers Attention Model – Textgraph degree attention
+	2.238 Recursive Lambda Function Growth Textgraph as EventNet Causality Graphical Event Model - implementation
+	2.239 Recursive Lambda Function Growth EventNet GEM - CoronaVirus 2019 GEM usecase
+	2.240 Recursive Lambda Function Growth EventNet GEM - 2 different research articles collated
+	2.241 Digital Watermarking for both Image and Video by CV2 overlay
+	2.242 ThoughtNet Evocation of Thought Hyperedges by Set Intersection of Hypervertices
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

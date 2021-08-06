@@ -424,7 +424,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2063 bits) – arbitrary, smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063 bits) – randomly chosen, smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -499,35 +499,35 @@ AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRai
 
 
 3. NEURONRAIN - VIRGO – VIRtual Generic Os Linux Kernel (compatible with 4.1.5 (32-bit) and 4.13.3 (64-bit) mainline kernels) – Linux Kernel Extensions for cloud - kernel modules, system calls for cloud rather than at application level high up the stack with :
-	3.1 		Config file support
-	3.2 		Psuedorandom Generator Based Loadbalancer
-	3.3 		Kernel space remote execution
-	3.4 		User space remote execution with kernel upcall and pthread creation of userspace library function or executable
-	3.5 		Example unit test cases
-	3.6 		Usermode output redirected logging feature for Kernel upcall to Userspace
-	3.7 		Intermodule Function Invocation in Kernel Space - through which any machine on cloud can be completely remote-controlled deep upto board and hardware cards through function names or commands sent through virgo_clone() calls.
-        3.8 CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
-        3.9 Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
-        3.10 Queueing Driver - that implements a wrapper over linux concurrent managed workqueue (CMWQ) and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
-        3.11 VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
-        3.12 All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
-        3.13 A config driver - for exporting config symbols 
-        3.14 Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
-        3.15 Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
-        3.16 Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
-        3.17 From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
-        3.18 Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
-        3.19 Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
-       3.20      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
-       3.21 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
-       3.22     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
-	3.23     64 bit version of VIRGO Linux kernel based on mainline 4.13.3 kernel (in a separate repository) is in separate repository and has been found to be better performing and stabler than VIRGO 32bit. 
-	3.24    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch – VIRGO_KTLS.
-	3.25   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
-	3.26 Kernel Analytics powered PXRC Flight Controller Driver – Kernel support pxrc flight controller driver from 4.17. Changed PXRC driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
-	3.27 Kernel Analytics powered UVC Video Driver – Changed UVC Video driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
-	3.28 Read-Copy-Update in userspace - usecase (in GRAFIT) – wraps VIRGO System calls
-	3.29 Software Transactional Memory in userspace – Lockfree datastructures – usecase (in GRAFIT) – wraps VIRGO system calls
+	3.243 		Config file support
+	3.244 		Psuedorandom Generator Based Loadbalancer
+	3.245 		Kernel space remote execution
+	3.246 		User space remote execution with kernel upcall and pthread creation of userspace library function or executable
+	3.247 		Example unit test cases
+	3.248 		Usermode output redirected logging feature for Kernel upcall to Userspace
+	3.249 		Intermodule Function Invocation in Kernel Space - through which any machine on cloud can be completely remote-controlled deep upto board and hardware cards through function names or commands sent through virgo_clone() calls.
+	3.250			CPU Pooling Driver and virgo_clone system call – Multi-kernel-threaded VIRGO cloudexec Kernel Driver Module for unrestricted service of virgo_clone or other client requests.
+	3.251			Memory Pooling Driver (and a key-value store)  and system calls userspace clients for it on Cloud nodes – virgo_malloc,  virgo_get, virgo_set, virgo_free.
+	3.252			Queueing Driver - that implements a wrapper over linux concurrent managed workqueue (CMWQ) and also a native local queue - used for KingCobra requests queuing with handler invocation. Also implemented is a standalone kernel queueing service that listens on requests rather than being forwarded by CPU and Memory pooling drivers above.
+	3.253			VIRGO Cloud File Systems Driver and system calls - implements  distributed cloud file system calls and telnet userspace clients for  – virgo_open, virgo_close, virgo_read and virgo_write of a file on remote cloud node
+	3.254		All the drivers above for CPU, Memory and File System on cloud have 3 paths each for telnet connection to remote driver kernel server socket and system call connection to remote driver kernel server socket – 1) parameter is executable in userspace 2) parameter is a function name which uses a kernel upcall plugin to execute in userspace 3) parameter is a function name executable in kernel space – configured by a boolean flag with in the driver binaries. Based on this flag either kernel upcall to userspace or kernel intermodule invocation is done.
+	3.255		A config driver - for exporting config symbols 
+	3.256		Experimental Bakery algorithm kernel module implementation – for synchronization in cloud
+	3.257		Utilities driver kernel module – a universal kernel module with exported utility function symbols that can be invoked across VIRGO Linux subsystems and Linux kernel including EvenNet logging kernel socket client and skbuff kernel socket debugger.
+	3.258		Experimental EventNet driver kernel service module – This listens on incoming EventNet log messages (Vertex and Edge) and writes to EventNet Vertex and Edge text files by VFS write. These files can then be massively processed by the boost::graph or pygraph GraphViz code in AsFer to create DOT files and graphics. Event vertices and edges can be logged by virgo_eventnet_log() utility function from any kernel module on any VIRGO cloud node.
+	3.259		From the above EventNet graph, a logical time ordering can be obtained on the cloud events and partakers which is for example useful in establishing money trail in KingCobra MAC eletronic money.
+	3.260		Kernel Analytics Kernel Module – reads the config key-value pairs set by AsFer or any other machine learning software and exports them which can be looked-up in any other kernel module. The key-value config are analytics variables learnt by mining kernel or other logs and objects. With this an adaptive dynamic kernel which changes over a period of time depending on a machine learnt config is obtained. At present an Apache Spark usecase which mines kern.log and exports a config variable through kernel_analytics has been implemented.
+	3.261		Thus VIRGO has all the requisite minimum functionalities for a linux variant cloud, artificially intelligent, operating system
+       3.262      SATURN Program Analysis Module – Intercepts linux build and extracts program analysis data in trees. SATURN logs are analyzable by AsFer (e.g null pointers, aliasing, memory etc.,).
+       3.263 	   VIRGO is suitable for analytics driven embedded systems e.g kernelspace IoT
+       3.264     VIRGO KTLS config kernel module – only in VIRGO_KTLS branch of VIRGO64 repositories
+	3.265     64 bit version of VIRGO Linux kernel based on mainline 4.13.3 kernel (in a separate repository) is in separate repository and has been found to be better performing and stabler than VIRGO 32bit. 
+	3.266    VIRGO 64-bit has lot of random panics related resolutions related mostly to i915, CIFS drivers and SMB security. Though functionally similar to 32 bit VIRGO linux, 64 bit kernel is suited for large RAM installations, with CPU level security features and faster than 32 bit binaries. 4.13.3 kernel also supports Kernel Transport Layer Security (KTLS). VIRGO64 repositories implement KTLS setsockopt() in a separate branch – VIRGO_KTLS.
+	3.267   Streaming kernel analytics in VIRGO64 – for live reading of stream of analytic variable-value pairs from remote cloud node over network in kernel_analytics module and exporting them as global symbols in local cloud node kernel. Requires a webservice creating a stream of key-value analytics learnt from a dataset. Presently implemented only in VIRGO64
+	3.268 Kernel Analytics powered PXRC Flight Controller Driver – Kernel support pxrc flight controller driver from 4.17. Changed PXRC driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
+	3.269 Kernel Analytics powered UVC Video Driver – Changed UVC Video driver in kernel 5.1.4 has been committed to VIRGO64 repositories which imports kernel analytics variables exported by kernel_analytics driver in VIRGO64.
+	3.270 Read-Copy-Update in userspace - usecase (in GRAFIT) – wraps VIRGO System calls
+	3.271 Software Transactional Memory in userspace – Lockfree datastructures – usecase (in GRAFIT) – wraps VIRGO system calls
 
 VIRGO enables viewing entire cloud as a single “logical machine” upto hardware level with machine learning support by implementing lowlevel primitives that can be invoked by highlevel cloud OS components viz., OpenStack Neutron. This differentiates from other cloud libraries which are in userspace mostly. AstroInfer together with KernelAnalytics-VIRGO-USBmd-KingCobra make it a Cloud OS kernel with Machine Learning and Analytics abilities. Support for  mobile operating systems in cloud are, among other things, long term goals for VIRGO. 
 (Latest NeuronRain VIRGO research version Code at sourceforge repositories: https://sourceforge.net/projects/virgo-linux/ , https://sourceforge.net/projects/virgo64-linux/ and periodically updated Design details at: https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virgo-docs/VirgoDesign.txt ,  http://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/virgo-docs/VirgoDesign.txt)
@@ -535,16 +535,16 @@ VIRGO enables viewing entire cloud as a single “logical machine” upto hardwa
 Design started in 2008. 
 
 4.  NEURONRAIN - USBmd- Linux kernel USB device driver module for debugging and network analytics  :
-	4.1 Contains a modified version of Linux kernel mainline USB and USBWWAN broadband modem drivers with debug statements and functions that capture and dump data transfer buffers in kern.logs. 
-	4.2 These logs are parsed and processed with Apache Spark and other AsFer machine learning algorithms (e.g Streaming Algorithm implementations) to create a debug and traffic analytics for in and out data – a typical software analytics usecase with widespread necessity in anti-cybercrime, anti-theft and anti-virus products
-	4.3 Mainline USB drivers (USBWWAN, USB serial, USB storage) instrumented with debug statements in URB related functions
-	4.4 Apache Spark Python MapReduce Log Analyzer for kern.log – extracts patterns in USB requests and wireless LAN traffic. By enabling Kernel Address Sanitizer in linux kernel 4.10.3 64 bit code and Spark ETL, USB related kernel function invocations have been profiled.
-	4.5 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
-	4.6 USBmon and Ftrace kernel utility support for analyzing USB interface traffic and kernel functions invocation graph logs
-	4.7 This USB analyzer complements the Program Analysis - Software Analytics module in AstroInfer (for userspace applications) analyzing kernelspace function call graph and network activity among others
-	4.8 tcpdump and wireshark pcap format WLAN logs can also be analyzed by Spark Analyzer for regular expression patterns
-	4.9 Ftrace kernel function call graphs are written to a DOT file and analyzable by any Subgraph Miner
-	4.10 Ftrace call graphs have been analyzed by NetworkX for PageRank and Degree Centrality measures which provide insight into most active code in kernel for an executable
+	4.272 Contains a modified version of Linux kernel mainline USB and USBWWAN broadband modem drivers with debug statements and functions that capture and dump data transfer buffers in kern.logs. 
+	4.273 These logs are parsed and processed with Apache Spark and other AsFer machine learning algorithms (e.g Streaming Algorithm implementations) to create a debug and traffic analytics for in and out data – a typical software analytics usecase with widespread necessity in anti-cybercrime, anti-theft and anti-virus products
+	4.274 Mainline USB drivers (USBWWAN, USB serial, USB storage) instrumented with debug statements in URB related functions
+	4.275 Apache Spark Python MapReduce Log Analyzer for kern.log – extracts patterns in USB requests and wireless LAN traffic. By enabling Kernel Address Sanitizer in linux kernel 4.10.3 64 bit code and Spark ETL, USB related kernel function invocations have been profiled.
+	4.276 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
+	4.277 USBmon and Ftrace kernel utility support for analyzing USB interface traffic and kernel functions invocation graph logs
+	4.278 This USB analyzer complements the Program Analysis - Software Analytics module in AstroInfer (for userspace applications) analyzing kernelspace function call graph and network activity among others
+	4.279 tcpdump and wireshark pcap format WLAN logs can also be analyzed by Spark Analyzer for regular expression patterns
+	4.280 Ftrace kernel function call graphs are written to a DOT file and analyzable by any Subgraph Miner
+	4.281 Ftrace call graphs have been analyzed by NetworkX for PageRank and Degree Centrality measures which provide insight into most active code in kernel for an executable
 
 (Latest NeuronRain USBmd research version Code at sourceforge repositories: https://sourceforge.net/p/usb-md/ , https://sourceforge.net/p/usb-md64/code/ci/master/tree/ and periodically updated Design Details at:
 https://sourceforge.net/p/usb-md64/code/ci/master/tree/USBmd_notes.txt,
@@ -559,13 +559,13 @@ http://sourceforge.net/p/usb-md/code-0/HEAD/tree/USBmd_notes.txt )
 (NeuronRain KingCobra enterprise version sourceforge Repositories -  https://github.com/shrinivaasanka/kingcobra-github-code , https://github.com/shrinivaasanka/kingcobra64-github-code and periodically updated design notes at https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt,  https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/KingCobraDesignNotes.txt)
 
 Implements a minimal kernelspace and userspace messaging framework using VIRGO cpupooling (virgo_clone) and memory pooling drivers that in turn queues the requests into a kernel workqueue. There is also a standalone VIRGO queue kernel service that listens on the requests without dependencies on VIRGO cpupooling and memorypooling drivers to forward the requests. The VIRGO workqueue handler pops the request from workqueue and invokes KingCobra driver's servicerequest exported function and replies to the publisher and optionally disk persists the incoming requests to filesystem through VFS. Differentiator is KingCobra implements a cloud messaging with a decentralized queue with disk persistence and workflow in kernel level so that hardware is easily integrated into cloud:
-	5.1 Linux Kernel workqueue based kernelspace pub-sub kernel module - Receives Messages from VIRGO Queuing 
-	5.2 Atomic Cloud Move for Neuro (Message As Currency) electronic money is implemented In AsFer in C++ client-server perfect forwarding (overloaded std::move() and std::forward()) 
-	5.3 Userspace JMS pub-sub client-server
-	5.4 Pricing – CVXPY implementation - Eisenberg-Gale Market Equilibrium Convex Optimization for finding Market Clearing Prices for Goods and Services. Replacing Prices by Perceived Merit translates Market Equilibrium to Intrinsic Merit Versus Perceived Ranking Equilibrium.
-	5.5 Disk persistence of Request-Reply queues.
-	5.6 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
-	5.7 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
+	5.282 Linux Kernel workqueue based kernelspace pub-sub kernel module - Receives Messages from VIRGO Queuing 
+	5.283 Atomic Cloud Move for Neuro (Message As Currency) electronic money is implemented In AsFer in C++ client-server perfect forwarding (overloaded std::move() and std::forward()) 
+	5.284 Userspace JMS pub-sub client-server
+	5.285 Pricing – CVXPY implementation - Eisenberg-Gale Market Equilibrium Convex Optimization for finding Market Clearing Prices for Goods and Services. Replacing Prices by Perceived Merit translates Market Equilibrium to Intrinsic Merit Versus Perceived Ranking Equilibrium.
+	5.286 Disk persistence of Request-Reply queues.
+	5.287 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
+	5.288 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
 
 
 

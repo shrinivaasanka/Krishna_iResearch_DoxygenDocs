@@ -418,13 +418,13 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.174  People Analytics – Election Analytics – Set Partition Electronic Voting Machine Streaming analytics by Histogram distance measures
 	2.175  People Analytics - Drone Electronic Voting Machine - JSON persistence of EVMs - Datasource for Voting Analytics
 	2.176  People Analytics - Drone Electronic Voting Machine - Pseudorandom Majority Voting Balls-Bins Simulation and Voting Analytics
-	2.177  Set Partition Analytics - Set Partition to Tile Cover Reduction by Computational Geometric Factorization - Least Squares Approximate Solution for the underdetermined linear equations
+	2.177  Set Partition Analytics - Set Partition to Tile Cover Reduction by Computational Geometric Factorization - Least Squares Approximate Solution (LSMR) for the underdetermined linear equations
 	2.178  Apart from AstroInfer repositories, GRAFIT course materials have some pedagogical analytics: Async IO (suitable for Drones) and cloud implementations based on Python Spark MLLib - Advertisement Analytics by PageRank and Collaborative Filtering, PrefixSpan Astronomical Analytics of Celestial bodies, FPGrowth frequent itemset analytics for OS Scheduler and a design of Earliest Deadline First Worst Case Execution Time OS Scheduler – AstroInfer codebase might import these cloud implementations
 	2.179 People Analytics – Election Analytics - Drone Electronic Voting Machine - Streaming Boyer-Moore Majority voting
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+ and 2000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063 bits) – randomly chosen, smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+, 2000+, 4000+, 18000+  and  20000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063, 4960, 18178, 18181, 20437 bits) – randomly chosen, smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -489,6 +489,7 @@ repository
 	2.240 Recursive Lambda Function Growth EventNet GEM - 2 different research articles collated
 	2.241 Digital Watermarking for both Image and Video by CV2 overlay
 	2.242 ThoughtNet Evocation of Thought Hyperedges by Set Intersection of Hypervertices
+	2.289 Set Partition Analytics - Set Partition to Tile Cover Reduction by Computational Geometric Factorization – CVXOPT GLPK Integer Linear Programming Exact Solution for the underdetermined linear equations
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

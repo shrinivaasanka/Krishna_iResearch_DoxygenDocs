@@ -345,6 +345,7 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 		58.3 Simulating BSP+PRAM in MapReduce - https://www.cs.utah.edu/~jeffp/teaching/cs7960/L18-MR-simulate.pdf
 		58.4 Complexity Measures for Map-Reduce and Comparison to Parallel Computing - https://users.cs.duke.edu/~kamesh/mapreduce.pdf
 	59. Almost all Autonomous Drone Delivery Problems including Drone Electronic Voting Machines, Online Shopping Delivery, Autonomous Combat Drone Swarms are NP-Complete which have to navigate along Hamiltonians optimally on surface and aerial transportation graphs.
+        60. Two Set Partitions are classified as Complementary Partitions or Connected Partitions if their least upperbound is the unpartitioned set - https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1988.0018 . There is another definition of Category Theoretic Complementary Set Partitions which finds use in Deep Learning Recommender Systems and Computational advertising - https://arxiv.org/pdf/1909.02107.pdf - each pair of elements of partitioned set S are distinguished (present in different equivalence classes of partition sets) by atleast one partition. Conjugate Partitions are kind of complementary set partitions whose Ferrer Diagrams are inverted along diagonal (rows and columns of Ferrer Diagram are interchanged) - https://en.wikipedia.org/wiki/Partition_(number_theory)#Conjugate_and_self-conjugate_partitions.
 
 **What are some unusual applications of Factorization implemented in NeuronRain?**
 

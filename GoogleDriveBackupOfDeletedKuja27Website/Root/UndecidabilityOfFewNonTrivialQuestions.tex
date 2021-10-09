@@ -1,0 +1,144 @@
+\documentclass[11pt,onecolumn]{article}
+\author{ Ka.Shrinivaasan (ka.shrinivaasan@gmail.com) }
+\title{Few Non-trivial Questions and Shell Turing Machines}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{abstract}
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+\maketitle
+\begin{onecolabstract}
+In this article a fundamental philosophical question about nature of reality is raised and a new theory of Shell Turing Machines with dimensions is proposed to explain this phenomenon of reality and its multiple levels.Also a theory of an all pervasive Shell Turing Machine named Field Turing Machine is introduced (different from Universal Turing Machine) and few outstanding mundane questions about nature are shown to be undecidable by applying constructions based on Field Turing Machine.
+\end{onecolabstract}
+\section{Intoduction}
+Right from the beginning of creation, there has been a persistent debate on some deep questions about reality and search for answers to them. Thus if we consider the mundane philosophical questions - like "Does God exist?", "Are there physics experiments which lead to all possible truths in the universe?" - a conceptual abstraction is proposed based on Turing Machines to formulate these questions as special cases of a generalized fundamental question and its undecidability is proven(which places a theoretical limitation on mankind's ability to answer them).The physical reality is limited by spacetime dimensions. For example an object on 2-dimension has less knowledge and information than an object on 3-dimension with volume being a distinguishing factor. In this article an effort is made to generalize the concept of dimensions (as not just restricted to spacetime) and integrate that into Turing machines and apply this to answer fundamental questions.
+
+\section{Few Definitions Associated With Shell Turing Machine}
+
+\begin{defn}
+We define a logical dimension as any new variable that adds knowledge to an existing algorithm (or) algorithm gets more computational power and emits more knowledge when this dimension is added to existing set of dimensions. 
+\end{defn}
+
+\begin{defn}
+Let us define a Shell $TM(Q,\Sigma,\Gamma,\delta,q_{0},q_{accept},q_{reject},n)$ where first 7 parameters of the tuple have usual meaning from traditional turing machine and the eighth parameter is the maximum dimension this TM can transition to. Letus denote it TM(n). Simply $TM(n)$ operates in a maximum logical dimension n where a turing machine TM is value-added with a dimension n as an additional parameter and a limited knowledge domain determined by the dimension(as described by previous definition).This Shell Turing Machine has transitions across these n dimensions and any transition takes additional parameter of dimension .For example  a state transition can be <state1, tapeinput1, dimension1> to <state2, left(or)right, dimension2> which means that on input1 the TM moves from state1 of dimension1 to state2 of dimension2 in addition to moving left or right  on tape.A Shell Turing Machine of dimension $X$ has more computing power than a Shell Turing Machine of dimension $X-1$
+\end{defn}
+
+\begin{defn}
+We define Reality as a set of entities and their interactions and events happening within a maximum box universe of logical dimension N (which is not engulfed by another box universe and there is no $M > N$)
+\end{defn}
+
+\begin{defn}
+We define Unreality as a set of entities and their interactions and events happening within a box universe of logical dimension P (which can be engulfed by another box universe and there is some $M > P$). Important thing to note is that we realize that something is unreal only if we exit the Unreality and events in Unreality can only be observed and not written-to by a universe in which unreality is embedded.(Example: waking up from a dream). Thus we can rephrase Unreality as a Reality in a lower logical dimension.
+\end{defn}
+
+\begin{defn}
+Let us define Unreal reality as a set of entities and events involving those entities which is real in some universe(or)context of lower dimension but unreal in some other universe(or)context of higher dimension 
+\end{defn}
+
+\begin{defn}
+Let us define Real unreality as a set of entities and events involving those entities which is unreal in some universe(or)context of higher dimension but real in some other universe(or)context of lower dimension
+\end{defn}
+
+\section{Some examples}
+\begin{enumerate}
+\item A colloquial reallife example: If we consider a movie as a shell, the sequence of events in a movie can be encoded by  turing machine states and same physical laws apply. But the audience of the movie which can be encoded as another turing machine cannot interact with the movie turing machine(movie turing machine is read-only). Thus we have a pseudoreality embedded within a reality. Extrapolating this, a movie within a movie is a pseudopseudoreality and so on. We can say that a movie turing machine is enacted in a universe of logical dimension of atleast 1 less than the reality turing machine. 
+
+\item Another example: When two mirrors are facing each other, we see an avalanche of mirror embedded  within mirror embedded within mirror and so on, on each physical mirror.
+\end{enumerate}
+
+
+
+\section{Paradox or is it?}
+
+We now ask a question which is an etymological paradox (might sound as an erroneous sentence on first read) and try to answer:
+\begin{equation}
+Real \quad Unreality \quad and \quad Unreal \quad Reality: \quad are \quad these \quad two \quad equal?
+\end{equation}
+
+\section{Reality and Unreality - viewed through a thought experiment}
+\begin{enumerate}
+\item Let us consider a thought experiment to demonstrate above paradox:
+The real life events of a family are videographed and streamed in real-time on to a TV set. Thus TV plays the events in realtime as they happen in reallife (The mirror experiment above can be related to this).Thus same events(or)algorithm are enacted in both reallife and by the TV. TV has a logical dimension atleast 1 less than the physical reality. Physical reality is represented by a Shell turing machine $TM_{1}(N)$ and the movie turing machine(which can be thought of as TV in this example) is represented by a Shell turing machine $TM_{2}(P)$ where $N >= P+1$
+
+\item An Example of Unreal reality: above realtime movie is real for the characters within the movie turing machine universe but unreal in audience turing machine. Thus it is real yet unreal though both enact same events (simultaneously almost). Here direction of perception of events is from a higher dimension to a lower dimension.
+
+\item An Example of Real unreality: above realtime movie is unreal for audience turing machine but real for the characters inside the movie turing machine. Thus it is unreal yet real though both enact same events(simultaneously almost).Here direction of perception of events is from lower dimension to higher dimension.
+
+\item Thus we get a tree of shell turing machines where shell of dimension n is a parent of shells of dimension n-1
+
+
+\item Now we can frame the paradox with logical dimension information as,
+\begin{quote}
+Is Real(S) Unreality(P) equal to Unreal(Q) Reality(R)?
+\end{quote}
+where S,P,Q and R are logical dimensions. Thus from above description of some examples real unreality and unreal reality and assuming execution of the same algorithm across dimensions we formalize this as giving a turing machine encoding  as input to the same turing machine and stratify the reality by dimensional information. Important to note here is that we have separated a same Turing Machine executing same algorithm into two Turing Machines $TM_{1}(X)$ and $TM_{2}(Y)$ but differing only in their dimensions X and Y ($X \geq Y$).
+\end{enumerate}
+
+\section{What is Equality of Real Unreality and Unreal Reality?}
+
+Question of equality loses its meaning unless dimensions and algorithm executed by the two Turing Machines are spelt out clearly and depends on definition of equality
+\begin{enumerate}
+\item If we define equality as whether two turing machines execute same algorithm then they are equal .
+\item If we define equality as whether two turing machines have same logical dimensions (despite executing same algorithm) then they are unequal. Thus the question depends on definition of equality. 
+\end{enumerate}
+
+\section{Conclusion on above question}
+
+Real unreality and unreal reality and their equality depend on dimensional information and on definition of equality. Thus the paradox above gives an insight into stratification of Reality
+
+
+\section{Definition and a Hypothesis of a Field Turing Machine}
+\begin{defn} We define a Primordial Field Turing Machine(a special Shell Turing Machine) as a non-deterministic
+\begin{enumerate}
+\item Turing machine which enshrines all possible algorithms(or knowledge) in itself and pervades beyond them. 
+\item Turing machine which exists in multiple dimensions as per the definitions of  Shell Turing Machines (discussed previously) and can have transitions in all those dimensions.It is also the turing machine of maximum possible dimension.
+\item Turing machine which can create descendant Turing Machines(who themselves can create descendants and create a tree of turing machines) and every descendant Turing machine has a set of "freewill" state transitions that interact with other turing machines where extent of "freewill" is decided by its dimension.Every turing machine descending from Field turing machine has transitions in dimensions always less than the maximum dimension of the Field Turing Machine. 
+\item Turing machine whose configuration graph is a superset of union of configuration graphs of all possible turing machines i.e $configGraph(FieldTM) \supset \cup_{i} configGraph(TM_{i})$.
+\item Turing machine which judges the descendant turing machines on their freewill transitions and rates them on how these freewill state transitions interfere with the freewill transitions of other descendant turing machines i.e freedom of a turing machine ends where the freedom of other turing machine starts. Based on this rating Turing machines are promoted or depromoted to higher or lower dimensions respectively by the Field Turing Machine. Descendant Turing machines gain(or experience) more knowledge by their interaction  with other Turing machines through "freewill" transitions(more discussion on this is given later).
+\item Turing machine whose configuration graph can be thought of as a multi-planar graph where each plane corresponds to a logical dimension. Thus a subgraph representing a descendant turing machine can have a transition from a state s1 in lower plane of the configuration graph to a state s2 in higher plane of the configuration and there can be state transitions from s2 to all nodes in a larger subgraph of lower plane of the field turing machine. Stated otherwise, a transition to a higher dimension increases the "visibility" or "accessibility to greater knowledge"
+\end{enumerate}
+\end{defn}
+
+\section {Knowledge gained by freewill interactions}
+Knowledge gained by descendant Turing machines through freewill interactions is directly proportional to already inherent knowledge in the Turing machines and to the extent of freewill interactions. To put it otherwise, $Knowledge of a TuringMachine = {IntrinsicKnowledgeOfTuringMachine}*e^{NoOfFreewillInteractions}$
+\section{Question by a descendant turing machine}
+A descendant turing machine "asks" for a proof of the existence or non-existence of Field turing machine. Is this problem decidable? As an example a turing machine operating on 2 dimensional space tries to prove or disprove the existence of 3rd dimension which is,for example,volume. [Another analogy is a tree of unix shells where the root shell creates a tree of sub shells each with their own environment variables. A parent shell has the choice of exporting its variables to its descendant shells. Now one of the descendant shells tries to prove the existence or non-existence of its ancestors without any additional information provided to it. Suppose there exists a turing machine which proves or disproves the existence of ancestor shell. Is this problem decidable? An algorithm operating at dimension x will output that there is no ancestoral shell turing machine to shell S. An algorithm or Turing machine T at dimension x+1 will output that there is a descendant shell S with dimension x. Thus a contradiction is reached. So there is no turing machine to prove the existence or non-existence of an ancestor (e.g Field turing machine) turing machine.]
+
+By above definition of Field Turing Machine, we can think of the field turing machine's configuration graph as the superset of union of configuration graphs of all possible turing machines. Thus every descendant turing machine's configuration graph is a subgraph of a giant infinite configuration graph of field turing machine. Thus if there exists a turing machine which answers the question "Does a field turing machine,which overlords all turing machines, exist?" then such question is equivalent to asking "Is the configuration graph of this turing machine a subgraph of an all-pervading turing machine's configuration graph?". To answer this question the turing machine 1) should take as input all configuration graphs of all possible turing machines and aggregate them to get the approximate configuration graph of field turing machine(approximate because the field turing machine might have transitions in higher dimensions not reachable and beyond this union) and 2) as next step test if the configuration graph of this Turing machine is a subset of configuration graph of Field Turing Machine. 
+\begin{theorem}
+Total number of possible turing machines, of same dimension n, is infinite.
+\end{theorem}
+\begin{proof}
+Given a turing machine $TM_{1}(n)$ of  dimension n as input construct a new turing machine $TM_{2}(n)$ whose start state transitions to the start state of input turing machine and end state of  the input turing machine has a transition to the end state of the new turing machine. Thus this construction churns out countably infinite turing machines - with some similarity to cantor set and godel numbering).  
+\end{proof}
+Hence this turing machine might loop (recursively enumerable) and never halt on the input thereby making the subset question undecidable. Moreover such a Turing Machine can enumerate configuration graphs of Turing machines of dimensions less than or equal to n. This Turing machine cannot enumerate configuration graphs of Turing machines of dimensions greater than n (since it is prohibited by definition of Field Turing Machine above)
+
+Alternatively, each turing machine in the union above can have transitions in multiple dimensions. Since  the field turing machine by definition has the greatest dimension, a turing machine (with a lower dimension) which asks and answers the question "is this configuration graph of TM a subgraph of Field Turing Machine's configuration graph?" would obviously have no transitions in higher dimensions than itself and is thus an impossibility, ruling out this TM.
+Thus questions like "Does God exist?", "Are there physics experiments which lead to all possible truths in the universe?" are undecidable and they can be described as special cases of above. This is because Field  turing machine can be thought of as a theoretical definition of a Supereme Being and any entity asking the question is a descendant turing machine. This is not a circular reasoning due to the fact that the very definition of Field Turing Machine obstructs the paths to proving it since any algorithm answering it should consider all possible turing machines and should have the ability to transition to all possible dimensions. Since the definition of Field Turing Machine theorizes that FTM has dimension always greater than any of the descendant turing machines, any descendant turing machine which has a lower dimension than Field Turing Machine is thus prohibited from a state transition that would lead it to the proof of existence or non-existence. Thus Shell Turing Machines are a valuable construct to answer this question. Thus a theoretical limit is placed on ability to answer certain non-trivial questions as above. Above informal argument is formalized in theorem below.
+\begin{theorem}
+A statement provable by a shell turing machine of dimension M cannot be proved by a shell turing machine of dimension N where $M > N$
+\end{theorem}
+\begin{proof}
+An mathematical or scientific proof of a theorem or hypothesis is a sequence of logical implications like $s1 \Rightarrow s2 \Rightarrow s3 ...\Rightarrow sn$ where s1,s2,... are the statements of the proof. If this shell turing machine works in a maximum of N dimensions then each of these n statements is a function of at most N dimension. If on the contrary some statement is a function of more than N dimension then that statement does not belong to a Turing machine of N dimension and is unprovable within N dimensions and should belong to a turing machine of more than N dimensions. 
+\end{proof}
+\section{Acknowledgement}
+I dedicate this article to God.
+
+\section{Bibliography}
+\begin{thebibliography}{99}
+\bibitem{pa} Inspired by a Hindu religious philosophy of Maya where every participatory being in Maya thinks that Maya is real but the Supreme Soul outside the Maya enacts the Maya and thus has more dimensions than the Maya itself not realizable by beings part of Maya and liberation from Maya is called Moksha
+\bibitem{pa} Inspired by Turing's Halting problem undecidability result -particularly the gadget used for it which inputs an encoding of a Turing Machine to the same Turing Machine
+\bibitem{pa} Einstein's quote: A problem cannot be solved by same level of thinking that created it
+\bibitem{pa} Complexity theory - Sanjeev arora and Boaz Barak
+\bibitem{pa} Theory of computation - Michael Sipser
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,62 @@
+\documentclass[11pt,onecolumn]{article}
+\author{ Ka.Shrinivaasan (ka.shrinivaasan@gmail.com) }
+\title{Interview Algorithm is in IP=PSPACE}
+\usepackage[T1]{fontenc}
+\usepackage{ucs}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[pdftex]{color,graphicx}
+\usepackage{abstract}
+\newtheorem{defn}{Definition}
+\newtheorem{theorem}{Theorem}
+\begin{document}
+\thispagestyle{empty}
+\pagestyle{empty}
+\maketitle
+\begin{onecolabstract}
+This article is a short follow-up to the Interview Algorithm published earlier. An attempt is made to perceive interview with a complexity theory spectacle. Interview is mapped to Arthur-Merlin class of languages and its generalization as interactive proof class (IP) through a reduction. Moreover Interview algorithm is executed on a probabilistic turing machine allowing a bounded error probability.
+\end{onecolabstract}
+
+\section{Introduction}
+
+Article 1) defined a concept of interview and presented  an algorithm for interview of one document by other document through question-answering using some automatically obtained questions or through some preredefined reference questions. This extends 1) by analyzing some interesting complexity theoretic properties of an interview. 
+
+\subsection {Motivation for Interview algorithm (reproduced here for continuity)}
+
+Here we map the real world scenario of an interview being conducted on a candidate where a panel asks questions and judges the candidate based on the quality of answers by candidate - candidate is a document and it is "interviewed" by a reference set of authorities.
+Each document x is interviewed/evaluated by set of reference documents which will decide on the merit of the document x. Reference set initially consists of n user chosen authorities on the subject. Interview is set of queries made by reference set on the document and evaluating the answer to the queries. If x passes the interview it is inducted into reference set. Next document will be interviewed by n+1 documents including last selected document and so on. Hierarchy of interviews can be built. For example Document x interviews documents y and z. Document y interviews w and document z interviews p. Thus we get a tree of interviews (it could be a directed acyclic graph too, if a candidate is interviewed by more than one reference, one of which itself was a candidate earlier). The interview scores can be weighted and summed bottom-up to get the merit of the root (Analogy: hierarchy in an organization).
+
+
+\subsection {Steps of the Interview algorithm}
+
+\begin{enumerate}
+\item Relevance of the document to the reference set is measured by a classifier (NaiveBayesian or SVM or search engine results for a query)
+\item Intrinsic merit score of the document is computed either by Recursive Gloss Overlap algorithm (measures the meaningfulness/sanity of the candidate) (or) by citation digraph
+\item Reference set interviews the candidate and gets the score
+\item Value addition of the candidate document is measured (what extra value candidate brings over and above reference set)
+\item Candidate is inducted into reference set based on the above criteria if candidate is above a threshold.
+\end{enumerate}
+
+\section{Interview Algorithm and Interactive Proofs}
+In complexity theory, Arthur-Merlin or AM is the class of languages with an interactive proof that consists of the verifier sending a random string, the prover responding with a message, and where the decision to accept is obtained by applying a deterministic polynomial-time function to the transcript. The class Merlin-Arthur or MA denotes the class of languages with 2-round public coins (verifier reveals the random string to prover) interactive proof with the prover sending the first message. Interactive Proof or IP class introduces polynomial rounds of Prover-Verifier transcripts. Both Public-coins and Private-coins are being used depending on whether verifier reveals everything to prover or not with not too much of difference in computing power. By intuition there is a notable similarity between Interview Algorithm above which operates on question-answering and Interactive Proofs.
+
+\section{Interview algorithm is in IP=PSAPCE - proof by reduction}
+Formalizing the above intuitive similarity, we can map a prover to the interviewee document and verifier to the interviewer document. If interview algorithm in 1) is relaxed to allow a probabilistic turing machine executing the interview, then by soundness, verifier(interviewer) accepts the prover's(interviewee) right answer by probability of atleast 2/3 and by completeness, verfier(interviewer) accepts the prover's(interviewee) wrong answer by probability of not more than 1/3. Thus interview algorithm gets less stringent. We assume that Interview algorithm has polynomial rounds.The interview transcript is evaluated by a polytime function which decides on accepting or rejecting the candidate document. Thus we have obtained a reduction from Interactive Proof to Interview algorithm which is executed by a probabilistic turing machine. By this reduction Interview algorithm has been shown to be in IP=PSPACE. This can also be proved to be PSPACE-hard by turing reduction from a PSPACE-complete problem. For example an interview can be represented by a totally quantified boolean formula (TQBF) written as 
+\begin{equation}
+\forall question_{1} \quad \exists  answer_{1} \quad \forall question_{2} \quad \exists answer_{2}......
+\end{equation}
+and the formula is satisfied based on correctness of answers to the questions
+
+\section{Acknowledgement}
+I dedicate this article to God.
+
+\section{Bibliography}
+\begin{thebibliography}{99}
+\bibitem{pa} Few Algorithms for ascertaining merit of a document - http://arxiv.org/pdf/1006.4458.pdf
+\bibitem{pa} TAC 2010 Update summarization by Interview Algorithm $(http://www.nist.gov/tac/publications/2010/appendices/Summarization/guided/CMI_IIT.pdf)$
+\bibitem{pa} Complexity theory by Sanjeev Arora and Boaz Barak
+\end{thebibliography}
+\end{document}

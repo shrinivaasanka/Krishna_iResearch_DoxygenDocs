@@ -18,7 +18,8 @@ NeuronRain repositories are in:
 	(*) NeuronRain Research - http://sourceforge.net/users/ka_shrinivaasan - astronomy datasets
 
 	(*) NeuronRain Green - https://github.com/shrinivaasanka - generic datasets
-	(replicated in https://gitlab.com/shrinivaasanka)
+	
+        (*) NeuronRain Antariksh -  https://gitlab.com/shrinivaasanka - Drone development
 
 NeuronRain Documentation Repositories:
 --------------------------------------
@@ -131,7 +132,7 @@ KingCobra - https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Green - GitLab - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Antariksh - GitLab - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -168,7 +169,7 @@ KingCobra64 - https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDe
 NeuronRain Acadpdrafts - Drafts and Publications:
 -------------------------------------------------
 
-Academic Publications,Preprints and Draft publications of the Author are at:
+Academic Publications,Preprints and Draft publications of the Author are at portal https://acadpdrafts.readthedocs.io (which replaces erstwhile https://sites.google.com/site/kuja27) unifying :
 	(*) publications in https://scholar.google.co.in/citations?hl=en&user=eLZY7CIAAAAJ
 	(*) publication drafts in https://sites.google.com/site/kuja27/ (Deleted and Mirrored at https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/) and
 	(*) publication drafts in https://sourceforge.net/projects/acadpdrafts/files/

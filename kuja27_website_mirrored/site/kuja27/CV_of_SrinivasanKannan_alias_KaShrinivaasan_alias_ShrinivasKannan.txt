@@ -16,16 +16,17 @@ records :		K.Srinivasan (academics, BaaN,Sun
            		Microsystems), Kannan Srinivasan (Sun Microsystems),
 			Srinivasan Kannan (Verizon, Clockwork Interviews, 							CloudEnablers), Shrinivas Kannan(webMethods/SoftwareAG and 
 			CMI), Ka.Shrinivaasan (Global Analytics)
-Personal website(research) :- https://sites.google.com/site/kuja27/
-Krishna iResearch Open Source: https://sourceforge.net/users/ka_shrinivaasan,
-                                          https://github.com/shrinivaasanka									(replicated in https://gitlab.com/shrinivaasanka)
-
+Personal website(research) :- https://acadpdrafts.readthedocs.io
+Krishna iResearch Open Source: 
+https://sourceforge.net/users/ka_shrinivaasan,
+https://github.com/shrinivaasanka,	
+https://gitlab.com/shrinivaasanka
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
 Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
 Brihaspathi GitHub Organization (Private Virtual Classrooms):
 https://github.com/Brihaspathi 
 
-LatexPDF CV: https://sites.google.com/site/kuja27/CV.pdf
+LatexPDF CV: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CV.pdf
 Date of Birth as per records: 19 May 1977 
 Passport: M9583737
 PAN: AOVPS2844F
@@ -58,8 +59,8 @@ PUBLICATIONS
 
 1.(During PhD) Decidability of Existence and Construction of a Complement of a function with Prof.Meena Mahajan, IMSc, 2011
 (http://arxiv.org/abs/1106.4102)
-- Some unreviewed draft additions to the above for Complement Function Circuit and its connection to Riemann Zeta Function, Ramanujan graphs and Ihara Zeta Functions are at: http://sourceforge.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt with some illustrations: https://sites.google.com/site/kuja27/RamanujanGraphsRiemannZetaFunctionAndIharaZetaFunction.pdf?attredirects=0&d=1 and 
-https://sites.google.com/site/kuja27/RZFAndIZF_25October2014.pdf?attredirects=0&d=1
+- Some unreviewed draft additions to the above for Complement Function Circuit and its connection to Riemann Zeta Function, Ramanujan graphs and Ihara Zeta Functions are at: http://sourceforge.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt with some illustrations: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/RamanujanGraphsRiemannZetaFunctionAndIharaZetaFunction.pdf?attredirects=0&d=1 and 
+https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/RZFAndIZF_25October2014.pdf?attredirects=0&d=1
 
 2.(Master's Thesis) Few Algorithms for Ascertaining Merit of a document (Citation graph Maxflow, Recursive Gloss Overlap Algorithm and Interview algorithm applying either of the previous two with applications of them) with Profs. Ravindran(IIT Chennai) and Madhavan Mukund (CMI) in 2009-2010 – http://arxiv.org/abs/1006.4458.
 
@@ -70,11 +71,11 @@ http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings
 
 RESEARCH STATEMENTS:
 
-4. Research Statement 1 - https://sites.google.com/site/kuja27/ResearchStatement2.pdf?attredirects=0
+4. Research Statement 1 - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/ResearchStatement2.pdf?attredirects=0
 
-5. Research Statement 2 - with some proof sketches (includes a new timeout manager algorithm implemented in Global Analytics Decision Platform 3.0) - https://sites.google.com/site/kuja27/PhDThesisProposal.pdf?attredirects=0
+5. Research Statement 2 - with some proof sketches (includes a new timeout manager algorithm implemented in Global Analytics Decision Platform 3.0) - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/PhDThesisProposal.pdf?attredirects=0
 
-6. Research Statement 3 – with some proof sketches - https://sites.google.com/site/kuja27/Research_Writeup.pdf?attredirects=0&d=1
+6. Research Statement 3 – with some proof sketches - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/Research_Writeup.pdf?attredirects=0&d=1
 
 
 
@@ -93,35 +94,35 @@ Krishna_iResearch_DoxygenDocs (SourceForge)
 
 Earlier Drafts:
 
-7.(draft1) IntegerPartitions and Hash Functions  (https://sites.google.com/site/kuja27/IntegerPartitionAndHashFunctions.pdf?attredirects=0)
+7.(draft1) IntegerPartitions and Hash Functions  (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/IntegerPartitionAndHashFunctions.pdf?attredirects=0)
 
-8.(draft2) IntegerPartitions and Hash Functions  (https://sites.google.com/site/kuja27/IntegerPartitionAndHashFunctions_2014.pdf?attredirects=0&d=1)
+8.(draft2) IntegerPartitions and Hash Functions  (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/IntegerPartitionAndHashFunctions_2014.pdf?attredirects=0&d=1)
 
-9.(draft1) Interview Algorithm is in IP=PSPACE  (https://sites.google.com/site/kuja27/InterviewAlgorithmInPSPACE.pdf?attredirects=0)
+9.(draft1) Interview Algorithm is in IP=PSPACE  (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/InterviewAlgorithmInPSPACE.pdf?attredirects=0)
 
-10.(draft1) Few Non-trivial questions and Shell Turing Machines (https://sites.google.com/site/kuja27/UndecidabilityOfFewNonTrivialQuestions.pdf?attredirects=0)
+10.(draft1) Few Non-trivial questions and Shell Turing Machines (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/UndecidabilityOfFewNonTrivialQuestions.pdf?attredirects=0)
 
-11. (draft1) Lower Bounds for Majority Voting and Pseudorandom choice -  https://sites.google.com/site/kuja27/LowerBoundsForMajorityVotingPseudorandomChoice.pdf
+11. (draft1) Lower Bounds for Majority Voting and Pseudorandom choice -  https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/LowerBoundsForMajorityVotingPseudorandomChoice.pdf
 
-12. (draft1) Circuits for computation of error probability in majority voting -  https://sites.google.com/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting.pdf
+12. (draft1) Circuits for computation of error probability in majority voting -  https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting.pdf
 
-13. (draft2) Circuits for computation of error probability in majority voting –   https://sites.google.com/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting_2014.pdf
+13. (draft2) Circuits for computation of error probability in majority voting –   https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting_2014.pdf
 
-14. (draft1) Indepth analysis of a variant of Majority Voting with relation to ZFC - https://sites.google.com/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC.pdf?attredirects=0
+14. (draft1) Indepth analysis of a variant of Majority Voting with relation to ZFC - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC.pdf?attredirects=0
 
-15. (draft2) Indepth analysis of a variant of Majority Voting with relation to ZFC - https://sites.google.com/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf?attredirects=0
+15. (draft2) Indepth analysis of a variant of Majority Voting with relation to ZFC - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf?attredirects=0
 
-16.(draft1) A Chaos theoretic Parallel Pseudorandom generator in RNC For Majority Voting and Pseudorandom Choice (https://sites.google.com/site/kuja27/ChaoticPRG.pdf?attredirects=0)
+16.(draft1) A Chaos theoretic Parallel Pseudorandom generator in RNC For Majority Voting and Pseudorandom Choice (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/ChaoticPRG.pdf?attredirects=0)
 
-17. (draft1)  Analysis of a Randomized Space Filling Algorithm and its Linear Program Formulation  (https://sites.google.com/site/kuja27/Analysis%20of%20a%20Randomized%20Space%20Filling%20Algorithm%20and%20its%20Linear%20Program%20Formulation.pdf?attredirects=0)
+17. (draft1)  Analysis of a Randomized Space Filling Algorithm and its Linear Program Formulation  (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/Analysis%20of%20a%20Randomized%20Space%20Filling%20Algorithm%20and%20its%20Linear%20Program%20Formulation.pdf?attredirects=0)
 
 18. (draft2) Analysis of a Randomized Space Filling Algorithm and its Linear Program Formulation (Parallel PRG and Cellular Automaton algorithm) - http://sourceforge.net/p/asfer/code/HEAD/tree/AstroInferDesign.txt
 
-19. (draft1) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization (version 1) - https://sites.google.com/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization.pdf?attredirects=0&d=1
+19. (draft1) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization (version 1) - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization.pdf?attredirects=0&d=1
 
-20. (draft2) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization – with Interpolation Search (version 2) - https://sites.google.com/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_interpolation_search.pdf?attredirects=0&d=1
+20. (draft2) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization – with Interpolation Search (version 2) - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_interpolation_search.pdf?attredirects=0&d=1
 
-21. (draft3) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization – with Interpolation Search (version 3) - https://sites.google.com/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_interpolation_search_30June2013.pdf?attredirects=0&d=1
+21. (draft3) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization – with Interpolation Search (version 3) - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_interpolation_search_30June2013.pdf?attredirects=0&d=1
 
 22. (draft4) Discrete Hyperbolic Polylogarithmic Sieve For Integer Factorization – with Interpolation Search (version 4 and version 5 with handwritten illustrations and calculations) - http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_interpolation_search.pdf/download
 
@@ -142,7 +143,7 @@ http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicFactorizatio
 28. (draft10) Computational Geometric Factorization - An NC algorithm and some Sequential Search Algorithms for Discrete Hyperbolic Polylogarithmic Sieve For Factorization using Binary or Interpolation Search with Stirling Formula and Logarithmic Sorted Tile Merge in PRAM model - updated draft with PRAM to NC reduction and input size details and references - http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound_updateddraft.pdf/download
 
 29. Individual Invention Disclosure for Survival Index Based Transaction Timeout
-Manager (Sun Microsystems) - 2002-2003 https://sites.google.com/site/kuja27/SurvivalIndexBasedTxnTimeoutManager.pdf?attredirects=0
+Manager (Sun Microsystems) - 2002-2003 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/SurvivalIndexBasedTxnTimeoutManager.pdf?attredirects=0
 
 30. AstroInfer (AsFer) Open Source Product Design with theoretical interludes which substantially expand on the publications above -  http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
 
@@ -157,13 +158,13 @@ http://sourceforge.net/projects/acadpdrafts/files/ImplicationGraphsPGoodEquation
 
 35. (draft1) Informal notes - 3 : on Minimum Convex Hulls of Implication Random Growth Networks and Perfect Voter Decidability
 
-36. (draft1) Informal handwritten notes on Philosophical Analysis of Democracy Circuit and Pseudorandom Choice - https://sites.google.com/site/kuja27/PhilosophicalAnalysisOfDemocracyCircuitAndPRGChoice_2014-03-26.pdf
+36. (draft1) Informal handwritten notes on Philosophical Analysis of Democracy Circuit and Pseudorandom Choice - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/PhilosophicalAnalysisOfDemocracyCircuitAndPRGChoice_2014-03-26.pdf
 
-37. (draft1) Informal Handwritten Notes - Distinct Partitions, Hash collision chains and Schur Theorem - https://sites.google.com/site/kuja27/SchurTheoremMCPAndDistinctPartitions_2014-04-17.pdf
+37. (draft1) Informal Handwritten Notes - Distinct Partitions, Hash collision chains and Schur Theorem - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/SchurTheoremMCPAndDistinctPartitions_2014-04-17.pdf
 
-38. (draft1) Document Summarization from WordNet Subgraph obtained by Recursive Gloss Overlap - https://sites.google.com/site/kuja27/DocumentSummarization_using_SpectralGraphTheory_RGOGraph_2014.pdf?attredirects=0&d=1
+38. (draft1) Document Summarization from WordNet Subgraph obtained by Recursive Gloss Overlap - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/DocumentSummarization_using_SpectralGraphTheory_RGOGraph_2014.pdf?attredirects=0&d=1
 
-39. (draft1) Arrow’s Theorem, Circuit For Democracy and Pseudorandom Choice and P Versus NP - https://sites.google.com/site/kuja27/CircuitsForDemocracyAndPseudorandomChoice_and_PVsNP.pdf?attredirects=0&d=1
+39. (draft1) Arrow’s Theorem, Circuit For Democracy and Pseudorandom Choice and P Versus NP - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CircuitsForDemocracyAndPseudorandomChoice_and_PVsNP.pdf?attredirects=0&d=1
 
 
 40. (draft1) Krishna iResearch Open Source Products (AsFer, USBmd, VIRGO, KingCobra, Acadpdrafts) - High Level Handdrawn Architecture Diagram - 
@@ -225,12 +226,12 @@ LANGUAGES/PLATFORMS/TOOLS
 C/C++, Java 1.5-1.8, J2EE, Python, R and rpy2, Haskell, Solaris 6-10, Windows 2000, HP-UX 11.23 (PA-RISC and IA64),AIX, Linux, Sun Studio, CORBA (Visibroker), VAX FORTRAN, VAX VMS, GNU collection, MS Visual Studio .NET C++, WinDbg, DDD, Visual Basic and ASP, OptimizIt, Eclipse, EclipseCDT, Code::Blocks, ActiveState Python, Cython, IDLE, Haskell FP, Insight, GreatCircle, Valgrind, Callgrind, Python Dumbo MapReduce on Hadoop, Python NLTK, Java MapReduce on Hadoop, Apache HBase, Apache Pig, Apache Hive, Apache Cassandra, Apache Mahout, Apache Spark, Pygraphs, GraphViz, DOT, PiCloud, ActiveMQ, RabbitMQ, Pyutilib workflow, PyF workflow, Linux kernel – [3.2.0, 3.7.8, 3.9.x,3.15.5,4.0.5,4.1.5,4.10.3,4.13.3], Maitreya's Dreams 7.0.3, wxWidgets library, Swiss Ephemeris API (based on NASA JPL DE406 Ephemeris), BioInformatics Sequence Alignment Tools (BioPython, ClustalOmega), ROOT(CERN), Geolocation Python API, Beautiful Soup, CRF tools, GATE, SentiWordNet, Stanford CoreNLP, ENT, MongoDB, WEKA, Jinja2,Flask,Cloud related - Corestack, Openstack, Mistral, Jclouds, Libcloud, Docker etc.,Tornado,ZeroMQ,Kafka
 
 
-May 2003 – present – Krishna iResearch (parallel, self-started, not-for-profit, non-funded, open-source long-term research initiative) - https://sourceforge.net/users/ka_shrinivaasan , https://github.com/shrinivaasanka  (replicated in https://gitlab.com/shrinivaasanka)
+May 2003 – present – Krishna iResearch (parallel, self-started, not-for-profit, non-funded, open-source long-term research initiative) - https://sourceforge.net/users/ka_shrinivaasan , https://github.com/shrinivaasanka , https://gitlab.com/shrinivaasanka
 
 Working on Research, Design and Development of open source projects – a machine-
-learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Enterprise version and  SourceForge repositories implement NeuronRain Research version. An introductory presentation on NeuronRain based Analytics is at:
+learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2021#07#02:
+Latest version 2021#10#18:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -244,7 +245,7 @@ Latest version 2021#07#02:
         2.6     String mining - Powerset construction (C++) and String matching implementation in python(Jellyfish distance measures like Jaro-winkler, Edit-distance, Phonetic Matching rate etc.,) and 
         2.7     Parsers and Encoding features for USGS and NOAA HURDAT2 data
         2.8     Automated Generation of Training and Test set for Classifiers that segregate the datasets into Event Classes and Automated generation of encoded astronomical object files specific to each Event Class.
-        2.9     Computational Geometric Factorization - Implementation of Bitonic K-MergeSort of Tiles in Pixelated Hyperbolic Arc (Sequential and PRAM) (for drafts in https://sites.google.com/site/kuja27/) - A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
+        2.9     Computational Geometric Factorization - Implementation of Bitonic K-MergeSort of Tiles in Pixelated Hyperbolic Arc (Sequential and PRAM) (for drafts in https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/) - A Spark-Python-C++ implementation of Parallel NC Factorization has been included which internally executes NC Bitonic tiles Parallel Merge Sort on Spark Cloud.
         2.10     A Concept Hypergraph and HMM(Hidden Markov Model) based Experimental Inference Model Design inspired by Cognitive Psychology – a minimal sentiwordnet evocatives implementation of this sans HMM named ThoughtNet is part of AsFer 
         2.11     Design for extracting patterns from numerical data
         2.12     Time Series Analysis - A Chaos Attractor implementation that generates a sequence of numbers using logistic equation and uses Python and R to compute a correlation coefficient between a non-Chaotic and Chaotic sequence of numbers.
@@ -490,7 +491,13 @@ repository
 	2.241 Digital Watermarking for both Image and Video by CV2 overlay
 	2.242 ThoughtNet Evocation of Thought Hyperedges by Set Intersection of Hypervertices
 	2.289 Set Partition Analytics - Set Partition to Tile Cover Reduction by Computational Geometric Factorization – CVXOPT GLPK Integer Linear Programming Exact Solution for the underdetermined linear equations
-
+	2.290 Merit of Large Scale Visuals - GIS and Urban Sprawl Analytics, CoronaVirus 2019 Analyzer, Histogram Partition Distance Similarity of images
+	2.291 Drone Electronic Voting Machine - Set Partition Analytics electronic_voting_machine() invocation - PX4 SITL JMAVSIM simulation - Geocoding integration for address to longitude-latitude translation 
+	2.292 Drone Electronic Voting Machine - Set Partition Analytics electronic_voting_machine_asynchronous() wrapper definition and invocation - PX4 SITL JMAVSIM simulation - Fictitious address
+	2.293 Drone Online Shopping Delivery - NeuronRainApps - Refactoring for ConvexHull and GIS analytics variables read over
+socket stream 
+	2.294 Set Partition Analytics - Complementary Set Partitions
+	2.295 GIS Urban Sprawl Analytics - NASA VIIRS NightLights Urban Area and Population Estimation 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
@@ -581,18 +588,13 @@ The opensource codebases above are nonprofit academic research efforts. Premium 
 
 
 
-7. NeuronRain GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses based on NeuronRain codebases and Design Documents, Puzzles/Questions from Competitive examinations and miscellaneous topics – non-linear material focusing on Bigdata, Problem solving, Machine Learning, Fundamentals, Programming – Creative Commons 4.0 NCND licensed - includes spillover implementations of other NeuronRain repositories – Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit - GRAFIT course materials (in .zip) are available from Moodle GRAFIT website -https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
-
+7. NeuronRain GRAFIT  Open Learning : https://github.com/shrinivaasanka/Grafit/tree/master/course_material, https://gitlab.com/shrinivaasanka/Grafit, https://sourceforge.net/u/userid-769929/Grafit/ci/master/tree/ – May 2010 – Present –  Free online courses based on NeuronRain codebases and Design Documents, Puzzles/Questions from Competitive examinations and miscellaneous topics – non-linear material focusing on Bigdata, Problem solving, Machine Learning, Fundamentals, Programming – Creative Commons 4.0 NCND licensed - includes spillover implementations of other NeuronRain repositories:
+Virtual Classroom -  https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit 
+HAMSA – NeuronRain Lectures, Audio-Visuals related to NeuronRain repositories, Theory and Miscellaneous – https://kuja27.blogspot.com
+GRAFIT course materials (in .zip) are available from Moodle GRAFIT website - https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
 
 BRIHASPATHI - Private Online Virtual Classrooms
 Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,...) - https://github.com/Brihaspathi - requires GitHub student logins 
-
-
-
-
-
-
-
 
 
 

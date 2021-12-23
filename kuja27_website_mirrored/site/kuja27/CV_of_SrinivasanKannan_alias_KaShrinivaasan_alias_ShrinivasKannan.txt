@@ -32,6 +32,7 @@ Passport: M9583737
 PAN: AOVPS2844F
 Aadhaar: 772717942542
 Marital status: Unmarried (Never Married)
+COVID19 Vaccination status: Unvaccinated (Medical Contraindications)
 
 			COMPLETE ACADEMIC AND WORK HISTORY
 
@@ -231,7 +232,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2021#10#18:
+Latest version 2021#12#24:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -497,7 +498,28 @@ repository
 	2.293 Drone Online Shopping Delivery - NeuronRainApps - Refactoring for ConvexHull and GIS analytics variables read over
 socket stream 
 	2.294 Set Partition Analytics - Complementary Set Partitions
-	2.295 GIS Urban Sprawl Analytics - NASA VIIRS NightLights Urban Area and Population Estimation 
+	2.295 GIS Urban Sprawl Analytics - NASA VIIRS NightLights Urban Area and Population Estimation – from training data of contour area to square kilometre area and average population density (GeoTIFF lookup and map projections have been ignored as they are data format specific)
+	2.296 GIS Urban Sprawl Analytics - NASA VIIRS NightLights 2012 and 2016 Urban sprawl distance similarity and Urban area rankings
+	2.297 GIS Urban Sprawl Analytics - NASA VIIRS NightLights 2016 and 2021 Urban sprawl distance similarity and Urban Area Rankings
+	2.298 Economic merit – Urban and Rural GDP estimation from GIS Urban Sprawl Analytics
+	2.299  GIS Weather Analytics (Windy.com layers for wind,rain,temperature as inputs to drone natural obstacle avoidance algorithm) and Image grayscale inversion for the non-urban (rural) complement of urban night time lights
+	2.300 Large Scale Visuals Streaming NoSQL Datastore (MongoDB-GridFS) support in Streaming_AbstractGenerator Facade
+	2.301 GIS Urban Sprawl Analytics - Moments,Centroid,Minimum Enclosing Circle of an urban sprawl
+	2.302 GIS Urban Sprawl Analytics - Population Estimator from Urban Sprawl Contours - usecase comparative study of few urban sprawl growth pattern examples
+	2.303 GIS Weather Analytics and Climate Analytics (Tensorflow Sequential model for climate datasets, historic extreme weather events and correlation to celestial n-body choreography patterns) from OpenWeatherMap PyOWM and ECMWF CliMetLab
+	2.304 GIS Urban Sprawl Analytics - a Multiple Agent Resource Allocation DNFSAT Algorithm
+	2.305 GIS Analytics - MongoDB GridFS backend standalone python client implementation
+	2.306 GIS Urban Sprawl Analytics - Urban Sprawl Extent from NASA SEDAC 2015 GPW 4 Population Count and SEDAC 2020 GPW 4.11 Population Density by contour, convex hull segmentation and minimum enclosing circles 
+	2.307 GIS Urban Sprawl Analytics - Voronoi Tessellation Clustering Diagram implementation engulfing urban sprawl contours and minimum enclosing circles – a rural + urban extent estimator  - alternative to neural network and DBSCAN urban extent models
+	2.308 GIS Urban Sprawl Analytics - Centrality Measures of Urban Sprawl Facegraph
+	2.309 GIS Urban Sprawl Analytics - Delaunay Triangulation plot – approximation of transportation network between urban areas – an Eulerian circuit and Hamiltonian estimator for Efficient Drone navigation
+	2.310 GIS Urban Sprawl Analytics - Distance similarity of Voronoi Tessellations (Earth mover distance, Graph Edit Distance, Modularity – community detection) and Measuring Urban Expansion
+	2.311 GIS Urban Sprawl Analytics - Computation of Urbanization Correlation from Voronoi Shapely Polygon areas (Rural + Urban) and Urban Sprawl Contour areas
+	2.312 People Analytics - Merit of Large Scale Visuals – Unique identification - Topological Face Recognition - Voronoi Tessellation and Delaunay Triangulation of Faces, their Morphology and Shape Grammar
+	2.313 People Analytics - Merit of Large Scale Visuals – Unique identification - Topological Face Recognition - Distance similarity between Facial Image Voronoi Tessellations of similar Faces and Facial Landmark Detection – Wasserstein distance between Voronoi Facet Shapely polygon areas of 2 facial images
+	2.314 People Analytics - Merit of Large Scale Visuals -  Unique identification - Topological Face Recognition - Voronoi diagram and Delaunay Triangulation of Facial images from 68-landmark centroids computed by Dlib face landmarks detection
+	2.315 People Analytics – Merit of Large Scale Visuals – Unique identification – Topological Face Recognition - Netrd Voronoi Facegraph Graph matching distance similarity measures, Histogram partition distance similarity (cv2.EMD()) and Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity (NetworkX) of 2 facial images
+
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
 (Latest NeuronRain AsFer research version Code at sourceforge repository:  http://asfer.sourceforge.net and periodically updated Design Details at: http://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt)
@@ -805,7 +827,7 @@ April 1998 – June 1998 – BE Internship at Steel Authority of India Limited (
 
 MISCELLANEOUS
 1. Gold medal for proficiency from PSG Tech for ranking first in B.E.(CSE) – Received in February 2000
-2. GRE (2002) – score 2040
+2. GRE (2002) – score 2040, TOEFL - 270
 3. Joint Entrance Screening Test(JEST) 2006 in Theoretical Computer Science - Rank 21 (Reg No: 22123).
 4. Participated in Winter School 2010 on Machine Learning and Computer Vision, Microsoft Research & CIFAR, IISc
 5. UGC Net July 2016 – 66 (I), 54 (II), 50.67 (III) (in percentage) (Roll No. 69004241)

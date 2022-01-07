@@ -113,9 +113,9 @@ An up-to-date description of how RPC ruled the roost, fell out of favour and rei
 KingCobra - This is a VIRGO module and implements message queueing and pub-sub model in kernelspace. This also has a userspace facet for computational economics (Pricing, Electronic money protocol buffer implementation etc.,)
 
 Following are frequently updated design documents and theoretical commentaries for NeuronRain code commits which have been organized into
-numbered non-linear section vertices and edges amongst them are mentioned by "related to <section>" phrase:
+numbered non-linear section vertices and edges amongst them are mentioned by "related to <section>" phrase. NeuronRain Design is a unification of following respository specific documents (sections are numbered uniquely and spread out in multiple repsository specific documents):
 
-NeuronRain Green - GitHub - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+NeuronRain Green - GitHub - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions) 
 ------------------------------------------------------------------------------------------
 
 AsFer - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -132,7 +132,14 @@ KingCobra - https://github.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://github.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Antariksh - GitLab - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+GRAFIT - https://github.com/shrinivaasanka/Grafit/blob/master/README.md
+
+Acadpdrafts - https://github.com/shrinivaasanka/acadpdrafts-github-code/blob/master/index.rst 
+
+Krishna_iResearch_DoxygenDocs - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/index.rst
+
+
+NeuronRain Antariksh - GitLab - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -149,7 +156,14 @@ KingCobra - https://gitlab.com/shrinivaasanka/kingcobra-github-code/blob/master/
 
 KingCobra64 - https://gitlab.com/shrinivaasanka/kingcobra64-github-code/blob/master/KingCobraDesignNotes.txt
 
-NeuronRain Research - Repositories and Design Documents (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+GRAFIT - https://gitlab.com/shrinivaasanka/Grafit/-/blob/master/README.md
+
+Acadpdrafts - https://gitlab.com/shrinivaasanka/acadpdrafts-github-code
+
+Krishna_iResearch_DoxygenDocs - https://gitlab.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/-/blob/master/index.rst
+
+
+NeuronRain Research - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ---------------------------------------------------------------------------------------
 
 AsFer - https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
@@ -165,6 +179,13 @@ VIRGO64 Linux - https://sourceforge.net/p/virgo64-linux/code/ci/master/tree/virg
 KingCobra - https://sourceforge.net/p/kcobra/code-svn/HEAD/tree/KingCobraDesignNotes.txt
 
 KingCobra64 - https://sourceforge.net/p/kcobra64/code/ci/master/tree/KingCobraDesignNotes.txt
+
+GRAFIT - https://sourceforge.net/u/ka_shrinivaasan/Grafit/ci/master/tree/README.md
+
+Acadpdrafts - https://sourceforge.net/projects/acadpdrafts/
+
+Krishna_iResearch_DoxygenDocs - https://sourceforge.net/u/ka_shrinivaasan/Krishna_iResearch_DoxygenDocs/ci/master/tree/index.rst
+
 
 NeuronRain Acadpdrafts - Drafts and Publications:
 -------------------------------------------------
@@ -262,7 +283,7 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
            1.2 Alphanumeric Text(String Analytics - Longest Repeated Substring-SuffixArray-LongestCommonPrefix, BioPython/ClustalOmega Multiple Sequence Alignment, Sequence Mining, Minimum Description Length, Entropy, Support Vector Machines, Knuth-Morris-Pratt string match, Needleman-Wunsch alignment, Longest common substring, KNN clustering, KMeans clustering, Decision Tree, Bayes, Edit Distance, Earth Mover Distance, Linear Complexity Relaxed Word Mover Distance, PrefixSpan - astronomical,binary,numeric and generic encoded string datasets),
            1.3 Audio-speech(Speech-to-Text and recursive lambda function growth,Graph Edit Distance),
            1.4 Audio-music(mel frequency cepstral coefficients, weighted automata, Graph Edit Distance between weighted automata, Equivalence of Weighted automata by Table filling, Kullback-Leibler and Jensen-Shannon divergence, Originality of a score by waveform distance, Contours of Functional MRI medical imageing for music stimuli - https://openneuro.org/datasets/ds000171/versions/00001),
-           1.5 Visuals-images(Compressed Sensing,ImageNet ImageGraph algorithm, Graph Edit Distance between FaceGraphs of segmented images, GIS Remote Sensing Analytics, Weather analytics, Climate analytics, Modularity-Community Detection, Urban planning analytics, Machine Learning models of Urban Extent-NASA SEDAC GPW and VIIRS NightLights, Voronoi Tessellation, Delaunay Triangulation, Preferential attachment, Face and Handwriting Recognition, Medical imageing, Convex Hull, Patches Extraction-RGB and 2-D, Segmentation, Random forests, Drone Aerial Imagery Analytics) - GDP and other socioeconomic indicators can be estimated from GIS Imagery analytics,
+           1.5 Visuals-images(Compressed Sensing,ImageNet ImageGraph algorithm, Graph Edit Distance between FaceGraphs of segmented images, GIS Remote Sensing Analytics, Weather analytics, Climate analytics, Modularity-Community Detection, Urban planning analytics, Machine Learning models of Urban Extent-NASA SEDAC GPW,European Union GHSL and NASA VIIRS NightLights, Voronoi Tessellation, Delaunay Triangulation, Preferential attachment, Face and Handwriting Recognition, DBSCAN Clustering, Medical imageing, Convex Hull, Patches Extraction-RGB and 2-D, Segmentation, Random forests, Drone Aerial Imagery Analytics) - GDP and other socioeconomic indicators can be estimated from GIS Imagery analytics,
            1.6 Visuals-videos(ImageNet VideoGraph EventNet Tensor products algorithm for measuring Tensor Rank connectivity merits of movies,youtube videos and Large Scale Visuals, Graph Edit Distance between Video EventNet, Sentiment analysis of predictions textgraphs for youtube and movie videos by Empath-MarkovRandomFields Recursive Gloss Overlap Belief Propagation-SentiWordNet, Topological Sort for video summary, Digital watermarking, Drone Aerial Video Streaming Analytics, GIS Imagery Contour graphs for A-Star motion planning and Road Geometry Airspace Drone obstacle avoidance),
            1.7 People(Social and Professional Networks) - experiential and intrinsic(recursive mistake correction tree, Question-Answering in Interviews/Examinations/Contests),
            1.8 People(Social and Professional Networks) - lognormal least energy(inverse lognormal sum of education-wealth-valour,Sports Analytics-Intrinsic Performance Ratings-IPR e.g Elo ratings,Real Plus Minus, Non-perceptive Rankings in Sports, Wealth, Research and Academics),
@@ -301,7 +322,7 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 	24. A random integer partition can be generated by a Pseudorandom generator. This extends the Partition-HashTable isomorphism to PRG-Partition-Hashtable transitive equivalence: PRG produces random partitions of integer, random partitions map to random buckets in tabulation hashing.
 	25. Computational Geometric Parallel RAM Factorization applies datastructures (e.g Parallel construction of segment trees/wavelet trees) and algorithms (Planar Point Location, ray shooting queries) from Computational Geometry and Number Theory. Factorization in number theory is a multiplicative partition problem - Factorisatio Numerorum - as opposed to additive partitions. Quantum Computational version of Computational Geometric factorization has also been described in the context of quantum to classical decoherence.
 	26. Program Analysis is a converse of complement diophantine problem and is an approximation of Rice Theorem which ordains any non-trivial property of recursively enumerable sets is Undecidable
-	27. Software Analytics based on static and dynamic analyses (SATURN CFG/Valgrind CallGraphs/FlameGraphs/Points-to Graphs/FTrace) and applying Centrality/Graph Mining/Latent Semantic Indexing/Graph Edit Distance/Graph Isomorphism on them is a Program Analysis problem. Various Program Analyzers in userspace and kernelspace have been implemented in AstroInfer,USBmd and VIRGO linux kernel repositories which use Degree centrality,PageRank,Cyclomatic Complexity measures among others. Some userspace usecases for Read-Copy-Update, Software Transactional Memory - Lockfree - synchronization have also been implemented for wrapping VIRGO32 and VIRGO64 kernelspace RPC cloud system calls. VIRGO32 and VIRGO64 linux kernels feature a kernelspace Bakery algorithm kernel driver implementation for Cloud synchronization. GRAFIT course materials have some spillover analytics implementations and catechisms for classroom pedagogy - notable of them being Earliest Deadline First Worst Case Execution Time (EDF WCET Survival Index Timeout) OS Scheduler which depends on static code analyzers - IPET,CFG,SyntaxTree,LongestPath - or Master Theorem for WCET approximation. 
+	27. Software Analytics based on static and dynamic analyses (SATURN CFG/Valgrind CallGraphs/FlameGraphs/Points-to Graphs/FTrace) and applying Centrality/Graph Mining/Latent Semantic Indexing/Graph Edit Distance/Graph Isomorphism on them is a Program Analysis problem. Various Program Analyzers in userspace and kernelspace have been implemented in AstroInfer,USBmd and VIRGO linux kernel repositories which use Degree centrality,PageRank,Cyclomatic Complexity measures,Degree Sequence EMD Similarity among others. Some userspace usecases for Read-Copy-Update, Software Transactional Memory - Lockfree - synchronization have also been implemented for wrapping VIRGO32 and VIRGO64 kernelspace RPC cloud system calls. VIRGO32 and VIRGO64 linux kernels feature a kernelspace Bakery algorithm kernel driver implementation for Cloud synchronization. GRAFIT course materials have some spillover analytics implementations and catechisms for classroom pedagogy - notable of them being Earliest Deadline First Worst Case Execution Time (EDF WCET Survival Index Timeout) OS Scheduler which depends on static code analyzers - IPET,CFG,SyntaxTree,LongestPath - or Master Theorem for WCET approximation. 
         28. Automated Debugging (e.g delta debugging, streaming common program state subgraphs) and Debug Analytics(finding minimum size program state automaton for isolating and resolving buggy code changes - finding and resolving bugs are two different problems because resolution of bug might necessitate major refactoring and rewrites) is a Software Analytics problem. Epidemics are modelled by Chaotic Strange attractors and Game theory (adversarial game between pestilence and infected) and Cybercrimes are epidemics infecting electronics. Software Analytics for Cybercrime forensics therefore have game theoretic reasoning (adversarial game between criminals and affected) 
 	29. Set Partitions (Complementary Sets, LSH Partitions, Separate Chaining Hash tables, Histograms, Electronic Voting Machines etc.,) have a reduction to Space Filling/Packing by Exact Square Tile Cover of Rectangle from a fundamental result in number theory - Lagrange Four Square Theorem. This kind of square tile cover of a rectangle can be written as a non-linear quadratic programming optimization which solves integer factorization indirectly. Lagrangian Square Tiles are arranged in rectangle found by computational geometric factorization which is also an instance of NP-Hard exact Coin Problem/Money Changing Problem/Integer Linear Programming and polynomial time approximation problem by least squares (e.g LSMR). NeuronRain implements both Exact (CVXOPT GLPK Integer Linear Programming) and Approximate (LSMR least squares) reductions from set partitions to square tile cover by computational geometric factorization.
         30. Computational Geometric Factorization by Parallel Planar Point Location rectifies a hyperbolic continuous curve to set of straightline segments as part of factorization which are searched. Each rectified segment is an arithmetic progression defineable by an arithmetic progression diophantine or generating functions and set of these diophantines represent the exact cover (set of subsets) of points on rectified hyperbolic curve. Arithmetic progressions arise in Ramsey theory while arbitrarily coloring integer sequences. This rectification of a hyperbola by axis-parallel line segments is a union of arithmetic progressions.

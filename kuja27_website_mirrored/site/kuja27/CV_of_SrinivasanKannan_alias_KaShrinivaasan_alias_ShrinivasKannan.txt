@@ -23,8 +23,9 @@ https://github.com/shrinivaasanka,
 https://gitlab.com/shrinivaasanka
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
 Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
-Brihaspathi GitHub Organization (Private Virtual Classrooms):
-https://github.com/Brihaspathi 
+Brihaspathi GitHub Organization - Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,. . . ) and JAIMINI Closed Source Derivative of NeuronRain - https://github.com/Brihaspathi - requires GitHub student logins
+SourceForge - https://sourceforge.net/projects/jaimini/ 
+GitLab - https://gitlab.com/shrinivaasanka/jaimini
 
 LatexPDF CV: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CV.pdf
 Date of Birth as per records: 19 May 1977 
@@ -519,6 +520,17 @@ socket stream
 	2.313 People Analytics - Merit of Large Scale Visuals – Unique identification - Topological Face Recognition - Distance similarity between Facial Image Voronoi Tessellations of similar Faces and Facial Landmark Detection – Wasserstein distance between Voronoi Facet Shapely polygon areas of 2 facial images
 	2.314 People Analytics - Merit of Large Scale Visuals -  Unique identification - Topological Face Recognition - Voronoi diagram and Delaunay Triangulation of Facial images from 68-landmark centroids computed by Dlib face landmarks detection
 	2.315 People Analytics – Merit of Large Scale Visuals – Unique identification – Topological Face Recognition - Netrd Voronoi Facegraph Graph matching distance similarity measures, Histogram partition distance similarity (cv2.EMD()) and Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity (NetworkX) of 2 facial images
+	2.316 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi diagram and Delaunay Triangulation of Facial images from centroids computed by Dlib face landmarks detection and Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity 
+	2.317 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi FaceGraph Isomorphism-Subgraph Isomorphism-Approximate Isomorphism Similarity - VF2 and ISMAGS Isomorphic Subgraphs iteration
+	2.318 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Voronoi FaceGraph Isomorphism Similarity - Percentage similarity
+	2.319 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Delaunay Triangulation Mesh isomorphism and Euler Characteristic
+	2.320 Software Analytics – Cybercrime and Malware analytics - Graph Isomorphism, Subgraph Isomorphism of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.321 Software Analytics - Approximate Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.322 GIS Analytics - DBSCAN Density Clustering implementation 
+	2.323 Software Analytics - Degree Sequence Earth Mover Distance Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.324 GIS Analytics - DBSCAN Density Clustering - Neural Network Thresholding implementation 
+	2.325 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Delaunay Triangulation Mesh Bezier Animation by PyVis
+	2.326 People Analytics - Merit of Large Scale Visuals - Textual,Topological and Graph Theoretic Face Recognition - Physique Recognition From Quadrilateral mesh isomorphism and Face Distinguisher from ImageNet predictions
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

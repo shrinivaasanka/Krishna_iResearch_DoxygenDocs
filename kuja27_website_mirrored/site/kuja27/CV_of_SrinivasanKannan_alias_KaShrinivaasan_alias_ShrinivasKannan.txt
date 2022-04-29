@@ -1,9 +1,9 @@
-﻿	K.Srinivasan  
+﻿	K.Srinivasan  - ஶ்ரீநிவாஸன் கண்ணன் - श्रीनिवासन् कण्णन्
 (also spelt as: Srinivasan Kannan, Ka.Shrinivaasan, Shrinivas Kannan)
 
 Permanent Address:
 Srinivasan Kannan,
-S/O.  P.R.ES.Kannan,
+S/O. (Late) P.R.ES.Kannan,
 172, Gandhi Adigal Salai,					
 Kumbakonam-612001, TamilNadu, India.
 e-mail :	ka.shrinivaasan@gmail.com
@@ -16,16 +16,27 @@ records :		K.Srinivasan (academics, BaaN,Sun
            		Microsystems), Kannan Srinivasan (Sun Microsystems),
 			Srinivasan Kannan (Verizon, Clockwork Interviews, 							CloudEnablers), Shrinivas Kannan(webMethods/SoftwareAG and 
 			CMI), Ka.Shrinivaasan (Global Analytics)
+
 Personal website(research) :- https://acadpdrafts.readthedocs.io
-Krishna iResearch Open Source: 
+
+NeuronRain Documentation:- https://neuronrain-documentation.readthedocs.io/en/latest/
+
+
+Krishna iResearch Open Source Repositories: 
 https://sourceforge.net/users/ka_shrinivaasan,
 https://github.com/shrinivaasanka,	
 https://gitlab.com/shrinivaasanka
+
 OpenHub profile:       https://www.openhub.net/accounts/ka_shrinivaasan
+
 Krishna iResearch GitHub Organization: https://github.com/Krishna-iResearch
-Brihaspathi GitHub Organization - Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,. . . ) and JAIMINI Closed Source Derivative of NeuronRain - https://github.com/Brihaspathi - requires GitHub student logins
-SourceForge - https://sourceforge.net/projects/jaimini/ 
-GitLab - https://gitlab.com/shrinivaasanka/jaimini
+
+BRIHASPATHI - Private Virtual Classrooms:
+GitHub - Private repositories of virtual classrooms for various commercial online courses (for graduate students and professionals - requires GitHub student logins) - BigData and Machine Learning, Topics in Mathematics and Computer Science, Linux Kernel and Cloud, Vedic Astrology, English, Hindi - https://github.com/Brihaspathi - Consultancy offered on BigData-Machine Learning, Linux Kernel-Cloud and other IT arena, Vedic Astrology (Brihaspathi Jyotish Vigyan Kendra - https://github.com/Brihaspathi/BrihaspathiJyotishVigyanKendra - ப்ரிஹஸ்பதி ஜ்யோதிஷ் விக்யாந் கேந்த்ரா - Personal reading, Matrimonial matchmaking,…)
+JAIMINI Closed Source Derivative of NeuronRain:
+GitHub - https://github.com/Brihaspathi/jaimini
+SourceForge - https://sourceforge.net/projects/jaimini/
+GitLab - https://gitlab.com/shrinivaasanka/jaimini
 
 LatexPDF CV: https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CV.pdf
 Date of Birth as per records: 19 May 1977 
@@ -33,7 +44,7 @@ Passport: M9583737
 PAN: AOVPS2844F
 Aadhaar: 772717942542
 Marital status: Unmarried (Never Married)
-COVID19 Vaccination status: Unvaccinated (Medical Contraindications)
+COVID19 Vaccination status: Unvaccinated
 
 			COMPLETE ACADEMIC AND WORK HISTORY
 
@@ -233,7 +244,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2021#12#24:
+Latest version 2022#04#21:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -427,7 +438,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+, 2000+, 4000+, 18000+  and  20000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063, 4960, 18178, 18181, 20437 bits) – randomly chosen, smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+, 2000+, 4000+, 18000+  and  20000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063, 4960, 18178, 18181, 20437, 20523 bits) – randomly chosen, smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -521,16 +532,42 @@ socket stream
 	2.314 People Analytics - Merit of Large Scale Visuals -  Unique identification - Topological Face Recognition - Voronoi diagram and Delaunay Triangulation of Facial images from 68-landmark centroids computed by Dlib face landmarks detection
 	2.315 People Analytics – Merit of Large Scale Visuals – Unique identification – Topological Face Recognition - Netrd Voronoi Facegraph Graph matching distance similarity measures, Histogram partition distance similarity (cv2.EMD()) and Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity (NetworkX) of 2 facial images
 	2.316 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi diagram and Delaunay Triangulation of Facial images from centroids computed by Dlib face landmarks detection and Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity 
-	2.317 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi FaceGraph Isomorphism-Subgraph Isomorphism-Approximate Isomorphism Similarity - VF2 and ISMAGS Isomorphic Subgraphs iteration
+	2.317 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity - VF2 and ISMAGS Isomorphic Subgraphs iteration
 	2.318 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Voronoi FaceGraph Isomorphism Similarity - Percentage similarity
 	2.319 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Delaunay Triangulation Mesh isomorphism and Euler Characteristic
-	2.320 Software Analytics – Cybercrime and Malware analytics - Graph Isomorphism, Subgraph Isomorphism of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.320 Software Analytics - Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
 	2.321 Software Analytics - Approximate Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
 	2.322 GIS Analytics - DBSCAN Density Clustering implementation 
 	2.323 Software Analytics - Degree Sequence Earth Mover Distance Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
 	2.324 GIS Analytics - DBSCAN Density Clustering - Neural Network Thresholding implementation 
 	2.325 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Delaunay Triangulation Mesh Bezier Animation by PyVis
 	2.326 People Analytics - Merit of Large Scale Visuals - Textual,Topological and Graph Theoretic Face Recognition - Physique Recognition From Quadrilateral mesh isomorphism and Face Distinguisher from ImageNet predictions
+	2.327 Computational Geometric Factorization - Matplotlib plot of benchmarks - 300 integers from 100 to 400 and 20 integers from 500 to 520 
+	2.328 People Analytics - Social Network Analysis - Bipartite Social Networks (Matrimonial portals, Employer-Employee Professional networks) - Recommender Systems and Sentiment Analysis of Profiles for Ranking Preferences
+	2.329  GIS Urban Sprawl Analytics - Population Density computation from Contour Pixel color coding
+	2.330 GIS Urban Sprawl Analytics - Population count computation from HRSL Map Legend
+	2.331 Economic merit - Neuro Cryptocurrency mint - Commodity linked Neuro Fictitious Cryptocurrency Proof of Work Algorithm 
+	2.332 Computational Geometric Integer Factorization - 20523 bits quadcore benchmarks - Factorization as a non-trivial Proof of Work computation for Neuro Cryptocurrency mining rig 
+	2.333 Set Partition Analytics - Set Partition-Rectangular Area to Factorization reduction and Integer Linear Program solution of Frobenius Coin Diophantines for Neuro Cryptocurrency mining rig Proof of Work, One Time Password facility augmented for Voter Received Encrypted Paper Audit Trail (VREPAT) Conceptual Drone Electronic Voting Machine 
+	2.335 Fictitious Neuro Cryptocurrency Mining Rig - Random Integer Partition + Rectangular Area Factorization + Money Changing Problem Proof of Work - Digital Watermarking implementation for Visual Neuro cryptocurrency 
+	2.336 Music Synthesizer - Python 3.8 upgrade and Fractal implementation 
+	2.337 Music similarity - Dynamic Time Warping Waveform Distance algorithm implementation 
+	2.338 Music Information Retrieval (MIR) - Learning a polynomial from music waveform
+	2.339 Fictitious Neuro Cryptocurrency NP-Hard Proof of Work - Moving Mount Fuji - Single Bin Sorted LIFO Histogram - Towers of Hanoi - implementation 
+	2.340 Music Information Retrieval - AI Music Synthesis from Sum of Damped Sinusoids
+	2.341 GIS Urban Sprawl Analytics - SEDAC Urban Expansion Probabilities Projection for Year 2030 - a casestudy of urban sprawls
+	2.342 GIS Urban Sprawl Analytics - Maximum Population Density and Area-Population Ratio as arguments 
+	2.343 Set Partition Analytics - Neuro Crytocurrency Towers of Hanoi NP-Hard Proof-of-Work - Set Partition Histogram to Lagrange Sum of Four Square theorem square tile cover of an Almost-Square rectangle by Integer Factorization
+	2.344 Kernel lift random walk in tree of TOP Category Shell Turing Machines and UNIX Shell Game Example 
+	2.345 Intrinsic Merit of Texts - TAC 2010 code opensourced -
+	2.346 People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Recomputed Spearman, Kendall Tau, Pearson Correlation coefficients of COVID19 dataset and Verhulste-Pearl-Reed Logistic in R  - in GRAFIT repositories
+	2.347 GMSH Trimesh and Quadmesh - GEO OPT and MSH files from GMSH FLTK
+	2.348 Merit of Large Scale Visuals - Trimesh and Quadmesh generation from an image by GMSH 
+	2.349 GIS Urban Sprawl Analytics - Polya Urn Urban Growth Model implementation for 4-colored Urban Sprawl Contour Segment Facegraphs
+	2.350 People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Recomputed Spearman, Kendall Tau, Pearson Correlation coefficients for revised COVID19 dataset (Lancet,WHO estimates) and corrections to Verhulste-Pearl-Reed and May Logistic code in R  - in GRAFIT repositories
+	2.351 GIS Analytics – Archaeology - an archaeoastronomical and computer vision analysis of MODIS GIS image of Adam's Bridge (Ram Sethu)
+	2.352 Merit of Large Scale Visuals - Face recognition by Approximate Topological Match of GMSH Quadmesh images 
+	2.353 Merit of Large Scale Visuals – Archaeology - ImageNet predictions from multiple models - Rebus Topological Script Recognition - Dholavira Signboard example deciphered by ResNet50 and ResNet50V2
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        
@@ -608,6 +645,7 @@ Implements a minimal kernelspace and userspace messaging framework using VIRGO c
 	5.286 Disk persistence of Request-Reply queues.
 	5.287 64-bit version of this driver is in separate repository based on 4.13.3 mainline linux kernel (32-bit version is based on mainline kernel 4.1.5)
 	5.288 Fictitious Neuro currency Buy-Sell transactions are edges in an EventNet Event-Actor Graph implemented in AsFer and can be mined for subgraph patterns – EventNet is thus an economic network
+	5.334 Algorithmic Trading in Fictitious Neuro Cryptocurrency - EventNet Graphical Event Model (GEM) HyperLedger implementation 
 
 
 
@@ -844,8 +882,8 @@ MISCELLANEOUS
 4. Participated in Winter School 2010 on Machine Learning and Computer Vision, Microsoft Research & CIFAR, IISc
 5. UGC Net July 2016 – 66 (I), 54 (II), 50.67 (III) (in percentage) (Roll No. 69004241)
 
-INTERESTS
-Writing, reading non-fiction mostly on science,mathematics, religion and philosophy.
+EXTRA-CURRICULAR:
+Painting, Writing, Reading non-fiction mostly on science,mathematics, religion and philosophy.
 
 VIDEO RESUME(s):
 https://github.com/shrinivaasanka/asfer-github-code/tree/master/python-src/image_pattern_mining/ImageNet/testlogs/ (ExampleVideo*mp4)

@@ -4,7 +4,7 @@
 Permanent Address:
 Srinivasan Kannan,
 S/O. (Late) P.R.ES.Kannan,
-172, Gandhi Adigal Salai,					
+172, Gandhi Adigal Salai,				
 Kumbakonam-612001, TamilNadu, India.
 e-mail :	ka.shrinivaasan@gmail.com
 		shrinivas.kannan@gmail.com
@@ -535,8 +535,8 @@ socket stream
 	2.317 People Analytics - Merit of Large Scale Visuals - Topological Face Recognition - Voronoi FaceGraph Isomorphism-Subgraph Isomorphism Similarity - VF2 and ISMAGS Isomorphic Subgraphs iteration
 	2.318 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Voronoi FaceGraph Isomorphism Similarity - Percentage similarity
 	2.319 People Analytics - Merit of Large Scale Visuals - Topological and Graph Theoretic Face Recognition - Delaunay Triangulation Mesh isomorphism and Euler Characteristic
-	2.320 Software Analytics - Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
-	2.321 Software Analytics - Approximate Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.320 Software Analytics – Cybercrime analytics - Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
+	2.321 Software Analytics – Cybercrime analytics - Approximate Graph Isomorphism Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
 	2.322 GIS Analytics - DBSCAN Density Clustering implementation 
 	2.323 Software Analytics - Degree Sequence Earth Mover Distance Similarity of Code Callgraphs and Control Flow Graphs - Spark 3.0.1 + Python 3.7.5
 	2.324 GIS Analytics - DBSCAN Density Clustering - Neural Network Thresholding implementation 

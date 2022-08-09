@@ -44,9 +44,8 @@ Passport: M9583737
 PAN: AOVPS2844F
 Aadhaar: 772717942542
 Marital status: Unmarried (Never Married)
-COVID19 Vaccination status: Unvaccinated
 
-			COMPLETE ACADEMIC AND WORK HISTORY
+		COMPLETE ACADEMIC AND WORK HISTORY
 
 ACADEMICS
 1. Elementary Schooling, RC Morning Star, Kumbakonam (1982-1987) 
@@ -244,7 +243,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2022#04#21:
+Latest version 2022#07#29:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -438,7 +437,7 @@ Bmd – clustering and PCA based credit card financial transactions dataset anal
 	2.180 People Analytics - Drone Electronic Voting Machine - Streaming Voting Analytics - Bertrand Ballot Theorem Approximation of Majority Voting
 	2.181 Astronomical Pattern Mining - Rule Search Script upgrade for Maitreya Dreams Swiss Ephemeris text client maitreya 8.0.1 (maitreya8t)
 	2.182 Merit of Large Scale Visuals – Python 3.x Tensor Rank intrinsic merit of EventNet of a video – measure of connectedness of a Video (Video mapped to EventNet Causality Graph) – Tensor Decomposition of Video 3-way EventNet Tensor Product to Rank-1 tensor components by Tensorly – Slicing for footages of unequal frames
-	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+, 2000+, 4000+, 18000+  and  20000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063, 4960, 18178, 18181, 20437, 20523 bits) – randomly chosen, smooth and hard
+	2.183 Computational Geometric Factorization - Quadcore Python 3.6,3.7.5,3.9.0 Upgrade Benchmarks – 60 bits, 512 bits and 1000+, 2000+, 4000+, 18000+  and  20000+ bits integers (1024, 1067, 1213, 1243, 2014, 2037, 2050, 2060, 2061, 2063, 4960, 18178, 18181, 20437, 20523, 20610 bits) – randomly chosen, smooth and hard
 	2.184 All NeuronRain Python 2.7 Source Files can be upgraded to PEP8 and Python 3.x by autopep8 and 2to3-2.7 utilities. Python 3.x is faster than Python 2.x and  has many upgraded builtins including range(),tuned python malloc, async IO. Spark Factorization and EventNet Video Tensor Product implementations in NeuronRain have been upgraded to Python 3.x for compatibility and performance.
 	2.185 Complement Diophantines – Python 3.7.5 upgrade and Least Squares Vandermonde Polynomial Fit Learning
 	2.186 People Analytics - Drone Electronic Voting Machine - Python 3.7.5 upgrade and Paper ballot shuffle simulation (and theory on paper currency unique id non-digital one time password, Money Trail – Neuro cryptocurrency transactional EventNet Ledger as Expander Graph and Random Walks in it - Pseudorandom Extractor and Generator for Unique Identification)
@@ -568,6 +567,33 @@ socket stream
 	2.351 GIS Analytics – Archaeology - an archaeoastronomical and computer vision analysis of MODIS GIS image of Adam's Bridge (Ram Sethu)
 	2.352 Merit of Large Scale Visuals - Face recognition by Approximate Topological Match of GMSH Quadmesh images 
 	2.353 Merit of Large Scale Visuals – Archaeology - ImageNet predictions from multiple models - Rebus Topological Script Recognition - Dholavira Signboard example deciphered by ResNet50 and ResNet50V2
+	2.354 Merit of Large Scale Visuals - Astronomy Analytics - DBSCAN Clustering and Segmentation analysis of sky imageries for 2 high magnitude seismic events 
+	2.355 Merit of Large Scale Visuals - Archaeology - Rebus Decipherment of Indus Unicorn Seals and their validation by extracting common subgraphs in ImageNet predictions textgraphs (GSpan Frequent Subgraph Mining algorithm)
+	2.356 Merit of Large Scale Visuals - GIS Urban Sprawl Analytics - Automatic Delineation of Urban Growth Boundaries from Transportation Network GIS - KMeans Clustering of Contour Polynomials
+	2.357 Computational Geometric Factorization - Quadcore benchmarks - Spark 3.0.1 + Python 3.7.x - Nanoseconds perf counter
+	2.358 Astronomical Dataset Analytics - Planetarium Ephemeris Search
+	2.359 GIS Urban Sprawl Analytics – Minimum Spanning Forest,HITS Facegraph complexity measures for Automatic Urban Delineation 
+	2.360 Medical Imageing and Music Information Retrieval (MIR) - fMRI imagery analysis for music-evoked autobiographical memories
+	2.361 Intrinsic Merit of Music - Kolmogorov Complexity approximation by Normalized Compression Distance (NCD)
+	2.362 People Analytics - Unique Identification - Fingerprint recognition
+	2.363 Intrinsic merit of Music - Music Information Retrieval - AI Music Synthesis from Weierstrass Fourier Fractal
+	2.364 GIS Urban Sprawl Analytics - Moran's I measure of Urban Sprawl Dispersion
+	2.365 People Analytics - Social Network Analysis (Professional) - Chaotic Hidden Markov Model of Career Transition - JSON persistence to MongoDB 
+	2.366 Space Archaeology - Edge detection for Airborne-Satellite GIS imagery (LIDAR,SAR,LandSat) by Canny Edge Detector
+	2.367 GIS Urban Sprawl Analytics - Automatic Delineation of Urban Growth Boundaries by KMeans Clustering of Contour Polynomials and Canny Edge Detector
+	2.368 Astronomical Dataset Analytics - Planetarium Ephemeris Search - SkyField implementation 
+	2.369 Astronomical Dataset Analytics - Planetarium Ephemeris Search - Longitude-Latitude and AstroPy support
+	2.370 Astronomy Dataset Analytics - Angular separation of solar system planets during Extreme Weather Events on Earth - an N-Body gravitational pull correlation study
+	2.371 Majority Voting Versus Query complexity model of Intrinsic Merit of Texts-Audio-Video-People – all implementations of Intrinsic Merit compute Merit() function by queries
+	2.372 Astronomy Dataset Analytics - NASA JPL Horizons Ephemeris Lookup Service support and Hubble Ultra Deep Field imagery RGB analytics 
+	2.373 Astronomy Dataset Analytics - Computation of N-Body Gravitational Acceleration for Solar System bodies on days of Extreme Weather Events (Earthquakes and Hurricanes)
+	2.374 Astronomy and Cosmology Datasets Analytics - Hubble eXtreme Deep Field imagery RGB analysis and Distance similarity of N-Body gravitational accelerations
+	2.375 Astronomy and Cosmology Datasets Analytics - Wilkinson Microwave Anisotropy Probe-Cosmic Microwave Background (WMAP CMB) and N-Body gravitational accelerations from arbitrary vantage points
+	2.376  NeuronRainApps - Wikipedia Textgraph Question-Answering Bot - WordNet Walk on answer textgraph
+	2.377 Economic Merit and People Analytics - Mechanism Design of Multiround Majority Voting derived from Simultaneous Ascending
+Auction – for Drone EVM usecase implementation in NeuronRain 
+	2.378 Merit of Large Scale Visuals - Archaeology - Rebus Decipherments of Indus Pashupathi Seals and mining frequent subgraphs from predictions
+	
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

@@ -243,7 +243,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2022#07#29:
+Latest version 2022#10#01:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -593,6 +593,29 @@ socket stream
 	2.377 Economic Merit and People Analytics - Mechanism Design of Multiround Majority Voting derived from Simultaneous Ascending
 Auction – for Drone EVM usecase implementation in NeuronRain 
 	2.378 Merit of Large Scale Visuals - Archaeology - Rebus Decipherments of Indus Pashupathi Seals and mining frequent subgraphs from predictions
+	2.379 Astronomy and Cosmology Datasets Analytics - N-Body gravitational accelerations computed for USGS (1900-2012) 8+ magnitude Earthquakes and NOAA HURDAT2 (1851-2012) North Atlantic Hurricanes Datasets
+	2.380 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) Population Density Maps - GDAL GeoTIFF to JPEG format Translation
+	2.381 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) Population Estimation from GDAL-Rasterio Georeferencing
+	2.382 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) and LandSat 9 OLI2-TIRS2 GDAL-Rasterio Georeferencing - Window read
+	2.383 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) and Global Human Settlement Layer (GHSL) GDAL-Rasterio Georeferencing - Sampling and Mollweide-EPSG transforms reprojections 
+	2.384 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) and Global Human Settlement Layer (GHSL) GDAL-Rasterio Georeferencing - Gini Index of Population and Built-Surface 
+	2.385 GIS Urban Sprawl Analytics - Facebook (Meta) High Resolution Settlement Layer (HRSL) - Population estimation from GDAL-Rasterio Georeferencing
+	2.386 GIS Urban Sprawl Analytics - Polya Urn Urban Growth Model - Revised for N color segments 
+	2.387 NeuronRainApps - Autonomous Driving - Obstacle Lattice from LIDAR Point Cloud Data – Python and C++ lattice walk obstacle avoidance usecases
+	2.388 Computational Geometric Integer Factorization - Python 3.10.4 upgrade - 2232 and 67 bits Quadcore Benchmarks and Mathematica-Pari/GP-FLINT performance numbers comparison
+	2.389 GIS Urban Sprawl Analytics - Polya Urn Urban Growth Model - Weights Learnt
+	2.390 Intrinsic Merit of Music - AI Music Synthesis from Sum of Sinusoids - Signal synthesis from librosa tone() 
+	2.391 Intrinsic Merit of Music - AI Music Synthesis from Polynomials Learnt from training data - PolyFeatures and Carnatic-Hindustani notes support 
+	2.392 Intrinsic Merit of Music - Virtual Piano Implementation and Music Synthesis from 12-notes octave 
+	2.393 Intrinsic Merit of Music - Virtual Piano Implementation - Carnatic Music Synthesis from 12-notes octave 
+	2.394 Intrinsic Merit of Music - Deep Learnt Automata and Music Synthesis - a Boolean Composition and Learning Theory perspective 
+	2.395 GIS Urban Sprawl Analytics - Polya Urn Urban Growth Model - Urban sprawl area computation
+	2.396 GIS Urban Sprawl Analytics - Comparison of Raster Data Bounding Boxes between 2 dates – Chennai Metropolitan Area Sprawl – GHSL GHS SMOD Degree of Urbanization - R2019A and R2022A
+	2.397  Complement Diophantines - Lagrange and Barycentric interpolations 
+	2.398 Intrinsic Merit of Music - Synthesized Bach from training music waveforms
+	2.399 Astronomy and Cosmology Datasets Analytics - Solar system N-Body Pairwise angular separations computed for NOAA HURDAT2 (1851-2012) North Atlantic Hurricanes Datasets
+	2.400 Computational Geometric Integer Factorization - Multiple Integers - Python 3.10.4 upgrade + Spark 3.0.1 Quadcore Benchmarks 
+	2.401 GIS Weather Analytics and Climate Analytics – NASA JPL DE421 Ephemeris N-Body analytics integration and correlation to extreme weather events – Syzygies and angular separations of Solar system bodies
 	
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 

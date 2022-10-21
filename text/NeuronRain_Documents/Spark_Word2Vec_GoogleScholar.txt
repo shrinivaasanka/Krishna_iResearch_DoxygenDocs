@@ -1,0 +1,28 @@
+@article{k2010few,
+  title={Few Algorithms for ascertaining merit of a document and their applications},
+  author={K Shrinivaasan, Balaraman Ravindran, Madhavan Mukund},
+  journal={arXiv preprint arXiv:1006.4458},
+  year={2010}
+}
+
+@article{shrinivaasan2011decidability,
+  title={Decidability of Existence and Construction of a Complement of a given Function},
+  author={Shrinivaasan, K},
+  journal={arXiv preprint arXiv:1106.4102},
+  year={2011},
+  publisher={acknowledgement: advised by Meena Mahajan, Institute of Mathematical~…}
+}
+
+@inproceedings{k2010update,
+  title={Update summarization with Interview Algorithm - http://www.nist.gov/tac/publications/2010/participant.papers/CMI\_IIT.proceedings.pdf},
+  author={K Shrinivaasan, Balaraman Ravindran, Madhavan Mukund},
+  booktitle={NIST TAC 2010},
+  year={2010},
+  organization={NIST}
+}
+
+@article{shrinivaasan2013indepth,
+  title={Indepth analysis of a variant of Majority Voting and relation to Zermelo-Fraenkel Set Theory With Axiom of Choice (ZFC)},
+  author={Shrinivaasan, Ka},
+  year={2013}
+}

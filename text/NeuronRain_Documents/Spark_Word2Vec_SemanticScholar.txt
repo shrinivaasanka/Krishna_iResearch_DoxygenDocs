@@ -1,0 +1,32 @@
+Decidability of Existence and Construction of a Complement of a given Function
+Ka. Shrinivaasan
+Mathematics, Computer Science
+ArXiv
+2011
+This article de nes a complement of a function and conditions for existence of such a complement function and presents few algorithms to construct a complement.
+
+Cite
+
+Save
+
+Feed
+TAC 2010 Summarization Track - Update Summarization with Interview Algorithm
+Ka. Shrinivaasan
+Computer Science
+TAC
+2010
+Existing models for ranking documents(mostly in world wide web) are prestige based. In this article, alternative graph-theoretic schemes to objectively judge the merit of a document independent of… Continue Reading
+View PDF
+
+Cite
+
+Save
+
+Feed
+Few Algorithms for ascertaining merit of a document and their applications
+Ka. Shrinivaasan
+Computer Science
+ArXiv
+2010 (First Publication: 23 June 2010)
+Existing models for ranking documents(mostly in world wide web) are prestige based. In this article, three algorithms to objectively judge the merit of a document are proposed-1) Citation graph… Continue Reading
+

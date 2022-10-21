@@ -3,6 +3,9 @@
 							நஂயூரானஂரெயஂனஂ
 .. image:: Krishna_iResearch-logos.jpeg
 --------------------------------------------------------------------------------------------------------------------------------------------
+
+1329. NeuronRain - Machine learning + BigData Analytics Driven Linux Kernel + Cloud
+------------------------------------------------------------------------------------
 NeuronRain is a new linux kernel fork-off from mainline kernel (presently overlayed on kernel 4.1.5 32 bit and kernel 4.13.3 64 bit) augmented with Machine Learning, Analytics, New system call primitives and Kernel Modules for cloud RPC, Memory and Filesystem. It differs from usual CloudOSes like OpenStack, VMs and containers in following ways:
     (*) Mostly available CloudOSes are application layer deployment/provisioning (YAML etc.,) focussed while NeuronRain is not about deploying applications but to bring the cloud functionality into Linux kernel itself.
     (*) There are application layer memcache softwares available for bigdata processing.
@@ -16,8 +19,8 @@ NeuronRain is a new linux kernel fork-off from mainline kernel (presently overla
     (*) Partially inspired by old Linux Kernel components - Remote Device Invocation and SunRPC
     (*) VIRGO64 kernel based on 4.13.3 mainline kernel, which is 64 bit version of VIRGO32, has lot of stability/panic issues resolved which were random and frequent in VIRGO32 and has Kernel Transport Layer Security (KTLS) integrated into kernel tree.
 
-NeuronRain - Repositories:
---------------------------
+1330. NeuronRain - Repositories:
+---------------------------------
 NeuronRain repositories are in:
 
 	(*) NeuronRain Research - http://sourceforge.net/users/ka_shrinivaasan - astronomy datasets
@@ -26,20 +29,20 @@ NeuronRain repositories are in:
 
         (*) NeuronRain Antariksh -  https://gitlab.com/shrinivaasanka - Drone development
 
-NeuronRain Documentation Repositories:
---------------------------------------
+1331. NeuronRain Documentation Repositories:
+--------------------------------------------
         (*) https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
 
         (*) https://gitlab.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
 
         (*) https://sourceforge.net/u/userid-769929/Krishna_iResearch_DoxygenDocs/ci/master/tree/
 
-NeuronRain Version:
--------------------
+1332. NeuronRain Version:
+--------------------------
 Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Latest NeuronRain Research, Green and Antariksh version is 2022#10#01.
 
-NeuronRain - Features:
-----------------------
+1333. NeuronRain - Features:
+-----------------------------
 **VIRGO system calls from include/linux/syscalls.h**
 
 asmlinkage long sys_virgo_clone(char* func, void *child_stack, int flags, void *arg);
@@ -93,14 +96,14 @@ https://sites.google.com/site/kuja27/CV_of_SrinivasanKannan_alias_KaShrinivaasan
 Previous system calls and drivers do not have internal mutexes and synchronization is left to the userspace. Quoting Commit Notes from hash https://github.com/shrinivaasanka/virgo64-linux-github-code/commit/ad59cbb0bec23ced72109f8c5a63338d1fd84beb :
 "... Note on concurrency: Presently mutexing within system calls have been commented because in past linux versions mutexing within kernel was causing strange panic issues. As a design choice and feature-stability tradeoff (stability is more important than introducing additional code) mutexing has been lifted up to userspace. It is upto the user applications invoking the system calls to synchronize multiple user threads invoking VIRGO64 system calls i.e VIRGO64 system calls are not re-entrant. This would allow just one kernel thread (mapped 1:1 to a user thread) to execute in kernel space. Mostly this is relevant only to kmemcache system calls which have global in-kernel-memory address translation tables and next_id variable. VIRGO clone/filesystem calls do not have global in-kernel-memory datastructures. ...". An example pthread mutex code doing VIRGO64 system calls invocation in 2 parallel concurrent processes within a critical section lock/unlock is at https://github.com/shrinivaasanka/virgo64-linux-github-code/blob/master/linux-kernel-extensions/virgo_malloc/test/test_virgo_malloc.c. Synchronization in userspace for system calls-drivers RPC is easier to analyze and modify user application code if there are concurrency issues than locking within kernelspace in system calls and drivers. This would also remove redundant double locking in userspace and kernelspace. Another advantage of doing synchronization in userspace is the flexibility in granularity of the critical section - User can decide when to lock and unlock access to a resource e.g permutations of malloc/set/get/free kmemcache primitive sequences can be synchronized as desired by an application.
 
-NeuronRain - Architecture Diagrams:
------------------------------------
+1334. NeuronRain - Architecture Diagrams:
+-----------------------------------------
 .. image:: NeuronRainVIRGOArchitecture.jpg
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Krishna_iResearch_opensourceproducts_archdiagram.pdf
 https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/NeuronRain_Architecture_Diagrams_29September2016.pdf
 
-Products in NeuronRain Suite (Research,Green,Antariksh):
-------------------------------------------------------
+1335. Products in NeuronRain Suite (Research,Green,Antariksh):
+-------------------------------------------------------------
 AsFer - AstroInfer was initially intended, as the name suggests, for pattern mining of Astronomical Datasets to predict natural weather disasters. It is focussed on mining patterns in texts and strings. It also has implementations of algorithms for analyzing merit of text, PAC learning, Polynomial reconstruction, List decoding, Factorization etc., which are later expansions of publications by the author (K.Srinivasan - http://dblp.dagstuhl.de/pers/hd/s/Shrinivaasan:Ka=) after 2012. Presently AsFer in SourceForge, GitHub and GitLab has implementations for prominently used machine learning algorithms.
 
 USBmd - Wireless data traffic and USB analytics - analyzes internet traffic and USB URB data packets for patterns by AsFer machine learning (e.g FTrace, USBmon, Wireshark/Tcpdump PCAP, USBWWAN and kern.log Spark MapReduce) implementations and Graph theoretic algorithms on kernel function call graphs. It is also a module in VIRGO linux kernel.
@@ -120,7 +123,7 @@ KingCobra - This is a VIRGO module and implements message queueing and pub-sub m
 Following are frequently updated design documents and theoretical commentaries for NeuronRain code commits which have been organized into
 numbered non-linear section vertices and edges amongst them are mentioned by "related to <section>" phrase. NeuronRain Design is a unification of following repository specific documents (sections are numbered uniquely and spread out in multiple repository specific documents):
 
-NeuronRain Green - GitHub - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+1336. NeuronRain Green - GitHub - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -144,7 +147,7 @@ Acadpdrafts - https://github.com/shrinivaasanka/acadpdrafts-github-code/blob/mas
 Krishna_iResearch_DoxygenDocs - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/index.rst
 
 
-NeuronRain Antariksh - GitLab - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+1337. NeuronRain Antariksh - GitLab - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ------------------------------------------------------------------------------------------
 
 AsFer - https://gitlab.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
@@ -168,7 +171,7 @@ Acadpdrafts - https://gitlab.com/shrinivaasanka/acadpdrafts-github-code
 Krishna_iResearch_DoxygenDocs - https://gitlab.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/-/blob/master/index.rst
 
 
-NeuronRain Research - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
+1338. NeuronRain Research - Repositories and Design Documents which include course material (repositories suffixed 64 are for 64-bit and others are 32-bit on different linux versions)
 ---------------------------------------------------------------------------------------
 
 AsFer - https://sourceforge.net/p/asfer/code/HEAD/tree/asfer-docs/AstroInferDesign.txt
@@ -192,7 +195,7 @@ Acadpdrafts - https://sourceforge.net/projects/acadpdrafts/
 Krishna_iResearch_DoxygenDocs - https://sourceforge.net/u/ka_shrinivaasan/Krishna_iResearch_DoxygenDocs/ci/master/tree/index.rst
 
 
-NeuronRain Acadpdrafts - Drafts and Publications:
+1339. NeuronRain Acadpdrafts - Drafts and Publications:
 -------------------------------------------------
 
 Academic Publications,Preprints and Draft publications of the Author are at portal https://acadpdrafts.readthedocs.io (which replaces erstwhile https://sites.google.com/site/kuja27) unifying :
@@ -202,7 +205,7 @@ Academic Publications,Preprints and Draft publications of the Author are at port
         (*) Research Profiles - https://sites.google.com/site/kuja27/CV.pdf (Deleted and Mirrored at https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/CV.pdf)
 Some Implementations in AsFer in GitLab, GitHub and Sourceforge are related to aforementioned publications and drafts
 
-Free GRAFIT (portmanteau of Graph-Merit) course material:
+1340. Free GRAFIT (portmanteau of Graph-Merit) course material:
 ---------------------------------------------------------
 
 Online free course material in:
@@ -224,7 +227,7 @@ GitLab - https://gitlab.com/shrinivaasanka/jaimini
 Atlassian BitBucket - https://bitbucket.org/ka_shrinivaasan/ (NeuronRain repositories imported as course material supplement t
 o BRIHASPATHI - https://github.com/Brihaspathi - Virtual classrooms)
 
-Bug tracking pages for NeuronRain repositories:
+1341. Bug tracking pages for NeuronRain repositories:
 ----------------------------------------------
 SourceForge - NeuronRain Research - https://sourceforge.net/u/ka_shrinivaasan/tickets/
 
@@ -302,10 +305,10 @@ Yes. All these drafts revolve around the fundamental philosophical/mathematical 
 ------------------------------------------------------------------------------------------------------
 	1. Intrinsic Merit is a Non-majority Social Choice Function and quantifies merit of text, audio/music, visuals, people and economies. Intrinsic merit is omnipresent - wherever rankings are required intrinsic merit finds place vis-a-vis perceptive/fame rankings. Intrinsic merit is defined as any good, incorruptible, error-resilient mathematical function for quantifying merit of an entity which does not depend on popular perception and majority voting where goodness has wider interpretations - sensitivity, block sensitivity, noise sensiivity/stability, randomized decision tree evaluation being one of them but not limited to in boolean setting and BKS conjecture implies there is a stabler function than majority (example: examinations,interviews and contests are objective threshold functions for evaluating people which do not involve subjective voting; counterexample: stock market indices though mathematically derived are not intrinsic since they are computed from perceptive human valuations of market, but high frequency algorithmic trading platforms and quantitative finance algorithms might find equilibrium pricing solutions between perception and absolute). An alternative measure of merit is "Originality" of an entity which distinguishes from rest. Following classes of merit have been defined in the drafts and most of them are implemented(excluding dependencies):
            1.1 Alphanumeric Text(WordNet, ConceptNet, compressed sensing and vowelless string complexity, text restoration, Numeric compression by unique integer factorization, syllabification and TeX hyphenation, language independent phonetic syllable vector embedding of strings - String tensors, recursive gloss overlap,recursive lambda function growth, Question-Answering[Interview algorithm,LTFs,PTFs,Cognitive automata-Switching circuits with background intelligence], Reduction between Question-Answering and Boolean and Non-Boolean Query complexity measures (certifcate complexity, decision trees, polynomial degree, block sensitivity - classical and quantum), Coh-Metrix, Berlekamp-Welch error correction, Polynomial text encoding, Named Entity Recognition, Sentiment Analysis, Graph Mining, Graph Edit Distance between Text graphs, Locality Sensitive Hashing, Unsorted search, Set Partition Analytics, FP Growth frequent itemset mining, Machine translation, Originality by Word2Vec embedding,Bibliometrics-merit of academic publications by Meaning Representation in first order logic and Beta reduction of Lambda calculus,Novelty detection and Patent search,Multilingual strings-code switching),
-           1.2 Alphanumeric Text(String Analytics - Longest Repeated Substring-SuffixArray-LongestCommonPrefix, BioPython/ClustalOmega Multiple Sequence Alignment, Sequence Mining, Minimum Description Length, Entropy, Support Vector Machines, Knuth-Morris-Pratt string match, Needleman-Wunsch alignment, Longest common substring, KNN clustering, KMeans clustering, Decision Tree, Bayes, Edit Distance, Earth Mover Distance, Linear Complexity Relaxed Word Mover Distance, PrefixSpan - astronomical,binary,numeric and generic encoded string datasets - astronomical datasets and algorithmic usecases include (*) USGS Earthquakes and NOAA HURDAT2 datasets (*) Cosmology - Deep Field Space Telescope Visuals - Hubble and WMAP imagery - AstroPy-AstroQuery interface of JPL Horizon Ephemeris service and AstroML astronomical machine learning algorithms integration (*) SkyField-AstroPy JPL Ephemeris queries for positions of celestial bodies (*) Maitreya 8t - encoded strings of celestial bodies obtained from ephemeris corresponding to various extreme weather events (*) Ephemeris Search for astronomical events in SkyField-AstroPy (*) correlation of terrestrial climate events and gravitational influence of solar system N-body orbit choreographies-Syzygies,Conjunctions,Quadratures - implementation of N-Body equation solver to gauge gravitational accelerations of solar system bodies on Earth-Moon barycenter on days of extreme weather events (*) correlation of extreme weather events and celestial bodies by Sequence mining of astronomical datasets to get Class Association Rules,
+           1.2 Alphanumeric Text(String Analytics - Longest Repeated Substring-SuffixArray-LongestCommonPrefix, BioPython/ClustalOmega Multiple Sequence Alignment, Sequence Mining, Minimum Description Length, Entropy, Support Vector Machines, Knuth-Morris-Pratt string match, Needleman-Wunsch alignment, Longest common substring, KNN clustering, KMeans clustering, Decision Tree, Bayes, Edit Distance, Earth Mover Distance, Linear Complexity Relaxed Word Mover Distance, PrefixSpan - astronomical,binary,numeric and generic encoded string datasets - astronomical datasets and algorithmic usecases include (*) USGS Earthquakes and NOAA HURDAT2 datasets (*) Cosmology - Deep Field Space Telescope Visuals - Hubble and WMAP imagery - AstroPy-AstroQuery interface of JPL Horizon Ephemeris service and AstroML astronomical machine learning algorithms integration (*) SkyField-AstroPy JPL Ephemeris queries for positions of celestial bodies (*) Maitreya 8t - encoded strings of celestial bodies obtained from ephemeris corresponding to various extreme weather events (*) Ephemeris Search for astronomical events in SkyField-AstroPy (*) correlation of terrestrial climate events and gravitational influence of solar system N-body orbit choreographies-Syzygies,Conjunctions,Quadratures - implementation of N-Body equation solver to gauge gravitational accelerations of solar system bodies on Earth-Moon barycenter on days of extreme weather events (*) correlation of extreme weather events and celestial bodies by Sequence mining of astronomical datasets to get Class Association Rules (*) prediction of extreme weather and seismic events from N-Body angular separation and gravitational acceleration,
            1.3 Audio-speech(Speech-to-Text and recursive lambda function growth,Graph Edit Distance),
            1.4 Audio-music(Music Information Retrieval-MIR, mel frequency cepstral coefficients, Learning weighted automata from music notes waveform, Graph Edit Distance between weighted automata, Equivalence of Weighted automata by Table filling, Kullback-Leibler and Jensen-Shannon divergence, Novelty detection and Originality of a score by waveform distance, AI music synthesis by functions-automata-fractals and polynomial interpolations of training music waveforms, AI music synthesis by Virtual Piano from random 12-notes string, Deep Learnt Automata, Dynamic Time Warping distance similarity between music timeseries, Music synthesis from sum of damped sinusoids, Weierstrass Function - Fractal Fourier summation, Music evoked autobiographical memories, Normalized Compression Distance-Kolmogorov Complexity, Contours of Functional MRI medical imageing for music stimuli - https://openneuro.org/datasets/ds000171/versions/00001) - AI Music Synthesizer from mathematical functions is the converse of Learning weighted automata from music notes wherein innate fractal self-similar structure of music is exploited by machine learning to churn out music - JS Bach + Fractals = New Music - https://www.nytimes.com/1991/04/16/science/j-s-bach-fractals-new-music.html, https://link.springer.com/chapter/10.1007/978-3-642-78097-4_3. Learning a polynomial from music waveform as against weighted automaton learning (graph structure of music) could extract algebraic structure of music - NeuronRain implements a Degree 5 (Quintic) polynomial learner for music waveforms - Unsolvability of Quintic polynomial (Degree >= 5) by Abel-Ruffini Theorem intuitively means roots of polynomial learnt from music waveform could not be expressed as formulae on radicals - tough nut to crack and could be irreducible. Earth Mover Distance Triple Sequence from moves of Towers of Hanoi Single Bin Sorted LIFO histogram exhibits a Collatz-like Chaotic structure suitable for Music and Financial Timeseries modelling ending always in (0,0,0) for 3 buckets.
-           1.5 Visuals-images(Compressed Sensing,ImageNet ImageGraph algorithm, Graph Edit Distance between FaceGraphs of segmented images, GIS Remote Sensing Analytics, Weather analytics, Climate analytics, Clustering Analytics of celestial bodies in sky imagery from planetarium software and their correlation to extreme weather events - visual analogue of textual astronomical datasets, Modularity-Community Detection, Urban planning analytics (3D UGM - Digital Elevation Models - Mapping and 3D modelling using quadrotor drone and GIS software - https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00436-8, 2D UGM - Dynamic Facegraph, Cellular Automata and Polya Urn Urban Growth [by Learnt Replacement matrix] Models), Automatic Delineation of Urban Growth Boundaries, Gini Coefficient of Inequality, Moran's I measure of Urban Sprawl Dispersion-Diffusion Factor, Canny Edge Detection-Transportation Network Lattice Grid, Ocean Floor Bathymetry GIS, Machine Learning models of Urban Extent-NASA SEDAC GPW,Facebook HRSL,European Union GHSL R2019A-R2022A and NASA VIIRS NightLights, USGS LandSat9 TIRS-2/OLI-2 imagery, Voronoi Tessellation, Delaunay Triangulation, GMSH Trimesh-Quadmesh, Preferential attachment, Face and Handwriting Recognition, Neural network clustering, DBSCAN Clustering, DICOM-Medical imageing-ECG-MRI-fMRI-EEG-CTSCAN-PET-Doppler-XRay, Convex Hull, Patches Extraction-RGB and 2-D, Segmentation, Random forests, Autonomous Driving-LIDAR point cloud data, Flood vulnerability detection from GIS and LiDAR DEM, Drone Aerial Imagery Analytics, Astronomy-Cosmology Datasets-Deep Field Visuals from Space Telescopes) - GHSL rasters are mosaics created from Symbolic Machine Learning which is quite akin to Multiple Sequence Alignment and Class Association Rules based learning implemented for Astronomical Pattern Mining in NeuronRain. GDP and other socioeconomic indicators can be estimated from GIS Imagery analytics,
+           1.5 Visuals-images(Compressed Sensing,ImageNet ImageGraph algorithm, Graph Edit Distance between FaceGraphs of segmented images, GIS Remote Sensing Analytics, Weather analytics, Climate analytics, Clustering Analytics of celestial bodies in sky imagery from planetarium software and their correlation to extreme weather events - visual analogue of textual astronomical datasets, Modularity-Community Detection, Urban planning analytics (3D UGM - Digital Elevation Models from GHSL BUILT-H,BUILT-V and BUILT-S datasets - Mapping and 3D modelling using quadrotor drone and GIS software - https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00436-8, 2D UGM - Dynamic Facegraph, Cellular Automata and Polya Urn Urban Growth [by Learnt Replacement matrix] Models), Automatic Delineation of Urban Growth Boundaries-from (*) VIIRS NightsLights contour segmentation - high night lights points to urbanization (*) Suburban Commuting patterns - busy traffic (e.g Google Maps traffic busy markers, OpenStreetMap GPS Traces, Suburban-Metro rail traffic) is proportional to urbanization (*) 3D UGM Digital Elevation Models of Built-up surface - skyscrapers indicate Central Business District and urbanization, Gini Coefficient of Inequality, Moran's I measure of Urban Sprawl Dispersion-Diffusion Factor, Canny Edge Detection-Transportation Network Lattice Grid, Ocean Floor Bathymetry GIS, Machine Learning models of Urban Extent-NASA SEDAC GPW,Facebook HRSL,European Union GHSL R2019A-R2022A and NASA VIIRS NightLights, USGS LandSat9 TIRS-2/OLI-2 imagery, Voronoi Tessellation, Delaunay Triangulation, GMSH Trimesh-Quadmesh, Preferential attachment, Face and Handwriting Recognition, Neural network clustering, DBSCAN Clustering, DICOM-Medical imageing-ECG-MRI-fMRI-EEG-CTSCAN-PET-Doppler-XRay, Convex Hull, Patches Extraction-RGB and 2-D, Segmentation, Random forests, Autonomous Driving-LIDAR point cloud data, Flood vulnerability detection from GIS and LiDAR DEM, Drone Aerial Imagery Analytics, Astronomy-Cosmology Datasets-Deep Field Visuals from Space Telescopes) - GHSL rasters are mosaics created from Symbolic Machine Learning which is quite akin to Multiple Sequence Alignment and Class Association Rules based learning implemented for Astronomical Pattern Mining in NeuronRain. GDP and other socioeconomic indicators can be estimated from GIS Imagery analytics,
            1.6 Visuals-videos(ImageNet VideoGraph EventNet Tensor products algorithm for measuring Tensor Rank connectivity merits of movies,youtube videos and Large Scale Visuals, Graph Edit Distance between Video EventNet, Sentiment analysis of predictions textgraphs for youtube and movie videos by Empath-MarkovRandomFields Recursive Gloss Overlap Belief Propagation-SentiWordNet, Topological Sort for video summary, Digital watermarking, Drone Aerial Video Streaming Analytics, GIS Imagery Contour graphs for A-Star motion planning and Road Geometry Airspace Drone obstacle avoidance),
            1.7 People(Social and Professional Networks) - experiential and intrinsic(recursive mistake correction tree, Question-Answering in Interviews/Examinations/Contests),
            1.8 People(Social and Professional Networks) - lognormal least energy(inverse lognormal sum of education-wealth-valour,Sports Analytics-Intrinsic Performance Ratings-IPR e.g Elo ratings,Real Plus Minus, Non-perceptive Rankings in Sports, Wealth, Research and Academics),

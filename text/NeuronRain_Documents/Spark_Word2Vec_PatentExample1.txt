@@ -1,0 +1,46 @@
+7/8/2020
+Patent Database Search Results: "kannan srinivasan" AND "sun microsystems" in US Patent Collection
+ 
+ 
+ 
+ 
+ 
+ 
+Searching US Patent Collection...
+Results of Search in US Patent Collection db for:
+("kannan srinivasan" AND "sun microsystems"): 9 patents. 
+Hits 1 through 9 out of 9
+Jump To
+   
+Refine Search
+PAT.
+NO.
+1 8,521,875
+2 8,145,759
+3 7,743,083
+4 7,739,252
+5 7,640,545
+6 7,610,305
+7 7,165,061
+8 7,134,008
+9 7,082,432
+  "kannan srinivasan" AND "sun microsystems"
+Title
+Identity for data sources
+Dynamically configurable resource pool
+Common transaction manager interface for local and global transactions
+Read/write lock transaction manager freezing
+Transaction manager freezing
+Simultaneous global transaction and local transaction management in an application
+server
+Transaction optimization of read­only data sources
+Utility for configuring and verifying data sources
+Specifying transaction manager type at various application levels
+ 
+ 
+ 
+ 
+ 
+http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=0&f=...
+1/1
+

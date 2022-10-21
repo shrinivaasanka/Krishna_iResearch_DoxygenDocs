@@ -1,0 +1,372 @@
+@article{k2010few,
+  title={Few Algorithms for ascertaining merit of a document and their applications},
+  author={K Shrinivaasan, Balaraman Ravindran, Madhavan Mukund},
+  journal={arXiv preprint arXiv:1006.4458},
+  year={2010}
+}
+
+@article{shrinivaasan2011decidability,
+  title={Decidability of Existence and Construction of a Complement of a given Function},
+  author={Shrinivaasan, K},
+  journal={arXiv preprint arXiv:1106.4102},
+  year={2011},
+  publisher={acknowledgement: advised by Meena Mahajan, Institute of Mathematical~…}
+}
+
+@inproceedings{k2010update,
+  title={Update summarization with Interview Algorithm - http://www.nist.gov/tac/publications/2010/participant.papers/CMI\_IIT.proceedings.pdf},
+  author={K Shrinivaasan, Balaraman Ravindran, Madhavan Mukund},
+  booktitle={NIST TAC 2010},
+  year={2010},
+  organization={NIST}
+}
+
+@article{shrinivaasan2013indepth,
+  title={Indepth analysis of a variant of Majority Voting and relation to Zermelo-Fraenkel Set Theory With Axiom of Choice (ZFC)},
+  author={Shrinivaasan, Ka},
+  year={2013}
+}
+Decidability of Existence and Construction of a Complement of a given Function
+Ka. Shrinivaasan
+Mathematics, Computer Science
+ArXiv
+2011
+This article de nes a complement of a function and conditions for existence of such a complement function and presents few algorithms to construct a complement.
+
+Cite
+
+Save
+
+Feed
+TAC 2010 Summarization Track - Update Summarization with Interview Algorithm
+Ka. Shrinivaasan
+Computer Science
+TAC
+2010
+Existing models for ranking documents(mostly in world wide web) are prestige based. In this article, alternative graph-theoretic schemes to objectively judge the merit of a document independent of… Continue Reading
+View PDF
+
+Cite
+
+Save
+
+Feed
+Few Algorithms for ascertaining merit of a document and their applications
+Ka. Shrinivaasan
+Computer Science
+ArXiv
+2010 (First Publication: 23 June 2010)
+Existing models for ranking documents(mostly in world wide web) are prestige based. In this article, three algorithms to objectively judge the merit of a document are proposed-1) Citation graph… Continue Reading
+
+@article{DBLP:journals/corr/abs-1106-4102,
+  author    = {Ka. Shrinivaasan},
+  title     = {Decidability of Existence and Construction of a Complement of a given
+               Function},
+  journal   = {CoRR},
+  volume    = {abs/1106.4102},
+  year      = {2011},
+  url       = {http://arxiv.org/abs/1106.4102},
+  archivePrefix = {arXiv},
+  eprint    = {1106.4102},
+  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1106-4102.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tac/Shrinivaasan10,
+  author    = {Ka. Shrinivaasan},
+  title     = {{TAC} 2010 Summarization Track - Update Summarization with Interview
+               Algorithm},
+  booktitle = {Proceedings of the Third Text Analysis Conference, {TAC} 2010, Gaithersburg,
+               Maryland, USA, November 15-16, 2010},
+  year      = {2010},
+  crossref  = {DBLP:conf/tac/2010},
+  url       = {https://tac.nist.gov/publications/2010/participant.papers/CMI\_IIT.proceedings.pdf},
+  timestamp = {Tue, 20 Aug 2019 13:25:20 +0200},
+  biburl    = {https://dblp.org/rec/conf/tac/Shrinivaasan10.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1006-4458,
+  author    = {Ka. Shrinivaasan},
+  title     = {Few Algorithms for ascertaining merit of a document and their applications},
+  journal   = {CoRR},
+  volume    = {abs/1006.4458},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1006.4458},
+  archivePrefix = {arXiv},
+  eprint    = {1006.4458},
+  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1006-4458.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/tac/2010,
+  title     = {Proceedings of the Third Text Analysis Conference, {TAC} 2010, Gaithersburg,
+               Maryland, USA, November 15-16, 2010},
+  publisher = {{NIST}},
+  year      = {2010},
+  url       = {https://tac.nist.gov/publications/2010/papers.html},
+  timestamp = {Tue, 20 Aug 2019 13:25:20 +0200},
+  biburl    = {https://dblp.org/rec/conf/tac/2010.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+6/9/2020
+
+ka shrinivaasan - Search Results | Microsoft Academic
+
+Microsoft
+Academic
+
+
+
+ka shrinivaasan
+
+  Sign up / 
+Sign in
+
+CLEAR ALL
+
+FILTER BY: 
+
+  Time
+
+
+
+ Top Topics
+
+
+
+ Publication Types
+
+
+
+ Top Authors
+
+
+
+ Top Journals
+
+
+
+  Ka. Shrinivaasan
+PUBLICATIONS (2) 
+
+
+
+CITATIONS* (0)
+
+Authors with similar name
+ Ka. Shrinivaasan
+PUBLICATIONS (1) 
+
+
+CITATIONS* (0)
+
+Showing 1­3* of 3 (2.102 seconds)
+
+VIEW   
+
+SORT BY
+
+SALIENCY  
+
+  Decidability of Existence and Construction of a
+Complement of a given Function
+
+0 citations*
+
+2011
+Ka. Shrinivaasan
+
+ Mathematics
+
+ Discrete mathematics
+
+ Decidability
+
+
+
+
+Feedback
+
+
+
+https://academic.microsoft.com/search?q=ka%20shrinivaasan&qe=%40%40%40Composite(AA.AuN%3D%3D%27ka%20shrinivaasa…
+
+1/2
+
+6/9/2020
+
+ka shrinivaasan - Search Results | Microsoft Academic
+
+  TAC 2010 Summarization Track ­ Update
+Summarization with Interview Algorithm.
+
+0 citations*
+
+2010 THEORY AND APPLICATIONS OF
+CATEGORIES
+Ka. Shrinivaasan
+
+ Information retrieval
+
+ Data mining
+
+ Computer science
+
+View More (1+) 
+
+
+
+
+  Few Algorithms for ascertaining merit of a
+document and their applications
+
+
+
+
+
+0 citations*
+
+2010
+Ka. Shrinivaasan
+
+ World Wide Web
+
+ Information retrieval
+
+ Computer science
+
+
+
+
+
+
+
+
+FAQ
+Contact Us
+Privacy and Cookies
+Terms of Use
+Trademarks
+Specific Terms
+* Estimated Count
+© 2020 Microsoft
+
+https://academic.microsoft.com/search?q=ka%20shrinivaasan&qe=%40%40%40Composite(AA.AuN%3D%3D%27ka%20shrinivaasa…
+
+2/2
+
+
+@ARTICLE{2011arXiv1106.4102S,
+       author = {{Shrinivaasan}, Ka.},
+        title = "{Decidability of Existence and Construction of a Complement of a given Function}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Logic in Computer Science},
+         year = 2011,
+        month = jun,
+          eid = {arXiv:1106.4102},
+        pages = {arXiv:1106.4102},
+archivePrefix = {arXiv},
+       eprint = {1106.4102},
+ primaryClass = {cs.LO},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2011arXiv1106.4102S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@ARTICLE{2010arXiv1006.4458S,
+       author = {{Shrinivaasan}, Ka.},
+        title = "{Few Algorithms for ascertaining merit of a document and their applications}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Information Retrieval},
+         year = 2010,
+        month = jun,
+          eid = {arXiv:1006.4458},
+        pages = {arXiv:1006.4458},
+archivePrefix = {arXiv},
+       eprint = {1006.4458},
+ primaryClass = {cs.IR},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2010arXiv1006.4458S},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+
+6/9/2020
+Documents
+
+CiteSeerX — Search Results — Ka. Shrinivaasan
+Authors
+
+Tables
+
+Donate
+
+DMCA
+
+MetaCart
+
+Results 1 ­ 2 of 2
+
+Sign up
+
+Log in
+
+Tools
+
+Ka.Shrinivaasan
+
+Sorted by:
+Relevance
+
+by Dr. Madhavan Mukund Cmi , 2010
+"... algorithms for ascertaining merit of documents and their applications ..."
+Abstract ­ Add to MetaCart
+
+Try your query at:
+
+TAC 2010 Summarization Track­ Update Summarization with Interview Algorithm
+by unknown authors
+"... Existing models for ranking documents(mostly in world wide web) are prestige based. In this article, alternative graph­theoretic
+schemes to objectively judge the merit of a document independent of any external factors (like link graph) and without probabilistic
+inference are proposed and application ..."
+Abstract ­ Add to MetaCart
+
+Results 1 ­ 2 of 2
+
+Powered by: 
+About CiteSeerX
+
+ 
+
+Submit and Index Documents
+
+ 
+
+Privacy Policy
+
+ 
+
+Help
+
+ 
+
+Data
+
+ 
+
+Source
+
+ 
+
+Contact Us
+
+Developed at and hosted by The College of Information Sciences and Technology
+© 2007­2019 The Pennsylvania State University
+
+https://citeseerx.ist.psu.edu/search?q=Ka.+Shrinivaasan
+
+1/1
+
+

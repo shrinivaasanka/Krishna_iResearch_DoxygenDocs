@@ -1,0 +1,54 @@
+@article{DBLP:journals/corr/abs-1106-4102,
+  author    = {Ka. Shrinivaasan},
+  title     = {Decidability of Existence and Construction of a Complement of a given
+               Function},
+  journal   = {CoRR},
+  volume    = {abs/1106.4102},
+  year      = {2011},
+  url       = {http://arxiv.org/abs/1106.4102},
+  archivePrefix = {arXiv},
+  eprint    = {1106.4102},
+  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1106-4102.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{DBLP:conf/tac/Shrinivaasan10,
+  author    = {Ka. Shrinivaasan},
+  title     = {{TAC} 2010 Summarization Track - Update Summarization with Interview
+               Algorithm},
+  booktitle = {Proceedings of the Third Text Analysis Conference, {TAC} 2010, Gaithersburg,
+               Maryland, USA, November 15-16, 2010},
+  year      = {2010},
+  crossref  = {DBLP:conf/tac/2010},
+  url       = {https://tac.nist.gov/publications/2010/participant.papers/CMI\_IIT.proceedings.pdf},
+  timestamp = {Tue, 20 Aug 2019 13:25:20 +0200},
+  biburl    = {https://dblp.org/rec/conf/tac/Shrinivaasan10.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{DBLP:journals/corr/abs-1006-4458,
+  author    = {Ka. Shrinivaasan},
+  title     = {Few Algorithms for ascertaining merit of a document and their applications},
+  journal   = {CoRR},
+  volume    = {abs/1006.4458},
+  year      = {2010},
+  url       = {http://arxiv.org/abs/1006.4458},
+  archivePrefix = {arXiv},
+  eprint    = {1006.4458},
+  timestamp = {Mon, 13 Aug 2018 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1006-4458.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@proceedings{DBLP:conf/tac/2010,
+  title     = {Proceedings of the Third Text Analysis Conference, {TAC} 2010, Gaithersburg,
+               Maryland, USA, November 15-16, 2010},
+  publisher = {{NIST}},
+  year      = {2010},
+  url       = {https://tac.nist.gov/publications/2010/papers.html},
+  timestamp = {Tue, 20 Aug 2019 13:25:20 +0200},
+  biburl    = {https://dblp.org/rec/conf/tac/2010.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+

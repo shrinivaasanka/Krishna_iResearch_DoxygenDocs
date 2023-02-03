@@ -243,7 +243,7 @@ May 2003 – present – Krishna iResearch (parallel, self-started, not-for-prof
 Working on Research, Design and Development of open source projects – a machine-
 learning, cloud and queue augmented Linux kernel - NeuronRain - started by self, copyleft licensed under GPL v3 .  Premium technical support is available for above opensource codebases. The GitHub repositories implement NeuronRain Green (for cloud and generic datasets),  SourceForge repositories implement NeuronRain Research (for astronomical datasets) and GitLab repositories implement NeuronRain Antariksh (for Drone development). An introductory presentation on NeuronRain based Analytics is at:
 https://github.com/shrinivaasanka/Grafit/blob/master/EnterpriseAnalytics_with_NeuronRain.pdf
-Latest version 2022#10#01:
+Latest version 2023#2#2:
 
 1. NEURONRAIN - Krishna_iResearch_DoxygenDocs – FAQ and Documentation for AsFer, VIRGO, KingCobra, Acadpdrafts and USBmd open source product codebases which are subsystems of Krishna iResearch Intelligent Cloud OS - NeuronRain
 (https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs , http://neuronrain-documentation.readthedocs.io/en/latest/ )
@@ -616,7 +616,44 @@ Auction – for Drone EVM usecase implementation in NeuronRain
 	2.399 Astronomy and Cosmology Datasets Analytics - Solar system N-Body Pairwise angular separations computed for NOAA HURDAT2 (1851-2012) North Atlantic Hurricanes Datasets
 	2.400 Computational Geometric Integer Factorization - Multiple Integers - Python 3.10.4 upgrade + Spark 3.0.1 Quadcore Benchmarks 
 	2.401 GIS Weather Analytics and Climate Analytics – NASA JPL DE421 Ephemeris N-Body analytics integration and correlation to extreme weather events – Syzygies and angular separations of Solar system bodies
-	
+	2.402 Computational Geometric Integer Factorization - Multiple Integers - Python 3.10.4 upgrade + Spark 3.0.1 Quadcore Benchmarks - Numba JIT optimization - Configurable number of factors - Factorization-SquareRoot-Primality of Consecutive integers
+	2.403 GIS Urban Sprawl Analytics – GHSL R2019A and R2022A - Comparison of Raster Data Bounding Boxes for Chennai Metropolitan Area Sprawl 
+	2.404 GIS Urban Sprawl Analytics - R2022A - 3D Urban Sprawl Growth Model from BUILT-V and BUILT-S datasets - Commercial segment (Central Business District) Delineation by average building height - Chennai Metropolitan Area Sprawl Example
+	2.405 Computational Geometric Integer Factorization - Python 3.10.4,Python 3.7.5,Spark 3.0.1,Spark 3.3.0 Quadcore Benchmarks - Numba JIT enabled for joblib parallelized tiles creation - Semiprimes,Cunningham's Number
+	2.406 Computational Geometric Integer Factorization - Python 3.10.4 + Spark 3.3.0 Quadcore Benchmarks - Hardware Square root instruction optimization and Semiprime Factorization
+	2.407 GIS Urban Sprawl Analytics - R2022A - 3D Urban Sprawl Growth Model from BUILT-V and BUILT-S datasets - Mean,Median,Standard Deviation of Building Heights - Chennai Metropolitan Area Sprawl Example 
+	2.408 GIS Weather Analytics and Climate Analytics -  Predictions of Extreme Weather Events
+	2.409 GIS Urban Sprawl Analytics - R2022A - 3D Urban Sprawl Growth Model from BUILT-V and BUILT-S datasets - Digital Elevation Model from Matplotlib3D  - Chennai Metropolitan Area Sprawl Example
+	2.410 GIS Urban Sprawl Analytics - R2022A - Verhulste Population Growth Model – Population Estimator - Chennai Metropolitan Area Sprawl Example 
+	2.411 MultiFractal Detrended Fluctuation Analysis (MFDFA) - for unearthing Fractal structure within any timeseries data (including Music, Medical Imageing-ECG, Meteorology-Precipitation, Seismology-Tremors, NBody Gravitational Accelerations, Economics-Financial Markets)
+	2.412 GIS Urban Sprawl Analytics - Urban Sprawl Road Network Graph from OpenStreetMap (OSMnx)
+	2.413 GIS Urban Sprawl Analytics - Urban Sprawl Road Network Analytics (OSMnx) based delineation for periurban sprawl of Chennai Metropolitan Area – Road density measures and Cheeger constant - a case study
+	2.414 GIS Weather Analytics and Climate Analytics - MFDFA model of precipitation
+	2.415 Intrinsic Merit of Music - MFDFA model of Music Waveforms and Piano notes string generation from mathematical functions 
+	2.416 Computational Geometric Integer Factorization - Python 3.10.6 + Spark 3.3.0 Quadcore Benchmarks - Optional Square Root Optimization, Refactoring of Multiple Integer Factorization, Linux Pollard-Rho Factor Command Benchmarks comparison
+	2.417 Computational Geometric Integer Factorization - Python 3.10.6 + Spark 3.3.0 Quadcore Benchmarks - Multiple Consecutive Integers 
+	2.418 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events based on angular separations-NBody gravitational accelerations of few more pairs of solar system bodies from Sequence Mining and Graphics plot of Gravities
+	2.419 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events based on angular separations-NBody gravitational accelerations of solar system bodies from Sequence Mining - Python3.x upgrade of Sequence Mining (NeuronRain Green and Antariksh - GitHub and GitLab) and JSON persistence in NeuronRain Research (SourceForge)
+	2.420 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events based on angular separations-NBody gravitational accelerations of solar system bodies from Sequence Mining - Arbitrary Celestial Conjunctions and Reading Sequence mined Class Association Rules from JSON
+	2.421 GIS Urban Sprawl Analytics -  Overlay of GHSL R2022A BUILT-V Visualization and Chennai Metropolitan Area Map and its clustering
+	2.422 GIS Urban Sprawl Analytics -  Overlay of GHSL R2022A BUILT-V Visualization and Chennai Metropolitan Area Map and its DBSCAN clustering
+	2.423 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events from Gaussian Mixture Model - Multimodal Gaussian fit of the precipitation timeseries
+	2.424 Computational Geometric Integer Factorization - Python 3.7.5 + Spark 3.3.0 Quadcore Benchmarks - Linux Elliptic Curve Factorization gmp-ecm comparison
+	2.425 Computational Geometric Integer Factorization - Python 3.7.5 + Spark 3.3.0 Quadcore Benchmarks - Linux General Number Field Sieve Factorization (CADO-NFS) comparisons (multiple permutations and combinations of integers) 
+	2.426 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events from Gaussian Mixture Model - Multimodal Gaussian fit of the precipitation timeseries - Modes set from N-Body gravitations 
+	2.427 GIS Weather Analytics and Climate Analytics - Prediction of Extreme Weather Events from Gaussian Mixture Model - Multimodal Gaussian fit of the precipitation timeseries - Gaussian Ensemble Rainfall Forecast from Timeseries Partition Enumeration 
+	2.428 Granger causality of timeseries data (including Music, Medical Imageing-ECG, Meteorology-Precipitation, Seismology-Tremors, NBody Gravitational Accelerations, Economics-Financial Markets)
+	2.429 Graphical Event Model (GEM) from Granger causality of timeseries data (including Music, Medical Imageing-ECG, Meteorology-Precipitation, Seismology-Tremors, NBody Gravitational Accelerations, Economics-Financial Markets) – Stock quotes GEM example
+	2.430 GIS Urban Sprawl Analytics - Maxflow-Minxut Bottleneck measure of OSMnx transport network graph - Overlay of GHSL R2022A BUILT-V Visualization and Chennai Metropolitan Area Map – a road network density analysis of expanded Chennai Metropolitan Area sprawl and mystery boom in class 21 pixel periurban regions of GHSL R2022A.
+	2.431 Computational Geometric Integer Factorization - Python 3.7.5 + Spark 3.3.0 Quadcore 4093 bits Benchmarks - Self Initializing Quadratic Sieve Factorization and Elliptic Curve Method (SIQS + ECM) comparison
+	2.432 String Analytics and Intrinsic Merit of Music - Fisher-Yates-Knuth Shuffle - permutation catalog of all possible music waveforms – Mersenne Twister PRNG
+	2.433 String Analytics and Intrinsic Merit of Music - Fisher-Yates-Knuth Shuffle augmented by Reservoir sampling - permutation catalog of all possible music waveforms – Reservoir sampling function implemented in C++ is a multipurpose Opinion mining utility for approximating majority voting on a population (Opinion polls in psephology approximate majority gate or compress a majority gate by sampling a fraction of leaves)
+	2.434 String Analytics – Variable value swap by XOR swap algorithm - Multiple return values within a Go function, Goroutines and Gochannels for synchronization 
+	2.435 String Analytics - String reversals by XOR swap algorithm - definition of separate Go function for reversing a string by XOR swap 
+	2.435 String Analytics and Large Scale Visuals Analytics - Python 3.11 Matrix mirror utility primitive – String mirroring or String topological inversion 
+	2.436 String Analytics and Large Scale Visual Analytics - Python 3.11 String Factorization - Vowelless text compression as a consonant-vowel vectors Matrix product 
+	2.437 Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential version and iterative binary search 
+	2.438 Computational Geometric Factorization - Rayon Parallel iterator Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential and Parallel versions – a high performance supercomputing (Nick class) alternative to PySpark cloud Computational Geometric Factorization (DMRC MapReduce)	
 
 AstroInfer is the userspace Big Data Mining and Deep Learning facet of NeuronRain. Initially implemented for mining patterns in astronomical datasets(degrees of astronomical objects viz planets, constellations etc.,) and prediction based on rules and execution of those rules (SourceForge), has been generalized for any dataset (GitHub,GitLab). It is also used in USBmd and VIRGO codebases below for traffic analytics and kernel analytics. Design started in May 2003. 
        

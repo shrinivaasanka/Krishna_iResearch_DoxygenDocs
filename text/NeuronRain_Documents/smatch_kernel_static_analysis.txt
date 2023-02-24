@@ -1,0 +1,45 @@
+===================================================================================================
+1249. Smatch Static Analysis of NEURONRAIN VIRGO Linux Source Tree
+===================================================================================================
+Analyzed on 25 July 2016:
+-------------------------
+1. Smatch (http://smatch.sourceforge.net/) finds bugs in linux kernel code statically.
+2. Article by Dan Carpenter on Smatch - https://blogs.oracle.com/linuxkernel/entry/smatch_static_analysis_tool_overview
+3. Smatch kchecker was run as an example on virgo_malloc system call with following logs (commandline: $/root/smatch/smatch/smatch_scripts/kchecker -spammy virgo_malloc/virgo_malloc.c)
+----------------------------------------------------------------------------------------
+  CHK     include/config/kernel.release
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    scripts/checksyscalls.sh
+  CHECK   scripts/mod/empty.c
+  CHECK   virgo_malloc/virgo_malloc.c
+include/linux/virgo_mempool.h:36:9: warning: preprocessor token LINUX_KERNEL_4_x_x redefined
+n:1:9: this was the original definition
+virgo_malloc/virgo_malloc.c:72:9: warning: preprocessor token BUF_SIZE redefined
+include/linux/virgo_mempool.h:97:9: this was the original definition
+virgo_malloc/virgo_malloc.c:83:63: warning: non-ANSI function declaration of function 'get_least_loaded_hostport_from_cloud_mempool'
+virgo_malloc/virgo_malloc.c:115:45: warning: non-ANSI function declaration of function 'get_host_from_cloud_Loadtrack_mempool'
+virgo_malloc/virgo_malloc.c:124:39: warning: non-ANSI function declaration of function 'get_host_from_cloud_PRG_mempool'
+virgo_malloc/virgo_malloc.c:164:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:168:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:175:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:242:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:244:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:258:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:264:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:390:25: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:476:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:503:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:509:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:659:50: warning: non-ANSI function declaration of function 'virgomemorypooling_read_virgo_config_client'
+virgo_malloc/virgo_malloc.c:683:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:686:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:709:9: warning: mixing declarations and code
+virgo_malloc/virgo_malloc.c:96 get_least_loaded_hostport_from_cloud_mempool() error: potential null dereference 'hopo'.  (kmalloc returns null)
+virgo_malloc/virgo_malloc.c:189 sys_virgo_get() warn: inconsistent indenting
+virgo_malloc/virgo_malloc.c:289 sys_virgo_set() warn: inconsistent indenting
+virgo_malloc/virgo_malloc.c:522 sys_virgo_free() warn: inconsistent indenting
+  CC      virgo_malloc/virgo_malloc.o
+

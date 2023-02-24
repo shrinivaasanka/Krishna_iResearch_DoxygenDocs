@@ -1,0 +1,34 @@
+##############################################################################################################################################
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+##############################################################################################################################################
+Course Authored By:
+#-----------------------------------------------------------------------------------------------------------
+#K.Srinivasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+#Personal website(research): https://acadpdrafts.readthedocs.io/en/latest/
+#-----------------------------------------------------------------------------------------------------------
+##############################################################################################################################################
+
+This is a non-linearly organized, code puzzles oriented, continually updated set of course notes on TypeScript which is the Typed superset of JavaScript . This complements NeuronRain course materials on Linux Kernel, Cloud, BigData Analytics and Machine Learning.
+----------------------------------------------------------------------------------------------------------------------------
+1387. (THEORY and FEATURE) GIS Urban Sprawl Analytics - Google Maps Traffic Layer Live Busy Traffic - TypeScript GUI - Chennai Metropolitan Area Periurban region example - 9 February 2023 - related to 823,1163,1164,1174,1175,1177,1179,1194,1211,1226,1234,1290,1291,1292,1295,1296,1297,1301,1302,1304,1312,1313,1320,1323,1326,1328,1342,1343,1349,1350,1351,1362,1363,1377,1386 and all sections on GIS Urban Sprawl Analytics, Merit of Large Scale Visuals, Gridded Population Estimators (SEDAC GPW4 and GHSL convex hull estimators), DBSCAN and Neural Network Urban Extent Learners, Computational Geometry, Intrinsic Merit Rankings, R Ricker Population Estimation, Community detection, Social Network Analytics, Space filling by Curves, Unequal Circle and Polynomial packing, Computational Geometry and Polygonal packing by Voronoi Tessellation, Four color theorem, Economic Merit, Computational Economics - GDP estimation from Urban sprawl demographics, electricity consumption, Poverty alleviation, Preferential Attachment, Automatic Delineation of Urban Sprawls, Cellular Automata-SLEUTH-Polya Urn-Dynamic Facegraph Urban Growth Models, Autonomous Driving, Expander Graphs, Isochrones
+---------------------------------------------------------------------------------------------------------------------------- 
+1387.1 Google Maps Live Busy Traffic Layer JavaScript code example from https://developers.google.com/maps/documentation/javascript/examples/layer-traffic has been enhanced to accept commandline environment variable arguments for longitude and latitude of a location to plot the live traffic centred around it. 
+1387.2 New folder code/livetraffic has been added to repository containing the revised typescript code which reads the following environment variables set within .env file:
+	var latitudeenv = parseFloat(import.meta.env.VITE_LATITUDE);
+  	var longitudeenv = parseFloat(import.meta.env.VITE_LONGITUDE);
+1387.3 Previous Google Maps code is written in ViteJS TypeScript which is the typed superset of JavaScript. Earlier code example was executed both in Google CloudShell https://shell.cloud.google.com/ and in standalone setup. 
+1387.4 Prerequisites for this TypeScript code are NodeJS with types and NPM installations - NodeJS and NPM binaries (Version 18.14) from https://nodejs.org/dist/v18.14.0/node-v18.14.0-linux-x64.tar.xz were used for installation. 
+1387.5 Index script code/livetraffic/index.ts has been changed to import VITE environment variables for longitude and latitude set within .env file at the root of the tree. Prefix VITE_ has special meaning in ViteJS directing the code to treat the variables in secure manner. 
+1387.6 Two example .env files (.env_example1 and .env_example2) containing 2 example longitude-latitude(s) have been added to code/livetraffic which can be sourced after renaming to .env,exported and imported within index.ts.
+1387.7 Example is run by following commandline which starts a Google Maps webserver at localhost:8080:
+	$NODEJSHOME/node-v18.14.0-linux-x64/bin/npm start -- --port 8080	
+1387.8 Following Google Maps Live Traffic GUI snapshots for the two .env longitude-latitude(s) are also committed to code/livetraffic/logs:
+	GoogleMapsTrafficLayer_env_example1_9February2023.pdf
+  	GoogleMapsTrafficLayer_env_example2_9February2023.pdf
+1387.9 The theoretical motivation for live traffic stems from isochrones which are equi-drive-time radius convex hulls drawn encompassing the ego graphs of road network graph. Google live traffic busy markers are a step closer to isochrones though some periodic snapshots are required to infer extent of traffic percolation after every time duration.  
+
+References:
+----------
+1387.10 ViteJS TypeScript environment variables - https://vitejs.dev/guide/env-and-mode.html
+1387.11 Ego graph - https://networkx.org/documentation/stable/reference/generated/networkx.generators.ego.ego_graph.html - subgraph of neighbours centred at a node and within certain radius

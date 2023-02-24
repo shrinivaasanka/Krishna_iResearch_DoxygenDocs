@@ -1,0 +1,18 @@
+------------------------------------------------
+1247. Module Listen Ports
+------------------------------------------------
+VIRGO cpupooling driver --------     10000
+
+VIRGO EventNet driver ----------     20000
+
+VIRGO memorypooling driver -----     30000
+
+VIRGO filesystems driver -------     50000
+
+VIRGO queueing driver ----------     60000
+  and KingCobra
+
+VIRGO64 streaming kernel analytics webservice port ----- 64000
+
+KingCobra Neuro Currency (Message-as-Currency) Perfect Forwarding Cloud Move Server port ----- 55555
+

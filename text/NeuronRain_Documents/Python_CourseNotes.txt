@@ -379,3 +379,101 @@ References:
 -----------
 1. Python memoryview() documentation - https://docs.python.org/3/library/stdtypes.html#memoryview
 
+-----------------------------------------------------------------------------------------------------------------------------
+1354.(THEORY and FEATURE) OS Scheduling and Hashing Dynamic Sets - Python 3.11 Prototype implementation of Survival Index Deadline Scheduler - 14 November 2022 - related to 751 and all sections on Set partitions, Computational geometry, Program analysis/Software analytics/Scheduler Analytics among other topics in NeuronRain Theory Drafts, Sun Microsystems-Oracle-Global Analytics Patent Disclosures and Timeout implementations
+-----------------------------------------------------------------------------------------------------------------------------
+1354.1 New python 3.11 source file code/SurvivalIndexScheduler.py has been added to NeuronRain Grafit course material repositories which implements a prototype of Survival Index Deadline based OS Scheduler algorithm described in Section 751 verbatim. Python 3.11 released recently is said to have speedup of 10-60% in benchmarks due to faster CPython.
+1354.2 It instantiates 4 Python threads respectively (*) to produce a stream of fictitious (process id,deadline) ordered pairs - deadline timeout values are assumed to be specified by SCHED_DEADLINE in sched_setattr() - more details at https://www.kernel.org/doc/Documentation/scheduler/sched-deadline.txt (*) to keep track of scheduler clockticks (*) to define core survival index scheduler which pops processes from scheduler runqueue and appends to appropriate timeout (deadline) buckets (*) to countdown the keys of the scheduler dictionary by a simulated hashcode - dictionary keys (deadlines-timeout values) are copied, iterated, decremented and updated to original (Copy-On-Write paradigm) - simulation is necessitated because of immutability of Python dictionary keys (though there is a Dictionary rename API in Google Earth Engine - https://developers.google.com/earth-engine/apidocs/ee-dictionary-rename#colab-python):
+	thread1 = Thread(target=process_stream,args=[10])
+	thread2 = Thread(target=clockticks)
+    	thread3 = Thread(target=survival_index_scheduler)
+    	thread4 = Thread(target=countdown_keys)
+1354.3 Thread context switch is enforced by setswitchinterval() for overcoming Python GIL limitation.
+1354.4 Logs code/logs/SurvivalIndexScheduler.log.14November2022 capture the dynamism of scheduler dictionary hashmap keys for 10 process id(s) as per algorithm mentioned in 751. IndexError is thrown if Scheduler queue is empty. AsyncIO Python code has been commented at present which can be chosen as Thread alternative.
+1354.5 Earlier prototype is a userspace linux kernel scheduler (an oxymoron though) and its scheduling can be communicated to kernel as key:value pairs read by Kernel Analytics VIRGO drivers and broadcast throughout Linux kernel including https://github.com/torvalds/linux/blob/master/kernel/sched/core.c 
+
+References:
+----------
+1354.6 Previous implementation is an adapatation of Proprietary Survival Index Based Transaction Timeout Management implementation design mentioned in patent disclosure (2002) to NeuronRain VIRGO Analytics-enabled-Linux-kernel - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/SurvivalIndexBasedTxnTimeoutManager.pdf (Patent Pending - Copyright - Sun Microsystems (now Oracle)) - Specific to Java Hashmap (CustomizedHashMap) and Open Addressing - part of erstwhile iPlanet Application Server (iAS - now Eclipse GlassFish and Oracle GlassFish appservers - https://github.com/javaee/glassfish/tree/master/appserver, https://www.oracle.com/middleware/technologies/glassfish-downloads.html, https://projects.eclipse.org/projects/ee4j.glassfish, https://javaee.github.io/glassfish/ , https://glassfish.org/) patents - https://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO2&Sect2=HITOFF&p=1&u=%2Fnetahtml%2FPTO%2Fsearch-adv.htm&r=0&f=S&l=50&d=PTXT&Query=%22kannan+srinivasan%22+AND+%22sun+microsystems%22
+1354.7 Machine Learning for Load Balancing in the Linux Kernel - Machine Learnt task migration decision for loadbalancing busy runqueues between CPU cores in Completely Fair Scheduler - [ Jingde Chen, Subho S. Banerjee, Zbigniew T. Kalbarczyk, Ravishankar K. Iyer - University of Illinois at Urbana-Champaign] - https://ssbaner2.cs.illinois.edu/publications/apsys2020/Paper.pdf - " ... In this paper, we present the results of the first step, i.e., an ML model and an implementation to replace the CFS load balancer. The proposed approach consists of: (1) Collection of runtime system data via dynamic kernel tracing, using eBPF (described in Section 3.2).  (2) Training of the ML model using collected data to emulate task migration decisions (described in Section 3.3).  (3) Two implementations of the model in the kernel, one with floating-point arithmetic and one with fixed-point arithmetic (described in Section 3.4). ..."
+
+------------------------------------------------------------------------------------------------------------------------------
+1357. (THEORY and FEATURE) OS Scheduling and Hashing Dynamic Sets - Python 3.11 implementation of Survival Index Deadline Scheduler - 17 November 2022 - related to 751,1354 and all sections on Set partitions, Computational geometry, Program analysis/Software analytics/Scheduler Analytics among other topics in NeuronRain Theory Drafts, Sun Microsystems-Oracle-Global Analytics Patent Disclosures and Timeout implementations, Machine Learning enabled VIRGO Linux Kernel for Massive Datasets on Cloud 
+------------------------------------------------------------------------------------------------------------------------------
+1357.1 This commit upgrades the prototype userspace Survival Index Linux Kernel Scheduler in course_material/Programming/Python/code/SurvivalIndexScheduler.py b/course_material/Programming/Python/code/SurvivalIndexScheduler.py to a full-fledged kernel analytics implementation which writes virgo_kernel_analytics.conf read by VIRGO kernel_analytics driver and exported kernelwide. 
+1357.2 Function survival_index_scheduler() has been changed to write scheduler analytics key-value pairs (deadline_timeout-process_ids) to /etc/virgo_kernel_analytics.conf and contents of dynamic_hashmap_dict are periodically written to it.
+1357.3 Function process_stream() has been rewritten to enumerate process id(s) by "ps -eafo pid,cls" command through subprocess.run() and parse the scheduling policies of the processes (which are mostly TS). If the scheduling policy of a process is "DLN" denoting SCHED_DEADLINE,deadline of the process (in nanoseconds) is parsed from "chrt -p" command (chrt is of the form runtime < deadline < period) and process_queue is populated by (process id, deadline) pair.
+1357.4 New function spawn_processes(no_of_processes) has been defined to create mock processes (by chrt commandline which sets the runtime, deadline and period) through a loop in script SurvivalIndexScheduler_process.py.
+    #SCHED_DEADLINE chrt example (runtime < deadline < period):
+    #----------------------------------------------------------
+    #chrt -d --sched-runtime 1000000 --sched-deadline 5000000 --sched-period 5000000 -p 0 <pid>
+    #chrt -d --sched-runtime 1000000 --sched-deadline 5000000 --sched-period 5000000 0 <processname>
+1357.5 20 mock processes are created with SCHED_DEADLINE timeout policies earlier. Logs code/logs/SurvivalIndexScheduler.log.17November2022 show the progress of timeout datastructure which is updated in virgo_kernel_analytics.conf as key-value pairs of the form (deadline_timeout ---- queue of processes)
+1357.6 Both new and existing processes can be set to SCHED_DEADLINE by chrt commandlines earlier either by processname or id. Periodically updated /etc/virgo_kernel_analytics.conf could be read and exported in kernel by VIRGO kernel_analytics driver transparently underneath and read by Constant Band Width Server (CBS) - Completely Fair Scheduler (CFS) as an additional guideline to SCHED_DEADLINE kernel scheduling. Userspace scheduling implemented earlier is coarse grained and process-specific while kernel scheduling is fine-grained and thread-specific. An advantage in userspace scheduling is the segregation of responsibility between both userspace and kernelspace and hitherto scheduling is an internal burden of kernel.
+1357.7 Scheduler deadline_timeout-processes key-value pairs read by kernel from /etc/virgo_kernel_analytics.conf help kernel in cleaning up expired processes quickly by invoking kernel cleanup routines for all values (processes in queue) whenever their key (sched_deadline timeout) reaches 0. Naive approach could be to iterate through list of processes in a ring buffer by clock sweep periodically, check if it has timed-out, remove expired processes and re-adjust the ring buffer - a costly brute force algorithm.
+1357.8 SurvivalIndexScheduler.py is implemented in Python 3.11 environment due to major performance enhancements in Python 3.11 with respect to dictionary keys and values optimization. 
+1357.9 Disclaimer: Survival Index Scheduler implementation earlier does not infringe any software patents (or pending applications) bearing same name filed for Sun Microsystems-Oracle (1354.6) and only algorithm has been adapted for linux kernel SCHED_DEADLINE and analytics setting.
+
+References:
+----------
+1357.10 Python 3.11 performance enhancements - EuroPython 2022 - How we are making Python 3.11 faster - presented by Mark Shannon - https://www.youtube.com/watch?v=xKk7IXm0XO0
+1357.11 Python 3.11 performance enhancements - https://medium.com/aiguys/how-python-3-11-is-becoming-faster-b2455c1bc555
+
+-----------------------------------------------------------------------------------------------------------------------------
+1370. (THEORY and FEATURE) String Analytics and Large Scale Visuals Analytics - Python 3.11 Matrix mirror utility primitive - 
+based on O(1) NumPy fliplr() memory view implementation - 15 December 2022 - related to all sections on Text analytics,String analytics and Large Scale Visuals Analytics 
+-----------------------------------------------------------------------------------------------------------------------------
+1370.1 Conventional string reverse() primitive is O(N) for N=length of the string which has to traverse entire string.
+1370.2 NumPy fliplr() mirrors or flips a matrix left-to-right along x-axis in O(1) time by an efficient memory view optimization (from documentation - https://numpy.org/doc/stable/reference/generated/numpy.fliplr.html - "... Returns
+fndarray - A view of m with the columns reversed. Since a view is returned, this operation is O(1) ..." ). 
+1370.3 Multipurpose utility function matrix_mirror() has been defined in MatrixMirror.py which takes a list of M strings of length N each,instantiates a matrix of strings of size M*N from alphabets of string literals and reverses set of strings or mirrors the 2-D matrix of string alphabets left-to-right by NumPy fliplr().
+1370.4 Since a matrix of strings is reversed in an O(1) memory view fliplr() optimization, amortized complexity of per string reverse() should be theoretically sublinear or O(N^(epslion)) and for matrix_mirror() could be O(M*N^(epsilon)), 0 < epsilon < 1. Same set of m strings of length n each would have required O(MN) time to mirror by conventional reverse().
+1370.5 Earlier matrix mirror primitive has profound impact on large visuals which need to be mirrored. An example bitmap of stylized letter "D":
+		#############
+                #---------###
+                ##--#####--##
+                ##--#####--##
+                ##--#####--##
+                ##--#####--##
+                #---------###
+                #############
+is mirrored by matrix_mirror() and captured in logs/MatrixMirror.log.15December2022 :
+	Mirrored string: #############
+	Mirrored string: ###---------#
+	Mirrored string: ##--#####--##
+	Mirrored string: ##--#####--##
+	Mirrored string: ##--#####--##
+	Mirrored string: ##--#####--##
+	Mirrored string: ###---------#
+	Mirrored string: #############
+ 
+
+References:
+----------
+1370.6 NumPy flip() - https://numpy.org/doc/stable/reference/generated/numpy.flip.html
+
+------------------------------------------------------------------------------------------------------------------------------
+1371. (THEORY and FEATURE) String Analytics and Large Scale Visual Analytics - Python 3.11 String Factorization - Vowelless text compression as a consonant-vowel vectors Matrix product - 19 December 2022 - related to 2,745,1123,1370 and all sections on Text analytics,String analytics and Large Scale Visuals Analytics,Compressed Sensing,Vowelless Text Compression, Embedding of syllables in vectorspace, Matrix multiplication, Ramsey coloring of texts by consonants-vowels
+-----------------------------------------------------------------------------------------------------------------------------
+1371.1 English language text strings are 2-colored sequences of consonants and vowels and on an average every third symbol of an english word is a vowel.
+1371.2 This commit introduces a notion of "String Factorization" in code/StringFactorization.py by means of which a natural language string is factorized into product (multiplication is replaced by concatenation) of 2 vectors of consonants and vowels.
+1371.3 Function string_factorization() in code/StringFactorization.py (*) takes a natural language string as argument (*) hyphenates the string to syllables by PyHyphen hyphenator (*) parses consonants and vowels of the syllables into two vectors - or factorizes a string into consonant and vowel substring vectors. 
+1371.4 An example word "concatenation" is hyphenated and factorized into consonants and vowels vectors as:
+	syllables: ['con', 'cate', 'na', 'tion']
+	Hyphenated word: c-nc-t-n-t--n
+	Consonant vector: ['c', 'nc', 't', 'n', 't', '', 'n']
+	Vowel vector: ['', 'o', '', 'a', 'e', 'a', 'io']
+1371.5 In other words, "concatenation" is the matrix product of 2 vectors each consisting of substrings of consonants and vowels: [c,nc,t,n,t,n] and [o,a,e,a,io] in which row-column wise multiplication operator is replaced by concatentation as: c*o + nc*a + t*e + n*a + t*io + n
+1371.6 Instead each syllable could be factorized as a smaller matrix product by exploiting the language structure (one third of a syllable is vowel on the average) and string could be written as sum(concatentation) of smaller matrix products by padding unequal vector lengths - Example:
+	Word "concatentation" = [c,n] * [o,''] + [c,t]*[a,e] + [n]*[a] * [t,n]*[io,'']
+			      = co + n + ca + te + na + tio + n
+1371.7 Matrix representation of strings aforementioned has far reaching implications in processing massive text datasets. Set of N (huge number) strings could be could be stored in consonant-vowel matrix product format (one consonant vector row and one vowel vector column per each string) after factorization similar to the one above and sharded in geographically distant storages which could be reconstructed or decompressed to original strings on demand. 
+
+References:
+----------
+1371.8 Reinforcement Learning AlphaTensor Matrix Multiplication - https://www.deepmind.com/blog/discovering-novel-algorithms-with-alphatensor - two 4*5 and 5*5 matrices can be multiplied in 76 row-colum products while Strassen multiplication requires 80 and naive algorithm requires 100 multiplications - Consequently, Consonant-Vowel String factorization of N strings of length 10 (5 consonants and 5 vowels) would need only 76 concatenations (multiplications) to decompress or reconstruct the original string by AlphaTensor as against 100 concatenations (multiplications) in naive setting, an unusual speedup. 
+1371.9 AlphaTensor Matrix Multiplication - https://www.nature.com/articles/s41586-022-05172-4
+1371.10 Lower-Upper Factorization or LU Decomposition of a matrix - https://en.wikipedia.org/wiki/LU_decomposition
+1371.11 Sandhi Rules in Sanskrit - Sandhi engine example - https://sanskrit.inria.fr/cgi-bin/SKT/sktsandhier.cgi?lex=SH&l=yoga&r=ishvara&t=VH&k=external - String Factorization implementation above is an algorithmic derivative of Sandhi rules of sanskrit for compound words applied to English texts. Sandhi rules are matrices of vowels-vowels, consonants-consonants and consonants-vowels. 
+1371.12 Tamil Sandhi rules - http://learn.tamilnlp.com/grammar/tamilgrammar4.html
+1371.13 Sanskrit Sandhi Matrix - https://ubcsanskrit.ca/lesson3/sandhicharts.html

@@ -1,0 +1,71 @@
+-------------------------------------------------------------------------------------------------------------------------
+1299a. Linux Kernel 3.7.8 Build commandline reference
+-------------------------------------------------------------------------------------------------------------------------
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8$ ls
+arch     crypto              firmware  ipc      lib          modules.builtin      net             scripts           sound       virt
+block    Documentation       fs        Kbuild   MAINTAINERS  modules.order        README          security          System.map  vmlinux
+COPYING  drivers             include   Kconfig  Makefile     Module.symvers       REPORTING-BUGS  signing_key.priv  tools       vmlinux.o
+CREDITS  extra_certificates  init      kernel   mm           Module.symvers.orig  samples         signing_key.x509  usr         x509.genkey
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8$ make
+make[1]: Nothing to be done for `all'.
+make[1]: Nothing to be done for `relocs'.
+  CHK     include/generated/uapi/linux/version.h
+  CHK     include/generated/utsrelease.h
+  CALL    scripts/checksyscalls.sh
+  CHK     include/generated/compile.h
+  PASYMS  arch/x86/realmode/rm/pasyms.h
+  LDS     arch/x86/realmode/rm/realmode.lds
+  LD      arch/x86/realmode/rm/realmode.elf
+  RELOCS  arch/x86/realmode/rm/realmode.relocs
+  OBJCOPY arch/x86/realmode/rm/realmode.bin
+  AS      arch/x86/realmode/rmpiggy.o
+  LD      arch/x86/realmode/built-in.o
+  VDSOSYM arch/x86/vdso/vdso32-int80-syms.lds
+  VDSOSYM arch/x86/vdso/vdso32-sysenter-syms.lds
+  VDSOSYM arch/x86/vdso/vdso32-syms.lds
+  LD      arch/x86/vdso/built-in.o
+  LD      arch/x86/built-in.o
+  LINK    vmlinux
+  LD      vmlinux.o
+  MODPOST vmlinux.o
+WARNING: modpost: Found 2 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+  GEN     .version
+  CHK     include/generated/compile.h
+  UPD     include/generated/compile.h
+  CC      init/version.o
+  LD      init/built-in.o
+  KSYM    .tmp_kallsyms1.o
+  KSYM    .tmp_kallsyms2.o
+  LD      vmlinux
+  SORTEX  vmlinux
+sort done marker at 9333c4
+  SYSMAP  System.map
+  VOFFSET arch/x86/boot/voffset.h
+  OBJCOPY arch/x86/boot/compressed/vmlinux.bin
+  RELOCS  arch/x86/boot/compressed/vmlinux.relocs
+  GZIP    arch/x86/boot/compressed/vmlinux.bin.gz
+  MKPIGGY arch/x86/boot/compressed/piggy.S
+  AS      arch/x86/boot/compressed/piggy.o
+  CC      arch/x86/boot/compressed/eboot.o
+  AS      arch/x86/boot/compressed/efi_stub_32.o
+  LD      arch/x86/boot/compressed/vmlinux
+  ZOFFSET arch/x86/boot/zoffset.h
+  AS      arch/x86/boot/header.o
+  CC      arch/x86/boot/version.o
+  LD      arch/x86/boot/setup.elf
+  OBJCOPY arch/x86/boot/setup.bin
+  OBJCOPY arch/x86/boot/vmlinux.bin
+  BUILD   arch/x86/boot/bzImage
+Setup is 16844 bytes (padded to 16896 bytes).
+System is 5147 kB
+CRC 51a4c3e5
+Kernel: arch/x86/boot/bzImage is ready  (#2)
+  Building modules, stage 2.
+  MODPOST 3834 modules
+WARNING: modpost: Found 13 section mismatch(es).
+To see full details build your kernel with:
+'make CONFIG_DEBUG_SECTION_MISMATCH=y'
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8$ 
+

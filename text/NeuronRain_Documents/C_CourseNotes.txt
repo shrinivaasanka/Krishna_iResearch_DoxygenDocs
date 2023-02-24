@@ -121,3 +121,27 @@ demonstrate:
 pp() function obtains the binary string of b from tob() which is looped through and tot is updated
 only for bits "1" in binary string of b. Auto variable array arr[] is allocated on stack and dereferenced
 by tob().
+
+---------------------------------------------------------------------------------------------------------
+3 January 2023 - Arrays, Pointers, Operator Precedence (variant of question from UGC NET/SLET/JRF)
+---------------------------------------------------------------------------------------------------------
+Code fragment arrays.c demonstrates behaviour of array subscripting and operator precedence rules in C for following expressions involving array a of 3 elements [7,8,9]:
+	printf("%d\n",a[2]); #prints 9
+        printf("%d\n",2[a] + a[2]); #prints 18, 2[a] and a[2] are both equivalent to *(a+2)
+        printf("%d\n",a[2] = 2[a]); #prints 9, assigns *(a+2) to itself
+        printf("%d\n",a[2] = 2[a] + a[2]); #prints 18, addition operator takes precedence, a[2] is assigned to 2[a] + a[2](18).
+        printf("%d\n",a[2] == 2[a] + a[2]); #prints 0, addition operator takes precedence, and equality of a[2] (18) and 2[a]+a[2] (36) is 0 or False
+        printf("%d\n",(a[2] == 2[a]) + a[2]); #prints 19, parenthesis forces equality test to take precedence which is True or 1 and added to a[2] (18) to print 19.
+----------------------
+from logs/arrays.log.3January2023
+----------------------
+a[2] : 9
+2[a] + a[2] : 18
+a[2] = 2[a] : 9
+a[2] = 2[a] + a[2] : 18
+a[2] : 18 
+a[2] == 2[a] + a[2] : 0
+a[2] : 18 
+(a[2] == 2[a]) + a[2] : 19
+a[2] : 18 
+-----------------------

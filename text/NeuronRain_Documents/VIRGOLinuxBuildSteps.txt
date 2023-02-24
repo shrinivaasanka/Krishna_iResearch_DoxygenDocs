@@ -1,0 +1,75 @@
+-----------------------------
+1250. VIRGO Linux Build Steps
+------------------------------
+1. Download and build 4.1.5 kernel from www.kernel.org mainline (build commandlines as in buildscript.sh)
+2. Overlay the virgo-linux source tree (from linux-kernel-extensions subtree) on linux kernel src root.
+3. Invoke the driver build scripts in each driver folder to build with path updates.
+4. For USBmd and KingCobra drivers also above steps are sufficient.
+5. Test cases in virgo_clone, virgo_malloc and virgo_filesystem can be invoked for syscall paths and for telnet path the ports listed in ModuleListenPorts.txt can be used.
+------------------------------------------------------------------------------------------------------------------------
+6. Changes required for building overlayed 4.1.5 linux kernel - documented in github commit diffs of 12 August 2015 :
+	https://github.com/shrinivaasanka/virgo-linux-github-code/commit/6916585c04e4df51ca75384aacee18fa9c13de10
+	https://github.com/shrinivaasanka/virgo-linux-github-code/commit/6916585c04e4df51ca75384aacee18fa9c13de10
+
+*) buildscript_4.1.5.sh (build script for 4.1.5)
+*) linux-kernel-extensions/Makefile
+*) linux-kernel-extensions/arch/x86/syscalls/Makefile
+*) linux-kernel-extensions/arch/x86/syscalls/syscall_32.tbl
+*) linux-kernel-extensions/drivers/Makefile
+*) linux-kernel-extensions/include/linux/syscalls.h
+
+Above minimum changes were enough to build an overlay-ed Linux Kernel with VIRGO codebase
+-------------------------------------------------------------------------------------------------------------------------
+7. Changes required for building overlayed 4.13.3 VIRGO 64-bit linux kernel:
+	- copy linux-kernel-extensions/virgo_<syscalls> to linux-4.13.3
+	- copy linux-kernel-extensions/drivers/virgo to linux-4.13.3/drivers
+	- copy linux-kernel-extensions/drivers/kingcobra to linux-4.13.3/drivers (for Module.symvers if use_as_kingcobra_service is enabled)
+	- copy VIRGO header files (virgo*.h,syscalls.h,init.h,kingcobra.h) in linux-kernel-extensions/include/linux to linux-4.13.3/include/linux
+	Example:
+	{
+		 cp -r virgo_* /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/
+		 cp -r drivers/virgo/ /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/drivers/
+		 cp -r include/linux/virgo* /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/include/linux/
+		 cp -r include/linux/kingcobra.h /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/include/linux/
+		 cp -r include/linux/init.h /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/include/linux/
+		 cp -r include/linux/syscalls.h /media/ka_shrinivaasan/6944b01d-ff0d-43eb-8699-cca469511742/home/shrinivaasanka/Krishna_iResearch_OpenSource/GitHub/virgo64-linux-github-code/linux-kernel-extensions/include/linux/
+	}
+
+	- Build each driver in linux-4.13.3/drivers/virgo/<driver> with <drivername>_driver_build.sh
+	- Some drivers require Module.symvers to be copied from other exporting drivers e.g kingcobra, virgo/kernel_analytics
+	- Copy Module.symvers from exporting driver to importing driver
+	- Comment clean make target and compile with driver build script.
+	- This appends symbols to Module.symvers
+	- (NOT RELEVANT - ASIDE: sock_create_kern() compilation errors have been fixed by additional &init_net parameter to it (mainline added it in 2015))
+	- changes in linux-4.13.3/Makefile:
+		- core-y          := usr/ virgo_clone/ virgo_malloc/ virgo_filesystem/
+	- changes in linux-4.13.3/arch/x86/entry/syscalls/syscall_64.tbl:
+		#VIRGO system calls
+		548     64    virgo_clone             sys_virgo_clone
+		549     64    virgo_malloc            sys_virgo_malloc
+		550     64    virgo_set               sys_virgo_set
+		551     64    virgo_get               sys_virgo_get
+		552     64    virgo_free              sys_virgo_free
+		553     64    virgo_open              sys_virgo_open
+		554     64    virgo_close             sys_virgo_close
+		555     64    virgo_read              sys_virgo_read
+		556     64    virgo_write             sys_virgo_write
+	- changes in linux-4.13.3/include/linux/syscalls.h:
+		asmlinkage long sys_virgo_clone(char* func, void *child_stack, int flags, void *arg);
+		asmlinkage long sys_virgo_malloc(int size,unsigned long __user *vuid);
+		asmlinkage long sys_virgo_set(unsigned long vuid, const char __user *data_in);
+		asmlinkage long sys_virgo_get(unsigned long vuid, char __user *data_out);
+		asmlinkage long sys_virgo_free(unsigned long vuid);
+		asmlinkage long sys_virgo_open(char* filepath);
+		asmlinkage long sys_virgo_read(long vfsdesc, char __user *data_out, int size, int pos);
+		asmlinkage long sys_virgo_write(long vfsdesc, const char __user *data_in, int size, int pos);
+		asmlinkage long sys_virgo_close(long vfsdesc);
+------------------------------------------------------------------------------------------------------------------------------
+8. Additional information on linux build and grub issues have been updated in GRAFIT Open Learning Course Notes at:
+https://github.com/shrinivaasanka/Grafit/blob/master/course_material/NeuronRain/LinuxKernelAndCloud/LinuxKernelAndCloud.txt
+
+9. Presently VIRGO Linux Kernel is based on mainline 4.1.5 kernel (32-bit) and 4.13.3 kernel (64-bit). As newer kernel versions are
+released , there are changes in kernel functions and data structures. This could cause a working VIRGO linux build in version v to
+break in version v+delta . Certifying and Porting VIRGO linux code base on each and every kernel version is beyond the scope of NeuronRain design goals - it is left to the end-user of NeuronRain. There is a possibility that VIRGO kernel completely becomes a self-sufficient kernel with no need for overlay build on linux mainline. Crucial reason for 64-bit of VIRGO on 4.10.3 and now on 4.13.3 is the randomly witnessed i915 related panics in 4.1.5 virgo system calls and drivers. Mainline 4.10.3 kernel has major updates to i915 intel graphics drivers. It has been verified upgrade to 4.10.3 and 64-bit addressing resolves these random virgo_<syscall> panics almost completely. Recent upgrade to 4.13.3 further strengthens the stability of VIRGO64 and has is more secure.
+
+10. More information and FAQ on NeuronRain VIRGO architecture is at: http://neuronrain-documentation.readthedocs.io/en/latest/. 64-bit Linux kernel versions 4.10.3 and 4.13.3 have been found to be stabler in system calls-kernel module listeners end-to-end testing. Recent kernel mainline version 4.13 has in-built security for kernel sockets (KTLS) which integrates standalone af_ktls module into kernel tree at net/tls/. Because of its importance, base kernel version of VIRGO64 has been upgraded from 4.10.3 to 4.13.3 and all system calls and drivers code has been rebuilt inducting setsockopt(TX_TLS) encrypting all client-server kernel sockets traffic throughout.

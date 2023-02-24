@@ -1,0 +1,72 @@
+/*
+##############################################################################################################################################
+#<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+###############################################################################################################################################
+#Course Authored By:
+#-----------------------------------------------------------------------------------------------------------
+#K.Srinivasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+#Personal website(research): https://acadpdrafts.readthedocs.io/en/latest/ 
+#-----------------------------------------------------------------------------------------------------------
+##############################################################################################################################################
+*/
+
+This is a non-linearly organized, code puzzles oriented, continually updated set of course notes on Rust language which is increasingly suggested for both lowlevel and highlevel programming focussing on scalability,GC-free-memory safety,performance. While Go language is devoted to concurrency and webservices, Rust is hailed as replacement for legacy C and C++ languages. 
+----------------------------------------------------------------------------------------------------------------
+1381. (THEORY and FEATURE) Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential version and iterative binary search - related to 1379 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition - 23 January 2023 
+----------------------------------------------------------------------------------------------------------------
+New Rust package rasterization/ containing code fragment rasterization/src/main.rs has been added to NeuronRain Grafit course material which primitively implements sequential rasterization of Hyperbolic arc bow and sequential factor point location at present implemented on Spark-Python in NeuronRain AsFer and is the prerequisite for Computational Geometric Factorization Parallel Planar Point Location NC-PRAM-BSP algorithm. Rust which is admired for its low latency rivalling C and C++ is highly parallelizable through Rayon library - https://docs.rs/rayon/latest/rayon/ - Sequential rasterization could be parallelizable by Rayon parallel iterators thereby further optimizing the execution time of NeuronRain AsFer Spark-Python Factorization implementation which at times is hindered and slowed down by bloated Py4J-Java-Python marshalling, thus effectively marking a gradual transition of NeuronRain codebases requiring high concurrency and scalability to performant Rust. Rust is free from Garbage collection overhead and compiles to low level machine instructions. Rust rasterization package rasterization/src/main.rs implements iterative version of binary search as an alternative to recursive binary search in NeuronRain AsFer Factorization - $ASFER/python-src/DiscreteHyperbolicFactorizationUpperbound_TileSearch_Optimized.py. This code fragment requires cargo installation and is only a naive implementation at present and could evolve to a mainstream factorization code. Rust is now part of Linux Kernel as well and NeuronRain codebase stack implemented in multiple languages - C,C++,Java,Python - for application userspace layer and kernel drivers could be translated into single language - Rust - top-to-bottom 
+ 
+References:
+-----------
+1.Rust book - https://doc.rust-lang.org/stable/book/ch04-01-what-is-ownership.html
+2.Rust for Systems Programming - https://msrc-blog.microsoft.com/2019/07/22/why-rust-for-safe-systems-programming/ - " ... Rust, just like C and C++, also gives the programmer fine-grained control on when and how much memory is allocated allowing the programmer to have a very good idea of exactly how the program will perform every time it is run. What this means for performance in terms of raw speed, control, and predictability, is that Rust, C, and C++ can be thought of in similar terms...."
+3.Rust - Most loved language - https://insights.stackoverflow.com/survey/2018/#technology-_-most-loved-dreaded-and-wanted-languages
+4.Is Rust C++-fast - https://arxiv.org/abs/2209.09127 
+5.How Microsoft is adopting Rust - https://medium.com/@tinocaer/how-microsoft-is-adopting-rust-e0f8816566ba
+6.Parallelizability of Rust - https://kornel.ski/rust-c-speed
+7.Rust for network programming - https://codilime.com/blog/rust-vs-c-safety-and-performance-in-low-level-network-programming/
+8.Rayon Parallel Iterators - https://docs.rs/rayon/latest/rayon/iter/index.html
+9.Sequential binary search - https://spin.atomicobject.com/2022/07/06/learning-rust-binary-search/
+10.Rust versus C benchmarks - Number field sieve and N-Body computations are faster in Rust - https://programming-language-benchmarks.vercel.app/c-vs-rust
+11.Linux Kernel Device Drivers in Rust - https://security.googleblog.com/2021/04/rust-in-linux-kernel.html
+12.Linux Kernel Device Drivers in Rust - https://project.linuxfoundation.org/hubfs/Webinars/Webinar_Slides/LF-Writing-Linux-Kernel-Modules-in-Rust.pdf
+
+----------------------------------------------------------------------------------------------------------------
+1384. (THEORY and FEATURE) Computational Geometric Factorization - Rayon Parallel iterator Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential and Parallel versions - related to 1383 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition - 2 February 2023 
+----------------------------------------------------------------------------------------------------------------
+1384.1 course_material/Programming/Rust/rasterization/Cargo.toml has been updated to add dependencies for Rayon parallel iterator and foreach closures from crates.io.
+1384.2 course_material/Programming/Rust/rasterization/src/main.rs has been changed to import std::env for parsing commandline arguments by env::args(): number to be factorized and type of rasterization (sequential or parallel) are two arguments - ./rasterization <number> <type_of_rasterization> 
+1384.3 Imports for Rayon and foreach have been declared for parallel rasterization.Arguments to Function rasterize_hyperbolic_arc(num_fact: i32,rasterization: String) have been changed to choose between sequential and parallel rasterization.
+1384.4 Clause for sequential rasterization invokes foreach closure (from foreach Crate) on std::ops::Range struct for sequential iteration over hyperbolic arc bow and binary search of segments.
+1384.5 Clause for parallel rasterization invokes for_each() from rayon::iter::ParallelIterator trait for parallelly iterating through hyperbolic arc bow segments and perform iterative binary search on them. 
+1384.6 This is a preliminary implementation of Computational Geometric Factorization in Rust which is an alternative or optimized supplement to Python-Spark-Py4J cloud factorization implementation to take advantage of Rust's lightning-fast Rayon parallel iterators.
+1384.7 Some initial benchmarks (sequential and parallel) in logs suggest, as an amazement, Rust sequential iterator rasterization is faster than Spark-Python Parallelize() parallel rasterization on quadcore by many orders of magnitude (Example:30 bits integer factorized in minutes in Spark-Python, is factorized in fraction of second in Rust even for sequential iterator which is 100X reduction in runtime, a slowdown possibly caused in PySpark due to heavy booting time of executor instances). Presently Rayon parallel iterators are limited only to i32 32-bit integers which is a roadblock for scaling to huge integers unless big integers are supported by Rayon. Other issue about Rayon is its confinement to number of cores or hyperthreads of CPUs based on work stealing - Rayon is not for cloud computing but HPC supercomputers of thousands of CPUs could benefit from Rayon (In complexxity theoretic terms, Rayon is not MapReduce DMRC but true NC software).
+1384.8 Following are some benchmarked integers (consecutive 30 integers and miscellaneous - all 32 bits):
+	Sequential rasterization - rasterization/src/logs/rasterization.log.2February2023
+	Sequential rasterization - rasterization/src/logs/rasterization.log2.2February2023
+	Parallel rasterization - rasterization/src/logs/rasterization.log3.2February2023
+
+References:
+----------
+1384.9 Fearless Concurrency (Ownership-Borrowing memory safety) and Rayon Parallel Iterators - https://developers.redhat.com/blog/2021/04/30/how-rust-makes-rayons-data-parallelism-magical#
+1384.10 Crate foreach - https://docs.rs/foreach/latest/foreach/
+1384.11 Rayon Parallel Iterator trait - https://docs.rs/rayon/latest/rayon/iter/trait.ParallelIterator.html
+1384.12 Rust std::ops::Range - https://doc.rust-lang.org/std/ops/struct.Range.html
+1384.13 Rayon FAQ - https://github.com/rayon-rs/rayon/blob/master/FAQ.md
+
+----------------------------------------------------------------------------------------------------------------
+1385. (THEORY and FEATURE) Computational Geometric Factorization - High Performance Computing implementation for Supercomputers - Rayon Parallel iterator Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential and Parallel versions - multiple consecutive integers - performance benchmarks - related to 1383,1384 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition - 7 February 2023 
+----------------------------------------------------------------------------------------------------------------
+1385.1 Updated course_material/Programming/Rust/rasterization/src/main.rs to import std::time for performance benchmarks.
+1385.2 Function main() has been changed to pass on additional commandline parameter for range of consecutive multiple integers to be factorized - multiple integer factorization has been made default as single integer factorization is a special case of range 1.
+1385.3 New function factorize_multipleintegers(num_fact:i32,range:i32,rasterization:String) has been defined to loop through the range of integers to be factorized and invoke rasterize_hyperbolic_arc() which has been decorated by SystemTime::now timer functions before and after calls and duration between two now() values is the factorization time per integer.
+1385.4 Function rasterize_hyperbolic_arc() has been made inline and instrumented with SystemTime::now() profiling for Sequential and Parallel rasterization binary searches.
+1385.5 Function binary_search() has been made inline and returns a vector of factors. Factors found during binary search are pushed to the vector.
+1385.6 Two ranges of consecutive integers 10000000 to 10000098 and 100000000 to 100000048 have been factorized by sequential and parallel rasterization. Nick's class Computational Geometric Factorization algorithm depends on parallel rasterization. Following are the 4 logs for 2 sets of ranges - 2 each for sequential and parallel rasterization: 
+	rasterization.parallel.multipleintegers.log.7February2023
+	rasterization.parallel.multipleintegers2.log.7February2023
+	rasterization.sequential.multipleintegers.log.7February2023
+	rasterization.sequential.multipleintegers2.log.7February2023
+1385.7 Integer 10000098 was factorized (all factor points were located) in 735.27 milliseconds by Rayon parallel rasterization and in 1.407 seconds by sequential rasterization. 27 bits Integer 100000048 was factorized (all factor points were located) in 8.1418 seconds by Rayon parallel rasterization and 13.39 seconds by sequential rasterization.
+1385.8 In comparison, Spark Python DMRC MapReduce implementation was still locating factor points after 754035367579 nanoseconds (754.03 seconds) and interrupted or Rust HPC implementation is approximately 1000 times faster than Spark-Python cloud implementation - PySpark logs for factorizing 100000048 have been captured in rasterization.PySpark.7February2023. 

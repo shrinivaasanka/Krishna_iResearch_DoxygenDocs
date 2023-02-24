@@ -1,0 +1,37 @@
+#-------------------------------------------------------------------------------------------------------
+#NEURONRAIN ASFER - Software for Mining Large Datasets
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#--------------------------------------------------------------------------------------------------------
+#K.Srinivasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+#Personal website(research): https://sites.google.com/site/kuja27/
+#--------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------------------
+1244. Following are NeuronRain Usecases (some of which have been implemented in NeuronRain while others have dependencies):
+--------------------------------------------------------------------------------------------------------------------------
+
+1.Software Analytics - Scheduler Analytics - Psutil Deep Learning of Scheduler Classes and writing to /etc/kernel_analytics.conf or /etc/sysctl.conf (kernel.sched.*)
+2.Software Analytics - Software Analytics - Psutil Deep Learning of Systemwide Memory/IO/CPU load.
+3.Software Analytics - Userspace and Kernelspace Program Analyzers
+4.Software Analytics - Kernel Analytics - Analysis of kernel logs
+5.Software Analytics - Wireless Network Traffic Analytics
+6.Drones/Unmanned Aerial Vehicles - Deep Learning of GIS imagery by Video ImageNet-EventNet Tensor Products Algorithm for prominent features (convex hulls, bounding boxes etc.,) in terrestrial images and navigation accordingly - Drone Online Shopping Delivery example
+7.Drones/Unmanned Aerial Vehicles - Kernel Analytics for Drone and Robotic OSes (https://github.com/Dronecode,https://github.com/Dronecode/DronecodeSDK,https://github.com/Dronecode/DronecodeSDK-Python) - Drone Online Shopping Delivery example
+8.Streaming Analytics - Streams from various datasources
+9.Advertisement Analytics - by Spark Structured Streaming, PageRank
+10.Merit ranking and Analytics of Text,Audio/Music,Video,People
+11.Histogram-Set Partition Analytics - Streams of business intelligence histograms, voting histograms, hashtables or dictionaries
+12.Medical Imageing Analytics - find patterns in ECG,MRI,Scan medical images for diagnosis
+13.Image Analytics - Webcam or retinal scan driver captures face or retinal scan image,compares them for match (face or retinal scan as password) in userspace deep learning analytics, exports match = True or False as kernel analytics variables which are read and exported by kernel_analytics VIRGO32 and VIRGO64 drivers and read by some other authentication driver in kernel and message is logged in /var/log/kern.log
+14.Drones/Flights/UAVs - Change pxrc flight controller driver for reading analytics variables exported by kernel_analytics VIRGO32 and VIRGO64 drivers
+15.Astronomy analytics - Sequence Mining and N-Body equation solver for gravitational acceleration-extreme weather events correlation,Space imagery analysis

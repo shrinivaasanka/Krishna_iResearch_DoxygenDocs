@@ -1,0 +1,47 @@
+/*
+##############################################################################################################################################
+#<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+###############################################################################################################################################
+#Course Authored By:
+#-----------------------------------------------------------------------------------------------------------
+#K.Srinivasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+#Personal website(research): https://acadpdrafts.readthedocs.io/en/latest/ 
+#-----------------------------------------------------------------------------------------------------------
+##############################################################################################################################################
+*/
+
+This is a non-linearly organized, code puzzles oriented, continually updated set of course notes on Go language dedicated to concurrency-safe rapid webservices application development. 
+------------------------------------------------------------------------------------------------------------------------------
+1382. (THEORY and FEATURE) String Analytics - String reversals by XOR swap algorithm - Multiple return values within a Go function, Goroutines and Gochannels for synchronization - related to 1380 and all sections on String analytics - 24 January 2023
+------------------------------------------------------------------------------------------------------------------------------
+Code fragment multiplereturns.go defines 2 functions implementing XOR swap algorithm - https://en.wikipedia.org/wiki/XOR_swap_algorithm - each returning 2 values (departure from conventional wisdom) for swapping contents on 2 variables without necessity of third variable by three bitwise XORs:
+	x1 = x1 XOR x2
+	x2 = x1 XOR x2
+	x1 = x1 XOR x2
+Function xor_swap() is invoked as normal Go function while xor_swap_goroutine() is a goroutine (a separate thread is created for function) and return values are sent by Channel IPC or ITC synchronization primitives and received by caller - Logs logs/multiplereturns.log.24January2023 capture the execution of function and goroutine versions in quick succession swapping variable values in x1 and x2 and again restoring the original values in x1 and x2. XOR swap is best suited for following string reversal optimization as usual reverse() is of runtime equal to length of the string and involves use of a stack (N pushes and N pops):
+	N = length of string S (even number)
+	for i=1 to N/2 
+	{
+		XOR swap S[i] and S[N-i]
+	}
+Algorithm earlier reverses a string in N/2 steps in place without additional storage and case of odd length strings is trivial as middle character need not be reversed.
+
+References:
+----------
+1.XOR swap algorithm and zero injection attack in RC4 cipher - [Schneier on Security] - https://www.schneier.com/blog/archives/2008/06/underhanded_imp.html 
+
+------------------------------------------------------------------------------------------------------------------------------
+1383. (THEORY and FEATURE) String Analytics - String reversals by XOR swap algorithm - definition of separate Go function for reversing a string by XOR swap - related to 1380,1382 and all sections on String analytics, Large Scale Visuals Analytics, String mirroring (topological reverse of string) - Python 3.11 Matrix mirror utility primitive - based on O(1) NumPy fliplr() memory view implementation - 31 January 2023
+----------------------------------------------------------------------------------------------------------------------------- 
+1383.1 course_material/Programming/Go/multiplereturns.go has been updated to implement string_reverse() function internally invoking XOR swap for length/2 steps to reverse a string 
+1383.2 Function string_reverse() also demonstrates Go slices by make() to create byte sequence iterable. Input string is iterated in for loop and XOR swapped in N/2 steps and assigned to string slice.
+1383.3 Go follows unicode convention of code point or rune to identify every character of a string iterable by special form of for loop.
+1383.4 This implementation complements NumPy fliplr matrix mirroring primitive for topologically mirroring a string (more than just reversal - it is a mirror image) 
+1383.5 Example reversal of string "string" is captured in logs/multiplereturns.log.31January2023 
+
+References
+----------
+1383.5 Go strings,bytes and runes - https://go.dev/blog/strings 
+1383.6 Go slices - https://go.dev/blog/slices-intro
+1383.7 Improvements to XOR swap - http://graphics.stanford.edu/~seander/bithacks.html#SwappingValuesXOR - "... On January 20, 2005, Iain A. Fleming pointed out that the macro above doesn't work when you swap with the same memory location, such as SWAP(a[i], a[j]) with i == j. So if that may occur, consider defining the macro as (((a) == (b)) || (((a) ^= (b)), ((b) ^= (a)), ((a) ^= (b)))). On July 14, 2009, Hallvard Furuseth suggested that on some machines, (((a) ^ (b)) && ((b) ^= (a) ^= (b), (a) ^= (b))) might be faster, since the (a) ^ (b) expression is reused. ..."

@@ -413,7 +413,42 @@ References:
 2.Automata - [Hopcroft-Motwani-Ullman] - Page 157 - 4.4.2 - Table Filling algorithm for Equivalence of two automata (NFA and DFA) - If two states are not distinguished by Table filling, they are equivalent
 3.NASA SEDAC GIS Population Estimator - https://sedac.ciesin.columbia.edu/mapping/popest/gpw-v4/ - PDF of  6-colored Terrain Population Density of Settlement Points in Southern India (2015) and Convex Hull Population estimator - Gridded Population of the World (GPW) Version 4 - has been committed to code/testlogs/NASA_SEDAC_Population_Estimator.6coloredGIS.16August2020.pdf
 4.Inner Product Spaces of Polynomials - Examples - http://www.math.ucdenver.edu/~esulliva/LinearAlgebra/InnerProducts.pdf - "... <p, q> = p(t0)q(t0) + p(t1)q(t1) + · · · + p(tn)q(tn) ..." - For career polynomials of two professional profiles p and q, p(ti) and q(ti) are the fluctuating weights (value of polynomial) at time ti where weight could be any metric including remuneration,designation et al of a profile.
-
+5.Global Liveability Index 2022 of 173 Global cities - Economic Intelligence Unit - https://www.developmentaid.org/api/frontend/cms/file/2022/07/Liveability-free-report-V13-revised.pdf - There is some overlap between Standard of Living intrinsic merit factors defined in NeuronRain above for ranking Urban sprawls by log normal least energy of 3 categories(Education,Wealth,Valour) and EIU variables. Five categories of variables scored in EIU Livebility rankings and their percentage weights:
+Category 1: Stability (weight: 25% of total) 
+	-Prevalence of petty crime 
+	-Prevalence of violent crime 
+	-Threat of terror 
+	-Threat of military conflict
+	-Threat of civil unrest/conflict
+Category 2: Healthcare (weight: 20% of total)
+	-Availability of private healthcare 
+	-Quality of private healthcare 
+	-Availability of public healthcare 
+	-Quality of public healthcare 
+	-Availability of over-the-counter drugs 
+Category 3: Culture & Environment (weight: 25% of total)
+	-Humidity/temperature rating Adapted from average weather conditions
+	-Discomfort of climate for travellers
+	-Level of corruption Adapted from Transparency International
+	-Social or religious restrictions
+	-Level of censorship 
+	-Sporting availability EIU field rating of 3 sport indicators
+	-Cultural availability EIU field rating of 4 cultural indicators
+	-Food and drink EIU field rating of 4 cultural indicators
+	-Consumer goods and services EIU rating of product availability
+Category 4: Education (weight: 10% of total)
+	-Availability of private education 
+	-Quality of private education 
+	-Public education indicators Adapted from World Bank
+Category 5: Infrastructure (weight: 20% of total)
+	-Quality of road network EIU rating
+	-Quality of public transport EIU rating
+	-Quality of international links EIU rating
+	-Availability of good-quality housing EIU rating
+	-Quality of energy provision EIU rating
+	-Quality of water provision EIU rating
+	-Quality of telecommunications EIU rating 
+6.Global Liveability Rankings 2022 - Global and India specific - https://en.wikipedia.org/wiki/Global_Liveability_Ranking and https://economictimes.indiatimes.com/news/new-updates/bengaluru-least-liveable-city-in-india-ranked-146th-globally/articleshow/92706471.cms
 
 ---------------------------------------------------------------------------------------------------------
 821. (THEORY and FEATURE) Word Embedding on a Vectorspace - Spark SkipGram Log Likelihood - Text Similarity, Dissimilarity and Merit Measure of Originality - 10 May 2020,11 May 2020 - related to 762,815 and all sections on Kernel Lifting, Intrinsic Merit of Academic publications/Large Scale Visuals/Music/People, Psychoanalysis and Shell Turing Machines

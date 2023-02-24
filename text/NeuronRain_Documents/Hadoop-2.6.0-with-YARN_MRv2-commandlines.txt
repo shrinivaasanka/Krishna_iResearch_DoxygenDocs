@@ -1,0 +1,115 @@
+#-------------------------------------------------------------------------------------------------------`
+#ASFER - a ruleminer which gets rules specific to a query and executes them (component of iCloud Platform)
+#This program is free software: you can redistribute it and/or modify
+#it under the terms of the GNU General Public License as published by
+#the Free Software Foundation, either version 3 of the License, or
+#(at your option) any later version.
+#This program is distributed in the hope that it will be useful,
+#but WITHOUT ANY WARRANTY; without even the implied warranty of
+#MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#GNU General Public License for more details.
+#You should have received a copy of the GNU General Public License
+#along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+#--------------------------------------------------------------------------------------------------------
+#Copyright (C):
+#Srinivasan Kannan (alias) Ka.Shrinivaasan (alias) Shrinivas Kannan
+#Ph: 9789346927, 9003082186, 9791165980
+#Krishna iResearch Open Source Products Profiles:
+#http://sourceforge.net/users/ka_shrinivaasan, https://www.openhub.net/accounts/ka_shrinivaasan
+#Personal website(research): https://sites.google.com/site/kuja27/
+#ZODIAC DATASOFT: https://github.com/shrinivaasanka/ZodiacDatasoft
+#emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com,
+#kashrinivaasan@live.com
+#--------------------------------------------------------------------------------------------------------
+
+
+ 2352  cd /tmp
+ 2353  ls
+ 2354  sudo rm -rf *
+ 2355  ls
+ 2356  cd -
+ 2357  ls
+ 2358  sudo rm -rf *
+ 2359  cd ..
+ 2360  ls
+ 2361  sudo bin/hdfs namenode -format
+ 2362  sudo sbin/start-dfs.sh
+ 2363  cd lib/native/
+ 2364  ls
+ 2365  man execstack
+ 2366  sudo apt-get install execstack
+ 2367  pwd
+ 2368  sudo execstack *
+ 2369  sudo execstack -c *
+ 2370  man execstack 
+ 2371  cd ../..
+ 2372  sudo bin/hdfs dfs -mkdir /user
+ 2373  date
+ 2374  sudo bin/hdfs dfs -put etc/hadoop input
+ 2375  ls
+ 2376  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2377  sudo hdfs dfsadmin -safemode leave
+ 2378  sudo bin/hdfs dfsadmin -safemode leave
+ 2379  ls
+ 2380  sudo bin/hdfs dfs -mkdir /user
+ 2381  sudo bin/hdfs dfs -mkdir /user/root
+ 2382  sudo bin/hdfs dfs -put etc/hadoop input
+ 2383  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2384  sudo bin/hdfs dfs -get output output
+ 2385  sudo cat output/*
+ 2386  sudo bin/hdfs dfs -cat output/*
+ 2387  cd etc/hadoop/
+ 2388  sudo vi mapred-site.xml
+ 2389  sudo vi yarn-site.xml 
+ 2390  sudo sbin/stop-dfs.sh
+ 2391  cd ../..
+ 2392  sudo sbin/stop-dfs.sh
+ 2393  sudo sbin/start-yarn.sh
+ 2394  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2395  sudo sbin/stop-yarn.sh
+ 2396  sudo ps -eaf|grep hadoop|awk '{print $2}'|xargs kill -9
+ 2397  sudo ps -eaf|grep hadoop
+ 2398  sudo kill -9 28437 28841
+ 2399  sudo ps -eaf|grep hadoop
+ 2400  sudo ps -eaf|grep hadoop|awk '{print $2}'|xargs kill -9
+ 2401  ls
+ 2402  sudo sbin/start-yarn.sh
+ 2403  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2404  sudo sbin/start-dfs.sh
+ 2405  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2406  sudo bin/hdfs namenode -format
+ 2407  cd /tmp/
+ 2408  ls
+ 2409  sudo rm -rf *
+ 2410  cd -
+ 2411  cd logs
+ 2412  ls
+ 2413  cd ..
+ 2414  ls
+ 2415  sudo bin/hdfs namenode -format
+ 2416  sudo sbin/start-dfs.sh
+ 2417  sudo ps -eaf|grep hadoop|awk '{print $2}'
+ 2418  sudo ps -eaf|grep hadoop|awk '{print $2}'|xargs kill -9
+ 2419  sudo ps -eaf|grep hadoop|awk '{print $2}'
+ 2420  sudo kill -9 `ps -eaf|grep hadoop|awk '{print $2}'`
+ 2421  sudo ps -eaf|grep hadoop|awk '{print $2}'
+ 2422  cd /tmp
+ 2423  ls
+ 2424  sudo rm -rf *
+ 2425  cd -
+ 2426  cd logs
+ 2427  ls
+ 2428  sudo rm -rf *
+ 2429  cd ..
+ 2430  ls
+ 2431  sudo bin/hdfs namenode -format
+ 2432  sudo sbin/start-dfs.sh
+ 2433  sudo bin/hdfs dfs -mkdir /user/
+ 2434  sudo bin/hdfs dfs -mkdir /user/root
+ 2435  sudo sbin/start-yarn.sh
+ 2436  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2437  sudo bin/hdfs dfs -put etc/hadoop input
+ 2438  sudo bin/hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0.jar grep input output 'dfs[a-z.]+'
+ 2439  sudo sbin/stop-yarn.sh
+

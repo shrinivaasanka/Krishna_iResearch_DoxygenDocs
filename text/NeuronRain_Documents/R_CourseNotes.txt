@@ -192,3 +192,13 @@ related to 487,572,770,831,1150,1231,1235 and all sections on People Analytics, 
 	=> Pr(Deaths) = Seropositivity  * MortalityRate - Pr(Recovered) * MortalityRate
 	After multiplying probabilities by Total population:
 	=> Estimated Deaths = Totalpopulation * Seropositivity * MortalityRate - Recovered * MortalityRate
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+1396. (JIRA,THEORY and FEATURE) People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Recomputed Spearman, Kendall Tau, Pearson Correlation coefficients for revised COVID19 dataset and changes to Verhulste-Pearl-Reed and May Logistic code in R - related to 487,572,770,1231,1235 and all sections on People Analytics, Urban Sprawl Analytics, Social Network Analysis, ERSIR-SIS model of pandemic/cybercrimes/opinions, Cellular Automaton Graph model of Social Networks - 14 February 2023 
+---------------------------------------------------------------------------------------------------------------------------------------------
+1396.1 course_material/Programming/R/code/VerhulstPearlReedLogistic.R has been updated to redefine function verhulstpearlreedlaw <- function(filename, lambdaVPR, lambdaMay, initialcondition, scalemult) to accept scaling multiplicand as additional argument which was hardcoded earlier.
+1396.2 In addition to cor.test(),Kendall-Spearman-Pearson correlation values from function cor() are also printed.
+1396.3 Function verhulstpearlreedlaw("./VerhulstPearlReedLogistic.dat",0.35201,0.35,0.00000000000001,3.0) has been tested with more accurate bifurcation parameter 0.35201 that correlates VPR logistic timeseries to COVID19 data 100% for 2 of 3 correlation measures.
+1396.4 COVID19 deathtoll data in code/VerhulstPearlReedLogistic.dat has been updated till 12 February 2023 based on https://www.worldometers.info/coronavirus/coronavirus-death-toll/ . 
+1396.5 Return values of verhulstpearlreedlaw() have been corrected to include both VPR and May logistic correlations. 
+1396.6 JIRA issue for this commit - https://krishnairesearch.atlassian.net/browse/NEUR-20

@@ -1,0 +1,149 @@
+NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readthedocs.io/en/latest/
+-------------------------------------------------------------------------------------------------------------------------------------------
+1245. NeuronRain Depends on Following Opensource C,Python,Java and C++ packages - Copyright/Copyleft licenses apply per respective codebases below:
+-------------------------------------------------------------------------------------------------------------------------------------------
+1. Boost C++ and Python libraries (1.64.0) 
+2. g++
+3. Python NLTK
+4. NetworkX 2.5
+5. Matplotlib
+6. Scrapy
+7. R-Python (rpy2)
+8. Maitreya's Dreams 8 (for ephemeris and text client)
+9. Hadoop
+10. Spark 2.4.3, Spark 3.0.1 and pyspark client
+11. Hive and Hive Client(thrift or pyhs2)
+12. Cassandra and Cassandra Cluster client
+13. HBase and HBase client (happybase)
+14. Python-Linkedin 
+15. Python Twitter
+16. Biopython
+17. ClustalOmega
+18. BeautifulSoup
+19. Google Protocol Buffer libraries 3.5 / libprotobuf15
+20. Pig
+21. SVMLight (there is also a NeuronRain AsFer Support Vector Machines implementation alternative) 
+22. MySQLdb
+23. Python Injector
+24. R
+25. Python Tornado
+26. Linux Kernel Mainline 32 bit (4.1.5) - for VIRGO
+27. MongoDB and pymongo
+28. Cython
+29. SATURN Program Analyzer
+30. MemCached, pymemcache (Python 3.x) and Python-memcache (Python 2.x - https://github.com/linsomniac/python-memcached/)
+31. Bidict
+32. Java 1.8
+33. Python Jellyfish
+34. Python Enchant
+35. Python ystockquote
+36. Python geonames (Maitreya's Dreams - location-to-timezone lookup)
+37. Python zlib
+38. Neo4j Graph Database
+39. py2neo python client for Neo4j
+40. Python OAuth2
+41. Redis and Python Redis
+42. Passlib SHA256 encryption library
+43. ZeroMQ
+44. Kafka and Confluent Kafka Python client
+45. Spark 2.3.0 + Hadoop 2.7 for Java Spark Streaming
+46. Jsoup Java HTML parser
+47. PILlow Python Imaging Library
+48. ConceptNet 5.7
+49. NumPy
+50. SciPy 1.1.0
+51. Linux Kernel Mainline 64 bit (4.13.3) - for VIRGO64
+52. CvxPy
+53. SymPy
+54. Python transaction 2.1.2
+55. OpenSSL development libraries for C++
+56. DictDiffer - https://github.com/inveniosoftware/dictdiffer
+57. Python 2.7.x, 3.4, 3.6, 3.7.5, 3.8.5, 3.9.0
+58. Facebook SDK for Python 3.4
+59. Empath (https://arxiv.org/pdf/1602.06979.pdf)
+60. Scikit-Learn
+61. Pandas
+62. librosa - Python Audio Library - 0.9.2
+63. Psutils - Python process utility
+64. FlameGraph - https://github.com/brendangregg/FlameGraph
+65. Valgrind/Callgrind/KCachegrind
+66. GraphFrames/GraphX Spark Package - https://graphframes.github.io/
+67. Theano
+68. Keras (Theano and TensorFlow backends)
+69. OpenCV 3.4.3 - opencv-python - cv2
+70. PyPDF2
+71. FTrace (for kernel functions call graphs)
+72. PyDictionary
+73. Optional - Not tested - DronecodeSDK (Python - only for usecases in NeuronRainApps/Drones and Autonomous Drone Electronic Voting Machines)
+74. Optional - Not tested - Helicamera Drones (Hardware e.g PX4 MAVLink Hexacopters - only for usecases in NeuronRainApps/Drones and Autonomous Drone Electronic Voting Machines)
+75. AudioRead
+76. Scikit-SPLearn - http://dev.pages.lis-lab.fr/scikit-splearn/index.html
+77. Python SpeechRecognition
+78. Python PocketSphinx
+79. Swig
+80. ALSA development library
+81. PulseAudio development library
+82. Kaggle Datasets - CreditCard Transactions and LinkedIn Profiles
+83. googletrans
+84. Goslate
+85. PIPL.com Python API (requires API key)
+86. Python Human Name Parser
+87. PyHyphen - for syllables in strings
+88. TensorLy - for Video EventNet Tensor Decomposition to Rank-x tensors
+89. autopep8 - for PEP8 python coding convention - https://pypi.org/project/autopep8/ 
+90. 2to3 - for upgrading python 2.x to 3.x - https://docs.python.org/2/library/2to3.html
+91. CVXOPT - Convex Program for Market Equilibrium - KingCobra-AstroInfer Neuro cryptocurrency and transactional cloud move
+92. Linux Kernel Mainline 64 bit (5.1.4) - for VIRGO64 PXRC Drone Telemetry
+93. PX4 Firmware and ECL - installed by ubuntu_sim.sh - Drone Simulator
+94. PX4 SITL - JMAVSIM - Drone Simulator
+95. MAVSDK-Python 
+96. TensorFlow for Python
+97. TensorFlow I/O for Python
+98. CVXOPT GLPK for Integer Linear Programming
+99. Python geopy (OpenStreetMap Nominatim Geocoding - for Drone address-to-longitude-latitude lookup)
+100. Optional - QGroundControl - http://qgroundcontrol.com/ - QGC - for Drone code (MAVSDK-PX4-SITL-JMAVSIM simulation) 
+101. Robomongo3T and Studio3T - for MongoDB GIS imagery bulk upload to GridFS
+102. Python OpenWeatherMap - PyOWM - Weather Forecast
+103. CliMetLab - ECMWF Climate Dataset Library 
+104. Optional - MetView 5.0 - ECMWF datasets
+105. Optional - MetView Python - ECMWF datasets - MARS Retrieve 
+106. Shapely - Computational Geometry python library
+107. Dlib - Face landmark detection
+108. Netrd - Graph Similarity
+109. PyVis - Graph Visualization
+110. GMSH - FEM - Trimesh and Quadmesh 
+111. PySAL - Python Spatial Abstraction Library
+112. SkyField - Python Astronomy Library
+113. PyEphem - Python Astronomy Library - NASA JPL ephemeris (Optional)
+114. AstroPy - Python Astronomy and Cosmology Library
+115. jplephem - NASA JPL ephemeris - dependency for AstroPy
+116. Scikit-Image - Hubble eXtreme Deep Field
+117. Numba and Numba CUDA - Python and NumPy JIT optimizing fast bytecode compiler for CPUs and GPUs (optional)
+118. AstroPy-AstroQuery - https://astroquery.readthedocs.io/en/latest/ - NASA JPL Horizons Online Ephemeris REST API Service 
+119. AstroML - AstroPy + AstroQuery + Machine Learning
+120. HealPy - for AstroML
+121. Wikipedia Python API - PyWikiBot wrapper
+122. GDAL C++ - https://gdal.org/ - Installation of GDAL is complex and there are lot of dependencies - https://trac.osgeo.org/gdal/wiki/BuildingOnUnix
+123. GDAL Python bindings to GDAL C++ - Installation instructions at https://mothergeo-py.readthedocs.io/en/latest/development/how-to/gdal-ubuntu-pkg.html
+124. Rasterio - Has dependency on GDAL C - https://rasterio.readthedocs.io/en/latest/
+125. Fiona - GeoTIFF transforms - https://fiona.readthedocs.io/en/latest/
+126. Laspy - LIDAR utility - https://laspy.readthedocs.io/en/latest/
+127. IPython notebook (optional)
+128. Jupyter notebook (optional)
+129. Python mir_eval - https://craffel.github.io/mir_eval/
+130. Python Playsound
+131. Joblib - https://joblib.readthedocs.io/en/latest/
+132. MFDFA - https://mfdfa.readthedocs.io/
+133. Yahoo Finance - https://pypi.org/project/yfinance/
+134. OSMnx - https://osmnx.readthedocs.io/en/stable/
+135. Optional - For benchmarks -  gmp-ecm - Elliptic Curve Factorization - Ubuntu package - https://members.loria.fr/pzimmermann/records/ecm/devel.html
+136. Optional - For benchmarks - cado-nfs and OpenMPI - General Number Field Sieve - https://cado-nfs.gitlabpages.inria.fr/
+137. Statsmodels - https://www.statsmodels.org/stable/index.html
+138. Descartes
+139. Geopandas
+140. AngularJS (NeuronRain GUI)
+141. TypeScriptJS (Google Live Traffic Isochrone webserver GUI) - Version 18+
+142. npm (NodeJS package manager) - Version 18+
+143. Google Earth Engine - Python API (geemap,ee)
+144. Seaborn 
+145. Google Cloud SDK - gcloud

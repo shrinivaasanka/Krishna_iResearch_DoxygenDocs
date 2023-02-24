@@ -1,0 +1,73 @@
+------------------------------------------------------------------------------------------------------------------------------------
+1299b. Linux Kernel 3.7.8 Build commandline reference
+------------------------------------------------------------------------------------------------------------------------------------
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+[sudo] password for kashrinivaasan: 
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+[sudo] password for kashrinivaasan: 
+make: Entering directory `/usr/src/linux-headers-3.7.8-030708-generic'
+  CC [M]  /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.o
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:78: warning: initialization from incompatible pointer type
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_write_bulk_callback’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:139: warning: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:139: warning: too few arguments for format
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_write’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:162: warning: passing argument 6 of ‘usb_fill_bulk_urb’ from incompatible pointer type
+include/linux/usb.h:1442: note: expected ‘usb_complete_t’ but argument is of type ‘void (*)(struct urb *, struct pt_regs *)’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_exit’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:186: warning: ‘return’ with a value, in function returning void
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_probe’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:230: warning: ‘return’ with a value, in function returning void
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:196: warning: unused variable ‘retval’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_disconnect’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:236: warning: unused variable ‘minor’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_release’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:271: warning: no return statement in function returning non-void
+  Building modules, stage 2.
+  MODPOST 1 modules
+  LD [M]  /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.ko
+make: Leaving directory `/usr/src/linux-headers-3.7.8-030708-generic'
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` clean
+make: Entering directory `/usr/src/linux-headers-3.7.8-030708-generic'
+  CLEAN   /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/.tmp_versions
+  CLEAN   /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/Module.symvers
+make: Leaving directory `/usr/src/linux-headers-3.7.8-030708-generic'
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+make: Entering directory `/usr/src/linux-headers-3.7.8-030708-generic'
+  LD      /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/built-in.o
+  CC [M]  /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.o
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:78: warning: initialization from incompatible pointer type
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_write_bulk_callback’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:139: warning: format ‘%s’ expects type ‘char *’, but argument 2 has type ‘int’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:139: warning: too few arguments for format
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_write’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:162: warning: passing argument 6 of ‘usb_fill_bulk_urb’ from incompatible pointer type
+include/linux/usb.h:1442: note: expected ‘usb_complete_t’ but argument is of type ‘void (*)(struct urb *, struct pt_regs *)’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_exit’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:186: warning: ‘return’ with a value, in function returning void
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_probe’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:230: warning: ‘return’ with a value, in function returning void
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:196: warning: unused variable ‘retval’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_disconnect’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:236: warning: unused variable ‘minor’
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c: In function ‘umb_release’:
+/home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.c:271: warning: no return statement in function returning non-void
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.mod.o
+  LD [M]  /home/kashrinivaasan/linux-3.7.8/drivers/usb/usb-md/umb.ko
+make: Leaving directory `/usr/src/linux-headers-3.7.8-030708-generic'
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ ls -lrt
+total 132
+-rwxr-xr-x 1 kashrinivaasan kashrinivaasan  117 Feb 17 18:24 Makefile
+-rwxr-xr-x 1 kashrinivaasan kashrinivaasan 5763 Feb 17 18:24 Kconfig
+-rw-rw-r-- 1 kashrinivaasan kashrinivaasan 7606 Feb 17 18:29 umb.c
+-rw-r--r-- 1 root           root           5512 Apr  5 11:06 umb.o
+-rw-r--r-- 1 root           root             66 Apr  5 11:06 modules.order
+-rw-r--r-- 1 root           root              8 Apr  5 11:06 built-in.o
+-rw-r--r-- 1 root           root           3368 Apr  5 11:06 umb.mod.o
+-rw-r--r-- 1 root           root           1552 Apr  5 11:06 umb.mod.c
+-rw-r--r-- 1 root           root           7472 Apr  5 11:06 umb.ko
+-rw-r--r-- 1 root           root              0 Apr  5 11:06 Module.symvers
+kashrinivaasan@kashrinivaasan-Inspiron-1545:~/linux-3.7.8/drivers/usb/usb-md$ 
+

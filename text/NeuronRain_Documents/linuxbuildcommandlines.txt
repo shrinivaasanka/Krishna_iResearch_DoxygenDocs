@@ -1,0 +1,1000 @@
+  437  ls
+  438  cd usb
+  439  ls
+  440  cd core
+  441  ls
+  442  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  443  ls
+  444  strip --strip-debug usbcore.ko
+  445  cd /lib
+  446  ls
+  447  find . -exec grep usbcore.ko
+  448  find . -exec grep usbcore.ko /dev/null {} \;
+  449  cd modules/3.2.0-29-generic-pae/modules.builtin:kernel/drivers/usb/core
+  450  ls
+  451  cd modules/3.2.0-29-generic-pae/kernel/drivers/
+  452  ls
+  453  cd usb
+  454  ls
+  455  cd wusbcore/
+  456  ls
+  457  pwd
+  458  cd
+  459  ls
+  460  pwd
+  461  cd /usr/src
+  462  ls
+  463  cd linux-source-3.2.0/
+  464  ls
+  465  cd linux-source-3.2.0/
+  466  ls
+  467  pwd
+  468  cd drivers
+  469  ls
+  470  cd usb
+  471  ls
+  472  cd core
+  473  ls
+  474  cd
+  475  sudo apt-get install build-essential bin86 kernel-package libqt3-headers libqt3-mt-dev wget libncurses5 libncurses5-dev
+  476  pwd
+  477  cd /usr/src
+  478  ls
+  479  cd linux-source-3.2.0/
+  480  ls
+  481  cd linux-source-3.2.0/
+  482  ls
+  483  cd drivers/
+  484  ls
+  485  cd usb
+  486  ls
+  487  cd core
+  488  ls
+  489  pwd
+  490  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  491  cd /usr/src/linux-headers-3.2.0-32-generic-pae
+  492  ls
+  493  cd drivers
+  494  ls
+  495  cdusb
+  496  cd usb
+  497  ls
+  498  cd core
+  499  ls
+  500  make
+  501  pwd
+  502  cd ..
+  503  ls
+  504  cd ..
+  505  ls
+  506  pwd
+  507  cd ..
+  508  ls
+  509  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  510  [wd
+  511  ;s
+  512  la
+  513  ls
+  514  cd drivers
+  515  s
+  516  ls
+  517  cd usb
+  518  ls
+  519  cd core
+  520  sudo make -v -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  521  sudo make  -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  522  cd /lib
+  523  ls
+  524  cd modules/
+  525  ls
+  526  cd 3.2.0-32-generic-pae/
+  527  ls
+  528  cd build
+  529  ls
+  530  cd drivers
+  531  ls
+  532  cd usb/
+  533  ls
+  534  cd core/
+  535  ls
+  536  pwd
+  537  cd ../../../..
+  538  ls
+  539  cd kernel/
+  540  ls
+  541  cd drivers/
+  542  ls
+  543  cd usb/
+  544  ls
+  545  pwd
+  546  cd ../../..
+  547  ls
+  548  cd build
+  549  ls
+  550  ls lib
+  551  ls
+  552  cd drivers
+  553  s
+  554  ls
+  555  cd usb
+  556  ls
+  557  cd core/
+  558  ls
+  559  cd ../../..
+  560  ls
+  561  cd sound
+  562  cd ..
+  563  ls
+  564  strip --strip-debug usbcore.ko
+  565  ls
+  566  make
+  567  cd
+  568  tcpdump
+  569  tcpdump -h
+  570  ifconfig
+  571  sudo wireshark
+  572  pwd
+  573  ls
+  574  cd /usr
+  575  ls
+  576  cd src
+  577  ls
+  578  cd modules/
+  579  ls
+  580  cd ..
+  581  ls
+  582  cd linux-
+  583  cd
+  584  locate bluez
+  585  cd /usr/share/doc
+  586  ls
+  587  cd bluez
+  588  ls
+  589  cd examples/
+  590  ls
+  591  ./monitor-bluetooth 
+  592  cd
+  593  ls
+  594  cd /usr/src
+  595  ls
+  596  cd linux-source-3.2.0/
+  597  ls
+  598  cd linux-source-3.2.0/
+  599  ls
+  600  cd drivers
+  601  ls
+  602  cd usb
+  603  ls
+  604  cd core
+  605  ls
+  606  sudo perl -pi.bak -e 's/16384/131072/' devio.c
+  607  make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  608  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  609  cd /usr/src
+  610  ls
+  611  cd linux-source-3.2.0/
+  612  ls
+  613  cd linux-source-3.2.0/
+  614  ls
+  615  mv * ..
+  616  sudo mv * ..
+  617  ls
+  618  pwd
+  619  cd ..
+  620  ls
+  621  ls linux-source-3.2.0
+  622  rm -rf linux-source-3.2.0
+  623  sudo rm -rf linux-source-3.2.0
+  624  ls
+  625  cd drivers
+  626  ls
+  627  cd usb
+  628  ls
+  629  cd core
+  630  ls
+  631  sudo perl -pi.bak -e 's/16384/131072/' devio.c
+  632  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  633  ls
+  634  pwd
+  635  ls ../..
+  636  ls
+  637  ls /lib/modules
+  638  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules
+  639  uname -r
+  640  sudo make -C /lib/modules/linux-source-3.2.0/build/ M=`pwd` modules
+  641  hostname:~/lkmpg-examples/02-HelloWorld# make
+  642  make -C /lib/modules/2.6.11/build M=/root/lkmpg-examples/02-HelloWorld modules
+  643  make[1]: Entering directory `/usr/src/linux-2.6.11'
+  644    CC [M]  /root/lkmpg-examples/02-HelloWorld/hello-1.o
+  645   Building modules, stage 2.
+  646    MODPOST
+  647    CC      /root/lkmpg-examples/02-HelloWorld/hello-1.mod.o
+  648    LD [M]  /root/lkmpg-examples/02-HelloWorld/hello-1.ko
+  649  make[1]: Leaving directory `/usr/src/linux-2.6.11'
+  650  hostname:~/lkmpg-examples/02-HelloWorld#
+  651          
+  652  sudo apt-get build-dep linux-source-3.2.0-generic-pae
+  653  sudo apt-get build-dep linux-source-3.2.0-32-generic-pae
+  654  ls
+  655* sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules 
+  656  pwd
+  657  sudo apt-get build-dep linux-source-3.2.0-32
+  658  sudo apt-get build-dep linux-source-3.2.0
+  659  cd
+  660  ls
+  661  cd  italc-2.0.0/
+  662  ls
+  663  sudo aptitude install libitalc italc-client italc-master
+  664  sudo apt-get install libitalc italc-client italc-master
+  665  italc
+  666  git
+  667  sudo apt-get install git
+  668  uname -r
+  669  ls
+  670  pwd
+  671  cd /usr/src
+  672  ls
+  673  cd linux-source-3.2.0/
+  674  ls
+  675  pwd
+  676  cd ..
+  677  ls
+  678  mkdir modifiedUSBdriver
+  679  sudo mkdir modifiedUSBdriver
+  680  ls
+  681  pwd
+  682  cd modifiedUSBdriver/
+  683  ls
+  684  cp /boot/config-`uname-r` .config
+  685  sudo cp /boot/config-`uname-r` .config
+  686  sudo cp /boot/config-`uname -r` .config
+  687  ls
+  688  ls-al
+  689  ls -al
+  690  pwd
+  691  uname -r
+  692  cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  693  sudo cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  694  ls
+  695  cd ..
+  696  ls
+  697  cd linux-source-3.2.0/
+  698  ls
+  699  pwd
+  700  sudo make EXTRAVERSION=-32-generic O=/usr/src/modifiedUSBdriver oldconfig
+  701  sudo make EXTRAVERSION=-32-generic O=/usr/src/modifiedUSBdriver oldconfigls
+  702  pwd
+  703  uname -r
+  704  sudo make EXTRAVERSION=-32-generic-pae O=/usr/src/modifiedUSBdriver oldconfig
+  705  sudo apt-get build_dep --no-install-recommends linux-image-$(uname -r)
+  706  sudo apt-get build-dep --no-install-recommends linux-image-$(uname -r)
+  707  apt-get source linux-image-$(uname -r)
+  708  sudo apt-get source linux-image-$(uname -r)
+  709  ls
+  710  pwd
+  711  ls
+  712  cd /usr/src
+  713  ls
+  714  cd modifiedUSBdriver/
+  715  ls
+  716  uname -r
+  717  cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  718  sudo cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  719  cp /boot/config-`uname -r` .config 
+  720  sudo cp /boot/config-`uname -r` .config 
+  721  pwd
+  722  ls
+  723  cd ..
+  724  ls
+  725  ls -lrt
+  726  cd linux-source-3.2.0/
+  727  ls
+  728  ls -lrt
+  729  make EXTRAVERSION=-32-generic-pae O=/usr/src/modifiedUSBdriver oldconfig
+  730  ls
+  731  pwd
+  732  cd
+  733  ls
+  734  cd modifiedUSBdriver/
+  735  ls
+  736  ls -l
+  737  pwd
+  738  rm -rf  *
+  739  sudo rm -rf  *
+  740  ls
+  741  pwd
+  742  sudo cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  743  sudo cp /boot/config-`uname -r` .config 
+  744  ls-l
+  745  ls -l
+  746  vi Module.symvers 
+  747  ls
+  748  vi .config 
+  749  ls
+  750  cd
+  751  ls
+  752  cd linux-3.2.0/
+  753  ls
+  754  make mrproper
+  755  sudo make mrproper
+  756  ls
+  757  ls -a
+  758  zcat /proc/config.gz > .config
+  759  sudo zcat /proc/config.gz > .config
+  760  ls
+  761  ls -al
+  762  ls
+  763  pwd
+  764  lsmod
+  765  ls
+  766  cd ..
+  767  ls
+  768  mv modifiedUSBdriver/ ~
+  769  sudo mv modifiedUSBdriver/ ~
+  770  cd
+  771  ls
+  772  cd modifiedUSBdriver/
+  773  ls
+  774  cd ..
+  775  ls
+  776  rm -rf modifiedUSBdriver/
+  777  cd /usr/src
+  778  ls
+  779  sudo mv modifiedUSBdriver/ ~
+  780  cd ~/linux-3.2.0/
+  781  ls
+  782  sudo make EXTRAVERSION=-32-generic-pae O=/home/kashrinivaasan/modifiedUSBdriver oldconfig
+  783  gcc 
+  784  gcc -v
+  785  apt-get install gcc
+  786  sudo apt-get install gcc
+  787  sudo apt-get upgrade  gcc
+  788  sudo make EXTRAVERSION=-32-generic-pae O=/home/kashrinivaasan/modifiedUSBdriver oldconfig
+  789  sudo make EXTRAVERSION=-32-generic-pae O=/home/kashrinivaasan/modifiedUSBdriver oldconfig|more
+  790  locate config.gz
+  791  pwd
+  792  ls
+  793  cd /usr/src
+  794  ls
+  795  ls -lrt
+  796  cd
+  797  ls
+  798  ls -lrt
+  799  cd linux-3.2.0/
+  800  ls
+  801  pwd
+  802  make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig
+  803  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig
+  804  pwd
+  805  cd
+  806  cd /usr/src
+  807  ls
+  808  cd linux-source-3.2.0/
+  809  ls
+  810  ls -lrt
+  811  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig
+  812  ls
+  813  pwd
+  814  cd
+  815  ls
+  816  cd linux-3.2.0/
+  817  ls
+  818  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig
+  819  make mrproper
+  820  ls
+  821  sudo make mrproper
+  822  ls
+  823  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig
+  824  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig 2>&1 > brokenbuild.txt
+  825  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig 2>&1 > ~/brokenbuild.txt
+  826  ls
+  827  cd
+  828  ls
+  829  vi brokenbuild.txt 
+  830  cd linux-3.2.0/
+  831  sudo make O=/home/kashrinivaasan/modifiedUSBdriver menuconfig 2> ~/brokenbuild.txt
+  832  cd ..
+  833  vi brokenbuild.txt 
+  834  locate sys
+  835  locate types.h
+  836  ls
+  837  cd /usr/include/
+  838  ls
+  839  cd
+  840  ls
+  841  cd linux-3.2.0/
+  842  ls
+  843  cd include/
+  844  ls
+  845  pwd
+  846  cd ..
+  847  ls
+  848  find . -name types.h
+  849  ls
+  850  pwd
+  851  apt-get install libc6-dev
+  852  sudo apt-get install libc6-dev
+  853  dpkg -L libc6-dev
+  854  dpkg -L libc6-dev|grep tpes.h
+  855  dpkg -L libc6-dev|grep types.h
+  856  dpkg -L libc6-dev|grep mman.h
+  857  dpkg -L libc6-dev|grep stat.h
+  858  cd
+  859  ls
+  860  cd modifiedUSBdriver/
+  861  ls
+  862  cd scripts/
+  863  ls
+  864  cd basic/
+  865  ls
+  866  ls -al
+  867  pwd
+  868  cd ../..
+  869  ls
+  870  vi .config 
+  871  ls
+  872  pwd
+  873  cd
+  874  ls
+  875  pwd
+  876  cd linux-3.2.0/
+  877  ls
+  878  cd include/
+  879  ls
+  880  cd
+  881  ls
+  882  pwd
+  883  sudo apt-get build-dep --no-install-recommends linux-image-$(uname -r)
+  884  apt-get source linux-image-$(uname -r)
+  885  ls
+  886  ls -lrt
+  887  ls
+  888  mv modifiedUSBdriver/ linuxbuild
+  889  ls
+  890  cd linux
+  891  cd linuxbuild/
+  892  ls
+  893  sudo cp /usr/src/linux-headers-3.2.0-32-generic-pae/Module.symvers .
+  894  sudo cp /boot/config-`uname -r` .config 
+  895  pwd
+  896  ls
+  897  cd ~/linux-3.2.0/
+  898  ls
+  899  sudo make EXTRAVERSION=-32-generic-pae O=/home/kashrinivaasan/linuxbuild oldconfig
+  900  pwd
+  901  ls
+  902  locate i386
+  903  locate i386|grep sys
+  904  ls
+  905  pwd
+  906  make menuconfig
+  907  ls
+  908  pwd
+  909  ls
+  910  cd
+  911  ls
+  912  vi brokenbuild.txt 
+  913  cd linux-3.2.0/
+  914  ls
+  915  make O=/home/kashrinivaasan/linuxbuild menuconfig
+  916  sudo make O=/home/kashrinivaasan/linuxbuild menuconfig
+  917  sudo make -v O=/home/kashrinivaasan/linuxbuild menuconfig
+  918  sudo make -verbose O=/home/kashrinivaasan/linuxbuild menuconfig
+  919  sudo make -g O=/home/kashrinivaasan/linuxbuild menuconfig
+  920  sudo make -d O=/home/kashrinivaasan/linuxbuild menuconfig
+  921  sudo make -d O=/home/kashrinivaasan/linuxbuild menuconfig 2> ~/brokenbuild.txt
+  922  ls
+  923  pwd
+  924  cd
+  925  ls
+  926  vi brokenbuild.txt 
+  927  pwd
+  928  ls
+  929  cd linuxbuild/
+  930  ls
+  931  cd ..
+  932  ls
+  933  pwd
+  934  cd linux-3.2.0/
+  935  ls
+  936  sudo make -d O=/home/kashrinivaasan/linuxbuild menuconfig
+  937  sudo make  O=/home/kashrinivaasan/linuxbuild menuconfig
+  938  pwd
+  939  cd
+  940  cd linuxbuild/
+  941  ls
+  942  cp /usr/src/linux-headers-3.2.0-35-generic-pae/Module.symvers .
+  943  sudo cp /usr/src/linux-headers-3.2.0-35-generic-pae/Module.symvers .
+  944  sudo cp /boot/config-`uname -r` .config
+  945  pwd
+  946  cd ~/linux-3.2.0/
+  947  ls
+  948  make EXTRAVERSION=-35-generic O=~/linuxbuild oldconfig
+  949  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild oldconfig
+  950  cd
+  951  ls
+  952  vi brokenbuild.txt 
+  953  pwd
+  954  cd /usr/include/
+  955  ls
+  956  cd i386-linux-gnu/
+  957  ls
+  958  ls -lrt
+  959  pwd
+  960  cd
+  961  ls
+  962  cd linuxbuild/
+  963  ls
+  964  vi Module.symvers 
+  965  ls
+  966  vi .config 
+  967  ls
+  968  pwd
+  969  cd 
+  970  ls
+  971  cd /usr/include
+  972  ls
+  973  pwd
+  974  ln -s sys i386-linux-gnu/sys
+  975  sudo ln -s sys i386-linux-gnu/sys
+  976  ls
+  977  sudo ln -s asm i386-linux-gnu/asm
+  978  ls
+  979  ls-lrt
+  980  ls -lrt
+  981  cd sys
+  982  ls
+  983  cd i386-linux-gnu/
+  984  ls
+  985  cd sys
+  986  pwd
+  987  cd ../..
+  988  ls
+  989  ln
+  990  ln -h
+  991  ln --help
+  992  man ln
+  993  ls
+  994  ln -s i386-linux-gnu/asm asm
+  995  sudo ln -s i386-linux-gnu/asm asm
+  996  ls asm
+  997  sudo ln -s i386-linux-gnu/sys sys
+  998  ls sys
+  999  pwd
+ 1000  ls -al
+ 1001  ls -lrt
+ 1002  ls i386-linux-gnu/
+ 1003  sudo ln -s i386-linux-gnu/bits bits
+ 1004  sudo ln -s i386-linux-gnu/gnu gnu
+ 1005  ls
+ 1006  pwd
+ 1007  ls -lrt
+ 1008  ls
+ 1009  pwd
+ 1010  cd
+ 1011  ls
+ 1012  cd linux-3.2.0/
+ 1013  ls
+ 1014  sudo make  O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1015  sudo make clean
+ 1016  sudo make  O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1017  pwd
+ 1018  cd -
+ 1019  cd /usr/include/
+ 1020  ls
+ 1021  ls -lrt
+ 1022  ls i386-linux-gnu/
+ 1023  sudo ln -s i386-linux-gnu/fpu_control.h fpu_control.h
+ 1024  ls -lrt
+ 1025  pwd
+ 1026  ls
+ 1027  ls -lrt
+ 1028  cd
+ 1029  ls
+ 1030  cd linux
+ 1031  cd linux-3.2.0/
+ 1032  ls
+ 1033  sudo make  O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1034  locate crt1.o
+ 1035  export LD_LIBRARY_PATH=/usr/lib/i386-linux-gnu/:$LD_LIBRARY_PATH
+ 1036  sudo make  O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1037  sudo make -d O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1038  pwd
+ 1039  cd
+ 1040  locate crt1.o
+ 1041  sudo ln -s /usr/lib/i386-linux-gnu/crt1.o /usr/lib/crt1.o
+ 1042  ls -lrt /usr/lib
+ 1043  pwd
+ 1044  ls
+ 1045  cd linux-3.2.0/
+ 1046  ls
+ 1047  sudo make -d O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1048  sudo make O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1049  export LD_LIBRARY_PATH=/usr/lib:/usr/lib/i386-linux-gnu/:$LD_LIBRARY_PATH
+ 1050  sudo make O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1051  locate crti.o
+ 1052  ls -lrt /usr/lib
+ 1053  ls -lrt /usr/lib/i386-linux-gnu/
+ 1054  ls -lrt /usr/lib/i386-linux-gnu/*crt*
+ 1055  sudo ln -s /usr/lib/i386-linux-gnu/crti.o /usr/lib/crti.o
+ 1056  sudo ln -s /usr/lib/i386-linux-gnu/crtn.o /usr/lib/crtn.o
+ 1057  sudo ln -s /usr/lib/i386-linux-gnu/gcrt1.o /usr/lib/gcrt1.o
+ 1058  sudo ln -s /usr/lib/i386-linux-gnu/Mcrt1.o /usr/lib/Mcrt1.o
+ 1059  sudo ln -s /usr/lib/i386-linux-gnu/Scrt1.o /usr/lib/Scrt1.o
+ 1060  ls -lrt /usr/lib
+ 1061  sudo make O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1062  apt-get install ncurses
+ 1063  sudo apt-get install ncurses
+ 1064  sudo apt-get install ncurses-devel
+ 1065  sudo apt-get install libncurses5-dev
+ 1066  sudo make O=/home/kashrinivaasan/linuxbuild menuconfig
+ 1067  make EXTRAVERSION=-35-generic O=~/linuxbuild oldconfig
+ 1068  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild oldconfig
+ 1069  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild prepare
+ 1070  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild outputmakefile
+ 1071  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild archprepare
+ 1072  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=scripts 
+ 1073  pwd
+ 1074  ls
+ 1075  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/
+ 1076  ls
+ 1077  pwd
+ 1078  cd ls
+ 1079  ls
+ 1080  cd drivers
+ 1081  ls
+ 1082  cd usb/core
+ 1083  ls
+ 1084  cd
+ 1085  cd linuxbuild/
+ 1086  ls
+ 1087  cd drivers/
+ 1088  ls
+ 1089  cd usb
+ 1090  ls
+ 1091  cd core
+ 1092  ls
+ 1093  cd ..
+ 1094  ls
+ 1095  cd wusbcore/
+ 1096  ls
+ 1097  pwd
+ 1098  cd ..
+ 1099  ls
+ 1100  cd core
+ 1101  ls
+ 1102  cd ..
+ 1103  ls
+ 1104  pwd
+ 1105  cd
+ 1106  ls
+ 1107  cd linux-3.2.0/
+ 1108  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild 
+ 1109  ls
+ 1110  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/core
+ 1111  vi drivers/usb/core/usb.c 
+ 1112  ls
+ 1113  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/core
+ 1114  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/
+ 1115  pwd
+ 1116  ls
+ 1117  pwd
+ 1118  cd /media/OS_
+ 1119  ls
+ 1120  find . -name *.jhd
+ 1121  pwd
+ 1122  ls
+ 1123  cd linux-3.2.0/
+ 1124  ls
+ 1125  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/
+ 1126  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/core
+ 1127  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild SUBDIRS=drivers/usb/core
+ 1128  pwd
+ 1129  chmod -R 755 *
+ 1130  sudo chmod -R 755 *
+ 1131  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1132  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1133  vi drivers/usb/core/usb.c
+ 1134  ls -lrt
+ 1135  pwd
+ 1136  cd drivers/usb/core
+ 1137  ls
+ 1138  vi usb.c
+ 1139  ls
+ 1140  pwd
+ 1141  ls -lrt
+ 1142  id
+ 1143  sudo vi usb.c
+ 1144  pwd
+ 1145  cd ../..
+ 1146  ls
+ 1147  pwd
+ 1148  cd ..
+ 1149  ls
+ 1150  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1151  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusb
+ 1152  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore
+ 1153  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1154  ls
+ 1155  pwd
+ 1156  cd drivers
+ 1157  ls
+ 1158  cd usb
+ 1159  ls
+ 1160  cd core
+ 1161  ls
+ 1162  pwd
+ 1163  sudo chmod -R 755 *
+ 1164  pwd
+ 1165  cd
+ 1166  cd linuxbuild/
+ 1167  ls
+ 1168  cd drivers/
+ 1169  ls
+ 1170  cd  usb
+ 1171  ls
+ 1172  cd core
+ 1173  ls
+ 1174  sudo vi modules.order 
+ 1175  sudo vi modules.builtin 
+ 1176  sudo vi modules.order 
+ 1177  ls
+ 1178  pwd
+ 1179  cd ../..
+ 1180  ls
+ 1181  pwd
+ 1182  cd ..
+ 1183  ls
+ 1184  pwd
+ 1185  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1186  vi drivers/usb/core/
+ 1187  vi drivers/usb/core/modules.order 
+ 1188  pwd
+ 1189  chmod -R 755 drivers/usb/core/*
+ 1190  sudo chmod -R 755 drivers/usb/core/*
+ 1191  vi drivers/usb/core/modules.order 
+ 1192  cd drivers/usb/core
+ 1193  lks
+ 1194  ls
+ 1195  ls -lrt
+ 1196  vi modules.builtin
+ 1197  vi modules.order
+ 1198  ls
+ 1199  sudo vi modules.order
+ 1200  cd ../../..
+ 1201  ls
+ 1202  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1203  vi modules.order 
+ 1204  vi modules.builtin 
+ 1205  cd drivers/usb
+ 1206  ls
+ 1207  cd core
+ 1208  ls
+ 1209  ls -lrt
+ 1210  cd ..
+ 1211  ls
+ 1212  vi modules.order 
+ 1213  ls
+ 1214  pwd
+ 1215  ls -lrt
+ 1216  pwd
+ 1217  cd ..
+ 1218  ls
+ 1219  vi modules.order 
+ 1220  ls
+ 1221  cd ..
+ 1222  ks
+ 1223  ls
+ 1224  vi modules.order 
+ 1225  grep modules.order *
+ 1226  pwd
+ 1227  vi Makefile
+ 1228  ls
+ 1229  ls /lib/modules/
+ 1230  ls /lib/modules/3.2.0-35-generic-pae/
+ 1231  ls /lib/modules/3.2.0-35-generic-pae/build
+ 1232  ls /lib/modules/3.2.0-35-generic-pae/build/drivers
+ 1233  ls /lib/modules/3.2.0-35-generic-pae/build/drivers/usb/core/
+ 1234  ls /lib/modules/3.2.0-35-generic-pae/build/drivers/usb/wusbcore/
+ 1235  ls
+ 1236  vi Makefile 
+ 1237  ls
+ 1238  pwd
+ 1239  cd
+ 1240  cd linux-3.2.0/
+ 1241  ls
+ 1242  cd drivers/
+ 1243  ls
+ 1244  cd usb/core/
+ 1245  ls
+ 1246  vi driver.c 
+ 1247  ls
+ 1248  pwd
+ 1249  vi Makefile
+ 1250  ls
+ 1251  pwd
+ 1252  vi Kconfig 
+ 1253  pwd
+ 1254  cd ../wusbcore/
+ 1255  ls
+ 1256  vi reservation.c 
+ 1257  ls
+ 1258  vi Makefile 
+ 1259  pwd
+ 1260  grep wusbcore.ko
+ 1261  grep wusbcore.ko *
+ 1262  pwd
+ 1263  cd ..
+ 1264  ls
+ 1265  cd core
+ 1266  ls
+ 1267  grep usbcore.ko *
+ 1268  vi devio.c 
+ 1269  ls
+ 1270  vi quirks.c 
+ 1271  ls
+ 1272  vi driver.c 
+ 1273  ls
+ 1274  grep pr_info *
+ 1275  vi usb.c
+ 1276  ls
+ 1277  vi hub.c 
+ 1278  pwd
+ 1279  cd ..
+ 1280  ls
+ 1281  cd wusbcore/
+ 1282  ls
+ 1283  vi wa-xfer.c 
+ 1284  vi mmc.c 
+ 1285  ls
+ 1286  vi wusbhc.c
+ 1287  vi wa-nep.c 
+ 1288  pwd
+ 1289  vi pal.c 
+ 1290  pwd
+ 1291  cd ..
+ 1292  ls
+ 1293  vi README 
+ 1294  cd core
+ 1295  ls
+ 1296  cd ..
+ 1297  ls
+ 1298  cd ..
+ 1299  ls
+ 1300  cd ..
+ 1301  ls
+ 1302  cd Documentation/
+ 1303  ls
+ 1304  vi BUG-HUNTING 
+ 1305  vi parport-lowlevel.txt 
+ 1306  cd ..
+ 1307  ls
+ 1308  pwd
+ 1309  cd usb
+ 1310  ls
+ 1311  cd Documentation/usb
+ 1312  ls
+ 1313  vi WUSB-Design-overview.txt 
+ 1314  ls
+ 1315  pwd
+ 1316  vi usb-help.txt 
+ 1317  vi usb-serial.txt 
+ 1318  ls
+ 1319  vi ./drivers/usb/wusbcore/.wusbcore.ko.cmd
+ 1320  cd drivers
+ 1321  ls
+ 1322  cd usb
+ 1323  ls
+ 1324  cd core
+ 1325  ls
+ 1326  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules 
+ 1327  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild
+ 1328  cd
+ 1329  cd drivers/usb/core
+ 1330  cd linux-3.2.0/usb/core
+ 1331  ls
+ 1332  cd linux-3.2.0/drivers/usb/core
+ 1333  ls
+ 1334  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild
+ 1335  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules
+ 1336  cd ../wusbcore/
+ 1337  ls
+ 1338  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules
+ 1339  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild 
+ 1340  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild M=`pwd`
+ 1341  cd ../../..
+ 1342  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1343  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1344  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore
+ 1345  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules 
+ 1346  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/core
+ 1347  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore
+ 1348  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore 2> wusbcorebuild.txt
+ 1349  ls -lrt
+ 1350  sudo vi wusbcorebuild.txt
+ 1351  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore 2> wusbcorebuild.txt
+ 1352  ls -l
+ 1353  sudo chmod -R 755 wusbcorebuild.txt 
+ 1354  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore 2> wusbcorebuild.txt
+ 1355  ls -lrt
+ 1356  sudo make -d EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore | more
+ 1357  ls
+ 1358  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore | more
+ 1359  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore 
+ 1360  pwd
+ 1361  vi Makefile 
+ 1362  cd /
+ 1363  cd media/OS
+ 1364  cd media/OS_
+ 1365  ls
+ 1366  find . -name Root
+ 1367  cat /proc/bus/usb/devices
+ 1368  lsmod
+ 1369  lsmod}grep usb
+ 1370  lsmod | grep usb
+ 1371  dmesg
+ 1372  dmesg|grep usbcore
+ 1373  dmesg|grep wusbcore
+ 1374  dmesg|grep usbcore
+ 1375  cd linux-3.2.0/
+ 1376  ls
+ 1377  cd drivers/
+ 1378  ls
+ 1379  cd usb/core
+ 1380  ls
+ 1381  fc -l
+ 1382  histor
+ 1383  history
+ 1384  history 2>&1 ~/linuxbuildcommandlines.txt
+ 1385  history 2>&1 > ~/linuxbuildcommandlines.txt
+ 1386  cd
+ 1387  ls
+ 1388  vi linuxbuildcommandlines.txt 
+ 1389  ls
+ 1390  pwd
+ 1391  cd linuxbuild/
+ 1392  cd
+ 1393  cd linux-3.2.0/
+ 1394  ls
+ 1395  cd drivers/
+ 1396  ls
+ 1397  cd usb
+ 1398  ls
+ 1399  pwd
+ 1400  ls
+ 1401  cd core
+ 1402  ls
+ 1403  fc -l
+ 1404  man fc
+ 1405  fc -h
+ 1406  fc -lnr
+ 1407  ls
+ 1408  vi Makefile 
+ 1409  sudo vi usb.c
+ 1410  sudo vi hub.c 
+ 1411  grep printk *
+ 1412  vi hub.c 
+ 1413  ls
+ 1414  grep ratelimit *.c
+ 1415  sudo wireshark &
+ 1416  grep init *.c
+ 1417  ls
+ 1418  grep main *.c
+ 1419  grep __init *.c
+ 1420  vi usb.c
+ 1421  ls
+ 1422  vi hub.c
+ 1423  ls
+ 1424  pwd
+ 1425  cd ../../..
+ 1426  sudo make EXTRAVERSION=-35-generic O=~/linuxbuild modules SUBDIRS=drivers/usb/wusbcore clean
+ 1427  cd -
+ 1428  ls
+ 1429  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` modules clean
+ 1430  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` clean
+ 1431  ls
+ 1432  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+ 1433  ls
+ 1434  fc -l
+ 1435  history
+ 1436  history 2>&1 > ~/linuxbuildcommandlines.txt

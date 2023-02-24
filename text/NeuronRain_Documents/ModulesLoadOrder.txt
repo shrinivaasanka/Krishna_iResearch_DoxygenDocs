@@ -1,0 +1,15 @@
+-----------------------------------------
+1248. Modules Load Order
+-----------------------------------------
+kernel_analytics
+config
+utils
+virgo_queueing
+kingcobra
+cpupooling
+memorypooling
+cloudfs
+eventnet
+
+In pre-4.x.x Linux kernels these modules are boot time loaded from /etc/modules
+In post-4.x.x Linux kernels due to systemd, the modules are boot time loaded from /lib/modules-load.d/virgo_modules.conf 

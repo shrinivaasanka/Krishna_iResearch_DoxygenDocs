@@ -31,12 +31,17 @@ NeuronRain repositories are in:
 
 1402. NeuronRain - ReadTheDocs URLs:
 ------------------------------------
-        1402.1 NeuronRain Docuementation - unified - https://neuronrain-documentation.readthedocs.io/en/latest/ 
-        1402.2 NeuronRain Theory Drafts - https://acadpdrafts.readthedocs.io/en/latest/ 
-	1402.3 NeuronRain AstroInfer - https://astroinfer.readthedocs.io/en/latest/
-	1402.4 NeuronRain USBmd64 - https://usb-md64-github-code.readthedocs.io/en/latest/
-	1402.5 NeuronRain VIRGO64 - https://virgo64-linux-github-code.readthedocs.io/en/latest/
-	1402.6 NeuronRain KingCobra64 - https://kingcobra64-github-code.readthedocs.io/en/latest/
+        (*) NeuronRain Docuementation - unified - https://neuronrain-documentation.readthedocs.io/en/latest/
+
+        (*) NeuronRain Theory Drafts - https://acadpdrafts.readthedocs.io/en/latest/ 
+
+	(*) NeuronRain AstroInfer - https://astroinfer.readthedocs.io/en/latest/
+
+	(*) NeuronRain USBmd64 - https://usb-md64-github-code.readthedocs.io/en/latest/
+
+	(*) NeuronRain VIRGO64 - https://virgo64-linux-github-code.readthedocs.io/en/latest/
+
+	(*) NeuronRain KingCobra64 - https://kingcobra64-github-code.readthedocs.io/en/latest/
 
 1331. NeuronRain Documentation Repositories:
 --------------------------------------------

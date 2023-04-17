@@ -878,6 +878,9 @@ Previous license ownership attribution supersedes all other copyleft notice head
 
 Author:
 -------
+
+.. image:: KSrinivasan_15April2023.jpeg 
+
 K.Srinivasan
 Emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com, kashrinivaasan@live.com
 NeuronRain mailing lists: https://sourceforge.net/p/virgo-linux/mailman/virgo-linux-mailing-list/ (not recently updated), https://in.groups.yahoo.com/neo/groups/grafitopenlearning/info (archived because of Verizon-Oath-Yahoo-Apollo groups shutdown)

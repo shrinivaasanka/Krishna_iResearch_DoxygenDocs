@@ -1,0 +1,44 @@
+\hypertarget{structuvc__urb}{}\doxysection{uvc\+\_\+urb Struct Reference}
+\label{structuvc__urb}\index{uvc\_urb@{uvc\_urb}}
+
+
+{\ttfamily \#include $<$uvcvideo.\+h$>$}
+
+
+
+Collaboration diagram for uvc\+\_\+urb\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structuvc__urb_a71eefd82ad61199a01541a645b0606f5}\label{structuvc__urb_a71eefd82ad61199a01541a645b0606f5}} 
+struct urb $\ast$ {\bfseries urb}
+\item 
+\mbox{\Hypertarget{structuvc__urb_ae072870701b5f3fcb013a712f3acb248}\label{structuvc__urb_ae072870701b5f3fcb013a712f3acb248}} 
+struct \mbox{\hyperlink{structuvc__streaming}{uvc\+\_\+streaming}} $\ast$ {\bfseries stream}
+\item 
+\mbox{\Hypertarget{structuvc__urb_a99f1684b7fb851a569ee54205481de1c}\label{structuvc__urb_a99f1684b7fb851a569ee54205481de1c}} 
+char $\ast$ {\bfseries buffer}
+\item 
+\mbox{\Hypertarget{structuvc__urb_a5b05cfceaf36d1ee02bd4d6f9c59aed5}\label{structuvc__urb_a5b05cfceaf36d1ee02bd4d6f9c59aed5}} 
+dma\+\_\+addr\+\_\+t {\bfseries dma}
+\item 
+\mbox{\Hypertarget{structuvc__urb_a8c443eeac33739b138be61ff0d8b0410}\label{structuvc__urb_a8c443eeac33739b138be61ff0d8b0410}} 
+unsigned int {\bfseries async\+\_\+operations}
+\item 
+\mbox{\Hypertarget{structuvc__urb_a2d9a7ca0878b9c1ed7eef25833faf4a5}\label{structuvc__urb_a2d9a7ca0878b9c1ed7eef25833faf4a5}} 
+struct \mbox{\hyperlink{structuvc__copy__op}{uvc\+\_\+copy\+\_\+op}} {\bfseries copy\+\_\+operations} \mbox{[}UVC\+\_\+\+MAX\+\_\+\+PACKETS\mbox{]}
+\item 
+\mbox{\Hypertarget{structuvc__urb_af07fdb310c6af80c35db20211926b52c}\label{structuvc__urb_af07fdb310c6af80c35db20211926b52c}} 
+struct work\+\_\+struct {\bfseries work}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+struct \mbox{\hyperlink{structuvc__urb}{uvc\+\_\+urb}} -\/ URB context management structure
+
+@urb\+: the URB described by this context structure @stream\+: UVC streaming context @buffer\+: memory storage for the URB @dma\+: DMA coherent addressing for the urb\+\_\+buffer @async\+\_\+operations\+: counter to indicate the number of copy operations @copy\+\_\+operations\+: work descriptors for asynchronous copy operations @work\+: work queue entry for asynchronous decode 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/media/usb/uvc/uvcvideo.\+h\end{DoxyCompactItemize}

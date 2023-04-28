@@ -1,0 +1,54 @@
+digraph "uvc_device::uvc_ctrl_work"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="uvc_device::uvc_ctrl_work",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip=" "];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chain" ];
+  Node2 [label="uvc_video_chain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__video__chain.html",tooltip=" "];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" processing\nselector" ];
+  Node3 [label="uvc_entity",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__entity.html",tooltip=" "];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" controls" ];
+  Node4 [label="uvc_control",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__control.html",tooltip=" "];
+  Node3 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" entity" ];
+  Node5 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" info" ];
+  Node5 [label="uvc_control_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__control__info.html",tooltip=" "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" handle" ];
+  Node6 [label="uvc_fh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__fh.html",tooltip=" "];
+  Node2 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chain" ];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stream" ];
+  Node7 [label="uvc_streaming",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__streaming.html",tooltip=" "];
+  Node8 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" clock" ];
+  Node8 [label="uvc_streaming::uvc\l_clock",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__streaming_1_1uvc__clock.html",tooltip=" "];
+  Node9 -> Node8 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" samples" ];
+  Node9 [label="uvc_streaming::uvc\l_clock::uvc_clock_sample",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__streaming_1_1uvc__clock_1_1uvc__clock__sample.html",tooltip=" "];
+  Node2 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" chain" ];
+  Node10 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" uvc_urb" ];
+  Node10 [label="uvc_urb",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__urb.html",tooltip=" "];
+  Node11 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" copy_operations" ];
+  Node11 [label="uvc_copy_op",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__copy__op.html",tooltip=" "];
+  Node12 -> Node11 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" buf" ];
+  Node12 [label="uvc_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__buffer.html",tooltip=" "];
+  Node7 -> Node10 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stream" ];
+  Node13 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cur_frame" ];
+  Node13 [label="uvc_frame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__frame.html",tooltip=" "];
+  Node14 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" frame" ];
+  Node14 [label="uvc_stats_frame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__stats__frame.html",tooltip=" "];
+  Node15 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cur_format\ndef_format\nformat" ];
+  Node15 [label="uvc_format",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__format.html",tooltip=" "];
+  Node13 -> Node15 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" frame" ];
+  Node16 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" queue" ];
+  Node16 [label="uvc_video_queue",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__video__queue.html",tooltip=" "];
+  Node17 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" header" ];
+  Node17 [label="uvc_streaming_header",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__streaming__header.html",tooltip=" "];
+  Node18 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stream" ];
+  Node18 [label="uvc_stats_stream",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__stats__stream.html",tooltip=" "];
+  Node19 -> Node7 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dev" ];
+  Node19 [label="uvc_device",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__device.html",tooltip=" "];
+  Node1 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" async_ctrl" ];
+  Node20 -> Node19 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" info" ];
+  Node20 [label="uvc_device_info",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structuvc__device__info.html",tooltip=" "];
+  Node19 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" dev" ];
+  Node4 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ctrl" ];
+}

@@ -1,0 +1,55 @@
+\hypertarget{classPageRank_1_1PageRanker}{}\doxysection{Page\+Rank.\+Page\+Ranker Class Reference}
+\label{classPageRank_1_1PageRanker}\index{PageRank.PageRanker@{PageRank.PageRanker}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a2769c6638bd02d5faf2e99e77fbdd924}\label{classPageRank_1_1PageRanker_a2769c6638bd02d5faf2e99e77fbdd924}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, p, webmatrix)
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a29336f63e40a746307223270c94444e1}\label{classPageRank_1_1PageRanker_a29336f63e40a746307223270c94444e1}} 
+def {\bfseries improve\+\_\+guess} (self, times=1)
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a2691cce1415795df2c8c47af112f8bbe}\label{classPageRank_1_1PageRanker_a2691cce1415795df2c8c47af112f8bbe}} 
+def {\bfseries get\+\_\+invariant\+\_\+measure} (self)
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a851d8fef90c96fa3056ee1998f99582d}\label{classPageRank_1_1PageRanker_a851d8fef90c96fa3056ee1998f99582d}} 
+def {\bfseries get\+Page\+Rank} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a04308588cc2cad43b97b78bbe13b632b}\label{classPageRank_1_1PageRanker_a04308588cc2cad43b97b78bbe13b632b}} 
+{\bfseries p}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a9dfe13dd7ee6f2d9911446208b77d674}\label{classPageRank_1_1PageRanker_a9dfe13dd7ee6f2d9911446208b77d674}} 
+{\bfseries webmatrix}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a767c4cef9e5780bd17e1613f3703e75c}\label{classPageRank_1_1PageRanker_a767c4cef9e5780bd17e1613f3703e75c}} 
+{\bfseries imatrix} = identity(webmatrix.\+shape\mbox{[}0\mbox{]}, numpy.\+float64)
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a09df299341148343b58231f2c89c5c23}\label{classPageRank_1_1PageRanker_a09df299341148343b58231f2c89c5c23}} 
+{\bfseries deltamatrix} = la.\+inv(imatrix)
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a58e1e9b1330da69f89295b7733c82c7e}\label{classPageRank_1_1PageRanker_a58e1e9b1330da69f89295b7733c82c7e}} 
+{\bfseries fmatrix}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a669aea28503d4a17a1a4eb6f47f3ed77}\label{classPageRank_1_1PageRanker_a669aea28503d4a17a1a4eb6f47f3ed77}} 
+{\bfseries sigma}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a2015a9d4abf6c8c42a4b5d573cadff95}\label{classPageRank_1_1PageRanker_a2015a9d4abf6c8c42a4b5d573cadff95}} 
+tuple {\bfseries M} = \+\_\+randmatrix + \+\_\+linkedmatrix
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_adfc13521c54b4e0c20d5703fdd3c8342}\label{classPageRank_1_1PageRanker_adfc13521c54b4e0c20d5703fdd3c8342}} 
+{\bfseries stochasticmatrix}
+\item 
+\mbox{\Hypertarget{classPageRank_1_1PageRanker_a084e39e97672ad48db89f41c93f61fa4}\label{classPageRank_1_1PageRanker_a084e39e97672ad48db89f41c93f61fa4}} 
+{\bfseries invariantmeasure}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/\+Interview\+Algorithm/\+TAC2010/Page\+Rank.\+py\end{DoxyCompactItemize}

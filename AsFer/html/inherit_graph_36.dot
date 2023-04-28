@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node116 [label="Module",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node116 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="python-src.backend.Mongo\lDB_Configuration.MongoDB\l_Configuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpython-src_1_1backend_1_1MongoDB__Configuration_1_1MongoDB__Configuration.html",tooltip=" "];
+  Node116 -> Node118 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node118 [label="python-src.backend.Mongo\lDB_DBBackend.MongoDB_DBBackend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpython-src_1_1backend_1_1MongoDB__DBBackend_1_1MongoDB__DBBackend.html",tooltip=" "];
+  Node116 -> Node119 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node119 [label="python-src.backend.MySQL\l_Configuration.MySQL_Configuration",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpython-src_1_1backend_1_1MySQL__Configuration_1_1MySQL__Configuration.html",tooltip=" "];
+  Node116 -> Node120 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node120 [label="python-src.backend.MySQL\l_DBBackend.MySQL_DBBackend",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpython-src_1_1backend_1_1MySQL__DBBackend_1_1MySQL__DBBackend.html",tooltip=" "];
+}

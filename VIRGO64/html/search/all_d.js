@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['virgo_5faddr_5ftranstable_69',['virgo_addr_transtable',['../structvirgo__addr__transtable.html',1,'']]],
+  ['virgo_5faddress_70',['virgo_address',['../structvirgo__address.html',1,'']]],
+  ['virgo_5fclass_5ft_71',['virgo_class_t',['../structvirgo__class__t.html',1,'']]],
+  ['virgo_5feventnet_5fargs_72',['virgo_eventnet_args',['../structvirgo__eventnet__args.html',1,'']]],
+  ['virgo_5feventnet_5fclass_5ft_73',['virgo_eventnet_class_t',['../structvirgo__eventnet__class__t.html',1,'']]],
+  ['virgo_5feventnet_5fops_5ft_74',['virgo_eventnet_ops_t',['../structvirgo__eventnet__ops__t.html',1,'']]],
+  ['virgo_5ffs_5fargs_75',['virgo_fs_args',['../structvirgo__fs__args.html',1,'']]],
+  ['virgo_5ffs_5fclass_5ft_76',['virgo_fs_class_t',['../structvirgo__fs__class__t.html',1,'']]],
+  ['virgo_5ffs_5fops_5ft_77',['virgo_fs_ops_t',['../structvirgo__fs__ops__t.html',1,'']]],
+  ['virgo_5fkernel_5fanalytics_5fconfig_78',['virgo_kernel_analytics_config',['../structvirgo__kernel__analytics__config.html',1,'']]],
+  ['virgo_5fmempool_5fargs_79',['virgo_mempool_args',['../structvirgo__mempool__args.html',1,'']]],
+  ['virgo_5fmempool_5fclass_5ft_80',['virgo_mempool_class_t',['../structvirgo__mempool__class__t.html',1,'']]],
+  ['virgo_5fmempool_5fops_5ft_81',['virgo_mempool_ops_t',['../structvirgo__mempool__ops__t.html',1,'']]],
+  ['virgo_5fops_5ft_82',['virgo_ops_t',['../structvirgo__ops__t.html',1,'']]],
+  ['virgo_5frequest_83',['virgo_request',['../structvirgo__request.html',1,'']]],
+  ['virgo_5fworkqueue_5frequest_84',['virgo_workqueue_request',['../structvirgo__workqueue__request.html',1,'']]],
+  ['virgoqueue_5fclass_5ft_85',['virgoqueue_class_t',['../structvirgoqueue__class__t.html',1,'']]],
+  ['virgoqueue_5fops_5ft_86',['virgoqueue_ops_t',['../structvirgoqueue__ops__t.html',1,'']]]
+];

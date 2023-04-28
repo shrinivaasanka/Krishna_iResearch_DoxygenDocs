@@ -1,0 +1,96 @@
+\hypertarget{structuvc__entity}{}\doxysection{uvc\+\_\+entity Struct Reference}
+\label{structuvc__entity}\index{uvc\_entity@{uvc\_entity}}
+
+
+Collaboration diagram for uvc\+\_\+entity\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a54941699c3849ddab983b8f77e9550ff}\label{structuvc__entity_a54941699c3849ddab983b8f77e9550ff}} 
+struct list\+\_\+head {\bfseries list}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a30784b34c8e3a5ca0a7b17d3433c9050}\label{structuvc__entity_a30784b34c8e3a5ca0a7b17d3433c9050}} 
+struct list\+\_\+head {\bfseries chain}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a998c1f3556f59e55f127146b2f39c44f}\label{structuvc__entity_a998c1f3556f59e55f127146b2f39c44f}} 
+unsigned int {\bfseries flags}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a7841ef02d3f18245b8c04dc38fd3ba2b}\label{structuvc__entity_a7841ef02d3f18245b8c04dc38fd3ba2b}} 
+u8 {\bfseries id}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a2e07a550b83623495348ae66e11be526}\label{structuvc__entity_a2e07a550b83623495348ae66e11be526}} 
+u16 {\bfseries type}
+\item 
+\mbox{\Hypertarget{structuvc__entity_adcc0578e58ed3b09d14f1b19a7fdd66a}\label{structuvc__entity_adcc0578e58ed3b09d14f1b19a7fdd66a}} 
+char {\bfseries name} \mbox{[}64\mbox{]}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a36f70378ccb416dba6f1e442d7e6cbae}\label{structuvc__entity_a36f70378ccb416dba6f1e442d7e6cbae}} 
+struct video\+\_\+device $\ast$ {\bfseries vdev}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a82ef0beecdfc9884fd75af32dd480449}\label{structuvc__entity_a82ef0beecdfc9884fd75af32dd480449}} 
+struct v4l2\+\_\+subdev {\bfseries subdev}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a22d9323d2082862644cf7fca0c416962}\label{structuvc__entity_a22d9323d2082862644cf7fca0c416962}} 
+unsigned int {\bfseries num\+\_\+pads}
+\item 
+\mbox{\Hypertarget{structuvc__entity_ae9ee6dd39a9f5935ae479bad851c61ca}\label{structuvc__entity_ae9ee6dd39a9f5935ae479bad851c61ca}} 
+unsigned int {\bfseries num\+\_\+links}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a44b38400eae97ed077a14395a8b9554b}\label{structuvc__entity_a44b38400eae97ed077a14395a8b9554b}} 
+struct media\+\_\+pad $\ast$ {\bfseries pads}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a96a465f8a4181341cfcb59e576f4b94c}\label{structuvc__entity_a96a465f8a4181341cfcb59e576f4b94c}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+union \{\\
+\>struct \{\\
+\>\>u16 {\bfseries wObjectiveFocalLengthMin}\\
+\>\>u16 {\bfseries wObjectiveFocalLengthMax}\\
+\>\>u16 {\bfseries wOcularFocalLength}\\
+\>\>u8 {\bfseries bControlSize}\\
+\>\>u8 $\ast$ {\bfseries bmControls}\\
+\>\} {\bfseries camera}\\
+\>struct \{\\
+\>\>u8 {\bfseries bControlSize}\\
+\>\>u8 $\ast$ {\bfseries bmControls}\\
+\>\>u8 {\bfseries bTransportModeSize}\\
+\>\>u8 $\ast$ {\bfseries bmTransportModes}\\
+\>\} {\bfseries media}\\
+\>struct \{\\
+\>\} {\bfseries output}\\
+\>struct \{\\
+\>\>u16 {\bfseries wMaxMultiplier}\\
+\>\>u8 {\bfseries bControlSize}\\
+\>\>u8 $\ast$ {\bfseries bmControls}\\
+\>\>u8 {\bfseries bmVideoStandards}\\
+\>\} {\bfseries processing}\\
+\>struct \{\\
+\>\} {\bfseries selector}\\
+\>struct \{\\
+\>\>u8 {\bfseries guidExtensionCode} \mbox{[}16\mbox{]}\\
+\>\>u8 {\bfseries bNumControls}\\
+\>\>u8 {\bfseries bControlSize}\\
+\>\>u8 $\ast$ {\bfseries bmControls}\\
+\>\>u8 $\ast$ {\bfseries bmControlsType}\\
+\>\} {\bfseries extension}\\
+\}; \\
+
+\end{tabbing}\item 
+\mbox{\Hypertarget{structuvc__entity_a7c18dbd0db8d5d6fbfd850c45b05a8d2}\label{structuvc__entity_a7c18dbd0db8d5d6fbfd850c45b05a8d2}} 
+u8 {\bfseries b\+Nr\+In\+Pins}
+\item 
+\mbox{\Hypertarget{structuvc__entity_a4866661396e9e32981d42fe932538e3c}\label{structuvc__entity_a4866661396e9e32981d42fe932538e3c}} 
+u8 $\ast$ {\bfseries ba\+Source\+ID}
+\item 
+\mbox{\Hypertarget{structuvc__entity_accd8de3f2e22a70ef700b378bd3d719d}\label{structuvc__entity_accd8de3f2e22a70ef700b378bd3d719d}} 
+unsigned int {\bfseries ncontrols}
+\item 
+\mbox{\Hypertarget{structuvc__entity_ab6e05caaddbe61522136ce3c8c05381b}\label{structuvc__entity_ab6e05caaddbe61522136ce3c8c05381b}} 
+struct \mbox{\hyperlink{structuvc__control}{uvc\+\_\+control}} $\ast$ {\bfseries controls}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/media/usb/uvc/uvcvideo.\+h\end{DoxyCompactItemize}

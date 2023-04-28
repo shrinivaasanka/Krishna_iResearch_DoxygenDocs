@@ -1,0 +1,89 @@
+\hypertarget{structusb__xpad}{}\doxysection{usb\+\_\+xpad Struct Reference}
+\label{structusb__xpad}\index{usb\_xpad@{usb\_xpad}}
+
+
+Collaboration diagram for usb\+\_\+xpad\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ac244d7ba60a949ab39aef6923ea5926a}\label{structusb__xpad_ac244d7ba60a949ab39aef6923ea5926a}} 
+struct input\+\_\+dev $\ast$ {\bfseries dev}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ad5a640b4fc0d0546af4d00cdce8d9600}\label{structusb__xpad_ad5a640b4fc0d0546af4d00cdce8d9600}} 
+struct input\+\_\+dev \+\_\+\+\_\+rcu $\ast$ {\bfseries x360w\+\_\+dev}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a04a018950655f6bf7cfb8c2681c48df7}\label{structusb__xpad_a04a018950655f6bf7cfb8c2681c48df7}} 
+struct usb\+\_\+device $\ast$ {\bfseries udev}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ad3d3215df572aea00bfa731e9d86a1d1}\label{structusb__xpad_ad3d3215df572aea00bfa731e9d86a1d1}} 
+struct usb\+\_\+interface $\ast$ {\bfseries intf}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ac002bf7f63182692ad90d85e0e35ff3a}\label{structusb__xpad_ac002bf7f63182692ad90d85e0e35ff3a}} 
+bool {\bfseries pad\+\_\+present}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ad8749caeff63b0925165cbf6bf03fc47}\label{structusb__xpad_ad8749caeff63b0925165cbf6bf03fc47}} 
+bool {\bfseries input\+\_\+created}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ae5b7ebeb078672b18077a62939575eee}\label{structusb__xpad_ae5b7ebeb078672b18077a62939575eee}} 
+struct urb $\ast$ {\bfseries irq\+\_\+in}
+\item 
+\mbox{\Hypertarget{structusb__xpad_affee69593b28fba7228aaf5634e5df17}\label{structusb__xpad_affee69593b28fba7228aaf5634e5df17}} 
+unsigned char $\ast$ {\bfseries idata}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a9a0898e0ef5c8b1ecff49e5e4497c4b5}\label{structusb__xpad_a9a0898e0ef5c8b1ecff49e5e4497c4b5}} 
+dma\+\_\+addr\+\_\+t {\bfseries idata\+\_\+dma}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a8c91b6650c515288c7ade64b72ac70e6}\label{structusb__xpad_a8c91b6650c515288c7ade64b72ac70e6}} 
+struct urb $\ast$ {\bfseries irq\+\_\+out}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ad3c60e4e54d993db8c3ac274f5da7416}\label{structusb__xpad_ad3c60e4e54d993db8c3ac274f5da7416}} 
+struct usb\+\_\+anchor {\bfseries irq\+\_\+out\+\_\+anchor}
+\item 
+\mbox{\Hypertarget{structusb__xpad_af66457f72a4d09d2a89480abea273cb4}\label{structusb__xpad_af66457f72a4d09d2a89480abea273cb4}} 
+bool {\bfseries irq\+\_\+out\+\_\+active}
+\item 
+\mbox{\Hypertarget{structusb__xpad_aef52e2dcd4817149ba4963226fafbf95}\label{structusb__xpad_aef52e2dcd4817149ba4963226fafbf95}} 
+u8 {\bfseries odata\+\_\+serial}
+\item 
+\mbox{\Hypertarget{structusb__xpad_af416e6d18190aa36157231fb4e8d0794}\label{structusb__xpad_af416e6d18190aa36157231fb4e8d0794}} 
+unsigned char $\ast$ {\bfseries odata}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a8eaace25bf99af5f1407f990667eab47}\label{structusb__xpad_a8eaace25bf99af5f1407f990667eab47}} 
+dma\+\_\+addr\+\_\+t {\bfseries odata\+\_\+dma}
+\item 
+\mbox{\Hypertarget{structusb__xpad_aaa9ef465034b9ad2797da7d37f4da310}\label{structusb__xpad_aaa9ef465034b9ad2797da7d37f4da310}} 
+spinlock\+\_\+t {\bfseries odata\+\_\+lock}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a468e2569e098e69bd3a4a55e329ac140}\label{structusb__xpad_a468e2569e098e69bd3a4a55e329ac140}} 
+struct \mbox{\hyperlink{structxpad__output__packet}{xpad\+\_\+output\+\_\+packet}} {\bfseries out\+\_\+packets} \mbox{[}XPAD\+\_\+\+NUM\+\_\+\+OUT\+\_\+\+PACKETS\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a949810632916f1e2f0685f2c75511c0b}\label{structusb__xpad_a949810632916f1e2f0685f2c75511c0b}} 
+int {\bfseries last\+\_\+out\+\_\+packet}
+\item 
+\mbox{\Hypertarget{structusb__xpad_ac4b5350e671dc89a466452a53023122e}\label{structusb__xpad_ac4b5350e671dc89a466452a53023122e}} 
+int {\bfseries init\+\_\+seq}
+\item 
+\mbox{\Hypertarget{structusb__xpad_af6b5dd8d59a9b0955b22fabe1860dc01}\label{structusb__xpad_af6b5dd8d59a9b0955b22fabe1860dc01}} 
+char {\bfseries phys} \mbox{[}64\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__xpad_afb8821d644846d9d628f091b09cd9e5f}\label{structusb__xpad_afb8821d644846d9d628f091b09cd9e5f}} 
+int {\bfseries mapping}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a6ddfd09d274db13d4e8ef71d84efffd7}\label{structusb__xpad_a6ddfd09d274db13d4e8ef71d84efffd7}} 
+int {\bfseries xtype}
+\item 
+\mbox{\Hypertarget{structusb__xpad_aa212d7df6bed4a95df3e265aa95fd72b}\label{structusb__xpad_aa212d7df6bed4a95df3e265aa95fd72b}} 
+int {\bfseries pad\+\_\+nr}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a1f7df0271a584ebabd7a0859c6e75c4e}\label{structusb__xpad_a1f7df0271a584ebabd7a0859c6e75c4e}} 
+const char $\ast$ {\bfseries name}
+\item 
+\mbox{\Hypertarget{structusb__xpad_a4e7f2693fe16c64f20e87fc0bc88e295}\label{structusb__xpad_a4e7f2693fe16c64f20e87fc0bc88e295}} 
+struct work\+\_\+struct {\bfseries work}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/input/joystick/xpad.\+c\end{DoxyCompactItemize}

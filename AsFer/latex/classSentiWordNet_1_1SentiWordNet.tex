@@ -1,0 +1,65 @@
+\hypertarget{classSentiWordNet_1_1SentiWordNet}{}\doxysection{Senti\+Word\+Net.\+Senti\+Word\+Net Class Reference}
+\label{classSentiWordNet_1_1SentiWordNet}\index{SentiWordNet.SentiWordNet@{SentiWordNet.SentiWordNet}}
+
+
+Collaboration diagram for Senti\+Word\+Net.\+Senti\+Word\+Net\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_abc30b25198ba64fc175edc1ea8527c6f}\label{classSentiWordNet_1_1SentiWordNet_abc30b25198ba64fc175edc1ea8527c6f}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_adf9afe840232428796fab71416664003}\label{classSentiWordNet_1_1SentiWordNet_adf9afe840232428796fab71416664003}} 
+def {\bfseries get\+Positivity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_aae8d99f225ca13ee057204a363188519}\label{classSentiWordNet_1_1SentiWordNet_aae8d99f225ca13ee057204a363188519}} 
+def {\bfseries get\+Negativity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a8e61125da0c47bb4d3e69ea301913f01}\label{classSentiWordNet_1_1SentiWordNet_a8e61125da0c47bb4d3e69ea301913f01}} 
+def {\bfseries get\+Objectivity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a18ba6b3983664e9d776b7f0a35155321}\label{classSentiWordNet_1_1SentiWordNet_a18ba6b3983664e9d776b7f0a35155321}} 
+def {\bfseries get\+Lemmas} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a2b4b829e75fe84b6e49d8d4bc336161f}\label{classSentiWordNet_1_1SentiWordNet_a2b4b829e75fe84b6e49d8d4bc336161f}} 
+{\bfseries lemmas}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_aa06580f934aa00e2c9fc25d55f1a6b9a}\label{classSentiWordNet_1_1SentiWordNet_aa06580f934aa00e2c9fc25d55f1a6b9a}} 
+{\bfseries pos}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_afd58beaaa4831369fedb9386e090de8e}\label{classSentiWordNet_1_1SentiWordNet_afd58beaaa4831369fedb9386e090de8e}} 
+{\bfseries neg}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a6b1c19d5c3d983c7c04b00487156022b}\label{classSentiWordNet_1_1SentiWordNet_a6b1c19d5c3d983c7c04b00487156022b}} 
+string {\bfseries filename} = \char`\"{}Senti\+Word\+Net\+\_\+1.\+0.\+1.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a46c35ae2d066d7f511a45e6b97d14446}\label{classSentiWordNet_1_1SentiWordNet_a46c35ae2d066d7f511a45e6b97d14446}} 
+{\bfseries fileobj} = open(filename)
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a9ef56dc77951383d0e292a1107751017}\label{classSentiWordNet_1_1SentiWordNet_a9ef56dc77951383d0e292a1107751017}} 
+{\bfseries filelines} = fileobj.\+readlines()
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a854a9bd7ae755b974fb5f746d0502b88}\label{classSentiWordNet_1_1SentiWordNet_a854a9bd7ae755b974fb5f746d0502b88}} 
+{\bfseries filelinetoks} = fileline.\+split(\textquotesingle{}\textbackslash{}t\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a661e96a95dd9de65adf36099031d2a0b}\label{classSentiWordNet_1_1SentiWordNet_a661e96a95dd9de65adf36099031d2a0b}} 
+{\bfseries positivity} = float(filelinetoks\mbox{[}2\mbox{]})
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_ac45112286950905c0255d4f8a32946b9}\label{classSentiWordNet_1_1SentiWordNet_ac45112286950905c0255d4f8a32946b9}} 
+{\bfseries negativity} = float(filelinetoks\mbox{[}3\mbox{]})
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a472620913459ff3ef193d33ddaa9ae2a}\label{classSentiWordNet_1_1SentiWordNet_a472620913459ff3ef193d33ddaa9ae2a}} 
+{\bfseries synset\+Lemmas} = nltk.\+word\+\_\+tokenize(filelinetoks\mbox{[}4\mbox{]})
+\item 
+\mbox{\Hypertarget{classSentiWordNet_1_1SentiWordNet_a50a109644f3e205140adc3aaf8d1ac55}\label{classSentiWordNet_1_1SentiWordNet_a50a109644f3e205140adc3aaf8d1ac55}} 
+{\bfseries lemma} = i
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/\+Interview\+Algorithm/\+TAC2010/Senti\+Word\+Net.\+py\end{DoxyCompactItemize}

@@ -1,0 +1,131 @@
+\hypertarget{structuvc__streaming}{}\doxysection{uvc\+\_\+streaming Struct Reference}
+\label{structuvc__streaming}\index{uvc\_streaming@{uvc\_streaming}}
+
+
+Collaboration diagram for uvc\+\_\+streaming\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structuvc__streaming_1_1uvc__clock}{uvc\+\_\+clock}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a38bd7e437ef6f5fe0a1e1f70a35851a4}\label{structuvc__streaming_a38bd7e437ef6f5fe0a1e1f70a35851a4}} 
+struct list\+\_\+head {\bfseries list}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a6eb67902010f1f17e96baded4491fd0f}\label{structuvc__streaming_a6eb67902010f1f17e96baded4491fd0f}} 
+struct \mbox{\hyperlink{structuvc__device}{uvc\+\_\+device}} $\ast$ {\bfseries dev}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_abbc4c783823a59e0a31a9a249a6d67eb}\label{structuvc__streaming_abbc4c783823a59e0a31a9a249a6d67eb}} 
+struct video\+\_\+device {\bfseries vdev}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_ab1f01ab7b7514d904d35daff5db11a80}\label{structuvc__streaming_ab1f01ab7b7514d904d35daff5db11a80}} 
+struct \mbox{\hyperlink{structuvc__video__chain}{uvc\+\_\+video\+\_\+chain}} $\ast$ {\bfseries chain}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a16391cbc352dd519b11b7087398d4a67}\label{structuvc__streaming_a16391cbc352dd519b11b7087398d4a67}} 
+atomic\+\_\+t {\bfseries active}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a40fce9cb3956cd84223a27ad7092c0d1}\label{structuvc__streaming_a40fce9cb3956cd84223a27ad7092c0d1}} 
+struct usb\+\_\+interface $\ast$ {\bfseries intf}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_ae6d66e6529ed4718a337099fe573c17f}\label{structuvc__streaming_ae6d66e6529ed4718a337099fe573c17f}} 
+int {\bfseries intfnum}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a4fedf07deae79cfe82b5c3320a7bb72f}\label{structuvc__streaming_a4fedf07deae79cfe82b5c3320a7bb72f}} 
+u16 {\bfseries maxpsize}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a178860f1844b283be705bd20c52e4494}\label{structuvc__streaming_a178860f1844b283be705bd20c52e4494}} 
+struct \mbox{\hyperlink{structuvc__streaming__header}{uvc\+\_\+streaming\+\_\+header}} {\bfseries header}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_af7910eece3d78b6a71610d80b8aef5f4}\label{structuvc__streaming_af7910eece3d78b6a71610d80b8aef5f4}} 
+enum v4l2\+\_\+buf\+\_\+type {\bfseries type}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a65bc6bcd3f487ab49665a539aca97cba}\label{structuvc__streaming_a65bc6bcd3f487ab49665a539aca97cba}} 
+unsigned int {\bfseries nformats}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a2c19c92758a99e0415d3f02312e8b79c}\label{structuvc__streaming_a2c19c92758a99e0415d3f02312e8b79c}} 
+struct \mbox{\hyperlink{structuvc__format}{uvc\+\_\+format}} $\ast$ {\bfseries format}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_addc2c99b0cd94833b814114f72e708ad}\label{structuvc__streaming_addc2c99b0cd94833b814114f72e708ad}} 
+struct uvc\+\_\+streaming\+\_\+control {\bfseries ctrl}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a36f27c687ccc0fc94902b6dce58a4a06}\label{structuvc__streaming_a36f27c687ccc0fc94902b6dce58a4a06}} 
+struct \mbox{\hyperlink{structuvc__format}{uvc\+\_\+format}} $\ast$ {\bfseries def\+\_\+format}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_afc7994260c101286127ad0a5c9b60cf8}\label{structuvc__streaming_afc7994260c101286127ad0a5c9b60cf8}} 
+struct \mbox{\hyperlink{structuvc__format}{uvc\+\_\+format}} $\ast$ {\bfseries cur\+\_\+format}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a1234ab527c72a38487c036447a5a4eb8}\label{structuvc__streaming_a1234ab527c72a38487c036447a5a4eb8}} 
+struct \mbox{\hyperlink{structuvc__frame}{uvc\+\_\+frame}} $\ast$ {\bfseries cur\+\_\+frame}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a36739eb931285bd2694e3e3a51977e5e}\label{structuvc__streaming_a36739eb931285bd2694e3e3a51977e5e}} 
+struct mutex {\bfseries mutex}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a95397d56b981fdbda244fd9d5f296e7c}\label{structuvc__streaming_a95397d56b981fdbda244fd9d5f296e7c}} 
+unsigned int {\bfseries frozen}\+: 1
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a97b18fb680c200b8f2de61d58aecb231}\label{structuvc__streaming_a97b18fb680c200b8f2de61d58aecb231}} 
+struct \mbox{\hyperlink{structuvc__video__queue}{uvc\+\_\+video\+\_\+queue}} {\bfseries queue}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a8d2a893a0f8015a08b1bc6b80ad21061}\label{structuvc__streaming_a8d2a893a0f8015a08b1bc6b80ad21061}} 
+struct workqueue\+\_\+struct $\ast$ {\bfseries async\+\_\+wq}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a157d1c5a281e1a34a86aa5a32ff20093}\label{structuvc__streaming_a157d1c5a281e1a34a86aa5a32ff20093}} 
+void($\ast$ {\bfseries decode} )(struct \mbox{\hyperlink{structuvc__urb}{uvc\+\_\+urb}} $\ast$\mbox{\hyperlink{structuvc__urb}{uvc\+\_\+urb}}, struct \mbox{\hyperlink{structuvc__buffer}{uvc\+\_\+buffer}} $\ast$buf, struct \mbox{\hyperlink{structuvc__buffer}{uvc\+\_\+buffer}} $\ast$meta\+\_\+buf)
+\item 
+\mbox{\Hypertarget{structuvc__streaming_af324f6d567f6ed129dfffd2841b160cb}\label{structuvc__streaming_af324f6d567f6ed129dfffd2841b160cb}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>struct video\_device {\bfseries vdev}\\
+\>struct \mbox{\hyperlink{structuvc__video__queue}{uvc\_video\_queue}} {\bfseries queue}\\
+\>u32 {\bfseries format}\\
+\} {\bfseries meta}\\
+
+\end{tabbing}\item 
+\mbox{\Hypertarget{structuvc__streaming_aafd733465840669046ceb6a611a99607}\label{structuvc__streaming_aafd733465840669046ceb6a611a99607}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>u8 {\bfseries header} \mbox{[}256\mbox{]}\\
+\>unsigned int {\bfseries header\_size}\\
+\>int {\bfseries skip\_payload}\\
+\>u32 {\bfseries payload\_size}\\
+\>u32 {\bfseries max\_payload\_size}\\
+\} {\bfseries bulk}\\
+
+\end{tabbing}\item 
+\mbox{\Hypertarget{structuvc__streaming_a9f1159b1a5683b98343f1c8b25e013fc}\label{structuvc__streaming_a9f1159b1a5683b98343f1c8b25e013fc}} 
+struct \mbox{\hyperlink{structuvc__urb}{uvc\+\_\+urb}} {\bfseries uvc\+\_\+urb} \mbox{[}UVC\+\_\+\+URBS\mbox{]}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a5c252ec3ad1b2daa560a4469a8f73713}\label{structuvc__streaming_a5c252ec3ad1b2daa560a4469a8f73713}} 
+unsigned int {\bfseries urb\+\_\+size}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a1b8e089510bab54cb49b865f01260d7a}\label{structuvc__streaming_a1b8e089510bab54cb49b865f01260d7a}} 
+u32 {\bfseries sequence}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_a5d575e967f9b04d181b2d8ff716b3a7c}\label{structuvc__streaming_a5d575e967f9b04d181b2d8ff716b3a7c}} 
+u8 {\bfseries last\+\_\+fid}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_afa5a4f62a5f19b356e5d094d26347607}\label{structuvc__streaming_afa5a4f62a5f19b356e5d094d26347607}} 
+struct dentry $\ast$ {\bfseries debugfs\+\_\+dir}
+\item 
+\mbox{\Hypertarget{structuvc__streaming_aedbdf8525281e1a932951c89445a3804}\label{structuvc__streaming_aedbdf8525281e1a932951c89445a3804}} 
+\begin{tabbing}
+xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=xx\=\kill
+struct \{\\
+\>struct \mbox{\hyperlink{structuvc__stats__frame}{uvc\_stats\_frame}} {\bfseries frame}\\
+\>struct \mbox{\hyperlink{structuvc__stats__stream}{uvc\_stats\_stream}} {\bfseries stream}\\
+\} {\bfseries stats}\\
+
+\end{tabbing}\item 
+\mbox{\Hypertarget{structuvc__streaming_afb7f87ab7ba7092ff1266bab829ba3a4}\label{structuvc__streaming_afb7f87ab7ba7092ff1266bab829ba3a4}} 
+struct \mbox{\hyperlink{structuvc__streaming_1_1uvc__clock}{uvc\+\_\+streaming\+::uvc\+\_\+clock}} {\bfseries clock}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/media/usb/uvc/uvcvideo.\+h\end{DoxyCompactItemize}

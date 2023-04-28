@@ -1,0 +1,66 @@
+\hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler}{}\doxysection{Neuron\+Rain\+\_\+\+REST\+\_\+\+Web\+Server.\+Neuron\+Rain\+\_\+\+REST\+\_\+\+Algorithms\+\_\+\+Handler Class Reference}
+\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler}\index{NeuronRain\_REST\_WebServer.NeuronRain\_REST\_Algorithms\_Handler@{NeuronRain\_REST\_WebServer.NeuronRain\_REST\_Algorithms\_Handler}}
+
+
+Inheritance diagram for Neuron\+Rain\+\_\+\+REST\+\_\+\+Web\+Server.\+Neuron\+Rain\+\_\+\+REST\+\_\+\+Algorithms\+\_\+\+Handler\+:
+% FIG 0
+
+
+Collaboration diagram for Neuron\+Rain\+\_\+\+REST\+\_\+\+Web\+Server.\+Neuron\+Rain\+\_\+\+REST\+\_\+\+Algorithms\+\_\+\+Handler\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3e232312e50f91fd2985285766565a3d}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3e232312e50f91fd2985285766565a3d}} 
+def {\bfseries get} (self)
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7697cbe029f147e9ba03e1a1e7a932f5}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7697cbe029f147e9ba03e1a1e7a932f5}} 
+def {\bfseries post} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7cd873392b75c1f1c49ab6124c1d2f88}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7cd873392b75c1f1c49ab6124c1d2f88}} 
+{\bfseries component} = self.\+get\+\_\+argument(\textquotesingle{}component\textquotesingle{},\textquotesingle{}\#As\+Fer\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_aacef4453e725266768e9833f2a80beb2}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_aacef4453e725266768e9833f2a80beb2}} 
+{\bfseries script} = self.\+get\+\_\+argument(\textquotesingle{}script\textquotesingle{},\textquotesingle{}\#../Word\+Net\+Search\+And\+Visualizer.\+py\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3602f8d5604c39d2ddde802040ae7117}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3602f8d5604c39d2ddde802040ae7117}} 
+{\bfseries arguments} = self.\+get\+\_\+argument(\textquotesingle{}arguments\textquotesingle{},\textquotesingle{}\#../Word\+Net\+Search\+And\+Visualizer-\/Data-\/Source.\+txt\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a853c4b2e4e40788bc814e403450de467}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a853c4b2e4e40788bc814e403450de467}} 
+list {\bfseries scriptlist} = \mbox{[}script\mbox{]}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a8459ffdb5cf1b39daad6b5c8f443ce2e}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a8459ffdb5cf1b39daad6b5c8f443ce2e}} 
+{\bfseries argumentslist} = arguments.\+split()
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3f448b15af5dfaf9aba0804f3c2b85f4}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3f448b15af5dfaf9aba0804f3c2b85f4}} 
+dictionary {\bfseries argumentsdict} = \{\}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a5edcf21e9e0a6dc3053bc69710dadb8b}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a5edcf21e9e0a6dc3053bc69710dadb8b}} 
+{\bfseries pipe} = subprocess.\+PIPE
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7825698835c90e512836532e788088df}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a7825698835c90e512836532e788088df}} 
+list {\bfseries popenargs} = \mbox{[}\char`\"{}python\char`\"{}, script ,arguments\mbox{]}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a70d3795be70a46bf59912c83d471e5c8}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a70d3795be70a46bf59912c83d471e5c8}} 
+dictionary {\bfseries kwargs} = \{\}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a6f825c6fba1b6266e9af65c68b6845e4}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a6f825c6fba1b6266e9af65c68b6845e4}} 
+{\bfseries process} = subprocess.\+Popen(popenargs, 3500, stdin=pipe, stdout=pipe)
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_aed1065b9f9d333e74962133fc9b7ea81}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_aed1065b9f9d333e74962133fc9b7ea81}} 
+{\bfseries output}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3e6770a97ed2763eae2fbe030d5a3640}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_a3e6770a97ed2763eae2fbe030d5a3640}} 
+{\bfseries errcode}
+\item 
+\mbox{\Hypertarget{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_ab2442e23ffe477d78be70ae23352d098}\label{classNeuronRain__REST__WebServer_1_1NeuronRain__REST__Algorithms__Handler_ab2442e23ffe477d78be70ae23352d098}} 
+{\bfseries retcode} = process.\+poll()
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/webserver\+\_\+rest\+\_\+ui/Neuron\+Rain\+\_\+\+REST\+\_\+\+Web\+Server.\+py\end{DoxyCompactItemize}

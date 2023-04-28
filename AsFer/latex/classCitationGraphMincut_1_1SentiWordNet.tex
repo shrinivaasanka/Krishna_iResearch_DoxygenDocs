@@ -1,0 +1,71 @@
+\hypertarget{classCitationGraphMincut_1_1SentiWordNet}{}\doxysection{Citation\+Graph\+Mincut.\+Senti\+Word\+Net Class Reference}
+\label{classCitationGraphMincut_1_1SentiWordNet}\index{CitationGraphMincut.SentiWordNet@{CitationGraphMincut.SentiWordNet}}
+
+
+Collaboration diagram for Citation\+Graph\+Mincut.\+Senti\+Word\+Net\+:
+% FIG 0
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_aa12304598859fe71bb0df707c4892861}\label{classCitationGraphMincut_1_1SentiWordNet_aa12304598859fe71bb0df707c4892861}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a94877e5639915e607de5fcd802938091}\label{classCitationGraphMincut_1_1SentiWordNet_a94877e5639915e607de5fcd802938091}} 
+def {\bfseries get\+Positivity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_ae3db1026d3abb3a1593f34b034277076}\label{classCitationGraphMincut_1_1SentiWordNet_ae3db1026d3abb3a1593f34b034277076}} 
+def {\bfseries get\+Negativity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a96158a659c9333ec9785da9256c17ae0}\label{classCitationGraphMincut_1_1SentiWordNet_a96158a659c9333ec9785da9256c17ae0}} 
+def {\bfseries get\+Objectivity} (self, lemma)
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_aae1b86649f12b33196e33e07c0ef5852}\label{classCitationGraphMincut_1_1SentiWordNet_aae1b86649f12b33196e33e07c0ef5852}} 
+def {\bfseries get\+Lemmas} (self)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_af7c31d1afeeb3809ec218bd57ad74137}\label{classCitationGraphMincut_1_1SentiWordNet_af7c31d1afeeb3809ec218bd57ad74137}} 
+{\bfseries lemmas}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a95e390bc871971fccc8d680a5f3691ff}\label{classCitationGraphMincut_1_1SentiWordNet_a95e390bc871971fccc8d680a5f3691ff}} 
+{\bfseries pos}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a0c6188c7e531ec00cde2583ab50f7dfc}\label{classCitationGraphMincut_1_1SentiWordNet_a0c6188c7e531ec00cde2583ab50f7dfc}} 
+{\bfseries neg}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a0045bf88a05a39eb508428b58a234e84}\label{classCitationGraphMincut_1_1SentiWordNet_a0045bf88a05a39eb508428b58a234e84}} 
+string {\bfseries filename} = \char`\"{}Senti\+Word\+Net\+\_\+1.\+0.\+1.\+txt\char`\"{}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a6b871cf15089fb8af0736bce948f69f7}\label{classCitationGraphMincut_1_1SentiWordNet_a6b871cf15089fb8af0736bce948f69f7}} 
+{\bfseries fileobj} = open(filename)
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_aef6d77ecec31fc164d3a230921efbf77}\label{classCitationGraphMincut_1_1SentiWordNet_aef6d77ecec31fc164d3a230921efbf77}} 
+{\bfseries filelines} = fileobj.\+readlines()
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_ad2f671b52c2351c1b668939f86be298f}\label{classCitationGraphMincut_1_1SentiWordNet_ad2f671b52c2351c1b668939f86be298f}} 
+{\bfseries filelinetoks} = fileline.\+split(\textquotesingle{}\textbackslash{}t\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a75d7925d507363847ae2ae42136d00c6}\label{classCitationGraphMincut_1_1SentiWordNet_a75d7925d507363847ae2ae42136d00c6}} 
+{\bfseries positivity} = float(filelinetoks\mbox{[}2\mbox{]})
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a4434b9660d1e8aa2b2d4ede2abb422de}\label{classCitationGraphMincut_1_1SentiWordNet_a4434b9660d1e8aa2b2d4ede2abb422de}} 
+{\bfseries negativity} = float(filelinetoks\mbox{[}3\mbox{]})
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a7fd8d29dc75b9ebb9743fce8d8e3892d}\label{classCitationGraphMincut_1_1SentiWordNet_a7fd8d29dc75b9ebb9743fce8d8e3892d}} 
+{\bfseries synset\+Lemmas} = nltk.\+word\+\_\+tokenize(filelinetoks\mbox{[}4\mbox{]})
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_aeb8181955d2d27d78b3c8c508381d004}\label{classCitationGraphMincut_1_1SentiWordNet_aeb8181955d2d27d78b3c8c508381d004}} 
+list {\bfseries lemmatoks} = \mbox{[}$\,$\mbox{]}
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a53d8b0f204f76503c9064344f90092f3}\label{classCitationGraphMincut_1_1SentiWordNet_a53d8b0f204f76503c9064344f90092f3}} 
+{\bfseries lemmatoks} = i.\+split(\textquotesingle{}\#\textquotesingle{})
+\item 
+\mbox{\Hypertarget{classCitationGraphMincut_1_1SentiWordNet_a1b6a5b95329533df4efa7f04bdbac25f}\label{classCitationGraphMincut_1_1SentiWordNet_a1b6a5b95329533df4efa7f04bdbac25f}} 
+list {\bfseries lemma} = lemmatoks\mbox{[}0\mbox{]}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/\+Interview\+Algorithm/\+TAC2010/Citation\+Graph\+Mincut.\+py\end{DoxyCompactItemize}

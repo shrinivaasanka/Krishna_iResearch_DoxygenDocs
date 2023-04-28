@@ -1,0 +1,37 @@
+\hypertarget{structpsxpad}{}\doxysection{psxpad Struct Reference}
+\label{structpsxpad}\index{psxpad@{psxpad}}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structpsxpad_aaa1c1e44054839efb1f12c1b4d74effc}\label{structpsxpad_aaa1c1e44054839efb1f12c1b4d74effc}} 
+struct spi\+\_\+device $\ast$ {\bfseries spi}
+\item 
+\mbox{\Hypertarget{structpsxpad_a256961f691029fb843a32c755932a87c}\label{structpsxpad_a256961f691029fb843a32c755932a87c}} 
+struct input\+\_\+polled\+\_\+dev $\ast$ {\bfseries pdev}
+\item 
+\mbox{\Hypertarget{structpsxpad_a15d05695ec32b1bad270939e3c3d00f1}\label{structpsxpad_a15d05695ec32b1bad270939e3c3d00f1}} 
+char {\bfseries phys} \mbox{[}0x20\mbox{]}
+\item 
+\mbox{\Hypertarget{structpsxpad_afcd4c9c841e210a669f2526ea5a3e5c1}\label{structpsxpad_afcd4c9c841e210a669f2526ea5a3e5c1}} 
+bool {\bfseries motor1enable}
+\item 
+\mbox{\Hypertarget{structpsxpad_a020302756a77ee3bbe18f4ad10084fa9}\label{structpsxpad_a020302756a77ee3bbe18f4ad10084fa9}} 
+bool {\bfseries motor2enable}
+\item 
+\mbox{\Hypertarget{structpsxpad_ad9c6308494ee44f7ae4a15aef5d8a767}\label{structpsxpad_ad9c6308494ee44f7ae4a15aef5d8a767}} 
+u8 {\bfseries motor1level}
+\item 
+\mbox{\Hypertarget{structpsxpad_a79367e934a2c776af075326ed7b13e04}\label{structpsxpad_a79367e934a2c776af075326ed7b13e04}} 
+u8 {\bfseries motor2level}
+\item 
+\mbox{\Hypertarget{structpsxpad_a6cb4ee345ef9be6eef9d3ec01e018ef4}\label{structpsxpad_a6cb4ee345ef9be6eef9d3ec01e018ef4}} 
+u8 sendbuf\mbox{[}0x20\mbox{]} {\bfseries \+\_\+\+\_\+\+\_\+\+\_\+cacheline\+\_\+aligned}
+\item 
+\mbox{\Hypertarget{structpsxpad_a96ba2d6b3ce457b651bd014897497101}\label{structpsxpad_a96ba2d6b3ce457b651bd014897497101}} 
+u8 response\mbox{[}sizeof(PSX\+\_\+\+CMD\+\_\+\+POLL)\mbox{]} {\bfseries \+\_\+\+\_\+\+\_\+\+\_\+cacheline\+\_\+aligned}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/input/joystick/psxpad-\/spi.\+c\end{DoxyCompactItemize}

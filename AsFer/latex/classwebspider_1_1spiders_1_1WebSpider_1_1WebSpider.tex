@@ -1,0 +1,66 @@
+\hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider}{}\doxysection{webspider.\+spiders.\+Web\+Spider.\+Web\+Spider Class Reference}
+\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider}\index{webspider.spiders.WebSpider.WebSpider@{webspider.spiders.WebSpider.WebSpider}}
+
+
+Inheritance diagram for webspider.\+spiders.\+Web\+Spider.\+Web\+Spider\+:
+% FIG 0
+
+
+Collaboration diagram for webspider.\+spiders.\+Web\+Spider.\+Web\+Spider\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_aa75a56b5ecdd46f0b7c42a559aeaea37}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_aa75a56b5ecdd46f0b7c42a559aeaea37}} 
+def {\bfseries parse\+\_\+items} (self, response)
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a74e4e14c15d794649428dec059df73e0}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a74e4e14c15d794649428dec059df73e0}} 
+def {\bfseries parse} (self, response)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_ab8fccbe3a9c1267bbfe5cfbcbef9081e}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_ab8fccbe3a9c1267bbfe5cfbcbef9081e}} 
+{\bfseries crawling}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a5647555a1d3788bc3975abf20cee2adc}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a5647555a1d3788bc3975abf20cee2adc}} 
+string {\bfseries name} = \char`\"{}webspider\char`\"{}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_ae7f5758e61ece7417e352865caaa6640}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_ae7f5758e61ece7417e352865caaa6640}} 
+string {\bfseries crawling} = \char`\"{}HTML\char`\"{}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a6410e4b386965eb8f5f2ce95d6e194a0}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a6410e4b386965eb8f5f2ce95d6e194a0}} 
+string {\bfseries allowed\+\_\+domains} = \char`\"{}www.\+google.\+com\char`\"{}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a95ae1fbc917b72b252a994ad9a4e699b}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a95ae1fbc917b72b252a994ad9a4e699b}} 
+list {\bfseries start\+\_\+urls} = \mbox{[}\textquotesingle{}https\+://www.\+google.\+co.\+in/search?q=Chennai+metropolitan+area+expansion\&oq=Chennai+metropolitan+area+expansion\&aqs=chrome..\+69i57.\+12903j0j8\&sourceid=chrome\&es\+\_\+sm=93\&ie=UTF-\/8\textquotesingle{}\mbox{]}
+\item 
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a48e11306f5a5496f08a167d860e0d2a5}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_a48e11306f5a5496f08a167d860e0d2a5}} 
+{\bfseries output} = open(\char`\"{}Web\+Spider-\/\char`\"{}+crawling+\char`\"{}.out\char`\"{},\char`\"{}w\char`\"{})
+\item 
+tuple {\bfseries rules}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_afcef12b64f30a49fc835101c1ba442df}\label{classwebspider_1_1spiders_1_1WebSpider_1_1WebSpider_afcef12b64f30a49fc835101c1ba442df}} 
+\index{webspider.spiders.WebSpider.WebSpider@{webspider.spiders.WebSpider.WebSpider}!rules@{rules}}
+\index{rules@{rules}!webspider.spiders.WebSpider.WebSpider@{webspider.spiders.WebSpider.WebSpider}}
+\doxysubsubsection{\texorpdfstring{rules}{rules}}
+{\footnotesize\ttfamily tuple webspider.\+spiders.\+Web\+Spider.\+Web\+Spider.\+rules\hspace{0.3cm}{\ttfamily [static]}}
+
+{\bfseries Initial value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{=  (}
+\DoxyCodeLine{        Rule(LinkExtractor(allow=(), restrict\_xpaths=(\textcolor{stringliteral}{'a/@href'},)), callback=\textcolor{stringliteral}{"{}parse\_items"{}}, follow= \textcolor{keyword}{True}),}
+\DoxyCodeLine{        )}
+
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/webspider/webspider/spiders/Web\+Spider.\+py\end{DoxyCompactItemize}

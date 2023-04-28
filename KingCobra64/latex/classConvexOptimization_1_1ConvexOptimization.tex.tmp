@@ -1,0 +1,21 @@
+\hypertarget{classConvexOptimization_1_1ConvexOptimization}{}\doxysection{Convex\+Optimization.\+Convex\+Optimization Class Reference}
+\label{classConvexOptimization_1_1ConvexOptimization}\index{ConvexOptimization.ConvexOptimization@{ConvexOptimization.ConvexOptimization}}
+
+
+Inheritance diagram for Convex\+Optimization.\+Convex\+Optimization\+:
+% FIG 0
+
+
+Collaboration diagram for Convex\+Optimization.\+Convex\+Optimization\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classConvexOptimization_1_1ConvexOptimization_ae9b190fc56b75cea9168c6aeefb4537c}\label{classConvexOptimization_1_1ConvexOptimization_ae9b190fc56b75cea9168c6aeefb4537c}} 
+def {\bfseries eisenberg\+\_\+gale\+\_\+convex\+\_\+program} (self, no\+\_\+of\+\_\+goods, no\+\_\+of\+\_\+buyers)
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/equilibrium/Convex\+Optimization.\+py\end{DoxyCompactItemize}

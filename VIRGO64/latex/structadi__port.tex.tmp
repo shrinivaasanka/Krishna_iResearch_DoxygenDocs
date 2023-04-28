@@ -1,0 +1,26 @@
+\hypertarget{structadi__port}{}\doxysection{adi\+\_\+port Struct Reference}
+\label{structadi__port}\index{adi\_port@{adi\_port}}
+
+
+Collaboration diagram for adi\+\_\+port\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structadi__port_aa141c06722ae3a4175a29f16421cbbbf}\label{structadi__port_aa141c06722ae3a4175a29f16421cbbbf}} 
+struct gameport $\ast$ {\bfseries gameport}
+\item 
+\mbox{\Hypertarget{structadi__port_a7623e38c414d99ff590afbf7d822288e}\label{structadi__port_a7623e38c414d99ff590afbf7d822288e}} 
+struct \mbox{\hyperlink{structadi}{adi}} {\bfseries adi} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{structadi__port_a81dd19676da52da5deb3567b0dd1df92}\label{structadi__port_a81dd19676da52da5deb3567b0dd1df92}} 
+int {\bfseries bad}
+\item 
+\mbox{\Hypertarget{structadi__port_a4ccc53c3f7b371d8fa39bc1108e6b6b1}\label{structadi__port_a4ccc53c3f7b371d8fa39bc1108e6b6b1}} 
+int {\bfseries reads}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/input/joystick/adi.\+c\end{DoxyCompactItemize}

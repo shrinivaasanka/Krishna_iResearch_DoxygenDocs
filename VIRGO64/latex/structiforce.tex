@@ -1,0 +1,59 @@
+\hypertarget{structiforce}{}\doxysection{iforce Struct Reference}
+\label{structiforce}\index{iforce@{iforce}}
+
+
+Collaboration diagram for iforce\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structiforce_a1e6ceab5b1869ee6db0989fc43307da9}\label{structiforce_a1e6ceab5b1869ee6db0989fc43307da9}} 
+struct input\+\_\+dev $\ast$ {\bfseries dev}
+\item 
+\mbox{\Hypertarget{structiforce_af37bc7af2fa41483c1a303f5ba0629f3}\label{structiforce_af37bc7af2fa41483c1a303f5ba0629f3}} 
+struct \mbox{\hyperlink{structiforce__device}{iforce\+\_\+device}} $\ast$ {\bfseries type}
+\item 
+\mbox{\Hypertarget{structiforce_ac4b807de4781deaf49219e187b7039ee}\label{structiforce_ac4b807de4781deaf49219e187b7039ee}} 
+int {\bfseries bus}
+\item 
+\mbox{\Hypertarget{structiforce_af0f773e773c981d7757ec2982759f413}\label{structiforce_af0f773e773c981d7757ec2982759f413}} 
+unsigned char {\bfseries data} \mbox{[}IFORCE\+\_\+\+MAX\+\_\+\+LENGTH\mbox{]}
+\item 
+\mbox{\Hypertarget{structiforce_a71191421a6d7656281afc23eff512372}\label{structiforce_a71191421a6d7656281afc23eff512372}} 
+unsigned char {\bfseries edata} \mbox{[}IFORCE\+\_\+\+MAX\+\_\+\+LENGTH\mbox{]}
+\item 
+\mbox{\Hypertarget{structiforce_a289e7fc01ce465dd578f13f0c3184f4c}\label{structiforce_a289e7fc01ce465dd578f13f0c3184f4c}} 
+u16 {\bfseries ecmd}
+\item 
+\mbox{\Hypertarget{structiforce_a40f4532747c0e1d94d947cc3e3e49910}\label{structiforce_a40f4532747c0e1d94d947cc3e3e49910}} 
+u16 {\bfseries expect\+\_\+packet}
+\item 
+\mbox{\Hypertarget{structiforce_ac6e55a210b714bcdbb8439b5e87da3e2}\label{structiforce_ac6e55a210b714bcdbb8439b5e87da3e2}} 
+spinlock\+\_\+t {\bfseries xmit\+\_\+lock}
+\item 
+\mbox{\Hypertarget{structiforce_a8655fe007a85325b1224e36a23e9e868}\label{structiforce_a8655fe007a85325b1224e36a23e9e868}} 
+struct circ\+\_\+buf {\bfseries xmit}
+\item 
+\mbox{\Hypertarget{structiforce_a89d64435f01a844fc088d639ae7579f1}\label{structiforce_a89d64435f01a844fc088d639ae7579f1}} 
+unsigned char {\bfseries xmit\+\_\+data} \mbox{[}XMIT\+\_\+\+SIZE\mbox{]}
+\item 
+\mbox{\Hypertarget{structiforce_aee1c646980ecaf040a75ca50d69d32d4}\label{structiforce_aee1c646980ecaf040a75ca50d69d32d4}} 
+unsigned long {\bfseries xmit\+\_\+flags} \mbox{[}1\mbox{]}
+\item 
+\mbox{\Hypertarget{structiforce_a2343235e4f47847a94cf6953a28afb01}\label{structiforce_a2343235e4f47847a94cf6953a28afb01}} 
+wait\+\_\+queue\+\_\+head\+\_\+t {\bfseries wait}
+\item 
+\mbox{\Hypertarget{structiforce_a5824556595e8c9a9ebff5f0ef156db78}\label{structiforce_a5824556595e8c9a9ebff5f0ef156db78}} 
+struct resource {\bfseries device\+\_\+memory}
+\item 
+\mbox{\Hypertarget{structiforce_a58a1283a179336ab05f3c24f10dc6558}\label{structiforce_a58a1283a179336ab05f3c24f10dc6558}} 
+struct \mbox{\hyperlink{structiforce__core__effect}{iforce\+\_\+core\+\_\+effect}} {\bfseries core\+\_\+effects} \mbox{[}IFORCE\+\_\+\+EFFECTS\+\_\+\+MAX\mbox{]}
+\item 
+\mbox{\Hypertarget{structiforce_a6e492fe6155726e22c8680f54a14f167}\label{structiforce_a6e492fe6155726e22c8680f54a14f167}} 
+struct mutex {\bfseries mem\+\_\+mutex}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/input/joystick/iforce/iforce.\+h\end{DoxyCompactItemize}

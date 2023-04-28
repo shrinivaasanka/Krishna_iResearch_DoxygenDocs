@@ -1,0 +1,131 @@
+\hypertarget{structusb__serial__port}{}\doxysection{usb\+\_\+serial\+\_\+port Struct Reference}
+\label{structusb__serial__port}\index{usb\_serial\_port@{usb\_serial\_port}}
+
+
+{\ttfamily \#include $<$serial.\+h$>$}
+
+
+
+Collaboration diagram for usb\+\_\+serial\+\_\+port\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a84fb1bea536b3e5c91fc33c93cb8f791}\label{structusb__serial__port_a84fb1bea536b3e5c91fc33c93cb8f791}} 
+struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$ {\bfseries serial}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ad7f109b4f8dc5e2bca9144c5bcd169da}\label{structusb__serial__port_ad7f109b4f8dc5e2bca9144c5bcd169da}} 
+struct tty\+\_\+port {\bfseries port}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a6d1eedea6553f26d2db91c819dd4a777}\label{structusb__serial__port_a6d1eedea6553f26d2db91c819dd4a777}} 
+spinlock\+\_\+t {\bfseries lock}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a18160c62484406eeab05c800f450ecf3}\label{structusb__serial__port_a18160c62484406eeab05c800f450ecf3}} 
+u32 {\bfseries minor}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a70e33b69a2fc7ca1657fd3ed34cb6c53}\label{structusb__serial__port_a70e33b69a2fc7ca1657fd3ed34cb6c53}} 
+u8 {\bfseries port\+\_\+number}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a2eea008907393d7650eeb1d45789f713}\label{structusb__serial__port_a2eea008907393d7650eeb1d45789f713}} 
+unsigned char $\ast$ {\bfseries interrupt\+\_\+in\+\_\+buffer}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a256bec4e88cc26ea42d1e8cd12855019}\label{structusb__serial__port_a256bec4e88cc26ea42d1e8cd12855019}} 
+struct urb $\ast$ {\bfseries interrupt\+\_\+in\+\_\+urb}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_aa20c7a8411c481795e2c5f282bafa936}\label{structusb__serial__port_aa20c7a8411c481795e2c5f282bafa936}} 
+\+\_\+\+\_\+u8 {\bfseries interrupt\+\_\+in\+\_\+endpoint\+Address}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ae689f8443274f0f7e043499e2967c33d}\label{structusb__serial__port_ae689f8443274f0f7e043499e2967c33d}} 
+unsigned char $\ast$ {\bfseries interrupt\+\_\+out\+\_\+buffer}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ad09cdc37eb0db576403a98830f5735d5}\label{structusb__serial__port_ad09cdc37eb0db576403a98830f5735d5}} 
+int {\bfseries interrupt\+\_\+out\+\_\+size}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a572da56b390fc873a760f22f94b94bf6}\label{structusb__serial__port_a572da56b390fc873a760f22f94b94bf6}} 
+struct urb $\ast$ {\bfseries interrupt\+\_\+out\+\_\+urb}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ab2a47c5aad1c8168201f47d285a4c227}\label{structusb__serial__port_ab2a47c5aad1c8168201f47d285a4c227}} 
+\+\_\+\+\_\+u8 {\bfseries interrupt\+\_\+out\+\_\+endpoint\+Address}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a6ff516588dcc4e598e8817f086c153f4}\label{structusb__serial__port_a6ff516588dcc4e598e8817f086c153f4}} 
+unsigned char $\ast$ {\bfseries bulk\+\_\+in\+\_\+buffer}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a7bf538622d504a2e848a15db89700b2b}\label{structusb__serial__port_a7bf538622d504a2e848a15db89700b2b}} 
+int {\bfseries bulk\+\_\+in\+\_\+size}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a7b29b73210ec27421c5834a71bbb3d3b}\label{structusb__serial__port_a7b29b73210ec27421c5834a71bbb3d3b}} 
+struct urb $\ast$ {\bfseries read\+\_\+urb}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ae30af16f4f89df2adbd63615996d6873}\label{structusb__serial__port_ae30af16f4f89df2adbd63615996d6873}} 
+\+\_\+\+\_\+u8 {\bfseries bulk\+\_\+in\+\_\+endpoint\+Address}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ae3f20ae58dd3ed73cd2c4fc54823d552}\label{structusb__serial__port_ae3f20ae58dd3ed73cd2c4fc54823d552}} 
+unsigned char $\ast$ {\bfseries bulk\+\_\+in\+\_\+buffers} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a5cbd154e3f7f577d0bcee0a3705e9439}\label{structusb__serial__port_a5cbd154e3f7f577d0bcee0a3705e9439}} 
+struct urb $\ast$ {\bfseries read\+\_\+urbs} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a08e67b4fb82c68e63ae3abf63b0618dc}\label{structusb__serial__port_a08e67b4fb82c68e63ae3abf63b0618dc}} 
+unsigned long {\bfseries read\+\_\+urbs\+\_\+free}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_afc74e04db218fa882b715a63c5fea9aa}\label{structusb__serial__port_afc74e04db218fa882b715a63c5fea9aa}} 
+unsigned char $\ast$ {\bfseries bulk\+\_\+out\+\_\+buffer}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ac17f8232354a8cc0136ef8bc531732ca}\label{structusb__serial__port_ac17f8232354a8cc0136ef8bc531732ca}} 
+int {\bfseries bulk\+\_\+out\+\_\+size}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a5a76b588f0c7f976e6e8b3f238f3c71e}\label{structusb__serial__port_a5a76b588f0c7f976e6e8b3f238f3c71e}} 
+struct urb $\ast$ {\bfseries write\+\_\+urb}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a9e7e996e7982626c96edac63824e75cb}\label{structusb__serial__port_a9e7e996e7982626c96edac63824e75cb}} 
+struct kfifo {\bfseries write\+\_\+fifo}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a1a870d052017c3b6ab8f09d2a52dc5a2}\label{structusb__serial__port_a1a870d052017c3b6ab8f09d2a52dc5a2}} 
+unsigned char $\ast$ {\bfseries bulk\+\_\+out\+\_\+buffers} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_abb07ae8d7b148b4f7f979c553eb55dba}\label{structusb__serial__port_abb07ae8d7b148b4f7f979c553eb55dba}} 
+struct urb $\ast$ {\bfseries write\+\_\+urbs} \mbox{[}2\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ab42d7ab132a2beb63d602fd95675ecc3}\label{structusb__serial__port_ab42d7ab132a2beb63d602fd95675ecc3}} 
+unsigned long {\bfseries write\+\_\+urbs\+\_\+free}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a85875e4a63400996cd0fda821eaca872}\label{structusb__serial__port_a85875e4a63400996cd0fda821eaca872}} 
+\+\_\+\+\_\+u8 {\bfseries bulk\+\_\+out\+\_\+endpoint\+Address}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_afd6fd97f6e635ed047c774870a398a0c}\label{structusb__serial__port_afd6fd97f6e635ed047c774870a398a0c}} 
+struct async\+\_\+icount {\bfseries icount}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_afb85dfe8835c6b74c0974747d7d2c68c}\label{structusb__serial__port_afb85dfe8835c6b74c0974747d7d2c68c}} 
+int {\bfseries tx\+\_\+bytes}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a5e3ed81cc4f9448ab2a170c5f8dfbbc3}\label{structusb__serial__port_a5e3ed81cc4f9448ab2a170c5f8dfbbc3}} 
+unsigned long {\bfseries flags}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ac3acdd84a4ae43d2adf0b65a6940cc04}\label{structusb__serial__port_ac3acdd84a4ae43d2adf0b65a6940cc04}} 
+wait\+\_\+queue\+\_\+head\+\_\+t {\bfseries write\+\_\+wait}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ac30bd33ab18fc597091fe1ff994f572b}\label{structusb__serial__port_ac30bd33ab18fc597091fe1ff994f572b}} 
+struct work\+\_\+struct {\bfseries work}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ac571ec10d5921af5031e6ba5c3f0f086}\label{structusb__serial__port_ac571ec10d5921af5031e6ba5c3f0f086}} 
+char {\bfseries throttled}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a7790f5fef5157ac39bf96bcba6ad4197}\label{structusb__serial__port_a7790f5fef5157ac39bf96bcba6ad4197}} 
+char {\bfseries throttle\+\_\+req}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_ac9d704caf18bec455da03277f7446d37}\label{structusb__serial__port_ac9d704caf18bec455da03277f7446d37}} 
+unsigned long {\bfseries sysrq}
+\item 
+\mbox{\Hypertarget{structusb__serial__port_a2451f9d23463740de2cbd73032c81340}\label{structusb__serial__port_a2451f9d23463740de2cbd73032c81340}} 
+struct device {\bfseries dev}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}}\+: structure for the specific ports of a device. @serial\+: pointer back to the struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} owner of this port. @port\+: pointer to the corresponding tty\+\_\+port for this port. @lock\+: spinlock to grab when updating portions of this structure. @minor\+: the minor number of the port @port\+\_\+number\+: the struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} port number of this port (starts at 0) @interrupt\+\_\+in\+\_\+buffer\+: pointer to the interrupt in buffer for this port. @interrupt\+\_\+in\+\_\+urb\+: pointer to the interrupt in struct urb for this port. @interrupt\+\_\+in\+\_\+endpoint\+Address\+: endpoint address for the interrupt in pipe for this port. @interrupt\+\_\+out\+\_\+buffer\+: pointer to the interrupt out buffer for this port. @interrupt\+\_\+out\+\_\+size\+: the size of the interrupt\+\_\+out\+\_\+buffer, in bytes. @interrupt\+\_\+out\+\_\+urb\+: pointer to the interrupt out struct urb for this port. @interrupt\+\_\+out\+\_\+endpoint\+Address\+: endpoint address for the interrupt out pipe for this port. @bulk\+\_\+in\+\_\+buffer\+: pointer to the bulk in buffer for this port. @bulk\+\_\+in\+\_\+size\+: the size of the bulk\+\_\+in\+\_\+buffer, in bytes. @read\+\_\+urb\+: pointer to the bulk in struct urb for this port. @bulk\+\_\+in\+\_\+endpoint\+Address\+: endpoint address for the bulk in pipe for this port. @bulk\+\_\+in\+\_\+buffers\+: pointers to the bulk in buffers for this port @read\+\_\+urbs\+: pointers to the bulk in urbs for this port @read\+\_\+urbs\+\_\+free\+: status bitmap the for bulk in urbs @bulk\+\_\+out\+\_\+buffer\+: pointer to the bulk out buffer for this port. @bulk\+\_\+out\+\_\+size\+: the size of the bulk\+\_\+out\+\_\+buffer, in bytes. @write\+\_\+urb\+: pointer to the bulk out struct urb for this port. @write\+\_\+fifo\+: kfifo used to buffer outgoing data @bulk\+\_\+out\+\_\+buffers\+: pointers to the bulk out buffers for this port @write\+\_\+urbs\+: pointers to the bulk out urbs for this port @write\+\_\+urbs\+\_\+free\+: status bitmap the for bulk out urbs @icount\+: interrupt counters @tx\+\_\+bytes\+: number of bytes currently in host stack queues @bulk\+\_\+out\+\_\+endpoint\+Address\+: endpoint address for the bulk out pipe for this port. @flags\+: usb serial port flags @write\+\_\+wait\+: a wait\+\_\+queue\+\_\+head\+\_\+t used by the port. @work\+: work queue entry for the line discipline waking up. @throttled\+: nonzero if the read urb is inactive to throttle the device @throttle\+\_\+req\+: nonzero if the tty wants to throttle us @dev\+: pointer to the serial device
+
+This structure is used by the usb-\/serial core and drivers for the specific ports of a device. 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+usb\+\_\+wwan\+\_\+modified/include/linux/usb/serial.\+h\end{DoxyCompactItemize}

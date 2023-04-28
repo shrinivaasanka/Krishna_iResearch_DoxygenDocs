@@ -1,0 +1,65 @@
+\hypertarget{structusb__serial}{}\doxysection{usb\+\_\+serial Struct Reference}
+\label{structusb__serial}\index{usb\_serial@{usb\_serial}}
+
+
+Collaboration diagram for usb\+\_\+serial\+:
+% FIG 0
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structusb__serial_a8f5fdfe95cb98c21d5801924779abbb1}\label{structusb__serial_a8f5fdfe95cb98c21d5801924779abbb1}} 
+struct usb\+\_\+device $\ast$ {\bfseries dev}
+\item 
+\mbox{\Hypertarget{structusb__serial_adb256dbc30f85e18f4646c1f509e4477}\label{structusb__serial_adb256dbc30f85e18f4646c1f509e4477}} 
+struct \mbox{\hyperlink{structusb__serial__driver}{usb\+\_\+serial\+\_\+driver}} $\ast$ {\bfseries type}
+\item 
+\mbox{\Hypertarget{structusb__serial_a7e34a5a2d5053251aacf3700f3065fec}\label{structusb__serial_a7e34a5a2d5053251aacf3700f3065fec}} 
+struct usb\+\_\+interface $\ast$ {\bfseries interface}
+\item 
+\mbox{\Hypertarget{structusb__serial_ac9632ad258bddb6d0ffa5fe83dbec8cf}\label{structusb__serial_ac9632ad258bddb6d0ffa5fe83dbec8cf}} 
+unsigned char {\bfseries disconnected}\+:1
+\item 
+\mbox{\Hypertarget{structusb__serial_abefe91ca86b058a8ca008f1d6a8ff058}\label{structusb__serial_abefe91ca86b058a8ca008f1d6a8ff058}} 
+unsigned char {\bfseries suspending}\+:1
+\item 
+\mbox{\Hypertarget{structusb__serial_abab004964cfa02ee82f6bb53aceeb203}\label{structusb__serial_abab004964cfa02ee82f6bb53aceeb203}} 
+unsigned char {\bfseries attached}\+:1
+\item 
+\mbox{\Hypertarget{structusb__serial_ae3469883d7d070f7a1e6b5bfbce9adc9}\label{structusb__serial_ae3469883d7d070f7a1e6b5bfbce9adc9}} 
+unsigned char {\bfseries minors\+\_\+reserved}\+:1
+\item 
+\mbox{\Hypertarget{structusb__serial_a00a86fb7d45ffe36fc609295ec68940d}\label{structusb__serial_a00a86fb7d45ffe36fc609295ec68940d}} 
+unsigned char {\bfseries num\+\_\+ports}
+\item 
+\mbox{\Hypertarget{structusb__serial_adf24bea9e55399d387e91403e2bd5dd8}\label{structusb__serial_adf24bea9e55399d387e91403e2bd5dd8}} 
+unsigned char {\bfseries num\+\_\+port\+\_\+pointers}
+\item 
+\mbox{\Hypertarget{structusb__serial_ad1b604271af5a17313b6911df4217e46}\label{structusb__serial_ad1b604271af5a17313b6911df4217e46}} 
+char {\bfseries num\+\_\+interrupt\+\_\+in}
+\item 
+\mbox{\Hypertarget{structusb__serial_a6c43097423d490f627ac006ab29c3949}\label{structusb__serial_a6c43097423d490f627ac006ab29c3949}} 
+char {\bfseries num\+\_\+interrupt\+\_\+out}
+\item 
+\mbox{\Hypertarget{structusb__serial_a7d3be995e9e204146a5134125f2194d1}\label{structusb__serial_a7d3be995e9e204146a5134125f2194d1}} 
+char {\bfseries num\+\_\+bulk\+\_\+in}
+\item 
+\mbox{\Hypertarget{structusb__serial_a3ed4a0abdecc2a19d231313344d43340}\label{structusb__serial_a3ed4a0abdecc2a19d231313344d43340}} 
+char {\bfseries num\+\_\+bulk\+\_\+out}
+\item 
+\mbox{\Hypertarget{structusb__serial_aca8d678f52512e9a7311a1aa26a91597}\label{structusb__serial_aca8d678f52512e9a7311a1aa26a91597}} 
+struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$ {\bfseries port} \mbox{[}MAX\+\_\+\+NUM\+\_\+\+PORTS\mbox{]}
+\item 
+\mbox{\Hypertarget{structusb__serial_ae0c8d7b5e3687777158ee305ece2ea44}\label{structusb__serial_ae0c8d7b5e3687777158ee305ece2ea44}} 
+struct kref {\bfseries kref}
+\item 
+\mbox{\Hypertarget{structusb__serial_a8893a7d43cc06b55c9a3b95497671759}\label{structusb__serial_a8893a7d43cc06b55c9a3b95497671759}} 
+struct mutex {\bfseries disc\+\_\+mutex}
+\item 
+\mbox{\Hypertarget{structusb__serial_a58061b891334afa5896e54be07ab4d49}\label{structusb__serial_a58061b891334afa5896e54be07ab4d49}} 
+void $\ast$ {\bfseries private}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+usb\+\_\+wwan\+\_\+modified/include/linux/usb/serial.\+h\end{DoxyCompactItemize}

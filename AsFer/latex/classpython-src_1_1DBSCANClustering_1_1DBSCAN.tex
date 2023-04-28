@@ -1,0 +1,69 @@
+\hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN}{}\doxysection{python-\/src.DBSCANClustering.\+DBSCAN Class Reference}
+\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN}\index{python-\/src.DBSCANClustering.DBSCAN@{python-\/src.DBSCANClustering.DBSCAN}}
+
+
+Inheritance diagram for python-\/src.DBSCANClustering.\+DBSCAN\+:
+% FIG 0
+
+
+Collaboration diagram for python-\/src.DBSCANClustering.\+DBSCAN\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a39dd27a02b76e241433b686652caefa4}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a39dd27a02b76e241433b686652caefa4}} 
+def {\bfseries \+\_\+\+\_\+init\+\_\+\+\_\+} (self, imagefile, threshold=255, epsilon=5, minpoints=100, fraction=1)
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_aba4b50f0f695a10280f64661ba57d0d2}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_aba4b50f0f695a10280f64661ba57d0d2}} 
+def {\bfseries find\+\_\+neighbours} (self, img, row, col, threshold, epsilon, minpoints, neuralnetwork=False, thresholdfunction=\char`\"{}lambda x\+: x\char`\"{})
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a4bd9c2a6899086de5ce925fc50da141c}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a4bd9c2a6899086de5ce925fc50da141c}} 
+def {\bfseries clustering} (self, maxclusters=100000, neuralnetwork=False)
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a546239ce04abbce943e5a7b0896543a5}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a546239ce04abbce943e5a7b0896543a5}} 
+def {\bfseries write\+\_\+clustered\+\_\+image} (self, neuralnetwork=False, fraction=1)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a5fdf58173434880557bba60c662aca32}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a5fdf58173434880557bba60c662aca32}} 
+{\bfseries imagefile}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_acab53467e81411cbff25c967443e3434}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_acab53467e81411cbff25c967443e3434}} 
+{\bfseries img}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_acdaf1d7d144faa150f7c631d9feaa7a8}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_acdaf1d7d144faa150f7c631d9feaa7a8}} 
+{\bfseries imagerowslice}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a2ed23752b8bf68217523ede3f08055c1}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a2ed23752b8bf68217523ede3f08055c1}} 
+{\bfseries imagecolslice}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a668bb3a75a404899cff51c9d58ad2a6c}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a668bb3a75a404899cff51c9d58ad2a6c}} 
+{\bfseries threshold}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ace7b5ce16632c12cc8a8813667d8b036}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ace7b5ce16632c12cc8a8813667d8b036}} 
+{\bfseries epsilon}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a3e2b3d6aa81f8bf46fa93e325dd387aa}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a3e2b3d6aa81f8bf46fa93e325dd387aa}} 
+{\bfseries minpoints}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_af2171d2b1c0cdc8a5a50dca755cdf2ab}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_af2171d2b1c0cdc8a5a50dca755cdf2ab}} 
+{\bfseries dbscandict}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ac522e29d2fa9f59c19e7c3ffc97420c6}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ac522e29d2fa9f59c19e7c3ffc97420c6}} 
+{\bfseries clusterdict}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a40f3eff8800b2ad27fbe8bbefaa9b745}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a40f3eff8800b2ad27fbe8bbefaa9b745}} 
+{\bfseries noise}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ad7eb0f69f72499d78013f855b0789211}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_ad7eb0f69f72499d78013f855b0789211}} 
+{\bfseries undefined}
+\item 
+\mbox{\Hypertarget{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a890f16c538de10fb49a3168ca9b60eef}\label{classpython-src_1_1DBSCANClustering_1_1DBSCAN_a890f16c538de10fb49a3168ca9b60eef}} 
+{\bfseries clusterlabel}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+python-\/src/DBSCANClustering.\+py\end{DoxyCompactItemize}

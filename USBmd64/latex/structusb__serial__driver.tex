@@ -1,0 +1,153 @@
+\hypertarget{structusb__serial__driver}{}\doxysection{usb\+\_\+serial\+\_\+driver Struct Reference}
+\label{structusb__serial__driver}\index{usb\_serial\_driver@{usb\_serial\_driver}}
+
+
+{\ttfamily \#include $<$serial.\+h$>$}
+
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a77e2dc5c2749b1479f6a89b1d3cb7d6c}\label{structusb__serial__driver_a77e2dc5c2749b1479f6a89b1d3cb7d6c}} 
+const char $\ast$ {\bfseries description}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_adc2bee625c1aa592937f0d2888ce2cde}\label{structusb__serial__driver_adc2bee625c1aa592937f0d2888ce2cde}} 
+const struct usb\+\_\+device\+\_\+id $\ast$ {\bfseries id\+\_\+table}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_aa680b4af821ed74d0a10a811f7e6cc02}\label{structusb__serial__driver_aa680b4af821ed74d0a10a811f7e6cc02}} 
+char {\bfseries num\+\_\+ports}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a127cbd33c97922677611accf90cb5016}\label{structusb__serial__driver_a127cbd33c97922677611accf90cb5016}} 
+struct list\+\_\+head {\bfseries driver\+\_\+list}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ace02c7bba3a32c01707b8f2b5bfc5eb5}\label{structusb__serial__driver_ace02c7bba3a32c01707b8f2b5bfc5eb5}} 
+struct device\+\_\+driver {\bfseries driver}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a2341d6954683417dce85cdda1c450deb}\label{structusb__serial__driver_a2341d6954683417dce85cdda1c450deb}} 
+struct usb\+\_\+driver $\ast$ {\bfseries usb\+\_\+driver}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_af6224b1d11f8c018a8fa114b2994f4f0}\label{structusb__serial__driver_af6224b1d11f8c018a8fa114b2994f4f0}} 
+struct usb\+\_\+dynids {\bfseries dynids}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a86a863e01daba9371c5a7f73a83aca79}\label{structusb__serial__driver_a86a863e01daba9371c5a7f73a83aca79}} 
+size\+\_\+t {\bfseries bulk\+\_\+in\+\_\+size}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ac6b9ecdba0ca7d46464fe0499e70e1d3}\label{structusb__serial__driver_ac6b9ecdba0ca7d46464fe0499e70e1d3}} 
+size\+\_\+t {\bfseries bulk\+\_\+out\+\_\+size}
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a3b8f83125de29a9290f65b119f50f13b}\label{structusb__serial__driver_a3b8f83125de29a9290f65b119f50f13b}} 
+int($\ast$ {\bfseries probe} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial, const struct usb\+\_\+device\+\_\+id $\ast$id)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a6e12e5eabc3b306f1819d6c0d157251c}\label{structusb__serial__driver_a6e12e5eabc3b306f1819d6c0d157251c}} 
+int($\ast$ {\bfseries attach} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_af6d42ba565650ad8dfcbf5e54bb7c287}\label{structusb__serial__driver_af6d42ba565650ad8dfcbf5e54bb7c287}} 
+int($\ast$ {\bfseries calc\+\_\+num\+\_\+ports} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_adfb494e4248e100f17e4a90292567172}\label{structusb__serial__driver_adfb494e4248e100f17e4a90292567172}} 
+void($\ast$ {\bfseries disconnect} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a551394e41b52e61b989dd3be767f0066}\label{structusb__serial__driver_a551394e41b52e61b989dd3be767f0066}} 
+void($\ast$ {\bfseries release} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a7c478be3eb48ea7466c3ec86ad5124fb}\label{structusb__serial__driver_a7c478be3eb48ea7466c3ec86ad5124fb}} 
+int($\ast$ {\bfseries port\+\_\+probe} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a9d561a25cff5c98e2ef94469858596a4}\label{structusb__serial__driver_a9d561a25cff5c98e2ef94469858596a4}} 
+int($\ast$ {\bfseries port\+\_\+remove} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a97f87edf3ad6d4e6d07205b842c8b6a7}\label{structusb__serial__driver_a97f87edf3ad6d4e6d07205b842c8b6a7}} 
+int($\ast$ {\bfseries suspend} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial, pm\+\_\+message\+\_\+t message)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a915a7dbd48d2dccfbff86e4f99e6c868}\label{structusb__serial__driver_a915a7dbd48d2dccfbff86e4f99e6c868}} 
+int($\ast$ {\bfseries resume} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ad8e90ee619579a3799e52501dd221c82}\label{structusb__serial__driver_ad8e90ee619579a3799e52501dd221c82}} 
+int($\ast$ {\bfseries reset\+\_\+resume} )(struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} $\ast$serial)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a755726dfb917eb3fca7c7d7129a7dfae}\label{structusb__serial__driver_a755726dfb917eb3fca7c7d7129a7dfae}} 
+int($\ast$ {\bfseries open} )(struct tty\+\_\+struct $\ast$tty, struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a73bd3e3d9ed960283ab8a50a5b017ea0}\label{structusb__serial__driver_a73bd3e3d9ed960283ab8a50a5b017ea0}} 
+void($\ast$ {\bfseries close} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a36dff60e0844b93e20c9611df0e1342c}\label{structusb__serial__driver_a36dff60e0844b93e20c9611df0e1342c}} 
+int($\ast$ {\bfseries write} )(struct tty\+\_\+struct $\ast$tty, struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port, const unsigned char $\ast$buf, int count)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ade278fdfd9c501475c897ab3e5541f9a}\label{structusb__serial__driver_ade278fdfd9c501475c897ab3e5541f9a}} 
+int($\ast$ {\bfseries write\+\_\+room} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a25da489abd73fa168420c320bd3e26f8}\label{structusb__serial__driver_a25da489abd73fa168420c320bd3e26f8}} 
+int($\ast$ {\bfseries ioctl} )(struct tty\+\_\+struct $\ast$tty, unsigned int cmd, unsigned long arg)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_acba9afb0ad97196d05ef56fab62d83bf}\label{structusb__serial__driver_acba9afb0ad97196d05ef56fab62d83bf}} 
+void($\ast$ {\bfseries set\+\_\+termios} )(struct tty\+\_\+struct $\ast$tty, struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port, struct ktermios $\ast$old)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a60876014211392ea7b9fc80733674247}\label{structusb__serial__driver_a60876014211392ea7b9fc80733674247}} 
+void($\ast$ {\bfseries break\+\_\+ctl} )(struct tty\+\_\+struct $\ast$tty, int break\+\_\+state)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_abe3a8d2a4ded5b363e01ef2c514aad6e}\label{structusb__serial__driver_abe3a8d2a4ded5b363e01ef2c514aad6e}} 
+int($\ast$ {\bfseries chars\+\_\+in\+\_\+buffer} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a914f9513a41703f091ead1241a8306fe}\label{structusb__serial__driver_a914f9513a41703f091ead1241a8306fe}} 
+void($\ast$ {\bfseries wait\+\_\+until\+\_\+sent} )(struct tty\+\_\+struct $\ast$tty, long timeout)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a487cbde57746f3167282012db3b07233}\label{structusb__serial__driver_a487cbde57746f3167282012db3b07233}} 
+bool($\ast$ {\bfseries tx\+\_\+empty} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a3b85b58e92eee05cc491ff0401012bef}\label{structusb__serial__driver_a3b85b58e92eee05cc491ff0401012bef}} 
+void($\ast$ {\bfseries throttle} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a4c34dceaa388d12d025c1e7fe4837c25}\label{structusb__serial__driver_a4c34dceaa388d12d025c1e7fe4837c25}} 
+void($\ast$ {\bfseries unthrottle} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a6eac7c4d63d1cb9fe22356b4ecc56cb6}\label{structusb__serial__driver_a6eac7c4d63d1cb9fe22356b4ecc56cb6}} 
+int($\ast$ {\bfseries tiocmget} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_acd79356bd7e56d229908e21100ec7ec9}\label{structusb__serial__driver_acd79356bd7e56d229908e21100ec7ec9}} 
+int($\ast$ {\bfseries tiocmset} )(struct tty\+\_\+struct $\ast$tty, unsigned int set, unsigned int clear)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ac68f7008376e0e760f5582d3e527238f}\label{structusb__serial__driver_ac68f7008376e0e760f5582d3e527238f}} 
+int($\ast$ {\bfseries tiocmiwait} )(struct tty\+\_\+struct $\ast$tty, unsigned long arg)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_ae82647a5570d6f80249e188fbcdf45c1}\label{structusb__serial__driver_ae82647a5570d6f80249e188fbcdf45c1}} 
+int($\ast$ {\bfseries get\+\_\+icount} )(struct tty\+\_\+struct $\ast$tty, struct serial\+\_\+icounter\+\_\+struct $\ast$icount)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a69948f6286fefbfa37fd17ac75045c9c}\label{structusb__serial__driver_a69948f6286fefbfa37fd17ac75045c9c}} 
+void($\ast$ {\bfseries dtr\+\_\+rts} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port, int on)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_af83a43f84173969e62c6a67c9f5b2984}\label{structusb__serial__driver_af83a43f84173969e62c6a67c9f5b2984}} 
+int($\ast$ {\bfseries carrier\+\_\+raised} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a8a8a7782a229735a208c8c2408f90a67}\label{structusb__serial__driver_a8a8a7782a229735a208c8c2408f90a67}} 
+void($\ast$ {\bfseries init\+\_\+termios} )(struct tty\+\_\+struct $\ast$tty)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_adb037ae32d5e5874215182bab4fa136b}\label{structusb__serial__driver_adb037ae32d5e5874215182bab4fa136b}} 
+void($\ast$ {\bfseries read\+\_\+int\+\_\+callback} )(struct urb $\ast$urb)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a845e782064397def54b4d061baff976e}\label{structusb__serial__driver_a845e782064397def54b4d061baff976e}} 
+void($\ast$ {\bfseries write\+\_\+int\+\_\+callback} )(struct urb $\ast$urb)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_adf6f0fdc27cf1b3bd63b4907a9504d8d}\label{structusb__serial__driver_adf6f0fdc27cf1b3bd63b4907a9504d8d}} 
+void($\ast$ {\bfseries read\+\_\+bulk\+\_\+callback} )(struct urb $\ast$urb)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a2ce9b6f4294ec3613fa306787f3a9c54}\label{structusb__serial__driver_a2ce9b6f4294ec3613fa306787f3a9c54}} 
+void($\ast$ {\bfseries write\+\_\+bulk\+\_\+callback} )(struct urb $\ast$urb)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_af23f3896172381741b132aaab8b1cfd7}\label{structusb__serial__driver_af23f3896172381741b132aaab8b1cfd7}} 
+void($\ast$ {\bfseries process\+\_\+read\+\_\+urb} )(struct urb $\ast$urb)
+\item 
+\mbox{\Hypertarget{structusb__serial__driver_a4f2b2cbadb18651a43b1cddd7ae02765}\label{structusb__serial__driver_a4f2b2cbadb18651a43b1cddd7ae02765}} 
+int($\ast$ {\bfseries prepare\+\_\+write\+\_\+buffer} )(struct \mbox{\hyperlink{structusb__serial__port}{usb\+\_\+serial\+\_\+port}} $\ast$port, void $\ast$dest, size\+\_\+t size)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{structusb__serial__driver}{usb\+\_\+serial\+\_\+driver}} -\/ describes a usb serial driver @description\+: pointer to a string that describes this driver. This string used in the syslog messages when a device is inserted or removed. @id\+\_\+table\+: pointer to a list of usb\+\_\+device\+\_\+id structures that define all of the devices this structure can support. @num\+\_\+ports\+: the number of different ports this device will have. @bulk\+\_\+in\+\_\+size\+: minimum number of bytes to allocate for bulk-\/in buffer (0 = end-\/point size) @bulk\+\_\+out\+\_\+size\+: bytes to allocate for bulk-\/out buffer (0 = end-\/point size) @calc\+\_\+num\+\_\+ports\+: pointer to a function to determine how many ports this device has dynamically. It will be called after the probe() callback is called, but before attach() @probe\+: pointer to the driver\textquotesingle{}s probe function. This will be called when the device is inserted into the system, but before the device has been fully initialized by the \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} subsystem. Use this function to download any firmware to the device, or any other early initialization that might be needed. Return 0 to continue on with the initialization sequence. Anything else will abort it. @attach\+: pointer to the driver\textquotesingle{}s attach function. This will be called when the struct \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} structure is fully set set up. Do any local initialization of the device, or any private memory structure allocation at this point in time. @disconnect\+: pointer to the driver\textquotesingle{}s disconnect function. This will be called when the device is unplugged or unbound from the driver. @release\+: pointer to the driver\textquotesingle{}s release function. This will be called when the \mbox{\hyperlink{structusb__serial}{usb\+\_\+serial}} data structure is about to be destroyed. @usb\+\_\+driver\+: pointer to the struct usb\+\_\+driver that controls this device. This is necessary to allow dynamic ids to be added to the driver from sysfs.
+
+This structure is defines a USB Serial driver. It provides all of the information that the USB serial core code needs. If the function pointers are defined, then the USB serial core code will call them when the corresponding tty port functions are called. If they are not called, the generic serial function will be used instead.
+
+The driver.\+owner field should be set to the module owner of this driver. The driver.\+name field should be set to the name of this driver (remember it will show up in sysfs, so it needs to be short and to the point. Using the module name is a good idea.) 
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+usb\+\_\+wwan\+\_\+modified/include/linux/usb/serial.\+h\end{DoxyCompactItemize}

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['svmretriever',['SVMRetriever',['../classSVMRetriever.html',1,'']]]
+  ['javasparksingletoninstance_42',['JavaSparkSingletonInstance',['../classJavaSparkSingletonInstance.html',1,'']]]
 ];

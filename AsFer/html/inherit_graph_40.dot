@@ -1,0 +1,8 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="python-src.Norms_and\l_Basic_Statistics.Norms\l_and_Basic_Statistics",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classpython-src_1_1Norms__and__Basic__Statistics_1_1Norms__and__Basic__Statistics.html",tooltip=" "];
+}

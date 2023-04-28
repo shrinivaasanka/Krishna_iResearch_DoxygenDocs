@@ -1,0 +1,88 @@
+\hypertarget{structuvc__device}{}\doxysection{uvc\+\_\+device Struct Reference}
+\label{structuvc__device}\index{uvc\_device@{uvc\_device}}
+
+
+Collaboration diagram for uvc\+\_\+device\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structuvc__device_1_1uvc__ctrl__work}{uvc\+\_\+ctrl\+\_\+work}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{structuvc__device_a7a8ce15b701680c228dea9b6b5803e2f}\label{structuvc__device_a7a8ce15b701680c228dea9b6b5803e2f}} 
+struct usb\+\_\+device $\ast$ {\bfseries udev}
+\item 
+\mbox{\Hypertarget{structuvc__device_a29d1287021c4bd3f23d753efefff53d6}\label{structuvc__device_a29d1287021c4bd3f23d753efefff53d6}} 
+struct usb\+\_\+interface $\ast$ {\bfseries intf}
+\item 
+\mbox{\Hypertarget{structuvc__device_aca6f73acf005ed51356e2e62f66d9707}\label{structuvc__device_aca6f73acf005ed51356e2e62f66d9707}} 
+unsigned long {\bfseries warnings}
+\item 
+\mbox{\Hypertarget{structuvc__device_aeb19ec525e771ed0fbe33ef87c54d99c}\label{structuvc__device_aeb19ec525e771ed0fbe33ef87c54d99c}} 
+u32 {\bfseries quirks}
+\item 
+\mbox{\Hypertarget{structuvc__device_ac9f2ee4fafa8654bebe9ec98bc5a2d72}\label{structuvc__device_ac9f2ee4fafa8654bebe9ec98bc5a2d72}} 
+int {\bfseries intfnum}
+\item 
+\mbox{\Hypertarget{structuvc__device_af6ef68351ba10804a369c9b915af322a}\label{structuvc__device_af6ef68351ba10804a369c9b915af322a}} 
+char {\bfseries name} \mbox{[}32\mbox{]}
+\item 
+\mbox{\Hypertarget{structuvc__device_aeb70b988719c3841cc4b8a8dc6f3872d}\label{structuvc__device_aeb70b988719c3841cc4b8a8dc6f3872d}} 
+const struct \mbox{\hyperlink{structuvc__device__info}{uvc\+\_\+device\+\_\+info}} $\ast$ {\bfseries info}
+\item 
+\mbox{\Hypertarget{structuvc__device_a08597bb306f1bb821d2619e3e01fa84c}\label{structuvc__device_a08597bb306f1bb821d2619e3e01fa84c}} 
+struct mutex {\bfseries lock}
+\item 
+\mbox{\Hypertarget{structuvc__device_a3e946ca2a2f53f5a16855931a00422d1}\label{structuvc__device_a3e946ca2a2f53f5a16855931a00422d1}} 
+unsigned int {\bfseries users}
+\item 
+\mbox{\Hypertarget{structuvc__device_a2ae4b6166db3a6da95d6237c85522b83}\label{structuvc__device_a2ae4b6166db3a6da95d6237c85522b83}} 
+atomic\+\_\+t {\bfseries nmappings}
+\item 
+\mbox{\Hypertarget{structuvc__device_af3a73ce5f0561bc128c723bbd1e36bbf}\label{structuvc__device_af3a73ce5f0561bc128c723bbd1e36bbf}} 
+struct v4l2\+\_\+device {\bfseries vdev}
+\item 
+\mbox{\Hypertarget{structuvc__device_aabd292a2be9251777fa31e69e1721e72}\label{structuvc__device_aabd292a2be9251777fa31e69e1721e72}} 
+u16 {\bfseries uvc\+\_\+version}
+\item 
+\mbox{\Hypertarget{structuvc__device_a985e2c1af556a5b852bcb29e68d2d500}\label{structuvc__device_a985e2c1af556a5b852bcb29e68d2d500}} 
+u32 {\bfseries clock\+\_\+frequency}
+\item 
+\mbox{\Hypertarget{structuvc__device_ad3b6ee3e32d285ad7fe6ee60fb850412}\label{structuvc__device_ad3b6ee3e32d285ad7fe6ee60fb850412}} 
+struct list\+\_\+head {\bfseries entities}
+\item 
+\mbox{\Hypertarget{structuvc__device_a38520b8d6a556d10f1b49291eded527a}\label{structuvc__device_a38520b8d6a556d10f1b49291eded527a}} 
+struct list\+\_\+head {\bfseries chains}
+\item 
+\mbox{\Hypertarget{structuvc__device_a0a07e0d7ce4692af6309a76c981486aa}\label{structuvc__device_a0a07e0d7ce4692af6309a76c981486aa}} 
+struct list\+\_\+head {\bfseries streams}
+\item 
+\mbox{\Hypertarget{structuvc__device_a9cae53c4c3f48470454f0dfc63414d53}\label{structuvc__device_a9cae53c4c3f48470454f0dfc63414d53}} 
+struct kref {\bfseries ref}
+\item 
+\mbox{\Hypertarget{structuvc__device_a0ce7c24a24db2ac8173c3d05aa4a838b}\label{structuvc__device_a0ce7c24a24db2ac8173c3d05aa4a838b}} 
+struct usb\+\_\+host\+\_\+endpoint $\ast$ {\bfseries int\+\_\+ep}
+\item 
+\mbox{\Hypertarget{structuvc__device_a210d60d5691fafa09c7c0d29944583ec}\label{structuvc__device_a210d60d5691fafa09c7c0d29944583ec}} 
+struct urb $\ast$ {\bfseries int\+\_\+urb}
+\item 
+\mbox{\Hypertarget{structuvc__device_a81534bbf23645db7af655368111f7e57}\label{structuvc__device_a81534bbf23645db7af655368111f7e57}} 
+u8 $\ast$ {\bfseries status}
+\item 
+\mbox{\Hypertarget{structuvc__device_a9850f045171cb0a5371193876437f621}\label{structuvc__device_a9850f045171cb0a5371193876437f621}} 
+struct input\+\_\+dev $\ast$ {\bfseries input}
+\item 
+\mbox{\Hypertarget{structuvc__device_a8441e6e11d69958da8464c6a15fc11d5}\label{structuvc__device_a8441e6e11d69958da8464c6a15fc11d5}} 
+char {\bfseries input\+\_\+phys} \mbox{[}64\mbox{]}
+\item 
+\mbox{\Hypertarget{structuvc__device_a268a398556f8bd3752a6726b7b0b0e82}\label{structuvc__device_a268a398556f8bd3752a6726b7b0b0e82}} 
+struct \mbox{\hyperlink{structuvc__device_1_1uvc__ctrl__work}{uvc\+\_\+device\+::uvc\+\_\+ctrl\+\_\+work}} {\bfseries async\+\_\+ctrl}
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+linux-\/kernel-\/5.\+1.\+4-\/extensions/drivers/media/usb/uvc/uvcvideo.\+h\end{DoxyCompactItemize}

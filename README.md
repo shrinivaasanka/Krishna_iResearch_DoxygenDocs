@@ -1,6 +1,3 @@
-Krishna_iResearch_DoxygenDocs
-=============================
-
 Krishna iResearch Open Source Products - NeuronRain Repositories - Doxygen Documentation:
 -----------------------------------------------------------------------------------------
 
@@ -16,6 +13,11 @@ Krishna iResearch Open Source Products - NeuronRain Repositories - Doxygen Docum
 
 [VIRGO64 - NeuronRain Linux Kernel Fork-off for Kernelspace Cloud RPC,IoT and Kernel Analytics - 64 bits](https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/VIRGO64/html/index.html)
 
-[KINGCOBRA - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger](https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra/html/index.html)
+[KINGCOBRA - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger - 32 bits](https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra/html/index.html)
 
-[KINGCOBRA - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger](https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra64/html/index.html)
+[KINGCOBRA64 - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger - 64 bits](https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra64/html/index.html)
+
+
+NeuronRain Architecture:
+-----------------------
+![Dependency between NeuronRain Repositories](./NeuronRainVIRGOArchitecture.jpg)

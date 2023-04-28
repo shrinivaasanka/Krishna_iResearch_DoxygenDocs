@@ -51,6 +51,26 @@ NeuronRain repositories are in:
 
         (*) https://sourceforge.net/u/userid-769929/Krishna_iResearch_DoxygenDocs/ci/master/tree/
 
+
+1420. NeuronRain Repositories - Doxygen Documentation (HTML and LaTex - GitHub Codebase) - GitHub Pages:
+--------------------------------------------------------------------------------------------------------
+ACADPDRAFTS - NeuronRain Theory Drafts and Publications - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/Acadpdrafts/html/index.html
+
+ASTROINFER - NeuronRain AI-Big Data-Machine Learning and Userspace Analytics for VIRGO Linux Kernel - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/AsFer/html/index.html
+
+USBMD - VIRGO Linux Kernel accessory - Cybercrime Analytics - NeuronRain USB Wireless Traffic analytics driver - 32 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/USBmd/html/index.html
+
+USBMD64 - VIRGO Linux Kernel accessory - Cybercrime Analytics - NeuronRain USB Wireless Traffic analytics driver - 64 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/USBmd64/html/index.html
+
+VIRGO - NeuronRain Linux Kernel Fork-off for Kernelspace Cloud RPC,IoT and Kernel Analytics - 32 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/VIRGO/html/index.html
+
+VIRGO64 - NeuronRain Linux Kernel Fork-off for Kernelspace Cloud RPC,IoT and Kernel Analytics - 64 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/VIRGO64/html/index.html
+
+KINGCOBRA - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger - 32 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra/html/index.html
+
+KINGCOBRA64 - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Messaging and Userspace Cryptocurrency-Computational Economics-Hyperledger - 64 bits - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra64/html/index.html
+
+
 1332. NeuronRain Version:
 --------------------------
 Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Latest NeuronRain Research, Green and Antariksh version is 2023#4#2.

@@ -477,3 +477,16 @@ References:
 1371.11 Sandhi Rules in Sanskrit - Sandhi engine example - https://sanskrit.inria.fr/cgi-bin/SKT/sktsandhier.cgi?lex=SH&l=yoga&r=ishvara&t=VH&k=external - String Factorization implementation above is an algorithmic derivative of Sandhi rules of sanskrit for compound words applied to English texts. Sandhi rules are matrices of vowels-vowels, consonants-consonants and consonants-vowels. 
 1371.12 Tamil Sandhi rules - http://learn.tamilnlp.com/grammar/tamilgrammar4.html
 1371.13 Sanskrit Sandhi Matrix - https://ubcsanskrit.ca/lesson3/sandhicharts.html
+
+------------------------------------------------------------------------------------------------------------------------------
+1403. (THEORY and FEATURE) String Analytics and Large Scale Visual Analytics - Python 3.11 + NumPy Strings and Large Scale Visual Intersection - 17 March 2023 - related to all sections on Text analytics,String analytics and Large Scale Visuals Analytics
+-----------------------------------------------------------------------------------------------------------------------------
+1403.1 Finding common substrings between multiple text datasets and common objects in large scale visuals is the set intersection problem generalized to arrays. Usual Python built-in set intersection() suffers from the lack of knowledge of intersecting indices.
+1403.2 Python 3.11 + NumPy code fragment in code/Intersection.py implements a multipurpose utility array intersection subroutine which takes a list of multiple 2 dimensional arrays (which are either image bitmaps encoded as 0-1 or list of strings) and uses functools reduce() on NumPy intersect1d() to get the intersection of list of arrays. 
+1403.3 It also computes the indices where the list of arrays intersect in intersect1d(). Information on indices of intersection is essential to compute intersection overlay of texts and visuals something unavailable in Python set().
+1403.4 2 sets of 2-dimensionals arrays (binary bitmaps and strings) have been intersected and the indices of intersection are found by intersect1d() - captured in logs/Intersection.log.17March2023 .
+
+References:
+----------
+1403.5 Survey of Set Intersection algorithms for ordered datasets - http://www.cs.toronto.edu/~tl/papers/fiats.pdf - Baeza-Yates and Adaptive set intersection algorithms
+1403.6 Disjoint-Set Union datastructure for sets - http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap22.htm - sets are often represented by union of disjoint sets which has profound applications including finding connected components of a graph. Intersection of two sets represented as disjoint set union could be defined as recurrence: Find subsetwise intersection of disjoint set union of the two sets and unite them. 

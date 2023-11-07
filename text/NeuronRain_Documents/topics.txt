@@ -1,0 +1,10 @@
+Earthquakes~1
+Earthquakes~2
+Earthquakes~3
+Storms~4
+Storms~5
+Earthquakes~6
+Earthquakes~7
+Earthquakes~8
+Storms~9
+Storms~10

@@ -556,3 +556,38 @@ References:
 1380.8 Promise Majority - https://booleanzoo.weizmann.ac.il/index.php/Majority - another definition of Approximate Majority
 1380.9 Algebraic Immunity of a Boolean function - https://eprint.iacr.org/2007/259.pdf - "... Definition 1.1[6] The algebraic immunity AIn(f) of an n-variable Boolean function f is defined to be the lowest degree of nonzero functions g such that fg = 0 or (f + 1)g = 0...."
 1380.10 Lower bounds for Majority gate from Hastad Switching Lemma - Theorem 6 - https://sites.math.rutgers.edu/~sk1233/courses/topics-S13/lec3.pdf
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+1429. (THEORY and FEATURE) Russian Peasant Multiplication in Linear Time by BitShift operator - Lowerbound estimate of last row of the tableau for an alternative non-trivial reversal of multiplication (or factoring) - related to 668,1221,1222 and all sections on Integer Factorization, Succinct Datastrucures, Numeric Compression, Arithmetic Circuits, Computational Geometric Factorization - Average case Sequential Optimization, Stirling Approximation of Gamma Function - 7 June 2023
+-------------------------------------------------------------------------------------------------------------------------------------------
+1429.1 course_material/Programming/C++/code/russianpeasant.cpp has been updated to import math.h and while loop of the tabeau creation has been decorated with debug cout(s) to pretty-print the table and following 2 lowerbound estimates (2^(logN-lowerboundepsilon) and 2^(log(a) + log(b) - lowerboundepsilon)) for the right column of last row is printed to logs:
+       double lowerbound1 = (std::log(a*b)/std::log(2)) - lowerboundepsilon;
+       cout<<"Factor1 size(in bits):"<<std::log(a)/std::log(2)<<endl;
+       cout<<"Factor2 size(in bits):"<<std::log(b)/std::log(2)<<endl;
+       double lowerbound2 = (std::log(a)/std::log(2) + std::log(b)/std::log(2) - lowerboundepsilon);
+       cout<<"Approximate lower bound estimate 1 for last row,right column - 2^("<<lowerbound1<<"):"<<(unsigned long long) pow(2,lowerbound1)<<endl; 
+       cout<<"Approximate lower bound estimate 2 for last row,right column - 2^("<<lowerbound2<<"):"<<(unsigned long long) pow(2,lowerbound2)<<endl; 
+1429.2 New commandline parameter lowerboundepsilon has been introduced to compute 2^(logN-lowerboundepsilon) which has been assumed as 1 but infact it is situated between 0 and 1 (must be found by some other estimate and substituted).
+1429.2 Product of two integers Product of 13773311 and 14136751:194709868052561 is shown in code/logs/russianpeasant.log.7June2023. Since the forward direction of multiplication is linear in input size (theta(logN)), reversing the table for factoring might also be expected to be linear in layman terms. Computational Geometric Factorization trivially reverts the Russian peasant multiplication tableau in polylogarithmic parallel time slightly lower than logarithmic time for multiplication. Feasibility of reversing the table without any factorization algorithm and estimating the last row using only number theory approximations is investigated by this effort which would imply a Theta(logN) time sequential factorization and might prima facie be an independent evidence for Section 668 (NeuronRain AstroInfer) on Average Case Sequential Factorization by Gamma Approximation of Stirling Formula. 
+1429.3 Estimating the last row - right column integer in linear time is as hard as factorization itself as it is a function of one of the factors and power of 2 (or) 2^(length_of_the_table) * factor, requiring sophisticated approximations. Earlier estimate of 2^(logN-epsilon) is a naive, conjectural, not-so-tight heuristic lowerbound derived from the fact that length of the table is proportional to log(factor1) which is raised to power 2 and multiplied with factor2 (factor2 * 2^(log(factor1)). If factor2 is written as 2^log(factor2), estimated lowerbound is 2^(log(factor1) + log(factor2)) which is roughly 2^(2*log(factor1)) for semiprimes having 2 prime factors of same input size. 2^(log(N)-epsilon) = 2^(log(ab)-epsilon) = 2^(log(a) + log(b) - epsilon) lower bounds the actual integer N=ab=2^(logN).  
+1429.4 Following are last few lines of the table and the approximate heuristic lowerbound estimate for 118587662532608 (last row) is 97354934026280 which is 2^(log(194709868052561)-1) - from code/logs/russianpeasant.log.7June2023 for epsilon 1:
+	tempa (factor1 / 2^22):3 ------ tempb (factor2 * 2^22):59293831266304
+	tempa (factor1 / 2^23):1 ------ tempb (factor2 * 2^23):118587662532608
+	Factor1 size(in bits):23.7154
+	Factor2 size(in bits):23.7529
+	Approximate lower bound estimate 1 for last row,right column - 2^(46.4683):97354934026280
+	Approximate lower bound estimate 2 for last row,right column - 2^(46.4683):97354934026280
+	Product of 13773311 and 14136751:194709868052561
+1429.5 Another multiplication captured in code/logs/russianpeasant.log2.7June2023 for epsilon=0.97 (./russianpeasant 1000000 100000 0.97 > logs/russianpeasant.log2.7June2023) shows the following tight lowerbound 51050606285 for actual last row integer 52428800000:
+	tempa (factor1 / 2^18):3 ------ tempb (factor2 * 2^18):26214400000
+	tempa (factor1 / 2^19):1 ------ tempb (factor2 * 2^19):52428800000
+	Factor1 size(in bits):19.9316
+	Factor2 size(in bits):16.6096
+	Approximate lower bound estimate 1 for last row,right column - 2^(35.5712):51050606285
+	Approximate lower bound estimate 2 for last row,right column - 2^(35.5712):51050606285
+	Product of 1000000 and 100000:100000000000
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+Binary Product of 2 integers by C++ STL Bitset and relation between parity of factors and parity of product - 16 June 2023
+--------------------------------------------------------------------------------------------------------------------------------------------
+C++ code example productparity.cpp implements a function to declare 2 integers and print both the factors and the product of them as binary strings by bitset. Binary strings of the factors and products are printed to logs/productparity.log.16June2023. This code example has a boolean complexity theoretical aside to it: If parity(x) denotes number of 1s of factor x and parity(y) denotes number of 1s of factor y, is parity(x*y) = function_of(parity(x),parity(y)) (or) in other words what are the closure properties of parity of an integer in terms of its factors.

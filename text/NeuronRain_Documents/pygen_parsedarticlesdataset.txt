@@ -1,0 +1,5 @@
+article1.html	NotParsed
+article2.html	NotParsed
+article3.html	NotParsed
+magnitude8_1900_date.php.html	../earthquakesFrom1900with8plusmag.pygen.txt
+hurdat2_1851_2012-jun2013.html	../hurdat2_1851_2012-jun2013.pygen.txt

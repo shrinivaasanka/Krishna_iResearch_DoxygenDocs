@@ -1,0 +1,6 @@
+Type1-Asteroids,Comets,Tornadoes,Hurricanes,Typhoon,Cyclone,Tsunami,Tremors,Temperature,nil-
+Type2-Asteroids,Comets,Tornadoes,Hurricanes,Typhoon,Cyclone,Tsunami,Tremors,Temperature,nil-
+Place1-Air,Earth,Water,Sky,nil-
+Place2-Air,Earth,Water,Sky,nil-
+Place3-Air,Earth,Water,Sky,nil-
+Class-Earthquakes,Storms,Celestial-

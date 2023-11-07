@@ -1,0 +1,4 @@
+commodity1:buy:#ff1f984d-ab18-4e69-9a3b-85ddd3c2cce7:1000000000000 - buyer1,seller1 - (buyer1,seller1)#
+commodity2:buy:#ff1f984d-ab18-4e79-1a3b-85ddd3c6cde7:2000000000000 - buyer2,seller2 - (buyer2,seller2)#
+commodity3:sell:#ff2f984d-ab18-5e79-1a3b-85ddd4c1cde7:3000000000000 - buyer3,seller3 - (buyer3,seller3)#
+commodity4:sell:#ff2f994d-ab18-5e79-5a3b-85ddd4c3cde7:9000000000000 - buyer4,seller4 - (buyer4,seller4)#

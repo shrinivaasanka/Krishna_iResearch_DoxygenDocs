@@ -1,0 +1,312 @@
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+1
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+1
+Vertices:
+39
+Edges:
+40
+converging terms(terms with more than 1 parent):
+ 
+converging parents :
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+2
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+68
+Vertices:
+211
+Edges:
+277
+Intrinsic merit of this document is:
+3974396.0
+Node with maximum parents (and hence the most likely class of document) is:
+person

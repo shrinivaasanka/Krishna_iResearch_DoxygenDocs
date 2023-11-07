@@ -1,0 +1,1624 @@
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+1
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+133
+Vertices:
+296
+Edges:
+429
+converging terms(terms with more than 1 parent):
+ 
+converging parents :
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+2
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+1462
+Vertices:
+1016
+Edges:
+2259
+Intrinsic merit of this document is:
+3355500528.0
+Node with maximum parents (and hence the most likely class of document) is:
+act

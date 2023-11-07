@@ -1670,9 +1670,9 @@ exported kernelwide
 	(*) Some interested Drone driver in kernel (example PXRC) reads the analytics variables synchronously and sends reply messages asynchronously to VIRGO64 Queuing driver over kernel sockets. 
 	(*) VIRGO Queuing routes the queued messages to KingCobra64 driver 
 
-Srinivasan Kannan (alias) Ka.Shrinivaasan (alias) Shrinivas Kannan
-http://sites.google.com/site/kuja27
-
-
-
-
+--------------------------------------------------------------------------------------------------------------------------------------------
+1445. (THEORY and FEATURE) Kernel Analytics - Script to gather loadbalancer statistics for VIRGO linux kernel syscalls - 16 August 2023 - related to 1191,619,770,906,911,771,1192,1443,1444 and all sections on Program Analysis, AsFer-USBmd-VIRGO-KingCobra FTrace kernel callgraph analysis - Valgrind-Callgrind-KCacheGrind-Flamegraph userspace callgraph analysis, SATURN control flow analysis of VIRGO linux kernel, Software Analytics, Pandemic model of Botnet-Defense adversarial Game theoretic security, Cybercrime analytics, Anti-Malware,Anti-Ransomware,Anti-Theft and Anti-Plagiarism tools, Filesystem Prefetch, KML, LAKE
+-------------------------------------------------------------------------------------------------------------------------------------------- 
+1445.1 Python script virgo-python-src/VIRGO_loadbalancer_analytics.py has been added to VIRGO64 repository that reads /proc/loadavg load statistics of localhost and appends a key-value pair "localhost_load=[load stats]" 
+1445.2 Updated example /etc/virgo_kernel_analytics.conf (loadbalancer key-value pair added) has also been added to repository.
+1445.3 At present only the load statistics of the localhost are written to /etc/virgo_kernel_analytics.conf of respective nodes in VIRGO cloud readable locally by VIRGO syscalls issued from a host ip. Gathering unified load statistics for all nodes in VIRGO cloud could be indirectly accomplished by third-party cluster performance monitoring tools viz., Elasticsearch. 

@@ -1,0 +1,73 @@
+14/09/2019
+
+'[users@httpd] problem with subprocess_env' - MARC
+
+[prev in list] [next in list] [prev in thread] [next in thread]
+
+List:
+Subject:
+From:
+Date:
+
+apache-httpd-users
+[users@httpd] problem with subprocess_env
+Kannan Srinivasan <Kannan.Srinivasan () Sun ! COM>
+2003-02-17 9:58:49
+
+[Download RAW message or body]
+Hi,
+
+My module has two phases: 1) name translation 2) request handling.
+In the name translation phase, I store something in the request_rec
+structure by adding a name-value pair to subprocess_env table of the
+request_rec.
+Then I retrieve it in the request handler function using
+table_get(r->subprocess_env).
+Now the problem I face is that I get the bus error as below and
+apache subprocess is crashing. Loading the core into dbx causes dbx
+itself to crash. What am I doing wrong?
+[Mon Feb 17 15:14:32 2003] [alert] (9) before setting
+name_trans_lbplugin_ptr ...
+[Mon Feb 17 15:14:32 2003] [alert] (9) after setting
+name_trans_lbplugin_ptr ...
+[Mon Feb 17 15:14:33 2003] [notice] child pid 2434 exit signal Bus Error
+(10)
+(NOTE: I also tried adding to request_rec->notes and
+request_rec->request_config but the result was same)
+thanks,
+K.Srinivasan
+[Attachment #3 (text/html)]
+<html>
+<head>
+</head>
+<body>
+Hi,<br>
+&nbsp;&nbsp;&nbsp; My module has two phases: 1) name translation 2) request \
+handling.<br> &nbsp;&nbsp;&nbsp; In the name translation phase, I store something in \
+the request_rec structure by adding a name-value pair to subprocess_env table of the \
+request_rec.<br> &nbsp;&nbsp;&nbsp; Then I retrieve it in the request handler \
+function using table_get(r-&gt;subprocess_env).<br> &nbsp;&nbsp;&nbsp; Now the \
+problem I face is that I get the bus error as below and apache subprocess is \
+crashing. Loading the core into dbx causes dbx itself to crash. What am I doing \
+wrong?<br> <b>[Mon Feb 17 15:14:32 2003] [alert] (9) before setting \
+name_trans_lbplugin_ptr
+...<br>
+[Mon Feb 17 15:14:32 2003] [alert] (9) after setting name_trans_lbplugin_ptr
+...<br>
+[Mon Feb 17 15:14:33 2003] [notice] child pid 2434 exit signal Bus Error
+(10)</b><br>
+&nbsp;&nbsp;&nbsp; (NOTE: I also tried adding to request_rec-&gt;notes and \
+request_rec-&gt;request_config but the result was same)<br>
+<br>
+thanks,<br>
+K.Srinivasan<br>
+</body>
+</html>
+
+[prev in list] [next in list] [prev in thread] [next in thread]
+Configure | About | News | Add a list | Sponsored by KoreLogic
+https://marc.info/?l=apache-httpd-users&m=104547592901593&w=2
+
+1/1
+
+

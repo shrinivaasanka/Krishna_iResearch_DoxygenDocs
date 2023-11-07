@@ -1,0 +1,4 @@
+=========================================
+Celestial Configuration 1
+=========================================
+Venus,Rahu, Cusp, Sun,Mercury, Cusp, Moon, Cusp, Ascendant, Cusp, Unoccupied, Cusp, Unoccupied, Cusp, Ketu, Cusp, Unoccupied, Cusp, Unoccupied, Cusp, Unoccupied, Cusp, Saturn, Cusp, Mars,Jupiter

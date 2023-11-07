@@ -1,0 +1,10 @@
+Using information content to evaluate semantic similarity in a taxonomy
+P Resnik - arXiv preprint cmp-lg/9511007, 1995 - arxiv.org
+... 1 Introduction Evaluating semantic relatedness using network represen- tations is a problem
+with a long history in artificial in- telligence and psychology, dating back to the spreading
+activation approach of Quillian [1968] and Collins and Loftus [1975]. 
+"Explanatory semantic relatedness and explicit spatialization for exploratory search
+B Hecht, SH Carton, M Quaderi, J Schöning… - Proceedings of the 35th …, 2012 - dl.acm.org
+Abstract Exploratory search, in which a user investigates complex concepts, is cumbersome 
+with today's search engines. We present a new exploratory search approach that generates 
+interactive visualizations of query concepts using thematic cartography.

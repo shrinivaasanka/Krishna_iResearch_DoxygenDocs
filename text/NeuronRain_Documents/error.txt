@@ -1,0 +1,12 @@
+blue
+925 blue __arg0 of function /media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h:__section_mem_map_addr can evaluate to NULL /media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h:__section_mem_map_addr (925:/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mm.h),  final site of dereference is: (1151:/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h)
+/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mm.h
+Null pointer is passed to a function which dereferences it.
+None
+
+blue
+205 blue __arg0 of function /media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h:__section_mem_map_addr can evaluate to NULL /media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h:__section_mem_map_addr (205:/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/scatterlist.h),  final site of dereference is: (1151:/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/mmzone.h)
+/media/shrinivaasanka/0fc4d8a2-1c74-42b8-8099-9ef78d8c8ea2/home/kashrinivaasan/linux-4.1.5/include/linux/scatterlist.h
+Null pointer is passed to a function which dereferences it.
+None
+

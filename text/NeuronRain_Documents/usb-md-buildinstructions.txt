@@ -1,0 +1,47 @@
+ 1969  svn checkout svn://svn.code.sf.net/p/usb-md/code-0/ usb-md
+ 1970  rm -rf usb-md
+ 1971  svn checkout svn+ssh://svn.code.sf.net/p/usb-md/code-0/ usb-md
+ 1972  svn checkout svn+ssh://ka_shrinivaasan@svn.code.sf.net/p/usb-md/code-0/ usb-md
+ 1973  ls
+ 1974  rm -rf usb-md
+ 1975  svn checkout --username=ka_shrinivaasan svn+ssh://ka_shrinivaasan@svn.code.sf.net/p/usb-md/code-0/trunk usb-md
+ 1976  svn checkout --username=ka_shrinivaasan svn+ssh://ka_shrinivaasan@svn.code.sf.net/p/usb-md/code-0/ usb-md
+ 1977  ls
+ 1978  cd usb-md/
+ 1979  ls
+ 1980  cp ~/linux-3.2.0/drivers/usb/usb-md/* .
+ 1981  ls
+ 1982  svn status
+ 1983  svn add
+ 1984  svn add *
+ 1985  svn ci -m"Makefile and source with build errors fixed and BKL removed along with changes for usb_buffer_coherent"
+ 1986  ls
+ 1987  pwd
+ 1988  cp ~/linux-3.2.0/drivers/usb/usb-md/* .
+ 1989  svn diff
+ 1990  svn ci -m"comment on devnode callback added"
+ 1991  cd
+ 1992  cd linux-3.2.0/drivers/usb/usb-md
+ 1993  ls
+ 1994  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+ 1995  make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+ 1996  pwd
+ 1997  cd linux-3.2.0/
+ 1998  ls
+ 1999  cd drivers/
+ 2000  ls
+ 2001  cd usb
+ 2002  ls
+ 2003  cd usb-md
+ 2004  make -C /lib/modules/`uname -r`/build/ M=`pwd` clean
+ 2005  sudo make -C /lib/modules/`uname -r`/build/ M=`pwd` 
+ 2006  ls
+ 2007  histor
+ 2008  history
+============================================================================================
+Updated:26 Feb 2014
+--------------------
+For adding new driver umb.ko:
+1. Either the usbfs id from tree output has to be obtained and unbind device file has to be written with vendor and product id(s)
+(or)
+2. After a modprobe, the vendor, product id(s) have to be echo-ed to new_id in usbfs (website reference added to repository)

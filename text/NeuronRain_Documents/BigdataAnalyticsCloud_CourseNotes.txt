@@ -362,6 +362,28 @@ Most games have been analyzed for their computational complexity - E.g Go, Chess
 
 Mining soccer patterns is complex because of random trajectories of the ball which draws a random directed graph on field - trajectory is a brownian motion random walk - whose vertices are 2-colored (bichromatic for vertices belonging to two opponent teams). Consecutive match statistics create a stream of 2-colored random graphs and frequent subgraph patterns in this stream of random trajectory graphs show patterns across matches. 
 
+Theoretical variant of Parallel or semi-sequential cricket is postulated as below:
+---------------------------------------------------------------------------------
+	for n number of pairs (x,y) of balls (120 or 300 each per team)
+	{
+		/* Roles interchange for every 2 balls */
+		ball x - team1 bats and team2 bowls /* counterpart of move by player1 in Chess */
+		team1_runs++ or loss of wicket
+		ball y - team2 bats and team1 bowls /* counterpart of countermove by player2 in Chess */
+		team2_runs++ or loss of wicket
+	}
+	if team1_runs > team2_runs
+		team1 wins
+	if team1_runs < team2_runs
+		team2 wins	
+	else
+		match is tied
+
+Earlier variant tries to parallelize sequential cricket to some extent and 22 players are equivalent of Chess black-white pawns. N*N Chess has been shown to be PSPACE-complete by a reduction from Generalized Geography - https://core.ac.uk/download/pdf/81113423.pdf - and previous semi-sequential version of cricket fits Generalized Geography(GG) and by reduction to GG parallel variant of cricket is a QBFSAT problem and PSPACE-complete. In earlier semi-sequential cricket variant player from both the teams alternate their roles for every ball simulating the directed graph traversal of GG by 2 players - https://en.wikipedia.org/wiki/Generalized_geography. Each vertex of GG directed graph is the ball played by team1 or team2 players marked by the runs scored or loss of wicket for that ball. For example, following is a 3 ball cricket alternating between team1 and team2 (each having 2 players) and won by team1 adapted to GG directed graph (each vertex is marked as <ball number>:<batting team> and runs scored are in brackets):
+	ball1:team1 (1) ------ ball2:team2 (2) ------ ball3:team1 (6) ----- ball4:team2 (Out-0) ----- ball5:team1 (1) ---- ball6:team2(1)
+	team1 score: 8
+	team2 score: 3
+
 Reference:
 ---------
 1.Real Plus Minus of NBA - http://www.espn.com/nba/statistics/rpm - Player Efficiency Ratings in Basketball 
@@ -761,3 +783,22 @@ Eulerian circuits - graphs of even degree vertices and edges belonging to single
 References:
 ----------
 1151.1 Graph Theory - [Douglas B. West]
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+1457. (THEORY and FEATURE) Digital Watermarking of Large Scale Visuals in OpenCV - refactoring for multiple images overlay and Image Quality Analysis(IQA) related to 581,840,841 and all sections on Merit of Large Scale Visuals, Large Scale Visual Recognition Analytics, Handwriting Recognition and Fraud analytics,GIS Urban sprawl analytics - 1 November 2023 
+--------------------------------------------------------------------------------------------------------------------------------------------
+1457.1 course_material/NeuronRain/LinuxKernelAndCloud/code/DigitalWatermarking.py has been updated to import image-quality and PIL python packages for image quality analysis(IQA).
+1457.2 New function def image_quality_analysis(imagefile,model_path,range_path) has been defined which reads an image file in OpenCV2 and PIL and computes variance of Laplacian (Divergence of Gradient) and BRISQUE image quality measures of the image from OpenCV2 and image-quality respectively. BRISQUE functions from https://github.com/opencv/opencv_contrib/tree/master/modules/quality have been commented as alternatives which requires opencv-contrib to be built as part of OpenCV2. IQA algorithms for image quality are precisely meant for what "merit" or qualitative assessment of a visual implies. On similar lines, merit of an audio requires an AQA (audio quality analysis). 
+1457.3 Function def watermark_image(imagefile=None, watermark=None, fileIO=False, img=None, alpha=0.2) has been rewritten to include new arguments img,alpha and fileIO to facilitate computation of multiple image overlays. Earlier implementation was restricted to watermarking of one image by the other by addWeighted() overlay which has been extended to multiple image overlay in this update. This rewrite chooses between an imagefile name or image ndarray passed to compute overlays and returns the overlay image ndarray. Returned overlay image ndarray can be watermarked iteratively with multiple images in succession.
+1457.4 Hardcoded blending parameter alpha has been made a function argument. BGRA to BGR downscaling has been commented to retain alpha channel as addWeighted() requires 4 in third axis. 
+1457.5 Two Lunar eclipse imagery dt.29 October 2023 from https://en.wikipedia.org/wiki/October_2023_lunar_eclipse shot from Bandung (Indonesia) and Kumbakonam (India) are IQA analysed for Laplacian blur and BRISQUE measure. BRISQUE requires download of yml files from https://github.com/opencv/opencv_contrib/tree/master/modules/quality/samples : 
+    image_quality_analysis("testlogs/29Oct2023_LunarEclipse_Bandung_Wikipedia.jpg","testlogs/brisque_model_live.yml","testlogs/brisque_range_live.yml")
+    image_quality_analysis("testlogs/29Oct2023_LunarEclipse_Kumbakonam_Wikipedia.jpg","testlogs/brisque_model_live.yml","testlogs/brisque_range_live.yml")
+1457.6 Four multimodal transport GIS images from https://cumta.tn.gov.in/ (Chennai Unified Metropolitan Transport Authority) have been overlaid in 3 consecutive calls to watermark_image() to create a multimodal overlay image testlogs/CMA_CUMTA_Overlay_Maps/metro_network_Watermarked.jpg. Most tools based on OpenStreetMap (OSMnx etc.,) focus mainly on road transport and overlaying the road transport with other modes of suburban transport gives a better estimate of multimodal density: 
+    overlayimg = watermark_image(
+        imagefile="testlogs/CMA_CUMTA_Overlay_Maps/metro_network.jpg", watermark="testlogs/CMA_CUMTA_Overlay_Maps/mtc_network.jpg")
+    overlayimg = watermark_image(
+        watermark="testlogs/CMA_CUMTA_Overlay_Maps/rail_network.jpg", fileIO=False, img=overlayimg)
+    overlayimg = watermark_image(
+        watermark="testlogs/CMA_CUMTA_Overlay_Maps/road_network.jpg", fileIO=False, img=overlayimg)
+    cv2.imwrite("testlogs/CMA_CUMTA_Overlay_Maps/metro_network_Watermarked.jpg", overlayimg)

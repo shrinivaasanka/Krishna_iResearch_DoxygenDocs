@@ -1,0 +1,47 @@
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+1
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+0
+Vertices:
+2
+Edges:
+2
+converging terms(terms with more than 1 parent):
+ 
+converging parents :
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+===============================================
+prevlevelsynsets:
+
+matching synset:
+
+At level:
+2
+tokens grasped at this level:
+
+removing tokens already grasped:
+
+Relatedness:
+1
+Vertices:
+14
+Edges:
+15
+Intrinsic merit of this document is:
+210.0
+Node with maximum parents (and hence the most likely class of document) is:
+eight

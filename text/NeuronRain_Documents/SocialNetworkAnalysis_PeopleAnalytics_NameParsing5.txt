@@ -1,0 +1,54 @@
+14/09/2019
+
+'[apache-modules] Urgent: Apache 1.3.27 question on absolute URI' - MARC
+
+[prev in list] [next in list] [prev in thread] [next in thread]
+
+List:
+Subject:
+From:
+Date:
+
+apache-modules
+[apache-modules] Urgent: Apache 1.3.27 question on absolute URI
+srinivasan kannan <kannan.srinivasan () sun ! com>
+2003-06-20 9:26:31
+
+[Download RAW message or body]
+Dear all,
+
+How do I get the absolute URI (scheme://host:port ...) of the request in
+apache 1.3.27 ? Is there an API for it ?
+Infact my problem is as below:
+I have a module which I have built for apache 1.3.27 . I want to use the
+same module without recompilation in apache-1.3.27 + mod_ssl. The
+problem comes here. I am using ap_http_method() to get the scheme of the
+request to distinguish secure and non-secure requests. But
+ap_http_method is a macro which is defined differently for EAPI using
+#ifdef. This creates the problem when I use the module as-is , without
+rebuilding, in apache+mod_ssl. All I need is a way to get the scheme of
+the request or atleast a way to get absolute URI so that I can do
+strncmp().
+thanks in advance
+K.Srinivasan
+--
+
+-------------------------------------------------------------I want to know how God created universe, rest are just details
+- Albert Einstein
+Ptolemy created a universe that existed for 1000 years;
+Copernicus created a universe that existed for 400 years;
+Now Einstein has created a universe;
+I don't know how long this will live
+- G.Bernard Shaw
+---------------------------------------------------------------
+
+--------------------------------------------------------------------To unsubscribe, e-mail: apache-modules-unsubscribe@covalent.net
+For additional commands, e-mail: apache-modules-help@covalent.net
+[prev in list] [next in list] [prev in thread] [next in thread]
+Configure | About | News | Add a list | Sponsored by KoreLogic
+
+https://marc.info/?l=apache-modules&m=105610024116012
+
+1/1
+
+

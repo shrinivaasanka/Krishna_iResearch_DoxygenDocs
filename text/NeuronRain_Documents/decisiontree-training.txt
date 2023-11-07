@@ -1,0 +1,10 @@
+Type1 Type2 Place1 Place2 Place3 Class
+nil Cyclone Earth Air Water Storms
+Tsunami Tremors Water Earth nil Earthquakes
+Asteroids nil Sky nil nil Celestial
+Comets nil Sky nil nil Celestial
+Hurricane nil Earth Air Water Storms
+Tornadoes nil Earth Air nil Storms
+Cyclone nil Earth Air Water Storms
+Tremors nil Earth nil nil Earthquakes
+Typhoon nil Earth Air Water Storms

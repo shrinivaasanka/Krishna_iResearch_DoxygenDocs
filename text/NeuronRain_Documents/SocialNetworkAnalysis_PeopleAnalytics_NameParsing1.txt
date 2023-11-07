@@ -1,0 +1,105 @@
+14/09/2019
+
+'[apache-modules] SEGV in ap_set_string_slot (apache 2.0.47)' - MARC
+
+[prev in list] [next in list] [prev in thread] [next in thread]
+
+List:
+Subject:
+From:
+Date:
+
+apache-modules
+[apache-modules] SEGV in ap_set_string_slot (apache 2.0.47)
+Kannan Srinivasan <Kannan.Srinivasan () Sun ! COM>
+2003-09-04 5:51:57
+
+[Download RAW message or body]
+Hi all,
+
+I am developing a C++ module. I am using ap_set_string_slot to populate
+server config structure. But I am getting a crash as below:
+t@1 (l@1) terminated by signal SEGV (no mapping at the fault address)
+0x00033998: ap_set_string_slot+0x000c: st
+%o2, [%o1 + %o3]
+(.../share/forte_dev,v6.2/SUNWspro/bin//../WS6U2/bin/sparcv9/dbx)
+where
+current thread: t@1
+=>[1] ap_set_string_slot(0x0, 0x0, 0xc9e88, 0x0, 0x0, 0xfec8265c), at
+0x33998
+[2] invoke_cmd(0xfde7c890, 0xffbefa68, 0x0, 0xb37f8, 0x79a70,
+0xc6519), at 0x329f8
+[3] ap_walk_config_sub(0x0, 0xffbefa68, 0xc62f8, 0x118, 0x118,
+0x93d10), at 0x33710
+[4] ap_walk_config(0xb37d8, 0xffbefa68, 0xc62f8, 0xc8380, 0x55,
+0xb2e78), at 0x337b4
+[5] virtualhost_section(0xffbefa68, 0x94378, 0xc8370, 0x43f58, 0x0,
+0xfe39aa98), at 0x44008
+[6] invoke_cmd(0x5a39c, 0xffbefa68, 0x94378, 0xb2e98, 0x79a70,
+0xff0000), at 0x329f8
+[7] ap_walk_config_sub(0x0, 0xffbefa68, 0x94268, 0xfe137ec8,
+0xff31eb94, 0xfec31fb0), at 0x33710
+[8] ap_walk_config(0xb2e78, 0xffbefa68, 0x94268, 0x6e538, 0xffffffff,
+0xffffffff), at 0x337b4
+[9] ap_process_config_tree(0x93ca0, 0x95810, 0x79a70, 0xa5b20, 0x0,
+0x0), at 0x342a8
+[10] main(0x93ca0, 0x79a70, 0xffbefbc8, 0x7085c, 0x0, 0x0), at 0x369dc
+My code snippet is as below:
+---------------------static command_rec config_lbplugin_cmds[] = {
+{"config-file", NULL,
+(void*)APR_OFFSETOF(APACHELBPLUGIN_SERVER_CONFIG, CONFIG_FILE_PATH),
+OR_ALL, TAKE1, "the lb.xml file"},
+{"locale", NULL,
+(void*)APR_OFFSETOF(APACHELBPLUGIN_SERVER_CONFIG, LOCALE), OR_ALL,
+TAKE1, "the locale"},
+{NULL,NULL, NULL, 0, cmd_how(0), NULL }
+};
+I initialise the cmd_func fields set to NULL above, inside
+register_hooks function as below. (This is a hack since it was refusing
+to compile under Forte 6.2 C++ compiler probably due to missing support
+of designated initializers).
+/* Register Hooks */
+static void apachelbplugin_register_hooks(apr_pool_t *p)
+{
+config_lbplugin_cmds[0].func.take1 = ap_set_string_slot;
+config_lbplugin_cmds[1].func.take1 = ap_set_string_slot;
+https://marc.info/?l=apache-modules&m=106265471724340&w=2
+
+1/2
+
+14/09/2019
+
+'[apache-modules] SEGV in ap_set_string_slot (apache 2.0.47)' - MARC
+
+ap_hook_post_config(apachelbplugin_init, NULL, NULL,
+APR_HOOK_FIRST);
+ap_hook_translate_name(apachelbplugin_name_trans, NULL, NULL,
+APR_HOOK_MIDDLE);
+ap_hook_handler(apachelbplugin_handle_req, NULL, NULL,
+APR_HOOK_LAST);
+}
+Appreciate any help in this regard
+
+thanks
+K.Srinivasan
+--
+
+-------------------------------------------------------------I want to know how God created universe, rest are just details
+- Albert Einstein
+Ptolemy created a universe that existed for 1000 years;
+Copernicus created a universe that existed for 400 years;
+Now Einstein has created a universe;
+I don't know how long this will live
+- G.Bernard Shaw
+---------------------------------------------------------------
+
+--------------------------------------------------------------------To unsubscribe, e-mail: apache-modules-unsubscribe@covalent.net
+For additional commands, e-mail: apache-modules-help@covalent.net
+[prev in list] [next in list] [prev in thread] [next in thread]
+Configure | About | News | Add a list | Sponsored by KoreLogic
+
+https://marc.info/?l=apache-modules&m=106265471724340&w=2
+
+2/2
+
+

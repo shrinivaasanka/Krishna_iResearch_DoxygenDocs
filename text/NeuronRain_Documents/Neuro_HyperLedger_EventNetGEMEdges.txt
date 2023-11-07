@@ -1,0 +1,4 @@
+(buyer1,seller1)
+(buyer2,seller2)
+(buyer3,seller3)
+(buyer4,seller4)

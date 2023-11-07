@@ -1,0 +1,6 @@
+Type1   Type2    Place1  Place2  Place3
+Tornadoes Hurricanes Air Water Earth
+Tremors  Tsunami nil Water  Earth
+Cyclone Temperature Earth Water Air
+Asteroids nil Sky nil nil
+Comets nil Sky nil nil

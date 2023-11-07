@@ -311,6 +311,11 @@ This problem is all the more serious in People Analytics where a person has to b
 
 Name Syllable based Unique Person Search (by scraping PIPL.com data) is described and PIPL.com python API search of similar persons is implemented in NeuronRain AstroInfer commit https://gitlab.com/shrinivaasanka/asfer-github-code/commit/d855882c3e8c2f97f6709c6f4a03728f95377ca1 (and in GitHub and SourceForge AstroInfer repositories). Contextual Name Parsing to parse First and Last Names from Full Name based on ID context has been implemented in NeuronRain AstroInfer commit https://gitlab.com/shrinivaasanka/asfer-github-code/commit/3ae9054a1311176c87304ed85e3835510657fc8b (and in GitHub and SourceForge AstroInfer repositories)
 
+References:
+----------
+834.1 IETF UUID RFC - Collision resistance and Unguessability - https://www.ietf.org/id/draft-ietf-uuidrev-rfc4122bis-02.html
+834.2 UUIDs and Cryptographically Secure Pseudorandom number generators - https://inst.eecs.berkeley.edu/~cs161/fa18/lectures/lec06_crypto_integrity.pdf 
+
 --------------------------------------------------------------------------------------------------------------------------------
 835. (THEORY and FEATURE) Unsorted Search - Kernel lifting and Computational Geometric search - 19 January 2018 - How would you find needle in haystack? - related to all sections on Computational Geometric Hyperplanar Point Location, Locality Sensitive Hashing and Shell Turing Machines
 --------------------------------------------------------------------------------------------------------------------------------
@@ -430,6 +435,10 @@ References:
 850.3. UNIX - [Maurice J.Bach - AT&T] - Page 396 - Monitors as Synchronization Primitives in Multiprocessor UNIX - Monitors differ from Semaphores by modularizing scope of critical section to subroutine and serializing access by processes.
 850.4. Operating Systems - [Milan Milenkovic - IBM Corporation] - pages 110-112 - Section 3.4.4 - Compare and Swap instruction in IBM 370 series - Global is copied to Oldreg local registers of interleaving concurrent processes P1,P2,...Pn. Each process computes the local copy of new value of Global in Newreg registers. Condition Oldreg == Global is checked in each process which guarantees Global has not been tampered with by other processes and condition codes are set. Only one process goes beyond this sanity check if condition is satisfied and updates the Global with Newreg local copy. All other processes fail the Global == Oldreg test because Global is updated by only one of the process by its Newreg, and all other local copies of processes are out of sync which branch to loop again to read new value of Global. Similarities to Train collision example earlier have to be noted - Both the trains have to simulate a local copy of the critical section information of the track which, for example, could be Global Positioning System (GPS) location of begin-end of critical section. 
 850.5. Operating Systems - [Silberchatz-Galvin-Gagne] - pages 197-200 - Section 7.3 - TestAndSet and Swap instructions (no comparison) - Synchronization Hardware
+850.6 Boost Lockfree Queue and Stack and ABA prevention - https://www.boost.org/doc/libs/1_78_0/doc/html/lockfree.html and https://www.boost.org/doc/libs/1_78_0/doc/html/lockfree/rationale.html#lockfree.rationale.aba_prevention
+850.7 Lockfree datastructure and Read-Copy-Update implementations - http://www.rossbencina.com/code/lockfree?q=~rossb/code/lockfree/
+850.8 Lockfree programming - https://www.cs.cmu.edu/~410-s05/lectures/L31_LockFree.pdf
+850.9 Rust Atomic Compare and Exchange - https://doc.rust-lang.org/beta/core/arch/x86_64/fn.cmpxchg16b.html - for cmpxchg16b x86_64 CPU compare-exchange atomic instruction.
 
 -------------------------------------------------------------------------------------------------------
 1 May 2020 - Insertion in numbered lists
@@ -716,3 +725,27 @@ A: Meanings of operators have been changed in all 4 identities:
 	7/8 = 7+8 = 15
 substituting in 100 - 10 * 1000 / 1000 + 100 * 10:
 	100 * 10 - 1000 + 1000 / 100 - 10 = 1000 - 1000 + 10 - 10 = 0 (option (a))
+
+------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) If 52 * 45 = 30, 73 * 21 = 23, 84 * 52 = 42, then 62 * 43 = ? - UPSC Civil Services - Mental ability - 10 April 2023
+------------------------------------------------------------------------------------------------------------------------
+Options: (a) 24 (b) 20 (c) 30 (d) 32
+Answer1 (based on alternating pattern): 
+         (1) 52 * 45 = 30 (2 composites multiplied)
+   	 (2) 73 * 21 = 23 (prime and a composite multiplied) - last digit of 73 and first digit of 21 form 23
+   	 (3) 84 * 52 = 42 (2 composites multiplied)
+   	 (4) 62 * 43 = 24 (prime and a composite multiplied) - last digit of 62 and first digit of 43 form 24 (option (a))
+Answer2 (based on arithmetic): 
+	 (1) 5*2 + 4*5 = 30
+         (2) 7*3 + 2*1 = 23
+         (3) 8*4 + 5*2 = 42
+         (4) 6*2 + 4*3 = 24 (option (a)) 
+
+-------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) The series of letters given under follow a definite order - Predict the next letter in the series - 20 April 2023
+		P Q U R Q R V S R S W T S T
+(UPSC Civil Services - Mental ability)
+-------------------------------------------------------------------------------------------------------------------------
+Options: (a) Q (b) U (c) W (d) X
+Series P Q U R Q R V S R S W T S T has the nested pattern (Q(not present in series) P Q) U (R Q R) V (S R S) W (T S T)
+Next element in the series is Option (d) X (next element in outer series U V W .....) 

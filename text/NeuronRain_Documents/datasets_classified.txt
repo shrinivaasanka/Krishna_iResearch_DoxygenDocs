@@ -1,0 +1,2 @@
+article id 11 is NaiveBayesMultiNomial-Classified in topic Earthquakes 
+article id 12 is NaiveBayesMultiNomial-Classified in topic Storms 

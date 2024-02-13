@@ -902,8 +902,8 @@ Personal website(research): https://sites.google.com/site/kuja27/ (Deleted becau
 
 **are owned by:**
 
-P.R.S.Kannan and Alamelu Kannan (alias Rukmini Kannan)
-[Dedicated to memory of late P.R.S.Kannan - https://twitter.com/ka_shrinivaasan/status/1504761670794883073]
+(Late) P.R.S.Kannan and (Late) Alamelu Kannan (alias Rukmini Kannan)
+[Dedicated to memory of late parents - https://twitter.com/ka_shrinivaasan/status/1504761670794883073 , https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/_Srinivasan%20Kannan_%20-%20_Google%20Scholar__files/photo.jpg]
 Emails: preskannan@gmail.com, alamelukannan1941@gmail.com
 
 Licensing 1 - Creative Commons 4.0 No Derivatives Non Commercial for NeuronRain Krishna_iResearch_DoxygenDocs SourceForge, GitHub and GitLab HTML/PDF documentations and Grafit Open Learning Course Notes (GRAFIT open learning course material includes all NeuronRain Design Documents which are frequently updated commentaries on NeuronRain code commits and related theory) : https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/Creative%20Commons%20%E2%80%94%20Attribution-NonCommercial-NoDerivatives%204.0%20International%20%E2%80%94%20CC%20BY-NC-ND%204.0.html (replicated in SourceForge and GitLab)

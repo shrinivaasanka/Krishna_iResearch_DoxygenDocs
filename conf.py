@@ -15,7 +15,7 @@
 # -- Project information -----------------------------------------------------
 
 project = "Krishna iResearch - NeuronRain documentation"
-copyright = "2023 K.Srinivasan"
+copyright = "2024 K.Srinivasan"
 author = "K.Srinivasan"
 
 

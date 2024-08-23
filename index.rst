@@ -1,10 +1,5 @@
-###############################################################################################################################
-** NEURONRAIN AI **
-###############################################################################################################################
-
-###############################################################################################################################
-** நஂயூரானஂரெயஂனஂ **
-###############################################################################################################################
+NEURONRAIN AI ------- நஂயூரானஂரெயஂனஂ 
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 .. image:: Krishna_iResearch-logos.jpeg
 
@@ -85,15 +80,15 @@ Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab 
 
 1544. NeuronRain AI - some apps in NeuronRain repositories that might work standalone:
 --------------------------------------------------------------------------------------
-(*) PRICKET - Parallel version of Cricket as academic gadget for PSPACE-completeness
+(*) **PRICKET** - Parallel version of Cricket as academic gadget for PSPACE-completeness
 
-(*) DRONA - Concept Drone code for Electronic Voting Machine and Autonomous Delivery among others 
+(*) **DRONA** - Concept Drone code for Electronic Voting Machine and Autonomous Delivery among others 
 
-(*) NEUTON (Neuron+Automaton) - AI Music Synthesizer based on WFA-RNN
+(*) **NEUTON** (Neuron+Automaton) - AI Music Synthesizer based on WFA-RNN
 
-(*) NACHIKETAS - Formal LLM alternative to statistical LLMs
+(*) **NACHIKETAS** - Formal LLM alternative to statistical LLMs
 
-(*) NEURO - academic cryptocurrency proof-of-work rig and hyperledger implementation
+(*) **NEURO** - academic cryptocurrency proof-of-work rig and hyperledger implementation
 
 
 1333. NeuronRain - VIRGO linux kernel system calls and drivers :

@@ -490,3 +490,80 @@ References:
 ----------
 1403.5 Survey of Set Intersection algorithms for ordered datasets - http://www.cs.toronto.edu/~tl/papers/fiats.pdf - Baeza-Yates and Adaptive set intersection algorithms
 1403.6 Disjoint-Set Union datastructure for sets - http://staff.ustc.edu.cn/~csli/graduate/algorithms/book6/chap22.htm - sets are often represented by union of disjoint sets which has profound applications including finding connected components of a graph. Intersection of two sets represented as disjoint set union could be defined as recurrence: Find subsetwise intersection of disjoint set union of the two sets and unite them. 
+
+-----------------------------------------------------------------------------------------------------------------------------
+1461. (THEORY and FEATURE) Fitting data to a distribution - SciPy Stats fit() distributions - 4 December 2023 - a multipurpose
+utility implementation in Python3.11 for all bigdata sets of NeuronRain 
+-----------------------------------------------------------------------------------------------------------------------------
+1461.1 Utility Python 3.11 script code/FitDist.py has been added to NeuronRain Grafit repositories to fit an arbitrary numeric dataset into predefined probability distributions in scipy.stats by function scipy.stats.fit()
+1461.2 Function fit_distribution() enumerates the members of scipy.stats by inspect.getmembers() and checks if the members are instances of rv_discrete or rv_continuous base class and invokes scipy.stats.fit() on the member function and the fit is plotted by matplotlib.pyplot - distribution functions are subclassed from rv_discrete and rv_continuous.      
+1461.3 Example fits and their parameters of a data array for few distributions is at code/logs/FitDist.log.4December2023
+
+References:
+-----------
+1461.4 SciPy Stats fit() - https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.fit.html
+1461.5 Python 3.11 inspect - https://docs.python.org/3/library/inspect.html
+
+------------------------------------------------------------------------------------------------------------------------------
+1477. (THEORY and FEATURE) OS Scheduling and Hashing Dynamic Sets - Python 3.11 implementation of Survival Index Deadline Scheduler - Rewrite to include CPU workqueue data from kernel systrace - related to 751,1354,1357 and all sections on Set partitions, Computational geometry, Program analysis/Software analytics/Scheduler Analytics among other topics in NeuronRain Theory Drafts, Sun Microsystems-Oracle-Global Analytics Patent Disclosures and Timeout implementations, Machine Learning enabled VIRGO Linux Kernel for Massive Datasets on Cloud 
+------------------------------------------------------------------------------------------------------------------------------
+1477.1 course_material/Programming/Python/code/SurvivalIndexScheduler.py has been refactored to integrate linux kernel workqueue system trace information into Survival Index dynamic hashmap.
+1477.2 Two subprocess.run() invocations write kernel workqueue into flat file ./workqueue_trace which is parsed to populate 2 dictionaries mapping CPU_ID ---- WORKQUEUE (cpuwqdict) and PROCESS_ID ---- CPU_ID (pid2cpudict). 
+1477.3 The main datastructure dynamic_hashmap_dict has been changed to include cpu_id as SURVIVAL_INDEX ---- (PROCESS_ID, CPU_ID) and written to ./virgo_kernel_analytics.conf instead of /etc/virgo_kernel_analytics.conf - CPU_ID is obtained by looking up the cpu_id for a process_id in pid2cpudict. 
+1477.4 An example execution is logged to logs/SurvivalIndexScheduler.log1.30January2024.xz (compressed) and logs/SurvivalIndexScheduler.log2.30January2024
+1477.5 This implementation is only a prototype concept userspace OS scheduler which could assist the kernelspace scheduler and might be changed significantly as necessary. Due to synchronization lag between threads and context switch issues which are unpredictable, execution has to be prolonged to get the desired behaviour to coordinate all the datastructures populated by multiple threads and sometimes the CPU information could be blank because kernel systrace (which is obtained by loop in a thread) returns none.
+1477.6 If the scheduling policy is not DLN (SCHED_DEADLINE where deadline is the survival index timeout), deadline defaults to sys.maxsize. 
+1477.7 As can be observed from virgo_kernel_analytics.conf process 6002 has been migrated between cpu 001 and cpu 002 and process 6009 has been migrated between cpu 000 and cpu 002 after elapse of some survival index clockticks:
+9223372036854775612 ---- [('5992', '')]
+9223372036854775639 ---- [('6002', '[001]')]
+9223372036854775696 ---- [('6007', '')]
+9223372036854775755 ---- [('6008', '')]
+9223372036854775807 ---- [('6009', '[000]')]
+ ---------------------------------------------
+9223372036854775807 ---- [('5992', '')]
+ ---------------------------------------------
+9223372036854775807 ---- [('5992', '')]
+ ---------------------------------------------
+9223372036854775604 ---- [('5992', '')]
+9223372036854775807 ---- [('6002', '[002]')]
+ ---------------------------------------------
+9223372036854775441 ---- [('5992', '')]
+9223372036854775644 ---- [('6002', '[002]')]
+9223372036854775807 ---- [('6007', '')]
+ ---------------------------------------------
+9223372036854775265 ---- [('5992', '')]
+9223372036854775468 ---- [('6002', '[002]')]
+9223372036854775631 ---- [('6007', '')]
+9223372036854775807 ---- [('6008', '')]
+ ---------------------------------------------
+9223372036854775019 ---- [('5992', '')]
+9223372036854775222 ---- [('6002', '[002]')]
+9223372036854775385 ---- [('6007', '')]
+9223372036854775561 ---- [('6008', '')]
+9223372036854775807 ---- [('6009', '[002]')]
+
+-------------------------------------------------------------------------------------------------------------------------------
+Array Equality in Python - Python 3.9 code example - 15 March 2024
+-------------------------------------------------------------------------------------------------------------------------------
+Code example code/ArrayEquality.py demonstrates how python equality operator works on array objects (despite having same elements) and when ordering is important(requires sorting to be equal). From code/logs/ArrayEquality.log.15March2024 - few integer and char arrays are compared for equality:
+arrays: [1, 2, 3, 4, 5]  and  [3, 2, 1, 5, 4]  are unequal
+arrays: [1, 2, 3, 4, 5]  and  [1, 2, 3, 4, 5]  are equal after sorting
+arrays: [1, 2, 3, 4, 5]  and  [1, 2, 3, 4, 5]  are equal
+arrays: [1, 2, 3, 4, 5]  and  [1, 2, 3, 4, 5]  are equal after sorting
+arrays: ['a', 'b', 'c', 'd', 'e']  and  ['b', 'c', 'd', 'a', 'e']  are unequal
+arrays: ['a', 'b', 'c', 'd', 'e']  and  ['a', 'b', 'c', 'd', 'e']  are equal after sorting
+
+------------------------------------------------------------------------------------------------------------------------------
+Updating a container within loop - Python 3.12 code example - 3 May 2024
+------------------------------------------------------------------------------------------------------------------------------
+Code example code/DynamicLoopUpdate.py implements a function update_container_within_loop() which updates either a list or 2-dimensional dictionary within a loop. Updating a list is deletion of element in loop while for 2D dictionary every array value is multiplied by 2 which is equivalent to concatenating the array by a copy of itself (x*2 = x + x) similar to NumPy array broadcast. Logs code/logs/DynamicLoopUpdate.log.3May2024 walkthrough the container updates.
+
+-----------------------------------------------------------------------------------------------------------------------------
+Dictionary split, update and merge - Python 3.12 dictionary merge operator - 9 October 2024
+-----------------------------------------------------------------------------------------------------------------------------
+New code example code/DynamicDictUpdate.py demonstrates (*) splitting of a python dictionary D of size 5 mapping integer to arrays into 2 dictionaries D1 and D2 of equal size (*) splitting the last key of D1 into two keys by halving the value array (*) Updating the keys of D2 by incrementing (*) merging D1 and D2 back again by dict merge operator to get a larger dictionary D of size 6. This code example is the python equivalent of text editor puzzle in course_material/ComputerScienceMiscellaneous/ComputerScienceMiscellaneous_CourseNotes.txt in following commits:
+	https://github.com/shrinivaasanka/Grafit/commit/cc13b3f1363a3fee1482564379218bdca54e4f24
+	https://gitlab.com/shrinivaasanka/Grafit/-/commit/eb3e3013fe8c878fa3ee72e461627e292edc7fc6
+	https://sourceforge.net/u/ka_shrinivaasan/Grafit/ci/fcc02855c5479887f6d52490a09690b8535b57d7/
+Logs logs/DynamicDictUpdate.log.9October2024 show contents of dictionaries D,D1,D2 before and after split,insertion and merger. List comprehension for incrementing keys of D2 is of linear time.
+

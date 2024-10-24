@@ -91,3 +91,53 @@ References:
 ----------
 1446.6 Rust Rayon Iterator ParallelBridge - par_bridge() - https://docs.rs/rayon/latest/rayon/iter/trait.ParallelBridge.html - "..... This creates a “bridge” from a sequential iterator to a parallel one, by distributing its items across the Rayon thread pool. This has the advantage of being able to parallelize just about anything, but the resulting ParallelIterator can be less efficient than if you started with par_iter instead. However, it can still be useful for iterators that are difficult to parallelize by other means, like channels or file or network I/O....."
 1446.7 Approximation of Prime omega functions - Big Omega and Little Omega - by Riemann Zeta Function, Dirichlet Series and Hardy-Wright summatory - https://en.wikipedia.org/wiki/Prime_omega_function
+
+----------------------------------------------------------------------------------------------------------------
+1519. (JIRA,THEORY and FEATURE) Computational Geometric Factorization - High Performance Computing implementation for Supercomputers - Rayon Parallel iterator Rasterization or rectification of hyperbolic arc and Factor point location in Rust- Sequential and Parallel versions - multiple consecutive integers - correction to loop range and some consecutive integers benchmarks - related to 1383,1384,1385 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition - 28 May 2024 
+----------------------------------------------------------------------------------------------------------------
+1519.1 course_material/Programming/Rust/rasterization/Cargo.lock has been automatically regenerated after adding bigdecimal::BigDecimal dependecy to Cargo.toml
+1519.2 course_material/Programming/Rust/rasterization/src/main.rs has been updated to correct the loop range 1..range to 0..range as first integer was skipped. 
+1519.3 BigDecimal datatype was tried by replacing i64 datatype throughout (https://docs.rs/bigdecimal/latest/bigdecimal/) to investigate its compatibility with Rust Rayon ParallelIterator and Rayon ParallelIterator.foreach(|item,iter|) doesn't yet support BigDecimal causing a compilation error. 
+1519.4 Few consecutive integer ranges for small and big integers have been factorized and time duration benchmarks are logged to(logs for 59 bits integer - all 9s - are truncated to print first few hundred factors):
+	rasterization/src/logs/rasterization.log.28May2024
+	rasterization/src/logs/rasterization.log2.28May2024
+	rasterization/src/logs/rasterization.log3.28May2024
+1519.5 This update resolves JIRA issue https://krishnairesearch.atlassian.net/browse/NEUR-39 
+
+--------------------------------------------------------------------------------------------------------------------------------
+1520. (THEORY and FEATURE) Neuro Cryptocurrency - Copy versus Move semantics in Rust - 30 May 2024 - related to 1213,1215,1217,1221,1226,1227 and all sections on Set Partitions and Histogram Analytics, Merit of Large Scale Visuals, GIS Urban Sprawl Analytics - minimum rectangular bounding box of an urban sprawl, Computational Geometric Integer Factorization,Neuro Cryptocurrency Proof-Of-Work Hardness,Economic Merit,Poverty Alleviation,Money Changing Problem,Integer Linear Programming,Pell Diophantine for Factorization
+--------------------------------------------------------------------------------------------------------------------------------1520.1 Code example move_semantics/src/main.rs demonstrates the Rust move semantics in the context of zero-copy singleton Neuro cryptocurrency so as to ensure there exists only one globally unique instance of a currency unit in a transaction - described in Section 808 as natural implementation choice for electronic voting machines and an alternative to C++ based Neuro protocol buffer crytocurrency move semantics - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/index.rst .
+1520.2 Rust has the default behaviour of moving the data block allocated on heap during an assign operation that causes rvalue to lose its ownership to lvalue automatically which is the counterpart of std::move() in C++. Any reference (called "borrow") after ownership move is rendered illegal. 
+1520.3 Such a move by default prevents the scenario described in Figure 4.2 of https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html which could end in a double-free by which both rvalue and lvalue invoke heap drop() on end of scope - Following code simulates a universal buy-sell pattern by moving a Neuro currency UUID denomination of 100:
+	let buyer2 = String::from("ff20a894-a2c4-4002-ac39-93d053ea3020:100");
+	println!("Before buying - buyer2 has {} Neuros",buyer2);
+    	let seller2 = buyer2;
+    	println!("Move of Neuro cryptocurrency - Seller2 receives {}",seller2);
+	println!("This won't compile - After buying - buyer2 has {}",buyer2);
+1520.4 Last line would fail with cargo run compile error explaining the reason for opting a move instead of copy (rustc --explain E0382) that points to how on-stack reference to heap currency held by buyer2 is moved to seller2 atomically invalidating copy of on-stack reference to heap currency held by buyer2:
+error[E0382]: borrow of moved value: `buyer2`
+  --> src/main.rs:12:66
+   |
+8  |     let buyer2 = String::from("ff20a894-a2c4-4002-ac39-93d053ea3020:100");
+   |         ------ move occurs because `buyer2` has type `String`, which does not implement the `Copy` trait
+9  |     println!("Before buying - buyer2 has {} Neuros",buyer2);
+10 |     let seller2 = buyer2;
+   |                   ------ value moved here
+11 |     println!("Move of Neuro cryptocurrency - Seller2 receives {}",seller2);
+12 |     println!("This won't compile - After buying - buyer2 has {}",buyer2);
+   |                                                                  ^^^^^^ value borrowed here after move
+   |
+   = note: this error originates in the macro `$crate::format_args_nl` which comes from the expansion of the macro `println` (in Nightly builds, run with -Z macro-backtrace for more info)
+help: consider cloning the value if the performance cost is acceptable
+   |
+10 |     let seller2 = buyer2.clone();
+   |                         ++++++++
+
+For more information about this error, try `rustc --explain E0382`.
+error: could not compile `move_semantics` (bin "move_semantics") due to 1 previous error
+1520.5 Above atomic move of currency in buy-sell is protected to be error-free by inherent design of Rust and is a prerequisite for singleton atomic buy-sell cryptocurrency transactions.
+1520.6 It can be noted that primitive integer datatype assignments implicitly do a copy and not a move as gleaned from logs move_semantics/src/testlogs/neuro_move_semantics.log.30May2024:
+	Before buying - buyer1 has 10 Neuros
+	Seller1 receives 10 Neuros
+	Copy of Neuro cryptocurrency - After buying - buyer1 has 10 Neuros
+

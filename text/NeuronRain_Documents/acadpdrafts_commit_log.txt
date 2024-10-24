@@ -1,0 +1,79 @@
+commit 3e73edc6b930a91a99a324943ac7ce17cbff9a90
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Fri Sep 26 13:33:11 2014 +0530
+
+    Added --partial flag (-P) to rsync commandline for download resume
+
+commit 32d73c0d307809f445c717ed0f38e89204d62b2c
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Mon Jun 23 07:29:13 2014 +0530
+
+    Code for Interview Algorithm and Intrinsic Merit in publications:
+    1. http://arxiv.org/abs/1006.4458
+    2. http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf
+
+commit f740e75c1f1727f1bfd6162a30d07670e9ea8632
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Sun Jun 22 21:22:57 2014 +0530
+
+    Code for Discrete Hyperbolic Factorization (Sequential algorithm only) Drafts :
+    1. http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_rectangular_interpolation_search_and_StirlingFormula_Upperbound.pdf/download
+    2. http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound.pdf/download
+    3. http://sourceforge.net/p/asfer/code/HEAD/tree/ImplementationDesignNotesForDiscreteHyperbolicFactorizationInPRAM.jpg
+
+commit 516357fe9bc0460253202547fff81729f53a7460
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Sun Jun 22 21:20:07 2014 +0530
+
+    Python code for:
+    1. Decidability of Complement Function (During PhD 2011) - http://arxiv.org/abs/1106.4102
+    (can be optionally enhanced with functional programming for lamda calculus part)
+
+commit f3eb33349e6c8505a45a12f75c5b11fedb565144
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Sun Jun 22 21:13:32 2014 +0530
+
+    Code for publications and drafts (Algorithms for Intrinsic Merit- Master's thesis - 2010 and TAC 2010):
+    1. http://arxiv.org/abs/1006.4458
+    2. https://sites.google.com/site/kuja27/TAC2010papersubmission.pdf?attredirects=0
+    3. http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf
+    4. https://sites.google.com/site/kuja27/InterviewAlgorithmInPSPACE.pdf?attredirects=0
+    5. https://sites.google.com/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting_2014.pdf?attredirects=0&d=1
+    6. https://sites.google.com/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf?attredirects=0
+
+commit c09a74cd8379772947e5727780ad7d054b23527f
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Sun Jun 22 10:30:37 2014 +0530
+
+    Crawler script to download all the files uploaded to acadpdrafts project
+
+commit 0e7f270a38940be2032b343ca2af307ebc8ba89a
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Mon Mar 24 21:42:39 2014 +0530
+
+    Krishna iResearch Open Source Products HighLevel Architecture Diagram (updated for KingCobra persistence and some mysterious typo in virgo_set twice
+    What the F..)
+
+commit c2ab37072c28c36f5e9477c2e96a06afa8234093
+Author: Srinivasan Kannan <ka.shrinivaasan@gmail.com>
+Date:   Sun Mar 23 10:11:56 2014 +0530
+
+    Krishna iResearch OpenSource Products HighLevel Architecture Diagram (AsFer, USBmd, VIRGO, Acadpdrafts, KingCobra)
+
+commit b6a177cb87e44290396bc713fb3eb3361208a3ec
+Author: KaShrinivaasan <kashrinivaasan@kashrinivaasan-Inspiron-1545.(none)>
+Date:   Sat Aug 24 14:36:42 2013 +0530
+
+    Updated RSync script with # prepended in GNU copyright license
+
+commit af863c9afae915c28071a0096a39cde9b5d5a7bf
+Author: KaShrinivaasan <kashrinivaasan@kashrinivaasan-Inspiron-1545.(none)>
+Date:   Sat Aug 24 14:19:51 2013 +0530
+
+    Updated rsync commandline for remote URL
+
+commit 349db4daf84bd61cb0681701c696c2b6aca7a610
+Author: KaShrinivaasan <kashrinivaasan@kashrinivaasan-Inspiron-1545.(none)>
+Date:   Mon Aug 19 18:31:30 2013 +0530
+
+    RSYNC SSH script for file upload

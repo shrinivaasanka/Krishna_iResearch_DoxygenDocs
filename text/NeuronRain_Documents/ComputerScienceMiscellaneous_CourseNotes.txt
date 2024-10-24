@@ -749,3 +749,38 @@ Answer2 (based on arithmetic):
 Options: (a) Q (b) U (c) W (d) X
 Series P Q U R Q R V S R S W T S T has the nested pattern (Q(not present in series) P Q) U (R Q R) V (S R S) W (T S T)
 Next element in the series is Option (d) X (next element in outer series U V W .....) 
+
+-------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) Sublinear algorithm for dynamic increment of keys of a dictionary after insertion of additional element - Text editing example - 9 October 2024
+--------------------------------------------------------------------------------------------------------------------------
+Q: Consider an example dictionary of size 5 mapping five consecutive integers to arrays. An additional element is inserted to
+the dictionary after second element by splitting the value of second element. This requires incrementing the key of all elements following the split which is O(N). Is there a better sublinear algorithm?
+----------------- 
+Possible answer1: 
+-----------------
+Example dictionary mapping consecutive integers to arrays:
+1 ---- [1,2,3,4,5]
+2 ---- [5,6,7,8,9,10]
+3 ---- [3,4,5,6]
+4 ---- [6,1,2,3,4]
+5 ---- [4,5,2,1,1]
+
+Value array of key 2 is split into two and another element with key 3 is added and all keys after 3 have to be iteratively incremented to preserve consecutive ordering:
+1 ---- [1,2,3,4,5]
+2 ---- [5,6,7] [<---- Split into two arrays [5,6,7] and [8,9,10]]
+3 ---- [8,9,10] [<----- New element inserted mapping key 3 to [8,9,10] after split of array mapped to key 2]
+4 ---- [3,4,5,6] [<----- old key 3 incremented by 1 to 4]
+5 ---- [6,1,2,3,4] [<---- old key 4 incremented by 1 to 5]
+6 ---- [4,5,2,1,1] [<---- old key 5 incremented by 1 to 6]
+
+Earlier problem is an oft-repeated pattern in text document editing where there are multiple sections numbered consecutively. When a paragraph for a section N has to be edited and split into 2 sections N and N+1 , all sections following N+1 have to be renumbered by manual incrementing. Programmatic version of earlier problem is rather straightforward by (*) splitting the dictionary D into two dictionaries D1 and D2 at the split location (*) considering the keys of D2 as variable expressions of the form: <New key> := <Old key> + <number of elements in the split> - 1 which instantaneously propagates the increment to all elements of D2 in O(1) time (*) Merge D1 and D2 back again - Example: Python dictionary merge operator - https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-in-python - Python 3.12 dictionary merge operator "|" - example:
+Python 3.12.3 (main, Sep 11 2024, 14:17:37) [GCC 13.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x={}
+>>> y={1:2}
+>>> x={3:4}
+>>> z=x|y
+>>> z
+{3: 4, 1: 2}
+
+But the text editing version of earlier problem is still non-trivial as it might require macros in editors to instantaneously propagate section number changes.

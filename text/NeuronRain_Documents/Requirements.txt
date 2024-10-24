@@ -11,7 +11,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 7. R-Python (rpy2)
 8. Maitreya's Dreams 8 (for ephemeris and text client)
 9. Hadoop
-10. Spark 2.4.3, Spark 3.0.1 and pyspark client
+10. Spark 2.4.3, Spark 3.0.1, Spark 3.5.x and pyspark client
 11. Hive and Hive Client(thrift or pyhs2)
 12. Cassandra and Cassandra Cluster client
 13. HBase and HBase client (happybase)
@@ -58,7 +58,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 54. Python transaction 2.1.2
 55. OpenSSL development libraries for C++
 56. DictDiffer - https://github.com/inveniosoftware/dictdiffer
-57. Python 2.7.x, 3.4, 3.6, 3.7.5, 3.8.5, 3.9.0, 3.11
+57. Python 2.7.x, 3.4, 3.6, 3.7.5, 3.8.5, 3.9.0, 3.11, 3.12
 58. Facebook SDK for Python 3.4
 59. Empath (https://arxiv.org/pdf/1602.06979.pdf)
 60. Scikit-Learn
@@ -177,3 +177,27 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 173. runqueuelat - Runqueue latency tool 
 174. BPF/bcc-tools - https://github.com/iovisor/bcc
 175. perf - https://perf.wiki.kernel.org/index.php/Main_Page
+176. eBPF bpftrace - https://github.com/iovisor/bpftrace
+177. PyTorch
+178. REBEL relation extraction - transformers
+179. TomTom traffic - Developer account and API key
+180. (Optional) HERE traffic - Developer account and API key-Bearer token
+181. pygobject for playsound
+182. Python 3.12 virtualenv installation
+183. Flair NLP + Python 3.9 + PyTorch for opinion sentiment analysis 
+184. DDSketch - https://github.com/DataDog/sketches-py/blob/master/ddsketch/ddsketch.py
+185. bsedata - https://bsedata.readthedocs.io/en/latest/
+186. PyKAN - https://kindxiaoming.github.io/pykan/kan.html
+187. PySINDy - https://pysindy.readthedocs.io/
+188. OpenAI (optional) - https://github.com/openai/openai-python
+189. httpx - dependency for many other tools - https://www.python-httpx.org/
+190. PySynth - https://mdoege.github.io/PySynth/
+191. FlightRadar24API - https://pypi.org/project/FlightRadarAPI/
+192. pyflightdata - https://pyflightdata.readthedocs.io/en/latest/
+193. Dynetx - https://dynetx.readthedocs.io/
+194. Pretty-MIDI - https://github.com/craffel/pretty-midi
+195. (Optional) Access to LLM Question-Answering models (e.g Meta AI-Llama 3, ChatGPT, Claude AI) - for more up-to-date datasets on population dynamics (NOTE: There is a significant difference between search engine results and LLM results for same query and LLM models make computational inferences based on queries unlike search engines)
+196. SpaCy - https://github.com/explosion/spaCy 
+197. pyplexity - https://pypi.org/project/pyplexity/ 
+198. spacy_component for REBEL - has to be source downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py - pip install not available 
+199. Higuchi Fractal Dimension - for timeseries data - https://github.com/inuritdino/HiguchiFractalDimension

@@ -145,3 +145,35 @@ a[2] : 18
 (a[2] == 2[a]) + a[2] : 19
 a[2] : 18 
 -----------------------
+
+----------------------------------------------------------------------------------------------------------------------
+(CODE PUZZLE) Implement looping without goto statement and for-while loop constructs - 17 September 2024
+----------------------------------------------------------------------------------------------------------------------
+For implementing loops for,while and goto control statements are indispensable. Can loop be simulated without use of these three constructs - Code fragment code/coroutineloop.c tries to answer that by defining two coroutines loop() and loop2() which mutually call one another and decrement value of an integer variable till counter is decremented to zero. These two coroutines simulate behaviour of for-while-goto statements. Variable and counters are passed by pointer-reference to loop() and loop2(). An example loop for incrementing variable of value 1000 by 10 is shown in logs/coroutineloop.log.17September2024 [simulates for(int i=1000;i <= 1010;i++)]
+-------------------
+loop(): *count = 10
+loop(): *variable = 1000
+loop2(): count = 9
+loop2(): *variable = 1001
+loop(): *count = 8
+loop(): *variable = 1002
+loop2(): count = 7
+loop2(): *variable = 1003
+loop(): *count = 6
+loop(): *variable = 1004
+loop2(): count = 5
+loop2(): *variable = 1005
+loop(): *count = 4
+loop(): *variable = 1006
+loop2(): count = 3
+loop2(): *variable = 1007
+loop(): *count = 2
+loop(): *variable = 1008
+loop2(): count = 1
+loop2(): *variable = 1009
+loop(): *count = 0
+loop(): *variable = 1010
+loop(): returning *variable = 1010
+count decremented after coroutine looping : 0
+variable incremented after coroutine looping : 1010
+----------------------------------------------------

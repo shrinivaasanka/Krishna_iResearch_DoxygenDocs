@@ -76,7 +76,7 @@ KINGCOBRA64 - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Mess
 
 1332. NeuronRain Version:
 --------------------------
-Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Periodicity of source code releases is not constant and depends on importance of commits. Latest NeuronRain Research, Green and Antariksh version is 2024#11#1.
+Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Periodicity of source code releases is not constant and depends on importance of commits. Latest NeuronRain Research, Green and Antariksh version is 2024#12#3.
 
 1544. NeuronRain AI - some apps in NeuronRain repositories that might work standalone:
 --------------------------------------------------------------------------------------
@@ -90,7 +90,7 @@ Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab 
 
 (*) **NEURO** - academic cryptocurrency proof-of-work rig and hyperledger implementation
 
-(*) **VARUNA** - N-Body gravitational acceleration long range weather forecast and climate model (different from IFS and GFS standard 5-day forecast models - focuses on how variable gravity caused by solar system bodies affects Navier-Stokes equation, humidity and pressure)  
+(*) **VARUNA** - N-Body gravitational acceleration long range weather forecast and climate model (different from IFS and GFS standard 5-day forecast models though N-Body variable gravity could be vector-added to ECMWF height variable gravity - focuses on how variable gravity caused by solar system bodies affects Navier-Stokes equation pressure gradient, humidity, barometric pressure - linear angular separations between planets are inversely proportional to cubical polynomial of gravity)  
 
 (*) **VAHANA** - Conceptual Grid Lattice walks based Advanced Driver Assistance System (ADAS) obstacle avoidance algorithm for Autonomous Vehicles - carriageway is covered by discrete square grids and obstacles are sensed by LiDAR - Sections 1293,1294 and while loop in Section 854.59  
 

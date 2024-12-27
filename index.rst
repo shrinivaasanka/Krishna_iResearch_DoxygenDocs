@@ -76,7 +76,7 @@ KINGCOBRA64 - VIRGO Linux Kernel accessory - NeuronRain Kernelspace Pub-Sub Mess
 
 1332. NeuronRain Version:
 --------------------------
-Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Periodicity of source code releases is not constant and depends on importance of commits. Latest NeuronRain Research, Green and Antariksh version is 2024#12#3.
+Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab was snapshotted periodically by a version number convention <year>.<month>.<day>. Because total number of repositories in NeuronRain spread across SourceForge, GitHub and GitLab is huge, release tagging each repository is arduous and therefore individual repository source tagging is hereinafter discontinued. Every NeuronRain source code release for SourceForge,GitHub and GitLab repositories henceforth would be notified in this documentation page and latest commit on the date of release (inferred from <year>#<month>#<day>) has to be construed as the latest source release. Periodicity of source code releases is not constant and depends on importance of commits. Latest NeuronRain Research, Green and Antariksh version is 2024#12#27.
 
 1544. NeuronRain AI - some apps in NeuronRain repositories that might work standalone:
 --------------------------------------------------------------------------------------
@@ -95,7 +95,7 @@ Previously, each NeuronRain repository source in SourceForge, GitHub and GitLab 
 (*) **VAHANA** - Conceptual Grid Lattice walks based Advanced Driver Assistance System (ADAS) obstacle avoidance algorithm for Autonomous Vehicles - carriageway is covered by discrete square grids and obstacles are sensed by LiDAR - Sections 1293,1294 and while loop in Section 854.59  
 
 
-1333. NeuronRain - VIRGO linux kernel system calls and drivers :
+1333. NeuronRain - VIRGO linux kernel system calls :
 ----------------------------------------------------------------
 **VIRGO system calls from include/linux/syscalls.h**
 
@@ -118,6 +118,8 @@ asmlinkage long sys_virgo_write(long vfsdesc, const char __user *data_in, int si
 asmlinkage long sys_virgo_close(long vfsdesc);
 
 
+1569. NeuronRain - VIRGO linux kernel drivers :
+----------------------------------------------------------------
 **VIRGO Kernel Modules in drivers/virgo**
 
 1. cpupooling virtualization - VIRGO_clone() system call and VIRGO cpupooling driver by which a remote procedure can be invoked in kernelspace.(port: 10000)
@@ -273,15 +275,29 @@ also refer to implementations in previous NeuronRain GitHub, GitLab and Sourcefo
         (*) GitHub Virtual Classroom for GRAFIT - https://classroom.github.com/classrooms/8086998-https-github-com-shrinivaasanka-grafit
         (*) GRAFIT course material in Moodle - https://moodle.org/pluginfile.php/4765687/user/private/Grafit-master.zip?forcedownload=1
 
-1473. BRIHASPATHI - Private Virtual Classrooms and JAIMINI Closed Source Private Repositories:
-----------------------------------------------------------------------------------------
-GitHub - Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,…) and JAIMINI Closed Source Derivative of NeuronRain - https://github.com/Brihaspathi - requires GitHub student logins
+-------------------------------------------------------------------------------------------------------------
+1473. BRIHASPATHI - Private Virtual Classrooms and JAIMINI-NeuronRainAIXT Closed Source Private Repositories:
+-------------------------------------------------------------------------------------------------------------
+Atlassian BitBucket - https://bitbucket.org/ka_shrinivaasan/ (NeuronRain repositories imported as course material supplement to BRIHASPATHI - https://github.com/Brihaspathi - Virtual classrooms)
+
+-------
+JAIMINI
+-------
+GitHub - Private repositories of virtual classrooms for various commercial online courses (BigData, Machine Learning, Topics in Mathematics and Computer Science,…) and JAIMINI Closed Source Derivative of NeuronRain - https://github.com/Brihaspathi/jaimini 
 
 SourceForge - https://sourceforge.net/projects/jaimini/
 
 GitLab - https://gitlab.com/shrinivaasanka/jaimini
 
-Atlassian BitBucket - https://bitbucket.org/ka_shrinivaasan/ (NeuronRain repositories imported as course material supplement to BRIHASPATHI - https://github.com/Brihaspathi - Virtual classrooms)
+--------------
+NeuronRainAIXT
+--------------
+GitHub - https://github.com/Brihaspathi/NeuronRainAIXT
+
+SourceForge - https://sourceforge.net/p/neuronrainaixt/code/
+
+GitLab - https://gitlab.com/shrinivaasanka/NeuronRainAIXT
+
 
 1341. Bug tracking and Wiki pages for NeuronRain repositories:
 ----------------------------------------------
@@ -527,7 +543,7 @@ isolate the meanings of common pictogram B in three ways by 1) Set intersection 
 1505. (THEORY and FEATURE) Conceptual Graph of Theory aligned to Features of NeuronRain - 23 
 ------------------------------------------------------------------------------------------------------
         48. Graph Edit Distance (GED) is the most fundamental clustering similarity measure which pervades Text-Audio-Visual-People Graph Analytics and Program Analyzers in NeuronRain. Graph Edit Distance generalizes String Edit Distance - every String (and thus Text) is a connected, directed acyclic graph of maximum degree 1 and alphabets are its vertices. Graph Edit Distance between EventNet of a Video and ImageNet ImageGraphs of Images quantifies visual similarity. Graph Edit Distance between weighted automata of two music clips differentiates music (In theory, automata can be checked for equivalence by Table filling algorithm) while GED between Speech-to-Text textgraphs measures audio similarity. Graph Edit Distance between Social Community Graphs, Connections Graph and proper noun filtered (e.g dictionary filter) Textgraphs of People Profiles measures People similarity. Graph Edit Distance between Control Flow Graphs from SATURN, Program Slice Dependency Graphs, FTrace Kernel callgraphs, Valgrind/KCacheGrind/Callgrind userspace callgraphs identify similar codeflow and malwares. While Graph Isomorphism finds similar graphs by vertex relabelling (Exact Graph Matching), Graph Edit Distance generalizes to dissimilar graphs (Inexact Graph Matching).
-        49. Transformers are recent advances in Text analytics - NeuronRain Textgraph implementations for Recursive Lambda Function Growth and Named Entity Recognition extend transformers to textgraph vertices degree attention for inferring importance of word vertices of textgraphs.A Question-Answering Bot has been implemented in NeuronRain which takes natural language questions from users and queries wikipedia corpus for answer summary to create a rephrased deep-learnt natural language answer by WordNet walk on edges chosen based on top percentile Transformers Degree attention Query-Key-Values from wikipedia summary textgraph. Recursive Lambda Function Growth implementation additionally supports a fill-in-the-blanks prediction of missing words in a text by textgraph path degree attention that could be well suited also for predicting missing vowels in vowelless text (de)compression. Question-Answering Bot also implements a minimal Formal Large Languge Model Nachiketas based on XTAG rule tree families that synthesizes a phrase or sentence from PoS tagged random walk over textgraph (and SpaCy-REBEL knowledge graph) with some blanks for conjunctions and adpositions which can be restored either by fill_in_the_blanks() implementation in RecursiveLambdaFunctionGrowth.py (section 1455) or by passing a flattened inorder traversal of CCG-CFG-PCFG-XTAG rule tree as dict object argument to the Bot function. Meaningfulness of the sentences synthesized by Formal LLM is quantified by perplexity scores - a counterexample sentence on less meaningful but grammatically correct sentence is mentioned in 803. Semantic relationship between words in a synthesized sentence could also be estimated by WordNet distances (Perl implementation - https://metacpan.org/pod/WordNet::Similarity by [Ted Pedersen] which is also part of NLTK). NeuronRain implements a proprietary wordnet perplexity measure for sentences.
+        49. Transformers are recent advances in Text analytics - NeuronRain Textgraph implementations for Recursive Lambda Function Growth and Named Entity Recognition extend transformers to textgraph vertices degree attention for inferring importance of word vertices of textgraphs.A Question-Answering Bot has been implemented in NeuronRain which takes natural language questions from users and queries wikipedia corpus for answer summary to create a rephrased deep-learnt natural language answer by WordNet walk on edges chosen based on top percentile Transformers Degree attention Query-Key-Values from wikipedia summary textgraph. Recursive Lambda Function Growth implementation additionally supports a fill-in-the-blanks prediction of missing words in a text by textgraph path degree attention that could be well suited also for predicting missing vowels in vowelless text (de)compression. Question-Answering Bot also implements a minimal Formal Large Languge Model Nachiketas based on XTAG rule tree families that synthesizes a phrase or sentence from PoS tagged random walk over textgraph (and SpaCy-REBEL knowledge graph) with some blanks for conjunctions and adpositions which can be restored either by fill_in_the_blanks() implementation in RecursiveLambdaFunctionGrowth.py (section 1455) or by passing a flattened inorder traversal of CCG-CFG-PCFG-XTAG rule tree as dict object argument to the Bot function. Meaningfulness of the sentences synthesized by Formal LLM is quantified by perplexity scores - a counterexample sentence on less meaningful but grammatically correct sentence is mentioned in 803. Semantic relationship between words in a synthesized sentence could also be estimated by WordNet distances (Perl implementation - https://metacpan.org/pod/WordNet::Similarity by [Ted Pedersen] which is also part of NLTK). NeuronRain implements a proprietary wordnet perplexity measure for sentences. Phrases synthesized by textgraph randomwalks could be classified as Noun phrases (NP) and Verb phrases (VP) that could be combined to form a Phrase Structure Grammar (PSG) sentence - Example: PSG parse tree for a sentence in https://www.nltk.org/book/ch08.html - Diagram 8.
 
 ------------------------------------------------------------------------------------------------------ 
 1506. (THEORY and FEATURE) Conceptual Graph of Theory aligned to Features of NeuronRain - 24 
@@ -986,9 +1002,9 @@ sections on Factorization, KRW communication complexity and Majority Voting - 19
 1152.6 Previous derandomization algorithm is relevant to any bounded error VoterSAT and not just limited to BQP factorization. Section 1426 has a detailed description of [Yashar-Paroush] and [Nitzan-Paroush] derandomization conditions for general case heterogeneous CJT where every VoterSAT has different p-bias and the most likely voting scenario. 
 1152.7 Caveat on Condorcet Jury Theorem asymptotic part: Hardness of earlier CJT derandomization gadget hinges on how efficiently the binomial coefficients are computed after probabilistic (classical or quantum) factorization VoterSATs input their results to leaves of majority gate. There are well known fast asymptotic approximations when p-bias is very close to 0.5 - as implemented in https://github.com/shrinivaasanka/asfer-github-code/blob/master/cpp-src/miscellaneous/pgood.cpp (some example derandomizations for large populations: https://github.com/shrinivaasanka/asfer-github-code/blob/master/cpp-src/miscellaneous/testlogs/pgood.log.18May2023) 
 
-
-NeuronRain Licensing:
----------------------
+------------------------------
+1570. NeuronRain Licensing:
+------------------------------
 **How is NeuronRain code licensed? Can it be used commercially? Is technical support available?**
 
         (*) NeuronRain repositories are spread across following SourceForge, GitHub and GitLab URLs:
@@ -1006,7 +1022,7 @@ NeuronRain Licensing:
 
 **What is dual licensing?**
 
-Closedsource, proprietary, premium version derived and completeley different from NeuronRain Open Source codebases is in research, architecture and development - JAIMINI. Some features of JAIMINI have been Opensourced and made part of NeuronRain. Only opensource codebases of NeuronRain in SourceForge,GitHub and GitLab are copyleft licensed under GPL v3 and Creative Commons 4.0 NCND. Dual licensing implies dichotomous licensing - NeuronRain is free (open) and free (without price) while Closedsource is at premium.
+Closedsource, proprietary, premium versions derived and completeley different from NeuronRain Open Source codebases are in research, architecture and development - JAIMINI and NeuronRainAIXT. Some features of JAIMINI have been Opensourced and made part of NeuronRain. Only opensource codebases of NeuronRain in SourceForge,GitHub and GitLab are copyleft licensed under GPL v3 and Creative Commons 4.0 NCND. Dual licensing implies dichotomous licensing - NeuronRain is free (open) and free (without price) while Closedsource is at premium.
 
 **Who owns NeuronRain repositories?**
 

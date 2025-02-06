@@ -201,3 +201,12 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 197. pyplexity - https://pypi.org/project/pyplexity/ 
 198. spacy_component for REBEL - has to be source downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py - pip install not available 
 199. Higuchi Fractal Dimension - for timeseries data - https://github.com/inuritdino/HiguchiFractalDimension
+200. (Optional) Pandoc, enscript, ps2pdf - Text to PDF and PostScript to PDF conversion tools - for NeuronRain unified documentation
+201. a2ps - Text to PostScript conversion tool - for NeuronRain unified documentation
+202. openpyxl - https://openpyxl.readthedocs.io/en/stable/api/openpyxl.html
+203. qrcode - https://github.com/lincolnloop/python-qrcode
+204. zxing - ZebraCrossing Java QR code reader commandline installation - https://zxing.org/w/decode.jspx
+205. Fernet - https://cryptography.io/en/latest/fernet/
+206. xarray - https://docs.xarray.dev/en/stable/
+207. zarr
+208. s3fs

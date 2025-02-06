@@ -30,6 +30,7 @@ and logs are captured suffixing timestamps in separate testlogs/ folder within C
 	18.1 GitHub - https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
 	18.2 GitLab - https://gitlab.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs
 	18.3 SourceForge - https://sourceforge.net/u/userid-769929/Krishna_iResearch_DoxygenDocs/ci/master/tree/ 
+	18.4 GitHub Pages - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/
 19.OpenHub Source Code Analyzer Profile - https://www.openhub.net/accounts/ka_shrinivaasan, https://www.openhub.net/accounts/ka_shrinivaasan/positions
 20.NeuronRain commits twitter handle - https://twitter.com/neuronrain_comm
 21.Author's website and CV - http://www.krishna-iresearch.org/ , https://acadpdrafts.readthedocs.io/en/latest/ , https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/CV/CV.pdf - Mirror of deleted https://sites.google.com/site/kuja27/ portal is at https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/tree/master/kuja27_website_mirrored
@@ -40,4 +41,18 @@ and logs are captured suffixing timestamps in separate testlogs/ folder within C
 	24.2 USBmd64 - https://usb-md64-github-code.readthedocs.io/en/latest/
 	24.3 VIRGO64 - https://virgo64-linux-github-code.readthedocs.io/en/latest/
 	24.4 KingCobra64 - https://kingcobra64-github-code.readthedocs.io/en/latest/ 
+	24.5 AstroInfer userspace code docs - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/AsFer/html/files.html
+	24.6 USB-md linux kernel driver code docs - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/USBmd/html/files.html
+	24.7 VIRGO linux kernel code docs - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/VIRGO/html/files.html
+	24.8 KingCobra linux kernel driver code docs - https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/KingCobra/html/files.html
 25.19 Lessons in Opensource Software Development - http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/index.html - most importantly 1,2,3,4,9,11,12,13,14,18
+26.YouTube Channel (academic audio-visuals including those related to and used as datasets within NeuronRain FOSS) - https://www.youtube.com/@srinivasankannan5204
+27.Text Design Documents in NeuronRain repositories are divided into sections and each section is in following regex format:
+-------------------------------------------------------------------------------------------------------------------------------
+(<TYPE of Section - one or combination of THEORY, FEATURE, JIRA>) <Section number>. <Section headline> - <Date> - <comma separated list of related section numbers>
+-------------------------------------------------------------------------------------------------------------------------------
+<Text of the section>
+
+References:
+----------
+<List of references with a quoted excerpt from the reference relevant to the section - often accompanied by a comment which could be an extension of the section text> 

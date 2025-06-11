@@ -882,9 +882,12 @@ system call interface changes in kernelspace sockets causing regressions
 (example of an issue found in 4.1.5 and fixed in 4.10.3 i915 GEM drivers
 - DMA panics - <a
 href="https://github.com/shrinivaasanka/asfer-github-code/issues/1">https://github.com/shrinivaasanka/asfer-github-code/issues/1</a>).
-Another issue is the non-reentrant nature of VIRGO system calls -
-Mutexing within VIRGO system calls have been disabled per commit hash
-comments <a
+Comprehensive documentation on known issues in VIRGO linux kernel builds
+and runtime is at <a
+href="https://github.com/shrinivaasanka/Grafit/blob/master/course_material/NeuronRain/LinuxKernelAndCloud/LinuxKernelAndCloud.txt">https://github.com/shrinivaasanka/Grafit/blob/master/course_material/NeuronRain/LinuxKernelAndCloud/LinuxKernelAndCloud.txt</a>
+- sections 1612 to 1619. Another issue is the non-reentrant nature of
+VIRGO system calls - Mutexing within VIRGO system calls have been
+disabled per commit hash comments <a
 href="https://github.com/shrinivaasanka/virgo64-linux-github-code/commit/ad59cbb0bec23ced72109f8c5a63338d1fd84beb">https://github.com/shrinivaasanka/virgo64-linux-github-code/commit/ad59cbb0bec23ced72109f8c5a63338d1fd84beb</a>
 . Because of earlier technicality, mainline version of VIRGO32 and
 VIRGO64 hasn't been QAed and updated since 4.13.3 (for system calls and

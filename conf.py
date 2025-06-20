@@ -7,28 +7,28 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
-# import sys
-# sys.path.insert(0, os.path.abspath('.'))
+import os
+import sys
+sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = "Krishna iResearch - NeuronRain documentation"
-copyright = "2024 K.Srinivasan"
+copyright = "2025 K.Srinivasan"
 author = "K.Srinivasan"
 
 
 # -- General configuration ---------------------------------------------------
 # -- General configuration
 
-#extensions = [
-#    "sphinx.ext.duration",
-#    "sphinx.ext.doctest",
-#    "sphinx.ext.autodoc",
-#    "sphinx.ext.autosummary",
-#    "sphinx.ext.intersphinx",
-#]
+extensions = [
+    "sphinx.ext.duration",
+    "sphinx.ext.doctest",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.intersphinx",
+]
 
 master_doc = "index"
 

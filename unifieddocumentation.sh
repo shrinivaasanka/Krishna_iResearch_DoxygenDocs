@@ -22,7 +22,8 @@ echo "--------------------------------------------------" >> text/NeuronRain_Doc
 cat index.rst >> text/NeuronRain_Documents/NeuronRainDesign_unified.txt 
 #pandoc text/NeuronRain_Documents/NeuronRainDesign_unified.txt --pdf-engine wkhtmltopdf -o pdf/NeuronRain_Documents/NeuronRainDesign_unified.pdf 
 #enscript text/NeuronRain_Documents/NeuronRainDesign_unified.txt -o - | ps2pdf  - pdf/NeuronRain_Documents/NeuronRainDesign_unified.pdf
-a2ps -v text/NeuronRain_Documents/NeuronRainDesign_unified.txt --output=text/NeuronRain_Documents/NeuronRainDesign_unified.ps
-mv text/NeuronRain_Documents/NeuronRainDesign_unified.ps ps/
-pandoc index.rst -o index.html
+#a2ps -v text/NeuronRain_Documents/NeuronRainDesign_unified.txt --output=text/NeuronRain_Documents/NeuronRainDesign_unified.ps
+#mv text/NeuronRain_Documents/NeuronRainDesign_unified.ps ps/
+#pandoc index.rst -o index.html
+rst-buildhtml --report=5
 pandoc index.html --pdf-engine wkhtmltopdf -o pdf/NeuronRain_Documents/neuronrain-documentation.pdf 

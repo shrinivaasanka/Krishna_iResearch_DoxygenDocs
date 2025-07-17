@@ -439,6 +439,9 @@ References:
 850.7 Lockfree datastructure and Read-Copy-Update implementations - http://www.rossbencina.com/code/lockfree?q=~rossb/code/lockfree/
 850.8 Lockfree programming - https://www.cs.cmu.edu/~410-s05/lectures/L31_LockFree.pdf
 850.9 Rust Atomic Compare and Exchange - https://doc.rust-lang.org/beta/core/arch/x86_64/fn.cmpxchg16b.html - for cmpxchg16b x86_64 CPU compare-exchange atomic instruction.
+850.10 Synchronization primitives in ARM multicore systems - https://developer.arm.com/documentation/dht0008/a/arm-synchronization-primitives/exclusive-accesses/use-in-multi-core-systems - synchronization in multicore code requires local and global locking state - ".... ARM MPCore multi-core processors contain a Snoop Control Unit (SCU), that maintains Level 1 data cache coherency across memory regions shared by the processors. In this setup, the local monitor of each core operate together with the SCU to provide a combined local and global monitor for synchronization operations in those regions marked as coherent.  Note: This might occasionally lead to false negatives, or delays caused by transferring data between caches when several processors attempt to access synchronization variables within the same ERG block at the same time. For performance reasons, it might be worth to explicitly place very frequently accessed synchronization variables at least the size of the ERG apart in memory...."
+850.11 Writing ARM64 code for Apple platforms - https://developer.apple.com/documentation/xcode/writing-arm64-code-for-apple-platforms - Most mobile processors execute ARM64 instruction set
+850.12 Exclusive Reservation Granule - Local monitor and Global monitor in multicore synchronization - ARM - https://developer.arm.com/documentation/dht0008/a/arm-synchronization-primitives/exclusive-accesses/exclusive-monitors - ".... For example, if software executing on one processor in Figure 1.1 must synchronize its operation with software executing on the other processor, it can do this using a mutex placed in Shareable memory. The resulting Load-Exclusive and Store-Exclusive instructions access both the local monitor and the global monitor...."
 
 -------------------------------------------------------------------------------------------------------
 1 May 2020 - Insertion in numbered lists
@@ -784,3 +787,27 @@ Type "help", "copyright", "credits" or "license" for more information.
 {3: 4, 1: 2}
 
 But the text editing version of earlier problem is still non-trivial as it might require macros in editors to instantaneously propagate section number changes.
+
+------------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) If LACK is coded as 396 what is the code for BACK - UPSC Civil Services - Mental ability - 11 March 2025
+Options: a) 56 b) 72 c) 66 d) 86
+------------------------------------------------------------------------------------------------------------------------------
+Answer:
+-------
+Above code is based on alphabetical ordering (A=1,B=2,C=3,D=4,E=5,F=6,G=7,H=8,I=9,J=10,K=11,L=12,...). 
+LACK = 12*1*3*11 = 36*11 = 396
+BACK = 2*1*3*11 = 6*11 = 66 (Option c)
+
+------------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) What is the next element in the series - 3/5, 3/5, 9/20, 3/10, 3/16, ?,.... - UPSC Civil Services - Mental ability -
+11 March 2025
+Options: a) 3/22 b) 9/52 c) 9/80 d) 3/80
+------------------------------------------------------------------------------------------------------------------------------ 
+Answer1:
+--------
+If above series is interpreted as fractions of alternating numerators of 3 and 9 for every third element and every third denominator as sum of earlier 2 denominators multiplied by 2, earlier series can be extended as:
+3/5, 3/5, 9/20 = 9/((5+5)*2), 3/10, 3/16 , [9/52] = 9/((10+16)*2) [Option b]
+
+Answer2:
+--------
+If fractions in above series are rewritten as 3/5, 3/5=6/10, 9/20, 3/10=12/40, 15/80 (numerator is 3+3n and denominator is 5*2^n) next term in series is 18/160=9/80 [Option c]

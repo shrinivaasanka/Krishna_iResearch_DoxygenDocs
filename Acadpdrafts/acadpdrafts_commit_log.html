@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.21.2: https://docutils.sourceforge.io/" />
+<title>acadpdrafts_commit_log.txt</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 9511 2024-01-13 09:50:07Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+Despite the name, some widely supported CSS2 features are used.
+
+See https://docutils.sourceforge.io/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+.subscript {
+  vertical-align: sub;
+  font-size: smaller }
+
+.superscript {
+  vertical-align: super;
+  font-size: smaller }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left, table.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right, table.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table.align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+.align-top    {
+  vertical-align: top }
+
+.align-middle {
+  vertical-align: middle }
+
+.align-bottom {
+  vertical-align: bottom }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: gray; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic, pre.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document">
+
+
+<p>commit 3e73edc6b930a91a99a324943ac7ce17cbff9a90
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Fri Sep 26 13:33:11 2014 +0530</p>
+<blockquote>
+Added --partial flag (-P) to rsync commandline for download resume</blockquote>
+<p>commit 32d73c0d307809f445c717ed0f38e89204d62b2c
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Mon Jun 23 07:29:13 2014 +0530</p>
+<blockquote>
+Code for Interview Algorithm and Intrinsic Merit in publications:
+1. <a class="reference external" href="http://arxiv.org/abs/1006.4458">http://arxiv.org/abs/1006.4458</a>
+2. <a class="reference external" href="http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf">http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf</a></blockquote>
+<p>commit f740e75c1f1727f1bfd6162a30d07670e9ea8632
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Sun Jun 22 21:22:57 2014 +0530</p>
+<blockquote>
+Code for Discrete Hyperbolic Factorization (Sequential algorithm only) Drafts :
+1. <a class="reference external" href="http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_rectangular_interpolation_search_and_StirlingFormula_Upperbound.pdf/download">http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_updated_rectangular_interpolation_search_and_StirlingFormula_Upperbound.pdf/download</a>
+2. <a class="reference external" href="http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound.pdf/download">http://sourceforge.net/projects/acadpdrafts/files/DiscreteHyperbolicPolylogarithmicSieveForIntegerFactorization_PRAM_TileMergeAndSearch_And_Stirling_Upperbound.pdf/download</a>
+3. <a class="reference external" href="http://sourceforge.net/p/asfer/code/HEAD/tree/ImplementationDesignNotesForDiscreteHyperbolicFactorizationInPRAM.jpg">http://sourceforge.net/p/asfer/code/HEAD/tree/ImplementationDesignNotesForDiscreteHyperbolicFactorizationInPRAM.jpg</a></blockquote>
+<p>commit 516357fe9bc0460253202547fff81729f53a7460
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Sun Jun 22 21:20:07 2014 +0530</p>
+<blockquote>
+Python code for:
+1. Decidability of Complement Function (During PhD 2011) - <a class="reference external" href="http://arxiv.org/abs/1106.4102">http://arxiv.org/abs/1106.4102</a>
+(can be optionally enhanced with functional programming for lamda calculus part)</blockquote>
+<p>commit f3eb33349e6c8505a45a12f75c5b11fedb565144
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Sun Jun 22 21:13:32 2014 +0530</p>
+<blockquote>
+Code for publications and drafts (Algorithms for Intrinsic Merit- Master's thesis - 2010 and TAC 2010):
+1. <a class="reference external" href="http://arxiv.org/abs/1006.4458">http://arxiv.org/abs/1006.4458</a>
+2. <a class="reference external" href="https://sites.google.com/site/kuja27/TAC2010papersubmission.pdf?attredirects=0">https://sites.google.com/site/kuja27/TAC2010papersubmission.pdf?attredirects=0</a>
+3. <a class="reference external" href="http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf">http://www.nist.gov/tac/publications/2010/participant.papers/CMI_IIT.proceedings.pdf</a>
+4. <a class="reference external" href="https://sites.google.com/site/kuja27/InterviewAlgorithmInPSPACE.pdf?attredirects=0">https://sites.google.com/site/kuja27/InterviewAlgorithmInPSPACE.pdf?attredirects=0</a>
+5. <a class="reference external" href="https://sites.google.com/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting_2014.pdf?attredirects=0&amp;d=1">https://sites.google.com/site/kuja27/CircuitForComputingErrorProbabilityOfMajorityVoting_2014.pdf?attredirects=0&amp;d=1</a>
+6. <a class="reference external" href="https://sites.google.com/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf?attredirects=0">https://sites.google.com/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf?attredirects=0</a></blockquote>
+<p>commit c09a74cd8379772947e5727780ad7d054b23527f
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Sun Jun 22 10:30:37 2014 +0530</p>
+<blockquote>
+Crawler script to download all the files uploaded to acadpdrafts project</blockquote>
+<p>commit 0e7f270a38940be2032b343ca2af307ebc8ba89a
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Mon Mar 24 21:42:39 2014 +0530</p>
+<blockquote>
+Krishna iResearch Open Source Products HighLevel Architecture Diagram (updated for KingCobra persistence and some mysterious typo in virgo_set twice
+What the F..)</blockquote>
+<p>commit c2ab37072c28c36f5e9477c2e96a06afa8234093
+Author: Srinivasan Kannan &lt;<a class="reference external" href="mailto:ka.shrinivaasan&#64;gmail.com">ka.shrinivaasan&#64;gmail.com</a>&gt;
+Date:   Sun Mar 23 10:11:56 2014 +0530</p>
+<blockquote>
+Krishna iResearch OpenSource Products HighLevel Architecture Diagram (AsFer, USBmd, VIRGO, Acadpdrafts, KingCobra)</blockquote>
+<p>commit b6a177cb87e44290396bc713fb3eb3361208a3ec
+Author: KaShrinivaasan &lt;<a class="reference external" href="mailto:kashrinivaasan&#64;kashrinivaasan-Inspiron-1545">kashrinivaasan&#64;kashrinivaasan-Inspiron-1545</a>.(none)&gt;
+Date:   Sat Aug 24 14:36:42 2013 +0530</p>
+<blockquote>
+Updated RSync script with # prepended in GNU copyright license</blockquote>
+<p>commit af863c9afae915c28071a0096a39cde9b5d5a7bf
+Author: KaShrinivaasan &lt;<a class="reference external" href="mailto:kashrinivaasan&#64;kashrinivaasan-Inspiron-1545">kashrinivaasan&#64;kashrinivaasan-Inspiron-1545</a>.(none)&gt;
+Date:   Sat Aug 24 14:19:51 2013 +0530</p>
+<blockquote>
+Updated rsync commandline for remote URL</blockquote>
+<p>commit 349db4daf84bd61cb0681701c696c2b6aca7a610
+Author: KaShrinivaasan &lt;<a class="reference external" href="mailto:kashrinivaasan&#64;kashrinivaasan-Inspiron-1545">kashrinivaasan&#64;kashrinivaasan-Inspiron-1545</a>.(none)&gt;
+Date:   Mon Aug 19 18:31:30 2013 +0530</p>
+<blockquote>
+RSYNC SSH script for file upload</blockquote>
+</div>
+</body>
+</html>

@@ -37,15 +37,16 @@ KingCobra Kernelspace Messaging - https://sourceforge.net/p/kcobra/code-svn/HEAD
 -----------------------------------------------------------------------------------------------------------------------------------
 17 March 2017
 -----------------------------------------------------------------------------------------------------------------------------------
-VIRGO Linux Kernel Build Steps
+1612. VIRGO Linux Kernel Build Steps
 -------------------------------
 VIRGO Linux kernel is an overlay of VIRGO codebase on kernel mainline (presently 4.1.5) source tree. Building a custom kernel for VIRGO
 is required for building new system calls and kernel modules in it. Shell script for builing kernel mainline is in:
 	https://github.com/shrinivaasanka/virgo-linux-github-code/blob/master/buildscript_4.1.5.sh
 	https://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/buildscript_4.1.5.sh
 
-VIRGO Linux kernel has following new system calls:
---------------------------------------------------
+-------------------------------------------------------------------------------------------
+1613. VIRGO Linux Kernel Features - VIRGO Linux kernel has following new system calls:
+-------------------------------------------------------------------------------------------
 Cloud RPC system call:
 	virgo_clone()
 Cloud Kernel Memory Cache (kernelspace equivalent of memcache):
@@ -59,7 +60,8 @@ Cloud File System:
 	virgo_read()
 	virgo_write()
 
-VIRGO Linux kernel has following new kernel modules (kernelsocket listeners) corresponding to previous system call clients:
+---------------------------------------------------------------------------------------------------------------------------
+1614. VIRGO Linux Kernel Features - VIRGO Linux kernel has following new kernel modules (kernelsocket listeners) corresponding to previous system call clients:
 ---------------------------------------------------------------------------------------------------------------------------
 1. cpupooling virtualization - VIRGO_clone() system call and VIRGO cpupooling driver by which a remote procedure can be invoked in kernelspace.(port: 10000)
 2. memorypooling virtualization - VIRGO_malloc(), VIRGO_get(), VIRGO_set(), VIRGO_free() system calls and VIRGO memorypooling driver by which kernel memory can be allocated in remote node, written to, read and freed - A kernelspace memcache-ing.(port: 30000)
@@ -114,7 +116,7 @@ https://github.com/shrinivaasanka/virgo-linux-github-code/tree/master/virgo-docs
 https://sourceforge.net/p/virgo-linux/code-0/HEAD/tree/trunk/virgo-docs/
 
 --------------------------------------------------------------------------------------------
-20 March 2017
+1615. VIRGO Linux 64-bit build - 20 March 2017
 --------------------------------------------------------------------------------------------
 VIRGO Linux 64 bit build - continued:
 
@@ -128,7 +130,7 @@ because of i915 drivers mismatch as below:
 Linux kashrinivaasan-Inspiron-1545 4.10.3 #1 SMP Fri Mar 17 18:30:40 IST 2017 x86_64 x86_64 x86_64 GNU/Linux
 
 ------------------------------------------------------------------------------------------------------------------
-24 September 2017
+1616. VIRGO Linux 64-bit build - 24 September 2017
 ------------------------------------------------------------------------------------------------------------------
 NeuronRain VIRGO64 presently has been ported to 4.13.3 Linux Kernel. Also the accompanying USBmd and KingCobra kernel modules have been
 split into 32-bit and 64-bit versions and separate repositories have been created for them in SourceForge and GitHub. 4.13.3 kernel has
@@ -136,7 +138,7 @@ transport layer security enshrined in kernel which is essential for securing ker
 of VIRGO 64-bit version and KTLS is in http://neuronrain-documentation.readthedocs.io/en/latest/ .
 
 -------------------------------------------------------------------------------------------------------
-Logging Servers and Clients - Some Implementation Examples - 28 September 2018
+1617. Logging Servers and Clients - Some Implementation Examples - 28 September 2018
 -------------------------------------------------------------------------------------------------------
 In large cloud installations, there often arises a need to log frequently occuring network event traces to log 
 files realtime minimizing network latency. Example 1 in references is the Trace utility implemented in an application server (Java) for logging Global and Local JTS Transaction (XA) events with facility for Trace Levels. Example 2 describes sequential and parallel implementations of a logging server in a network and logging clients connecting to this server. Reactor pattern is a Listener on pending socket descriptors (select/poll) and events to be serviced.  Example 3 in the references: NeuronRain VIRGO32 and VIRGO64 Linux Kernels implement a kernel service module and logging client utility kernel function for writing EventNet log messages to EventNet Edges and Vertices files sent from remote cloud nodes by eventnet_log() - implements Acceptor-Worker Kernel Threads (Router-Dealer) pattern. Example 4 is the ZeroMQ Publish-Subscribe protocol for designing a log collector subscriber and log client publishers.
@@ -149,7 +151,7 @@ References:
 4.ZeroMQ Pub-Sub for distributed logging - http://zguide.zeromq.org/php:chapter8#toc31
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-Linux Kernel Development (System calls and Drivers) - some low level architecture specific issues - 14 May 2019
+1618. Linux Kernel Development (System calls and Drivers) - some low level architecture specific issues - 14 May 2019
 ------------------------------------------------------------------------------------------------------------------------------------------
 Following are few architecture specific idiosyncracies and heisen bugs that could cause harrowing experience while writing new kernel system calls and drivers (32 bit versus 64 bit, dual core versus quad core versus octa core):
 
@@ -178,7 +180,7 @@ Following are few architecture specific idiosyncracies and heisen bugs that coul
 23. in4_pton() might fail in some cases while in_aton() might work
 
 ---------------------------------------------------------------------------------------------------------------------------------------
-Linux Kernel Development (System calls and Drivers) - some low level architecture specific issues 2 - 10 June 2019
+1619. Linux Kernel Development (System calls and Drivers) - some low level architecture specific issues 2 - 10 June 2019
 ---------------------------------------------------------------------------------------------------------------------------------------
 Following are some architecture specific problems while invoking kernel sockets (e.g simulating a telnet client and server within 
 kernel):

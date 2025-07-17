@@ -210,3 +210,6 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 206. xarray - https://docs.xarray.dev/en/stable/
 207. zarr
 208. s3fs
+209. pandoc - https://pandoc.org/
+210. PyTDC - https://github.com/mims-harvard/TDC
+211. Lot of GIS datasets (some of them in GBs and only desired longitude-latitude bounding box has to be downloaded) - most of them from GHSL - which are the real bigdata on demographics 

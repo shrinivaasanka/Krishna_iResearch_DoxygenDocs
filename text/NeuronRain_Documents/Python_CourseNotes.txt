@@ -567,3 +567,7 @@ New code example code/DynamicDictUpdate.py demonstrates (*) splitting of a pytho
 	https://sourceforge.net/u/ka_shrinivaasan/Grafit/ci/fcc02855c5479887f6d52490a09690b8535b57d7/
 Logs logs/DynamicDictUpdate.log.9October2024 show contents of dictionaries D,D1,D2 before and after split,insertion and merger. List comprehension for incrementing keys of D2 is of linear time.
 
+---------------------------------------------------------------------------------------------------------------------------
+Circular Buffer implementation over python arrays and printing them by negative slicing operator - 15 May 2025
+---------------------------------------------------------------------------------------------------------------------------
+New code example code/CircularBuffer.py implements a CircularBuffer class wrapping a regular python array passed on to it and defines functions circular_buffer_get() and circular_buffer_set() for accessing the elements of the buffer by arbitrary indices which are internally mapped to array indices by modulus operator %. Elements of the ring buffer are printed by circular_buffer_print()  which uses the negative slicing operator [-<index>:] in a loop returning last <index> elements of the buffer iterating for range over arbitrary index. Logs code/logs/CircularBuffer.log.15May2025 show the get,set and print functions of ring buffer. 

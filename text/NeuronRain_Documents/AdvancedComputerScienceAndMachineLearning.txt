@@ -919,3 +919,121 @@ References:
 1626.6 FFT paper - An Algorithm for the Machine Calculation of Complex Fourier Series By James W. Cooley and John W. Tukey - [IBM-Bell Labs] - https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf
 1626.7 The FFT - an algorithm the whole family can use - https://www.cs.dartmouth.edu/~rockmore/cse-fft.pdf
 1626.8 cmath - https://docs.python.org/3/library/cmath.html#cmath.exp
+
+----------------------------------------------------------------------------------------------------------------------------
+1627. (THEORY) Axiom of Choice, Tie-free Majority Social Choice Function and Well-ordering, Pseudorandom Choice - related to
+sections 311,546 and all sections on Integer partitions, Majority voting, Axiom of choice and Social choice, Complement functions in Majority voting - For and Against - Usecase addition to https://github.com/shrinivaasanka/Krishna_iResearch_DoxygenDocs/blob/master/kuja27_website_mirrored/site/kuja27/IndepthAnalysisOfVariantOfMajorityVotingwithZFAOC_2014.pdf
+---------------------------------------------------------------------------------------------------------------------------- 
+1627.1 Section 1493 of NeuronRain documentation in https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/ describes a reduction between Axiom of Choice and Social Choice by translating following definition of Axiom of Choice:
+
+(1) Axiom of Choice = {f(x) = e |e in x and x in S} - for set of sets S there exists a choice function f choosing a unique least element e from any x in S
+
+to democratic Axiom of Social Choice as (parliamentary system of democracy):
+
+(2) Axiom of Social Choice = {f(x) = unique representative in x | x is a set or constituency of electors, S is the set of constituencies and f is a social choice function based on well-ordering of candidates}
+
+If social choice function f is "candidate having majority votes", (2) Axiom of Social Choice violates well-ordering by unique least element condition in case of ties (two or more candidates getting equal votes) and tiebreaker requires Votes to be divided amongst candidates as a strict partition without duplicates - https://en.wikipedia.org/wiki/Partition_function_(number_theory)#Strict_partition_function . But Axiom of Choice implies there exists a choice function f that resolves ties and guarantees unique least element.
+1627.2 Resolving ties in Majority voting when two or mode candidates are voted equally is non-trivial because following 2 tiebreakers are ruled out as they are non-social and do not rank candidates by merit:
+	1627.2.1 Pseudorandom coin toss: to choose one among N tied candidates which requires logN coin toss trials (single unbiased coin) - For example 2 coin tosses are required to produce one of HH,HT,TH,TT streaks to choose one of 4 candidates at random which is non-social choice. 
+	1627.2.2 Repetitive elections: Votings are repeated till the tie is resolved. But repetitive elections are not guaranteed to terminate and results may be tied endlessly. 
+1627.3 To sum up, conventional elections of present day that depend on "maximum votes" as choice function could suffer from ties in extreme scenarios and might have to be replaced by a tie-free choice function (as predicted by Axiom of Choice) that preserves well-ordering and guarantees strict partition of votes among candidates. 
+1627.4 Maximum votes choice function can be mapped to least element by inverse of votes - For 10 voters-3 candidates example election, if votes are partitioned as 5(candidate1) + 3(candidate2) + 2(candidate3)=10  unique least element is 1/5 for candidate1 and 1/3,1/2 respectively for candidate2 and candidate3. 
+1627.5 2-partition of odd number of voters is always strict without duplicates - For 11 votes-2 candidates example, every partition of 11 (1+10,2+9,3+8,...) is strict without duplicates(ties). Odd number of voters could be a pre-requisite for tie-free votings.
+1627.6 An example tie-free choice function preserving wellordering and guaranteeing unique least element:
+---------------------------------------------------------------------------------------------------------
+1627.6.1 PREREQUISITE: Size of electorate is prefixed to be odd integer. Even number of electorate are disallowed.
+1627.6.2 Set of candidates C = {c1,c2,c3,...,cn} and Set of electorate E (an odd integer). Set C is a subset of E (candidates are voters themselves).
+1627.6.3 for each candidate ck in C
+	 {
+		// Following binary partition comprises two complementary sets 
+		// which are diophantine represented by 2 complement majority functions:
+		// "For(ck): Who voted for ck" and "Against(ck): Who did not vote for ck" 
+	 	(*) votes_for_ck = Voters in E who voted for candidate ck
+		(*) votes_against_ck = Voters in E who voted against ck or for any candidate cn in C \ {ck}	
+		// If size of E is odd earlier partition is strict and tie-free
+		(*) Candidate ck is removed from C
+		// Voters who chose ck are removed from next iteration and E is adjusted
+		(*) E = votes_against_ck (Voters who did not vote for ck)
+		(*) If size of E is even, next candidate cl (cl is in E) is disallowed to vote for himself so that E is reduced by one to odd integer.
+	}
+1627.6.4 Reduce one vote each for each candidate in final tally who were not affected by even electorate cases earlier which ensures equally fair treatment to all candidates (assuming self-voting by all candidates and deducting them).  	
+1627.6.5 Earlier loop computes a hieararchical binary strict partition of an odd electorate by computing voters for and against a candidate at each iteration of the loop. Correctness of the loop is provable by ensuring that For-Against partition is always strict at each iteration of the loop due to enforcement of odd electorate rule.
+1627.6.6 For earlier 11 voters-3 candidates example, algorithm in 1627.6.3 is iterated as: 
+	C={c1,c2,c3}
+	E=size 11 - {v1,v2,v3,v4,v5,v6,v7,v8,v9,v10,v11}
+	-----------
+	Iteration 1:
+	-----------
+	For(c1) = 5 {v1,v2,v3,v4,v5}
+	Against(c1) = 6 {v6,v7,v8,v9,v10,v11}
+	E=size 6-{v6,v7,v8,v9,v10,v11}
+	C={c2,c3}
+	-----------
+	Iteration 2:
+	-----------
+	// Size of E is 6 (even) and one of v6,v7,v8,v9,v10,v11 is c2 
+	// c2 is disallowed to self-vote e.g c2=v8 is removed from E to make size of E=5(odd)
+	// Rationale for removing a candidate from electorate is it is unfair to permit self-voting and
+	// a candidate would always self-vote (won't be expected to vote against h(im|er)self in favour of another candidate) 
+	E={v6,v7,v9,v10,v11} # candidate c2=v8 is removed for enforcing odd electorate size.
+	For(c2) = 3 {v6,v7,v9}
+	Against(c2) = 2 {v10,v11}
+	C={c3}
+	Loop ends because Against(c2) = For(c3)
+	--------------------------------------------------------------------
+	Final tally after deducting self-votes by candidates to themselves (not affected by even electorate cases):
+	--------------------------------------------------------------------
+	For(c1) = 5-1 = 4
+	For(c2) = 3 (already deducted in iteration 2)
+	For(c3) = 2-1 = 1 
+	Final tie-free votes strict partition = 4 + 3 + 1 (excluding self-votes by c1,c2,c3)
+
+1627.7 Following code example from Google Gemini AI checks strict partition in SymPy:
+from sympy.combinatorics.partitions import IntegerPartition
+# Example partitions
+p1 = IntegerPartition([4, 3, 1])  # Strict partition
+p2 = IntegerPartition([2, 2, 1])  # Not a strict partition
+
+def is_strict_partition(partition):
+    """Checks if a SymPy IntegerPartition is a strict partition."""
+    parts = partition.parts
+    return len(parts) == len(set(parts))
+
+print(f"Is {p1} a strict partition? {is_strict_partition(p1)}")
+print(f"Is {p2} a strict partition? {is_strict_partition(p2)}")
+
+1627.8 Earlier tie-free strict vote partitions could be visualized as a tree below (earlier tie-breaker fails if self-voting by candidates is ruled out):
+						E
+					     /     \
+					For(c1)	 Against(c1)
+						    /    \
+					        For(c2)  Against(c2)
+							  \
+							  For(c3)
+
+1627.9 Strict partition function q(n) and Partition function p(n) are related by identities (from https://en.wikipedia.org/wiki/Partition_function_(number_theory)#Identities_about_strict_partition_numbers):
+	 p(2n) = ∑k = 0-n p(n−k)*q(2k)
+	 p(2n+1) = ∑k = 0-n p(n−k)*q(2k+1)
+from which probability of tie in multipartisan elections could be derived as q(n)/p(n).
+1627.10 Self-voting in elections is equivalent to (*) self-citations in academics where authors cite their own previous publications and (*) Sybil attacks (dummy incoming links to a URL) for manipulating search engine rankings and artificially boosting reputation score.
+1627.11 Axiom of Choice has unexpected implications in economics: The Jar-Marble illustration in 1627.11 could be mapped to set of countries as Jars and set of people in each country as Marbles. By Axiom of Choice and Wellordering theorem, there exists a choice function that chooses a unique least element from each jar (or) a unique least person from each country according to some ranking criterion viz., income, education etc., which leads to an unintended consequence: "There exists a least income person in each country" if income is wellordering criterion that inturn implies "income inequality is inherent in nature if Axiom of Choice is true". 
+-------------------------------------------------------------------------------------------------
+1627.12 Question-Answering in multiple choice setting, HORNSAT and Axiom of Choice are equivalent:
+-------------------------------------------------------------------------------------------------
+Multiple choice objective question-answering that provides answer options to each question only one of which are correct has been shown to be instances of HORNSAT class of satisfiability problems having clauses of atmost one positive literal (Refer Section 1512 of https://shrinivaasanka.github.io/Krishna_iResearch_DoxygenDocs/ for example HORNSATs for multiple choice question-answering). Axiom of choice could also be considered as a multiple choice question-answering problem in Jars-Marbles illustration of 1627.13 where each Jar is a set representing multiple choice question and Marbles within each jar are answer choices to the question. In traditional admission tests, each jar question consists of 4 answer marbles - By Axiom-of-Choice, Question-Answering is a choice function that guarantees to choose one of the 4 answer options for each question. HORNSAT for multiple choice question-answering could have common literals across questions in negated or unnegated form as in following example:
+	Q1: Which is the largest city in the US in terms of population:
+	a1) New York a2) Chicago a3) Los Angeles a4) Houston (correct choice: a1)
+	
+	Q2: Which is the largest city by GDP in the world:
+	b1) New York b2) Tokyo b3) Los Angeles b4) Seoul (correct choice: b1)
+HORNSAT for earlier questionnaire is: (a1 V !a2 V !a3 V !a4) /\ (b1 V !b2 V !b3 V !b4) and a3 and b3 are common literals across sets or clauses Q1 and Q2 for same variable "Los Angeles" - Choice function chooses one option from question jar Q1 and one option from question jar Q2 by Axiom of Choice. HORNSAT is a P-Complete problem and if there exists a parallel algorithm for P-complete problem then NC=P. By earlier equivalence between Axiom of Choice and HORNSAT, any choice function in Axiom of Choice is P-Complete. 
+ 
+References:
+----------
+1627.13 Well-ordering Theorem from Axiom of Choice - https://en.wikipedia.org/wiki/Well-ordering_theorem
+1627.14 Jars-Marbles Illustration of Axiom of Choice - https://en.wikipedia.org/wiki/Axiom_of_choice#/media/File:Axiome_du_choix.png - For Axiom of Social Choice, Jars are constituencies and Marbles are electorate and one marble (elector) is chosen from each jar (constituency) by a choice function. Existence of such a choice function is independent of ZF for sets of infinite cardinalities.
+1627.15 Banach-Tarski Paradox due to Axiom of Choice - Rotations on sphere clone the sphere - 2 infinities for sets of countable integers and uncountable reals - https://www.quantamagazine.org/how-a-mathematical-paradox-allows-infinite-cloning-20210826/#:~:text=The%20axiom%20of%20choice%20grants%20mathematicians%20the,paradox%20as%20wondrous;%20critics%20like%20Wildberger%20cringe - ".... In the historical development of ZFC, the axiom of choice is sometimes viewed as an add-on to the other eight — a status that makes it vulnerable to criticism when it enables outcomes like the Banach-Tarski paradox. The axiom of choice grants mathematicians the power to “choose” an item from each bin of a collection, even if that collection is infinite. This makes Banach-Tarski a Rorschach test for working with infinity: Many see the paradox as wondrous; critics like Wildberger cringe....."
+1627.16 Ranking algorithm of Google Scholar - https://blogs.cornell.edu/info2040/2016/10/22/the-ranking-algorithm-of-google-scholar/ - ".... Google’s ranking function for web search is believed to involve PageRank as well as non-PageRank methods developed on hubs and authorities, while Google Scholar, like citation analysis, deals with journal articles that have with no in-links or out-links, rather than webs. ...."
+1627.17 Self-citation: to do or not to do? - https://pmc.ncbi.nlm.nih.gov/articles/PMC10338646/ - ".... In order to document scholarly works, scientists and researchers were required to cite earlier studies. Occasionally, prolific authors cited their own works too; this, however, tended to become canonical for authors of scholarly articles, irrespective of their specialized research interests. .... On the other hand, the second category consists of authors who fancifully cite their own works in the hope of maximizing their academic reputation in metric terms by inflating the ‘References’ section, in order to to improve indicators such as the H-index. Of course, in scientometric studies, self-citation by 20 percent is conservatively allowed for researchers as a tolerable limit, while beyond that is considered illogical and inappropriate ...." 
+1627.18 PageRank is vulnerable to Sybil attacks - https://blogs.cornell.edu/info2040/2016/10/21/pagerank-is-vulnerable-to-sybil-attacks/ - ".... The creation of dummy nodes in a network in order to boost a reputation score is known as the Sybil attack. One sort of case you might be familiar with is the creation of fake accounts to boost reviews of a product or the use of bots to upvote content on Reddit. Sybil attacks are an open problem[2], and are famously considered impossible to beat without the presence of a centralized verification system[3]. ...."
+1627.19 Horn Satisfiability - https://en.wikipedia.org/wiki/Horn-satisfiability

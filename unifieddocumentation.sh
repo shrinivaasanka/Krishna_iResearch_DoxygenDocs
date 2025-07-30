@@ -26,4 +26,5 @@ cat index.rst >> text/NeuronRain_Documents/NeuronRainDesign_unified.txt
 #mv text/NeuronRain_Documents/NeuronRainDesign_unified.ps ps/
 #pandoc index.rst -o index.html
 rst-buildhtml --report=5
-pandoc index.html --pdf-engine wkhtmltopdf -o pdf/NeuronRain_Documents/neuronrain-documentation.pdf 
+#pandoc index.html --pdf-engine wkhtmltopdf -o pdf/NeuronRain_Documents/neuronrain-documentation.pdf 
+rst2pdf index.rst -o pdf/NeuronRain_Documents/neuronrain-documentation.pdf 

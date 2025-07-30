@@ -191,7 +191,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 187. PySINDy - https://pysindy.readthedocs.io/
 188. OpenAI (optional) - https://github.com/openai/openai-python
 189. httpx - dependency for many other tools - https://www.python-httpx.org/
-190. PySynth - https://mdoege.github.io/PySynth/
+190. PySynth - https://mdoege.github.io/PySynth/ 
 191. FlightRadar24API - https://pypi.org/project/FlightRadarAPI/
 192. pyflightdata - https://pyflightdata.readthedocs.io/en/latest/
 193. Dynetx - https://dynetx.readthedocs.io/
@@ -213,3 +213,5 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 209. pandoc - https://pandoc.org/
 210. PyTDC - https://github.com/mims-harvard/TDC
 211. Lot of GIS datasets (some of them in GBs and only desired longitude-latitude bounding box has to be downloaded) - most of them from GHSL - which are the real bigdata on demographics 
+212. SignalFlow - https://github.com/ideoforms/signalflow
+213. Tomita - https://tomita.readthedocs.io/en/latest/ for PySynth

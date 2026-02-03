@@ -844,3 +844,69 @@ Sentence  5 : naboth improduction besides cleverly deliquesced <-NONE-> to overt
 1611.10 Earlier code changes also required modifications to python-src/NeuronRainApps/QuestionAnswering/QuestionAnswering.py nn NeuronRain AstroInfer repositories - Imports of spacy, perplexity, KnowledgeGraph have been localized to following functions: 
  (*) def WikipediaRLFGTransformersQuestionAnswering(question,questionfraction=1,maxanswers=1,keywordsearch=False,wsheading=True,answerslice=1,answerfraction=1,bothvertices_intersection=True,sentence_type="xtag_node34_triplets",number_of_random_walks=10,number_of_words_per_sentence=5,number_of_cores_per_random_walk=5,std_sentence_PoS_dict={"ADJ":[],"PROPN":[],"NOUN":[],"AUX":[],"ADP":[],"ADV":[],"VERB":[],"DET":[],"PRON":[],"CCONJ":[],"NUM":[],"SYM":[],"X":[]},blanks=False,perplexity_algorithm="WordNet",treenode_type="PoS",sentence_tuple_array=False,sentence_PoS_array=None,randomwalk_to_sentence_template_ratio=10,user_defined_PoS2Vocabulary_dict=None)
  (*) def make_sentence2(randomwalkvertices,sentence_PoS_tuple_array=[],treenode_type="tag",max_synth_sentences=1000,user_defined_PoS2Vocabulary_dict=None,max_words_per_PoS=1000)
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+1632. (THEORY and FEATURE) Nachiketas Formal LLM - Google Ngrams V3 dataset (Ngrams.dev) based fill-in-the-blanks sentence synthesizer  - Changes to Wikipedia Question-Answering algorithm for better accuracy 28 - related to 2,249,707,829,1133,1134,1204,1263,1269,1284,1285,1405,1413,1455,1468,1469,1536,1537,1538,1539,1540,1541,1542,1543,1550,1568,1572,1573,1574,1575,1576,1578,1579,1583,1585,1587,1595,1611,1620,1621 and all sections on Intrinsic Merit of Texts, Recursive Lambda Function Growth and Recursive Gloss Overlap textgraph algorithms, Question-Answering, Embedding in vectorspace, Machine Translation, Transformers Attention Model,Named Entity Recognition and Meaning Representation, Complexity models of Question-Answering (multiple choice,open-ended,adaptive and static) - LTF,PTF,Switching Circuits,TQBF,Markov Chains, Large Language Models, Mildly Context Sensitive Grammars-Tree Adjoining Grammars for Natural Languages,Text restoration-Vowelless text (de)compression, Drug discovery, Universal Chomsky Sentence Synthesizer, Formal AI, Perplexity in Statistical AI - 19 August 2025
+--------------------------------------------------------------------------------------------------------------------------------------------
+1632.1 New python source file code/SentenceSynthesizer_Ngrams.py has been added to NeuronRain Grafit repositories which implements a function  def get_ngrams_and_synthesize_sentence(query="hello+*") that makes REST API call to https://ngrams.dev/ Google Ngrams V3 dataset at https://github.com/ngrams-dev/general/wiki/ngram-dataset to query a semi-filled phrase or sentence with wildcard blank markers and synthesizes set of sentences with blanks in the query filled from ngram dataset: 
+    r = requests.get('https://api.ngrams.dev/eng/search?query='+query+'&flags=cs\'')
+1632.2 The ngrams.dev API retrieve matching ngrams for a wildcard phrase-sentence query with blanks from Google Ngram Viewer - https://storage.googleapis.com/books/ngrams/books/datasetsv3.html - and following are the corpora for English n-grams (upto 5grams or wildcard blank can match upto 5 consecutive words) sourced from Google books index:
+	Corpus	#1grams	#2grams	#3grams	#4grams	#5grams	total
+	English	76.9 M	1.6 B	11.8 B	5.1 B	5.0 B	23.6 B
+1632.3 Three example semi-filled phrases-sentences with wildcards are searched in earlier Ngrams V3 dataset:
+    get_ngrams_and_synthesize_sentence(query="You+*+an+*+person")
+    get_ngrams_and_synthesize_sentence(query="I+*+you+*+me")
+    get_ngrams_and_synthesize_sentence(query="Large+*+models")
+and resulting synthesized sentences are logged to:
+    code/testlogs/SentenceSynthesizer_Ngrams.log.19August2025
+1632.4 It has to be noted that Google Ngrams dataset assisted sentence synthesis is semi-formal because semi-filled sentences are obtained from inorder traversed formal grammar tree (XTAG-PSG-CSG PennTree bank) templates that are partially filled from textgraph randomwalks and later can be fulfilled for blanks from Google ngrams pre-trained dataset in Markov k-order model (Refer section 1538.7 in NeuronRain AstroInfer repositories). 
+1632.5 Function get_ngrams_and_synthesize_sentence() creates and returns a dictionary of sorted probability-to-synthesized sentences mapping for a wildcard semi-filled sentence query that can be invoked as utility subroutine wherever required.
+
+--------------------------------------------------------------------------------------------------------------------------------
+1641.(THEORY) Nachiketas Formal LLM - Formal elements in Statistical machine learning - Formal Language Part-of-speech as Dimensions in Transformers Attention Model - Usecase example - related to 702,707,839,1133 and all sections on Embedding in Vector Spaces and Nachiketas Formal LLM - 3 November 2025 
+--------------------------------------------------------------------------------------------------------------------------------
+1641.1 Visual intuition for transformers graphically illustrated in https://poloclub.github.io/transformer-explainer/ provides following expression for Query-Key-Value attention matrix in GPT-2 which implements 768 dimensional word embedding with positional encoding for each token:
+	QKV(i,j) = Sum_d=1_to_768(Embedding(i,d) * Weights(QKV)(d,j) + Bias(j)
+1641.2 In this usecase example a fictitious attention model similar to GPT-2 is derived from formal language aspects of the sentential form e.g the QKV weights are learnt from part-of-speech tags and distances between them. In essence it blends formal and statistical facets of language. Word embedding for each token could be defined over an n-dimensional space of Parts-of-speech for n parts-of-speech tags. For following simplest sentence containing 3 words:
+	That is cat 
+where parts of speech for above sentence are That (Noun) is (verb) cat (Object), following is the word embedding matrix over 4 dimensions of shape 3 * 4 with positional encoding by making each part of speech tag a dimension of the vectorspace in which that token is embedded:
+		Noun 	Verb 	Object 	Position
+	That -	1	0	0	1
+	is -	0	1	0	2
+	Cat - 	0	0	1	3
+1641.3 Following is the Query-Key-Value Weights array of shape 4 * 12 wherein each entry (x,y) represents the attention of PoS x on PoS y determined by distance between the two parts-of-speech tags in the sentence - more the distance less the weight e.g Noun is closer to Verb than Object having more attention. Due to this distance grading, (Noun,Verb) entry in following array is weighted as 0.5 and (Noun,Object) entry is weighted as 0.25:
+				Query				Key			Value
+				------				---			------
+			Noun Verb Object Position | Noun Verb Object Position | Noun Verb Object Position
+	Noun		1    0.5   0.25  0.1      | 1    0.5   0.25   0.1     |  1     0.5   0.25   0.1
+	Verb 		0.5  1	   0.25  0.1      | 0.5  1     0.25   0.1     |  0.5    1    0.25   0.1 	
+	Object		0.25 0.5   1     0.1      | 0.25 0.5   1      0.1     |  0.25  0.5   1      0.1
+	Position	0.1  0.1   0.1   0.1      | 0.1  0.1   0.1    0.1     |  0.1   0.1   0.1    0.1 
+1641.4 Product of Embedding array in 1641.2 and Weights array in 1641.3 produces following QKV attention matrix of shape 3*12:
+			Query				Key			Value
+			------				---			------
+		Noun Verb Object Position | Noun Verb Object Position | Noun Verb Object Position
+	That:	1.1  0.6   0.35  0.2      | 1.1  0.6   0.35   0.2     |  1.1    0.6   0.35   0.2
+	is:	0.7  1.2   0.45  0.3      | 0.7  1.2   0.45   0.3     |  0.7    1.2   0.45   0.3 	
+	Cat:	0.55 0.85  1.3   0.4      | 0.55 0.85  1.3    0.4     |  0.55   0.85  1.3    0.4
+1641.5 Earlier usecase example is just one way to look at the merger of formal and statistical sides of natural language text and Q-K-V weights could also be learnt from head-dependents pairs of dependency grammars similar to those illustrated in https://www.nltk.org/book/ch08.html - https://www.nltk.org/book/ch08.html#ex-elephant, example(14) and Figure 5.1:
+	shot ---> (I, elephant) { Verb "shot" has attention on NounPhrase "I" and Noun "elephant"}
+	elephant ---> in 	{ Noun "elephant" has attention on Phrase "in" }
+	in -----> (pajamas, my) { Phrase "in" has attention on Noun "pajamas" and Determinent "my" }
+1641.6 Q-K-V weights array might have to be filled up from number of dependents in earlier head-dependent grammar rules for respective PoS X to PoS Y entry e.g (X,Y) is marked 1 if there is a dependency between PoS X and PoS Y.
+1641.7 Caveat: Earlier usecase has been added to theory drafts just to motivate how formal language grammars could empower pre-training of transformer models. Q-K-V weights in earlier example are arbitrary and have not been tested by any coded model.
+1641.8 An alternative solution to populate Query-Key-Value Weights array above (instead of dependency graph) could be to compute probability of PoS(y) following PoS(x) in sentence template derived from inorder traversal of Penn TreeBank grammar trees. This requires finding PoS 2-grams of all sentence templates and finding the probability as:
+	Probability(PoSx,PoSy) = Number of sentence templates in which PoSx is followed by PoSy (number of PoSx-PoSy 2-grams)
+				----------------------------------------------------------------
+					Total number of sentence templates (number of all PoS 2-grams)
+1641.9 Following are few example sentence fine-grained PoS templates:
+['NNP', 'NNP', 'CD', 'NNS', 'JJ', 'MD', 'VB', 'DT', 'NN', 'IN', 'DT', 'JJ', 'NN', 'NNP', 'CD']
+['NNP', 'NNP', 'VBZ', 'NN', 'IN', 'NNP', 'NNP', 'DT', 'NNP', 'VBG', 'NN']
+['NNP', 'NNP', 'CD', 'NNS', 'JJ', 'CC', 'JJ', 'NN', 'IN', 'NNP', 'NNP', 'NNP', 'NNP', 'VBD', 'VBN', '-NONE-', 'DT', 'JJ', 'NN', 'IN', 'DT', 'JJ', 'JJ', 'NN']
+['NNP', 'NNP', 'CD', 'NNS', 'JJ', 'CC', 'JJ', 'NN', 'IN', 'NNP', 'NNP', 'NNP', 'NNP', 'VBD', 'VBN', '-NONE-', 'DT', 'JJ', 'NN', 'IN', 'DT', 'JJ', 'JJ', 'NN']
+...
+in which part-of-speech NNP follows NNP in 4 of 4 templates and NNS follows CD in 3 of 4 templates which translate to weights 1.0 and 0.75 respectively for NNP-to-NNP and CD-to-NNS entries in QKV weights matrix.
+
+References:
+----------
+1641.10 SpaCy v3 AttributeRuler and SpaCy v2 tag_map -  Fine grained PoS versus Coarse grained PoS - https://spacy.io/usage/linguistic-features#mappings-exceptions

@@ -11,7 +11,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 7. R-Python (rpy2)
 8. Maitreya's Dreams 8 (for ephemeris and text client)
 9. Hadoop
-10. Spark 2.4.3, Spark 3.0.1, Spark 3.5.x and pyspark client
+10. Spark 2.4.3, Spark 3.0.1, Spark 3.5.x, Spark 4.0.0 and pyspark client
 11. Hive and Hive Client(thrift or pyhs2)
 12. Cassandra and Cassandra Cluster client
 13. HBase and HBase client (happybase)
@@ -33,7 +33,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 29. SATURN Program Analyzer
 30. MemCached, pymemcache (Python 3.x) and Python-memcache (Python 2.x - https://github.com/linsomniac/python-memcached/)
 31. Bidict
-32. Java 1.8
+32. Java 1.8, OpenJDK 17
 33. Python Jellyfish
 34. Python Enchant
 35. Python ystockquote
@@ -197,7 +197,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 193. Dynetx - https://dynetx.readthedocs.io/
 194. Pretty-MIDI - https://github.com/craffel/pretty-midi
 195. (Optional) Access to LLM Question-Answering models (e.g Meta AI-Llama 3, ChatGPT, Claude AI) - for more up-to-date datasets on population dynamics (NOTE: There is a significant difference between search engine results and LLM results for same query and LLM models make computational inferences based on queries unlike search engines)
-196. SpaCy - https://github.com/explosion/spaCy 
+196. SpaCy and DisplaCy - https://github.com/explosion/spaCy 
 197. pyplexity - https://pypi.org/project/pyplexity/ 
 198. spacy_component for REBEL - has to be source downloaded from https://github.com/Babelscape/rebel/blob/main/spacy_component.py - pip install not available 
 199. Higuchi Fractal Dimension - for timeseries data - https://github.com/inuritdino/HiguchiFractalDimension
@@ -215,3 +215,8 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 211. Lot of GIS datasets (some of them in GBs and only desired longitude-latitude bounding box has to be downloaded) - most of them from GHSL - which are the real bigdata on demographics 
 212. SignalFlow - https://github.com/ideoforms/signalflow
 213. Tomita - https://tomita.readthedocs.io/en/latest/ for PySynth
+214. rst-buildhtml
+215. rst2pdf - https://github.com/rst2pdf/rst2pdf
+216. Google Ngrams V3 dataset - https://ngrams.dev/
+217. requests - https://requests.readthedocs.io/en/latest/
+218. DeepDiff - https://zepworks.com/deepdiff/current/

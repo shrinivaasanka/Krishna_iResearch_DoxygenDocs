@@ -61,3 +61,8 @@ References:
 	29.1 Decidability of Existence and Construction of a Complement of a given Function - https://www.connectedpapers.com/main/589826b4ab64b61706aa12542fa4c484b2c3ac82/Decidability-of-Existence-and-Construction-of-a-Complement-of-a-given-Function/graph
 	29.2 Few Algorithms for ascertaining merit of a document and their applications - https://www.connectedpapers.com/main/286207f0e4e27c2513b65f4bd499ac20d970d4b1/Few-Algorithms-for-ascertaining-merit-of-a-document-and-their-applications/graph
 	29.3 TAC 2010 Summarization Track - Update Summarization with Interview Algorithm - https://www.connectedpapers.com/main/903c02c30b7c8708c957bc82959e17c828bfbd77/TAC-2010-Summarization-Track-%20-Update-Summarization-with-Interview-Algorithm/graph 
+30. SciSpace AI URL for papers in (15) - AI review of related papers (downloaded to asfer-docs/SciSpaceAIRelatedPapers/):
+	30.1 Few Algorithms for ascertaining merit of a document and their applications - https://scispace.com/search?q=Few+Algorithms+for+ascertaining+merit+of+a+document+and+their+applications
+	30.2 Decidability of Existence and Construction of a Complement of a given Function - https://scispace.com/search/decidability-of-existence-and-construction-of-a-complement-ms9hrt7cpn?q=Decidability+of+existence+and+construction+of+a+complement+of+a+given+function+in+mathematical+and+computational+contexts
+	30.3 TAC 2010 Summarization Track - Update Summarization with Interview Algorithm - https://scispace.com/search/update-summarization-with-interview-algorithm-http-www-nist-b1r2h8phvs?q=Update+summarization+with+Interview+Algorithm+-+http%3A%2F%2Fwww.nist.gov%2Ftac%2Fpublications%2F2010%2Fparticipant.papers%2FCMI_IIT.proceedings.pdf 
+

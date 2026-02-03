@@ -181,3 +181,26 @@ References:
 1622.17 Average order of Divisor Function -  Sigma_0_(N) - https://www.numberanalytics.com/blog/ultimate-guide-divisor-function-multiplicative-number-theory#:~:text=Average%20order%3A%20The%20average%20order,is%20the%20Euler%2DMascheroni%20constant. - ".... Average order: The average order of the divisor function is known to be log n + 2 γ − 1 , where γ is the Euler-Mascheroni constant. ..."
 1622.18 Dirichlet Theorm for Average order of Divisor Function as logN - Theorem 10.3 - https://people.maths.bris.ac.uk/~madjp/Teaching/lecture10_11.pdf
 1622.19 Ramanujan's Formula for Divisor Function - https://mathworld.wolfram.com/DivisorFunction.html - Equation 27
+
+----------------------------------------------------------------------------------------------------------------------------
+1647. (THEORY and FEATURE) Computational Geometric Factorization - High Performance Computing implementation for Supercomputers - Rust graphics plot - factors of multiple consecutive integers from 1 to 100000 - related to 668,1383,1384,1385,1519,1593,1622 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition - 26 December 2025 
+----------------------------------------------------------------------------------------------------------------------------
+1647.1 Rust implementation of Computational Geometric Factorization (Rayon parallelism) has been executed for consecutive integer range 1 to 100000 to find all factors of 100000 integers and the factorization runtimes have been plotted as graphics and logged to src/logs/rasterization.log.26December2025 :
+	cargo run 1 100000 parallel 10 15 2>&1 > src/logs/rasterization.log.26December2025
+1647.2 course_material/Programming/Rust/rasterization/Cargo.toml has been updated to included dependency for simple-plot=0.1
+1647.3 course_material/Programming/Rust/rasterization/src/main.rs has been updated to use simple_plot::plot crate.
+1647.4 Function factorize_multipleintegers(num_fact:i64,range:i64,rasterization:String) has been updated to define a vector of durations (128 bits integers) for factorization runtimes. 
+1647.5 durations vector is populated by casting Duration datatype to nanoseconds and plot!() macro is invoked that creates an html javascript plot at rasterization/src/logs/rasterization.26December2025.html (also saved as rasterization/src/logs/rasterization.26December2025.jpeg)
+1647.6 Graph plot of runtimes in rasterization/src/logs/rasterization.26December2025.html shows a gradual rise in factorization runtime from 1 (1 bit) to 100000 (17 bits) as below which aligns with the theoretically expected logarithmic increase in runtime O((log N)^k) in input number of bits:
+	10000 - 2.22 million nanoseconds (13 bits) or 13^k ~= 2.22 (k=0.307) 
+	20000 - 3.83 million nanoseconds (14 bits) or 14^k ~= 3.83 (k=0.508)
+	30000 - 5.1 million nanoseconds (14 bits) or 14^k ~= 5.1 (k=0.617)
+	40000 - 6.74 million nanoseconds (15 bits) or 15^k ~= 6.74 (k=0.704)
+	50000 - 7.57 million nanoseconds (15 bits) or 15^k ~= 7.57 (k=0.747)
+	60000 - 9.07 million nanoseconds (16 bits) or 16^k ~= 9.07 (k=0.795)
+	70000 - 10.77 million nanoseconds (16 bits) or 16^k ~= 10.77 (k=0.857)
+	80000 - 12.64 million nanoseconds (16 bits) or 16^k ~= 12.64 (k=0.914)
+	90000 - 13.02 million nanoseconds (17 bits) or 17^k ~= 13.02 (k=0.905)
+	100000 - 14 million nanoseconds (17 bits)  or 17^k != 14 (k=0.931)
+1647.7 Earlier logarithmic curve fit is just an unfair approximation because number of PRAM processors must also scale accordingly from 1 to 10000 as per definition of NC which is N/(log N)^k PRAMs for logN bit integer, but number of PRAM multicores are constant 4 (quadcore) in this benchmark from 1 to 17 bits. This limitation on constant PRAMs or multicores applies to all the benchmarks so far including Spark-Python DMRC implementation done during many years in the past. If cores scale along with input bitsize, polylog exponent k could be a constant.
+1647.8 100% quantum gate fidelity (which at present is at 99.999% and is predicted to reach 100% soon) would derandomize (not necessarily dequantize) Shor's BQP factorization algorithm to Exact QP or zero error quantum computing. Whether that implies factorization is in P depends on if EQP=P i.e is exact quantum polynomial factorization same as classical polynomial factorization. Answer to this question could be "No" because of a known quantum supremacy result on Fourier correlation of 2 boolean functions - Forrelation: A Problem that Optimally Separates Quantum from Classical Computing - https://inspirehep.net/literature/2699417 - [Scott Aaronson, Andris Ambainis] - which proves quantum computers fare better than classical computers in query complexity. This could be an evidence to suggest that EQP is a superset of P meaning exact quantum polynomial time class contains additional problems not solvable in classical polynomial time. 

@@ -202,3 +202,16 @@ related to 487,572,770,831,1150,1231,1235 and all sections on People Analytics, 
 1396.4 COVID19 deathtoll data in code/VerhulstPearlReedLogistic.dat has been updated till 12 February 2023 based on https://www.worldometers.info/coronavirus/coronavirus-death-toll/ . 
 1396.5 Return values of verhulstpearlreedlaw() have been corrected to include both VPR and May logistic correlations. 
 1396.6 JIRA issue for this commit - https://krishnairesearch.atlassian.net/browse/NEUR-20
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+1642. (THEORY and FEATURE) People Analytics - Social Network Analysis - CoronaVirus2019 analyzer - Recomputed Spearman, Kendall Tau, Pearson Correlation coefficients for final COVID19 SIR dataset and changes to Verhulste-Pearl-Reed and May Logistic code in R - related to 487,572,770,1231,1235,1396 and all sections on People Analytics, Urban Sprawl Analytics, Social Network Analysis, ERSIR-SIS model of pandemic/cybercrimes/opinions in section 770 of NeuronRain USBmd, Cellular Automaton Graph model of Social Networks - 7 November 2025 
+---------------------------------------------------------------------------------------------------------------------------------------------
+1642.1 course_material/Programming/R/code/VerhulstPearlReedLogistic.dat has been updated to final COVID19 Susceptible-Infected-Recovered (SIR) dataset from https://www.worldometers.info/coronavirus/worldwide-graphs/ which has revised tally for all dates from beginning of COVID19 tracking in January 2020 till end of COVID19 tracking in April 2024 
+1642.2 course_material/Programming/R/code/VerhulstPearlReedLogistic.R has been updated to remove rev() before printing COVID19 Timeseries, VPR Logistic and May Logistic timeseries.
+1642.3 Lambda Parameters to VPR logistic and May Logistic have been revised to 1.05 and 0.06 by trial-and-error respectively to increase similarity of VPR and May logistic timeseries to actual COVID19 dataset. Scaling multiplicand has been set to 1: 
+	corcoeff <- verhulstpearlreedlaw("./VerhulstPearlReedLogistic.dat",1.05,0.06,0.00000000001,1.0)
+1642.4 Logistic computation is logged to code/testlogs/VerhulstPearlReedLogistic.log.7November2025 and code/VerhulstPearlReedLogistic_Rplots.pdf has the updated COVID19, VPR logistic & May logistic timeseries plot graphs. The actual and logistic graph plots show almost identical trends in a range of 1500+ days from COVID19 initial outbreak to final containment and sudden surge at around 500 days. 
+
+References:
+----------
+1642.5 Incorporating global dynamics to improve the accuracy of disease models: Example of a COVID-19 SIR model - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0265815 - extended SIR model differential equations for COVID-19 - ".... (1) dS/dt(t)=−βS(t)*I(t)+f(t) (2) dI/dt(t)=βS(t)*I(t)−γI(t)+g(t) (3) dR/dt(t)=γI(t)+h(t) ....."

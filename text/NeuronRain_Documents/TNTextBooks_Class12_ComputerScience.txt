@@ -1,0 +1,1 @@
+Finiteness Algorithms must terminate after finite number of steps.  Definiteness All operations should be well defined. For Example operations involving division by zero or taking square root for negative number are unacceptable.  

@@ -811,3 +811,13 @@ If above series is interpreted as fractions of alternating numerators of 3 and 9
 Answer2:
 --------
 If fractions in above series are rewritten as 3/5, 3/5=6/10, 9/20, 3/10=12/40, 15/80 (numerator is 3+3n and denominator is 5*2^n) next term in series is 18/160=9/80 [Option c]
+
+------------------------------------------------------------------------------------------------------------------------------
+(PUZZLE) If 7*5=3042, 6*4 = 2436, 2*3 = 1812, then 8*9 = ? (question from UPSC Civil Services - Mental ability) - 7 March 2026
+Options: a) 4854 b) 5448 c) 5478 d) 4248
+------------------------------------------------------------------------------------------------------------------------------
+Above is a pattern decipherment problem - each multiplicand is multiplied by 6 and concatenated in reverse order:
+	7*5=3042 (7*6=42,5*6=30)
+	6*4=2436 (6*6=36,4*6=24)
+	2*3=1812 (2*6=12,3*6=18)
+	8*9=5448 (8*6=48,9*6=54) - Correct answer is option (b)

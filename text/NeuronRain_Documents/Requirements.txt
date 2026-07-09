@@ -58,7 +58,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 54. Python transaction 2.1.2
 55. OpenSSL development libraries for C++
 56. DictDiffer - https://github.com/inveniosoftware/dictdiffer
-57. Python 2.7.x, 3.4, 3.6, 3.7.5, 3.8.5, 3.9.0, 3.11, 3.12
+57. Python 2.7.x, 3.4, 3.6, 3.7.5, 3.8.5, 3.9.0, 3.11, 3.12, 3.13
 58. Facebook SDK for Python 3.4
 59. Empath (https://arxiv.org/pdf/1602.06979.pdf)
 60. Scikit-Learn
@@ -189,7 +189,7 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 185. bsedata - https://bsedata.readthedocs.io/en/latest/
 186. PyKAN - https://kindxiaoming.github.io/pykan/kan.html
 187. PySINDy - https://pysindy.readthedocs.io/
-188. OpenAI (optional) - https://github.com/openai/openai-python
+188. OpenAI - https://github.com/openai/openai-python - for GPT-5.4 - requires paid subscription 
 189. httpx - dependency for many other tools - https://www.python-httpx.org/
 190. PySynth - https://mdoege.github.io/PySynth/ 
 191. FlightRadar24API - https://pypi.org/project/FlightRadarAPI/
@@ -220,3 +220,4 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 216. Google Ngrams V3 dataset - https://ngrams.dev/
 217. requests - https://requests.readthedocs.io/en/latest/
 218. DeepDiff - https://zepworks.com/deepdiff/current/
+219. Scikit-FDA - https://fda.readthedocs.io/en/latest/index.html

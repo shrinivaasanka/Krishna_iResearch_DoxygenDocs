@@ -1,0 +1,28 @@
+/*
+##############################################################################################################################################
+#<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+###############################################################################################################################################
+#Course Authored By:
+#-----------------------------------------------------------------------------------------------------------
+#K.Srinivasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+#Personal website(research): https://acadpdrafts.readthedocs.io/en/latest/
+#Krishna iResearch FOSS: http://krishna-iresearch.org/
+#-----------------------------------------------------------------------------------------------------------
+##############################################################################################################################################
+*/
+
+-------------------------------------------------------------------------------------------------
+1. Textbook Knowledge Graphs from OpenAI prompt created for some concepts from mathematics and physics - could be a classroom teaching assistant - 27 May 2026
+-------------------------------------------------------------------------------------------------
+New python source file AITextbookKnowledgeGraph.py has been added to NeuronRain Grafit repositories that queries OpenAI gpt-5.5 for a user defined concept from textbook and creates a knowledge graph for the concept in DOT format and renders it as image file by prompt query template:
+    query="Create a knowledge graph for "+concept+" in DOT format and render it"
+Following 3 queries were posed to gpt-5.5 on concepts from mathematics and physics textbooks:
+    ai_textbook_knowledgegraph(concept="Michelsen Morley Interferometer")
+    ai_textbook_knowledgegraph(concept="Berry-Esseen Central Limit Theorem")
+    ai_textbook_knowledgegraph(concept="Proof of Lorentz transformation and Special relativity")
+and text format of knowledge graphs are logged to testlogs/AITextbookKnowledgeGraph.log.27May2026 and following are images rendered for above concept queries by ChatGPT prompt that could assist as a teaching slide in classroom:
+	testlogs/michelson_morley_knowledge_graph.png
+	testlogs/berry_esseen_knowledge_graph.png
+	testlogs/lorentz_special_relativity_knowledge_graph.png
+

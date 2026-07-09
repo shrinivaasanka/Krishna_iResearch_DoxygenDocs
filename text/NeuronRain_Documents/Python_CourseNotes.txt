@@ -571,3 +571,19 @@ Logs logs/DynamicDictUpdate.log.9October2024 show contents of dictionaries D,D1,
 Circular Buffer implementation over python arrays and printing them by negative slicing operator - 15 May 2025
 ---------------------------------------------------------------------------------------------------------------------------
 New code example code/CircularBuffer.py implements a CircularBuffer class wrapping a regular python array passed on to it and defines functions circular_buffer_get() and circular_buffer_set() for accessing the elements of the buffer by arbitrary indices which are internally mapped to array indices by modulus operator %. Elements of the ring buffer are printed by circular_buffer_print()  which uses the negative slicing operator [-<index>:] in a loop returning last <index> elements of the buffer iterating for range over arbitrary index. Logs code/logs/CircularBuffer.log.15May2025 show the get,set and print functions of ring buffer. 
+
+-----------------------------------------------------------------------------------------------------------------------
+Augmented assignment += over array objects - 11 February 2026
+-----------------------------------------------------------------------------------------------------------------------
+New code example code/AugmentedAssigment.py demonstrates how normal assignment = differs from augmented assignment operator += as far as python list objects are concerned, Logs code/logs/AugmentedAssignment.log.11February2026 demonstrate how = operator creates memory copies for two variables x1 and y1 and += operator shares memory between x2 and y2.  
+
+------------------------------------------------------------------------------------------------------------------------------
+1672. (THEORY and FEATURE) OS Scheduling and Hashing Dynamic Sets - Python 3.13 implementation of Survival Index Deadline Scheduler - SCHED_DEADLINE chrt timeout arguments from os.environ() shell variables - related to 751,1354,1357,1477 and all sections on Set partitions, Computational geometry, Program analysis/Software analytics/Scheduler Analytics among other topics in NeuronRain Theory Drafts, Sun Microsystems-Oracle-Global Analytics Patent Disclosures and Timeout implementations, Machine Learning enabled VIRGO Linux Kernel for Massive Datasets on Cloud - 25 June 2026 
+------------------------------------------------------------------------------------------------------------------------------
+1672.1 course_material/Programming/Python/code/SurvivalIndexScheduler.py has been updated to print timedout processes when countdown survival index clockticks reach 0. Instead of print, the timedout processes could be killed in userspace which simulates a timeout scheduler in userspace.
+1672.2 Exception is printed without continue to enforce virgo_kernel_analytics.conf write always even in exceptions. Scheduler policy is printed (Timeslice=TS or Deadline=DLN)
+1672.3 Three shell variables DEADLINE,RUNTIME and PERIOD are read from os.environ() instead of hardcoded chrt SCHED_DEADLINE EDF values earlier.
+1672.4 Switch interval has been made finer to 0.01 to enforce frequent thread context switches.
+1672.5 AsyncIO code has been commented as earlier due to inconsistencies in asynchronous execution.
+1672.6 code/virgo_kernel_analytics.conf which is read by VIRGO Linux kernel_analytics driver shows lot of timeslice(TS) processes and only few deadline(DLN) processes though all of them were spawned by chrt SCHED_DEADLINE policy. 
+1672.7 Excerpts of logs are written to code/logs/SurvivalIndexScheduler.log.25June2026

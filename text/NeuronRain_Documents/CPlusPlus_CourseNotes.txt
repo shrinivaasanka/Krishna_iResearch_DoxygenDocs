@@ -3,11 +3,12 @@
 #<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
 ###############################################################################################################################################
 #Course Authored By:
-#-----------------------------------------------------------------------------------------------------------
-#K.Srinivasan
-#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
-#Personal website(research): https://sites.google.com/site/kuja27/
-#-----------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------------
+# K.Srinivasan
+# Krishna iResearch - https://www.krishna-iresearch.org/
+# NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
+# Personal website(research): https://acadpdrafts.readthedocs.io/en/latest/ 
+#-------------------------------------------------------------------------------------------------
 ##############################################################################################################################################
 */
 
@@ -670,3 +671,135 @@ Product Factor1 * Factor2 of 66721 and 67222:4485119062
 References:
 -----------
 6. Dynamically-resizable, fixed capacity, inplace contiguous array - inplace_vector - C++-2026 - https://en.cppreference.com/w/cpp/container/inplace_vector 
+
+----------------------------------------------------------------------------------------------------------------------------
+1653. (THEORY and FEATURE) Brute Force Factorization in C++ - related to 668,1383,1384,1385,1519,1593,1622,1647,1652 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition, Spark-Python and Rust Rayon computational geometric parallel planar point location factorization  - 5 March 2026 
+----------------------------------------------------------------------------------------------------------------------------
+1653.1 Pursuant to section 1652 on AI review of NeuronRain Computational Geometric Parallel Planar Point Location Factorization algorithm implemented in Spark-Python and Rust Rayon, a comparison is made between factorization of same integer by (*) bruteforce factor search by a C++ code fragment and (*) computational geometric parallel planar point location Rust Rayon implementation in Grafit/course_material/Programming/Rust/rasterization
+1653.2 Objective of the comparison is to distinguish the (*) Bruteforce sequential factor search over real 2D plane and (*) Computational geometric parallel planar point location binary search over a rasterized integer 2D grid - Rasterization of hyperbolic arc decreases the factor search space by lifting a hyperbola on 2D real plane to a planar graph subdivision on 2D integer plane formed from pixellated rectangular faces. Mere parallelizing sequential loop in C++/code/bruteforcefactorization.cpp wouldn't solve the real plane search problem unless hyperbola gets rasterized to integer pixel values. Only rasterization would enable allocation of (logN)^k sorted tile segments to N/(logN)^k parallel RAMs for binary or interpolation search that qualifies for complexity class NC.
+1653.3 New source file C++/code/bruteforcefactorization.cpp implements a naive bruteforce sequential factor search loop that checks if N/x is an integer where x ranges from 1 to N.
+1653.4 Decimal part of N/x is checked by std::fmod() function. 
+1653.5 17-bits Integer 209999 is factorized by C++/code/bruteforcefactorization.cpp and Rust/rasterization/src/main.rs and following are the runtimes (2.473 seconds for the former and 31.92 milliseconds for the latter which is roughly 77x speedup):
+--------------------------------------------------------------------------
+C++/code/bruteforcefactorization.cpp
+--------------------------------------------------------------------------
+$time code/bruteforcefactorization 209999|grep Factors
+Factors of 209999 are 209999 and 1
+Factors of 209999 are 563 and 373
+Factors of 209999 are 373 and 563
+Factors of 209999 are 1 and 209999
+
+real	0m2.755s
+user	0m1.824s
+sys	0m2.473s
+
+---------------------------------------------------------------------------
+Rust/rasterization/src/main.rs
+---------------------------------------------------------------------------
+excerpts from Rust/rasterization/src/logs/rasterization.log.27February2026 - Rust Rayon factorization time for 209999:
+---------------------------------------------------------------------------
+Factorization of 209999 began in (nanoseconds): SystemTime {
+    tv_sec: 1772183338,
+    tv_nsec: 318987821,
+}
+Size of integer to be factorized (in bits): 17
+Factor point located : 209999 , 1 at SystemTime {
+    tv_sec: 1772183338,
+    tv_nsec: 319218513,
+} nanoseconds
+Factor point located : 563 , 373 at SystemTime {
+    tv_sec: 1772183338,
+    tv_nsec: 321773734,
+} nanoseconds
+Factor point located : 373 , 563 at SystemTime {
+    tv_sec: 1772183338,
+    tv_nsec: 321948835,
+} nanoseconds
+Parallel Rasterization phase of factoring 209999 was completed in (nanoseconds): 31.926884ms
+Factorization of 209999 was completed in (nanoseconds): 32059666
+
+References:
+-----------
+1653.6 Aleph-0 (N0), Aleph-1 (N1) and Continuum hypothesis - https://en.wikipedia.org/wiki/Aleph_number - There are two kinds of infinities - countable infinity N0 (e.g natural integers) and uncountable infinity N1 (e.g real numbers). Continuum hypothesis postulates that 2^N0 = N1. Implications for earlier hyperbolic arc rasterization are obvious: Bruteforce factor search space of N1=2^N0 for real 2D plane gets exponentially shrunk to N0 for rasterized integer 2D plane which evidences the change in computational geometric factoring complexity classification from exponential to polynomial. In other words, any search based factorization algorithm that finds factors in polynomial time must exploit earlier 2 levels of infinities.
+1653.7 Claude AI explanation on input size distinction between sequential (logN) and parallel (N) algorithms - https://sourceforge.net/u/ka_shrinivaasan/Grafit/ci/0b991982a2fdffea57d02f589e84ffce1a620528/tree/course_material/Programming/Rust/rasterization/src/logs/Claude%20AI%20explanation%20on%20Input%20size%20distinction%20in%20sequential%20and%20parallel%20algorithms%20-%20N%20and%20logN.pdf - A simpler explanation for input size conflict between sequential and parallel algorithms - rephrasal of Claude AI explanation: LogN is the input size standard for any sequential factorization algorithm running on single processor. On the contrary, input size N for a parallel factorization algorithm is internally divided into N/LogN slices of length LogN on N/LogN parallel RAM processors which again is LogN input size per PRAM (same as sequential version) though cumulatively input size is N for all processors. So what appears to be a confusion superficially is not a conflict at all but an inevitability of parallelism. 
+
+----------------------------------------------------------------------------------------------------------------------------
+1654. (THEORY and FEATURE) Brute Force Factorization in C++ - Trial division - related to 668,1383,1384,1385,1519,1593,1622,1647,1652,1653 and all sections on Integer Factorization,Computational Geometry,Set Partitions-to-Tile Cover reduction by Lagranges Four Square Theorem and ILP,Primality Testing,RSA Semiprimes,Almost-Square Bounding Boxes in Large Scale Visual Recognition,Pell's Equation,Brahmagupta's Chakravala,Approximate Factoring by Newton-Raphson Rayshooting queries,Algebraic Geometry of Computational Geometric Factorization,Quantum computation and Derandomization of BQP Factorization by Condorcet Jury Theorem Majority-BQPVoterSAT boolean composition, Spark-Python and Rust Rayon computational geometric parallel planar point location factorization - 11 March 2026 
+----------------------------------------------------------------------------------------------------------------------------
+1654.1 bruteforcefactorization.cpp has been changed to include <chrono> standard library. 
+1654.2 main() has been refactored to invoke 2 factorization subroutines instead of 1 earlier - (1) factorization1() - Exhaustive search of real plane for factor points which is the most expensive bruteforce algorithm (2) factorization2() - Recursive trial division which is also a bruteforce factor search but integer is divided recursively after finding each factor optimizing the exhaustive search.
+1654.3 Runtimes of both functions factorization1() and factorization2() are measured by std::chrono::high_resolution_clock in nanoseconds.
+1654.4 Factorization of integer 209999 is timed for both factorizations and factors-runtimes are at code/logs/bruteforcefactorization.log.11March2026  
+1654.5 As could be inferred from logs, trial division greatly reduced execution time and is often used for integers below 100 bits. Computational geometric parallel point location factorization implemented in Spark-Python and Rust Rayon which sieves or lifts the real number field into principal ideals of integer ring through rasterization could as well benefit from trial division i.e as factor points (p,N/p) are located for N, hyperbola for N is discarded and point location resumes on new rasterized hyperbola for N/p ... ad infinitum. 
+1654.6 Runtime excerpts from code/logs/bruteforcefactorization.log.11March2026:
+1.Bruteforce factorization1() - exhaustive real plane search -  runtime in nanoseconds:3702292436
+2.Bruteforce factorization2() - recursive trial division - runtime in nanoseconds:1121587
+
+--------------------------------------------------------------------------------------------
+1655. (THEORY and FEATURE) Ramanujan and Chudnovsky brothers series for Pi - related to 473,582,1625 and all sections on Discrete version of Pythagoas theorem, Bresenham's Line Algorithm and some theoretical conflicts involving Special relativity and Planck scale in Quantum mechanics, rasterization - 17 March 2026 
+--------------------------------------------------------------------------------------------
+C++ code fragment code/ramanujan_pi.cpp implements 2 functions - ramanujan_pi() and chudnovsky_pi() - respectively to compute (*) Ramanujan series for approximating Pi and (*) its variant by Chudnovsky brothers that is used for benchmarking Pi to trillions of decimal digits. Logs code/logs/ramanujan_pi.log.17March2026 contain first 100 iterations for Pi value approximated to 3.14159 by both functions. Accurate value of Pi is essential for equations from multiple disciplines that depend on it (e.g ubiquitous area,volume measurements).
+
+References:
+----------
+1655.1.Approximations of Pi - Complexity of various algorithms - From Mahabharata,Archimedes,Aryabhatta to Ramanujan,Chudnovsky brothers - https://en.wikipedia.org/wiki/Approximations_of_pi - ".... On 11 December 2025, the record returned to the StorageReview Team, after they computed π to 314 trillion digits, again using y-cruncher..."
+1655.2.A PROOF OF RAMANUJAN’S CLASSIC π FORMULA - https://arxiv.org/pdf/2411.15803v1
+1655.3.ON THE ELEGANCE OF RAMANUJAN’S SERIES FOR 1/π - https://arxiv.org/pdf/2104.12412
+1655.4.Modular equations and approximations to π - [Srinivasa Ramanujan] - Quarterly Journal of Mathematics, XLV, 1914, 350 – 372 - https://ramanujan.sirinudi.org/Volumes/published/ram06.pdf
+
+--------------------------------------------------------------------------------------------
+1656.(THEORY and FEATURE) Discrete version of Pi computed over rasterized circle on 2D plane - related to 473,582,1625 and all sections on Discrete version of Pythagoas theorem, Bresenham's Line Algorithm and some theoretical conflicts involving Special relativity and Planck scale in Quantum mechanics, rasterization - 19 March 2026 
+--------------------------------------------------------------------------------------------
+1656.1. course_material/Programming/C++/code/ramanujan_pi.cpp has been updated to implement a new
+function rasterization_pi() which tries to compute Pi in a non-conventional manner from rasterization of a circle (on an experimental basis) which is a discretized circle on an integer 2D plane.
+1656.2. Rationale for computing Pi from circle raster is computational geometric and all conic sections (including circles) visualized in computer graphics-VFX are rasterized - Example - Bresenham midpoint circle drawing algorithm raster graphics in https://en.wikipedia.org/wiki/Midpoint_circle_algorithm#/media/File:Midpoint_circle_algorithm_animation_(radius_23).gif 
+1656.3. Instead of Bresenham, following equation from Calculus is used to compute circle raster:
+	Circle equation: x^2 + y^2 = r^2
+	(x+deltax)^2 + (y-deltay)^2 = r^2
+=> deltax^2 + 2*x*deltax + deltay^2 - 2*y*deltay = 0
+where deltax is side length of each pixel square on raster
+
+1656.4.For deltax=1:
+-------------
+	deltay^2 - 2*y*deltay + 2*x + 1 = 0
+=> deltay = sqrt(r^2 - x^2) +/- sqrt(r^2 - x^2 - 2*x - 1)
+=> Summation of deltay must equal 1/4-th of circle perimeter = Pi*r/2:
+Sigma_x=0_to_r(deltay) = Sigma_x=0_to_r(sqrt(r^2 - x^2) +/- sqrt(r^2 - x^2 - 2*x - 1)) = Pi*r/2
+=> Pi = 2/r * Sigma_x=0_to_r(sqrt(r^2 - x^2) +/- sqrt(r^2 - x^2 - 2*x - 1))
+
+1656.5. Earlier logic is implemented in function rasterization_pi(long double radius) and code/logs/ramanujan_pi.log.19March2026 contain discrete Pi value computed for circles of radius upto 100000. Value of Pi is 2 (as expected) in discrete version as against real version of Pi (3.14....). Side of each pixel square deltax tends infinitesimally to 0 when circle on integer raster plane converges to a circle on real plane.
+1656.6. Circle rasterization is connected to Hyperbola rasterization which is central to Computational Geometric Parallel Planar Point Location Factorization - through following relation between circle equation and factorization:
+	x^2 + y^2 = r^2 = (x+y)^2-2xy = r^2
+i.e sum (x+y) and product (xy) of factors x and y of an RSA semiprime integer N=xy indirectly constitute a circle of radius r. 
+1656.7 On a related note Elliptic Curve Cryptography operates on an ellipse y^2 = x^3 + a*x + b over finite field than real plane - https://en.wikipedia.org/wiki/Elliptic-curve_cryptography 
+1656.8 There exists another weird relationship between venerated Goldbach conjecture and earlier identity (x+y)^2 - 2xy = r^2 subject to few assumptions (https://en.wikipedia.org/wiki/Goldbach's_conjecture - which states "every natural integer greater than 2 is sum of two primes"): In rephrasal of earlier circle identity sqrt(r^2 + 2xy) = x + y, sqrt(r^2 + 2xy) ranges over entire set of natural integers for prime values of x and y if Goldbach conjecture is true. 
+
+-------------------------------------------------------------------------------------------------
+(CODE PUZZLE) LeetCode 2 Sum problem - Implemented as a greedy promise subset sum problem in C++ - 15 May 2026
+-------------------------------------------------------------------------------------------------
+1. LeetCode problem https://leetcode.com/problems/two-sum/description/ has been implemented as an approximation of a harder subset sum problem which is NP-complete.
+2. Code example code/leetcode_subsetsum.cpp implements a C++ class that finds all indices in a vector of integers that sum to a predefined integer by a greedy algorithm - As original subset problem is NP-complete, C++ code example pre-sorts the integer vector and finds only a promise subset of indices in the sorted vector that sum to desired number. It does not compute all possible solutions but only a promise subset. 
+3. Logs at code/logs/leetcode_subsetsum.log.15May2026 demonstrate an example subset of array {10,5,8,7,6,1} and finds all indices that sum up to 27:
+Indices summing up to 27 (=1+5+6+7+8) in unsorted array
+integer:1 at index 5
+integer:5 at index 1
+integer:6 at index 4
+integer:7 at index 3
+integer:8 at index 2
+
+References:
+-----------
+4. Subset sum problem - https://en.wikipedia.org/wiki/Subset_sum_problem - "... In its most general formulation, there is a multiset S of integers and a target-sum T, and the question is to decide whether any subset of the integers sum to precisely T. The problem is known to be NP-complete. ..." 
+5. Promise problem - https://en.wikipedia.org/wiki/Promise_problem - "... a promise problem is a generalization of a decision problem where the input is promised to belong to a particular subset of all possible inputs.[1] Unlike decision problems, the yes instances (the inputs for which an algorithm must return yes) and no instances do not exhaust the set of all inputs ..."
+
+-------------------------------------------------------------------------------------------------
+(CODE PUZZLE) LeetCode Sum of integers in linked list - 7 July 2026
+-------------------------------------------------------------------------------------------------
+1. LeetCode problem https://leetcode.com/problems/add-two-numbers/description/ for adding two integers whose digits are stored in linked list has been implemented in code fragment code/sumofintegers.cpp 
+2. Two integers are read from stdin digit-by-digit and stored in vectors. Tricky part is the order reversal of digits (right-to-left) in the integers during summation and carry digit propagation alongwith use of % and / operators in place of divmod to get quotient and remainder after each digit sum. Integers read from stdin are delimited by -1 explicitly.
+3. Logs code/logs/sumofintegers.log.7July2026 demonstrate summation of 2 pairs of numbers: (1) Two integers 123456 and 234567 are added to get 0358023 (2) Two integers 123456789 and 987654321 are added to get 1111111110 
+
+References:
+----------
+4. Iterated addition is in NC1 - https://pages.cs.wisc.edu/~dieter/Courses/2010s-CS710/Scribes/PDF/lecture10.pdf
+5. Parallel Prefix Adders in latest CPUs - https://web.stanford.edu/class/archive/ee/ee371/ee371.1066/handouts/harris03.pdf - Brent-Kung, Sklansky, Kogge-Stone parallel prefix networks 

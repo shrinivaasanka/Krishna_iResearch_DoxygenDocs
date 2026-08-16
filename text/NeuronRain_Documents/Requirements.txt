@@ -221,3 +221,6 @@ NeuronRain Licensing is explained in FAQ: http://neuronrain-documentation.readth
 217. requests - https://requests.readthedocs.io/en/latest/
 218. DeepDiff - https://zepworks.com/deepdiff/current/
 219. Scikit-FDA - https://fda.readthedocs.io/en/latest/index.html
+220. LangChain for OpenAI - https://docs.langchain.com/oss/python/deepagents/rag - For Retrieval Augmented Generation with OpenAI Python - for automated examination coaching in Grafit repositories 
+221. OpenSky API - https://openskynetwork.github.io/opensky-api/python.html
+222. KG-Gen - https://github.com/stair-lab/kg-gen - For RAG-OpenAI - AI classroom teaching and examination coaching - installation of KG-Gen is complex and requires tmpfs resize through commandline e.g mount -o remount,size=4G /tmp

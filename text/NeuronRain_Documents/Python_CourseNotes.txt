@@ -587,3 +587,27 @@ New code example code/AugmentedAssigment.py demonstrates how normal assignment =
 1672.5 AsyncIO code has been commented as earlier due to inconsistencies in asynchronous execution.
 1672.6 code/virgo_kernel_analytics.conf which is read by VIRGO Linux kernel_analytics driver shows lot of timeslice(TS) processes and only few deadline(DLN) processes though all of them were spawned by chrt SCHED_DEADLINE policy. 
 1672.7 Excerpts of logs are written to code/logs/SurvivalIndexScheduler.log.25June2026
+
+--------------------------------------------------------------------------------------------------
+1680. (THEORY and FEATURE) SymPy balanced partitions - usecase that simulates a loadbalancer in CPU scheduling by almost-fair distribution of load - related to 889,890,1191,619,770,906,911,771,1192,1443,1444,1445 and all sections on Program Analysis, AsFer-USBmd-VIRGO-KingCobra FTrace kernel callgraph analysis - Valgrind-Callgrind-KCacheGrind-Flamegraph userspace callgraph analysis, SATURN control flow analysis of VIRGO linux kernel, Software Analytics, Pandemic model of Botnet-Defense adversarial Game theoretic security, Cybercrime analytics, Anti-Malware,Anti-Ransomware,Anti-Theft and Anti-Plagiarism tools, Filesystem Prefetch, KML, LAKE - 6 August 2026
+--------------------------------------------------------------------------------------------------
+1680.1 New script code/BalancedPartitions.py implements a balanced number partitioning approximation algorithm by SymPy that finds the set partitions which have pairwise near-equal subset sums by majority and consensus. Loadbalancing in CPU scheduling often requires finding partitions that are of almost-fair or near-equal subset sums of job runtimes. Exact version is NP-Hard. Sections 889,890,1445 of VIRGO64 repositories implement few related heuristics for loadbalancing.
+1680.2 Function def balanced_partitions(listofitems=[],maxdiff=2,bymajorityvote=True) iterates through set of multiset_partitions() of a list and checks if the parts in partition are pairwise sum-balanced (equal or near-equal) by is_balanced(). 
+1680.3 Function def is_balanced(partition,maxdiff,bymajorityvote) compares each part in a partition pairwise and increments a True-False dictionary of votes depending on if absolute difference of sums for each part-pair are less or greater than maxdiff argument. Depending on boolean value of bymajorityvote, either (*) majority of True-False votes (most parts are balanced) or (*) only zero False votes (all parts are balanced) are considered as criteria for balanced partitions. 
+1680.4 Two invocations of balanced_partitions() for an example list of process runtimes and maximum difference of 2 below create a classification of balanced-unbalanced partitions in logs/BalancedPartitions.log.6August2026 by commandline - python3.9 BalancedPartitions.py 2>&1 > logs/BalancedPartitions.log.6August2026:
+    print("---------------------------------------------------")
+    print("Balanced partitions by roundrobin majority vote:")
+    print("---------------------------------------------------")
+    balanced_partitions([10,1,3,4,7,2,5],2,bymajorityvote=True)
+    print("---------------------------------------------------")
+    print("Balanced partitions by consensus:")
+    print("---------------------------------------------------")
+    balanced_partitions([10,1,3,4,7,2,5],2,bymajorityvote=False)
+1680.5 For example following are balanced and unbalanced partitions for eariler CPU runtimes found for maximum partwise sum difference 2 - from logs/BalancedPartitions.log.6August2026:
+----------------------------------------------------------
+partition  [[1, 2, 3, 4, 5], [7, 10]]  has partitionbalances: defaultdict(<class 'int'>, {True: 2, False: 0})
+2-part Balanced partition: [[1, 2, 3, 4, 5], [7, 10]]
+----------------------------------------------------------
+partition  [[1, 2, 3, 4, 5], [7], [10]]  has partitionbalances: defaultdict(<class 'int'>, {True: 0, False: 6})
+Not a Balanced partition: [[1, 2, 3, 4, 5], [7], [10]]
+----------------------------------------------------------
